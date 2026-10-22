@@ -184,8 +184,8 @@ importers:
         specifier: 5.1.0
         version: 5.1.0
       webext-redux:
-        specifier: 2.1.9
-        version: 2.1.9(redux@4.1.0)
+        specifier: 4.0.0
+        version: 4.0.0(redux@4.1.0)
     devDependencies:
       '@commander-js/extra-typings':
         specifier: 14.0.0
@@ -698,7 +698,7 @@ packages:
     version: 1.0.103
 
   '@brave/leo@https://codeload.github.com/brave/leo/tar.gz/53850d6d6b12ea0e675dba71c8460f51b22bf90a':
-    resolution: {gitHosted: true, tarball: https://codeload.github.com/brave/leo/tar.gz/53850d6d6b12ea0e675dba71c8460f51b22bf90a}
+    resolution: {gitHosted: true, integrity: sha512-nK93PUqi0kdzvcwEiho5mpdFraR9uOJYBWrcG0qJIwKsGxJszpVbIhLqHECA4O8BrqaX39WVrJXDu/ZwC6D+rw==, tarball: https://codeload.github.com/brave/leo/tar.gz/53850d6d6b12ea0e675dba71c8460f51b22bf90a}
     version: 0.0.1
     hasBin: true
     peerDependencies:
@@ -7865,10 +7865,10 @@ packages:
   wbuf@1.7.3:
     resolution: {integrity: sha512-O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==}
 
-  webext-redux@2.1.9:
-    resolution: {integrity: sha512-z7frkQ/avFgnMxUH6Q955hU8SDsHT9Zlq9az3OpY891RXw9nKODOTnUhNo9ZAlDFUPHhX2A+z6j74BCaYwEsfQ==}
+  webext-redux@4.0.0:
+    resolution: {integrity: sha512-pMyU0mWRz5umC5ISGG4H7src+bwgJUw3lYEtPm5gvJZILC2/ZrEE5mtqi3caSifet684kMtPse0uVyK/9bZMuA==}
     peerDependencies:
-      redux: '>= 3 <= 4'
+      redux: '>= 3 <= 5'
 
   webidl-conversions@3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
@@ -11104,7 +11104,7 @@ snapshots:
 
   '@typescript-eslint/project-service@8.54.0(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.65.0(typescript@5.9.3)
+      '@typescript-eslint/tsconfig-utils': 8.54.0(typescript@5.9.3)
       '@typescript-eslint/types': 8.65.0
       debug: 4.4.3(supports-color@8.1.1)
       typescript: 5.9.3
@@ -17327,7 +17327,7 @@ snapshots:
     dependencies:
       minimalistic-assert: 1.0.1
 
-  webext-redux@2.1.9(redux@4.1.0):
+  webext-redux@4.0.0(redux@4.1.0):
     dependencies:
       lodash.assignin: 4.2.0
       lodash.clonedeep: 4.5.0
