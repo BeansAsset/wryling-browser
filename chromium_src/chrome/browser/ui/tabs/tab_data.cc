@@ -9,6 +9,7 @@
 
 #include "base/check.h"
 #include "base/feature_list.h"
+#include "chrome/app/vector_icons/vector_icons.h"
 #include "brave/browser/ui/tabs/shared_pinned_tab_service.h"
 #include "brave/browser/ui/tabs/shared_pinned_tab_service_factory.h"
 #include "brave/components/constants/webui_url_constants.h"
@@ -93,7 +94,12 @@ void ApplyBraveTabDataOverrides(tabs::TabInterface* tab, tabs::TabData& data) {
 
   // Override favicon theming for some WebUIs.
   if (url.SchemeIs(content::kChromeUIScheme)) {
-    if (url.host() == chrome::kChromeUINewTabHost) {
+    if (url.host() == chrome::kChromeUINewTabHost && url.query() == "home") {
+      // Wryling: a space's Home tab shows a house, in the tab's text colour.
+      data.favicon = ui::ImageModel::FromVectorIcon(
+          kHomeIcon, kColorTabForegroundActiveFrameActive, 16);
+      data.should_themify_favicon = false;
+    } else if (url.host() == chrome::kChromeUINewTabHost) {
       if (bwi && !IsChromeURLOverridden(url, bwi->GetProfile())) {
         data.favicon = GetThemedNTPFavicon(contents);
         data.should_themify_favicon = false;

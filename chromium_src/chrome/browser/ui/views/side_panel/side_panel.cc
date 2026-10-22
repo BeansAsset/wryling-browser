@@ -17,6 +17,13 @@
 #include "ui/views/border.h"
 #include "ui/views/painter.h"
 
+#include "build/build_config.h"
+#if BUILDFLAG(IS_MAC)
+#include "brave/browser/ui/views/frame/vertical_tabs/vertical_tab_strip_region_view.h"
+#include "chrome/browser/ui/views/frame/top_container_view.h"
+#include "chrome/browser/ui/views/toolbar/toolbar_view.h"
+#endif
+
 // Rename upstream methods so we can provide thin wrappers that reapply
 // rounded-corner and border state.
 #define AddHeaderView AddHeaderView_ChromiumImpl
@@ -72,10 +79,10 @@ void UpdateContentWrapperChildCorners(views::View* content_parent_view,
 // (ui/views/view.cc) -- and placing itself directly *above* that:
 // `y = contents_bounds.y() - header_height`. So the top inset returned by
 // GetInsets() does double duty: it reserves `header_height` rows for the
-// header to back-fill by positioning itself within them, *plus* one more
-// outline gap so there's room left over above the header for the ring. The
+// header to back-fill by positioning itself within them, plus an outer
+// gap so there's room left over above the header for the ring. The
 // ring itself should wrap the header, not sit below it, so its own top needs
-// just the gap -- not `header_height` again. That's the entire reason the two
+// just the outer gap -- not `header_height` again. That's the entire reason the two
 // Insets diverge, and only on top: the other three sides are identical
 // because nothing else derives its position from GetContentsBounds() and
 // "borrows" part of the reserved margin the way the header does.
@@ -178,32 +185,36 @@ void SidePanel::UpdateBorder() {
   if (rounded_border_enabled_) {
     // Include outline thickness on window-facing edges to align with main
     // content.
-    constexpr int kWindowEdgeMargin = kRoundedCornersContentsViewMargin +
-                                      kRoundedCornersContentsOutlineThickness;
-
-    // Reserve an extra |kRoundedCornersContentsOutlineThickness| on the top and
-    // inner-side edges -- where the header/content would otherwise be flush
-    // with the panel edge
-    // -- so the outline painted below this has room to show on all four
-    // sides.
-    insets.set_top(insets.top() + kRoundedCornersContentsOutlineThickness);
-    insets.set_bottom(kWindowEdgeMargin);
+    int window_edge_margin = kRoundedCornersContentsViewMargin +
+                             kRoundedCornersContentsOutlineThickness;
+    int top_edge_margin = kRoundedCornersContentsOutlineThickness;
+#if BUILDFLAG(IS_MAC)
+    // A reparented toolbar marks Wryling's floating vertical sidebar. Match
+    // its page-card inset around the panel, including the header and outline.
+    if (browser_view_->toolbar() &&
+        browser_view_->toolbar()->parent() != browser_view_->top_container()) {
+      window_edge_margin = BraveVerticalTabStripRegionView::kWrylingPanelInset;
+      top_edge_margin = window_edge_margin;
+    }
+#endif
+    insets.set_top(insets.top() + top_edge_margin);
+    insets.set_bottom(window_edge_margin);
     if (is_sidebar_leading) {
-      insets.set_left(kWindowEdgeMargin);
+      insets.set_left(window_edge_margin);
       insets.set_right(kRoundedCornersContentsOutlineThickness);
     } else {
-      insets.set_right(kWindowEdgeMargin);
+      insets.set_right(window_edge_margin);
       insets.set_left(kRoundedCornersContentsOutlineThickness);
     }
 
     // Unlike |insets| (used for content layout), the outline itself should
     // wrap the header and content together as one shape, so its top inset
-    // never includes the header's height -- only the slim outline gap. The
+    // never includes the header's height -- only the outer gap. The
     // other three sides are copied unchanged from |insets|: only the top edge
     // has a header "borrowing" part of the reserved space (see the
     // SidePanelOutlineBorder class comment above for why).
     gfx::Insets outline_insets = insets;
-    outline_insets.set_top(kRoundedCornersContentsOutlineThickness);
+    outline_insets.set_top(top_edge_margin);
 
     ui::ColorProvider* color_provider = GetColorProvider();
     CHECK(color_provider);

@@ -9,28 +9,40 @@ import {
 } from 'chrome://resources/brave/polymer_overriding.js'
 
 import {html} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js'
+import {CrChipElement} from 'chrome://resources/cr_elements/cr_chip/cr_chip.js'
+import {css} from 'chrome://resources/lit/v3_0/lit.rollup.js'
+import {injectStyle} from 'chrome://resources/brave/lit_overriding.js'
+
+injectStyle(CrChipElement, css`
+  :host-context(settings-clear-browsing-data-time-picker) button[selected] {
+    background: var(--wry-accent) !important;
+    color: var(--wry-on-accent) !important;
+  }
+`)
 
 RegisterStyleOverride(
   'settings-clear-browsing-data-time-picker',
   html`
     <style>
       :host {
+        --wry-button-padding: var(--wry-space-2);
         /* Dropdown menu styling */
         --cr-menu-border-radius: 8px;
 
-        --color-chip-background-selected: var(--leo-color-button-background);
-        --color-chip-foreground-selected: var(--leo-color-primary-20);
-        --color-chip-foreground: var(--leo-color-text-interactive);
-        --color-chip-icon: var(--leo-color-icon-interactive);
-        --color-chip-icon-selected: var(--leo-color-primary-20);
-        --color-chip-border: var(--leo-color-divider-interactive);
+        --color-chip-background-selected: var(--wry-accent);
+        --color-chip-foreground-selected: var(--wry-on-accent);
+        --color-chip-foreground: var(--wry-text);
+        --color-chip-icon: var(--wry-text-secondary);
+        --color-chip-icon-selected: var(--wry-on-accent);
+        --color-chip-border: var(--wry-stroke);
       }
 
       cr-chip {
-        --cr-chip-border-radius: var(--leo-radius-full);
-        --cr-chip-height: 38px;
+        --cr-chip-border-radius: var(--wry-radius-l);
+        --cr-chip-height: var(--wry-control-height);
+        --cr-chip-font-size: inherit;
         --cr-chip-padding-inline: var(--leo-spacing-l);
-        font: var(--leo-font-large-regular);
+        font: var(--wry-body);
       }
     </style>
   `

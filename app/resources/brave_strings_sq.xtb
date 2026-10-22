@@ -103,7 +103,7 @@ Disa funksione mund të mos ofrohen dhe ndryshimet në preferenca nuk do të ruh
 <translation id="2137162749895930932">Mbyll ekranin e përkthimit</translation>
 <translation id="5789330946301045610">Brave e bllokoi këtë shkarkim sepse sajti nuk po përdor një lidhje të sigurt dhe mund të ketë pasur ndërhyrje te skedari</translation>
 <translation id="2170098639895543546">Zgjidh çdo gjë në faqe</translation>
-<translation id="142389341645668510">Personalizo Brave</translation>
+<translation id="9094133852008074140">Personalizo Wryling</translation>
 <translation id="2174917724755363426">Instalimi nuk përfundoi. E konfirmon që dëshiron ta anulosh?</translation>
 <translation id="8745514854244955877">Brave - identifikimi në rrjet - <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">Gabim në kontrollin e përditësimeve: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -202,7 +202,7 @@ Disa funksione mund të mos ofrohen dhe ndryshimet në preferenca nuk do të ruh
 <translation id="3137969841538672700">Zvarrit për të kërkuar</translation>
 <translation id="8372436892102763334">Kjo skedë po përdor burime shtesë. Për të përmirësuar performancën tënde, lejo që Brave ta bëjë atë joaktive.</translation>
 <translation id="5949068186379578553">Për të ndarë ekranin, lejo regjistrimin e ekranit për Brave te "Cilësimet e sistemit"</translation>
-<translation id="4805806622840861220">Rinis Brave</translation>
+<translation id="2036272753168211127">Rinis Wryling</translation>
 <translation id="3161522574479303604">Të gjitha gjuhët</translation>
 <translation id="1742948938503172561">Personalizo profilin tënd të ri të Brave</translation>
 <translation id="2430807206104224491">Mund të vazhdosh të bisedosh me "Modalitetin e IA-së" pa ndërruar skedat. Për të filluar, identifikohu në Brave. Do të marrësh gjithashtu fjalëkalimet dhe më shumë në të gjitha pajisjet e tua.</translation>
@@ -236,7 +236,7 @@ Disa funksione mund të mos ofrohen dhe ndryshimet në preferenca nuk do të ruh
 <translation id="8981774130895723211">Për të ndarë ekranin, lejo regjistrimin e ekranit për Brave te "Cilësimet e sistemit".</translation>
 <translation id="2981961446160697133">Mbrojtja e përmirësuar e çaktivizon optimizimin e JavaScript për sajtet që Brave nuk i njeh</translation>
 <translation id="3597003331831379823">Ekzekutimi i konfigurimit me privilegje të larta dështoi. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Identifikohu në Brave</translation>
+<translation id="5451434122049588189">Identifikohu në Wryling</translation>
 <translation id="3066805437003400520">Të dhënat e shfletimit të këtij personi do të fshihen nga kjo pajisje. Për të rikuperuar të dhënat, identifikohu në Brave si <ph name="USER_EMAIL"/>.</translation>
 <translation id="3667616615096815454">Instalimi nuk mund të kryhej. Aplikacioni është i panjohur për serverin.</translation>
 <translation id="1128485277465085828">Përdor <ph name="BEGIN_LINK"/>frazën tënde të kalimit<ph name="END_LINK"/> për të enkriptuar të gjitha të dhënat e Brave në "Llogarinë tënde të Brave". Mënyrat e pagesës dhe adresat nga Brave Pay nuk do të enkriptohen. Historiku i shfletimit nga Brave nuk do të sinkronizohet.</translation>
@@ -279,7 +279,7 @@ Disa funksione mund të mos ofrohen dhe ndryshimet në preferenca nuk do të ruh
 <translation id="4055805654398742145">Men&amp;axheri i fjalëkalimeve</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Organizata jote e mbyll automatikisht Brave kur ai nuk përdoret për 1 minutë. Të dhënat e shfletimit do të fshihen. Kjo mund të përfshijë historikun, plotësimin automatik dhe shkarkimet.}other{Organizata jote e mbyll automatikisht Brave kur ai nuk përdoret për # minuta. Të dhënat e shfletimit do të fshihen. Kjo mund të përfshijë historikun, plotësimin automatik dhe shkarkimet.}}</translation>
 <translation id="5794951150713244901">Shko te faqja "Rreth Brave"</translation>
-<translation id="10925962326134232">Personalizo Brave për t'i dhënë një pamje të re shfletuesit tënd</translation>
+<translation id="908722199085381104">Personalizo Wryling për t'i dhënë një pamje të re shfletuesit tënd</translation>
 <translation id="6596295505984504022">Personalizo Brave</translation>
 <translation id="4148957013307229264">Po instalohet...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> - identifikimi në rrjet - Brave</translation>
@@ -381,7 +381,7 @@ Disa funksione mund të mos ofrohen dhe ndryshimet në preferenca nuk do të ruh
 <translation id="5154625106151193600">Mëso se pse Brave i bllokon disa skedarë</translation>
 <translation id="1786715389543715322">Po përditëson Brave (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Lejo identifikimin në Brave</translation>
-<translation id="5267531627648004734">Hiq nga Brave</translation>
+<translation id="6125790165673488794">Hiq nga Wryling</translation>
 <translation id="4620757336635063467">Zvogëlon performancën, por e bën Brave më rezistent ndaj sulmeve</translation>
 <translation id="239760341987199724">Caktoje Brave si shfletuesin tënd të parazgjedhur</translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Brave Beta</translation>
@@ -560,7 +560,7 @@ Faqeshënuesit e rinj nuk mund të ruhen në llogarinë tënde derisa të fshish
 <translation id="7024536598735240744">Gabim shpaketimi: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">Bëje Brave tëndin</translation>
 <translation id="7047386856539490735">A janë të dobishme këto rezultate?</translation>
-<translation id="1705567146636171298">Përditëso Brave</translation>
+<translation id="4469722898384489712">Përditëso Wryling</translation>
 <translation id="5499063270485366718">Nëse një imazh nuk ka një përshkrim të dobishëm, Brave do të përpiqet të të japë një përshkrim. Për të krijuar përshkrime, imazhet dërgohen te Brave.</translation>
 <translation id="1196733835766994012">Merr fuqinë e IA-së kur përdor aplikacionin e Brave në <ph name="DEVICE_TYPE"/></translation>
 <translation id="7166289504510860270">Merr fjalëkalimet, skedat etj. kur je në lëvizje me aplikacionin e Brave në telefonin tënd</translation>
@@ -764,7 +764,7 @@ Brave nuk është në gjendje të rikuperojë cilësimet e tua.</translation>
 <translation id="8965179855019347124">Përdor veglat më të mira të IA-së të Brave me aplikacionin e Brave në telefonin tënd</translation>
 <translation id="9049928023195059068">Identifikohu në Brave kur identifikohesh në shërbimet e tjera të Brave</translation>
 <translation id="4561046754724442504">Brave u mbyll automatikisht</translation>
-<translation id="5173820533850252773">Brave nuk është i përditësuar</translation>
+<translation id="1523936557081546133">Wryling nuk është i përditësuar</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave do të hapet përsëri për një orë}other{Brave do të hapet përsëri për # orë}}</translation>
 <translation id="9106236359747881194">Zgjidh tekstin për të kërkuar</translation>
 <translation id="5190991181158966940">Për të marrë përditësimet e ardhshme të Brave, do të të duhet Windows 10 ose një version i mëvonshëm. Ky kompjuter përdor Windows 8.1.</translation>
@@ -776,12 +776,12 @@ Brave nuk është në gjendje të rikuperojë cilësimet e tua.</translation>
 <translation id="2444257125841652328">Administratori i sistemit ka konfiguruar Brave që të hapë një shfletues alternativ për të pasur qasje te <ph name="TARGET_URL_HOSTNAME"/>.</translation>
 <translation id="7902365066753170041">Nise përsëri për të përditësuar &amp;Brave</translation>
 <translation id="3350544518197210895">Brave (mDNS-In)</translation>
-<translation id="296137235951584143">Personalizoje Brave</translation>
+<translation id="4578349172774307195">Personalizoje Wryling</translation>
 <translation id="7977787072794666032">Brave mund të mos funksionojë si duhet sepse nuk mbështetet më në Windows XP ose Windows Vista</translation>
 <translation id="8462937515915443472">Merr veçoritë më të mira të sigurisë të Brave kur je në lëvizje me Brave.</translation>
 <translation id="945522503751344254">Dërgo komente</translation>
 <translation id="4484434718272972655">Kush po e përdor Brave?</translation>
-<translation id="7173394303099002355">Merr sigurinë më të fortë të Brave</translation>
+<translation id="1158507424343802366">Merr sigurinë më të fortë të Wryling</translation>
 <translation id="983803489796659991">Instalimi dështoi sepse serveri i përditësimit nuk ka të dhëna të hash-it për aplikacionin.</translation>
 <translation id="8435446479956716379">Përdor Brave pa pasur llogari</translation>
 <translation id="8992261409816268381">Autorët e Brave</translation>
@@ -809,6 +809,6 @@ Brave nuk është në gjendje të rikuperojë cilësimet e tua.</translation>
               other {Mbrojtja e Avancuar kërkon që të rindizni Brave për të aplikuar një përditësim. # dritare Private nuk do të rihapen.}}</translation>
 <translation id="5749154344207139683">Na ndihmoni të përmirësojmë Private duke marrë këtë anketë që zgjat 1 minutë.</translation>
 <translation id="79269250264141507">Kur shkruani në shiritin e adresave apo kutinë e kërkimit, Brave dërgon atë që shkruani tek motori juaj i paracaktuar i kërkimit për të marrë sugjerime më të mira. Kjo është e çaktivizuar në Private.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
+<translation id="2090681901335274465">Wryling Private</translation>
 <translation id="5994282802285556682">Kur shfletoni në modalitetin Private, Brave do t'ju paralajmërojë para se të ngarkojë një sajt që përdor një lidhje të pasigurtë</translation>
 </translationbundle>

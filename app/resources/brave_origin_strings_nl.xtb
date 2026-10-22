@@ -103,7 +103,7 @@ Sommige functies zijn wellicht niet beschikbaar en wijzigingen in voorkeuren wor
 <translation id="2137162749895930932">Scherm voor vertalen sluiten</translation>
 <translation id="5789330946301045610">Brave heeft deze download geblokkeerd, omdat de site geen beveiligde verbinding gebruikt en er met het bestand kan zijn geknoeid</translation>
 <translation id="2170098639895543546">Iets op de pagina selecteren</translation>
-<translation id="142389341645668510">Brave aanpassen</translation>
+<translation id="9094133852008074140">Wryling aanpassen</translation>
 <translation id="2174917724755363426">Installatie niet afgerond. Weet je zeker dat je wilt annuleren?</translation>
 <translation id="8841019650931243995">Brave Origin - Inloggen bij netwerk - <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">Fout bij updaten: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -202,7 +202,7 @@ Sommige functies zijn wellicht niet beschikbaar en wijzigingen in voorkeuren wor
 <translation id="3137969841538672700">Sleep om te zoeken</translation>
 <translation id="8372436892102763334">Dit tabblad gebruikt extra resources. Sta toe dat Brave het inactief maakt om de prestaties te verbeteren.</translation>
 <translation id="5949068186379578553">Als je je scherm wilt delen, sta je schermopname voor Brave toe in Systeeminstellingen</translation>
-<translation id="4805806622840861220">Brave opnieuw starten</translation>
+<translation id="2036272753168211127">Wryling opnieuw starten</translation>
 <translation id="3161522574479303604">Alle talen</translation>
 <translation id="1742948938503172561">Je nieuwe Brave-profiel aanpassen</translation>
 <translation id="2430807206104224491">Je kunt blijven chatten met de AI-modus zonder van tabblad te wisselen. Log in bij Brave om aan de slag te gaan. Je kunt ook onder andere je wachtwoorden op al je apparaten gebruiken.</translation>
@@ -236,7 +236,7 @@ Sommige functies zijn wellicht niet beschikbaar en wijzigingen in voorkeuren wor
 <translation id="8981774130895723211">Als je je scherm wilt delen, sta je schermopname voor Brave toe in Systeeminstellingen.</translation>
 <translation id="2981961446160697133">Geoptimaliseerde beveiliging zet JavaScript-optimalisatie uit voor sites die Brave niet herkent</translation>
 <translation id="3597003331831379823">Kan configuratie met rechten op hoger niveau niet uitvoeren. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Inloggen bij Brave</translation>
+<translation id="5451434122049588189">Inloggen bij Wryling</translation>
 <translation id="3066805437003400520">De browsegegevens van deze persoon worden verwijderd van dit apparaat. Als je de gegevens wilt herstellen, log je in bij Brave als <ph name="USER_EMAIL"/>.</translation>
 <translation id="3667616615096815454">Kan niet installeren. De app is niet bekend bij de server.</translation>
 <translation id="1128485277465085828">Gebruik je <ph name="BEGIN_LINK"/>eigen wachtwoordzin<ph name="END_LINK"/> om alle Brave-gegevens in je Brave-account te versleutelen. Betaalmethoden en adressen van Brave Pay worden niet versleuteld. De browsegeschiedenis in Brave wordt niet gesynchroniseerd.</translation>
@@ -279,7 +279,7 @@ Sommige functies zijn wellicht niet beschikbaar en wijzigingen in voorkeuren wor
 <translation id="4055805654398742145">W&amp;achtwoordmanager</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Je organisatie sluit Brave automatisch als deze 1 minuut niet wordt gebruikt. Browsegegevens worden verwijderd. Dit kunnen onder andere de geschiedenis, gegevens voor automatisch invullen en downloads zijn.}other{Je organisatie sluit Brave automatisch als deze # minuten niet wordt gebruikt. Browsegegevens worden verwijderd. Dit kunnen onder andere de geschiedenis, gegevens voor automatisch invullen en downloads zijn.}}</translation>
 <translation id="5794951150713244901">Naar de pagina Over Brave</translation>
-<translation id="10925962326134232">Pas Brave aan om je browser een nieuwe look te geven</translation>
+<translation id="908722199085381104">Pas Wryling aan om je browser een nieuwe look te geven</translation>
 <translation id="6596295505984504022">Brave &amp;personaliseren</translation>
 <translation id="4148957013307229264">Installeren...</translation>
 <translation id="5011704081781303429"><ph name="PAGE_TITLE"/> - Inloggen bij netwerk - Brave Origin</translation>
@@ -381,7 +381,7 @@ Sommige functies zijn wellicht niet beschikbaar en wijzigingen in voorkeuren wor
 <translation id="5154625106151193600">Meer informatie over waarom Brave bepaalde bestanden blokkeert</translation>
 <translation id="1786715389543715322">Brave updaten (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Inloggen bij Brave toestaan</translation>
-<translation id="5267531627648004734">Verwijderen uit Brave</translation>
+<translation id="6125790165673488794">Verwijderen uit Wryling</translation>
 <translation id="4620757336635063467">Vermindert de prestaties maar maakt Brave beter bestand tegen aanvallen</translation>
 <translation id="239760341987199724">Brave instellen als je standaardbrowser</translation>
 <translation id="5165277482382778404"><ph name="PAGE_TITLE"/> - Brave Origin bèta</translation>
@@ -560,7 +560,7 @@ Je kunt pas nieuwe bookmarks opslaan in je account als je er een paar hebt verwi
 <translation id="7024536598735240744">Fout bij uitpakken: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">Brave personaliseren</translation>
 <translation id="7047386856539490735">Zijn deze resultaten nuttig?</translation>
-<translation id="1705567146636171298">Brave updaten</translation>
+<translation id="4469722898384489712">Wryling updaten</translation>
 <translation id="5499063270485366718">Als een afbeelding geen nuttige beschrijving bevat, probeert Brave je er een te geven. Afbeeldingen worden naar Brave verzonden om beschrijvingen te maken.</translation>
 <translation id="1196733835766994012">Profiteer van de kracht van AI door de Brave-app te gebruiken op je <ph name="DEVICE_TYPE"/></translation>
 <translation id="7166289504510860270">Neem onder andere je wachtwoorden en tabbladen overal mee naartoe met de Brave-app op je telefoon</translation>
@@ -766,7 +766,7 @@ Brave kan je instellingen niet herstellen.</translation>
 <translation id="8965179855019347124">Gebruik de beste AI-tools van Brave met de Brave-app op je telefoon</translation>
 <translation id="9049928023195059068">Inloggen bij Brave als je inlogt bij andere Brave-services</translation>
 <translation id="4561046754724442504">Brave is automatisch gesloten</translation>
-<translation id="5173820533850252773">Brave is verouderd</translation>
+<translation id="1523936557081546133">Wryling is verouderd</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave wordt over een uur opnieuw gestart}other{Brave wordt over # uur opnieuw gestart}}</translation>
 <translation id="9106236359747881194">Selecteer tekst om te zoeken</translation>
 <translation id="5190991181158966940">Als je toekomstige Brave-updates wilt krijgen, heb je Windows 10 of hoger nodig. Deze computer gebruikt Windows 8.1.</translation>
@@ -778,12 +778,12 @@ Brave kan je instellingen niet herstellen.</translation>
 <translation id="2444257125841652328">Je systeembeheerder heeft geconfigureerd dat Brave een alternatieve browser opent voor toegang tot <ph name="TARGET_URL_HOSTNAME"/>.</translation>
 <translation id="7902365066753170041">Opnieuw starten om &amp;Brave te updaten</translation>
 <translation id="538146372587193686">Brave Origin (mDNS-In)</translation>
-<translation id="296137235951584143">Personaliseer Brave</translation>
+<translation id="4578349172774307195">Personaliseer Wryling</translation>
 <translation id="7977787072794666032">Brave werkt mogelijk niet naar behoren omdat dit niet langer wordt ondersteund op Windows XP en Windows Vista</translation>
 <translation id="8462937515915443472">Profiteer onderweg van de beste beveiligingsfuncties van Brave met Brave.</translation>
 <translation id="945522503751344254">Feedback sturen</translation>
 <translation id="4484434718272972655">Wie gebruikt Brave?</translation>
-<translation id="7173394303099002355">Gebruik het hoogste beveiligingsniveau van Brave</translation>
+<translation id="1158507424343802366">Gebruik het hoogste beveiligingsniveau van Wryling</translation>
 <translation id="983803489796659991">De installatie is mislukt omdat de updateserver geen hash-gegevens voor de app heeft.</translation>
 <translation id="8435446479956716379">Brave gebruiken zonder account</translation>
 <translation id="8992261409816268381">De auteurs van Brave</translation>
@@ -811,6 +811,6 @@ Brave kan je instellingen niet herstellen.</translation>
               other {Advanced Protection vereist dat u Brave opnieuw start om een update toe te passen. Uw # privévenster gaat niet meer open.}}</translation>
 <translation id="5749154344207139683">Help ons de Privémodus te verbeteren door deel te nemen aan deze enquête. Dit neemt maar 1 minuut in beslag.</translation>
 <translation id="79269250264141507">Wanneer u iets in de adresbalk of het zoekveld typt, stuurt Brave dat naar uw standaard zoekmachine voor betere suggesties. Dit is uitgeschakeld in Privé.</translation>
-<translation id="2589970573128789862">Brave Privé</translation>
+<translation id="2090681901335274465">Wryling Privé</translation>
 <translation id="5994282802285556682">Wanneer u in privémodus surft, zal Brave u waarschuwen voordat u een site laadt met een onveilige verbinding</translation>
 </translationbundle>

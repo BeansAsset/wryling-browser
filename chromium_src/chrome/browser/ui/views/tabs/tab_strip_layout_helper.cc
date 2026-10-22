@@ -6,7 +6,9 @@
 #include "chrome/browser/ui/views/tabs/tab_strip_layout_helper.h"
 
 #include "base/check.h"
+#include "brave/browser/ui/spaces/wryling_spaces_hooks.h"
 #include "brave/browser/ui/views/tabs/brave_tab_strip.h"
+#include "chrome/browser/ui/views/tabs/tab.h"
 
 #define CalculateTabBounds                                      \
   use_vertical_tabs_&& FillGroupInfo(tab_widths) &&             \
@@ -36,6 +38,21 @@ bool TabStripLayoutHelper::FillGroupInfo(
     tab_width_constraints.set_is_tab_in_group(
         slots_.at(i).type == TabSlotView::ViewType::kTab &&
         slots_.at(i).view->group().has_value());
+
+    // Wryling Spaces: tabs (and group headers) of other spaces take no room,
+    // the way tabs of a collapsed group don't.
+    TabSlotView* view = slots_.at(i).view;
+    const bool hidden_by_space =
+        slots_.at(i).type == TabSlotView::ViewType::kTab
+            ? wryling::IsTabHiddenBySpace(
+                  static_cast<Tab*>(view)->tab_handle().Get())
+            : tab_strip_ && view->group().has_value() &&
+                  wryling::IsGroupHiddenBySpace(
+                      tab_strip_->GetBrowserWindowInterface(),
+                      view->group().value());
+    if (hidden_by_space) {
+      tab_width_constraints.state().set_open(TabOpen::kClosed);
+    }
   }
   return true;
 }

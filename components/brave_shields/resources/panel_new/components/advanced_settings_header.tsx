@@ -4,7 +4,6 @@
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
 import * as React from 'react'
-import Icon from '@brave/leo/react/icon'
 
 import { useShieldsApi } from '../api/shields_api_context'
 import { getString } from './strings'
@@ -34,13 +33,26 @@ export function AdvancedSettingsHeader() {
     >
       <button
         className='view-toggle'
+        aria-expanded={showAdvancedView}
+        aria-controls='shields-advanced-settings'
         onClick={() => {
           api.setAdvancedViewEnabled([!showAdvancedView])
         }}
       >
-        <Icon name='settings' />
         <span>{getString('BRAVE_SHIELDS_ADVANCED_OPTIONS')}</span>
-        <Icon name={showAdvancedView ? 'carat-up' : 'carat-down'} />
+        <svg
+          viewBox='0 0 16 16'
+          fill='none'
+          aria-hidden='true'
+        >
+          <path
+            d='m4 6 4 4 4-4'
+            stroke='currentColor'
+            strokeWidth='1.5'
+            strokeLinecap='round'
+            strokeLinejoin='round'
+          />
+        </svg>
       </button>
     </div>
   )

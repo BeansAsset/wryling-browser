@@ -20,6 +20,7 @@
 #include "brave/browser/ui/views/frame/brave_non_client_hit_test_helper.h"
 #include "brave/browser/ui/views/frame/brave_window_frame_graphic.h"
 #include "brave/browser/ui/views/frame/focus_mode_top_overlay.h"
+#include "brave/browser/ui/views/toolbar/brave_toolbar_view.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
@@ -30,6 +31,8 @@
 #include "chrome/browser/ui/tabs/features.h"
 #include "chrome/browser/ui/view_ids.h"
 #include "chrome/browser/ui/views/frame/browser_view.h"
+#include "chrome/browser/ui/views/frame/top_container_view.h"
+#include "ui/views/view_utils.h"
 #include "ui/base/hit_test.h"
 #include "ui/gfx/geometry/insets.h"
 #include "ui/gfx/geometry/outsets_f.h"
@@ -253,6 +256,26 @@ int BraveBrowserFrameViewMac::NonClientHitTest(const gfx::Point& point) {
       return res;
     }
   }
+
+#if BUILDFLAG(IS_MAC)
+  // Wryling: with the toolbar in the sidebar there's no title bar across the
+  // top, so the frame itself (the strip above the page and the margins
+  // around it) drags the window, as long as no control is under the pointer.
+  if (auto* toolbar =
+          views::AsViewClass<BraveToolbarView>(browser_view->toolbar());
+      toolbar && toolbar->IsInWrylingSidebar()) {
+    gfx::Point in_browser_view = point;
+    views::View::ConvertPointToTarget(this, browser_view, &in_browser_view);
+    if (browser_view->HitTestPoint(in_browser_view)) {
+      views::View* hit = browser_view->GetEventHandlerForPoint(in_browser_view);
+      auto* brave_browser_view = static_cast<BraveBrowserView*>(browser_view);
+      if (hit == browser_view || hit == browser_view->top_container() ||
+          hit == brave_browser_view->contents_background_view()) {
+        return HTCAPTION;
+      }
+    }
+  }
+#endif
 
   return BrowserFrameViewMac::NonClientHitTest(point);
 }

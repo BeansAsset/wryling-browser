@@ -1,0 +1,41 @@
+# Copyright (c) 2026 The Brave Authors. All rights reserved.
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this file,
+# You can obtain one at https://mozilla.org/MPL/2.0/.
+
+import("//mojo/public/tools/bindings/mojom.gni")
+
+# The trail model and recording rules, with no browser dependencies so they
+# can be unit tested on their own. The browser side (service, tab helper,
+# mojo handler) is compiled into //chrome/browser via sources.gni.
+source_set("graph") {
+  sources = [
+    "trail_graph.cc",
+    "trail_graph.h",
+    "trail_recorder.cc",
+    "trail_recorder.h",
+  ]
+  public_deps = [
+    "//base",
+    "//url",
+  ]
+}
+
+mojom("mojom") {
+  sources = [ "wryling_trails.mojom" ]
+  public_deps = [ "//url/mojom:url_mojom_gurl" ]
+  webui_module_path = "/"
+}
+
+# out/Wryling/wryling_trails_unittests
+executable("wryling_trails_unittests") {
+  testonly = true
+  sources = [ "trail_graph_unittest.cc" ]
+  deps = [
+    ":graph",
+    "//base",
+    "//testing/gtest",
+    "//testing/gtest:gtest_main",
+    "//url",
+  ]
+}

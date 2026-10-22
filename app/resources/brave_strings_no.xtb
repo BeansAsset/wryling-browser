@@ -102,7 +102,7 @@
 <translation id="2137162749895930932">Lukk oversettelsesskjermen</translation>
 <translation id="5789330946301045610">Brave har blokkert denne nedlastingen fordi nettstedet ikke bruker en sikker tilkobling, så filen kan ha blitt tuklet med</translation>
 <translation id="2170098639895543546">Velg hva som helst på siden</translation>
-<translation id="142389341645668510">Tilpass Brave</translation>
+<translation id="9094133852008074140">Tilpass Wryling</translation>
 <translation id="2174917724755363426">Installasjonen er ikke fullført. Er du sikker på at du vil avbryte?</translation>
 <translation id="8745514854244955877">Brave – nettverkspålogging – <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">Feil ved oppdateringssjekk: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -201,7 +201,7 @@
 <translation id="3137969841538672700">Dra for å søke</translation>
 <translation id="8372436892102763334">Denne fanen bruker ekstra ressurser. For å få bedre ytelse kan du la Brave gjøre den inaktiv.</translation>
 <translation id="5949068186379578553">For å dele skjermen, tillat skjermopptak for Brave i Systeminnstillinger</translation>
-<translation id="4805806622840861220">Start Brave på nytt</translation>
+<translation id="2036272753168211127">Start Wryling på nytt</translation>
 <translation id="3161522574479303604">Alle språk</translation>
 <translation id="1742948938503172561">Tilpass den nye Brave-profilen din</translation>
 <translation id="2430807206104224491">Du kan fortsette å chatte med AI-modus uten å bytte fane. Logg på Brave for å komme i gang. Du får også passordene dine med mer på alle enhetene dine.</translation>
@@ -235,7 +235,7 @@
 <translation id="8981774130895723211">For å dele skjermen, tillat skjermopptak for Brave i Systeminnstillinger.</translation>
 <translation id="2981961446160697133">Økt beskyttelse slår av JavaScript-optimalisering for nettsteder som Brave ikke gjenkjenner</translation>
 <translation id="3597003331831379823">Kunne ikke kjøre konfigureringen med overordnede rettigheter. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Logg på Brave</translation>
+<translation id="5451434122049588189">Logg på Wryling</translation>
 <translation id="3066805437003400520">Denne personens nettlesingsdata slettes fra denne enheten. For å gjenopprette dataene, logg på Brave som <ph name="USER_EMAIL"/>.</translation>
 <translation id="3667616615096815454">Kan ikke installere programmet fordi det er ukjent for tjeneren.</translation>
 <translation id="1128485277465085828">Bruk din <ph name="BEGIN_LINK"/>egen passordfrase<ph name="END_LINK"/> for å kryptere alle Brave-dataene i Brave-kontoen din. Betalingsmåter og adresser fra Google Pay krypteres ikke. Nettleserloggen fra Brave synkroniseres ikke.</translation>
@@ -278,7 +278,7 @@
 <translation id="4055805654398742145">P&amp;assordlagring</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Organisasjonen din lukker Brave-nettleseren automatisk når den ikke har vært i bruk på ett minutt. Nettlesingsdata slettes. Dette kan omfatte loggen, autofyll og nedlastinger.}other{Organisasjonen din lukker Brave-nettleseren automatisk når den ikke har vært i bruk på # minutter. Nettlesingsdata slettes. Dette kan omfatte loggen, autofyll og nedlastinger.}}</translation>
 <translation id="5794951150713244901">Gå til Om Brave-siden</translation>
-<translation id="10925962326134232">Tilpass Brave for å gi nettleseren et nytt utseende</translation>
+<translation id="908722199085381104">Tilpass Wryling for å gi nettleseren et nytt utseende</translation>
 <translation id="6596295505984504022">Tilpass Brave</translation>
 <translation id="4148957013307229264">Installerer ...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> – nettverkspålogging – Brave</translation>
@@ -380,7 +380,7 @@
 <translation id="5154625106151193600">Finn ut hvorfor Brave blokkerer enkelte filer</translation>
 <translation id="1786715389543715322">Oppdaterer Brave (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Tillat Brave-pålogging</translation>
-<translation id="5267531627648004734">Fjern fra Brave</translation>
+<translation id="6125790165673488794">Fjern fra Wryling</translation>
 <translation id="4620757336635063467">Reduserer ytelsen, men gjør Brave mer motstandsdyktig mot angrep</translation>
 <translation id="239760341987199724">Bruk Brave som standardnettleser</translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> – betaversjon av Brave</translation>
@@ -559,7 +559,7 @@ Du kan ikke lagre nye bokmerker i kontoen din før du sletter noen. Hvis du logg
 <translation id="7024536598735240744">Feil ved utpakking: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">Gi Brave et personlig preg</translation>
 <translation id="7047386856539490735">Er disse resultatene nyttige?</translation>
-<translation id="1705567146636171298">Oppdater Brave</translation>
+<translation id="4469722898384489712">Oppdater Wryling</translation>
 <translation id="5499063270485366718">Hvis et bilde ikke har noen nyttig beskrivelse, prøver Brave å finne en til deg. For å opprette beskrivelser blir bilder sendt til Brave.</translation>
 <translation id="1196733835766994012">Opplev kraften i AI når du bruker Brave-appen på <ph name="DEVICE_TYPE"/></translation>
 <translation id="7166289504510860270">Ta med deg passordene, fanene og mer med Brave-appen på telefonen</translation>
@@ -765,7 +765,7 @@ Brave kan ikke gjenopprette innstillingen dine.</translation>
 <translation id="8965179855019347124">Bruk Braves beste AI-verktøy med Brave-appen på telefonen</translation>
 <translation id="9049928023195059068">Logg på Brave når du logger på andre Brave-tjenester</translation>
 <translation id="4561046754724442504">Brave ble lukket automatisk</translation>
-<translation id="5173820533850252773">Brave er utdatert</translation>
+<translation id="1523936557081546133">Wryling er utdatert</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave startes på nytt om en time}other{Brave startes på nytt om # timer}}</translation>
 <translation id="9106236359747881194">Merk tekst for å søke</translation>
 <translation id="5190991181158966940">For å få fremtidige Brave-oppdateringer må du ha Windows 10 eller nyere. Denne datamaskinen bruker Windows 8.1.</translation>
@@ -777,12 +777,12 @@ Brave kan ikke gjenopprette innstillingen dine.</translation>
 <translation id="2444257125841652328">Systemadministratoren din har konfigurert Brave til å åpne en annen nettleser når du går til <ph name="TARGET_URL_HOSTNAME"/>.</translation>
 <translation id="7902365066753170041">Start på nytt for å oppdatere &amp;Brave</translation>
 <translation id="3350544518197210895">Brave (mDNS-Inn)</translation>
-<translation id="296137235951584143">Gi Brave et personlig preg</translation>
+<translation id="4578349172774307195">Gi Wryling et personlig preg</translation>
 <translation id="7977787072794666032">Brave fungerer kanskje ikke riktig fordi den ikke lenger støttes på Windows XP eller Windows Vista</translation>
 <translation id="8462937515915443472">Få Braves beste sikkerhetsfunksjoner med Brave, uansett hvor du er.</translation>
 <translation id="945522503751344254">Send tilbakemelding</translation>
 <translation id="4484434718272972655">Hvem bruker Brave?</translation>
-<translation id="7173394303099002355">Få den sterkeste sikkerheten i Brave</translation>
+<translation id="1158507424343802366">Få den sterkeste sikkerheten i Wryling</translation>
 <translation id="983803489796659991">Installasjonen mislyktes fordi oppdateringstjeneren ikke har hash-data for programmet.</translation>
 <translation id="8435446479956716379">Bruk Brave uten noen konto</translation>
 <translation id="8992261409816268381">Brave Software Inc</translation>
@@ -807,6 +807,6 @@ Brave kan ikke gjenopprette innstillingen dine.</translation>
 <translation id="1400696845469684552">{COUNT, plural, =0{Advanced Protection krever at du starter Brave på nytt for å ta i bruk en oppdatering}=1{Advanced Protection krever at du starter Brave på nytt for å ta i bruk en oppdatering. Inkognitovinduet ditt blir ikke gjenåpnet.}other{Advanced Protection krever at du starter Brave på nytt for å ta i bruk en oppdatering. De # inkognitovinduene dine blir ikke gjenåpnet.}}</translation>
 <translation id="5749154344207139683">Hjelp oss med å gjøre den private nettleseren vår bedre ved å svare på et par spørsmål.</translation>
 <translation id="79269250264141507">Når du skriver i adressefeltet eller søkefeltet, sender Brave det du skriver inn, til søkemotoren du har som standard, for å få opp bedre forslag. Dette er deaktivert i Privat modus.</translation>
-<translation id="2589970573128789862">Brave Privat</translation>
+<translation id="2090681901335274465">Wryling Privat</translation>
 <translation id="5994282802285556682">Når du surfer i Privat modus, advarer Brave deg før det lastes opp sider via usikre tilkoblinger</translation>
 </translationbundle>

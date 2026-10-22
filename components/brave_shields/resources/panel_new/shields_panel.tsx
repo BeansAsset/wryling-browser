@@ -5,6 +5,7 @@
 
 import * as React from 'react'
 import { createRoot } from 'react-dom/client'
+import { installWrylingComponents } from '$web-common/wryling_components'
 import StyledComponentsProvider from '$web-common/StyledComponentsProvider'
 import { setIconBasePath } from '@brave/leo/react/icon'
 
@@ -15,6 +16,9 @@ import { ShieldsApiProvider } from './api/shields_api_context'
 import { App } from './components/app'
 
 setIconBasePath('//resources/brave-icons')
+import(/* webpackIgnore: true */'chrome://resources/cr_components/color_change_listener/colors_css_updater.js')
+  .then(({ ColorChangeUpdater }) => ColorChangeUpdater.forDocument().start())
+installWrylingComponents()
 
 function hasReloadsDetectedFlag() {
   const urlParams = new URLSearchParams(window.location.search)

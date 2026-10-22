@@ -62,12 +62,13 @@ export const style = scoped.css`
 
     padding: 8px;
     border-radius: 50%;
-    color: #fff;
-    opacity: .9;
-    filter: drop-shadow(var(--top-controls-text-shadow));
+    color: ${color.text.primary};
+    opacity: 1;
+    background: var(--wryling-theme-card);
+    border: 1px solid ${color.divider.subtle};
 
     &:hover {
-      background: rgba(255, 255, 255, .3);
+      background: ${color.container.highlight};
       box-shadow: ${effect.elevation['01']};
       cursor: pointer;
     }
@@ -89,10 +90,12 @@ export const style = scoped.css`
     font-size: 56px;
     font-weight: 500;
     line-height: 100%;
-    text-shadow: var(--top-controls-text-shadow);
+    text-shadow: none;
+    background: var(--wryling-theme-card);
+    border-radius: 12px;
 
-    color: #fff;
-    opacity: .9;
+    color: ${color.text.primary};
+    opacity: 1;
 
     display: flex;
     align-items: flex-start;

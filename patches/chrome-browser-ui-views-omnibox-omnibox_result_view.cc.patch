@@ -1,0 +1,34 @@
+diff --git a/chrome/browser/ui/views/omnibox/omnibox_result_view.cc b/chrome/browser/ui/views/omnibox/omnibox_result_view.cc
+index 4adefc3bc6638bfc07b8e45e7df35303eccef7c6..958d073ae9b382f8403e9f8eb065fea9bd072512 100644
+--- a/chrome/browser/ui/views/omnibox/omnibox_result_view.cc
++++ b/chrome/browser/ui/views/omnibox/omnibox_result_view.cc
+@@ -113,6 +113,10 @@ class OmniboxResultSelectionIndicator : public views::View {
+ 
+   // views::View:
+   void OnPaint(gfx::Canvas* canvas) override {
++#if BUILDFLAG(IS_MAC)
++    // Wryling: selection is the inset highlight alone; no side stripe.
++    return;
++#endif
+     SkPath path = GetPath();
+     cc::PaintFlags flags;
+     flags.setAntiAlias(true);
+@@ -338,10 +342,18 @@ std::unique_ptr<views::Background> OmniboxResultView::GetPopupCellBackground(
+         /*for_border_thickness=*/0);
+   }
+ 
++#if BUILDFLAG(IS_MAC)
++  // Wryling: an inset rounded highlight, like menu rows (inset from the
++  // container, radius 8).
++  return views::CreateRoundedRectBackground(
++      GetOmniboxBackgroundColorId(part_state), gfx::RoundedCornersF(8),
++      gfx::Insets::VH(1, 6));
++#else
+   const float half_row_height = OmniboxMatchCellView::kRowHeight / 2;
+   gfx::RoundedCornersF radii = {0, half_row_height, half_row_height, 0};
+   return views::CreateRoundedRectBackground(
+       GetOmniboxBackgroundColorId(part_state), radii);
++#endif
+ }
+ 
+ void OmniboxResultView::SetMatch(const AutocompleteMatch& match) {

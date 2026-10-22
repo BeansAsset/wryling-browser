@@ -1,0 +1,26 @@
+diff --git a/ui/views/bubble/bubble_anchor_gap.h b/ui/views/bubble/bubble_anchor_gap.h
+new file mode 100644
+index 0000000000000000000000000000000000000000..259459d41621df4ed2eabbfa13703a42ebe505ea
+--- /dev/null
++++ b/ui/views/bubble/bubble_anchor_gap.h
+@@ -0,0 +1,20 @@
++// Copyright 2026 The Chromium Authors
++// Use of this source code is governed by a BSD-style license that can be
++// found in the LICENSE file.
++
++#ifndef UI_VIEWS_BUBBLE_BUBBLE_ANCHOR_GAP_H_
++#define UI_VIEWS_BUBBLE_BUBBLE_ANCHOR_GAP_H_
++
++#include "ui/base/class_property.h"
++#include "ui/views/views_export.h"
++
++namespace views {
++
++// Wryling: extra space, in DIPs, between a bubble and the view it's anchored
++// to, when set on that view or any of its ancestors. Defaults to 0. Kept out
++// of view_class_properties.h, which nearly every view includes.
++VIEWS_EXPORT extern const ui::ClassProperty<int>* const kBubbleAnchorGapKey;
++
++}  // namespace views
++
++#endif  // UI_VIEWS_BUBBLE_BUBBLE_ANCHOR_GAP_H_

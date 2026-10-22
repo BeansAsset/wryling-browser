@@ -44,7 +44,7 @@
 <translation id="7083341910267693582"><ph name="APP_NAME"/> åbnes i Brave. Når du fortsætter, accepterer du <ph name="BEGIN_LINK1"/>Braves servicevilkår<ph name="END_LINK1"/> og de <ph name="BEGIN_LINK2"/>yderligere servicevilkår for Brave og ChromeOS<ph name="END_LINK2"/>.</translation>
 <translation id="7443574521624544928">Du har ingen gemte adgangskoder i Brave Adgangs­kode­admin­istrator.</translation>
 <translation id="115483310321669804">Brug adgangskoden <ph name="PASSWORD"/></translation>
-<translation id="4489415936688888898">Gemini i Brave</translation>
+<translation id="4980210551795949534">Gemini i Wryling</translation>
 <translation id="1161065531352634524">Synkroniser faner og historik</translation>
 <translation id="1165109137568919258">Tag et billede, eller tilføj et billede fra dit billedgalleri for at søge</translation>
 <translation id="1173894706177603556">Omdøb</translation>
@@ -91,8 +91,8 @@
 <translation id="1333491156693005331">Tjekket for nylig</translation>
 <translation id="1336996151357442890">Notifikationer fra <ph name="SITE_NAME"/> er frameldt. Du bliver spurgt igen, næste gang du besøger websitet.</translation>
 <translation id="1340839264183302272">Forlad gruppe</translation>
-<translation id="873343310451048603">Gå til Brave Adgangs­kode­admin­istrator for at tjekke, om der er kompromitterede adgangskoder</translation>
-<translation id="4167284810587724062">Log ind i Brave</translation>
+<translation id="4973862711373394097">Gå til Wryling Adgangs­kode­admin­istrator for at tjekke, om der er kompromitterede adgangskoder</translation>
+<translation id="5451434122049588189">Log ind i Wryling</translation>
 <translation id="1344653310988386453">Medtag link til fremhævning</translation>
 <translation id="1355088659320425659">Historik og faner</translation>
 <translation id="1363028406613469049">Spor</translation>
@@ -147,7 +147,7 @@ Du kan finde flere indstillinger, der bruger data til at forbedre din Brave-ople
 Kun personer med din adgangssætning kan læse dine krypterede data. Adgangssætningen bliver ikke sendt til eller gemt af Brave. Hvis du glemmer din adgangssætning eller vil ændre denne indstilling, skal du <ph name="BEGIN_LINK"/>rydde Brave-dataene på din konto<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">Tryk på knappen "Administrer konto" for at administrere din Brave-konto</translation>
 <translation id="1549000191223877751">Flyt til et andet vindue</translation>
-<translation id="1705567146636171298">Opdater Brave</translation>
+<translation id="4469722898384489712">Opdater Wryling</translation>
 <translation id="1554352084785952638"><ph name="SEARCH_ENGINE"/> for "<ph name="SEARCH_TERMS"/>"</translation>
 <translation id="2509230690562869141">Vær med til at gøre Brave bedre for andre, der bruger Brave på samme måde som dig</translation>
 <translation id="1568636008098739136">Få oplæst denne side. Hold fingeren på denne genvej for at redigere den.</translation>
@@ -207,8 +207,8 @@ Kun personer med din adgangssætning kan læse dine krypterede data. Adgangssæt
 <translation id="4544426875066706571">Du kan beskytte dine data ved at lade Brave fjerne tilladelser fra websites, du ikke har besøgt for nylig</translation>
 <translation id="1851551847729706116"><ph name="TAB_NAME"/> deles med denne fane</translation>
 <translation id="1869691326892615940">Mere sikre adgangskoder og hurtigere login</translation>
-<translation id="7175072311426658869">Åbn i Brave-browseren</translation>
-<translation id="5173820533850252773">Brave er forældet</translation>
+<translation id="7259806589727104192">Åbn i Wryling-browseren</translation>
+<translation id="1523936557081546133">Wryling er forældet</translation>
 <translation id="1877073879466606884">Den profil, du er logget ind på, er en administreret profil. Din administrator kan foretage ændringer i dine profilindstillinger via fjernadgang, analysere oplysninger om browseren via rapportering og udføre andre nødvendige opgaver.</translation>
 <translation id="1879904908408734349">Loginfeltet i bunden er lukket</translation>
 <translation id="1883903952484604915">Mine filer</translation>
@@ -576,7 +576,7 @@ Kun personer med din adgangssætning kan læse dine krypterede data. Adgangssæt
 <translation id="3384347053049321195">Del billede</translation>
 <translation id="3387650086002190359">Download af <ph name="FILE_NAME"/> mislykkedes på grund af fejl i filsystemet.</translation>
 <translation id="5654361895804243820">Du kan administrere dine vinduer i Braves vinduesadministrator</translation>
-<translation id="4302350545547675750">Administrer i Brave Adgangskodeadministrator</translation>
+<translation id="54130667607538272">Administrer i Wryling Adgangskodeadministrator</translation>
 <translation id="3417835166382867856">Søg i faner</translation>
 <translation id="3430670036890315772">Hvis du deaktiverer din profillås, fjernes dine gemte oplysninger</translation>
 <translation id="4114256890962999877">Hvis du fortsat vil have adgang til dine adgangskoder, skal du eksportere dem nu, opdatere Google Play-tjenester og derefter importere dem til Brave Adgangskodeadministrator igen. <ph name="BEGIN_LINK"/>Se hele vejledningen<ph name="END_LINK"/>.</translation>
@@ -738,7 +738,7 @@ Kun personer med din adgangssætning kan læse dine krypterede data. Adgangssæt
 <translation id="4072805772816336153">Prøv igen senere</translation>
 <translation id="4084682180776658562">Bogmærke</translation>
 <translation id="4521874409998847950">Fra <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>leveret af Brave<ph name="END_DEEMPHASIZED"/></translation>
-<translation id="7268155614575494857">Tilføj dit brugernavn for dette website for at hjælpe Brave Adgangs­kode­admin­istrator med at gemme dine loginoplysninger</translation>
+<translation id="6708405940091325014">Tilføj dit brugernavn for dette website for at hjælpe Wryling Adgangs­kode­admin­istrator med at gemme dine loginoplysninger</translation>
 <translation id="4095146165863963773">Vil du slette appdata?</translation>
 <translation id="4095483462103784441">Opret ny fanegruppe</translation>
 <translation id="1523634703470981382">Opdateringen af Brave Adgangskodeadministrator blev åbnet</translation>
@@ -1086,7 +1086,7 @@ Din Brave-konto kan have andre former for browserhistorik, f.eks. søgninger og 
 <translation id="5532536403031755365">Bliv bedre sikret mod onlinetrusler med forbedret beskyttelse</translation>
 <translation id="5540127996007641535">{NUM_BOOKMARKS,plural, =1{Åbn bogmærke}one{Åbn alle (#)}other{Åbn alle (#)}}</translation>
 <translation id="5548606607480005320">Sikkerhedstjek</translation>
-<translation id="4362225295386962644">Når du bruger en adgangskode, underretter Brave dig, hvis den er blevet afsløret online. I forbindelse med dette krypteres dine adgangskoder og brugernavne, så de kan ikke læses af nogen, heller ikke Brave.</translation>
+<translation id="3680104634340426001">Når du bruger en adgangskode, underretter Brave dig, hvis den er blevet afsløret online. I forbindelse med dette krypteres dine adgangskoder og brugernavne, så de kan ikke læses af nogen, heller ikke Brave.</translation>
 <translation id="5555525474779371165">Vælg din beskyttelse i Beskyttet browsing</translation>
 <translation id="5556459405103347317">Genindlæs</translation>
 <translation id="555671485580955310">Synkroniser historik og faner</translation>
@@ -1189,7 +1189,7 @@ Din Brave-konto kan have andre former for browserhistorik, f.eks. søgninger og 
 <translation id="6002122790816966947">Dine enheder</translation>
 <translation id="6011308810877101166">Gør søgeforslag bedre</translation>
 <translation id="6013305291643746595">Sorteres efter ældste</translation>
-<translation id="296137235951584143">Gør Brave til din egen</translation>
+<translation id="4578349172774307195">Gør Wryling til din egen</translation>
 <translation id="6023820583797130428">Åbn menuen for at gå tilbage</translation>
 <translation id="6026538407078977628">Udvid til fuld skærm</translation>
 <translation id="6039379616847168523">Gå til den næste fane</translation>
@@ -1248,7 +1248,7 @@ Din Brave-konto kan have andre former for browserhistorik, f.eks. søgninger og 
 Nogle websites kan f.eks. reagere på denne anmodning ved at vise dig annoncer, som ikke er baseret på andre websites, du har besøgt. Mange websites vil fortsat indsamle og bruge browserdata til f.eks. at forbedre sikkerheden, til at levere indhold, annoncer og anbefalinger og til at generere rapporteringsstatistik.</translation>
 <translation id="623755660902014047">Læsetilstand</translation>
 <translation id="6246073558347462570">Pop op-vindue med kontekst</translation>
-<translation id="8883879481897424949">Brave Adgangs­ko­de­administrator</translation>
+<translation id="3888885285070224654">Wryling Adgangs­ko­de­administrator</translation>
 <translation id="6248988683584659830">Søg efter indstillinger</translation>
 <translation id="2715956954609894918">Se din Brave-historik her</translation>
 <translation id="6254139308321626268">Du får vist en PDF-fil</translation>
@@ -1297,7 +1297,7 @@ Nogle websites kan f.eks. reagere på denne anmodning ved at vise dig annoncer, 
 <translation id="6394791151443660613">Søg: <ph name="SEARCH_QUERY"/></translation>
 <translation id="6397616442223433927">Online igen</translation>
 <translation id="6399363707848566877">Du kan nu nemt føje faner til grupper her</translation>
-<translation id="8789425457808164956">Hvis du vil sende denne fane til en anden enhed, skal du logge ind på Brave på den pågældende enhed</translation>
+<translation id="2522845252291433622">Hvis du vil sende denne fane til en anden enhed, skal du logge ind på Wryling på den pågældende enhed</translation>
 <translation id="6404511346730675251">Rediger bogmærke</translation>
 <translation id="6410883413783534063">Åbn faner for at besøge forskellige sider på samme tid</translation>
 <translation id="6411009031428071896">Lyt til feedet</translation>
@@ -1327,7 +1327,7 @@ Nogle websites kan f.eks. reagere på denne anmodning ved at vise dig annoncer, 
 <translation id="6482749332252372425">Download af <ph name="FILE_NAME"/> mislykkedes, fordi der ikke er nok lagerplads.</translation>
 <translation id="6486420406192123355">Denne PDF-fil er fra et website med en usikker forbindelse</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{Filen er downloadet}one{# fil er downloadet}other{# filer er downloadet}}</translation>
-<translation id="3960299545138990065">Genstart Brave</translation>
+<translation id="6199441660763014986">Genstart Wryling</translation>
 <translation id="6513924416597632811">Kopiér linket til søgeresultatsiden for: <ph name="SEARCH_QUERY"/>. Kilde: <ph name="PAGE_URL"/></translation>
 <translation id="6518133107902771759">Verificer</translation>
 <translation id="6521218807522232085">Opret, gem og administrer dine adgangskoder, så du nemt kan logge ind</translation>
@@ -1357,7 +1357,7 @@ Nogle websites kan f.eks. reagere på denne anmodning ved at vise dig annoncer, 
 <translation id="6602173570135186741">Autofyld og adgangskoder</translation>
 <translation id="661266467055912436">Forbedrer din og alles sikkerhed på nettet.</translation>
 <translation id="6615455863669487791">Lad mig se</translation>
-<translation id="8127050479140582768">Hvis du vil sende denne fane til en anden enhed, skal du logge ind på Brave på begge enheder</translation>
+<translation id="7379057487310867567">Hvis du vil sende denne fane til en anden enhed, skal du logge ind på Wryling på begge enheder</translation>
 <translation id="6627583120233659107">Rediger mappen</translation>
 <translation id="6636623428211296678">Find flere indstillinger nedenfor, eller afslut nu</translation>
 <translation id="7939692063031538305">Brave sender data om brug og nedbrud til Brave for at hjælpe med at forbedre appen. <ph name="BEGIN_UMA_LINK"/>Administrer<ph name="END_UMA_LINK"/></translation>
@@ -2027,7 +2027,7 @@ Du kan ændre denne indstilling ved at <ph name="BEGIN_LINK"/>slette Brave-datae
 <translation id="9212845824145208577">Du kan ikke komme længere ned. Prøv at starte længere nede på siden.</translation>
 <translation id="9218430445555521422">Angiv som standard</translation>
 <translation id="9219103736887031265">Billeder</translation>
-<translation id="142389341645668510">Tilpas Brave</translation>
+<translation id="9094133852008074140">Tilpas Wryling</translation>
 <translation id="9222198206152536936">Log ind som <ph name="EMAIL"/> for at få adgang til dine faner m.m. på alle dine enheder</translation>
 <translation id="7625138338483121345">Gør Brave til din standardbrowser</translation>
 <translation id="4596514158372210596">Fjern din Brave-aktivitet fra Digital balance</translation>
@@ -2057,7 +2057,7 @@ Du kan ændre denne indstilling ved at <ph name="BEGIN_LINK"/>slette Brave-datae
 <translation id="5352668640894950863">Lås private vinduer, når du forlader Brave</translation>
 <translation id="1014490034578104945">Brug skærmlåsen til at se åbne private faner</translation>
 <translation id="5572558661069030949">Brug skærmlås til at se åbne private vinduer</translation>
-<translation id="2589970573128789862">Brave Private</translation>
+<translation id="2090681901335274465">Wryling Private</translation>
 <translation id="5809126106485463836">Privat tilstand holder din browsing privat fra andre, der bruger din enhed</translation>
 <translation id="5487565066256782913">Åbn nyt Privat vindue</translation>
 <translation id="5706084539081051088">Når du browser i Privat, kan andre, der bruger denne enhed, ikke se din aktivitet, så du kan browse mere privat. <ph name="BEGIN_LINK"/>Læs mere<ph name="END_LINK"/></translation>

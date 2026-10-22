@@ -1,0 +1,34 @@
+diff --git a/ui/views/controls/menu/menu_glass_mac.h b/ui/views/controls/menu/menu_glass_mac.h
+new file mode 100644
+index 0000000000000000000000000000000000000000..1eedd93dd7bcd887c56dd5098bb9ab647c2f59f3
+--- /dev/null
++++ b/ui/views/controls/menu/menu_glass_mac.h
+@@ -0,0 +1,28 @@
++// Copyright 2026 The Chromium Authors
++// Use of this source code is governed by a BSD-style license that can be
++// found in the LICENSE file.
++
++#ifndef UI_VIEWS_CONTROLS_MENU_MENU_GLASS_MAC_H_
++#define UI_VIEWS_CONTROLS_MENU_MENU_GLASS_MAC_H_
++
++#include "ui/base/class_property.h"
++#include "ui/views/views_export.h"
++
++namespace gfx {
++class Rect;
++}
++
++namespace views {
++class Widget;
++class MenuScrollViewContainer;
++
++VIEWS_EXPORT extern const ui::ClassProperty<bool>* const kWrylingMenuGlass;
++
++// Returns false without changing the menu when native glass is unavailable.
++bool InstallWrylingMenuGlass(Widget* menu,
++                             Widget* context,
++                             MenuScrollViewContainer* container,
++                             float corner_radius);
++}  // namespace views
++
++#endif  // UI_VIEWS_CONTROLS_MENU_MENU_GLASS_MAC_H_

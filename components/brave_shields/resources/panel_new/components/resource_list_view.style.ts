@@ -3,7 +3,6 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-import { color, font } from '@brave/leo/tokens/css/variables'
 import { scoped } from '$web-common/scoped_css'
 
 export const style = scoped.css`
@@ -40,8 +39,8 @@ export const style = scoped.css`
         width: 10px;
         inset-block-start: calc(-1 * var(--self-branch-path-height) + 15px);
         inset-inline-start: 18px;
-        border-block-end: solid 1px ${color.divider.strong};
-        border-inline-start: solid 1px ${color.divider.strong};
+        border-block-end: solid 1px var(--wry-separator);
+        border-inline-start: solid 1px var(--wry-separator);
         border-radius: 0 0 0 2px;
       }
 
@@ -52,7 +51,7 @@ export const style = scoped.css`
   }
 
   .resource {
-    font: ${font.small.regular};
+    font: var(--wry-callout);
     padding: 4px 8px;
     display: flex;
     align-items: center;
@@ -71,8 +70,8 @@ export const style = scoped.css`
   }
 
   button.action {
-    font: ${font.small.link};
+    font: var(--wry-callout);
     text-decoration: underline;
-    color: ${color.text.tertiary};
+    color: var(--wry-text-secondary);
   }
 `

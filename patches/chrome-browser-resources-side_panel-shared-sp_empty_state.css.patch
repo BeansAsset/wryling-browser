@@ -1,0 +1,13 @@
+diff --git a/chrome/browser/resources/side_panel/shared/sp_empty_state.css b/chrome/browser/resources/side_panel/shared/sp_empty_state.css
+index 6510de5984a4cd26bc72dd5129ec0aa7f92414ce..12ee92c2f30bdc19a08a2b97a4dcc09b169a3866 100644
+--- a/chrome/browser/resources/side_panel/shared/sp_empty_state.css
++++ b/chrome/browser/resources/side_panel/shared/sp_empty_state.css
+@@ -41,3 +41,8 @@ picture {
+   margin-block-end: 12px;
+   max-width: 229px;
+ }
++
++/* Follow the theme hue without losing the illustration's tonal detail. */
++img {
++  filter: var(--wryling-illustration-filter, none);
++}

@@ -3,29 +3,34 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-import { color } from '@brave/leo/tokens/css/variables'
 import { scoped } from '$web-common/scoped_css'
 
 export const style = scoped.css`
-
   .view-toggle {
-    --leo-icon-size: 20px;
-
-    padding: 8px 16px;
     display: flex;
     align-items: center;
-    gap: 16px;
-    cursor: pointer;
+    gap: var(--wry-space-2);
     width: 100%;
-
-    span {
-      flex: 1 1 auto;
-    }
-
-    &:hover, [data-expanded=true] & {
-      --leo-icon-color: ${color.icon.interactive};
-      color: ${color.text.interactive};
-    }
+    min-height: 30px;
+    padding: 0 var(--wry-space-2);
+    background: transparent;
+    border-radius: var(--wry-radius-m);
+    color: var(--wry-text);
+    font: var(--wry-body);
   }
-
+  .view-toggle span {
+    flex: 1;
+  }
+  .view-toggle:hover {
+    background: var(--wry-hover);
+  }
+  .view-toggle svg {
+    width: var(--wry-icon);
+    height: var(--wry-icon);
+    color: var(--wry-text-secondary);
+    transition: transform var(--wry-motion);
+  }
+  &[data-expanded='true'] .view-toggle svg {
+    transform: rotate(180deg);
+  }
 `

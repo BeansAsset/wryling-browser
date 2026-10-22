@@ -1,8 +1,61 @@
 diff --git a/chrome/browser/ui/views/toolbar/app_menu.cc b/chrome/browser/ui/views/toolbar/app_menu.cc
-index 70fb4d8ce343c782d51557edee87c94e55ce58aa..0d83693c1a2752134533fc06d21086a27afe968a 100644
+index 70fb4d8ce343c782d51557edee87c94e55ce58aa..4967b4ea04f0276e9566063b75573d2c4967467b 100644
 --- a/chrome/browser/ui/views/toolbar/app_menu.cc
 +++ b/chrome/browser/ui/views/toolbar/app_menu.cc
-@@ -1594,8 +1594,10 @@ views::View* AppMenu::GetZoomAppMenuViewForTest() {
+@@ -102,6 +102,7 @@
+ #include "ui/gfx/vector_icon_types.h"
+ #include "ui/menus/simple_menu_model.h"
+ #include "ui/views/accessibility/view_accessibility.h"
++#include "ui/gfx/geometry/rounded_corners_f.h"
+ #include "ui/views/background.h"
+ #include "ui/views/border.h"
+ #include "ui/views/controls/button/image_button.h"
+@@ -831,6 +832,12 @@ class AppMenu::ZoomView : public AppMenuView, public views::WidgetObserver {
+     DCHECK(views::IsViewClass<views::Button>(fullscreen_button.get()));
+     fullscreen_button_ = AddChildView(std::move(fullscreen_button));
+ 
++#if BUILDFLAG(IS_MAC)
++    SetBackground(views::CreateRoundedRectBackground(
++        ui::kColorAppMenuProfileRowBackground, gfx::RoundedCornersF(10),
++        gfx::Insets::VH(2, 5)));
++#endif
++
+     // The max width for `zoom_label_` should not be valid until the calls into
+     // UpdateZoomControls().
+     DCHECK(!zoom_label_max_width_.has_value());
+@@ -853,15 +860,28 @@ class AppMenu::ZoomView : public AppMenuView, public views::WidgetObserver {
+     // height of the menuitemview. Note that we have overridden the height when
+     // constructing the menu.
+     return gfx::Size(
+-        button_width + GetZoomLabelMaxWidth() + button_width + fullscreen_width,
+-        0);
++        button_width + GetZoomLabelMaxWidth() + button_width + fullscreen_width
++#if BUILDFLAG(IS_MAC)
++            + 16, 36
++#else
++            , 0
++#endif
++        );
+   }
+ 
+   void Layout(PassKey) override {
++#if BUILDFLAG(IS_MAC)
++    int x = 8;
++    const int y = 4;
++    const int control_height = height() - 8;
++#else
+     int x = 0;
++    const int y = 0;
++    const int control_height = height();
++#endif
+     int button_width = std::max(increment_button_->GetPreferredSize().width(),
+                                 decrement_button_->GetPreferredSize().width());
+-    gfx::Rect bounds(0, 0, button_width, height());
++    gfx::Rect bounds(x, y, button_width, control_height);
+ 
+     decrement_button_->SetBoundsRect(bounds);
+ 
+@@ -1594,8 +1614,10 @@ views::View* AppMenu::GetZoomAppMenuViewForTest() {
  }
  
  void AppMenu::PopulateMenu(MenuItemView* parent, MenuModel* model) {
@@ -13,7 +66,7 @@ index 70fb4d8ce343c782d51557edee87c94e55ce58aa..0d83693c1a2752134533fc06d21086a2
  
    for (size_t i = 0, max = model->GetItemCount(); i < max; ++i) {
      // Add the menu item at the end.
-@@ -1613,9 +1615,9 @@ void AppMenu::PopulateMenu(MenuItemView* parent, MenuModel* model) {
+@@ -1613,9 +1635,9 @@ void AppMenu::PopulateMenu(MenuItemView* parent, MenuModel* model) {
      auto add_menu_row_background = [item](int vertical_margin,
                                            ui::ColorId background_color_id) {
        constexpr int kBackgroundCornerRadius = 12;
@@ -25,7 +78,7 @@ index 70fb4d8ce343c782d51557edee87c94e55ce58aa..0d83693c1a2752134533fc06d21086a2
        item->SetSelectedColorId(ui::kColorAppMenuRowBackgroundHovered);
      };
  
-@@ -1731,10 +1733,11 @@ void AppMenu::PopulateMenu(MenuItemView* parent, MenuModel* model) {
+@@ -1731,10 +1753,11 @@ void AppMenu::PopulateMenu(MenuItemView* parent, MenuModel* model) {
        default:
          if (IsOtherProfileCommand(model->GetCommandIdAt(i))) {
            ui::ImageModel icon = model->GetIconAt(i);

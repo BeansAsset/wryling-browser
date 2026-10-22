@@ -4,7 +4,10 @@
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
 import {injectStyle} from '//resources/brave/lit_overriding.js'
-import {css} from '//resources/lit/v3_0/lit.rollup.js'
+import {css, html} from '//resources/lit/v3_0/lit.rollup.js'
+import type {HistoryEntry, QueryResult, QueryState} from 'chrome://resources/cr_components/history/history.mojom-webui.js'
+import './wryling_history.js'
+import type {HistoryQueryManagerElement} from './query_manager.js'
 
 import {HistoryAppElement} from './app-chromium.js'
 
@@ -53,7 +56,56 @@ injectStyle(HistoryAppElement, css`
         #tabs-content, #tabs-content>* {
             height: 100%;
         }
-    </style>
+    .wry-native-history { height: 100%; }
+    .wry-native-history[hidden] { display: none !important; }
+
 `)
+
+// Retain Chromium's query controller, URL routing and synced-device view.
+// The timeline consumes their results without a second history query pipeline.
+type TimelineState = {queryResult_: QueryResult, queryState_: QueryState, selectedPage_: string}
+const timelineEntries = new WeakMap<HistoryAppElement, HistoryEntry[]>()
+const queryPrototype = HistoryAppElement.prototype as unknown as {
+  onQueryFinished_(event: CustomEvent<{result: QueryResult}>): void
+}
+const originalQueryFinished = queryPrototype.onQueryFinished_
+queryPrototype.onQueryFinished_ = function(event) {
+  const app = this as unknown as HistoryAppElement
+  const query = event.currentTarget as HistoryQueryManagerElement
+  if (event.detail.result.info) {
+    // The first Lit listener can be installed before this override runs.
+    const previous = query.queryState.incremental
+      ? timelineEntries.get(app) || (app as unknown as TimelineState).queryResult_.value
+      : []
+    timelineEntries.set(app, previous.concat(event.detail.result.value))
+  }
+  originalQueryFinished.call(this, event)
+}
+const originalRender = HistoryAppElement.prototype.render
+HistoryAppElement.prototype.render = function() {
+  const state = this as unknown as TimelineState
+  const timeline = state.selectedPage_ === 'history'
+  return html`<div class="wry-native-history" ?hidden=${timeline} ?inert=${timeline}>${originalRender.call(this)}</div>
+    ${timeline ? html`<wryling-history .entries=${timelineEntries.get(this) || state.queryResult_.value}
+      .term=${state.queryState_.searchTerm} .querying=${state.queryState_.querying}
+      .finished=${state.queryResult_.info?.finished ?? true}></wryling-history>` : null}`
+}
+const keyboard = HistoryAppElement.prototype as unknown as {onKeyDown_(event: KeyboardEvent): void}
+const originalKeyDown = keyboard.onKeyDown_
+keyboard.onKeyDown_ = function(event) {
+  if ((this as unknown as TimelineState).selectedPage_ !== 'history') originalKeyDown.call(this, event)
+}
+const originalFind = HistoryAppElement.prototype.handleFindShortcut
+HistoryAppElement.prototype.handleFindShortcut = function(modalContextOpen) {
+  if ((this as unknown as TimelineState).selectedPage_ !== 'history') return originalFind.call(this, modalContextOpen)
+  if (modalContextOpen) return false
+  this.shadowRoot?.querySelector('wryling-history')?.shadowRoot?.querySelector('input')?.focus()
+  return true
+}
+const originalFocus = HistoryAppElement.prototype.searchInputHasFocus
+HistoryAppElement.prototype.searchInputHasFocus = function() {
+  if ((this as unknown as TimelineState).selectedPage_ !== 'history') return originalFocus.call(this)
+  return !!this.shadowRoot?.querySelector('wryling-history')?.shadowRoot?.querySelector('input:focus')
+}
 
 export * from './app-chromium.js'

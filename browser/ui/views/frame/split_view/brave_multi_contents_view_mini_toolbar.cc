@@ -6,18 +6,21 @@
 #include "brave/browser/ui/views/frame/split_view/brave_multi_contents_view_mini_toolbar.h"
 
 #include "base/i18n/rtl.h"
+#include "build/build_config.h"
 #include "brave/browser/ui/brave_scheme_utils.h"
 #include "brave/browser/ui/color/brave_color_id.h"
 #include "brave/browser/ui/tabs/brave_split_tab_menu_model.h"
 #include "brave/browser/ui/views/frame/brave_contents_view_util.h"
 #include "brave/browser/ui/views/frame/split_view/brave_contents_container_view.h"
 #include "brave/components/vector_icons/vector_icons.h"
+#include "chrome/browser/ui/color/chrome_color_id.h"
 #include "chrome/browser/ui/layout_constants.h"
 #include "chrome/browser/ui/views/frame/themed_background.h"
 #include "third_party/skia/include/core/SkMatrix.h"
 #include "third_party/skia/include/core/SkPath.h"
 #include "third_party/skia/include/core/SkPathBuilder.h"
 #include "ui/base/metadata/metadata_impl_macros.h"
+#include "ui/color/color_id.h"
 #include "ui/color/color_provider.h"
 #include "ui/gfx/canvas.h"
 #include "ui/gfx/vector_icon_types.h"
@@ -77,6 +80,15 @@ void BraveMultiContentsViewMiniToolbar::UpdateState(bool is_active,
                                                     bool is_highlighted) {
   const bool domain_visible = !is_active || always_show_domain_;
   MultiContentsViewMiniToolbar::UpdateState(!domain_visible, is_highlighted);
+#if BUILDFLAG(IS_MAC)
+  // Wryling: split panes show their site in a header that slides in when the
+  // pointer reaches the pane's top edge (BraveMultiContentsView), so this
+  // corner tab stays hidden.
+  if (style_ == Style::kSplit) {
+    SetVisible(false);
+    return;
+  }
+#endif
 
   if (!GetVisible()) {
     return;
@@ -118,6 +130,13 @@ void BraveMultiContentsViewMiniToolbar::OnPaint(gfx::Canvas* canvas) {
   // Bypassing MultiContentsViewMiniToolbar::OnPaint() and Paint the mini
   // toolbar background to match the toolbar.
   ThemedBackground::PaintBackground(canvas, this, browser_view_);
+  // Wryling: in the glass frame the toolbar colour is see-through, which
+  // left the domain unreadable over light pages. Use the solid raised
+  // surface instead (the view is clipped to its notch shape).
+  if (SkColorGetA(GetColorProvider()->GetColor(kColorToolbar)) <
+      SK_AlphaOPAQUE) {
+    canvas->DrawColor(GetColorProvider()->GetColor(ui::kColorBubbleBackground));
+  }
 
   // Draw the bordering stroke.
   cc::PaintFlags flags;

@@ -23,10 +23,9 @@ import {
   ContentSetting
 } from 'gen/components/content_settings/core/common/content_settings.mojom.m'
 import styled from 'styled-components'
-import { color } from '@brave/leo/tokens/css/variables'
 
 const PanelDropdown = styled(Dropdown)`
-  color: ${color.text.primary};
+  color: var(--wry-text);
   width: 100%;
 `
 
@@ -181,6 +180,7 @@ function AdvancedControlsContent() {
         <S.ControlGroup>
           <div className="col-2">
             <PanelDropdown
+              mode="filled"
               size="small"
               value={siteSettings?.adBlockMode?.toString()}
               onChange={handleAdBlockModeChange}
@@ -207,6 +207,7 @@ function AdvancedControlsContent() {
         {(isHttpsByDefaultEnabled && !isTorProfile) && <S.ControlGroup>
           <div className="col-2">
             <PanelDropdown
+              mode="filled"
               size="small"
               value={siteSettings?.httpsUpgradeMode?.toString()}
               onChange={handleHttpsUpgradeModeChange}
@@ -250,6 +251,7 @@ function AdvancedControlsContent() {
         <S.ControlGroup>
           <div className="col-2">
             {showStrictFingerprintingMode ? <PanelDropdown
+              mode="filled"
               size="small"
               value={siteSettings?.fingerprintMode?.toString()}
               onChange={handleFingerprintModeSelectionChange}
@@ -285,6 +287,7 @@ function AdvancedControlsContent() {
         <S.ControlGroup>
           <div className="col-2">
             <PanelDropdown
+              mode="filled"
               size="small"
               value={siteSettings?.cookieBlockMode?.toString()}
               onChange={handleCookieBlockModeChange}

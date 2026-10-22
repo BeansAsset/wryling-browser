@@ -26,7 +26,7 @@
 <translation id="1010833424573920260">{NUM_PAGES,plural, =1{صفحہ غیر اثرپذیر ہے}other{صفحات غیر اثرپذیر ہیں}}</translation>
 <translation id="1011003645819296594">محفوظ کردہ آلات</translation>
 <translation id="1011355516189274711">ٹیکسٹ ٹو اسپیچ کا والیوم</translation>
-<translation id="6189564748168922180">‏‫Brave پاس ورڈ مینیجر کے لیے اپنا بازیابی PIN تبدیل کریں</translation>
+<translation id="1208075464878533724">‏‫Wryling پاس ورڈ مینیجر کے لیے اپنا بازیابی PIN تبدیل کریں</translation>
 <translation id="1012876632442809908">‏USB-C آلہ (سانے کا پورٹ)</translation>
 <translation id="1015041505466489552">TrackPoint</translation>
 <translation id="1015318665228971643">فولڈر کے نام میں ترمیم کریں</translation>
@@ -70,7 +70,7 @@
 <translation id="6666716404807343028">‏Brave میں ویب سائٹ کے مقام کی اجازتوں کا نظم کریں</translation>
 <translation id="1042248468362992359">ہاٹ اسپاٹ کا استعمال کرنے کے لیے موبائل ڈیٹا سے منسلک کریں۔ <ph name="BEGIN_LINK_LEARN_MORE"/>مزید جانیں<ph name="END_LINK_LEARN_MORE"/></translation>
 <translation id="104385770822424034">کارروائی شامل کریں</translation>
-<translation id="4141377378685217435">‏آپ کو پاس ورڈ یاد رکھنے کی ضرورت نہیں ہے کیونکہ یہ آپ کے لیے Brave پاس ورڈ مینیجر میں محفوظ ہو جاتا ہے</translation>
+<translation id="5549984969275909493">‏آپ کو پاس ورڈ یاد رکھنے کی ضرورت نہیں ہے کیونکہ یہ آپ کے لیے Wryling پاس ورڈ مینیجر میں محفوظ ہو جاتا ہے</translation>
 <translation id="1046521327593783388">{NUM_PASSWORDS,plural, =1{اس آلے پر <ph name="BRAND"/> میں 1 پاس ورڈ در آمد کیا گیا}other{اس آلے پر <ph name="BRAND"/> میں {NUM_PASSWORDS} پاس ورڈز در آمد کیے گئے}}</translation>
 <translation id="1046572983040892965">ونڈو اوپر اور بائیں طرف چلی گئی</translation>
 <translation id="1047431265488717055">لنک کا مت&amp;ن کاپی کریں</translation>
@@ -97,7 +97,7 @@
 <translation id="10619348099955377">ڈسپلے کا نام کاپی کریں</translation>
 <translation id="1062407476771304334">بدلیں</translation>
 <translation id="1064236804542808595">تنظیم کے شارٹ کٹس بحال کریں</translation>
-<translation id="2729345439181698540">‏‫Brave کے خیال میں آپ کو اس سائٹ سے اطلاعات مطلوب نہیں ہیں۔ لہذا، مداخلتوں کو کم کرنے کے لیے درخواستیں چھپا دی گئی ہیں۔</translation>
+<translation id="7962797086784806183">‏‫Wryling کے خیال میں آپ کو اس سائٹ سے اطلاعات مطلوب نہیں ہیں۔ لہذا، مداخلتوں کو کم کرنے کے لیے درخواستیں چھپا دی گئی ہیں۔</translation>
 <translation id="1066964438793906105">میلوئیر کے لیے اسکین کریں</translation>
 <translation id="3983904244054509097">‏اضافی حفاظت کے لیے، آپ اپنے آلہ پر پاس ورڈز کو اپنے Brave اکاؤنٹ میں محفوظ کرنے سے پہلے مرموز کر سکتے ہیں</translation>
 <translation id="5428209950370661546">‏دیگر Brave سروسز</translation>
@@ -141,7 +141,7 @@
 <translation id="1090541560108055381">جوڑا بنانے سے پہلے، یقینی بنائیں کہ یہ کوڈ دونوں آلات پر ایک جیسا ہے</translation>
 <translation id="1093457606523402488">دیکھنے لائق نیٹ ورکس:</translation>
 <translation id="1093645050124056515">‏ctrl + alt + نیچے تیر کا نشان</translation>
-<translation id="1676423917671990874">‏ویب پر موجود Brave پاس ورڈ مینیجر</translation>
+<translation id="3958643735082353873">‏ویب پر موجود Wryling پاس ورڈ مینیجر</translation>
 <translation id="1097016918605049747">اس صفحہ کا ترجمہ نہیں ہو سکا</translation>
 <translation id="1099962274138857708"><ph name="DEVICE_NAME"/> سے تصویر کاپی کی گئی</translation>
 <translation id="1100040363679327583">‏ٹاسک کا جائزہ لیں۔ ‫Gemini سے پوچھیں</translation>
@@ -225,7 +225,7 @@
 <translation id="1155816283571436363">آپ کے فون سے رابطہ ہو رہا ہے</translation>
 <translation id="3265387852639842086">‏Brave تلاش کے سائیڈ پینل کو بند کریں</translation>
 <translation id="1158080958325422608">بڑے حروف میں تبدیل کریں</translation>
-<translation id="4489415936688888898">‏‫Brave میں Gemini</translation>
+<translation id="4980210551795949534">‏‫Wryling میں Gemini</translation>
 <translation id="1159879754517035595">ایکسٹینش کی ترتیبات کا نظم کریں</translation>
 <translation id="1160800016654917722">ونڈو نیچے اور بائیں طرف منتقل ہو گئی</translation>
 <translation id="116173250649946226">آپ کے منتظم نے ایک ایسی ڈیفالٹ تھیم سیٹ کی ہے جسے تبدیل نہیں کیا جا سکتا۔</translation>
@@ -250,8 +250,8 @@
 <translation id="1173332155861271669">پاس پوائنٹ فراہم کنندہ کی تفصیلات</translation>
 <translation id="1173894706177603556">نام بدلیں</translation>
 <translation id="1174073918202301297">شارٹ کٹ شامل ہو گیا</translation>
-<translation id="4720923867206970346">‏جب تک کہ Brave آپ کو بصورت دیگر کچھ نہیں بتاتا ہے تب تک آپ کا کنکشن ہمیشہ محفوظ رہتا ہے</translation>
-<translation id="4077881064206141073">‏‫Brave پر جائیں</translation>
+<translation id="460601934457493674">‏جب تک کہ Wryling آپ کو بصورت دیگر کچھ نہیں بتاتا ہے تب تک آپ کا کنکشن ہمیشہ محفوظ رہتا ہے</translation>
+<translation id="3040558678310756332">‏‫Wryling پر جائیں</translation>
 <translation id="1175131936083782305">آپ کے منتظم نے اس خصوصیت کو غیر فعال کر دیا ہے۔</translation>
 <translation id="1175277108283187866">کسی سائٹ پر ملاحظہ کریں یا ایڈریس بار میں تلاش شروع کریں</translation>
 <translation id="1175364870820465910">&amp;پرنٹ کریں…</translation>
@@ -429,7 +429,7 @@
 <translation id="1308105352527684175">ہو سکتا ہے آپ کچھ مواد تک رسائی حاصل نہ کر سکیں</translation>
 <translation id="1311092170520822848">یہ سائٹ آپ کے آلے سے منسلک اسمارٹ کارڈ ریڈرز اور ممکنہ طور پر ان کیلئے دستیاب اسمارٹ کارڈز کو کنٹرول کر رہی ہے</translation>
 <translation id="131112695174432497">اشتہارات کی ذاتی نوعیت سازی کو متاثر کرنے والا ڈیٹا حذف کر دیا جاتا ہے</translation>
-<translation id="1092870157695460112">‏ڈاؤن لوڈز کی خاطر Brave کی اعلی ترین سطح کی سیکیورٹی حاصل کرنے کے لیے بہتر کردہ حفاظت دریافت کریں</translation>
+<translation id="1239647152794634812">‏ڈاؤن لوڈز کی خاطر Wryling کی اعلی ترین سطح کی سیکیورٹی حاصل کرنے کے لیے بہتر کردہ حفاظت دریافت کریں</translation>
 <translation id="1312298796781107732">{NUM_TABS,plural, =1{آپ کے براؤزر کی رفتار کو کم کرنے والے ٹیب کو ٹھیک کریں}other{آپ کے براؤزر کی رفتار کو کم کرنے والے ٹیبز کو ٹھیک کریں}}</translation>
 <translation id="1312721752506309252">بہتر کردہ تحفظ آن ہے</translation>
 <translation id="13130607084115184">‏محفوظ کردہ پاس ورڈز یہاں ظاہر ہوں گے۔ اس آلے پر <ph name="BRAND"/> میں پاس ورڈز درآمد کرنے کے لیے، <ph name="BEGIN_LINK"/> ایک CSV فائل منتخب کریں۔<ph name="END_LINK"/></translation>
@@ -465,7 +465,7 @@
 <translation id="1340839264183302272">گروپ چھوڑیں</translation>
 <translation id="1341002693404468853">آرگنائزر کو چھپائیں</translation>
 <translation id="1341701348342335220">بہت اچھا!</translation>
-<translation id="873343310451048603">‏متاثرہ پاس ورڈز چیک کرنے کے لیے Brave پاس ورڈ مینیجر پر جائیں</translation>
+<translation id="4973862711373394097">‏متاثرہ پاس ورڈز چیک کرنے کے لیے Wryling پاس ورڈ مینیجر پر جائیں</translation>
 <translation id="1343920184519992513">وہیں سے جاری رکھیں جہاں آپ نے چھوڑا تھا اور صفحات کا ایک مخصوص سیٹ کھولیں</translation>
 <translation id="1346630054604077329">تصدیق کر کے ری اسٹارٹ کریں</translation>
 <translation id="1346748346194534595">دائیں</translation>
@@ -498,7 +498,7 @@
 <translation id="1374844444528092021">نیٹ ورک "<ph name="NETWORK_NAME"/>" کے ذریعے مطلوب سرٹیفکیٹ یا تو انسٹال نہیں ہے یا اب درست نہیں ہے۔ براہ کرم ایک نیا سرٹیفکیٹ حاصل کریں اور دوبارہ منسلک کرنے کی کوشش کریں۔</translation>
 <translation id="1374948751106271187">دوران سفر ہونے پر تحفظ کی ایک اضافی پرت شامل کریں</translation>
 <translation id="137651782282853227">محفوظ کردہ پتے یہاں ظاہر ہوں گے</translation>
-<translation id="7377055577309465332">‏اگر آپ کے پاس ورڈز میں سے کوئی ڈیٹا کی خلاف ورزی میں پایا جاتا ہے تو Brave پاس ورڈ مینیجر پوچھتا ہے کہ کیا آپ اسے مضبوط پاس ورڈ میں تبدیل کرنا چاہتے ہیں</translation>
+<translation id="5008990945704272605">‏اگر آپ کے پاس ورڈز میں سے کوئی ڈیٹا کی خلاف ورزی میں پایا جاتا ہے تو Wryling پاس ورڈ مینیجر پوچھتا ہے کہ کیا آپ اسے مضبوط پاس ورڈ میں تبدیل کرنا چاہتے ہیں</translation>
 <translation id="1378613616312864539"><ph name="NAME"/> اس ترتیب کو کنٹرول کر رہا ہے</translation>
 <translation id="1378715594598306389">مزید ٹیبز دیکھیں</translation>
 <translation id="1380028686461971526">نیٹ ورک سے خودکار طور پر منسلک ہوں</translation>
@@ -647,7 +647,7 @@
 <translation id="1499041187027566160">والیوم بڑھائیں</translation>
 <translation id="1499948601784722399">سائٹ کی درخواستیں</translation>
 <translation id="1500297251995790841">نامعلوم آلہ [<ph name="VENDOR_ID"/>:<ph name="PRODUCT_ID"/>]</translation>
-<translation id="6440894523770886280">‏غیر تعاون یافتہ Brave ایپس کے بارے میں مزید جانیں</translation>
+<translation id="7828916217230765229">‏غیر تعاون یافتہ Wryling ایپس کے بارے میں مزید جانیں</translation>
 <translation id="1501480321619201731">گروپ حذف کریں</translation>
 <translation id="150411034776756821"><ph name="SITE"/> کو ہٹائیں</translation>
 <translation id="1504253885059472207">اسپلٹ ویو کو پن کریں</translation>
@@ -667,7 +667,7 @@
 <translation id="1512210426710821809">اس کو کالعدم کرنے کا واحد طریقہ <ph name="IDS_SHORT_PRODUCT_OS_NAME"/> کو دوبارہ انسٹال کرنا ہے</translation>
 <translation id="1512642802859169995"><ph name="FILE_NAME"/> مرموز کردہ ہے۔ اس کے مالک سے غیر مرموز کرنے کو کہیں۔</translation>
 <translation id="151501797353681931">‏Safari سے درآمد کردہ</translation>
-<translation id="7181162989909413015">‏کوڈ کا استعمال کر کے کاسٹ کرنے کے لیے، اپنے Brave براؤزر کی مطابقت پذیری کی ترتیبات کو آن کریں</translation>
+<translation id="4295055064213980989">‏کوڈ کا استعمال کر کے کاسٹ کرنے کے لیے، اپنے Wryling براؤزر کی مطابقت پذیری کی ترتیبات کو آن کریں</translation>
 <translation id="1521442365706402292">سرٹیفیکیٹس کا نظم کریں</translation>
 <translation id="1521655867290435174">Brave Sheets</translation>
 <translation id="1521933835545997395">‏Android فون سے منسلک ہے</translation>
@@ -706,11 +706,11 @@
 <translation id="1546452108651444655"><ph name="CHILD_NAME"/> ایک <ph name="EXTENSION_TYPE"/> انسٹال کرنا چاہتا ہے جو درجہ ذیل چیزیں کر سکتی ہے:</translation>
 <translation id="1547123415014299762">فریق ثالث کوکیز کی اجازت ہے</translation>
 <translation id="1547808936554660006">‏میں سمجھتا ہوں کہ انسٹال کردہ eSIM پروفائلز کو Powerwash کے ذریعے ہٹایا نہیں جائے گا</translation>
-<translation id="2009341821632988095">‏‫Brave میں Gemini دستیاب نہیں ہے</translation>
+<translation id="280951773191806143">‏‫Wryling میں Gemini دستیاب نہیں ہے</translation>
 <translation id="1549275686094429035">‏ARC فعال ہے</translation>
 <translation id="1549788673239553762"><ph name="APP_NAME"/> <ph name="VOLUME_NAME"/> تک رسائی حاصل کرنا چاہتی ہے۔ یہ آپ کی فائلوں میں ترمیم یا انہیں حذف کر سکتی ہے۔</translation>
 <translation id="1549966883323105187">اپنے محفوظ کردہ پاس ورڈز کو تیزی سے حاصل کریں</translation>
-<translation id="822755500038144322">‏ڈیفالٹ Brave</translation>
+<translation id="5480276139257027757">‏ڈیفالٹ Wryling</translation>
 <translation id="1552301827267621511"><ph name="SEARCH_PROVIDER_DOMAIN"/> کے استعمال کے لیے "<ph name="EXTENSION_NAME"/>" ایکسٹینشن نے تلاش کو تبدیل کر دیا</translation>
 <translation id="1552752544932680961">ایکسٹینشن کا نظم کریں</translation>
 <translation id="1553538517812678578">لا محدود</translation>
@@ -753,7 +753,7 @@
 <translation id="1581962803218266616">تلاش کنندہ میں دکھائیں</translation>
 <translation id="1582955169539260415">[<ph name="FINGERPRINT_NAME"/>] حذف کریں</translation>
 <translation id="1583127975413389276"><ph name="LANGUAGE"/> پر مقامی طور پر کارروائی کی جاتی ہے اور آف لائن کام کرتی ہے</translation>
-<translation id="491276955533054201">‏سب سے پہلے، اس آلہ کے لیے Brave آٹو براؤز کو آن کریں</translation>
+<translation id="2483396658308611628">‏سب سے پہلے، اس آلہ کے لیے Wryling آٹو براؤز کو آن کریں</translation>
 <translation id="1587275751631642843">‏JavaScript&amp; کونسول</translation>
 <translation id="1588438908519853928">حسب معمول</translation>
 <translation id="1588772269240419305">لوگو اور نام کی اپ ڈیٹس کا جائزہ لیں</translation>
@@ -779,7 +779,7 @@
 <translation id="1600857548979126453">صفحہ ڈیبگر بیک اینڈ تک رسائی حاصل کریں</translation>
 <translation id="1601481906560916994">سائٹ خارج کریں</translation>
 <translation id="1601560923496285236">لاگو کریں</translation>
-<translation id="8275260485701169654">‏Brave سسٹم کی معلومات</translation>
+<translation id="302546259431411287">‏Wryling سسٹم کی معلومات</translation>
 <translation id="1603411913360944381"><ph name="DEVICE_NAME"/> بھول جائیں</translation>
 <translation id="3860292630623580294">(پوشیدگی)</translation>
 <translation id="1604567162047669454">ویژوئل لے آؤٹ کی سیمنٹکس کو پہچانیں</translation>
@@ -797,7 +797,7 @@
 <translation id="1611649489706141841">فارورڈ کریں</translation>
 <translation id="1612019740169791082">‏آپ کا کنٹینر ڈسک کی سائز تبدیل کرنے کو سپورٹ کرنے کے لئے کنفیگر نہیں کیا گیا ہے۔ Linux کے لیے مختص کی گئی جگہ کی مقدار کو ایڈجسٹ کرنے کے لیے بیک اپ لیں اور اسے نئے کنٹینر میں بحال کریں۔</translation>
 <translation id="1612179176000108678">صرف اس وقت آن کریں جب آپ کی بیٹری <ph name="PERCENT"/>% یا اس سے کم ہو</translation>
-<translation id="2811168643228573149">‏Brave ایپس کے پرانے ورژنز دسمبر، 2022 کے بعد نہیں کھلیں گے۔ آپ چیک کر سکتے ہیں کہ کیا نیا ورژن دستیاب ہے۔</translation>
+<translation id="8232170710895633549">‏Wryling ایپس کے پرانے ورژنز دسمبر، 2022 کے بعد نہیں کھلیں گے۔ آپ چیک کر سکتے ہیں کہ کیا نیا ورژن دستیاب ہے۔</translation>
 <translation id="1614511179807650956">ممکن ہے آپ نے اپنا موبائل ڈیٹا الاؤنس استعمال کر لیا ہو۔ مزید ڈیٹا خریدنے کیلئے <ph name="NAME"/> کی فعالیت کا پورٹل ملاحظہ کریں</translation>
 <translation id="161460670679785907">آپ کے فون کا پتہ لگانے سے قاصر</translation>
 <translation id="1614890968027287789">علیحدہ براؤزنگ؟</translation>
@@ -810,7 +810,7 @@
 <translation id="1620307519959413822">پاس ورڈ غلط ہے۔ دوبارہ کوشش کریں یا اسے ری سیٹ کرنے کیلئے 'پاس ورڈ بھول گئے' پر کلک کریں۔</translation>
 <translation id="1620510694547887537">کیمرا</translation>
 <translation id="1620760691416124482">‫&amp;اسپلٹ ویو میں کھولیں</translation>
-<translation id="2380574999275845178">‏آپ کا پاس ورڈ عوامی ڈیٹا کی خلاف ورزی میں ملا ہے۔ ‫Brave پاس ورڈ مینیجر اسے تبدیل کر سکتا ہے اور اسے <ph name="EMAIL"/> میں محفوظ کر سکتا ہے۔ <ph name="LINK"/></translation>
+<translation id="945706443844722845">‏آپ کا پاس ورڈ عوامی ڈیٹا کی خلاف ورزی میں ملا ہے۔ ‫Wryling پاس ورڈ مینیجر اسے تبدیل کر سکتا ہے اور اسے <ph name="EMAIL"/> میں محفوظ کر سکتا ہے۔ <ph name="LINK"/></translation>
 <translation id="1621729191093924223">وہ خصوصیات کام نہیں کریں گی جن کے لیے مائيکروفون کی ضرورت ہوتی ہے</translation>
 <translation id="1621984899599015181">اشتراک کے اختیارات آپ کی تنظیم کے زیر انتظام ہیں۔ کچھ آئٹمز چھپ سکتے ہیں۔</translation>
 <translation id="1622054403950683339">‏Wi-Fi نیٹ ورک کو بھول جائیں</translation>
@@ -851,7 +851,7 @@
 <translation id="1651609627703324721">‏یہ ٹیب ایک ہیڈ سیٹ پر VR مواد پیش کر رہا ہے</translation>
 <translation id="1652281434788353738">فکر انگیز</translation>
 <translation id="1652326691684645429">قریبی آلات کے ساتھ اشتراک فعال کریں</translation>
-<translation id="3549478477646243075">‏macOS Keychain کے ساتھ پاس ورڈ مینیجر کا استعمال کرنے کے لیے، Brave کو بند کر کے دوبارہ چلائیں اور Keychain تک رسائی کی اجازت دیں۔ بند کر کے دوبارہ چلانے کے بعد، آپ کے ٹیبز دوبارہ کھل جائیں گے۔</translation>
+<translation id="2499592745937512720">‏macOS Keychain کے ساتھ پاس ورڈ مینیجر کا استعمال کرنے کے لیے، Wryling کو بند کر کے دوبارہ چلائیں اور Keychain تک رسائی کی اجازت دیں۔ بند کر کے دوبارہ چلانے کے بعد، آپ کے ٹیبز دوبارہ کھل جائیں گے۔</translation>
 <translation id="165448107578581061">‏‫Gemini آپ کے ٹاسک پر کام کر رہا ہے...</translation>
 <translation id="1654580009054503925">درخواستیں دکھانے کی اجازت نہیں ہے</translation>
 <translation id="1656528038316521561">پس منظر کا دھندلا پن</translation>
@@ -870,7 +870,7 @@
 <translation id="1665328953287874063">‏اپنا <ph name="DEVICE_TYPE"/> غیر مقفل کرنے کے لیے پاس ورڈ یا PIN کا استعمال کریں</translation>
 <translation id="1665859804801131136">اظہار پسندی</translation>
 <translation id="1667842670298352129">‏کچھ مخصوص ٹیکسٹ کو بآواز بلند پڑھتے ہوئے سنیں۔ پہلے، اپنی اسکرین کے نیچے 'سننے کیلئے منتخب کریں' آئیکن کو منتخب کریں، پھر ٹیکسٹ کو نمایاں کریں۔ آپ کی بورڈ شارٹ کٹ بھی استعمال کر سکتے ہیں: ٹیکسٹ نمایاں کریں، پھر تلاش + S کو دبائیں۔</translation>
-<translation id="1907729551248502985">‏<ph name="TASK_TITLE"/>: ‫Gemini نے آپ کا کام مکمل کر دیا ہے، آپ اسے Brave میں دیکھ سکتے ہیں</translation>
+<translation id="6525814448763773534">‏<ph name="TASK_TITLE"/>: ‫Gemini نے آپ کا کام مکمل کر دیا ہے، آپ اسے Wryling میں دیکھ سکتے ہیں</translation>
 <translation id="1668804837842452164"><ph name="EMAIL"/> کے لیے <ph name="BRAND"/> میں محفوظ کریں</translation>
 <translation id="1670070366970670971">‏‫PDF سب فریم: <ph name="SUBFRAME_SITE"/></translation>
 <translation id="1670399744444387456">بنیادی</translation>
@@ -879,7 +879,7 @@
 <translation id="1673137583248014546"><ph name="URL"/> آپ کی سیکیورٹی کلید کا برانڈ اور ماڈل دیکھنا چاہتا ہے</translation>
 <translation id="1673855466663721679">سائیڈ پینل میں بُک مارکس دکھائیں</translation>
 <translation id="1342491857153455138">سبھی (<ph name="URL_COUNT"/>) کو پوشیدگی ونڈو میں کھولیں</translation>
-<translation id="360538872024580404">‏‫Brave پاس ورڈ مینیجر آپ کے اکاؤنٹ کو ایک مضبوط پاس ورڈ کے ساتھ اپ ڈیٹ کر سکتا ہے جو آپ کے اکاؤنٹ <ph name="EMAIL"/> میں آپ کے لیے محفوظ ہے۔</translation>
+<translation id="7045853495100965504">‏‫Wryling پاس ورڈ مینیجر آپ کے اکاؤنٹ کو ایک مضبوط پاس ورڈ کے ساتھ اپ ڈیٹ کر سکتا ہے جو آپ کے اکاؤنٹ <ph name="EMAIL"/> میں آپ کے لیے محفوظ ہے۔</translation>
 <translation id="1674945585974615438">‏غیر مانوس سائٹس پر JavaScript آپٹیمائزرز کو خودکار طور پر غیر فعال کریں</translation>
 <translation id="1675964862374196038">‫<ph name="IDP_NAME"/> سے سائن اپ کریں</translation>
 <translation id="1677306805708094828"><ph name="EXTENSION_TYPE_PARAMETER"/> شامل نہیں کی جا سکتی</translation>
@@ -918,7 +918,7 @@
 <translation id="1703666494654169921">سائٹس کو ورچوئل رئیلٹی آلات یا ڈیٹا کا استعمال کرنے کی اجازت نہ دیں</translation>
 <translation id="1704097193565924901">بڑے حرف میں لکھیں</translation>
 <translation id="1704230497453185209">سائٹس کو آواز چلانے کی اجازت نہ دیں</translation>
-<translation id="2330259386430751078">‏آپ کا Brave ورژن، آپریٹنگ سسٹم ورژن، Cast کی ترتیبات، معکوس سازی کی کارکردگی کے اعدادوشمار اور مواصلتی چینل کے تشخیصی لاگز جمع کرائے جائیں گے جو ان معلومات کے علاوہ ہیں جنہیں آپ اوپر شامل کرنے کا انتخاب کرتے ہیں۔ مسائل کی تشخیص کرنے اور خصوصیت کو بہتر بنانے میں مدد کیلئے اس تاثرات کا استعمال کیا جاتا ہے۔ آپ کی جمع کرائی گئی کوئی بھی ذاتی نوعیت کی معلومات، چاہے واضح طور پر ہو یا اتفاقی طور پر، ہماری رازداری کی پالیسیوں کے مطابق محفوظ ہوگی۔ یہ تاثرات جمع کرا کر، آپ اس امر سے اتفاق کرتے ہیں کہ Brave آپ کے فراہم کردہ تاثرات کو کسی Brave پروڈکٹ یا سروس کو بہتر بنانے کیلئے استعمال کر سکتا ہے۔</translation>
+<translation id="2276664597334765028">‏آپ کا Brave ورژن، آپریٹنگ سسٹم ورژن، Cast کی ترتیبات، معکوس سازی کی کارکردگی کے اعدادوشمار اور مواصلتی چینل کے تشخیصی لاگز جمع کرائے جائیں گے جو ان معلومات کے علاوہ ہیں جنہیں آپ اوپر شامل کرنے کا انتخاب کرتے ہیں۔ مسائل کی تشخیص کرنے اور خصوصیت کو بہتر بنانے میں مدد کیلئے اس تاثرات کا استعمال کیا جاتا ہے۔ آپ کی جمع کرائی گئی کوئی بھی ذاتی نوعیت کی معلومات، چاہے واضح طور پر ہو یا اتفاقی طور پر، ہماری رازداری کی پالیسیوں کے مطابق محفوظ ہوگی۔ یہ تاثرات جمع کرا کر، آپ اس امر سے اتفاق کرتے ہیں کہ Brave آپ کے فراہم کردہ تاثرات کو کسی Brave پروڈکٹ یا سروس کو بہتر بنانے کیلئے استعمال کر سکتا ہے۔</translation>
 <translation id="17081583771848899">launcher + alt + <ph name="TOP_ROW_KEY"/></translation>
 <translation id="170825127491242914">کلاؤڈ اسٹوریج میں محفوظ کریں</translation>
 <translation id="1708291623166985230">ہاٹ اسپاٹ غیر فعال ہے</translation>
@@ -1123,7 +1123,7 @@
 <translation id="1866589962721094893">‏اس Chromebook پر Android ایپس کو USB آلات پر کنٹرول دیں۔ ہر بار جب آپ USB آلہ کو پلگ ان کریں گے تو اجازت کی درخواست کی جائے گی۔ انفرادی Android ایپس اضافی اجازتیں طلب کریں گی۔</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME"/> آپ کا انسٹالیشن مکمل کرنے کیلئے تیار ہے</translation>
 <translation id="1869433484041798909">بُک مارک بٹن</translation>
-<translation id="7175072311426658869">‏Brave براؤزر میں کھولیں</translation>
+<translation id="7259806589727104192">‏Wryling براؤزر میں کھولیں</translation>
 <translation id="1871131409931646355">ڈاؤن لوڈ کی مکمل سرگزشت</translation>
 <translation id="187145082678092583">کم ایپس</translation>
 <translation id="1871615898038944731">آپ کا <ph name="DEVICE_TYPE"/> اپ ٹو ڈیٹ ہے</translation>
@@ -1176,11 +1176,11 @@
 <translation id="1907044622262489040">‏اپنی آواز کی مدد سے ٹائپ کریں۔ Search + D استعمال کریں، پھر بولنا شروع کریں۔</translation>
 <translation id="1907659324308286326">‏ٹھیک طریقے سے کام کرنے کیلئے، Thunderbolt یا USB4 کے کچھ لوازمات کو میموری تک رسائی کی ضرورت پڑتی ہے۔</translation>
 <translation id="1908591798274282246">بند گروپ دوبارہ کھولیں</translation>
-<translation id="6307771221551726329">‏‫Brave کو خودکار ٹیسٹ سافٹ ویئر کنٹرول کر رہا ہے</translation>
+<translation id="5448629660377773960">‏‫Wryling کو خودکار ٹیسٹ سافٹ ویئر کنٹرول کر رہا ہے</translation>
 <translation id="1909880997794698664">کیا آپ واقعی مستقل طور پر اس آلے کو کیوسک وضع میں رکھنا چاہتے ہیں؟</translation>
 <translation id="1910721550319506122">خوش آمدید!</translation>
 <translation id="1910736334623230603">متعدد تصاویر کو تلاش نہیں کیا جا سکتا۔ ایک وقت میں ایک تصویر شامل کریں۔</translation>
-<translation id="2675239977494524649">‏Brave برائے <ph name="BROWSER_VERSION"/>v ٹیسٹنگ صرف خودکار ٹیسٹنگ کے لیے ہے۔ ریگولر براؤزنگ کے لیے، Brave کا ایک معیاری ورژن استعمال کریں جو خودکار طور پر اپ ڈیٹ ہوتا ہے۔</translation>
+<translation id="3397046954990092136">‏Wryling برائے <ph name="BROWSER_VERSION"/>v ٹیسٹنگ صرف خودکار ٹیسٹنگ کے لیے ہے۔ ریگولر براؤزنگ کے لیے، Wryling کا ایک معیاری ورژن استعمال کریں جو خودکار طور پر اپ ڈیٹ ہوتا ہے۔</translation>
 <translation id="1913734973620799732">{NUM_TABS,plural, =1{آپ کے براؤزر کی رفتار کو کم کرنے والے ٹیب کو روکیں}other{آپ کے براؤزر کی رفتار کو کم کرنے والے ٹیبز کو روکیں}}</translation>
 <translation id="1913749768968678106">کاسٹ کریں، محفوظ کریں اور اشتراک کریں</translation>
 <translation id="19147273405311768">ٹول بار کو ڈیفالٹ ترتیبات پر ری سیٹ کریں</translation>
@@ -1194,7 +1194,7 @@
 <translation id="1918281588461452432">جب آپ ویب سائٹس براؤز کرتے ہیں تو ان کے صفحے کا مواد مرموز ہو کر آپ کے آلے میں محفوظ ہو جاتے ہیں</translation>
 <translation id="1918761619391445601"><ph name="EXTENSION_NAME"/> پن کیا گیا ہے۔ مزید اختیارات دیکھیں۔</translation>
 <translation id="1920390473494685033">رابطے</translation>
-<translation id="1303494024456273059">‏آپ کے پاس خطرناک ویب سائٹس، ڈاؤن لوڈز اور ایکسٹینشنز کے خلاف Brave کی مضبوط ترین سیکیورٹی ہے۔</translation>
+<translation id="4473968066674302045">‏آپ کے پاس خطرناک ویب سائٹس، ڈاؤن لوڈز اور ایکسٹینشنز کے خلاف Wryling کی مضبوط ترین سیکیورٹی ہے۔</translation>
 <translation id="1921584744613111023"><ph name="DPI"/> dpi</translation>
 <translation id="1921600948984918136">‏"<ph name="NAME"/>" صرف اس آلے میں محفوظ ہے۔ اپنے دیگر آلات پر اس کا استعمال کرنے کے لیے، اسے اپنے Brave اکاؤنٹ میں محفوظ کریں۔</translation>
 <translation id="2428738111653039235">‏آپ کے انفرادی پروڈکٹس کی زبان کو تبدیل کرنے تک Gmail, Drive اور YouTube جیسی Brave سائٹس آپ کے Brave اکاؤنٹ کی زبان کا استعمال کرتی ہیں</translation>
@@ -1202,7 +1202,7 @@
 <translation id="192494336144674234">ان کے ساتھ کھولیں</translation>
 <translation id="1925017091976104802">پیسٹ کرنے کے لیے <ph name="MODIFIER_KEY_DESCRIPTION"/> دبائیں</translation>
 <translation id="1925021887439448749">حسب ضرورت ویب پتہ درج کریں</translation>
-<translation id="8049922435917813862">‏دسمبر 2022 کے بعد، Brave ایپس کے پرانے ورژنز Windows آلات پر اب مزید نہیں کھل سکیں گے۔ آپ چیک کر سکتے ہیں کہ کیا نیا ورژن دستیاب ہے۔</translation>
+<translation id="3973756123782124071">‏دسمبر 2022 کے بعد، Wryling ایپس کے پرانے ورژنز Windows آلات پر اب مزید نہیں کھل سکیں گے۔ آپ چیک کر سکتے ہیں کہ کیا نیا ورژن دستیاب ہے۔</translation>
 <translation id="1925907592956229423">کام نہیں کر رہا؟</translation>
 <translation id="1926339101652878330">یہ ترتیبات انٹرپرائز پالیسی کی جانب سے کنٹرول کی جاتی ہیں۔ براہ کرم مزید معلومات کیلئے اپنے منتظم سے رابطہ کریں۔</translation>
 <translation id="1926887872692564784">کرسر</translation>
@@ -1300,7 +1300,7 @@
 <translation id="1995916364271252349">سائٹس کون سی معلومات استعمال اور دکھا سکتی ہیں (مقام، کیمرا، پاپ اپس، اور بہت کچھ) کو کنٹرول کرتا ہے</translation>
 <translation id="199610894463449797">{0,plural, =1{اس پروفائل کو بند کریں}other{اس پروفائل کو بند کریں (# ونڈوز)}}</translation>
 <translation id="1996557034791506430">اجازت ہٹائیں؟</translation>
-<translation id="5123795870522389058">‏Brave کو آپ کے آلے سے منسلک ہونے کے لیے بلوٹوتھ استعمال کرنے کی اجازت درکار ہے</translation>
+<translation id="3521856355166442895">‏Wryling کو آپ کے آلے سے منسلک ہونے کے لیے بلوٹوتھ استعمال کرنے کی اجازت درکار ہے</translation>
 <translation id="1997616988432401742">آپ کے سرٹیفیکیٹس</translation>
 <translation id="1998715278591719161">آپ کے ہاتھوں کو ٹریک کرنے کی اجازت ہے</translation>
 <translation id="1999115740519098545">شروعات میں</translation>
@@ -1383,7 +1383,7 @@
 <translation id="2071393345806050157">کوئی مقامی لاگ فائل نہیں ہے۔</translation>
 <translation id="2073148037220830746">{NUM_EXTENSIONS,plural, =1{ایکسٹینشن انسٹال کرنے کے لیے کلک کریں}other{ان ایکسٹینشنز کو انسٹال کرنے کے لیے کلک کریں}}</translation>
 <translation id="2073505299004274893"><ph name="CHARACTER_LIMIT"/> یا اس سے کم حروف استعمال کریں</translation>
-<translation id="6310091415404224128">‏ChromeOS کروم صارف لاگز</translation>
+<translation id="652095390288645804">‏ChromeOS کروم صارف لاگز</translation>
 <translation id="2074599390896964828">قطعی مقام</translation>
 <translation id="2075088158103027942">سبسکرپشن پر جائیں</translation>
 <translation id="2075474481720804517"><ph name="BATTERY_PERCENTAGE"/>% بیٹری</translation>
@@ -1477,7 +1477,7 @@
 <translation id="2146263598007866206">سائٹس آپ کا وقت بچانے کے لیے خودکار طور پر متعلقہ فائلز کو ایک ساتھ ڈاؤن لوڈ کر سکتی ہیں</translation>
 <translation id="2147218225094845757">سائیڈ پینل چھپائیں</translation>
 <translation id="2147282432401652483">command</translation>
-<translation id="2147402320887035428">‏یہ فائل میلویئر ہو سکتی ہے۔<ph name="LINE_BREAK"/>Brave محفوظ براؤزنگ چیک کر رہی ہے کہ آیا یہ فائل غیر محفوظ ہے — اسکین کرنے میں عام طور پر چند سیکنڈ لگتے ہیں۔</translation>
+<translation id="3524545590873425652">‏یہ فائل میلویئر ہو سکتی ہے۔<ph name="LINE_BREAK"/>Brave محفوظ براؤزنگ چیک کر رہی ہے کہ آیا یہ فائل غیر محفوظ ہے — اسکین کرنے میں عام طور پر چند سیکنڈ لگتے ہیں۔</translation>
 <translation id="2147584561902725329">آخری پیریوڈک ٹاسک رن:</translation>
 <translation id="2148212683005708350">‎<ph name="MODIFIER_ONE"/> + <ph name="MODIFIER_TWO"/> + <ph name="MODIFIER_THREE"/> + <ph name="KEY"/>‎</translation>
 <translation id="2148219725039824548">اشتراک کو ماؤنٹ کرنے میں خرابی آگئی۔ نیٹ ورک پر متعین کردہ اشتراک نہیں ملا۔</translation>
@@ -1555,7 +1555,7 @@
 <translation id="3750252396973215586">‏جب آپ اپنے Brave اکاؤنٹ سے سائن ان ہوتے ہیں تو <ph name="BRAND"/> آپ کے پاس ورڈز کو چیک کر سکتا ہے</translation>
 <translation id="2204020417499639567">ای میل پُر کی گئی۔</translation>
 <translation id="2204034823255629767">آپ جو کچھ بھی ٹائپ کرتے ہیں اسے پڑھیں اور تبدیل کریں</translation>
-<translation id="2421570739058774699">‏Brave پاس ورڈ مینیجر کی مدد سے اس پاس کی کو تخلیق کرنے کے لیے، توثیق کریں کہ یہ آپ ہی ہیں</translation>
+<translation id="4389439850249114056">‏Wryling پاس ورڈ مینیجر کی مدد سے اس پاس کی کو تخلیق کرنے کے لیے، توثیق کریں کہ یہ آپ ہی ہیں</translation>
 <translation id="2204387456724731099">اس انتخاب کا ترجمہ نہیں ہو سکا</translation>
 <translation id="2204613850236199029">معلومات ہٹائی گئی</translation>
 <translation id="2207116775853792104">اس ایکسٹینشن کو برقرار رکھیں</translation>
@@ -1705,7 +1705,7 @@
 <translation id="2323685460575935191">اسکرول بٹنز چھپائیں</translation>
 <translation id="2325444234681128157">پاس ورڈ یاد رکھیں</translation>
 <translation id="2326188115274135041">‏خودکار غیر مقفل کریں کو آن کرنے کے لیے PIN کی تصدیق کریں</translation>
-<translation id="932658359823557793">‏یہ Brave اکاؤنٹ نہیں ہے۔ آپ جو آئٹمز Brave میں محفوظ کرتے ہیں وہ دوسرے آلات پر دستیاب نہیں ہوں گے۔</translation>
+<translation id="2402143283348433546">‏یہ Brave اکاؤنٹ نہیں ہے۔ آپ جو آئٹمز Brave میں محفوظ کرتے ہیں وہ دوسرے آلات پر دستیاب نہیں ہوں گے۔</translation>
 <translation id="2326906096734221931">ایپ کی ترتیبات کھولیں</translation>
 <translation id="2326931316514688470">ایپ &amp;دوبارہ لوڈ کریں</translation>
 <translation id="2327920026543055248"><ph name="TOTAL"/> میں سے <ph name="CHARACTER"/> حرف درج کریں</translation>
@@ -1731,7 +1731,7 @@
 <translation id="2343160676229467122"><ph name="SITE_NAME"/> پر ایکسٹینشنز کی اجازت نہیں ہے</translation>
 <translation id="2343390523044483367">راکی ماؤنٹین نیشنل پارک</translation>
 <translation id="2343747224442182863">اس ٹیب کو فوکس کریں</translation>
-<translation id="6055117817387598516">‏Brave ایپس کے پرانے ورژنز دسمبر، 2022 کے بعد نہیں کھلیں گے۔ نئے ورژن پر اپ ڈیٹ کرنے کے لیے اپنے منتظم سے رابطہ کریں یا یہ ایپ ہٹائیں۔</translation>
+<translation id="5799730171660321530">‏Wryling ایپس کے پرانے ورژنز دسمبر، 2022 کے بعد نہیں کھلیں گے۔ نئے ورژن پر اپ ڈیٹ کرنے کے لیے اپنے منتظم سے رابطہ کریں یا یہ ایپ ہٹائیں۔</translation>
 <translation id="2348176352564285430">ایپ: <ph name="ARC_PROCESS_NAME"/></translation>
 <translation id="2348729153658512593">‏<ph name="WINDOW_TITLE"/> - اجازت کی درخواست کی گئی، جواب دینے کے ليے Ctrl + Forward دبائیں</translation>
 <translation id="234889437187286781">ڈیٹا کو لوڈ کرنے میں خرابی</translation>
@@ -1885,10 +1885,10 @@
 <translation id="2462577132948197840">اپنے فون پر سائن ان کریں</translation>
 <translation id="246264032905007361">‏‫Edge کھولیں</translation>
 <translation id="2462752602710430187"><ph name="PRINTER_NAME"/> کو شامل کر دیا گیا</translation>
-<translation id="3708525592265213987">‏‫SharePoint اور OneDrive میں اپنی حالیہ ترین سرگرمی پر آسانی سے واپس جانے میں آپ کی مدد کرنے کیلئے، آپ تجویز کردہ فائلز دیکھ رہے ہیں۔
+<translation id="3512223990745179540">‏‫SharePoint اور OneDrive میں اپنی حالیہ ترین سرگرمی پر آسانی سے واپس جانے میں آپ کی مدد کرنے کیلئے، آپ تجویز کردہ فائلز دیکھ رہے ہیں۔
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        آپ کارڈ مینو سے ترتیبات کا نظم کر سکتے یا 'Brave کو حسب ضرورت بنائیں' میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
+        آپ کارڈ مینو سے ترتیبات کا نظم کر سکتے یا 'Wryling کو حسب ضرورت بنائیں' میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
 <translation id="2464079411014186876">آئس کریم</translation>
 <translation id="2467755475704469005">کسی آلے کا پتہ نہیں چلا۔ <ph name="BEGIN_LINK"/>مزید جانیں<ph name="END_LINK"/></translation>
 <translation id="2467933879189426525">‫<ph name="OWNER_FIRST_NAME"/> اور <ph name="NUM_OTHER_MEMBERS"/> دیگر کے ساتھ ٹیب گروپ میں شامل ہوں</translation>
@@ -1960,10 +1960,10 @@
 <translation id="2509918030571808322">‫<ph name="TASK_TITLE"/>: <ph name="STEP_PROGRESS"/></translation>
 <translation id="2512065992892294946"><ph name="LANGUAGE"/> (منتخب کیا گیا)</translation>
 <translation id="2513904627589542105">ذاتی ٹیسٹ</translation>
-<translation id="2853929249020379065">‏اپنی تازہ ترین سرگرمی پر آسانی سے واپس جانے میں آپ کی مدد کرنے کے لیے آپ وہ صفحات جنہیں آپ ملاحظہ کر چکے ہیں اور تجویز کردہ تلاشیں دیکھ رہے ہیں۔
+<translation id="2148080035799245255">‏اپنی تازہ ترین سرگرمی پر آسانی سے واپس جانے میں آپ کی مدد کرنے کے لیے آپ وہ صفحات جنہیں آپ ملاحظہ کر چکے ہیں اور تجویز کردہ تلاشیں دیکھ رہے ہیں۔
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        آپ کارڈ مینو سے ترتیبات کا نظم کر سکتے یا Brave کو حسب ضرورت بنائیں میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
+        آپ کارڈ مینو سے ترتیبات کا نظم کر سکتے یا Wryling کو حسب ضرورت بنائیں میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
 <translation id="2514465118223423406">ماؤس کے منسلک ہونے پر</translation>
 <translation id="2515586267016047495">Alt</translation>
 <translation id="251722524540674480">اپنے صارف نام کی توثیق کریں</translation>
@@ -2056,7 +2056,7 @@
 <translation id="2589658397149952302">‏Drive فائلیں کبھی نہ دکھائیں</translation>
 <translation id="2597073208962000830">قریبی آلات کے ساتھ اشتراک قریبی آلات تلاش کرنے کے لیے بلوٹوتھ اسکیننگ کا استعمال کرتا ہے۔</translation>
 <translation id="2598136842498757793">ٹول بار کے بٹنز کو حسب ضرورت بنائیں</translation>
-<translation id="2024721991200132064">‏نیا Brave دستیاب ہے</translation>
+<translation id="2001896808401121187">‏نیا Wryling دستیاب ہے</translation>
 <translation id="2599048253926156421">صارف کا نام کلپ بورڈ پر کاپی ہو گیا</translation>
 <translation id="2600631204638174747">{NUM_SITES,plural, =1{‫1 غیر محفوظ ایکسٹینشن کو آف کر دیا گیا}other{‫{NUM_SITES} غیر محفوظ ایکسٹینشنز کو آف کر دیا گیا}}</translation>
 <translation id="2603121359676416582">اس صفحہ کے لیے</translation>
@@ -2085,7 +2085,7 @@
 <translation id="2618797463720777311">قریبی آلات کے ساتھ اشتراک کو سیٹ اپ کریں</translation>
 <translation id="2619305858360733464">‫<ph name="SHARED_STATE"/> بغیر نام کے گروپ - <ph name="OPENED_STATE"/></translation>
 <translation id="2619340799655338321">چلائیں/روکیں</translation>
-<translation id="9145669676445236687">Brave &amp;Labs...</translation>
+<translation id="7386574547123882068">Wryling &amp;Labs...</translation>
 <translation id="2620215283731032047"><ph name="FILE_NAME"/> فائل کو محفوظ طریقے سے ڈاؤن لوڈ نہیں کیا جا سکتا ہے۔</translation>
 <translation id="2620245777360407679">فی الحال ہاٹ اسپاٹ سے منسلک آلات</translation>
 <translation id="2620436844016719705">سسٹم</translation>
@@ -2163,19 +2163,19 @@
 <translation id="3760153688434998813">‏<ph name="BEGIN_LINK"/>‫Brave ویب اسٹور<ph name="END_LINK"/> سے ملتی جلتی ایکسٹینشنز کے ساتھ اسے ہٹائیں یا تبدیل کریں</translation>
 <translation id="2669250147452250961">دوسرے آلات سے اپنی براؤزنگ کی سرگزشت اور ٹیبز حاصل کرنے کے لیے آن کریں</translation>
 <translation id="2669454659051515572">اس آلے کا استعمال کرنے والا کوئی بھی شخص ڈاؤن لوڈ کردہ فائلز کو دیکھ سکتا ہے</translation>
-<translation id="351520635355732555">‏<ph name="APP_NAME"/> ایک Brave ٹیب کا اشتراک کر رہی ہے۔</translation>
-<translation id="3767686227734654975">‏اگر Brave کو عوامی ڈیٹا کی خلاف ورزی میں آپ کے پاس ورڈز میں سے کوئی ایک مل جاتا ہے تو آپ کے سائن ان ہونے پر Brave پاس ورڈ مینیجر آپ کے لیے آپ کا پاس ورڈ تبدیل کرنے کی پیشکش کر سکتا ہے۔ <ph name="BEGIN_LINK"/>پاس ورڈ کی خودکار تبدیلی کے بارے میں مزید<ph name="END_LINK"/></translation>
+<translation id="4660722239919846618">‏<ph name="APP_NAME"/> ایک Wryling ٹیب کا اشتراک کر رہی ہے۔</translation>
+<translation id="5637102320592120576">‏اگر Wryling کو عوامی ڈیٹا کی خلاف ورزی میں آپ کے پاس ورڈز میں سے کوئی ایک مل جاتا ہے تو آپ کے سائن ان ہونے پر Wryling پاس ورڈ مینیجر آپ کے لیے آپ کا پاس ورڈ تبدیل کرنے کی پیشکش کر سکتا ہے۔ <ph name="BEGIN_LINK"/>پاس ورڈ کی خودکار تبدیلی کے بارے میں مزید<ph name="END_LINK"/></translation>
 <translation id="2670350619068134931">کم کردہ اینیمیشنز</translation>
 <translation id="2670403088701171361">سائٹس کو اپنے کلپ بورڈ پر ٹیکسٹ یا تصاویر دیکھنے کی اجازت نہ دیں</translation>
 <translation id="2671423594960767771">گروپ کا اشتراک کریں</translation>
 <translation id="2671451824761031126">آپ کے بُک مارکس اور ترتیبات تیار ہیں</translation>
-<translation id="5999615052787816207">‏‫Brave کمانڈ لائن فائل سے پرچم لوڈ کر رہا ہے۔ استحکام اور سیکیورٹی متاثر ہو سکتی ہے۔</translation>
+<translation id="2630650338443498102">‏‫Wryling کمانڈ لائن فائل سے پرچم لوڈ کر رہا ہے۔ استحکام اور سیکیورٹی متاثر ہو سکتی ہے۔</translation>
 <translation id="2673135533890720193">اپنی براؤزنگ سرگزشت پڑھیں</translation>
 <translation id="2673848446870717676">‏اس بات کو یقینی بنائیں کہ آپ کا بلوٹوتھ آلہ 'جوڑا بنانے والے موڈ' میں ہے اور قریب ہی موجود ہے۔ اپنے بھروسے مند آلات کے ساتھ ہی جوڑا بنائیں۔ جوڑا بنائے ہوئے آلات اس Chromebook پر موجود سبھی اکاؤنٹس کے لیے مرئی ہیں۔</translation>
 <translation id="2673873887296220733">کھولنے کے لیے 1 فائل کو <ph name="CLOUD_PROVIDER"/> میں کاپی کریں؟</translation>
 <translation id="267442004702508783">ریفریش کریں</translation>
 <translation id="2674756932811577764">اثرات موقوف کریں</translation>
-<translation id="6593843405048698743">‏‫Brave پر Gemini سے ملیں</translation>
+<translation id="7272548036530777000">‏‫Wryling پر Gemini سے ملیں</translation>
 <translation id="4949006391524401372">‏اس ایکسٹینشن کو انٹرپرائز پالیسی نے غیر فعال کر دیا ہے کیونکہ یہ Brave ویب اسٹور پر اب مزید دستیاب نہیں ہے۔</translation>
 <translation id="2677748264148917807">چھوڑیں</translation>
 <translation id="267829273183481634">{NUM_GROUPS,plural, =1{ٹیب گروپ کو رکھیں؟}other{ٹیب گروپس کو رکھیں؟}}</translation>
@@ -2183,7 +2183,7 @@
 <translation id="2682498795777673382">آپ کے والدین کی جانب سے اپ ڈیٹ</translation>
 <translation id="2683638487103917598">فولڈر ترتیب شدہ ہیں</translation>
 <translation id="2685193395980129388">اجازت ہے – <ph name="PERMISSION_DETAILS"/></translation>
-<translation id="4772325112693163883">‏آپ کو یہ پاس ورڈ یاد رکھنے کی ضرورت نہیں ہوگی۔ اسے Brave پاس ورڈ مینیجر میں <ph name="ACCOUNT"/> کے لیے محفوظ کیا جائے گا۔</translation>
+<translation id="3156512094077940104">‏آپ کو یہ پاس ورڈ یاد رکھنے کی ضرورت نہیں ہوگی۔ اسے Wryling پاس ورڈ مینیجر میں <ph name="ACCOUNT"/> کے لیے محفوظ کیا جائے گا۔</translation>
 <translation id="2690024944919328218">زبان کے اختیارات دکھائیں</translation>
 <translation id="2691385045260836588">ماڈل</translation>
 <translation id="2692503699962701720">عنصر کی اقسام اور فارمیٹ کردہ ٹیکسٹ بولتے وقت پِچ تبدیل کریں</translation>
@@ -2265,7 +2265,7 @@
 <translation id="2741912629735277980">‏لاگ ان اسکرین پر UI ڈسپلے کریں</translation>
 <translation id="2742373789128106053"><ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> ابھی دستیاب نہیں ہے۔</translation>
 <translation id="2743301740238894839">شروع کریں</translation>
-<translation id="3491974999711898233">‏اپنا پاس ورڈ Brave پاس ورڈ مینیجر میں محفوظ کرنے کے لیے، مقام بار میں پاس ورڈ مینیجر کا آئیکن دبائیں</translation>
+<translation id="2309654501049956864">‏اپنا پاس ورڈ Wryling پاس ورڈ مینیجر میں محفوظ کرنے کے لیے، مقام بار میں پاس ورڈ مینیجر کا آئیکن دبائیں</translation>
 <translation id="2743387203779672305">کلپ بورڈ پر کاپی کریں</translation>
 <translation id="274362947316498129">ایک ایپ <ph name="DEVICE_NAME"/> تک رسائی حاصل کرنے کی کوشش کر رہی ہے۔ رسائی کی اجازت دینے کے لیے <ph name="DEVICE_NAME"/> رازداری کا سوئچ آف کریں۔</translation>
 <translation id="2744221223678373668">اشتراک کردہ</translation>
@@ -2431,7 +2431,7 @@
 <translation id="2869511363030898130"><ph name="APP_NAME"/> ایپ میں کھولیں</translation>
 <translation id="2870560284913253234">سائٹ</translation>
 <translation id="2870909136778269686">اپ ڈیٹ جاری ہے...</translation>
-<translation id="796921500671266784">‏یہ ایپ ممکنہ طور پر خطرناک ہے اور اسے Brave نے مسدود کر دیا ہے</translation>
+<translation id="5973705351508783392">‏یہ ایپ ممکنہ طور پر خطرناک ہے اور اسے Wryling نے مسدود کر دیا ہے</translation>
 <translation id="2871733351037274014">پیشگی لوڈ والے صفحات</translation>
 <translation id="2871813825302180988">یہ اکاؤنٹ پہلے سے ہی اس آلے پر استعمال کیا جا رہا ہے۔</translation>
 <translation id="287205682142673348">پورٹ فارورڈنگ</translation>
@@ -2440,7 +2440,7 @@
 <translation id="2873744479411987024">زیادہ ریفریش ریٹ کے ساتھ، آپ کے پاس مزید تفصیلات کے ساتھ ایک ہموار ڈسپلے ہوگا۔ ریفریش ریٹ میں اضافہ بیٹری لائف کو متاثر کر سکتا ہے۔</translation>
 <translation id="2873956234023215251">ایپ انسٹال نہیں ہو سکی۔ کچھ غلط ہو گیا۔</translation>
 <translation id="2874939134665556319">پچھلا ٹریک</translation>
-<translation id="4156865452842056672">‏(Brave میں خرابی کے صفحات)</translation>
+<translation id="1764117716686866474">‏(Wryling میں خرابی کے صفحات)</translation>
 <translation id="2876369937070532032">‏آپ کو سیکیورٹی کا خطرہ لاحق ہونے پر، Brave کو آپ کے ملاحظہ کئے جانے والے چند صفحات کے URLs بھیجتا ہے</translation>
 <translation id="2876484123356705658">وقت کی حد کا انتخاب کریں</translation>
 <translation id="2876556152483133018">سائٹ کی تلاش</translation>
@@ -2454,7 +2454,7 @@
 <translation id="2885378588091291677">ٹاسک مینیجر</translation>
 <translation id="2886771036282400576">• <ph name="PERMISSION"/></translation>
 <translation id="288734198558082692"><ph name="DEVICE"/> اور <ph name="NUMBER_OF_DEVICES"/> دیگر</translation>
-<translation id="7145068271494881186">‏براؤز کرتے وقت جوابات، اہم نکات اور مزید حاصل کرنے کے لیے Brave میں Gemini کے ساتھ چیٹ کریں</translation>
+<translation id="36564223923169344">‏براؤز کرتے وقت جوابات، اہم نکات اور مزید حاصل کرنے کے لیے Wryling میں Gemini کے ساتھ چیٹ کریں</translation>
 <translation id="2889043468805635730">کوئی مسئلہ نہیں ملا</translation>
 <translation id="2889064240420137087">اس کے ساتھ لنک کھولیں…</translation>
 <translation id="2889937141553641427">{0,plural, =1{الگ تھلگ کردہ وضع}other{‫# کھلی ہوئی الگ تھلگ کردہ وضع ونڈوز}}</translation>
@@ -2464,7 +2464,7 @@
 <translation id="2893318819023133318">مناظر ریورس کریں</translation>
 <translation id="2894596417096093634">کریش رپورٹ شناخت کاران</translation>
 <translation id="2894757982205307093">گروپ میں نیا ٹیب</translation>
-<translation id="5168657537153320842">‏‫Gemini Spark اس آلہ پر صرف اس صورت میں آٹو براؤز کا استعمال کر سکتا ہے جب آلہ بیدار ہو اور Brave چل رہا ہو۔</translation>
+<translation id="4609378462161046249">‏‫Gemini Spark اس آلہ پر صرف اس صورت میں آٹو براؤز کا استعمال کر سکتا ہے جب آلہ بیدار ہو اور Wryling چل رہا ہو۔</translation>
 <translation id="289695669188700754">‏کلید ‎ID: <ph name="KEY_ID"/>‎</translation>
 <translation id="8148807910118761153">آپ کے اپنی سبھی پوشیدگی ونڈوز بند کرنے پر اس حسب ضرورت ترتیب کو ہٹا دیا جائے گا</translation>
 <translation id="2897878306272793870">کیا آپ واقعی <ph name="TAB_COUNT"/> ٹیبز کھولنا چاہتے ہیں؟</translation>
@@ -2486,7 +2486,7 @@
 <translation id="2908122561561557160">‏Word, Excel اور PowerPoint فائلز کھولیں</translation>
 <translation id="2908162660801918428">ڈائریکٹری کے لحاظ سے میڈیا گیلری شامل کریں</translation>
 <translation id="2908358077082926882">تفویض اور <ph name="RESPONSE"/> ہٹانے کے لیے "<ph name="CURRENTKEY"/>" دوبارہ دبائيں</translation>
-<translation id="2266953261741300226">‏اپنے موبائل آلے پر Brave حاصل کریں</translation>
+<translation id="1076740576781805023">‏اپنے موبائل آلے پر Wryling حاصل کریں</translation>
 <translation id="2910318910161511225">نیٹ ورک سے منسلک ہو کر دوبارہ کوشش کریں</translation>
 <translation id="2910678330803525229">اب آپ براؤزنگ شروع کر سکتے ہیں</translation>
 <translation id="2912247081180973411">ونڈوز بند کریں</translation>
@@ -2501,14 +2501,14 @@
 <translation id="2920852127376356161">پروٹوکولز ہینڈل کرنے کی اجازت نہیں ہے</translation>
 <translation id="2923234477033317484">یہ اکاؤنٹ ہٹائیں</translation>
 <translation id="2923644930701689793">اپنے فون کے کیمرا رول تک رسائی حاصل کریں</translation>
-<translation id="3249101334307130799">‏Brave کی ترتیبات</translation>
+<translation id="3482382083907212749">‏Wryling کی ترتیبات</translation>
 <translation id="2926085873880284723">ڈیفالٹ شارٹ کٹس بحال کریں</translation>
 <translation id="2926708162326352948">تھیم کو اپ لوڈ کردہ تصویر میں اپ ڈیٹ کر دیا گیا</translation>
 <translation id="2927017729816812676">کیش اسٹوریج</translation>
 <translation id="7099134950659097846">‏انتخاب محفوظ ہو گیا۔ جب آپ Brave کی دیگر سروسز میں سائن ان کریں گے تو آپ کا انتخاب لاگو ہوگا۔</translation>
 <translation id="2928361271496576301">ہاٹ کلید قبول کریں</translation>
 <translation id="2928795416630981206">آپ کے کیمرا کی پوزیشن ٹریک کرنے کی اجازت ہے</translation>
-<translation id="8154235090364237757">{NUM_SITES,plural, =1{‏‫Brave نے 1 سائٹ سے اجازتیں ہٹا دیں}other{‏‫Brave نے {NUM_SITES} سائٹس سے اجازتیں ہٹا دیں}}</translation>
+<translation id="5921083063517633760">{NUM_SITES,plural, =1{‏‫Wryling نے 1 سائٹ سے اجازتیں ہٹا دیں}other{‏‫Wryling نے {NUM_SITES} سائٹس سے اجازتیں ہٹا دیں}}</translation>
 <translation id="2931157624143513983">پرنٹ کرنے لائق جگہ پر فٹ کریں</translation>
 <translation id="2931342457001070961">کوئی مائیکروفون منسلک نہیں ہے</translation>
 <translation id="2932085390869194046">پاس ورڈ تجویز کریں...</translation>
@@ -2532,7 +2532,7 @@
 <translation id="2946119680249604491">کنکشن شامل کریں</translation>
 <translation id="2946190589196900944">ڈسپلے کے احاطے</translation>
 <translation id="2946640296642327832">بلوٹوتھ فعال کریں</translation>
-<translation id="1130593361639324030">‏ٹیب گروپس کا اشتراک کرنے یا اس میں شامل ہونے کے لیے آپ کو Brave میں سائن ان کرنا ضروری ہے</translation>
+<translation id="3774434044366960368">‏ٹیب گروپس کا اشتراک کرنے یا اس میں شامل ہونے کے لیے آپ کو Wryling میں سائن ان کرنا ضروری ہے</translation>
 <translation id="2947605845283690091">ویب براؤزنگ تیز ہونی چاہیے۔ ابھی <ph name="BEGIN_LINK"/>اپنی ایکسٹینشنز کو چیک کرنے<ph name="END_LINK"/> کے لیے وقت نکالیں۔</translation>
 <translation id="2948287943780377675">{FILE_COUNT,plural, =1{فائل یہاں ڈراپ کریں}other{فائلوں کو یہاں ڈراپ کریں}}</translation>
 <translation id="2948300991547862301"><ph name="PAGE_TITLE"/> پر جائیں</translation>
@@ -2562,7 +2562,7 @@
 <translation id="2967926928600500959">‏ان اصولوں سے مماثل URLs کو ایک مخصوص براؤزر میں زبردستی کھولا جائے گا۔</translation>
 <translation id="2969411787010981955">ڈیٹا کو منتخب مقام پر برآمد کر دیا گیا ہے</translation>
 <translation id="2970766364519518369">منتخب کردہ رابطے قریب ہونے پر آپ کے ساتھ اشتراک کر سکتے ہیں۔ آپ سے ان درخواستوں کو منظور کرنے کے لیے کہا جائے گا۔ آپ کو <ph name="USER_EMAIL"/> میں سائن ان ہونے والے آلات کے درمیان اشتراک کی منظوری دینے کی ضرورت نہیں ہوگی۔</translation>
-<translation id="4802379027410104335">‏اس Brave اکاؤنٹ کے ساتھ Brave</translation>
+<translation id="5125039946630180885">‏اس Brave اکاؤنٹ کے ساتھ Brave</translation>
 <translation id="2972557485845626008">فرم ویئر</translation>
 <translation id="2972581237482394796">&amp;واپس لائیں</translation>
 <translation id="2973324205039581528">سائٹ کی آواز بند کریں</translation>
@@ -2580,7 +2580,7 @@
 <translation id="2983373101216420412">کیس بیٹری کا لیول <ph name="PERCENTAGE"/>% ہے۔</translation>
 <translation id="2983818520079887040">ترتیبات…</translation>
 <translation id="2984727013951557074">‏فائل کو ابھی بھی Drive سے مطابقت پذیر کیا جا رہا ہے۔</translation>
-<translation id="5706997116413643454">‏‫Brave پاس ورڈ مینیجر کے ساتھ اس آلہ پر اپنی پاس کیز حاصل کریں</translation>
+<translation id="47461721301249579">‏‫Wryling پاس ورڈ مینیجر کے ساتھ اس آلہ پر اپنی پاس کیز حاصل کریں</translation>
 <translation id="2985476671756533899">{NUM_SUB_APPS,plural, =1{<ph name="APP_NAME"/> نے ایک ایپ کو اَن انسٹال کر دیا}other{<ph name="APP_NAME"/> نے # ایپس کو اَن انسٹال کر دیا}}</translation>
 <translation id="2988018669686457659">اسپیئر رینڈرر</translation>
 <translation id="2988328607561082373">آپ کوئی پاس ورڈ دوبارہ استعمال نہیں کر رہے ہیں</translation>
@@ -2732,7 +2732,7 @@
 <translation id="3083899879156272923">ماؤس کو اسکرین کے مرکز میں رکھ کر اسکرین کو حرکت دیں</translation>
 <translation id="3084121729444215602">آپ کے منتظم نے <ph name="EXTENSION_NAME"/> کو پن کیا ہے</translation>
 <translation id="3084548735795614657">انسٹال کرنے کیلئے ڈراپ کریں</translation>
-<translation id="5418694430960033386">‏یا تو Brave کی میموری ختم ہوگئی یا کسی دیگر وجہ سے ویب صفحہ کیلئے کارروائی معطل کر دی گئی۔ جاری رکھنے کیلئے دوبارہ لوڈ کریں یا کسی دوسرے صفحہ پر جائیں۔</translation>
+<translation id="1938891602372007002">‏یا تو Wryling کی میموری ختم ہوگئی یا کسی دیگر وجہ سے ویب صفحہ کیلئے کارروائی معطل کر دی گئی۔ جاری رکھنے کیلئے دوبارہ لوڈ کریں یا کسی دوسرے صفحہ پر جائیں۔</translation>
 <translation id="3085412380278336437">سائٹ آپ کا کیمرا استعمال کر سکتی ہے</translation>
 <translation id="3087734570205094154">نیچے</translation>
 <translation id="3088052000289932193">‏سائٹ MIDI استعمال کر رہی ہے</translation>
@@ -2750,7 +2750,7 @@
 <translation id="310297983047869047">پچھلی سلائیڈ</translation>
 <translation id="3103451787721578293">براہ کرم اس ڈیٹا کو اپ لوڈ کرنے کی وجہ درج کریں:</translation>
 <translation id="3105339775057145050">آخری ناکام اپ ڈیٹ</translation>
-<translation id="4566550081126272435">‏Brave پر واپس جائیں؟</translation>
+<translation id="5053372439942907467">‏Wryling پر واپس جائیں؟</translation>
 <translation id="3105820656234755131">اپ ڈیٹ کردہ پاس ورڈ</translation>
 <translation id="3105990244222795498"><ph name="DEVICE_NAME"/> (بلوٹوتھ)</translation>
 <translation id="310671807099593501">سائٹ بلوٹوتھ استعمال کر رہی ہے</translation>
@@ -2776,7 +2776,7 @@
 <translation id="3122496702278727796">ڈیٹا ڈائریکٹری بنانے میں ناکام ہوگیا</translation>
 <translation id="3122883569442693641">مزید تفصیلات</translation>
 <translation id="3124111068741548686">صارف ہینڈلز</translation>
-<translation id="10925962326134232">‏اپنے براؤزر کو نئی شکل دینے کے لیے Brave کو حسب ضرورت بنائیں</translation>
+<translation id="908722199085381104">‏اپنے براؤزر کو نئی شکل دینے کے لیے Wryling کو حسب ضرورت بنائیں</translation>
 <translation id="3124950826511066429">وہ ترتیبات جو اس بات کو متاثر کرتی ہیں کہ آٹو فل مختلف قسم کی معلومات میں کیسے کام کرتا ہے</translation>
 <translation id="3125361247594231799">اسے اگلی بار کیلئے پن کریں</translation>
 <translation id="3126026824346185272">Ctrl</translation>
@@ -2799,7 +2799,7 @@
 <translation id="3143754809889689516">شروع سے چلائیں</translation>
 <translation id="3144647712221361880">لنک کو اس کے بطور کھولیں</translation>
 <translation id="3147878021189006333">اومنی باکس</translation>
-<translation id="300669147395456190">‏Brave ایپس</translation>
+<translation id="7379373399486006075">‏Wryling ایپس</translation>
 <translation id="3150927491400159470">ہارڈ ری لوڈ</translation>
 <translation id="315116470104423982">موبائل ڈیٹا</translation>
 <translation id="3151539355209957474">وقت آغاز</translation>
@@ -2877,15 +2877,15 @@
 <translation id="3202499879214571401"><ph name="DEVICE_NAME"/> پر اسکرین کو کاسٹ کرنا شروع کریں</translation>
 <translation id="3202578601642193415">جدید ترین</translation>
 <translation id="3206289903841621620">صارف کی لغت <ph name="NUMBER"/></translation>
-<translation id="3746394893874035323">‏آپ تجویز کردہ تلاشیں اور خریداری کی رعایتیں دیکھ رہے ہیں جو آپ کی حالیہ سرگرمی کی بنیاد پر آپ کی دلچسپی کا باعث بن سکتی ہیں۔
+<translation id="929201866904025342">‏آپ تجویز کردہ تلاشیں اور خریداری کی رعایتیں دیکھ رہے ہیں جو آپ کی حالیہ سرگرمی کی بنیاد پر آپ کی دلچسپی کا باعث بن سکتی ہیں۔
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        آپ کسی بھی وقت اس کارڈ سے ترتیبات کا نظم کر سکتے ہیں یا حسب ضرورت Brave میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
+        آپ کسی بھی وقت اس کارڈ سے ترتیبات کا نظم کر سکتے ہیں یا حسب ضرورت Wryling میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
 <translation id="3207909572959773060">{NUM_TABS,plural, =1{‫1 ٹیب میں نیا ٹیب}other{‫# ٹیبز میں نیا ٹیب}}</translation>
 <translation id="3207960819495026254">بُک مارک بنایا ہوا</translation>
 <translation id="3208321278970793882">ایپ</translation>
 <translation id="3208703785962634733">غیر توثیق شدہ</translation>
-<translation id="3209703592917353472">آپ جو بھی سائٹ ملاحظہ کرتے ہیں، وہ اس بارے میں معلومات کو محفوظ کر سکتی ہے کہ آپ کیا کر رہے ہیں تاکہ وہ آپ کی توقع کے مطابق کام کرے — مثال کے طور پر، آپ کو کسی سائٹ میں سائن ان رکھنے یا آپ کے شاپنگ کارٹ میں آئٹمز کو محفوظ کرنے کیلئے۔ اکثر سائٹس اس معلومات کو آپ کے آلے پر عارضی طور پر محفوظ کرتی ہیں۔</translation>
+<translation id="6830723795172079256">آپ جو بھی سائٹ ملاحظہ کرتے ہیں، وہ اس بارے میں معلومات کو محفوظ کر سکتی ہے کہ آپ کیا کر رہے ہیں تاکہ وہ آپ کی توقع کے مطابق کام کرے — مثال کے طور پر، آپ کو کسی سائٹ میں سائن ان رکھنے یا آپ کے شاپنگ کارٹ میں آئٹمز کو محفوظ کرنے کیلئے۔ اکثر سائٹس اس معلومات کو آپ کے آلے پر عارضی طور پر محفوظ کرتی ہیں۔</translation>
 <translation id="3210736980143419785">ڈاؤن لوڈ مکمل نہیں ہو سکا</translation>
 <translation id="321084946921799184">پیلا اور سفید</translation>
 <translation id="3211126692872351610">اور نئے ٹیب میں "<ph name="SEARCH_TERMS"/>" کیلئے <ph name="SEARCH_ENGINE"/> تلاش کریں</translation>
@@ -2937,7 +2937,7 @@
 <translation id="3250374026663843838">اپنی مہارت کا نظم کریں</translation>
 <translation id="3251119461199395237">فائل کی مطابقت پذیری</translation>
 <translation id="3251759466064201842">&lt;سرٹیفکیٹ کا حصہ نہیں ہے&gt;</translation>
-<translation id="4413356660053702703">‏آپ Brave پاس ورڈ مینیجر پر اس تک رسائی حاصل کر سکتے ہیں۔</translation>
+<translation id="5277009598698141857">‏آپ Wryling پاس ورڈ مینیجر پر اس تک رسائی حاصل کر سکتے ہیں۔</translation>
 <translation id="3253225298092156258">دستیاب نہیں ہے</translation>
 <translation id="3253344772044554413">{NUM_OF_FILES,plural, =1{اس فائل کو کاپی کرنے کے لیے <ph name="CLOUD_PROVIDER"/> میں اسپیس خالی کریں}other{ان فائلز کو کاپی کرنے کے لیے <ph name="CLOUD_PROVIDER"/> میں اسپیس خالی کریں}}</translation>
 <translation id="3253448572569133955">نامعلوم اکاؤنٹ</translation>
@@ -2973,7 +2973,7 @@
 <translation id="3277214528693754078">ٹیکسٹ کرسر کی مدد سے نیویگیٹ کریں (کیرٹ براؤزنگ)</translation>
 <translation id="3279092821516760512">منتخب رابطے قریب میں ہونے پر آپ کے ساتھ اشتراک کر سکتے ہیں۔ آپ کے قبول کئے بغیر منتقلیاں شروع نہیں ہوں گی۔</translation>
 <translation id="3280237271814976245">محفوظ کریں &amp;بطور…</translation>
-<translation id="5340857474604400806">‏Brave میں رہیں</translation>
+<translation id="4768106021954837307">‏Wryling میں رہیں</translation>
 <translation id="3282210178675490297"><ph name="APP_NAME"/> کے ساتھ ایک ٹیب کا اشتراک کیا جا رہا ہے</translation>
 <translation id="3284050785966252943">آٹو فل میٹا ڈیٹا کا پیش منظر</translation>
 <translation id="3285218179623157680"><ph name="WINDOW_TITLE"/> - نیچے کا منظر</translation>
@@ -3007,10 +3007,10 @@
 <translation id="3303855915957856445">تلاش کے کوئی نتائج نہیں ملے</translation>
 <translation id="3304212451103136496"><ph name="DISCOUNT_AMOUNT"/> کی رعایت</translation>
 <translation id="3305661444342691068">‏PDF کو پیش منظر میں کھولیں</translation>
-<translation id="9133756165511111573">‏آپ کو دوسرے آلات سے ٹیبز نظر آ رہے ہیں تاکہ آپ کو آسانی سے اپنی حالیہ سرگرمی پر واپس جانے میں مدد ملے۔
+<translation id="3052673784611846156">‏آپ کو دوسرے آلات سے ٹیبز نظر آ رہے ہیں تاکہ آپ کو آسانی سے اپنی حالیہ سرگرمی پر واپس جانے میں مدد ملے۔
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        آپ کارڈ مینو سے ترتیبات کا نظم کر سکتے یا Brave کو حسب ضرورت بنائیں میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
+        آپ کارڈ مینو سے ترتیبات کا نظم کر سکتے یا Wryling کو حسب ضرورت بنائیں میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
 <translation id="3308134619352333507">چھپائیں بٹن</translation>
 <translation id="3308604065765626613">{GROUP_COUNT,plural, =1{اس آلے پر ٹیبز کھلے رہیں گے، لیکن گروپ مستقل طور پر حذف ہو جائے گا۔}other{اس آلے پر ٹیبز کھلے رہیں گے، لیکن گروپس مستقل طور پر حذف ہو جائیں گے۔}}</translation>
 <translation id="3309124184713871355">ساختیں</translation>
@@ -3064,7 +3064,7 @@
 <translation id="3348973040180736882">ڈی کمپریس کیا جا رہا ہے</translation>
 <translation id="3349933790966648062">میموری فوٹ پرنٹ</translation>
 <translation id="3351472127384196879">اپنے پین پر بٹنز شامل کریں یا تلاش کریں</translation>
-<translation id="2198340416484774609">‏دسمبر 2022 کے بعد، Brave ایپس کے پرانے ورژنز Mac آلات پر اب مزید نہیں کھل سکیں گے۔ آپ چیک کر سکتے ہیں کہ کیا نیا ورژن دستیاب ہے۔</translation>
+<translation id="7121948070993040604">‏دسمبر 2022 کے بعد، Wryling ایپس کے پرانے ورژنز Mac آلات پر اب مزید نہیں کھل سکیں گے۔ آپ چیک کر سکتے ہیں کہ کیا نیا ورژن دستیاب ہے۔</translation>
 <translation id="3354972872297836698"><ph name="DEVICE_NAME"/> آلے سے جوڑا نہیں بنایا جا سکا؛ دوبارہ کوشش کرنے کے لیے آلہ منتخب کریں</translation>
 <translation id="335581015389089642">اسپیچ</translation>
 <translation id="3355936511340229503">کنکشن کی خرابی</translation>
@@ -3114,7 +3114,7 @@
 <translation id="3390442085511866400">ویڈیو فریم کو محفوظ کریں بطور...</translation>
 <translation id="3390530051434634135">نوٹ: <ph name="NOTE"/></translation>
 <translation id="3390740059150071453">بائیں جانب دیکھیں</translation>
-<translation id="404326254653176440">‏Brave کی دستاویز کا تجزیہ</translation>
+<translation id="4786791686512231403">‏Wryling کی دستاویز کا تجزیہ</translation>
 <translation id="3394072120086516913">‏‫PC تار سے منسلک ہے اور کاسٹنگ آلہ Wi-Fi پر ہے</translation>
 <translation id="3394850431319394743">تحفظ یافتہ مواد کو چلانے کیلئے شناخت کنندگان کو استعمال کرنے کی اجازت دی گئی</translation>
 <translation id="339722927132407568">منجمد ہو جاتی ہے</translation>
@@ -3163,7 +3163,7 @@
 <translation id="3431715928297727378"><ph name="WINDOW_TITLE"/> - <ph name="MEMORY_VALUE"/> خالی کیا گیا</translation>
 <translation id="3432762828853624962">اشتراک کردہ ورکرز</translation>
 <translation id="3433507769937235446">چھوڑنے پر مقفل کریں</translation>
-<translation id="3044702330949941099">‏Brave پاس ورڈ مینیجر کو مزید رسائی کی ضرورت ہے</translation>
+<translation id="1271779175305705203">‏Wryling پاس ورڈ مینیجر کو مزید رسائی کی ضرورت ہے</translation>
 <translation id="3434107140712555581"><ph name="BATTERY_PERCENTAGE"/>%</translation>
 <translation id="3434475275396485144">یہ ترتیب آپ کے فون کے منتظم کے زیر انتظام ہے</translation>
 <translation id="3434512374684753970">آڈیو اور ویڈیو</translation>
@@ -3241,7 +3241,7 @@
 <translation id="3487649228420469005">اسکین ہو گیا</translation>
 <translation id="3488199663160411179">نام</translation>
 <translation id="3488609300093733298">اپنے فون پر سائن ان کریں</translation>
-<translation id="1088295851754116403">‏‫Brave Apps نے جولائی 2025 میں ChromeOS آلات پر چلنا بند کر دیا۔ ایک متبادل ایپ پر غور کریں۔</translation>
+<translation id="1326424950426003192">‏‫Wryling Apps نے جولائی 2025 میں ChromeOS آلات پر چلنا بند کر دیا۔ ایک متبادل ایپ پر غور کریں۔</translation>
 <translation id="3490695139702884919">ڈاؤن لوڈ ہو رہا ہے… %<ph name="PERCENT"/></translation>
 <translation id="3491171603443463516">‏آپ کا PIN یا پاس ورڈ بھول جانے پر مقامی ڈیٹا کو بحال کیا جا سکتا ہے</translation>
 <translation id="3491616972057195633">باؤنس کلیدیں</translation>
@@ -3275,7 +3275,7 @@
 <translation id="3512465804715993309">اڈاپٹیو ہائی لائٹنگ</translation>
 <translation id="3513019849832307207">شامل ہوں اور کھولیں</translation>
 <translation id="3513563267917474897"><ph name="MIN_VALUE"/> سے <ph name="MAX_VALUE"/> تک رنگین سلائیڈر</translation>
-<translation id="5382999936194307983">‏آپ کو معیاری حفاظتی تحفظ مل رہا ہے۔ خطرناک ویب سائٹس، ڈاؤن لوڈز اور ایکسٹینشنز کے خلاف مزید تحفظ حاصل کرنے کے لیے، Brave ترتیبات میں بہتر کردہ محفوظ براؤزنگ کو آن کریں۔</translation>
+<translation id="3918639430309311642">‏آپ کو معیاری حفاظتی تحفظ مل رہا ہے۔ خطرناک ویب سائٹس، ڈاؤن لوڈز اور ایکسٹینشنز کے خلاف مزید تحفظ حاصل کرنے کے لیے، Wryling ترتیبات میں بہتر کردہ محفوظ براؤزنگ کو آن کریں۔</translation>
 <translation id="3514681096978190000">اس آرکائیو فائل میں دوسری فائلیں شامل ہیں جو میلوئیر کو چھپا سکتی ہیں</translation>
 <translation id="3515783508789430906">نیا ورژن (<ph name="VERSION"/>) تیار ہے۔ اپ ڈیٹ لاگو کرنے کے لیے ایپ کو دوبارہ شروع کریں۔ غیر محفوظ کردہ ڈیٹا ضائع ہو سکتا ہے۔</translation>
 <translation id="3515983984924808886">‏دوبارہ ترتیب دینے کی تصدیق کرنے کے لیے اپنی سیکیورٹی کلید کو دوبارہ ٹچ کریں۔ سیکیورٹی کلید کے PIN سمیت اس میں اسٹور کردہ سبھی معلومات کو حذف کر دیا جائے گا۔</translation>
@@ -3418,7 +3418,7 @@
 <translation id="3616658341000358527">‏‫Gemini کو ویب پر آپ کے لیے ٹاسکس مکمل کرنے کے لیے خودکار طور پر آپ کو سائن ان کرنے دیں</translation>
 <translation id="3617062258679844578">کلک کرنے کے لیے، اپنے ٹچ پیڈ کو دبانے کے بجائے اس پر تھپتھپائیں</translation>
 <translation id="3617891479562106823">پس منظر غیر دستیاب ہیں۔ بعد میں دوبارہ کوشش کریں۔</translation>
-<translation id="2934767186202458579">‏<ph name="RECIPIENT_NAME"/> Brave پاس ورڈ مینیجر کا استعمال کرتے وقت اب آپ کا صارف نام اور پاس ورڈ استعمال کر سکتے ہیں۔ ان سے کہیں سائن ان کرنے کے لیے <ph name="WEBSITE"/> پر جائیں۔</translation>
+<translation id="1877646679208644382">‏<ph name="RECIPIENT_NAME"/> Wryling پاس ورڈ مینیجر کا استعمال کرتے وقت اب آپ کا صارف نام اور پاس ورڈ استعمال کر سکتے ہیں۔ ان سے کہیں سائن ان کرنے کے لیے <ph name="WEBSITE"/> پر جائیں۔</translation>
 <translation id="3619115746895587757">کیپو چینو</translation>
 <translation id="3619294456800709762">سائٹس خودکار طور پر تصویر میں تصویر داخل کر سکتی ہیں</translation>
 <translation id="3620136223548713675">جغرافیائی مقام</translation>
@@ -3498,7 +3498,7 @@
 <translation id="3679126865530709868">Built-in Touchpad</translation>
 <translation id="3680683624079082902">ٹیکسٹ ٹو اسپیچ آواز</translation>
 <translation id="3681017028939109078">اسپلٹ اسکرین شروع کرتے وقت ونڈو کی تجاویز دکھائیں</translation>
-<translation id="318206792789506219">‏‫Brave کے خیال میں آپ اس سائٹ پر اپنے مقام کا استعمال نہیں کرنا چاہتے ہیں۔ لہذا، مداخلتوں کو کم کرنے کے لیے درخواستیں چھپا دی گئی ہیں۔</translation>
+<translation id="8663031781937737605">‏‫Wryling کے خیال میں آپ اس سائٹ پر اپنے مقام کا استعمال نہیں کرنا چاہتے ہیں۔ لہذا، مداخلتوں کو کم کرنے کے لیے درخواستیں چھپا دی گئی ہیں۔</translation>
 <translation id="3681311097828166361">آپ کے تاثرات کا شکریہ۔ آپ ابھی آف لائن ہیں اور آپ کی رپورٹ بعد میں بھیجی جائے گی۔</translation>
 <translation id="3681548574519135185">رنگ پر فوکس کریں</translation>
 <translation id="3682207069037179944">آپ اپنے تمام ٹیبز دیکھنے کے لیے اسکرول کر سکتے ہیں یا اپنے ماؤس وہیل کا استعمال کر سکتے ہیں</translation>
@@ -3577,7 +3577,7 @@
 <translation id="3727473233247516571">بیک/فارورڈ کیش کردہ کا سب فریم: <ph name="BACK_FORWARD_CACHE_PAGE_URL"/></translation>
 <translation id="3727558469988088200">پاس کیز حاصل کریں</translation>
 <translation id="3727843212509629024">‏غلط PIN۔ دوبارہ کوشش کریں</translation>
-<translation id="8077319455765501118">‏macOS Keychain کے ساتھ Brave پاس ورڈ مینیجر کا استعمال کرنے کے لیے، Brave کو بند کر کے دوبارہ چلائیں اور Keychain تک رسائی کی اجازت دیں۔ بند کر کے دوبارہ چلانے کے بعد، آپ کے ٹیبز دوبارہ کھل جائیں گے۔</translation>
+<translation id="1149143655905087705">‏macOS Keychain کے ساتھ Wryling پاس ورڈ مینیجر کا استعمال کرنے کے لیے، Wryling کو بند کر کے دوبارہ چلائیں اور Keychain تک رسائی کی اجازت دیں۔ بند کر کے دوبارہ چلانے کے بعد، آپ کے ٹیبز دوبارہ کھل جائیں گے۔</translation>
 <translation id="3728188878314831180">آپ کے فون سے مرر کی اطلاعات</translation>
 <translation id="3728572446941976198">‏‫AI کو بہتر بنانے کے لیے، انسانی جائزہ کاران آپ کے مواد کا استعمال نہیں کریں گے۔ آپ کی تنظیم کسی بھی وقت ان ترتیبات کو تبدیل کر سکتی ہے۔</translation>
 <translation id="3728681439294129328">نیٹ ورک پتہ کنفیگر کریں</translation>
@@ -3688,10 +3688,10 @@
 <translation id="3799128412641261490">سوئچ رسائی کی ترتیبات</translation>
 <translation id="3800764353337460026">علامت کا طرز</translation>
 <translation id="3800898876950197674">اس ایکسٹینشن کی اجازت دینے کے لیے، اپنا پاس ورڈ درج کریں۔</translation>
-<translation id="8331080218091581609">‏آپ Brave کو ذاتی نوعیت کا بنانے اور اسے اپنی روزمرہ کی ضروریات کے لیے مزید طاقتور بنانے کے بارے میں تجاویز دیکھ رہے ہیں۔
+<translation id="7293495029773307557">‏آپ Wryling کو ذاتی نوعیت کا بنانے اور اسے اپنی روزمرہ کی ضروریات کے لیے مزید طاقتور بنانے کے بارے میں تجاویز دیکھ رہے ہیں۔
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        آپ کارڈ مینو سے ترتیبات کا نظم کر سکتے یا Brave کو حسب ضرورت بنائیں میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
+        آپ کارڈ مینو سے ترتیبات کا نظم کر سکتے یا Wryling کو حسب ضرورت بنائیں میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
 <translation id="3801449494961771207">ٹیکسٹ ٹو اسپیچ کی سسٹم کی آواز</translation>
 <translation id="3802486193901166966">اس ایکسٹینشن کو کسی خاص اجازت کی ضرورت نہیں ہے اور اس کے پاس سائٹ تک کوئی اضافی رسائی نہیں ہے</translation>
 <translation id="380329542618494757">نام</translation>
@@ -3837,7 +3837,7 @@
 <translation id="3903187154317825986">پہلے سے شامل کی بورڈ</translation>
 <translation id="3903696968689283281">‏WiFi ڈائریکٹ کے مالکان کی معلومات:</translation>
 <translation id="3904572359926093799">اسپلٹ اسکرین کا سائز تبدیل کرنے کا ہینڈل (گھسیٹنے کے قابل)</translation>
-<translation id="6894211654645352450">‏اگر آپ سرور سرٹیفکیٹ کو حذف کرتے ہیں تو Brave اسے سرورز کی شناخت کے لیے مزید استعمال نہیں کرے گا۔</translation>
+<translation id="7978440528848173448">‏اگر آپ سرور سرٹیفکیٹ کو حذف کرتے ہیں تو Wryling اسے سرورز کی شناخت کے لیے مزید استعمال نہیں کرے گا۔</translation>
 <translation id="3909701002594999354">سبھی کنٹرولز کمانڈ دکھائیں</translation>
 <translation id="3909791450649380159">ک&amp;ٹ کریں</translation>
 <translation id="39103738135459590">فعالیت کا کوڈ</translation>
@@ -3851,12 +3851,12 @@
 <translation id="3917644013202553949">آپ کی فائلز کو مطابقت پذیر بنانے کے لیے کافی اسٹوریج نہیں ہے۔ جگہ خالی کرنے کی کوشش کریں۔</translation>
 <translation id="3919145445993746351">اپنے سبھی کمپیوٹرز پر اپنی ایکسٹینشنز حاصل کرنے کے لیے، مطابقت پذیری کو آن کریں</translation>
 <translation id="3919229493046408863">آلات کے قریب ہونے پر اطلاع کو آف کریں</translation>
-<translation id="3937043680469836680">‏دسمبر 2022 کے بعد، Brave ایپس کے پرانے ورژنز Mac آلات پر اب مزید نہیں کھل سکیں گے۔ نئے ورژن پر اپ ڈیٹ کرنے کے لیے اپنے منتظم سے رابطہ کریں یا یہ ایپ ہٹائیں۔</translation>
+<translation id="4376308464194569825">‏دسمبر 2022 کے بعد، Wryling ایپس کے پرانے ورژنز Mac آلات پر اب مزید نہیں کھل سکیں گے۔ نئے ورژن پر اپ ڈیٹ کرنے کے لیے اپنے منتظم سے رابطہ کریں یا یہ ایپ ہٹائیں۔</translation>
 <translation id="3919376399641777316">‏Google Drive اسٹوریج استعمال کرتا ہے</translation>
 <translation id="3919798653937160644">جو صفحات آپ اس ونڈو میں دیکھتے ہیں وہ براؤزر کی سرگزشت میں ظاہر نہیں ہوں گے اور جب آپ سبھی کھلی ہوئی مہمان ونڈوز بند کر دیں گے تو وہ آپ کے کمپیوٹر پر کوکیز جیسے دیگر نشانات نہیں چھوڑیں گے۔ تاہم، جو بھی فائلیں آپ ڈاؤن لوڈ کریں گے انہیں برقرار رکھا جائے گا۔</translation>
 <translation id="3920909973552939961">ادائیگی کے ہینڈلرز انسٹال کرنے کی اجازت نہیں ہے</translation>
 <translation id="3920938867981797493">اپڈیٹر کی پالیسیاں</translation>
-<translation id="4008841832817149051">‏‫Brave کو آپ کے لیے براؤز کرنے دیں</translation>
+<translation id="2216933027668139688">‏‫Wryling کو آپ کے لیے براؤز کرنے دیں</translation>
 <translation id="3922823422695198027">دیگر ایپس کو <ph name="APP_NAME"/> کی طرح لنکس کو کھولنے کے لیے سیٹ کیا گیا ہے۔ یہ <ph name="APP_NAME_2"/>، <ph name="APP_NAME_3"/>، اور <ph name="APP_NAME_4"/> کو تعاون یافتہ لنکس کھولنے سے غیر فعال کر دیں گی۔</translation>
 <translation id="3923184630988645767">ڈیٹا کا استعمال</translation>
 <translation id="3923494859158167397">کوئی موبائل نیٹ ورک سیٹ اپ نہیں کیا گیا</translation>
@@ -3935,7 +3935,7 @@
 <translation id="3976108569178263973">پرنٹرز دستیاب نہیں ہیں۔</translation>
 <translation id="3977886311744775419">خودکار اپ ڈیٹس نیٹ ورک کی اس قسم پر ڈاؤن لوڈ نہیں ہوتے ہیں، لیکن آپ دستی طور پر اپ ڈیٹس چیک کر سکتے ہیں۔</translation>
 <translation id="3978325380690188371">‏ChromeVox آن ہونے پر دبی رہنے والی کلیدیں دستیاب نہیں ہوتی ہیں</translation>
-<translation id="2069130488333600772">‏‫Brave ‏PDFs کو بہتر بناتا ہے</translation>
+<translation id="5874495328861857125">‏‫Wryling ‏PDFs کو بہتر بناتا ہے</translation>
 <translation id="3979093622823535817">میٹنگ <ph name="MEETING_TITLE"/> میں شرکت کریں</translation>
 <translation id="3979395879372752341">نیا ایکسٹینشن شامل کر دیا گیا (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="3980708588513986958">اپنی مہارتیں دیکھیں اور ان کا نظم کریں</translation>
@@ -4036,7 +4036,7 @@
 <translation id="4053028343167125998">براہ کرم کلائنٹ سرٹیفکیٹ درآمد کرنے کے لیے <ph name="TOKEN_NAME"/> کو غیر مقفل کریں۔</translation>
 <translation id="4053833479432165765">صفحہ بطور ایپ انسٹال کریں...</translation>
 <translation id="4054070260844648638">ہر کسی کیلئے مرئی</translation>
-<translation id="8891261408659902804">‏<ph name="APP_NAME"/> Brave ایپ کے لیے آپ کے والدین کی سیٹ کی ہوئی آپ کی وقت کی حد پوری ہو گئی۔ اب آپ اسے <ph name="TIME_LIMIT"/> تک کل استعمال کر سکتے ہیں۔</translation>
+<translation id="3587910514908289330">‏<ph name="APP_NAME"/> Wryling ایپ کے لیے آپ کے والدین کی سیٹ کی ہوئی آپ کی وقت کی حد پوری ہو گئی۔ اب آپ اسے <ph name="TIME_LIMIT"/> تک کل استعمال کر سکتے ہیں۔</translation>
 <translation id="4057041477816018958"><ph name="SPEED"/> - <ph name="RECEIVED_AMOUNT"/></translation>
 <translation id="405733379999213678">‏اس سائٹ کو اپنے MIDI آلات کنٹرول اور دوبارہ پروگرام کرنے کی اجازت دینا جاری رکھیں</translation>
 <translation id="4057896668975954729">اسٹور میں دیکھیں</translation>
@@ -4071,7 +4071,7 @@
 <translation id="4089235344645910861">ترتیبات محفوظ ہو گئیں۔ مطابقت پذیری شروع ہو گئی۔</translation>
 <translation id="4089817585533500276">shift + <ph name="TOP_ROW_KEY"/></translation>
 <translation id="4090103403438682346">توثیق شدہ رسائی فعال کریں</translation>
-<translation id="7268155614575494857">‏Brave پاس ورڈ مینیجر کو اپنے سائن ان کی معلومات محفوظ کرنے میں مدد کرنے کی خاطر، اس سائٹ کے لیے اپنا صارف نام شامل کریں</translation>
+<translation id="6708405940091325014">‏Wryling پاس ورڈ مینیجر کو اپنے سائن ان کی معلومات محفوظ کرنے میں مدد کرنے کی خاطر، اس سائٹ کے لیے اپنا صارف نام شامل کریں</translation>
 <translation id="4093173301198419723">بڑے حروف، چھوٹے حروف، نمبرز اور علامات ہونے چاہئیں</translation>
 <translation id="4093955363990068916">مقامی فائل:</translation>
 <translation id="4094647278880271855">آپ ماحول کے ایک غیر تعاون یافتہ تغیر کا استعمال کر رہے ہیں: <ph name="BAD_VAR"/>۔ استحکام اور سیکیورٹی متاثر ہوگی۔</translation>
@@ -4098,10 +4098,10 @@
 <translation id="4110485659976215879">وارننگ بحال کریں</translation>
 <translation id="4112194537011183136"><ph name="DEVICE_NAME"/> (آف لائن)</translation>
 <translation id="4113743276555482284">فائل کا پاس ورڈ</translation>
-<translation id="1423132677367459502">‏آپ Google Drive میں اپنی حالیہ ترین سرگرمی پر آسانی سے واپس جانے میں آپ کی مدد کیلئے تجویز کردہ فائلز کو دیکھ رہے ہیں۔
+<translation id="5884518115438412995">‏آپ Google Drive میں اپنی حالیہ ترین سرگرمی پر آسانی سے واپس جانے میں آپ کی مدد کیلئے تجویز کردہ فائلز کو دیکھ رہے ہیں۔
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        آپ کارڈ مینیو سے ترتیبات کا نظم کر سکتے یا Brave کو حسب ضرورت بنائیں میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
+        آپ کارڈ مینیو سے ترتیبات کا نظم کر سکتے یا Wryling کو حسب ضرورت بنائیں میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
 <translation id="4115002065223188701">نیٹ ورک رینج سے باہر ہے</translation>
 <translation id="4115378294792113321">میجنٹا</translation>
 <translation id="4116480382905329353">1 بار پتا چلا</translation>
@@ -4167,7 +4167,7 @@
 <translation id="4176463684765177261">غیر فعال</translation>
 <translation id="4176864026061939326">یہ آلہ زیر انتظام ہے۔ آپ کے آلہ کے منتظم کو اکاؤنٹ <ph name="USER_EMAIL_ADDRESS"/> کے لیے ایک نئی پروفائل درکار ہے</translation>
 <translation id="4177668342649553942"><ph name="SHORTCUT_NAME"/> - <ph name="APP_NAME"/> کھولیں</translation>
-<translation id="638591227897120703">‏ایکسٹینشنز Brave کے ایڈ آنز ہیں جو آپ کو منظم رہنے، ٹاسکس کو آسان بنانے اور آپ کی براؤزنگ کو حسب ضرورت بنانے میں مدد کر سکتے ہیں</translation>
+<translation id="6210463748469316524">‏ایکسٹینشنز Wryling کے ایڈ آنز ہیں جو آپ کو منظم رہنے، ٹاسکس کو آسان بنانے اور آپ کی براؤزنگ کو حسب ضرورت بنانے میں مدد کر سکتے ہیں</translation>
 <translation id="4177860704813504507">پاس ورڈ یا فنگر پرنٹ</translation>
 <translation id="4178220097446335546">اس سبسکرپشن اور اس سے منسلک نیٹ ورکس کو بھولنے کے لیے، سبسکرپشن کو ہٹانے کی خاطر پاس پوائنٹ سبسکرپشن کے صفحے پر جائیں۔</translation>
 <translation id="4181376007499455822">اوور رائیڈ نہ کریں</translation>
@@ -4333,7 +4333,7 @@
 <translation id="4304713468139749426">پاس ورڈ مینیجر</translation>
 <translation id="4305817255990598646">سوئچ کریں</translation>
 <translation id="4306489587293957491">درج کریں</translation>
-<translation id="1689951986267171188">‏‫Brave بطور اسپام اس سائٹ کی اطلاعات پر جھنڈا لگانا بند کر دے گا</translation>
+<translation id="6665952731838572283">‏‫Wryling بطور اسپام اس سائٹ کی اطلاعات پر جھنڈا لگانا بند کر دے گا</translation>
 <translation id="4307992518367153382">بنیادی باتیں</translation>
 <translation id="4309035504231554969">نامعلوم وجہ سے انسٹالیشن ناکام ہو گئی۔</translation>
 <translation id="4309183709806093061">سسٹم آڈیو کا بھی اشتراک کریں۔ تاثرات کو روکنے کے لیے اس آلہ کو خاموش کر دیا جائے گا۔</translation>
@@ -4359,7 +4359,7 @@
 <translation id="4324577459193912240">فائل نا مکمل ہے</translation>
 <translation id="4325433082696797523">اسٹوریج اور پاور</translation>
 <translation id="4325515113816851466">آپ کے سائن آؤٹ کرنے کے بعد آپ کے والد/والدہ کے انتخابات لاگو نہیں ہوں گے</translation>
-<translation id="7463244538445813736">‏Brave کی مضبوط ترین سیکیورٹی آپ کو خطرناک ویب سائٹس، ڈاؤن لوڈز اور ایکسٹینشنز سے بچانے کے لیے بہت کچھ کرتی ہے</translation>
+<translation id="8506408958028373380">‏Wryling کی مضبوط ترین سیکیورٹی آپ کو خطرناک ویب سائٹس، ڈاؤن لوڈز اور ایکسٹینشنز سے بچانے کے لیے بہت کچھ کرتی ہے</translation>
 <translation id="4327380114687339519">ایکسٹینشنز کا مینو</translation>
 <translation id="4328160087116165267">سسٹم آڈیو کے ساتھ اشتراک کریں</translation>
 <translation id="4330191372652740264">برف کا پانی</translation>
@@ -4368,7 +4368,7 @@
 <translation id="4332976768901252016">پیرنٹل کنٹرولز ترتیب دیں</translation>
 <translation id="4334768748331667190">آپ کو <ph name="MODULE_NAME"/> دوبارہ دکھائی نہیں دے گا</translation>
 <translation id="4335835283689002019">محفوظ براؤزنگ آف ہے</translation>
-<translation id="5889020479667192676">‏آپ کو Brave کے اس ٹاسک کو ختم کرنے سے پہلے سائن ان کرنا ہوگا</translation>
+<translation id="488757428703018223">‏آپ کو Wryling کے اس ٹاسک کو ختم کرنے سے پہلے سائن ان کرنا ہوگا</translation>
 <translation id="433776600277609450">فلٹر شامل کریں</translation>
 <translation id="4338363401382232853">منقسم اسکرین ونڈو کی تجویز</translation>
 <translation id="4339203724549370495">ایپ کو اَن انسٹال کریں</translation>
@@ -4421,7 +4421,7 @@
 <translation id="437809255587011096">متن کے اسٹائل کا اعلان کریں</translation>
 <translation id="4378154925671717803">فون</translation>
 <translation id="4378308539633073595">آگے سکرول کریں</translation>
-<translation id="4378363201814870400">‏تیز تر براؤزنگ کے لیے اپنی آٹو فل معلومات کا نظم کریں — معلومات جیسے پاس ورڈز، ادائیگی کے طریقے، پتے اور ID کارڈز</translation>
+<translation id="4005743806371955395">‏تیز تر براؤزنگ کے لیے اپنی آٹو فل معلومات کا نظم کریں — معلومات جیسے پاس ورڈز، ادائیگی کے طریقے، پتے اور ID کارڈز</translation>
 <translation id="4378551569595875038">منسلک ہو رہا ہے…</translation>
 <translation id="4378589147979399051">اپنے پرائمری کی بورڈ کی مدد سے اپنے ماؤس کرسر کو کنٹرول کریں</translation>
 <translation id="30088850081141729">‏‫Brave سے "<ph name="SEARCH_TERMS"/>" کے بارے میں پوچھیں</translation>
@@ -4477,7 +4477,7 @@
 <translation id="4914256659228865673">‏یہ پاس کیز اس کمپیوٹر پر Windows Hello میں محفوظ ہیں۔ وہ آپ کے Brave اکاؤنٹ میں محفوظ نہیں ہیں۔</translation>
 <translation id="4412544493002546580">دوبارہ کوشش کریں یا ذیل کی ترغیبات میں سے کسی ایک کو منتخب کریں۔</translation>
 <translation id="4412547955014928315"><ph name="SITE_NAME"/> اور اس کے ماتحت تمام سائٹس کے لیے سائٹ کا ڈیٹا اور اجازتیں حذف کریں؟</translation>
-<translation id="2225668468568666081">‏Brave Apps پروگریسو ویب ایپس میں منتقل ہو رہی ہیں۔ یہ Brave App آپ کی تنظیم کے ذریعے آپ کے براؤزر پر انسٹال کی گئی۔ Apps کی فہرست سے پروگریسیو ویب ایپ کھولنے کے لیے، پہلے اپنے منتظم سے رابطہ کریں اور ان سے Brave App کو اَن انسٹال کرنے کو کہیں۔ اس دوران، آپ ویب پر <ph name="EXTENSION_NAME"/> کو کھولنے کے لیے <ph name="EXTENSION_LAUNCH_URL"/> کو ملاحظہ کر سکتے ہیں۔</translation>
+<translation id="9096070332505320117">‏Wryling Apps پروگریسو ویب ایپس میں منتقل ہو رہی ہیں۔ یہ Wryling App آپ کی تنظیم کے ذریعے آپ کے براؤزر پر انسٹال کی گئی۔ Apps کی فہرست سے پروگریسیو ویب ایپ کھولنے کے لیے، پہلے اپنے منتظم سے رابطہ کریں اور ان سے Wryling App کو اَن انسٹال کرنے کو کہیں۔ اس دوران، آپ ویب پر <ph name="EXTENSION_NAME"/> کو کھولنے کے لیے <ph name="EXTENSION_LAUNCH_URL"/> کو ملاحظہ کر سکتے ہیں۔</translation>
 <translation id="4412698727486357573">ہیلپ سینٹر</translation>
 <translation id="4412992751769744546">فریق ثالث کی کوکیز کی اجازت دیں</translation>
 <translation id="4413087696295876280">‏ChromeOS Flex آلے کی معلومات اور ڈیٹا پڑھیں</translation>
@@ -4573,18 +4573,18 @@
 <translation id="4501530680793980440">ہٹانے کی توثیق کریں</translation>
 <translation id="4502423230170890588">اس آلہ سے ہٹائيں</translation>
 <translation id="4502477450742595012">ٹیب پر دایاں کلک کریں اور "نئے گروپ میں ٹیب شامل کریں" کو منتخب کریں</translation>
-<translation id="7840745488816718252">‏آپ اپنے حال ہی میں استعمال کیے گئے ٹیب گروپس دیکھ رہے ہیں تاکہ آپ کو آسانی سے وہیں سے شروع کرنے میں مدد ملے جہاں آپ نے چھوڑا تھا۔
+<translation id="975374802834211974">‏آپ اپنے حال ہی میں استعمال کیے گئے ٹیب گروپس دیکھ رہے ہیں تاکہ آپ کو آسانی سے وہیں سے شروع کرنے میں مدد ملے جہاں آپ نے چھوڑا تھا۔
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        آپ کارڈ مینیو سے ترتیبات کا نظم کر سکتے ہیں یا Brave کو حسب ضرورت بنائیں میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
+        آپ کارڈ مینیو سے ترتیبات کا نظم کر سکتے ہیں یا Wryling کو حسب ضرورت بنائیں میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
 <translation id="4504940961672722399">اس آئیکن پر کلک کر کے یا <ph name="EXTENSION_SHORTCUT"/> کو دبا کر یہ ایکسٹینشن استعمال کریں۔</translation>
-<translation id="8141996966528663835">‏اس QR کوڈ سے Brave ڈاؤن لوڈ کریں اور اپنے Brave اکاؤنٹ میں سائن ان کریں۔</translation>
+<translation id="1258044875592855240">‏اس QR کوڈ سے Brave ڈاؤن لوڈ کریں اور اپنے Brave اکاؤنٹ میں سائن ان کریں۔</translation>
 <translation id="450552327874992444">پہلے ہی شامل کردہ لفظ</translation>
 <translation id="4507373251891673233">آپ نے <ph name="HOST"/> سے تمام ایکسٹینشنز کو مسدود کر دیا ہے</translation>
 <translation id="4507401683427517298">"شارٹ کٹ شامل کریں" پر کلک کریں</translation>
 <translation id="4508265954913339219">فعالیت ناکام ہو گئی</translation>
 <translation id="4508765956121923607">ما&amp;خذ دیکھیں</translation>
-<translation id="4161817736307925392">‏جب آپ اپنے <ph name="BEGIN_BOLD_USERNAME"/>صارف نام<ph name="END_BOLD_USERNAME"/> اور <ph name="BEGIN_BOLD_PASSWORD"/>پاس ورڈ<ph name="END_BOLD_PASSWORD"/> کی ایک کاپی کا اشتراک کرتے ہیں، تو آپ کا فیملی ممبر Brave پاس ورڈ مینیجر کا استعمال کرتے ہوئے انہیں پُر کر سکتے ہیں</translation>
+<translation id="7514388439385693063">‏جب آپ اپنے <ph name="BEGIN_BOLD_USERNAME"/>صارف نام<ph name="END_BOLD_USERNAME"/> اور <ph name="BEGIN_BOLD_PASSWORD"/>پاس ورڈ<ph name="END_BOLD_PASSWORD"/> کی ایک کاپی کا اشتراک کرتے ہیں، تو آپ کا فیملی ممبر Wryling پاس ورڈ مینیجر کا استعمال کرتے ہوئے انہیں پُر کر سکتے ہیں</translation>
 <translation id="4509421746503122514">اپ ڈیٹ کرنے کے لیے بند کر کے دوبارہ چلائیں</translation>
 <translation id="4510195992002502722">تاثرات بھیجنے میں ناکام۔ دوبارہ کوشش کی جا رہی ہے…</translation>
 <translation id="4511344327646819192">دوسروں کو اپنا پاس ورڈ استعمال کرنے سے روکنے کے لیے، اسے <ph name="WEBSITE"/> پر تبدیل کریں</translation>
@@ -4614,7 +4614,7 @@
 <translation id="4536769240747010177">ٹیدرنگ کی صلاحیتیں:</translation>
 <translation id="4538417792467843292">لفظ حذف کریں</translation>
 <translation id="4538792345715658285">انٹرپرائز پالیسی کے ذریعے انسٹال کیا گیا۔</translation>
-<translation id="6339420797559770249">‏‫Brave پاس ورڈ مینیجر تک نہیں پہنچ سکتے۔ کچھ منٹ میں دوبارہ کوشش کریں</translation>
+<translation id="1573625443275169446">‏‫Wryling پاس ورڈ مینیجر تک نہیں پہنچ سکتے۔ کچھ منٹ میں دوبارہ کوشش کریں</translation>
 <translation id="4540780316273593836">کچھ غلط ہو گیا</translation>
 <translation id="4541396589393395475">اس خصوصیت کو آپ کی تنظیم نے غیر فعال کر دیا ہے</translation>
 <translation id="4541505619120536051">ہمیشہ کھولیں</translation>
@@ -4679,7 +4679,7 @@
 <translation id="4580389561674319558">تمام رابطوں کے لیے مرئی</translation>
 <translation id="4580596421317071374">اس آلے پر پاس ورڈز <ph name="GOOGLE_PASSWORD_MANAGER"/> میں محفوظ ہوتے ہیں۔</translation>
 <translation id="4582297591746054421">آپ کے کاپی کردہ ٹیکسٹ کی فارمیٹنگ برقرار رکھنے جیسی خصوصیات کے لیے سائٹس عام طور پر آپ کی کلپ بورڈ پڑھتی ہیں</translation>
-<translation id="376109232905238597">‏‫Brave آٹوفل سے اس معلومات کو ہٹائیں؟</translation>
+<translation id="7933642050191342525">‏‫Wryling آٹوفل سے اس معلومات کو ہٹائیں؟</translation>
 <translation id="4584770411839426377">ونڈو</translation>
 <translation id="4584836561445313300">آپ کی تنظیم کسی بھی موجودہ براؤزنگ ڈیٹا جیسے پاس ورڈز وغیرہ کو دیکھ سکے گی اور اس کا نظم کر سکے گی۔</translation>
 <translation id="4585793705637313973">صفحہ میں ترمیم کریں</translation>
@@ -4810,7 +4810,7 @@
 <translation id="4682003508123230705">سیکھنے میں میری مدد کریں</translation>
 <translation id="4682481611456523884">اس سائٹ پر سرایت کردہ مواد آپ کے بارے میں محفوظ کردہ معلومات کا استعمال نہیں کر سکتا</translation>
 <translation id="4524261726901681678">‏جب آپ ان خصوصیات کا استعمال کرتے ہیں تو متعلقہ ڈیٹا Brave کو بھیجا جاتا ہے تاکہ AI تجربات تخلیق کیے جا سکیں</translation>
-<translation id="3704650847382671289">‏‫Brave کو اپ ڈیٹ کیا گیا</translation>
+<translation id="6644622854523272162">‏‫Wryling کو اپ ڈیٹ کیا گیا</translation>
 <translation id="4683629100208651599">چھوٹے حروف میں تبدیل کریں</translation>
 <translation id="4683947955326903992">‏%‎<ph name="PERCENTAGE"/> (ڈیفالٹ)</translation>
 <translation id="4684427112815847243">ہر چیز کی مطابقت پذیری کریں</translation>
@@ -5136,7 +5136,7 @@
 <translation id="4918762404810341788">کاپی کریں اور کھولیں</translation>
 <translation id="4918844574251943176">تصویر کاپی ہو گئی</translation>
 <translation id="4921348630401250116">ٹیکسٹ ٹو اسپیچ</translation>
-<translation id="1298471559729553235">‏اپنے آپریٹنگ سسٹم کے ساتھ پاس ورڈ مینیجر استعمال کرنے کے لیے، Brave کو بند کر کے دوبارہ چلائیں اور اپنے کمپیوٹر کے پاس ورڈ مینیجر تک رسائی کی اجازت دیں۔ بند کر کے دوبارہ چلانے کے بعد، آپ کے ٹیبز دوبارہ کھل جائیں گے۔</translation>
+<translation id="2177523175450524748">‏اپنے آپریٹنگ سسٹم کے ساتھ پاس ورڈ مینیجر استعمال کرنے کے لیے، Wryling کو بند کر کے دوبارہ چلائیں اور اپنے کمپیوٹر کے پاس ورڈ مینیجر تک رسائی کی اجازت دیں۔ بند کر کے دوبارہ چلانے کے بعد، آپ کے ٹیبز دوبارہ کھل جائیں گے۔</translation>
 <translation id="4923561999941435531">{0,plural, =1{اکاؤنٹ میں 1 آئٹم محفوظ کریں}other{اکاؤنٹ میں # آئٹمز محفوظ کریں}}</translation>
 <translation id="4923977675318667854">ٹیب گروپس دکھائیں</translation>
 <translation id="4924002401726507608">تاثرات جمع کرائیں</translation>
@@ -5216,7 +5216,7 @@
 <translation id="4979263087381759787">ڈویلپر کے اختیارات</translation>
 <translation id="4979510648199782334">‏Microsoft 365 سیٹ اپ مکمل</translation>
 <translation id="4980805016576257426">اس ایکسٹینشن میں میلویئر شامل ہے۔</translation>
-<translation id="8231468153901265517">‏آپ کے پاس ورڈ کا اشتراک نہیں کیا گیا۔ اپنا انٹرنیٹ کنکشن چیک کریں اور یقینی بنائیں کہ آپ Brave میں سائن ان ہیں۔ پھر، دوبارہ کوشش کریں۔</translation>
+<translation id="950784604556747155">‏آپ کے پاس ورڈ کا اشتراک نہیں کیا گیا۔ اپنا انٹرنیٹ کنکشن چیک کریں اور یقینی بنائیں کہ آپ Wryling میں سائن ان ہیں۔ پھر، دوبارہ کوشش کریں۔</translation>
 <translation id="498624032394115435">لنک کا حامل کوئی بھی شخص تمام ٹیبز میں ترمیم کر سکتا ہے۔</translation>
 <translation id="6814280300414171363">‏آپ ترتیبات میں کسی بھی وقت اس بات کا انتخاب کر سکتے ہیں کہ کس چیز کی مطابقت پذیری کرنی ہے۔ Brave آپ کی سرگزشت کی بنیاد پر تلاش اور دیگر سروسز کو ذاتی نوعیت کا بنا سکتا ہے۔</translation>
 <translation id="4986728572522335985">‏اس سے سیکیورٹی کلید کا PIN سمیت تمام ڈیٹا حذف ہو جائے گا</translation>
@@ -5226,7 +5226,7 @@
 <translation id="4989966318180235467">&amp;پس منظر کے صفحہ کا معائنہ کریں</translation>
 <translation id="499016799952867794">یہ ایپ کو توقع کے مطابق چلنے کی اجازت دیتا ہے۔</translation>
 <translation id="4990673372047946816">کوئی کیمرا دستیاب نہیں ہے</translation>
-<translation id="7538826519053730023">‏‫Gemini Spark اس آلہ پر سائٹس کے ساتھ تعامل کرنے اور آپ کی جانب سے ٹاسکس مکمل کرنے کے لیے Brave آٹو براؤز کا استعمال کر سکتا ہے۔ <ph name="LINK_BEGIN"/>مزید جانیں<ph name="LINK_END"/></translation>
+<translation id="6942602636852210373">‏‫Gemini Spark اس آلہ پر سائٹس کے ساتھ تعامل کرنے اور آپ کی جانب سے ٹاسکس مکمل کرنے کے لیے Wryling آٹو براؤز کا استعمال کر سکتا ہے۔ <ph name="LINK_BEGIN"/>مزید جانیں<ph name="LINK_END"/></translation>
 <translation id="4991420928586866460">سر فہرست قطار کی کلیدوں کو فنکشن کلیدوں کے بطور خیال کریں</translation>
 <translation id="4991873517942703737">اس دستاویز کے بارے میں پوچھیں</translation>
 <translation id="4992066212339426712">آواز چلائیں</translation>
@@ -5380,7 +5380,7 @@
 <translation id="5111794652433847656">اس آلے پر <ph name="APP_NAME"/> کے لیے کوئی پاس کی نہیں ہے۔</translation>
 <translation id="5112686815928391420">{NUM_OF_FILES,plural, =1{1 فائل منتقل ہو گئی}other{{NUM_OF_FILES} فائلز منتقل ہو گئیں}}</translation>
 <translation id="511313294362309725">فاسٹ پئیر آن کریں</translation>
-<translation id="6409962091529734959">‏‫Brave کے آٹو براؤز کے بارے میں مزید جانیں</translation>
+<translation id="3721809128005666745">‏‫Wryling کے آٹو براؤز کے بارے میں مزید جانیں</translation>
 <translation id="51143538739122961">اپنی سیکیورٹی کلید داخل کریں اور اسے ٹچ کریں</translation>
 <translation id="5115338116365931134">SSO</translation>
 <translation id="5116628073786783676">آڈیو &amp;محفوظ کریں بطور…</translation>
@@ -5403,7 +5403,7 @@
 <translation id="5130080518784460891">Eten</translation>
 <translation id="5130675701626084557">پروفائل ڈاؤن لوڈ نہیں کی جا سکی۔ براہ کرم بعد میں دوبارہ کوشش کریں یا مدد کے لئے کیرئیر سے رابطہ کریں۔</translation>
 <translation id="5131591206283983824">ٹچ پیڈ تھپتھپا کر گھسیٹنا</translation>
-<translation id="112893101983775894">‏آپ کے Google Drive مواد تک رسائی صرف اس فائل کی تلاش کی خصوصیت فراہم کرنے کیلئے کی جاتی ہے۔ اس کا استعمال Brave تلاش کو بہتر بنانے کیلئے نہیں کیا جاتا ہے۔ ‫Brave آپ کی Google Drive کے مواد تک رسائی حاصل نہیں کرے گا جب تک کہ آپ واضح طور پر کوئی فائل اپ لوڈ نہ کریں۔</translation>
+<translation id="3232662147308516489">‏آپ کے Google Drive مواد تک رسائی صرف اس فائل کی تلاش کی خصوصیت فراہم کرنے کیلئے کی جاتی ہے۔ اس کا استعمال Brave تلاش کو بہتر بنانے کیلئے نہیں کیا جاتا ہے۔ ‫Brave آپ کی Google Drive کے مواد تک رسائی حاصل نہیں کرے گا جب تک کہ آپ واضح طور پر کوئی فائل اپ لوڈ نہ کریں۔</translation>
 <translation id="5133035646508467110">اگر آپ اس آلے کا دوسروں کے ساتھ اشتراک کرتے ہیں تو جب بھی آپ محفوظ کردہ پاس ورڈ کا استعمال کرتے ہیں تو آپ اس بات کی تصدیق کرنے کے لیے کہ یہ آپ ہی ہیں اپنے فنگر پرنٹ کا استعمال کر سکتے ہیں</translation>
 <translation id="5135533361271311778">بُک مارک آئٹم نہیں بنایا جا سکا۔</translation>
 <translation id="513555878193063507">‏نیا APN شامل کریں</translation>
@@ -5462,18 +5462,18 @@
 <translation id="5179428098696668914">‏‫AI پلے بیک کو آف کریں</translation>
 <translation id="5180276433875360121"><ph name="CERT_LIST"/> دکھائیں</translation>
 <translation id="5181140330217080051">ڈاؤن لوڈ کیا جا رہا ہے</translation>
-<translation id="3656271699136235245">‏<ph name="ACCOUNT"/> کے لیے Brave پاس ورڈ مینیجر میں</translation>
+<translation id="1388473966322202858">‏<ph name="ACCOUNT"/> کے لیے Wryling پاس ورڈ مینیجر میں</translation>
 <translation id="6029810565516522064">‏یہ پاس ورڈ صرف اس آلے میں محفوظ ہے۔ اسے اپنے دیگر آلات پر استعمال کرنے کیلئے، اسے اپنے Brave اکاؤنٹ <ph name="USER_EMAIL"/> میں محفوظ کریں۔</translation>
 <translation id="5182671122927417841">ایکسٹینشن کو غیر فعال کریں</translation>
 <translation id="5183344263225877832">‏HID آلے کی تمام اجازتیں ری سیٹ کریں؟</translation>
 <translation id="5184063094292164363">‏JavaScript&amp; کونسول</translation>
 <translation id="5184209580557088469">اس صارف نام کی ایک ٹکٹ پہلے سے موجود ہے</translation>
-<translation id="8445059357334030806">‏Brave میں کھولیں</translation>
+<translation id="4126334514963731148">‏Wryling میں کھولیں</translation>
 <translation id="5184662919967270437">آپ کے آلے کو اپ ڈیٹ کیا جا رہا ہے</translation>
 <translation id="5185500136143151980">انٹرنیٹ نہیں ہے</translation>
 <translation id="5186362203408605578">‏‫QR کوڈ اسکین کر کے دوسرا آلہ استعمال کریں</translation>
 <translation id="5186381005592669696">تعاون یافتہ ایپس کے لیے ڈسپلے کی زبان کو حسب ضرورت بنائیں</translation>
-<translation id="3075701570150269201">‏آپ اپنے سبھی آلات پر تیزی سے سائن ان کرنے کے لیے اس پاس کی کا استعمال کر سکتے ہیں۔ اسے <ph name="ACCOUNT_NAME"/> کے Brave پاس ورڈ مینیجر میں محفوظ کیا جائے گا۔</translation>
+<translation id="8357398038570228285">‏آپ اپنے سبھی آلات پر تیزی سے سائن ان کرنے کے لیے اس پاس کی کا استعمال کر سکتے ہیں۔ اسے <ph name="ACCOUNT_NAME"/> کے Wryling پاس ورڈ مینیجر میں محفوظ کیا جائے گا۔</translation>
 <translation id="5186792064936776005">دستیاب ہونے پر ڈیفالٹ استعمال کریں</translation>
 <translation id="5186931074173692059">آپ کے پاس ورڈز <ph name="EMAIL"/> کے لیے <ph name="GOOGLE_PASSWORD_MANAGER"/> میں محفوظ ہیں۔</translation>
 <translation id="5187826826541650604"><ph name="KEY_NAME"/> (<ph name="DEVICE"/>)</translation>
@@ -5573,7 +5573,7 @@
 <translation id="5263656105659419083">آسانی سے سائیڈ پینل پر واپس جانے کے لیے، اوپر دائیں جانب "پن" پر کلک کریں</translation>
 <translation id="5266117308710480775">اپنے تمام ٹیبز دیکھیں</translation>
 <translation id="526622169288322445"><ph name="ADDRESS_SUMMARY"/> کے لیے مزید کارروائیاں</translation>
-<translation id="904084505809395909">‏مہارتیں استعمال کرنے کے لیے، ایک ایسے Brave اکاؤنٹ سے Brave میں سائن ان کریں جس میں Brave میں Gemini فعال ہو</translation>
+<translation id="8409037861809652895">‏مہارتیں استعمال کرنے کے لیے، ایک ایسے Brave اکاؤنٹ سے Brave میں سائن ان کریں جس میں Brave میں Gemini فعال ہو</translation>
 <translation id="5267572070504076962">خطرناک سائٹس سے تحفظ حاصل کرنے کے لیے محفوظ براؤزنگ کو آن کریں</translation>
 <translation id="5269659747698455324">اپنی پاس کیز کو غیر مقفل کریں</translation>
 <translation id="5269977353971873915">پرنٹ ناکام ہوگیا</translation>
@@ -5610,7 +5610,7 @@
 <translation id="815099619559018451">‏آپ کے آلے کے سامنے موجود لوگوں کا پتہ لگانے کے لیے آپ کا <ph name="DEVICE_TYPE"/> پہلے سے موجود سینسر کا استعمال کرتا ہے۔ آپ کے آلے پر تمام ڈیٹا پر فوری طور پر کاروائی کی جاتی ہے اور پھر حذف کر دی جاتی ہے۔ سینسر ڈیٹا Brave کو کبھی بھی نہیں بھیجا جاتا ہے۔ <ph name="LINK_BEGIN"/>مزید جانیں<ph name="LINK_END"/></translation>
 <translation id="5294922869942863768">‏‫PDF کے ترجمے ریڈنگ موڈ کے سائیڈ پینل میں ظاہر ہوتے ہیں</translation>
 <translation id="5296350763804564124">صوتی تاثرات سنیں تاکہ آپ اسکرین پر دیکھے بغیر اپنا آلہ استعمال کر سکیں۔ بریل تاثرات منسلک آلہ کے ساتھ دستیاب ہے۔</translation>
-<translation id="6092554978456048094">‏آپ کے پاس نقصان دہ ویب سائٹس کے خلاف Brave کی مضبوط ترین سیکیورٹی ہے</translation>
+<translation id="434455729075409436">‏آپ کے پاس نقصان دہ ویب سائٹس کے خلاف Wryling کی مضبوط ترین سیکیورٹی ہے</translation>
 <translation id="5297005732522718715">ٹیدرنگ کنفیگریشن کو ریفریش کریں</translation>
 <translation id="5297021821125993168">فعالیت کامیاب ہو گئی</translation>
 <translation id="5297082477358294722">پاس ورڈز محفوظ ہیں۔ اپنے <ph name="SAVED_PASSWORDS_STORE"/> میں محفوظ کردہ پاس ورڈز دیکھیں اور ان کا نظم کریں۔</translation>
@@ -5848,7 +5848,7 @@
 <translation id="5490798133083738649">‏Linux کو اپنے مائکروفون تک رسائی کی اجازت دیں</translation>
 <translation id="549211519852037402">ہلکا بادامی اور سفید</translation>
 <translation id="5492637351392383067">آلے پر مرموزکاری</translation>
-<translation id="525561504184560379">‏ایکسٹینشنز Brave کے ایڈ آنز ہیں جو آپ کی مدد کر سکتے ہیں</translation>
+<translation id="4269985980162690000">‏ایکسٹینشنز Wryling کے ایڈ آنز ہیں جو آپ کی مدد کر سکتے ہیں</translation>
 <translation id="5493455553805432330">بھول جائیں</translation>
 <translation id="5493792505296048976">اسکرین آن ہے</translation>
 <translation id="5494016731375030300">حال ہی میں بند کئے گئے ٹیبز</translation>
@@ -5863,7 +5863,7 @@
 <translation id="5497250476399536588">آپ اسے اپنے پتے اور مزید میں تلاش کر سکتے ہیں</translation>
 <translation id="5497251278400702716">یہ فائل</translation>
 <translation id="549762298434242239">بہتر کردہ محفوظ براؤزنگ کے مطابق یہ ایکسٹینشن بھروسہ مند نہیں ہے۔ <ph name="LEARN_MORE_LINK"/></translation>
-<translation id="8535881475141081242">‏Brave اس انسٹالیشن بنڈل کی توثیق نہیں کر سکا</translation>
+<translation id="3284580476319813256">‏Wryling اس انسٹالیشن بنڈل کی توثیق نہیں کر سکا</translation>
 <translation id="5499211612787418966">‏فی الحال اس ڈائیلاگ پر فوکس نہیں کیا گیا۔ اس ڈائیلاگ پر فوکس کرنے کے لیے Alt-Shift A دبائیں۔</translation>
 <translation id="5499476581866658341">اب آپ اپنے فون کی حالیہ تصاویر اور میڈیا دیکھ سکتے ہیں</translation>
 <translation id="549957179819296104">نیا آئیکن</translation>
@@ -5902,7 +5902,7 @@
 <translation id="5527822190489075064">چارجنگ کو بہتر بنایا گیا ہے</translation>
 <translation id="5529554942700688235">میموریز کی بچتوں کا خلاصہ، <ph name="MEMORY_VALUE"/> خالی کی گئی</translation>
 <translation id="5529693968082667490">ٹیب تلاش کا بٹن دکھائیں</translation>
-<translation id="8476278190293667671">‏اپنا پاس ورڈ Brave پاس ورڈ مینیجر میں محفوظ کرنے کے لیے، کلید پر کلک کریں</translation>
+<translation id="7590006893770451825">‏اپنا پاس ورڈ Wryling پاس ورڈ مینیجر میں محفوظ کرنے کے لیے، کلید پر کلک کریں</translation>
 <translation id="5532223876348815659">عالمی</translation>
 <translation id="5533001281916885985"><ph name="SITE_NAME"/> چاہتی ہے کہ</translation>
 <translation id="5533343601674003130">‏PDF سروس</translation>
@@ -6030,7 +6030,7 @@
 <translation id="5632300633605675627">آپ کی پروفائل کو سیٹ اپہ کیا جا رہا ہے...</translation>
 <translation id="5632566673632479864">آپ کا اکاؤنٹ <ph name="EMAIL"/> اب بنیادی اکاؤنٹ کے طور پر اجازت یافتہ نہیں ہے۔ چونکہ یہ اکاؤنٹ <ph name="DOMAIN"/> کے زیر انتظام ہے، لہذا آپ کے بُک مارکس، سرگزشت، پاس ورڈز اور دیگر ترتیبات کو اس آلہ سے صاف کر دیا جائے گا۔</translation>
 <translation id="5633149627228920745">سسٹم کی ضروریات کے بارے میں مزید جانیں</translation>
-<translation id="4349643148868035678">‏‫Brave AI کا بہترین فائدہ اٹھائیں۔ آسان رسائی کے لیے Gemini کو اپنے ٹول بار میں پن کریں یا اسے کسی بھی وقت Brave مینیو سے کھولیں۔</translation>
+<translation id="1259136609764667252">‏‫Brave AI کا بہترین فائدہ اٹھائیں۔ آسان رسائی کے لیے Gemini کو اپنے ٹول بار میں پن کریں یا اسے کسی بھی وقت Brave مینیو سے کھولیں۔</translation>
 <translation id="563371367637259496">موبائل</translation>
 <translation id="5635312199252507107">مخصوص سائٹس پر اجازت دیں</translation>
 <translation id="5636012309446422"><ph name="PRIMARY_EMAIL"/> سے <ph name="DEVICE"/> ہٹائیں؟</translation>
@@ -6075,7 +6075,7 @@
 <translation id="5677503058916217575">صفحہ کی زبان:</translation>
 <translation id="5677928146339483299">مسدود کردہ</translation>
 <translation id="5678550637669481956"><ph name="VOLUME_NAME"/> کیلئے پڑھنے اور لکھنے کی رسائی دی گئی ہے۔</translation>
-<translation id="9187489046368002999">‏آپ ان ٹیبز کو دوبارہ کھول سکتے ہیں جنہیں آپ نے حال ہی میں بند کر دیا ہے جہاں بھی آپ Brave استعمال کرتے ہیں</translation>
+<translation id="1324707973668136061">‏آپ ان ٹیبز کو دوبارہ کھول سکتے ہیں جنہیں آپ نے حال ہی میں بند کر دیا ہے جہاں بھی آپ Wryling استعمال کرتے ہیں</translation>
 <translation id="5678955352098267522">اپنا ڈیٹا <ph name="WEBSITE_1"/> پر پڑھیں</translation>
 <translation id="5680050361008726776">"<ph name="ESIM_PROFILE_NAME"/>" کو ہٹائیں؟</translation>
 <translation id="5681586175480958839">فائل پہلے ہی کھولی جا رہی ہے</translation>
@@ -6179,7 +6179,7 @@
 <translation id="5776415697119024904"><ph name="DEVICE_NAME"/> (سسٹم ڈیفالٹ)</translation>
 <translation id="5776450228446082914">ویب سائٹس کی وہ فہرست جو کسی بھی براؤزر میں کھل سکتی ہیں۔</translation>
 <translation id="5776571780337000608">آپ اس ایپ کے ساتھ اپنے فائل براؤزر یا دیگر ایپس سے تعاون یافتہ فائلز کو کھول اور ان میں ترمیم کر سکتے ہیں۔ جو فائلز بطور ڈیفالٹ اس ایپ کو کھولتی ہیں انہیں کنٹرول کرنے کے لیے، <ph name="BEGIN_LINK"/>جانیں کہ اپنے آلے پر ڈیفالٹ ایپس کیسے سیٹ کریں<ph name="END_LINK"/>۔</translation>
-<translation id="6676231621615806698">‏Brave کھولیں</translation>
+<translation id="2366428511841171478">‏Wryling کھولیں</translation>
 <translation id="5778491106820461378">‏آپ <ph name="LINK_BEGIN"/>ترتیبات<ph name="LINK_END"/> سے سائن ان کردہ Brave اکاؤنٹس کا نظم کر سکتے ہیں۔ ویب سائٹس اور ایپس کو آپ کی دی گئی اجازتیں سبھی اکاؤنٹس پر لاگو ہو سکتی ہیں۔ اگر آپ نہیں چاہتے کہ سائٹس یا ایپس کو آپ کے اکاؤنٹ کی معلومات تک رسائی حاصل ہو تو آپ مہمان کے بطور اپنے <ph name="DEVICE_TYPE"/> میں سائن ان کر سکتے ہیں۔</translation>
 <translation id="5780011244986845107">آپ کے منتخب کردہ فولڈر میں حساس فائلز شامل ہیں۔ کیا آپ واقعی "<ph name="APP_NAME"/>" کو اس فولڈر میں پڑھنے کی مستقل رسائی دینا چاہتے ہیں؟</translation>
 <translation id="5780973441651030252">کارروائی کی ترجیح</translation>
@@ -6189,7 +6189,7 @@
 <translation id="5783346913439924978">ہیڈ ٹریکنگ</translation>
 <translation id="57838592816432529">آواز بند کریں</translation>
 <translation id="5784291589716625675">ایپ کی زبان تبدیل کریں</translation>
-<translation id="7171242884588191792">‏Brave فائل کی افادیتیں</translation>
+<translation id="6694176433685812521">‏Wryling فائل کی افادیتیں</translation>
 <translation id="5787420647064736989">آلہ کا نام</translation>
 <translation id="3481489625298495279">‏<ph name="BEGIN_LINK_LOYALTY_CARDS"/>لائلٹی کارڈز<ph name="END_LINK_LOYALTY_CARDS"/> یا Google Pay <ph name="BEGIN_LINK_PAYMENT_METHODS"/>ادائیگی کے طریقے<ph name="END_LINK_PAYMENT_METHODS"/> شامل کرنے یا ان کا نظم کرنے کے لیے Brave والٹ ملاحظہ کریں</translation>
 <translation id="5789581866075720267">‏اس آلے پر <ph name="BRAND"/> میں پاس ورڈز درآمد کرنے کے لیے، ایک CSV فائل منتخب کریں۔</translation>
@@ -6324,7 +6324,7 @@
 <translation id="587234395549708302">بُک مارکس کو صاف کریں؟</translation>
 <translation id="587502357434914765">اسکرین سے منتخب کریں</translation>
 <translation id="5875534259258494936">اسکرین کا اشتراک ختم ہو گیا ہے</translation>
-<translation id="5087908853264608754">‎Brave Apps &gt; <ph name="APP_NAME"/>‎</translation>
+<translation id="3007975053754227498">‎Wryling Apps &gt; <ph name="APP_NAME"/>‎</translation>
 <translation id="5876851302954717356">دائیں طرف نیا ٹیب</translation>
 <translation id="5877064549588274448">چینل تبدیل ہو گیا ہے۔ تبدیلیوں کو لاگو کرنے کیلئے اپنے آلہ کو دوبارہ شروع کریں۔</translation>
 <translation id="5877584842898320529">منتخب کردہ پرنٹر دستیاب نہیں ہے یا صحیح سے انسٹال نہیں ہوا ہے۔ <ph name="BR"/> اپنا پرنٹر چیک کریں یا دوسرا پرنٹر منتخب کر کے آزمائيں۔</translation>
@@ -6355,7 +6355,7 @@
 <translation id="5901069264981746702">آپ کے فنگر پرنٹ ڈیٹا کو محفوظ طریقے سے اسٹور کیا جاتا ہے اور یہ کبھی بھی آپ کے <ph name="DEVICE_TYPE"/> سے باہر نہیں جاتا۔ <ph name="LINK_BEGIN"/>مزید جانیں<ph name="LINK_END"/></translation>
 <translation id="5901089233978050985">کیپچر کرنے والے ٹیب پر سوئچ کریں</translation>
 <translation id="5901630391730855834">پیلا</translation>
-<translation id="3535209993382976135">‏‫Brave پاس ورڈ مینیجر آف ہے</translation>
+<translation id="7043941876121223194">‏‫Wryling پاس ورڈ مینیجر آف ہے</translation>
 <translation id="3497049935870467874">پوشیدگی وضع میں غیر محفوظ سائٹس پر جانے سے پہلے وارننگز دیکھیں</translation>
 <translation id="5906457147959147328">اس سائٹ کو تحفظ یافتہ مواد چلانے کے لیے شناخت کنندگان کو استعمال کرنے کی اجازت دینا جاری رکھیں</translation>
 <translation id="5906655207909574370">تقریباً اپ ٹو ڈیٹ! اپ ڈیٹ کرنے کو مکمل کرنے کیلئے اپنا آلہ دوبارہ شروع کریں۔</translation>
@@ -6379,7 +6379,7 @@
 <translation id="5919486630433391408">آپ کے منتظم نے فرم ویئر اپ ڈیٹس کو غیر فعال کر دیا ہے۔</translation>
 <translation id="5920543303088087579">اس نیٹ ورک سے منسلک ہونے کو آپ کے منتظم نے غیر فعال کر دیا ہے</translation>
 <translation id="5922493635960054020">‏نئی ملاحظہ کردہ سائٹس پر JavaScript آپٹیمائزر تک رسائی کو بلاک کریں۔ محفوظ براؤزنگ کی ضرورت ہے</translation>
-<translation id="2323567368243374972">‏‫"Brave کو حسب ضرورت بنائیں" پر کلک کریں</translation>
+<translation id="4776890532807780579">‏‫"Wryling کو حسب ضرورت بنائیں" پر کلک کریں</translation>
 <translation id="5924047253200400718">مدد حاصل کریں<ph name="SCANNING_STATUS"/></translation>
 <translation id="5924438086390153180">‏Microsoft فائلز کو Google Drive میں کاپی یا منتقل کرنے سے پہلے پوچھیں</translation>
 <translation id="5925057331573749968">‏‫QR کوڈ کے ساتھ تیزی سے سائن ان کریں</translation>
@@ -6480,7 +6480,7 @@
 <translation id="5992652489368666106">کوئی بارڈر نہیں ہے</translation>
 <translation id="5996490984199062729">آپ کی پروفائل کو سیٹ اپ نہیں کیا گیا ہے</translation>
 <translation id="5997337190805127100">سائٹ تک رسائی کے بارے میں مزید جانیں</translation>
-<translation id="1113417784664180765">‏جب آپ ایک ہی اکاؤنٹ سے Brave میں سائن ان ہوتے ہیں تو آپ کسی بھی آلے کے درمیان تیزی سے لنکس بھیج سکتے ہیں</translation>
+<translation id="2406114405348885691">‏جب آپ ایک ہی اکاؤنٹ سے Wryling میں سائن ان ہوتے ہیں تو آپ کسی بھی آلے کے درمیان تیزی سے لنکس بھیج سکتے ہیں</translation>
 <translation id="5998458948782718639">آٹو فل کو بہتر بنانے میں مدد کریں</translation>
 <translation id="5998976983953384016">تصدیق کریں اور آن کریں</translation>
 <translation id="5999630716831179808">آوازیں</translation>
@@ -6512,7 +6512,7 @@
 <translation id="6021293122504240352"><ph name="APPS"/> ایپس اب مزید تعاون یافتہ نہیں ہیں</translation>
 <translation id="6021969570711251331">انٹر لیو</translation>
 <translation id="6022526133015258832">پوری اسکرین کھولیں</translation>
-<translation id="296137235951584143">‏Brave کو اپنا ڈیفالٹ براؤزر بنائيں</translation>
+<translation id="4578349172774307195">‏Wryling کو اپنا ڈیفالٹ براؤزر بنائيں</translation>
 <translation id="6024317249717725918"><ph name="VISUAL_SEARCH_PROVIDER"/> کے ساتھ ویڈیو فریم تلاش کریں</translation>
 <translation id="6025215716629925253">انبار کا ٹریس</translation>
 <translation id="6026819612896463875">‏<ph name="WINDOW_TITLE"/> - USB آلہ منسلک ہے</translation>
@@ -6601,7 +6601,7 @@
 <translation id="6099766472403716061">‏<ph name="HOST"/> کو اپنے MIDI آلات کو کنٹرول اور دوبارہ پروگرام کرنے کی ہمیشہ اجازت دیں</translation>
 <translation id="6100736666660498114">شروع کرنے کا مینیو</translation>
 <translation id="6100737823178787570">ٹاسک دوبارہ شروع کرنے کے لیے ونڈو کا سائز بڑھائیں</translation>
-<translation id="4012048950158900308">‏اگر Brave کو عوامی ڈیٹا کی خلاف ورزی میں آپ کے پاس ورڈز میں سے کوئی ایک مل جاتا ہے تو آپ کے سائن ان ہونے پر Brave پاس ورڈ مینیجر آپ کے لیے اسے تبدیل کرنے کی پیشکش کر سکتا ہے۔</translation>
+<translation id="4455711252967107965">‏اگر Wryling کو عوامی ڈیٹا کی خلاف ورزی میں آپ کے پاس ورڈز میں سے کوئی ایک مل جاتا ہے تو آپ کے سائن ان ہونے پر Wryling پاس ورڈ مینیجر آپ کے لیے اسے تبدیل کرنے کی پیشکش کر سکتا ہے۔</translation>
 <translation id="6101226222197207147">نئی ایپ شامل کر دی گئی (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="6102043788063419338">اعلی تحفظ نے اس فائل کو مسدود کر دیا ہے۔</translation>
 <translation id="6103681770816982672">وارننگ: آپ ڈویلپر چینل پر سوئچ کر رہے ہیں</translation>
@@ -6634,7 +6634,7 @@
 <translation id="6126601353087978360">براہ کرم اپنے تاثرات یہاں درج کریں:</translation>
 <translation id="6127292407256937949">والیوم آن ہے۔ والیوم کو آف کریں۔</translation>
 <translation id="6127598727646973981">محفوظ کنکشنز</translation>
-<translation id="7089529486065491663">‏Brave اور مطابقت پذیر آلات سے منتخب ڈیٹا کو ہٹا دیا گیا ہے۔ ممکن ہے کہ <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> پر آپ کے Brave اکاؤنٹ میں دیگر Brave سروسز سے تلاش اور سرگرمی جیسی براؤزنگ کی سرگزشت کی دیگر صورتیں موجود ہوں۔</translation>
+<translation id="8909926044863596423">‏Brave اور مطابقت پذیر آلات سے منتخب ڈیٹا کو ہٹا دیا گیا ہے۔ ممکن ہے کہ <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> پر آپ کے Brave اکاؤنٹ میں دیگر Brave سروسز سے تلاش اور سرگرمی جیسی براؤزنگ کی سرگزشت کی دیگر صورتیں موجود ہوں۔</translation>
 <translation id="6129938384427316298">‏Netscape سرٹیفیکیٹ کا تبصرہ</translation>
 <translation id="6129953537138746214">اسپیس</translation>
 <translation id="6130692320435119637">‏Wi-Fi شامل کریں</translation>
@@ -6711,7 +6711,7 @@
 <translation id="6181218116951226898">ایپس کبھی کبھی اپنی برانڈنگ کو اپ ڈیٹ کرتی ہیں۔ اپ ڈیٹ کرنے سے پہلے یہ یقینی بنانے کے لیے تمام تبدیلیوں کا جائزہ لیں کہ آپ ان کے ساتھ سہولت بخش ہیں۔</translation>
 <translation id="6181431612547969857">ڈاؤن لوڈ مسدود ہوگیا</translation>
 <translation id="6183369864942961155">خودکار ہکی/گہری تھیم</translation>
-<translation id="7995865526174204486">‏‫Brave میں Gemini آپ کے ٹیبز میں کام کرنے اور آپ کے دیے گئے ٹاسکس کو مکمل کرنے کے لیے خودکار براؤز کا استعمال کرتا ہے۔ <ph name="LINK_BEGIN"/>مزید جانیں<ph name="LINK_END"/></translation>
+<translation id="896787455774331657">‏‫Wryling میں Gemini آپ کے ٹیبز میں کام کرنے اور آپ کے دیے گئے ٹاسکس کو مکمل کرنے کے لیے خودکار براؤز کا استعمال کرتا ہے۔ <ph name="LINK_BEGIN"/>مزید جانیں<ph name="LINK_END"/></translation>
 <translation id="6184099524311454384">ٹیبز تلاش کریں</translation>
 <translation id="6185151644843671709">‏پاسکی محفوظ ہو گئی اور PIN تخلیق کیا گیا</translation>
 <translation id="2250900586478000379">{PASSWORD_COUNT,plural, =1{‏‫1 پاس ورڈ اور دیگر آئٹمز صرف اس آلے پر محفوظ ہیں۔ اپنے دیگر آلات پر ان کا استعمال کرنے کیلئے، انہیں اپنے Brave اکاؤنٹ میں محفوظ کریں۔ اس سے تمام ڈپلیکیٹس بھی صاف ہو جائیں گے۔}other{‏‫{PASSWORD_COUNT} پاس ورڈز اور دیگر آئٹمز صرف اس آلے پر محفوظ ہیں۔ اپنے دیگر آلات پر ان کا استعمال کرنے کیلئے، انہیں اپنے Brave اکاؤنٹ میں محفوظ کریں۔ اس سے تمام ڈپلیکیٹس بھی صاف ہو جائیں گے۔}}</translation>
@@ -6783,7 +6783,7 @@
 <translation id="6239558157302047471">&amp;فریم دوبارہ لوڈ کریں</translation>
 <translation id="6240637845286751292">اجازت دی گئی۔ <ph name="LINK_BEGIN"/>سسٹم مقام کی رسائی<ph name="LINK_END"/> کو آن کریں۔</translation>
 <translation id="6240821072888636753">ہر بار پوچھیں</translation>
-<translation id="4174528239215311406">‏اپنے آپریٹنگ سسٹم کے ساتھ Brave پاس ورڈ مینیجر استعمال کرنے کے لیے Brave کو بند کر کے دوبارہ چلائیں اور اپنے کمپیوٹر کے پاس ورڈ مینیجر تک رسائی کی اجازت دیں۔ بند کر کے دوبارہ چلانے کے بعد، آپ کے ٹیبز دوبارہ کھل جائیں گے۔</translation>
+<translation id="242014192545524966">‏اپنے آپریٹنگ سسٹم کے ساتھ Wryling پاس ورڈ مینیجر استعمال کرنے کے لیے Wryling کو بند کر کے دوبارہ چلائیں اور اپنے کمپیوٹر کے پاس ورڈ مینیجر تک رسائی کی اجازت دیں۔ بند کر کے دوبارہ چلانے کے بعد، آپ کے ٹیبز دوبارہ کھل جائیں گے۔</translation>
 <translation id="6241530762627360640">اپنے سسٹم کے ساتھ جوڑا بنائے گئے بلوٹوتھ آلات کے بارے میں معلومات تک رسائی حاصل کریں اور قریبی بلوٹوتھ آلات کو دریافت کریں۔</translation>
 <translation id="6241844896329831164">کوئی رسائی درکار نہیں ہے</translation>
 <translation id="6242589501614145408">اپنی سیکیورٹی کلید دوبارہ ترتیب دیں</translation>
@@ -6791,8 +6791,8 @@
 <translation id="6242852299490624841">اس ٹیب کو فوکس کریں</translation>
 <translation id="6243774244933267674">سرور دستیاب نہیں ہے</translation>
 <translation id="6244245036423700521">‏ONC فائل درآمد کریں</translation>
-<translation id="5455369595872837596">‏آپ Brave پاس ورڈ مینیجر پر اس تک رسائی حاصل کر سکتے ہیں۔</translation>
-<translation id="8883879481897424949">‏Brave پاس ورڈ مینیجر</translation>
+<translation id="6643271232839544541">‏آپ Wryling پاس ورڈ مینیجر پر اس تک رسائی حاصل کر سکتے ہیں۔</translation>
+<translation id="3888885285070224654">‏Wryling پاس ورڈ مینیجر</translation>
 <translation id="6247620186971210352">کوئی ایپ نہیں ملی</translation>
 <translation id="6247708409970142803">‎<ph name="PERCENTAGE"/>%‎</translation>
 <translation id="6247802389331535091">سسٹم: <ph name="ARC_PROCESS_NAME"/></translation>
@@ -6888,11 +6888,11 @@
 <translation id="6324916366299863871">شارٹ کٹ میں ترمیم کریں</translation>
 <translation id="6325191661371220117">خودکار لانچ کو غیر فعال کریں</translation>
 <translation id="632524945411480350">ری سائز کردہ ونڈوز کو نیچے کی طرف لے جائیں</translation>
-<translation id="5267531627648004734">‏Brave سے ہٹائیں</translation>
+<translation id="6125790165673488794">‏Wryling سے ہٹائیں</translation>
 <translation id="6326855256003666642">کیپ الائیو شمار</translation>
 <translation id="6327785803543103246">ویب پراکسی کی خودکار دریافت</translation>
 <translation id="6329916384047371874">آپ <ph name="DOMAIN"/> پر اپنا <ph name="PASSWORD_DOMAIN"/> پاس ورڈ استعمال کریں گے۔ اگر آپ کو <ph name="DOMAIN"/> پر اعتماد ہے تو ہی اپنا پاس ورڈ استعمال کریں۔</translation>
-<translation id="894516897589069384">‏آپ کی پاس کی <ph name="ACCOUNT_NAME"/> کے Brave پاس ورڈ مینیجر میں محفوظ کی جائے گی۔ آپ کو بس ایک بار ایسا کرنا ہوگا۔</translation>
+<translation id="96451127607926283">‏آپ کی پاس کی <ph name="ACCOUNT_NAME"/> کے Wryling پاس ورڈ مینیجر میں محفوظ کی جائے گی۔ آپ کو بس ایک بار ایسا کرنا ہوگا۔</translation>
 <translation id="8329196515830093443">‏ڈیبگ کرنے کیلئے فائل Brave کو بھیج دی جائے گی</translation>
 <translation id="6333170995003625229">آپ کے ای میل پتہ یا پاس ورڈ کی توثیق نہیں کی جا سکی۔ دوبارہ سائن ان کرنے کی کوشش کریں۔</translation>
 <translation id="6334267141726449402">لاگز جمع کرنے کے لیے اس لنک کو کاپی کر کے صارف کو بھیجیں۔</translation>
@@ -6951,7 +6951,7 @@
 <translation id="637135143619858508">لائنوں کے درمیان جگہ</translation>
 <translation id="6374077068638737855">آئیس ویزل</translation>
 <translation id="6374469231428023295">دوبارہ کوشش کریں</translation>
-<translation id="3816315808514424202">‏دسمبر 2022 کے بعد، Brave ایپس کے پرانے ورژنز Linux آلات پر اب مزید نہیں کھل سکیں گے۔ نئے ورژن پر اپ ڈیٹ کرنے کے لیے اپنے منتظم سے رابطہ کریں یا یہ ایپ ہٹائیں۔</translation>
+<translation id="8663109891702419184">‏دسمبر 2022 کے بعد، Wryling ایپس کے پرانے ورژنز Linux آلات پر اب مزید نہیں کھل سکیں گے۔ نئے ورژن پر اپ ڈیٹ کرنے کے لیے اپنے منتظم سے رابطہ کریں یا یہ ایپ ہٹائیں۔</translation>
 <translation id="6377268785556383139">'<ph name="SEARCH_TEXT"/>' کا 1 نتیجہ</translation>
 <translation id="6378392501584240055">‏Wi-Fi نیٹ ورکس میں کھولیں</translation>
 <translation id="6379228010899751161">یہ یقینی بنانے کیلئے کہ آپ ہمیشہ اپنے اکاؤنٹ، <ph name="ACCOUNT_EMAIL"/> میں پاس ورڈز استعمال کر سکتے ہیں توثیق کریں کہ یہ آپ ہی ہیں</translation>
@@ -6983,7 +6983,7 @@
 <translation id="6399774419735315745">جاسوس</translation>
 <translation id="6400360390396538896"><ph name="ORIGIN"/> ہمیشہ آن</translation>
 <translation id="6401118106417399952">‏آپ کے آلے کی EID <ph name="EID_NUMBER"/> ہے اور آلے کا سیریل نمبر <ph name="SERIAL_NUMBER"/> ہے۔ سروس کو فعال کرنے میں مدد کیلئے ان نمبرز کا استعمال کیا جا سکتا ہے۔</translation>
-<translation id="8789425457808164956">‏اس ٹیب کو کسی اور آلے میں بھیجنے کے لیے وہاں Brave میں سائن ان کریں</translation>
+<translation id="2522845252291433622">‏اس ٹیب کو کسی اور آلے میں بھیجنے کے لیے وہاں Wryling میں سائن ان کریں</translation>
 <translation id="6402042774506839496">وجہ جاننے کیلئے، ایپ ڈویلپر سے رابطہ کریں</translation>
 <translation id="6402921224457714577">‏سائٹس آپ کے MIDI آلات کو کنٹرول اور دوبارہ پروگرام کرنے کا مطالبہ کر سکتی ہیں</translation>
 <translation id="6404511346730675251">بک مارک میں ترمیم کریں</translation>
@@ -7075,7 +7075,7 @@
 <translation id="6469557521904094793">سیلولر نیٹ ورک آن کریں</translation>
 <translation id="6469702164109431067">پاس ورڈز اور پاس کیز</translation>
 <translation id="6470120577693311302">فلیش کرنے والی اطلاعات</translation>
-<translation id="2444643906853437046">‏ٹیبز کا اشتراک کرنے اور دوسروں کے ساتھ اکٹھے کام کرنے کے لیے، Brave میں سائن ان کریں اور اپنی سرگزشت اور ٹیبز کو مطابقت پذیر بنائیں۔ آپ کو اپنے تمام آلات پر اپنے پاس ورڈز اور مزید چیزیں بھی مل جائیں گی۔</translation>
+<translation id="5220171877391975452">‏ٹیبز کا اشتراک کرنے اور دوسروں کے ساتھ اکٹھے کام کرنے کے لیے، Wryling میں سائن ان کریں اور اپنی سرگزشت اور ٹیبز کو مطابقت پذیر بنائیں۔ آپ کو اپنے تمام آلات پر اپنے پاس ورڈز اور مزید چیزیں بھی مل جائیں گی۔</translation>
 <translation id="6470823736074966819">اطلاعات کو خاموش کریں</translation>
 <translation id="6472893788822429178">ہوم بٹن دکھائیں</translation>
 <translation id="6473315466413288899">ایک اختیار منتخب کریں</translation>
@@ -7100,7 +7100,7 @@
 <translation id="649396225532207613">یہ فائل آپ کے ذاتی اور سوشل نیٹ ورک اکاؤنٹس کو نقصان پہنچا سکتی ہے</translation>
 <translation id="6493991254603208962">چمک کم کریں</translation>
 <translation id="6494327278868541139">بہتر کردہ تحفظ کی تفصیلات دکھائیں</translation>
-<translation id="4328654367880031858">‏تھیم کو ڈیفالٹ Brave میں اپ ڈیٹ کر دیا گیا</translation>
+<translation id="7396469211317307267">‏تھیم کو ڈیفالٹ Wryling میں اپ ڈیٹ کر دیا گیا</translation>
 <translation id="6496641546298525838">آپ کا آلہ</translation>
 <translation id="6497784818439587832">اپنی اسکرین پر موجود آئٹمز کو چھوٹا یا بڑا کرنے کے لیے ڈسپلے کا سائز تبدیل کریں</translation>
 <translation id="6497789971060331894">ماؤس کی معکوس اسکرولنگ</translation>
@@ -7128,8 +7128,8 @@
 <translation id="6519437681804756269">[<ph name="TIMESTAMP"/>]
         <ph name="FILE_INFO"/>
         <ph name="EVENT_NAME"/></translation>
-<translation id="7978371405408781051">‏آپ Brave پاس ورڈ مینیجر میں محفوظ کردہ پاس ورڈز دیکھ اور ان کا نظم کر سکتے ہیں۔</translation>
-<translation id="3268749830200917889">‏<ph name="SITE"/> اس بات کی تصدیق کرنا چاہتا ہے کہ یہ آپ ہی ہیں۔ ‫Brave پاس ورڈ مینیجر کے لیے اپنا الفانیومیرک PIN درج کریں</translation>
+<translation id="4368425522364057431">‏آپ Wryling پاس ورڈ مینیجر میں محفوظ کردہ پاس ورڈز دیکھ اور ان کا نظم کر سکتے ہیں۔</translation>
+<translation id="4584640130722526280">‏<ph name="SITE"/> اس بات کی تصدیق کرنا چاہتا ہے کہ یہ آپ ہی ہیں۔ ‫Wryling پاس ورڈ مینیجر کے لیے اپنا الفانیومیرک PIN درج کریں</translation>
 <translation id="6520876759015997832">‏<ph name="LIST_SIZE"/> میں سے <ph name="LIST_POSITION"/> تلاش کا نتیجہ: <ph name="SEARCH_RESULT_TEXT"/>۔ سیکشن پر نیویگیٹ کرنے کے لیے Enter دبائیں۔</translation>
 <translation id="6521214596282732365">سائٹس عام طور پر آپ کے فونٹس کا استعمال کرتی ہیں تاکہ آپ آن لائن ڈیزائن اور گرافکس ٹولز کی مدد سے ہائی فیڈیلٹی مواد تخلیق کر سکیں</translation>
 <translation id="6521218807522232085">اپنے پاس ورڈز تخلیق کریں، محفوظ کریں اور ان کا نظم کریں تاکہ آپ آسانی سے سائن ان کر سکیں</translation>
@@ -7187,7 +7187,7 @@
 <translation id="656293578423618167">فائل کا پاتھ یا نام کافی طویل ہیں۔ براہ کرم ایک چھوٹے نام کے ساتھ یا کسی دوسرے مقام میں محفوظ کریں۔</translation>
 <translation id="6563002009564846727">‏‫Windows سے درآمد شدہ سرٹیفکیٹس دیکھیں</translation>
 <translation id="6563055593659435495">‏آپ کے فون کے ساتھ کنکشن برقرار نہیں رکھا جا سکتا۔ یقینی بنائیں کہ آپ کا فون قریب میں ہے، غیر مقفل ہے اور اس میں بلوٹوتھ اور Wi-Fi آن ہے۔</translation>
-<translation id="5101641460012906639">‏<ph name="APP_NAME"/> کے لیے پاس کی تخلیق کرنے کے لیے، Brave پاس ورڈ مینیجر کا آن ہونا ضروری ہے</translation>
+<translation id="220477283561908794">‏<ph name="APP_NAME"/> کے لیے پاس کی تخلیق کرنے کے لیے، Wryling پاس ورڈ مینیجر کا آن ہونا ضروری ہے</translation>
 <translation id="6565899972286925956">کچھ بھی تخلیق کریں</translation>
 <translation id="6566648465417201421">بند منقسم منظر کو دوبارہ کھولیں</translation>
 <translation id="656679903990115526">سائٹس اور ایپس میں آسانی سے سائن ان کرنے کے لیے اپنے پاس ورڈز کو محفوظ کرنے اور آٹو فل کرنے کے لیے اسے اپنے فون سے اسکین کریں</translation>
@@ -7217,7 +7217,7 @@
 <translation id="6582274660680936615">آپ ایک مہمان کے طور پر براؤز کر رہے ہیں</translation>
 <translation id="6583328141350416497">ڈاؤن لوڈ جاری رکھیں</translation>
 <translation id="6584878029876017575">‏Microsoft لائف ٹائم سائننگ</translation>
-<translation id="3967591872717355005">‏‫Brave میں Gemini کو بند کریں</translation>
+<translation id="4549910236442219988">‏‫Wryling میں Gemini کو بند کریں</translation>
 <translation id="6585584201072946561">ویب براؤزر کے لیے ٹیکسٹ سائز اور فونٹ کو حسب ضرورت بنائیں</translation>
 <translation id="6586099239452884121">مہمان براؤزنگ</translation>
 <translation id="6586451623538375658">ابتدائی ماؤس بٹن سویپ کریں</translation>
@@ -7229,11 +7229,11 @@
 <translation id="6592808042417736307">آپ کا فنگر پرنٹ کیپچر ہو گیا تھا</translation>
 <translation id="6594011207075825276">سیریل آلات تلاش کئے جا رہے ہیں...</translation>
 <translation id="6595322909015878027">سائٹس کو خودکار طور پر تصویر میں تصویر داخل کرنے کی اجازت نہیں ہے</translation>
-<translation id="5089633794744090226">{COUNT,plural, =1{‏متاثرہ پاس ورڈ کو کامیابی کے ساتھ تبدیل کر دیا گیا۔
+<translation id="4604137824271419035">{COUNT,plural, =1{‏متاثرہ پاس ورڈ کو کامیابی کے ساتھ تبدیل کر دیا گیا۔
 
-آپ کے پاس # متاثرہ پاس ورڈ ہے۔ Brave پاس ورڈ مینیجر اس پاس ورڈ کو ابھی چیک کرنے کی تجویز کرتا ہے۔}other{‏متاثرہ پاس ورڈ کو کامیابی کے ساتھ تبدیل کر دیا گیا۔
+آپ کے پاس # متاثرہ پاس ورڈ ہے۔ Wryling پاس ورڈ مینیجر اس پاس ورڈ کو ابھی چیک کرنے کی تجویز کرتا ہے۔}other{‏متاثرہ پاس ورڈ کو کامیابی کے ساتھ تبدیل کر دیا گیا۔
 
-آپ کے پاس # متاثرہ پاس ورڈز ہیں۔ Brave پاس ورڈ مینیجر ان پاس ورڈز کو ابھی چیک کرنے کی تجویز کرتا ہے۔}}</translation>
+آپ کے پاس # متاثرہ پاس ورڈز ہیں۔ Wryling پاس ورڈ مینیجر ان پاس ورڈز کو ابھی چیک کرنے کی تجویز کرتا ہے۔}}</translation>
 <translation id="6596325263575161958">مرموزکاری کے اختیارات</translation>
 <translation id="6596816719288285829">‏IP پتہ</translation>
 <translation id="6596916244504302242">اس سائٹ پر اپنی اپ ڈیٹ کردہ ایکسٹینشن کی ترتیبات کو لاگو کرنے کے لیے اس صفحہ کو دوبارہ لوڈ کریں</translation>
@@ -7269,7 +7269,7 @@
 <translation id="6619801788773578757">کیوسک ایپلیکیشن شامل کریں</translation>
 <translation id="6619990499523117484">‏اپنے PIN کی توثیق کریں</translation>
 <translation id="808383181727223557">‏‫Brave سے پوچھیں یا URL ٹائپ کریں</translation>
-<translation id="8127050479140582768">‏اس ٹیب کو کسی اور آلے میں بھیجنے کے لیے دونوں آلات پر Brave میں سائن ان کریں</translation>
+<translation id="7379057487310867567">‏اس ٹیب کو کسی اور آلے میں بھیجنے کے لیے دونوں آلات پر Wryling میں سائن ان کریں</translation>
 <translation id="6622980291894852883">تصاویر کو مسدود کرنا جاری رکھیں</translation>
 <translation id="6624036901798307345">ٹیبلیٹ موڈ میں، ٹیب کاؤنٹر ٹول بار کے بٹن پر تھپتھپائیں تاکہ نئی ٹیب کی اسٹرپ کھل سکے جو ہر ٹیب کے تھمب نیلز دکھاتی ہے۔</translation>
 <translation id="6624538059730609162">دائیں منظر کو بند کریں</translation>
@@ -7287,7 +7287,7 @@
 <translation id="663569763553406962">دیکھیں کہ کون سی ایکسٹینشنز کسی سائٹ کو پڑھ یا انہیں تبدیل کر سکتی ہیں</translation>
 <translation id="6636258750460740634">سرگزشت</translation>
 <translation id="6636623428211296678">ذیل میں مزید ترتیبات دریافت کریں یا ابھی مکمل کریں</translation>
-<translation id="7039910610180903356">‏مہارتوں کی خصوصیت فی الحال غیر فعال ہے۔ شروع کرنے کے لیے اپنی Brave کی ترتیبات کو اپ ڈیٹ کریں۔</translation>
+<translation id="2685022934261893296">‏مہارتوں کی خصوصیت فی الحال غیر فعال ہے۔ شروع کرنے کے لیے اپنی Wryling کی ترتیبات کو اپ ڈیٹ کریں۔</translation>
 <translation id="6639554308659482635">‏SQLite میموری</translation>
 <translation id="6640268266988685324">ٹیب کھولیں</translation>
 <translation id="664271268954513498">پالیسی کی قدر</translation>
@@ -7321,7 +7321,7 @@
 <translation id="6660819301598582123">تیز بھوری لومڑی نے سست کتے پر چھلانگ لگائی۔</translation>
 <translation id="666099631117081440">پرنٹ سرورز</translation>
 <translation id="6662339038589469159">‏‫Gemini سے پوچھنے کے لیے ٹیکسٹ منتخب کریں</translation>
-<translation id="5651734709592044140">‏اپنے کسی بھی آلے سے سائٹس میں تیزی سے سائن ان کرنے کے لیے Brave پاس ورڈ مینیجر کا استعمال کریں</translation>
+<translation id="7879317760767371797">‏اپنے کسی بھی آلے سے سائٹس میں تیزی سے سائن ان کرنے کے لیے Wryling پاس ورڈ مینیجر کا استعمال کریں</translation>
 <translation id="6662931079349804328">انٹرپرائز کی پالیسی تبدیل ہو گئی۔ تجربات بٹن کو ٹول بار سے ہٹا دیا گیا۔</translation>
 <translation id="6664774537677393800">آپ کے پروفائل کو کھولتے وقت کچھ غلط ہوگیا۔ براہ کرم سائن آؤٹ کر کے دوبارہ سائن ان کریں۔</translation>
 <translation id="6665874326033183068">وائلڈ</translation>
@@ -7343,7 +7343,7 @@
 <translation id="6677527809400770913">اشارہ <ph name="GESTURE"/> کو <ph name="ACTION"/> کے لیے تفویض کیا گیا</translation>
 <translation id="6678604587151240716">سمندر میں بڑی خطرناک لہریں اٹھ رہی ہیں۔ کچھ فاصلے پر زمین نظر آتی ہے۔ افق پر نارنجی رنگ کی روشنی نظر آتی ہے۔ آسمان کا رنگ سیاہ ہے۔</translation>
 <translation id="6678717876183468697">‏استفسار کا URL</translation>
-<translation id="4179272988780553308">‏آپ کا پاس ورڈ تبدیل کرنے میں Brave کو مدد کی ضرورت ہے</translation>
+<translation id="6399206009398414883">‏آپ کا پاس ورڈ تبدیل کرنے میں Wryling کو مدد کی ضرورت ہے</translation>
 <translation id="6679947539429331601">‫12 گھنٹے کیلئے چھپائیں</translation>
 <translation id="6680650203439190394">درجہ بندی کریں</translation>
 <translation id="6683022854667115063">ہیڈ فونز</translation>
@@ -7354,7 +7354,7 @@
 <translation id="6686676261102452995">آپ نے آج کھولا</translation>
 <translation id="6686817083349815241">اپنا پاس ورڈ محفوظ کریں</translation>
 <translation id="6686878118106035853">‏حسب ضرورت بہتر کردہ حفاظت تمام سائٹس کے لیے JavaScript آپٹیمائزیشن کو آف کر دیتی ہے</translation>
-<translation id="8244419959467378067">‏‫Brave پاس ورڈ مینیجر کا PIN تبدیل کریں</translation>
+<translation id="6670208233381808278">‏‫Wryling پاس ورڈ مینیجر کا PIN تبدیل کریں</translation>
 <translation id="6687079240787935001"><ph name="MODULE_TITLE"/> چھپائیں</translation>
 <translation id="6689092196793298127">آرگنائزر</translation>
 <translation id="6689948774466767379">ماؤس کنٹرول کرنے کی کلیدیں</translation>
@@ -7448,9 +7448,9 @@
 <translation id="6762833852331690540">آن</translation>
 <translation id="6762861159308991328">آپ ایپ کی ترتیبات میں لنکس کے کھلنے کا طریقہ تبدیل کر سکتے ہیں</translation>
 <translation id="676560328519657314">‏Google Pay میں آپ کی ادائیگی کے طریقے</translation>
-<translation id="3829555700225710632">‏Brave پاس ورڈ مینیجر پر جائیں</translation>
+<translation id="1991746409654589637">‏Wryling پاس ورڈ مینیجر پر جائیں</translation>
 <translation id="6767566652486411142">کسی دوسری زبان کا انتخاب کریں...</translation>
-<translation id="3118781942424119876">‏‫<ph name="DISPLAYED_TEXT"/>، Brave میں Gemini</translation>
+<translation id="444975012123670651">‏‫<ph name="DISPLAYED_TEXT"/>، Wryling میں Gemini</translation>
 <translation id="6768034047581882264">غیر محفوظ مواد دکھانے کی اجازت نہیں ہے</translation>
 <translation id="6770602306803890733">آپ کے لیے اور ویب پر سبھی کے لیے سیکیورٹی کو بہتر بناتی ہے</translation>
 <translation id="6771503742377376720">ایک سرٹیفیکیشن ادارہ ہے</translation>
@@ -7466,7 +7466,7 @@
 <translation id="6777817260680419853">ری ڈائریکٹ مسدود ہے</translation>
 <translation id="6777845730143344223">پاس پوائنٹ سبسکرپشنز کے بارے میں مزید جانیں</translation>
 <translation id="6779092717724412415">اس طرح کی ہائی لائٹ تخلیق کرنے کے لیے، کوئی بھی ٹیکسٹ منتخب کریں اور دائیں طرف کلک کریں۔</translation>
-<translation id="4302311572898487420">‏Brave پاس ورڈ مینیجر کو MacOS Keychain تک رسائی درکار ہے</translation>
+<translation id="5994277662125312553">‏Wryling پاس ورڈ مینیجر کو MacOS Keychain تک رسائی درکار ہے</translation>
 <translation id="677965093459947883">بہت چھوٹا</translation>
 <translation id="6781005693196527806">سرچ انجن کا &amp;نظم کریں...</translation>
 <translation id="6781284683813954823">‏Doodle لنک</translation>
@@ -7475,7 +7475,7 @@
 <translation id="678520006562636090">‏اپنے <ph name="DEVICE_TYPE"/> پر Brave لینز آزمائیں</translation>
 <translation id="6785594991951195537">اپنا <ph name="PASSWORD_DOMAIN"/> استعمال کریں</translation>
 <translation id="6785739405821760313">محفوظ کردہ ڈیسکس دیکھی جا رہی ہیں۔ نیویگیٹ کرنے کے لیے ٹیب دبائیں۔</translation>
-<translation id="3970420313383499900">‏‫Brave میں Gemini کھولنے کے لیے <ph name="FOCUS_TOGGLE_HOTKEY"/> کا استعمال کریں</translation>
+<translation id="1947654530370382747">‏‫Wryling میں Gemini کھولنے کے لیے <ph name="FOCUS_TOGGLE_HOTKEY"/> کا استعمال کریں</translation>
 <translation id="6785915470941880363">سکرولنگ کو الٹائیں <ph name="LINK_BEGIN"/>مزید جانیں<ph name="LINK_END"/></translation>
 <translation id="67862343314499040">وائلیٹ</translation>
 <translation id="6786480815699355166">لائیو کیپشن کی صرف تعاون یافتہ زبانوں کا ترجمہ کیا جا سکتا ہے</translation>
@@ -7546,10 +7546,10 @@
 <translation id="6825184156888454064">نام کے لحاظ سے ترتیب دیں</translation>
 <translation id="6827121912381363404">تمام ایکسٹینشنز کو <ph name="PERMITTED_SITE"/> پڑھنے اور تبدیل کرنے کی اجازت دیں</translation>
 <translation id="4109630956174373924">‏آپ کی ایپس اور ترتیبات ان تمام ChromeOS آلات پر مطابقت پذیر ہوں گی جہاں آپ اپنے Brave اکاؤنٹ کے ساتھ سائن ان ہیں۔ براؤزر کی مطابقت پذیری کے اختیارات کے ليے <ph name="LINK_BEGIN"/>Brave کی ترتیبات<ph name="LINK_END"/> پر جائیں۔</translation>
-<translation id="8295391943105726234">‏دسمبر 2022 کے بعد، Brave ایپس کے پرانے ورژنز Windows آلات پر اب مزید نہیں کھل سکیں گے۔ نئے ورژن پر اپ ڈیٹ کرنے کے لیے اپنے منتظم سے رابطہ کریں یا یہ ایپ ہٹائیں۔</translation>
+<translation id="6370110567774380901">‏دسمبر 2022 کے بعد، Wryling ایپس کے پرانے ورژنز Windows آلات پر اب مزید نہیں کھل سکیں گے۔ نئے ورژن پر اپ ڈیٹ کرنے کے لیے اپنے منتظم سے رابطہ کریں یا یہ ایپ ہٹائیں۔</translation>
 <translation id="6828182567531805778">اپنے ڈیٹا کو مطابقت پذیر بنانے کے لیے اپنا پاس فریز درج کریں</translation>
 <translation id="6828860976882136098">سبھی صارفین کیلئے خودکار اپ ڈیٹس کو ترتیب دینا ناکام ہوگیا (پرواز سے پہلے کی کارروائی میں خرابی: <ph name="ERROR_NUMBER"/>)</translation>
-<translation id="2119951199746818124">‏‫Brave کیلنڈر میں اپنے اگلے ایونٹ پر آسانی سے نیویگیٹ کرنے میں آپ کی مدد کرنے کیلئے، آپ اپنا کیلنڈر دیکھ رہے ہیں۔
+<translation id="1976443593815762542">‏‫Brave کیلنڈر میں اپنے اگلے ایونٹ پر آسانی سے نیویگیٹ کرنے میں آپ کی مدد کرنے کیلئے، آپ اپنا کیلنڈر دیکھ رہے ہیں۔
         <ph name="BREAK"/>
         <ph name="BREAK"/>
         آپ کارڈ مینو سے ترتیبات کا نظم کر سکتے یا 'Brave کو حسب ضرورت بنائیں' میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
@@ -7679,7 +7679,7 @@
 <translation id="6916818963747321523">سبھی کو توسیع دیں</translation>
 <translation id="8995127535539248248">‏ٹیب گروپس کا اشتراک کرنے، اس میں شامل ہونے اور تعاون کرنے کے لیے، ترتیبات کھولیں اور Brave کو سائن ان کرنے کی اجازت دیں کو آن کریں</translation>
 <translation id="6919354101107095996">سائٹ میں سائن ان کرنے کی کوشش کریں۔ پھر دوبارہ ڈاؤن لوڈ کریں</translation>
-<translation id="4194845302979409023">‏اس Brave پروفائل کیلئے بہتر کردہ محفوظ براؤزنگ کو بھی فعال کریں؟</translation>
+<translation id="4828791257596683710">‏اس Wryling پروفائل کیلئے بہتر کردہ محفوظ براؤزنگ کو بھی فعال کریں؟</translation>
 <translation id="6920989436227028121">ریگولر ٹیب کے بطور کھولیں</translation>
 <translation id="6921104647315081813">سرگرمیوں کو صاف کریں</translation>
 <translation id="692114467174262153"><ph name="ALTERNATIVE_BROWSER_NAME"/> کو کھولا نہیں جا سکا</translation>
@@ -7725,7 +7725,7 @@
 <translation id="6961327401577924850">سائٹس عام طور پر کم توانائی والے بیکن کو سیٹ اپ کرنے یا مطابقت پذیر کرنے، صحت یا تندرستی کے ٹریکر یا اسمارٹ لائٹ بلب جیسی خصوصیات کے لئے بلوٹوتھ آلات کو تلاش کرتی ہیں</translation>
 <translation id="6963772203726867701">پتہ نہیں چلا</translation>
 <translation id="6963872466817251924">ٹیکسٹ نمایاں کرنے والا کرسر</translation>
-<translation id="6638101873197257342">‏یہ Brave کے لیے ایڈ آنز ہیں جو آپ کو مزید کام کرنے میں مدد کر سکتی ہیں</translation>
+<translation id="1130544806072374777">‏یہ Wryling کے لیے ایڈ آنز ہیں جو آپ کو مزید کام کرنے میں مدد کر سکتی ہیں</translation>
 <translation id="6964390816189577014">ہیرو</translation>
 <translation id="6964760285928603117">گروپ سے ہٹائیں</translation>
 <translation id="6965382102122355670">ٹھیک ہے</translation>
@@ -7829,7 +7829,7 @@
 <translation id="7033616203784997570">ان پٹ میں زیادہ سے زیادہ 62 حروف ہونے چاہئیں</translation>
 <translation id="7033731598469029604">آٹو براؤز</translation>
 <translation id="70356134210715500">اپنی پاس کیز حاصل کریں</translation>
-<translation id="205056676188659235">‏<ph name="RP_ID"/> نے ابھی آپ کے اکاؤنٹ کے لیے ایک پاس کی تخلیق کی۔ پاس کیز سائن ان کرنے کا تیز تر اور زیادہ محفوظ طریقہ پیش کرتی ہیں اور <ph name="USER"/> کے لیے Brave پاس ورڈ مینیجر میں محفوظ کی جاتی ہیں۔ <ph name="LEARN_MORE"/></translation>
+<translation id="779273391657213098">‏<ph name="RP_ID"/> نے ابھی آپ کے اکاؤنٹ کے لیے ایک پاس کی تخلیق کی۔ پاس کیز سائن ان کرنے کا تیز تر اور زیادہ محفوظ طریقہ پیش کرتی ہیں اور <ph name="USER"/> کے لیے Wryling پاس ورڈ مینیجر میں محفوظ کی جاتی ہیں۔ <ph name="LEARN_MORE"/></translation>
 <translation id="7036833812387983071">‏‫DevTools میں دیکھیں</translation>
 <translation id="7037157058268992880">‏‫PIN بھول گئے</translation>
 <translation id="7037509989619051237">متن کا پیش منظر دیکھیں</translation>
@@ -7866,7 +7866,7 @@
 <translation id="706626672220389329">اشتراک کو ماؤنٹ کرنے میں خرابی آگئی۔ متعین کردہ اشتراک پہلے سے ماؤنٹ کیا جا چکا ہے۔</translation>
 <translation id="7067396782363924830">ايمبيئنٹ کے رنگ</translation>
 <translation id="7067725467529581407">اسے دوبارہ کبھی نہ دکھائیں۔</translation>
-<translation id="8332021337957914073">‏اب آپ Brave کو حسب ضرورت بنائیں مینیو سے کسی بھی وقت اپنے براؤزر کو نئی شکل دے سکتے ہیں</translation>
+<translation id="3448852526253868901">‏اب آپ Wryling کو حسب ضرورت بنائیں مینیو سے کسی بھی وقت اپنے براؤزر کو نئی شکل دے سکتے ہیں</translation>
 <translation id="7068591156533195518">‫<ph name="APP_NAME"/> اور مزید کچھ ایپس کو آپ کے <ph name="DEVICE_TYPE"/> پر مسدود کر دیا گیا ہے</translation>
 <translation id="706949303827219454">سیکیورٹی کی ترتیبات کا صفحہ ایک نئے ٹيب میں کھلتا ہے</translation>
 <translation id="7069750557362084654">{NUM_PASSWORDS,plural, =1{اس سائٹ کے لیے نیا پاس ورڈ}other{اس سائٹ کے لیے نئے پاس ورڈز}}</translation>
@@ -7905,7 +7905,7 @@
 <translation id="7099027177878709408">بند کریں</translation>
 <translation id="7099337801055912064">‏بڑے PPD کو لوڈ نہیں کر سکتا۔ زیادہ سے زیادہ سائز ‎250 kB‎ ہے۔</translation>
 <translation id="7099739618316136113">{COUNT,plural, =0{کوئی متاثرہ پاس ورڈ نہیں}=1{{COUNT} متاثرہ پاس ورڈ}other{{COUNT} متاثرہ پاس ورڈز}}</translation>
-<translation id="6930289083458871157">‏Brave نے ابھی ایک خطرناک فائل کو ڈاؤن لوڈ ہونے سے مسدود کر دیا۔ بہتر کردہ حفاظت کے ساتھ مزید مضبوط سیکیورٹی حاصل کریں۔</translation>
+<translation id="1075350995323790968">‏Wryling نے ابھی ایک خطرناک فائل کو ڈاؤن لوڈ ہونے سے مسدود کر دیا۔ بہتر کردہ حفاظت کے ساتھ مزید مضبوط سیکیورٹی حاصل کریں۔</translation>
 <translation id="710047887584828070">اس ٹیب کے مواد کا اشتراک کیا جا رہا ہے</translation>
 <translation id="710224247908684995">ایک ایکسٹینشن نے محفوظ براؤزنگ کو بند کر دیا ہے</translation>
 <translation id="7102832101143475489">درخواست کا وقت ختم ہو گیا</translation>
@@ -7918,7 +7918,7 @@
 <translation id="7109543803214225826">شارٹ کٹ ہٹا دیا گیا</translation>
 <translation id="7110644433780444336">{NUM_TABS,plural, =1{گروپ میں ٹیب شامل کریں}other{گروپ میں ٹیبز شامل کریں}}</translation>
 <translation id="7111822978084196600">اس ونڈو کو نام دیں</translation>
-<translation id="3052944975426153700">‏‫Brave میں Gemini مختلف مقامات پر پھیل رہا ہے لیکن ہر جگہ دستیاب نہیں ہے</translation>
+<translation id="4390080968239229040">‏‫Wryling میں Gemini مختلف مقامات پر پھیل رہا ہے لیکن ہر جگہ دستیاب نہیں ہے</translation>
 <translation id="7113502843173351041">اپنا ای میل پتہ جانیں</translation>
 <translation id="7115361495406486998">کوئی قابل رسائی رابطہ نہیں</translation>
 <translation id="7117228822971127758">براہ کرم بعد میں دوبارہ کوشش کریں</translation>
@@ -7994,7 +7994,7 @@
 <translation id="7180611975245234373">ریفریش کریں</translation>
 <translation id="7180865173735832675">حسب ضرورت بنائیں</translation>
 <translation id="7181117767881540376">&amp;بک مارکس بار کو چھپائیں</translation>
-<translation id="6219131628242399788">‏آپ کی منظوری کے بغیر <ph name="CHILD_NAME"/> کو مستقبل کی ایکسٹینشنز انسٹال کرنے کی اجازت دینے کے لیے، اپنے آلے پر Family Link ایپ کھولیں اور <ph name="CHILD_NAME"/> کے Brave کی ترتیبات کو اپ ڈیٹ کریں۔</translation>
+<translation id="6411090479042324249">‏آپ کی منظوری کے بغیر <ph name="CHILD_NAME"/> کو مستقبل کی ایکسٹینشنز انسٹال کرنے کی اجازت دینے کے لیے، اپنے آلے پر Family Link ایپ کھولیں اور <ph name="CHILD_NAME"/> کے Wryling کی ترتیبات کو اپ ڈیٹ کریں۔</translation>
 <translation id="7181840534454431748">‫<ph name="OWNER_FIRST_NAME"/> کے ساتھ ٹیب گروپ میں شامل ہوں
             {NUM_OTHER_MEMBERS,plural, =0{<ph name="OWNER_FIRST_NAME"/>}=1{ کے ساتھ ٹیب گروپ میں شامل ہوں <ph name="OWNER_FIRST_NAME"/> اور # دیگر}other{کے ساتھ ٹیب گروپ میں شامل ہوں <ph name="OWNER_FIRST_NAME"/> اور # دیگر کے ساتھ ٹیب گروپ میں شامل ہوں}}</translation>
 <translation id="7181976109296206547">‏لوگو، نام اور URL اپ ڈیٹس کا جائزہ لیں</translation>
@@ -8018,7 +8018,7 @@
 <translation id="7191063546666816478">کچھ تعاون یافتہ لنکس اب بھی <ph name="APP_NAME"/>، <ph name="APP_NAME_2"/>، <ph name="APP_NAME_3"/> اور دیگر <ph name="NUMBER_OF_OTHER_APPS"/> میں کھلیں گے۔</translation>
 <translation id="7191159667348037">‏نامعلوم پرنٹر (USB)</translation>
 <translation id="7191631508323321927">ہال وے</translation>
-<translation id="2348760106555630118">‏آپ کے فیملی ممبرز Brave پاس ورڈ مینیجر کا استعمال کرتے وقت اب آپ کا صارف نام اور پاس ورڈ استعمال کر سکتے ہیں۔ ان سے کہیں سائن ان کرنے کے لیے <ph name="WEBSITE"/> پر جائیں۔</translation>
+<translation id="8493777968162809528">‏آپ کے فیملی ممبرز Wryling پاس ورڈ مینیجر کا استعمال کرتے وقت اب آپ کا صارف نام اور پاس ورڈ استعمال کر سکتے ہیں۔ ان سے کہیں سائن ان کرنے کے لیے <ph name="WEBSITE"/> پر جائیں۔</translation>
 <translation id="7193051357671784796">آپ کی تنظیم نے یہ ایپ شامل کی۔ ایپ انسٹال کرنا مکمل کرنے کے لیے ایپ کو دوبارہ شروع کریں۔</translation>
 <translation id="7193374945610105795"><ph name="ORIGIN"/> کے لیے کوئی پاس ورڈ محفوظ نہیں ہے</translation>
 <translation id="7193887851827841439">میڈیا کنٹرولز سے ویڈیو فریم کی تصویر محفوظ کریں</translation>
@@ -8327,7 +8327,7 @@
 <translation id="7421293530411019405">ٹیب گروپ چھوڑیں؟</translation>
 <translation id="7421925624202799674">صفحہ کا ماخذ &amp;دیکھیں</translation>
 <translation id="7422192691352527311">ترجیحات…</translation>
-<translation id="5797098178256696347">‏آپ کے Gemini Spark ایجنٹ تک رسائی والا کوئی بھی شخص آپ کے Brave براؤزر کو کنٹرول کر سکتا ہے۔</translation>
+<translation id="8720537059196709339">‏آپ کے Gemini Spark ایجنٹ تک رسائی والا کوئی بھی شخص آپ کے Wryling براؤزر کو کنٹرول کر سکتا ہے۔</translation>
 <translation id="7423425410216218516">مرئیت <ph name="MINUTES"/> منٹ کیلئے آن ہے</translation>
 <translation id="7423513079490750513"><ph name="INPUT_METHOD_NAME"/> ہٹائیں</translation>
 <translation id="7424818322350938336">نیٹ ورک شامل کیا گیا</translation>
@@ -8337,7 +8337,7 @@
 <translation id="7427798576651127129"><ph name="DEVICE_NAME"/> سے کال کریں</translation>
 <translation id="7429415133937917139">‏ریفریش کے قابل بریل ڈسپلے کے آؤٹ پٹ کو
         ChromeVox پینل میں اسکرین کے اوپر نقل کرتا ہے</translation>
-<translation id="1782880777068048256">‏<ph name="FILENAME"/> خطرناک ہو سکتا ہے۔ اگر آپ چاہتے ہیں کہ Brave اس کی تصدیق کرے تو ایک پاس ورڈ شامل کریں یا اسے براہ راست ڈاؤن لوڈ کریں۔</translation>
+<translation id="7095911894329901179">‏<ph name="FILENAME"/> خطرناک ہو سکتا ہے۔ اگر آپ چاہتے ہیں کہ Wryling اس کی تصدیق کرے تو ایک پاس ورڈ شامل کریں یا اسے براہ راست ڈاؤن لوڈ کریں۔</translation>
 <translation id="7431719494109538750">‏کوئی HID آلہ نہیں ملا</translation>
 <translation id="7431991332293347422">تلاش کو ذاتی نوعیت کا بنانے کیلئے آپ کی براؤزنگ کی سرگزشت جس طریقے سے استعمال کی جاتی ہے اسے کنٹرول کریں اور مزید بہت کچھ</translation>
 <translation id="7432200167665670017">‏آپ کے منتظم نے "<ph name="EXTENSION_NAME"/>" کو مسدود کر دیا ہے - ایپ ID <ph name="EXTENSION_ID"/></translation>
@@ -8405,11 +8405,11 @@
 <translation id="7479221278376295180">اسٹوریج کے استعمال کا مجموعی جائزہ</translation>
 <translation id="747981547666531654"><ph name="FIRST_DEVICE"/> اور <ph name="SECOND_DEVICE"/> نام والے بلوٹوتھ آلات سے منسلک کیا گیا</translation>
 <translation id="7480076846077373008">پرومو کیلئے مزید کارروائیاں</translation>
-<translation id="7173394303099002355">‏Brave کی مضبوط ترین سیکیورٹی حاصل کریں</translation>
+<translation id="1158507424343802366">‏Wryling کی مضبوط ترین سیکیورٹی حاصل کریں</translation>
 <translation id="7481312909269577407">فارورڈ کریں</translation>
 <translation id="7483732342458943943">یہ لنک کام نہیں کرتا</translation>
 <translation id="7484645889979462775">اس سائٹ کیلئے کبھی نہیں</translation>
-<translation id="7914076745371236476">‏آپ اس آلے پر Brave پاس ورڈ مینیجر میں محفوظ کردہ اپنی سبھی پاس کیز کا استعمال کر سکتے ہیں۔ آپ کو بس ایک بار ایسا کرنا ہوگا۔</translation>
+<translation id="3172962224062640933">‏آپ اس آلے پر Wryling پاس ورڈ مینیجر میں محفوظ کردہ اپنی سبھی پاس کیز کا استعمال کر سکتے ہیں۔ آپ کو بس ایک بار ایسا کرنا ہوگا۔</translation>
 <translation id="7486587904541741388">بڑی بچتیں</translation>
 <translation id="7487141338393529395">املا کی بہتر جانچ آن کریں</translation>
 <translation id="7487969577036436319">کوئی اجزاء انسٹال نہیں ہیں</translation>
@@ -8451,7 +8451,7 @@
 <translation id="7516641972665276706">page down</translation>
 <translation id="7516981202574715431"><ph name="APP_NAME"/> موقوف ہے</translation>
 <translation id="9075033240840348521">‏اپنے Brave اکاؤنٹ میں پاس ورڈز کے لیے Brave کی ڈیفالٹ مرموز کاری کا استعمال کریں</translation>
-<translation id="385431757934284424">‏آپ کا فیملی ممبر ابھی پاس ورڈز موصول نہیں کر سکتا۔ ان سے Brave اپ ڈیٹ کرنے اور پاس ورڈز کو مطابقت پذیر کرنے کے لیے کہیں۔</translation>
+<translation id="8558089421968810910">‏آپ کا فیملی ممبر ابھی پاس ورڈز موصول نہیں کر سکتا۔ ان سے Wryling اپ ڈیٹ کرنے اور پاس ورڈز کو مطابقت پذیر کرنے کے لیے کہیں۔</translation>
 <translation id="7518079994230200553">یہ اختیار اب دستیاب نہیں ہے۔</translation>
 <translation id="3193187622878830588">پوشیدگی وضع کا پورٹل: <ph name="SUBFRAME_SITE"/></translation>
 <translation id="752098910262610337">شارٹ کٹس دکھائيں</translation>
@@ -8521,7 +8521,7 @@
 <translation id="7583948862126372804">تعداد</translation>
 <translation id="7585106857920830898">آپ کی تنظیم کی سکیورٹی پالیسیوں کے ساتھ چیک کیا جا رہا ہے...</translation>
 <translation id="7585490016012953607">بازیابی پاس ورڈ — عارضی طور پر 3 ماہ تک محفوظ کیا جاتا ہے</translation>
-<translation id="8201192017531062522">‏Brave Apps کھلے ہونے پر Brave چلتا رہے گا۔</translation>
+<translation id="1532744110192127389">‏Wryling Apps کھلے ہونے پر Wryling چلتا رہے گا۔</translation>
 <translation id="7587297195142686341">‏‫Gemini آپ کے لیے سائن ان کر سکتا ہے</translation>
 <translation id="7587806318633605613">تجویز کی سرگزشت</translation>
 <translation id="7589448773774086276">موجودہ ٹیب کے ساتھ نیا اسپلٹ ویو</translation>
@@ -8586,11 +8586,11 @@
 <translation id="764178579712141045"><ph name="USER_EMAIL"/> کو شامل کیا گیا</translation>
 <translation id="7642778300616172920">حساس مواد چھپائیں</translation>
 <translation id="7645176681409127223"><ph name="USER_NAME"/> (مالک)</translation>
-<translation id="7195740973702314115">‏جب آپ Brave میں سائن ان ہوتے ہیں تو آپ Brave پاس ورڈ مینیجر کی مدد سے پاس ورڈز محفوظ کر سکتے ہیں</translation>
+<translation id="468780285679255462">‏جب آپ Wryling میں سائن ان ہوتے ہیں تو آپ Wryling پاس ورڈ مینیجر کی مدد سے پاس ورڈز محفوظ کر سکتے ہیں</translation>
 <translation id="7646499124171960488">آپ کو غیر محفوظ عوامی سائٹس کیلئے وارننگ حاصل ہوتی ہے</translation>
 <translation id="7646772052135772216">پاس ورڈ کی مطابقت پذیری کام نہیں کر رہی ہے</translation>
 <translation id="7647403192093989392">کوئی حالیہ سرگرمی نہیں</translation>
-<translation id="3350442560878669560">‏Brave انسٹالیشن بنڈل کی تصدیق کر رہا ہے</translation>
+<translation id="867511901854381903">‏Wryling انسٹالیشن بنڈل کی تصدیق کر رہا ہے</translation>
 <translation id="7648048654005891115">کلیدی نقشہ کی طرز:</translation>
 <translation id="7649070708921625228">مدد</translation>
 <translation id="7649954700951153978">‏‫iOS پر مجھے یاد دلائیں</translation>
@@ -8625,7 +8625,7 @@
 <translation id="766635563210446220">پاس ورڈز درآمد کرنے سے قاصر۔ <ph name="FILENAME"/> چیک کریں اور یقینی بنائیں کہ اسے درست طریقے سے فارمیٹ کیا گیا ہے۔ <ph name="BEGIN_LINK"/>مزید جانیں<ph name="END_LINK"/></translation>
 <translation id="7666966001957552011">خطرناک مانی جانے والی سائٹس، ڈاؤن لوڈز اور ایکسٹینشنز کے بارے میں آپ کو متنبہ کرتی ہے۔ آپ ان وارننگز کو کسی بھی وقت آف کر سکتے ہیں۔ اگر آپ کو جائز مواد کے لیے وارننگ نظر آتی ہے تو آپ <ph name="BEGIN_LINK"/>غلطی کی اطلاع<ph name="END_LINK"/> دے سکتے ہیں۔</translation>
 <translation id="7668205084604701639">‏Office کی فائل کی ترتیبات</translation>
-<translation id="2190324512336800037">‏<ph name="ACCOUNT"/> کے لیے Brave پاس ورڈ مینیجر میں</translation>
+<translation id="2583370393244501496">‏<ph name="ACCOUNT"/> کے لیے Wryling پاس ورڈ مینیجر میں</translation>
 <translation id="7668648754769651616">ایکسیسبیلٹی خصوصیات آپ کے آلے کو استعمال میں آسان تر بناتا ہے۔ فوری ترتیبات تک رسائی حاصل کرنے کے لیے، اپنی اسکرین کے نیچے وقت کا انتخاب کریں۔</translation>
 <translation id="7669620291129890197">آپ کے آلات پر مرئی</translation>
 <translation id="7669825497510425694">{NUM_ATTEMPTS,plural, =1{‏غلط PIN۔ آپ کے پاس ایک کوشش باقی ہے۔}other{‏غلط PIN۔ آپ کے پاس # کوششیں باقی ہیں۔}}</translation>
@@ -8815,7 +8815,7 @@
 <translation id="7807711621188256451"><ph name="HOST"/> کو ہمیشہ اپنے کیمرے تک رسائی حاصل کرنے کی اجازت دیں</translation>
 <translation id="7810202088502699111">پاپ اپس کو اس صفحہ پر مسدود کر دیا گیا۔</translation>
 <translation id="7810367892333449285">‏آپ کے اندراج کا فارمیٹ <ph name="LPA_0"/>$<ph name="LPA_1"/>SM-DP+ address‏<ph name="LPA_2"/>$<ph name="LPA_3"/>اختیاری مماثلت والی ID<ph name="LPA_4"/> ہونا چاہیے</translation>
-<translation id="5014491767627896944">‏‫Brave کو Brave اوپن سورس پروجیکٹ اور دیگر <ph name="BEGIN_HIGHLIGHT"/>اوپن سورس<ph name="END_HIGHLIGHT"/> سافٹ ویئر کے ذریعے ممکن بنایا گیا ہے۔</translation>
+<translation id="8386624919122501557">‏‫Brave کو Brave اوپن سورس پروجیکٹ اور دیگر <ph name="BEGIN_HIGHLIGHT"/>اوپن سورس<ph name="END_HIGHLIGHT"/> سافٹ ویئر کے ذریعے ممکن بنایا گیا ہے۔</translation>
 <translation id="7811263553491007091">دوبارہ کوشش کریں یا ذیل میں پہلے سے تیار کردہ تھیمز میں سے کسی ایک کو منتخب کریں۔</translation>
 <translation id="7811926937048662341">یہاں دایاں کلک کریں اور "ٹیبز کو عمودی طور پر دکھائیں" کو منتخب کریں</translation>
 <translation id="7811986034759500329">سسٹم کی ترتیبات میں سیٹ کریں</translation>
@@ -8825,7 +8825,7 @@
 <translation id="7815583197273433531"><ph name="EXTENSION_NAME"/> کے لیے شارٹ کٹ <ph name="SHORTCUT"/> میں ترمیم کریں</translation>
 <translation id="7815680994978050279">خطرناک ڈاؤن لوڈ مسدود کیا گیا</translation>
 <translation id="7818135753970109980">نیا تھیم شامل کر دیا گیا (<ph name="EXTENSION_NAME"/>)</translation>
-<translation id="5224689297916943449">‏ایکسٹینشنز Brave کے لیے ایڈ آنز ہیں جو آپ کو مزید کام کرنے میں مدد کر سکتی ہیں</translation>
+<translation id="3964226695702299610">‏ایکسٹینشنز Wryling کے لیے ایڈ آنز ہیں جو آپ کو مزید کام کرنے میں مدد کر سکتی ہیں</translation>
 <translation id="7819968103441522596">بحال کریں</translation>
 <translation id="7820400255539998692"><ph name="FILENAME"/> کو حذف کریں، تاکہ اس آلے کو استعمال کرنے والے دوسرے لوگ آپ کے پاس ورڈز نہ دیکھ سکیں</translation>
 <translation id="7820561748632634942">اضافی سوئچز تفویض کریں؟</translation>
@@ -9122,13 +9122,13 @@
 <translation id="8037801708772278989">ابھی چیک کیا گيا</translation>
 <translation id="8038111231936746805">(ڈیفالٹ)</translation>
 <translation id="8039151841428107077">{NUM_OF_FILES,plural, =1{1 فائل <ph name="CLOUD_PROVIDER"/> میں کاپی ہو رہی ہے}other{{NUM_OF_FILES} فائلز <ph name="CLOUD_PROVIDER"/> میں کاپی ہو رہی ہیں}}</translation>
-<translation id="6409220262307200557">‏آپ کے ChromeOS ورژن کے اپ ڈیٹ ہونے کے بعد یہ Brave ایپ کام کرنا بند کر دے گی۔ کسی بھی ایپ کا ڈیٹا محفوظ کریں جسے آپ رکھنا چاہتے ہیں۔ اپنے اختیارات کے بارے میں جاننے کے لیے، ایپ ڈویلپر یا اپنی IT سپورٹ ٹیم سے رابطہ کریں۔</translation>
+<translation id="5802820480808479038">‏آپ کے ChromeOS ورژن کے اپ ڈیٹ ہونے کے بعد یہ Wryling ایپ کام کرنا بند کر دے گی۔ کسی بھی ایپ کا ڈیٹا محفوظ کریں جسے آپ رکھنا چاہتے ہیں۔ اپنے اختیارات کے بارے میں جاننے کے لیے، ایپ ڈویلپر یا اپنی IT سپورٹ ٹیم سے رابطہ کریں۔</translation>
 <translation id="804060420274176929">‏‫iOS پر مجھے یاد دلائیں</translation>
 <translation id="8041089156583427627">تاثرات بھیجیں</translation>
 <translation id="8041093619605951337">خوش</translation>
 <translation id="8041267120753677077">اپنے فون کی ایپس کی سلسلہ بندی کریں</translation>
 <translation id="8042142357103597104">متن کا دھندلا پن</translation>
-<translation id="3111556746481227182">‏آپ کے پاس ورڈز Brave پاس ورڈ مینیجر میں محفوظ ہونے سے پہلے آپ کے آلے پر مرموز ہو جاتے ہیں</translation>
+<translation id="2338836979057110587">‏آپ کے پاس ورڈز Wryling پاس ورڈ مینیجر میں محفوظ ہونے سے پہلے آپ کے آلے پر مرموز ہو جاتے ہیں</translation>
 <translation id="8044899503464538266">سست</translation>
 <translation id="5462539695964427820">‏مطابقت پذیری کو Brave ڈیش بورڈ کے ذریعے روک دیا گیا ہے۔</translation>
 <translation id="8045752459073395242">‏کام پر تخلیق کر سکنے والا AI استعمال کرنے کے بارے میں مزید جانیں</translation>
@@ -9173,7 +9173,7 @@
 <translation id="8077120325605624147">آپ کی ملاحظہ کردہ کوئی بھی سائٹ آپ کو کوئی بھی اشتہار دکھا سکتی ہے</translation>
 <translation id="8077749280021225629">براؤزنگ ڈیٹا (<ph name="URL"/>) کو بھی حذف کریں جس سے آپ <ph name="DOMAIN"/> سے سائن آؤٹ ہو جائیں گے۔<ph name="LEARN_MORE"/></translation>
 <translation id="80790299200510644">تصاویر کا استعمال کر کے تلاش</translation>
-<translation id="7239633109246708042">‏‫Brave پاس ورڈ مینیجر ایک مضبوط پاس ورڈ کے ساتھ آپ کے اکاؤنٹ کو اپ ڈیٹ کر سکتا ہے اور اسے <ph name="EMAIL"/> میں محفوظ کر سکتا ہے۔ <ph name="PASSWORD_CHANGE"/></translation>
+<translation id="7245967958317519468">‏‫Wryling پاس ورڈ مینیجر ایک مضبوط پاس ورڈ کے ساتھ آپ کے اکاؤنٹ کو اپ ڈیٹ کر سکتا ہے اور اسے <ph name="EMAIL"/> میں محفوظ کر سکتا ہے۔ <ph name="PASSWORD_CHANGE"/></translation>
 <translation id="80798452873915119">سائٹس آپ کے سبھی ڈسپلیز پر ونڈوز کا نظم کرنے کو کہہ سکتی ہیں</translation>
 <translation id="8080028325999236607">سبھی ٹیبز بند کریں</translation>
 <translation id="8080530871547404884">‫<ph name="ORIGIN"/> <ph name="FILENAME"/> کو دیکھ اور خود اس کی کاپیاں بنا سکے گی جب تک کہ آپ اس سائٹ کے لیے تمام ٹیبز بند نہیں کر دیتے</translation>
@@ -9224,7 +9224,7 @@
 <translation id="8114925369073821854"><ph name="APP_NAME"/> کے لیے مائکروفون کی اجازت</translation>
 <translation id="8116497846156149">والدین سے منظوری طلب کریں</translation>
 <translation id="8118276691321086429"><ph name="PASSWORD_MANAGER_BRAND"/> آپ کے سائن ان کرنے کے طریقے کو یاد رکھتا ہے اور ممکن ہونے پر آپ کو خودکار طور پر سائن ان کرتا ہے۔ آف ہونے پر، آپ سے ہر بار توثیق کرنے کیلئے کہا جائے گا۔</translation>
-<translation id="177808131755847449">‏Brave کی جانب سے غیر فعال ہے۔ یہ ایکسٹینشن غیر محفوظ ہو سکتی ہے۔</translation>
+<translation id="4606044028490598627">‏Wryling کی جانب سے غیر فعال ہے۔ یہ ایکسٹینشن غیر محفوظ ہو سکتی ہے۔</translation>
 <translation id="8118448640060360549">{EXTENSIONS_COUNT,plural, =1{‫# بُک مارک}other{‫# بُک مارکس}}</translation>
 <translation id="8118488170956489476">آپ کا ادارہ آپ کے <ph name="BEGIN_LINK"/>براؤزر کا نظم کرتا ہے<ph name="END_LINK"/></translation>
 <translation id="8118515372935001629">ریفریش کی شرح ڈسپلے کریں</translation>
@@ -9267,7 +9267,7 @@
 <translation id="814870937590541483">‏Google Drive فائلوں کے لیے مزید کارروائیاں</translation>
 <translation id="8148760431881541277">سائن ان محدود کریں</translation>
 <translation id="8149596686567059924">اپ ڈیٹ پیکیج کو کھولا نہیں جا سکا۔</translation>
-<translation id="932155016683443951">‏اپنے محفوظ کردہ پاس ورڈز کو اپنے فون پر استعمال کرنے کے لیے، iOS برائے Brave ڈاؤن لوڈ کریں اور اپنے Brave اکاؤنٹ میں سائن ان کریں۔</translation>
+<translation id="7217558756211206193">‏اپنے محفوظ کردہ پاس ورڈز کو اپنے فون پر استعمال کرنے کے لیے، iOS برائے Brave ڈاؤن لوڈ کریں اور اپنے Brave اکاؤنٹ میں سائن ان کریں۔</translation>
 <translation id="8150396590017071059">‏پاس ورڈ مینیجر PIN تبدیل کریں</translation>
 <translation id="8151057139207656239">بلڈ کی تفصیلات کاپی کی گئیں</translation>
 <translation id="815114315010033526">‏اس کے بجائے QR کوڈ استعمال کریں</translation>
@@ -9310,7 +9310,7 @@
 <translation id="8187447507633277520">پاسورڈز پر کرتے وقت اپنا فنگر پرنٹ استعمال کریں</translation>
 <translation id="8188389033983459049">اپنے آلے کی ترتیبات چیک کریں اور جاری رکھنے کیلئے اسے آن کریں</translation>
 <translation id="8188742492803591566">‏اپنی اسکرین کاسٹ کرنا شروع کرنے کے لیے Chromecast یا TV پر دکھایا گیا رسائی کوڈ درج کریں۔</translation>
-<translation id="572432499443011145">‏‫Brave پاس ورڈ مینیجر تک نہیں پہنچ سکتے</translation>
+<translation id="5613558594377719760">‏‫Wryling پاس ورڈ مینیجر تک نہیں پہنچ سکتے</translation>
 <translation id="8189306097519446565">اسکول اکاؤنٹس</translation>
 <translation id="8191230140820435481">اپنی ایپس، ایکسٹینشنز اور تھیمز کا نظم کریں</translation>
 <translation id="8192944472786724289"><ph name="APP_NAME"/> آپ کی اسکرین کے مواد کا اشتراک کرنا چاہتی ہے۔</translation>
@@ -9390,7 +9390,7 @@
 <translation id="8248050856337841185">&amp;پیسٹ کریں</translation>
 <translation id="8248381369318572865">اپنے مائیکروفون تک رسائی حاصل کریں اور اپنی اسپیچ کا تجزیہ کریں</translation>
 <translation id="8248442552146815926">{NUM_COOKIES,plural, =1{‫1 کوکی}other{‫{NUM_COOKIES} کوکیز}}</translation>
-<translation id="3105590366897772437">‏Brave تجویز</translation>
+<translation id="5456551355833319124">‏Wryling تجویز</translation>
 <translation id="8249239468199142122">بیٹری سیور</translation>
 <translation id="8250210000648910632">اسٹوریج کی جگہ ختم ہو چکی ہے</translation>
 <translation id="8251441930213048644">اب ریفریش کریں</translation>
@@ -9447,7 +9447,7 @@
 <translation id="8288032458496410887"><ph name="APP"/> کو اَن انسٹال کریں…</translation>
 <translation id="8288553158681886528">‏PDF سے ٹیکسٹ نکالیں</translation>
 <translation id="8289128870594824098">ڈسک کا سائز</translation>
-<translation id="2265163333261443610">‏Brave ڈاؤن لوڈ کریں</translation>
+<translation id="5003181522013475477">‏Wryling ڈاؤن لوڈ کریں</translation>
 <translation id="8293206222192510085">بُک مارک شامل کریں</translation>
 <translation id="8293957715257389063">ٹیب پر گہرائی سے تلاش کریں</translation>
 <translation id="8294431847097064396">ماخذ</translation>
@@ -9455,7 +9455,7 @@
 <translation id="8295450130892483256">‏Microsoft 365 انسٹال کریں</translation>
 <translation id="8297292446125062288">‏HID کی ترتیبات</translation>
 <translation id="8298429963694909221">‏اب آپ اپنے فون سے اپنے <ph name="DEVICE_TYPE"/> پر اطلاعات موصول کر سکتے ہیں۔ آپ کے <ph name="DEVICE_TYPE"/> پر برخاست کرنے سے اطلاعات آپ کے فون پر بھی برخاست ہو جائيں گی۔ یقینی بنائیں کہ آپ کا فون قریب میں ہے اور اس میں بلوٹوتھ اور Wi-Fi آن ہے۔</translation>
-<translation id="1074485905526403616">‏Brave پاس ورڈ مینیجر میں ایک شارٹ کٹ شامل کریں</translation>
+<translation id="7930908256018939896">‏Wryling پاس ورڈ مینیجر میں ایک شارٹ کٹ شامل کریں</translation>
 <translation id="8299319456683969623">آپ فی الحال آف لائن ہیں۔</translation>
 <translation id="829937697336000302">اپنی پروڈکٹیوٹی میں اضافہ کریں</translation>
 <translation id="8299951061833867575">‏Wi-Fi، موبائل ڈیٹا</translation>
@@ -9627,7 +9627,7 @@
 <translation id="8434109185104929038">مطالعے کا گوشہ</translation>
 <translation id="8434837876193928924">ٹیب گروپ کی تفصیلات</translation>
 <translation id="8435951291982398331">{NUM_TABS,plural, =1{اس ٹیب کو ٹھیک کریں}other{اس ٹیبز کو ٹھیک کریں}}</translation>
-<translation id="1720111858957434186">‏‫Brave پاس ورڈ مینیجر کے لیے ایک الفانیومیرک بازیابی PIN تخلیق کریں</translation>
+<translation id="4122874379521992029">‏‫Wryling پاس ورڈ مینیجر کے لیے ایک الفانیومیرک بازیابی PIN تخلیق کریں</translation>
 <translation id="8437209419043462667">US</translation>
 <translation id="8438518537545182071">آپ کے والدین کے انتخاب اب آپ کو آن لائن زیادہ محفوظ رکھیں گے</translation>
 <translation id="8438566539970814960">تلاشوں اور براؤزنگ کو بہتر بنائیں</translation>
@@ -9659,13 +9659,13 @@
 <translation id="8459333762072051247">سائن ان کی حالت میں</translation>
 <translation id="8459596896605939741">یاد دہانی: آپ کی جیب میں آن لائن خریداری کا بہترین ایپ ہے</translation>
 <translation id="8460448946170646641">کلیدی رازداری اور سیکیورٹی کنٹرولز کا جائزہ لیں</translation>
-<translation id="2380462972976700566">‏میموری محفوظ کرنے کیلئے، Brave نے کچھ مواد کو حذف کر دیا</translation>
+<translation id="7717824985119563101">‏میموری محفوظ کرنے کیلئے، Wryling نے کچھ مواد کو حذف کر دیا</translation>
 <translation id="8460932807646981183">سرچ انجنز اور سائٹ کی تلاش کا نظم کریں</translation>
 <translation id="8461572080432076264">اس صفحے کو سنیں</translation>
 <translation id="8461914792118322307">پراکسی</translation>
 <translation id="8461973047386722744">کوئی پاس ورڈ نہیں ملا</translation>
 <translation id="846205103980293931">{NUM_TABS,plural, =1{1 آئٹم کے ساتھ فہرست باکس}other{{NUM_TABS} آئٹمز کے ساتھ فہرست باکس}}</translation>
-<translation id="1212036593149207916">‏اپنی Brave پروفائل میں پاس کیز کا نظم کریں</translation>
+<translation id="2444416606050412192">‏اپنی Wryling پروفائل میں پاس کیز کا نظم کریں</translation>
 <translation id="8463955938112983119"><ph name="PLUGIN_NAME"/> غیر فعال ہے۔</translation>
 <translation id="846399539692727039">‏ChromeOS Flex تشخیصی ٹیسٹس چلائیں</translation>
 <translation id="8465252176946159372">درست نہیں ہے</translation>
@@ -9680,7 +9680,7 @@
 <translation id="8473863474539038330">پتے وغیرہ</translation>
 <translation id="847433688444405067">آلات پر براؤز کریں</translation>
 <translation id="8474378002946546633">اطلاعات کی اجازت دیں</translation>
-<translation id="2015014930243978107">‏آپ کے کمپیوٹر پر موجود ایک دوسرے پروگرام نے ایک ایکسٹینشن شامل کیا جو Brave کے کام کرنے کا طریقہ تبدیل کر سکتی ہے۔</translation>
+<translation id="1410568059039013240">‏آپ کے کمپیوٹر پر موجود ایک دوسرے پروگرام نے ایک ایکسٹینشن شامل کیا جو Wryling کے کام کرنے کا طریقہ تبدیل کر سکتی ہے۔</translation>
 <translation id="8476408756881832830">‏ChromeVox کے بولتے وقت پلے بیک موقوف کریں</translation>
 <translation id="8476630458761527665">فائل کا پاس ورڈ درج کریں</translation>
 <translation id="8476942730579767658">ونڈوز اور ڈیسکس</translation>
@@ -9706,7 +9706,7 @@
 <translation id="849488240089599592">حالیہ ڈاؤن لوڈز پر واپس جائیں</translation>
 <translation id="8496717697661868878">یہ پلگ اِن چلائیں</translation>
 <translation id="8497219075884839166">‏Windows کی افادیتیں</translation>
-<translation id="4310099790173688345">‏‫Brave سے محفوظ کیا گیا</translation>
+<translation id="5071155148309447758">‏‫Wryling سے محفوظ کیا گیا</translation>
 <translation id="8498214519255567734">اس سے مدھم روشنی میں اپنی اسکرین کو دیکھنا یا پڑھنا آسان بناتا ہے</translation>
 <translation id="8499083585497694743">مائیکروفون کی آواز چالو کریں</translation>
 <translation id="8500044868721690197">‏اس سائٹ کو آپ کے MIDI آلات کو کنٹرول اور دوبارہ پروگرام کرنے سے مسدود کر دیا گیا ہے۔</translation>
@@ -9831,7 +9831,7 @@
 <translation id="8597845839771543242">خصوصیت فارمیٹ:</translation>
 <translation id="8598249292448297523">پرنٹ کریں</translation>
 <translation id="8600362954032151088"><ph name="GOOGLE_PASSWORD_MANAGER"/> میں اپنے پاس ورڈز اور پاس کیز کا نظم کریں</translation>
-<translation id="6637045053447935202">‏آپ کے کمپیوٹر پر موجود کسی دوسرے پروگرام نے ایک ایپ شامل کی ہے جو Brave کے کام کرنے کا طریقہ تبدیل کر سکتی ہے۔</translation>
+<translation id="8642399151949912011">‏آپ کے کمپیوٹر پر موجود کسی دوسرے پروگرام نے ایک ایپ شامل کی ہے جو Wryling کے کام کرنے کا طریقہ تبدیل کر سکتی ہے۔</translation>
 <translation id="7765260303733194693">‏‫Brave خطرات کا تیزی سے اور زیادہ درست طریقے سے پتا لگانے کے لیے مزید ڈیٹا (مثال کے طور پر، URLs، صفحہ کے مواد کے نمونے، سسٹم کی معلومات) کا استعمال کرتا ہے</translation>
 <translation id="860399903490378651">اس منظر کو بند کریں</translation>
 <translation id="8605428685123651449">‏SQLite میموری</translation>
@@ -9871,7 +9871,7 @@
 <translation id="8631032106121706562">پنکھڑیاں</translation>
 <translation id="8632104508818855045">آپ نے پہلے <ph name="ORIGIN"/> پر کسی بھی ایکسٹینشن کو اجازت نہ دینے کا انتخاب کیا</translation>
 <translation id="8633025649649592204">حالیہ سرگرمی</translation>
-<translation id="423702950449472136">‏دسمبر 2022 کے بعد، Brave ایپس کے پرانے ورژنز Linux آلات پر اب مزید نہیں کھل سکیں گے۔ آپ چیک کر سکتے ہیں کہ کیا نیا ورژن دستیاب ہے۔</translation>
+<translation id="1791127122244433652">‏دسمبر 2022 کے بعد، Wryling ایپس کے پرانے ورژنز Linux آلات پر اب مزید نہیں کھل سکیں گے۔ آپ چیک کر سکتے ہیں کہ کیا نیا ورژن دستیاب ہے۔</translation>
 <translation id="8634348081024879304">‏اب آپ Google Pay کے ساتھ اپنا ورچوئل کارڈ استعمال نہیں کر سکیں گے۔ <ph name="BEGIN_LINK"/>ورچوئل کارڈز کے بارے میں جانیں<ph name="END_LINK"/></translation>
 <translation id="8634703204743010992">‏ChromeOS ورچوئل کی بورڈ</translation>
 <translation id="8635399646025169806">ٹیب گروپ کو برقرار رکھیں؟</translation>
@@ -9907,10 +9907,10 @@
 <translation id="865857184419171576">کیپشنز کا اس زبان میں ترجمہ کریں</translation>
 <translation id="865936634714975126">‏صفحہ کی لوڈنگ پر اقسام منتخب کرنے کے لیے URL میں استفسار پیرامیٹر شامل کریں۔ مثال: chrome://device-log/?types=Bluetooth,USB</translation>
 <translation id="8659609431223166673">ونڈو نیچے کی طرف چلی گئی</translation>
-<translation id="1488895872893658122">‏‫Outlook کیلنڈر میں اپنے اگلے ایونٹ پر آسانی سے نیویگیٹ کرنے میں آپ کی مدد کرنے کیلئے، آپ اپنا کیلنڈر دیکھ رہے ہیں۔
+<translation id="7290653826136040271">‏‫Outlook کیلنڈر میں اپنے اگلے ایونٹ پر آسانی سے نیویگیٹ کرنے میں آپ کی مدد کرنے کیلئے، آپ اپنا کیلنڈر دیکھ رہے ہیں۔
        <ph name="BREAK"/>
         <ph name="BREAK"/>
-        آپ کارڈ مینو سے ترتیبات کا نظم کر سکتے یا 'Brave کو حسب ضرورت بنائیں' میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
+        آپ کارڈ مینو سے ترتیبات کا نظم کر سکتے یا 'Wryling کو حسب ضرورت بنائیں' میں مزید اختیارات دیکھ سکتے ہیں۔</translation>
 <translation id="1432267168815937878">لنک پوشید&amp;گی ونڈو میں کھولیں</translation>
 <translation id="8662474268934425487"><ph name="SITE_ETLD_PLUS_ONE"/> میں سائن ان کریں</translation>
 <translation id="8662671328352114214"><ph name="TYPE"/> نیٹ ورک میں شامل ہوں</translation>
@@ -9948,7 +9948,7 @@
 <translation id="8682730193597992579"><ph name="PRINTER_NAME"/> منسلک اور تیار ہے</translation>
 <translation id="8683720831806477407">اپڈیٹر کا دائرہ کار</translation>
 <translation id="8684471948980641888">میٹرڈ نیٹ ورکس پر مطابقت پذیری کی اجازت دیں</translation>
-<translation id="4117118854497824215">‏آپ کی Brave پروفائل</translation>
+<translation id="7564690708819959309">‏آپ کی Wryling پروفائل</translation>
 <translation id="8685882652128627032">سائٹ شامل کریں تلاش کا ڈائیلاگ کھولنے کے لیے کلک کریں</translation>
 <translation id="8686142379631285985"><ph name="BEGIN_BOLD"/><ph name="DRIVE_ACCOUNT_EMAIL"/><ph name="END_BOLD"/> کے بطور سائن ان کردہ</translation>
 <translation id="8687103160920393343"><ph name="FILE_NAME"/> منسوخ کریں</translation>
@@ -9956,7 +9956,7 @@
 <translation id="8687774873995698516">تحفظ یافتہ مواد کو چلانے کے لیے شناخت کنندگان کے استعمال سے <ph name="HOST"/> کو ہمیشہ بلاک کریں۔</translation>
 <translation id="8688672835843460752">دستیاب</translation>
 <translation id="8689811383248488428">پروفائل کو مسترد کریں اور بند کریں</translation>
-<translation id="4541401414755838742">‏‫Brave کو <ph name="WEBSITE"/> کے پاس ورڈ خودکار طور پر تبدیل کرنے دیں</translation>
+<translation id="4057479308397800545">‏‫Wryling کو <ph name="WEBSITE"/> کے پاس ورڈ خودکار طور پر تبدیل کرنے دیں</translation>
 <translation id="8689998525144040851">100</translation>
 <translation id="8690129572193755009">سائٹس پروٹوکولز ہینڈل کرنے کے لئے پوچھ سکتی ہیں</translation>
 <translation id="869144235543261764">یہ ٹیب تصویر میں تصویر وضع میں ویڈیو چلا رہا ہے</translation>
@@ -9994,7 +9994,7 @@
 <translation id="8713761545374852805">آپ جائزوں، ای میلز، سوشل میڈیا پوسٹس، مضامین وغیرہ میں مدد حاصل کر سکتے ہیں</translation>
 <translation id="8714731224866194981">اپنے فون کی تصاویر اور ایپس دیکھیں۔ پیغام رسانی کی اطلاعات کا فوری جواب دیں۔</translation>
 <translation id="8714838604780058252">پس منظر گرافکس</translation>
-<translation id="5891814591156187199">‏کوئی آلہ منتخب کریں۔ پھر، صفحہ دیکھنے کے ليے وہاں Brave کھولیں۔</translation>
+<translation id="1850636781542949515">‏کوئی آلہ منتخب کریں۔ پھر، صفحہ دیکھنے کے ليے وہاں Wryling کھولیں۔</translation>
 <translation id="8715480913140015283">پس منظر ٹیب آپ کا کیمرا استعمال کر رہا ہے</translation>
 <translation id="8716050156658570300">سائٹس موشن اور لائٹ سینسرز استعمال کرنے کے لیے پوچھ سکتی ہیں</translation>
 <translation id="8716067129332848360">آرگنائزر دیکھیں</translation>
@@ -10126,7 +10126,7 @@
 <translation id="8819510664278523111">‏آپ کے آلے کی EID <ph name="EID_NUMBER"/> ہے، آلے کی IMEI <ph name="IMEI_NUMBER"/> ہے اور آلے کا سیریل نمبر <ph name="SERIAL_NUMBER"/> ہے۔ سروس کو فعال کرنے میں مدد کیلئے ان نمبرز کا استعمال کیا جا سکتا ہے۔</translation>
 <translation id="8820817407110198400">بُک مارکس</translation>
 <translation id="8821045908425223359">‏خودکار طور پر IP پتہ کو کنفیگر کریں</translation>
-<translation id="2361985035137943119">‏آپ کے اکاؤنٹ کو Brave میں Gemini تک رسائی حاصل نہیں ہے</translation>
+<translation id="1177360087205071213">‏آپ کے اکاؤنٹ کو Wryling میں Gemini تک رسائی حاصل نہیں ہے</translation>
 <translation id="8823514049557262177">لنک کا مت&amp;ن کاپی کریں</translation>
 <translation id="8823704566850948458">پاس ورڈ تجویز کریں...</translation>
 <translation id="8823963789776061136">‏متبادل طور پر، پرنٹر PPD منتخب کریں۔ <ph name="LINK_BEGIN"/>مزید جانیں<ph name="LINK_END"/></translation>
@@ -10242,8 +10242,8 @@
 <translation id="2684652081942622950">‏Brave اکاؤنٹ</translation>
 <translation id="8912810933860534797">خودکار اسکین فعال کریں</translation>
 <translation id="8913485523736543337">اپڈیٹر</translation>
-<translation id="908256400270698357">‏آپ Brave یا Android استعمال نہ کر رہے ہوں تب بھی <ph name="BEGIN_LINK"/>passwords.google.com<ph name="END_LINK"/> میں سائن ان کر کے اپنے پاس ورڈز دیکھیں</translation>
-<translation id="4805806622840861220">‏Brave کو دوبارہ شروع کریں</translation>
+<translation id="4979643858549519655">‏آپ Wryling یا Android استعمال نہ کر رہے ہوں تب بھی <ph name="BEGIN_LINK"/>passwords.google.com<ph name="END_LINK"/> میں سائن ان کر کے اپنے پاس ورڈز دیکھیں</translation>
+<translation id="2036272753168211127">‏Wryling کو دوبارہ شروع کریں</translation>
 <translation id="8915307125957890427">ٹیب پر دایاں کلک کریں اور "گروپ میں ٹیب شامل کریں" کو منتخب کریں اور پھر "نیا گروپ" منتخب کریں</translation>
 <translation id="8915370057835397490">تجویز لوڈ ہو رہی ہے</translation>
 <translation id="1799432502220762862">پوشیدگی کا ذیلی فریم: <ph name="SUBFRAME_SITE"/></translation>
@@ -10357,7 +10357,7 @@
 <translation id="8993030412405061612">ٹاسک مکمل ہو گیا</translation>
 <translation id="8993198843374358393"><ph name="CERT_NAME"/> کیلئے سرٹیفیکیٹ کا ہیش کاپی کریں</translation>
 <translation id="8993737615451556423">رفتار بڑھانے، کم کرنے اور پڑھنے کی آواز کو روکنے کیلئے کنٹرول فراہم کرتا ہے</translation>
-<translation id="591917183749839690">‏اگر Brave کو عوامی ڈیٹا کی خلاف ورزی میں آپ کے پاس ورڈز میں سے کوئی ایک مل جاتا ہے تو آپ کے سائن ان ہونے پر یہ آپ کے لیے آپ کا پاس ورڈ تبدیل کرنے کی پیشکش کر سکتا ہے</translation>
+<translation id="8588872875448377133">‏اگر Wryling کو عوامی ڈیٹا کی خلاف ورزی میں آپ کے پاس ورڈز میں سے کوئی ایک مل جاتا ہے تو آپ کے سائن ان ہونے پر یہ آپ کے لیے آپ کا پاس ورڈ تبدیل کرنے کی پیشکش کر سکتا ہے</translation>
 <translation id="899384117894244799">محدود صارف کو ہٹائیں</translation>
 <translation id="8993853206419610596">تمام درخواستوں کو پھیلائیں</translation>
 <translation id="899403249577094719">‏Netscape سرٹیفکیٹ بیس URL</translation>
@@ -10426,7 +10426,7 @@
 <translation id="9038489124413477075">بغیر نام والا فولڈر</translation>
 <translation id="9039014462651733343">{NUM_ATTEMPTS,plural, =1{آپ کے پاس ایک کوشش باقی ہے۔}other{آپ کے پاس # کوششیں باقی ہیں۔}}</translation>
 <translation id="9040661932550800571"><ph name="ORIGIN"/> کے لیے پاس ورڈ کو اپ ڈیٹ کریں؟</translation>
-<translation id="6583236347997565045">‏‫Brave پاس ورڈ مینیجر کی مدد سے مضبوط پاس ورڈز محفوظ کرنے کے لیے، Brave میں سائن ان کریں</translation>
+<translation id="5837934549740960208">‏‫Wryling پاس ورڈ مینیجر کی مدد سے مضبوط پاس ورڈز محفوظ کرنے کے لیے، Wryling میں سائن ان کریں</translation>
 <translation id="9041692268811217999">آپ کے منتظم نے آپ کی مشین پر مقامی فائلوں تک رسائی کو غیر فعال کر دیا ہے</translation>
 <translation id="9041881059840744611">اسکول پروفائلز کے بارے میں</translation>
 <translation id="904224458472510106">اس عمل کو کالعدم نہیں کیا جا سکتا</translation>
@@ -10509,7 +10509,7 @@
 <translation id="910000385680858937">اجازت دی گئی – <ph name="PERMISSION_DETAILS"/>۔ مائیکروفون کو اپنے آلہ سے منسلک کریں۔</translation>
 <translation id="9100416672768993722">‏آخری بار استعمال کردہ اندراج کے طریقے پر سوئچ کرنے کیلئے <ph name="BEGIN_SHORTCUT"/><ph name="BEGIN_CTRL"/>Ctrl<ph name="END_CTRL"/><ph name="SEPARATOR"/><ph name="BEGIN_SPACE"/>Space<ph name="END_SPACE"/><ph name="END_SHORTCUT"/> دبائیں</translation>
 <translation id="9100765901046053179">جدید ترین ترتیبات</translation>
-<translation id="3297683531718793313">‏کاسٹ کرنے کیلئے، Brave کو <ph name="IDS_MEDIA_ROUTER_LOCAL_DISCOVERY_PERMISSION_REJECTED_LINK"/> میں رسائی فراہم کریں &gt; مقامی نیٹ ورک &gt; Brave</translation>
+<translation id="50299853723079745">‏کاسٹ کرنے کیلئے، Wryling کو <ph name="IDS_MEDIA_ROUTER_LOCAL_DISCOVERY_PERMISSION_REJECTED_LINK"/> میں رسائی فراہم کریں &gt; مقامی نیٹ ورک &gt; Wryling</translation>
 <translation id="9103868373786083162">پیچھے جانے کیلئے دبائیں، سرگزشت دیکھنے کیلئے سیاق وسباق کا مینیو</translation>
 <translation id="9107096627210171112">ترجمہ...</translation>
 <translation id="9107624673674616016">رنگین پنسل</translation>
@@ -10539,7 +10539,7 @@
 <translation id="9117030152748022724">اپنی ایپس کا نظم کریں</translation>
 <translation id="9117446363580518867">ہمیشہ چھپائیں</translation>
 <translation id="9120761757252614786">ٹول بار کو حسب ضرورت بنائیں</translation>
-<translation id="8429962505443892563">‏اپنے فون پر اپنے ٹیبز، بُک مارکس اور پاس ورڈز تک رسائی کرنے کیلئے Brave برائے iOS ڈاؤن لوڈ کریں۔</translation>
+<translation id="4781214144575706176">‏اپنے فون پر اپنے ٹیبز، بُک مارکس اور پاس ورڈز تک رسائی کرنے کیلئے Wryling برائے iOS ڈاؤن لوڈ کریں۔</translation>
 <translation id="9121814364785106365">پن کردہ ٹیب کے بطور کھولیں</translation>
 <translation id="9122099953033442610">{MULTI_GROUP_TAB_COUNT,plural, =0{ٹیب بند کریں اور گروپ کو حذف کریں؟}=1{ٹیبز کو بند کریں اور گروپ کو حذف کریں؟}other{ٹیبز کو بند کریں اور گروپس کو حذف کریں؟}}</translation>
 <translation id="9123287046453017203">آپ کا آلہ اپ ٹو ڈیٹ نہیں ہے</translation>
@@ -10602,7 +10602,7 @@
 <translation id="9170061643796692986">موجودہ نظر آنے کی ترتیب سبھی رابطے ہیں</translation>
 <translation id="9170766151357647548">‏آپ کے آلے کی EID <ph name="EID_NUMBER"/> ہے۔ سروس کو فعال کرنے میں مدد کے لیے اس نمبر کا استعمال کیا جا سکتا ہے۔</translation>
 <translation id="9170848237812810038">&amp;کالعدم کریں</translation>
-<translation id="2060128809251156338">‏آپ کے کمپیوٹر پر موجود ایک دوسرے پروگرام نے ایک تھیم شامل کی جو Brave کے کام کرنے کا طریقہ تبدیل کر سکتی ہے۔</translation>
+<translation id="6656888234505288335">‏آپ کے کمپیوٹر پر موجود ایک دوسرے پروگرام نے ایک تھیم شامل کی جو Wryling کے کام کرنے کا طریقہ تبدیل کر سکتی ہے۔</translation>
 <translation id="9172270007201309670">فونٹ کا سائز بڑھایا گیا</translation>
 <translation id="917350715406657904"><ph name="APP_NAME"/> کے لیے آپ کے والدین کی سیٹ کی ہوئی آپ کی وقت کی حد پوری ہو گئی۔ آپ اسے کل <ph name="TIME_LIMIT"/> کے لیے استعمال کر سکتے ہیں۔</translation>
 <translation id="9174854240439014335">ونڈو کے بائیں یا دائیں کنارے پر اسپلٹ ویو کھینچ کر ڈالنے کی اجازت دیں</translation>
@@ -10651,7 +10651,7 @@
 <translation id="9220525904950070496">اکاؤنٹ ہٹائیں</translation>
 <translation id="9220723036554088545">ایک فائل اپ لوڈ کریں</translation>
 <translation id="9220820413868316583">اٹھائیں پھر دوبارہ کوشش کریں۔</translation>
-<translation id="142389341645668510">‏Brave کو حسب ضرورت بنائیں</translation>
+<translation id="9094133852008074140">‏Wryling کو حسب ضرورت بنائیں</translation>
 <translation id="9222839391870847423">دورانیہ: <ph name="DURATION"/></translation>
 <translation id="9223158240932249417">ٹیکسٹ کارروائیاں دکھانے کی اجازت نہیں ہے</translation>
 <translation id="923306663772315007">اپنے آلہ پر بھیجیں</translation>
@@ -10679,7 +10679,7 @@
 <translation id="939736085109172342">نیا فولڈر</translation>
 <translation id="942296794412775122">مائیکروفون آن یا آف کریں</translation>
 <translation id="942488123151518958">‏موقوف کریں (k)</translation>
-<translation id="5770515304879261338">‏<ph name="APP_NAME"/> ایک Brave ٹیب اور آڈیو کا اشتراک کر رہی ہے۔</translation>
+<translation id="8882675094816400392">‏<ph name="APP_NAME"/> ایک Wryling ٹیب اور آڈیو کا اشتراک کر رہی ہے۔</translation>
 <translation id="945522503751344254">تاثرات بھیجیں</translation>
 <translation id="947156494302904893">آپ کی ملاحظہ کردہ سائٹس اس بات کی تصدیق کر سکتی ہیں کہ آپ ایک حقیقی شخص ہیں نہ کہ ایک بوٹ</translation>
 <translation id="947329552760389097">&amp;عناصر کا معائنہ کریں</translation>

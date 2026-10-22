@@ -5,6 +5,7 @@
 
 import * as React from 'react'
 import { createRoot } from 'react-dom/client'
+import { installWrylingComponents } from '$web-common/wryling_components'
 import { initLocale } from 'brave-ui'
 import StyledComponentsProvider from '$web-common/StyledComponentsProvider'
 
@@ -20,6 +21,9 @@ import DataContext from './state/context'
 import { ViewType } from './state/component_types'
 
 setIconBasePath('//resources/brave-icons')
+import(/* webpackIgnore: true */'chrome://resources/cr_components/color_change_listener/colors_css_updater.js')
+  .then(({ ColorChangeUpdater }) => ColorChangeUpdater.forDocument().start())
+installWrylingComponents()
 
 function App () {
   const { siteBlockInfo } = useSiteBlockInfoData()

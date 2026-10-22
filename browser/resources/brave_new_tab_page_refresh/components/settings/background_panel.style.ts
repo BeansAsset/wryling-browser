@@ -42,6 +42,16 @@ export const style = scoped.css`
     &.selected {
       box-shadow: ${effect.elevation['01']};
     }
+
+    /* Wryling wallpapers draw on a canvas instead of a CSS background. */
+    &.wallpaper {
+      overflow: hidden;
+
+      canvas {
+        position: absolute;
+        inset: 0;
+      }
+    }
   }
 
   .background-option {

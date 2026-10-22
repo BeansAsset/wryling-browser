@@ -108,7 +108,7 @@ Mae'n bosib na fydd rhai nodweddion ar gael ac ni fydd newidiadau o ran dewisiad
 <translation id="2137162749895930932">Cau'r sgrîn cyfieithu</translation>
 <translation id="5789330946301045610">Gwnaeth Brave rwystro'r lawrlwythiad hwn oherwydd nad yw'r wefan yn defnyddio cysylltiad diogel ac mae'n bosib bod y ffeil wedi'i hymyrryd â hi</translation>
 <translation id="2170098639895543546">Dewiswch unrhyw beth ar y dudalen</translation>
-<translation id="142389341645668510">Personoleiddio Brave</translation>
+<translation id="9094133852008074140">Personoleiddio Wryling</translation>
 <translation id="2174917724755363426">Gosod heb ei gwblhau. Ydych chi'n siŵr eich bod am ganslo?</translation>
 <translation id="8745514854244955877">Brave - Mewngofnodi Rhwydwaith - <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">Gwall gwiriad diweddaru: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -208,7 +208,7 @@ Mae'n bosib na fydd rhai nodweddion ar gael ac ni fydd newidiadau o ran dewisiad
 <translation id="3137969841538672700">Llusgwch i chwilio</translation>
 <translation id="8372436892102763334">Mae'r tab hwn yn defnyddio adnoddau ychwanegol. Er mwyn gwella eich perfformiad, gadewch i Brave ei wneud yn anweithredol.</translation>
 <translation id="5949068186379578553">I rannu'ch sgrîn, caniatewch recordio sgrîn ar gyfer Brave yn y Gosodiadau System</translation>
-<translation id="4805806622840861220">Ail-lansio Brave</translation>
+<translation id="2036272753168211127">Ail-lansio Wryling</translation>
 <translation id="3161522574479303604">Pob iaith</translation>
 <translation id="6554952862405000915">Agor y Ddolen mewn Ffenestr Anhys&amp;bys Brave</translation>
 <translation id="1742948938503172561">Personoleiddio eich proffil Brave newydd</translation>
@@ -243,7 +243,7 @@ Mae'n bosib na fydd rhai nodweddion ar gael ac ni fydd newidiadau o ran dewisiad
 <translation id="8981774130895723211">I rannu'ch sgrîn, caniatewch recordio sgrîn ar gyfer Brave yn y Gosodiadau System.</translation>
 <translation id="2981961446160697133">Mae gwell amddiffyniad yn diffodd optimeiddio JavaScript ar gyfer gwefannau nad yw Brave yn eu hadnabod</translation>
 <translation id="3597003331831379823">Wedi methu rhedeg gosod gyda breintiau uwch. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Mewngofnodi i Brave</translation>
+<translation id="5451434122049588189">Mewngofnodi i Wryling</translation>
 <translation id="3066805437003400520">Bydd data pori’r unigolyn hwn yn cael eu dileu o’r ddyfais hon. I adfer y data, mewngofnodwch i Brave fel <ph name="USER_EMAIL"/>.</translation>
 <translation id="8274659559228306809">{COUNT,plural, =0{Mae diweddariad newydd ar gyfer Brave ar gael a bydd yn cael ei gymhwyso cyn gynted ag y byddwch yn ail-lansio.}=1{Mae diweddariad newydd ar gyfer Brave ar gael a bydd yn cael ei gymhwyso cyn gynted ag y byddwch yn ail-lansio. Ni fydd eich ffenestr Anhysbys yn ailagor.}two{Mae diweddariad newydd ar gyfer Brave ar gael a bydd yn cael ei gymhwyso cyn gynted ag y byddwch yn ail-lansio. Ni fydd eich # ffenestr Anhysbys yn ailagor.}few{Mae diweddariad newydd ar gyfer Brave ar gael a bydd yn cael ei gymhwyso cyn gynted ag y byddwch yn ail-lansio. Ni fydd eich # ffenestr Anhysbys yn ailagor.}many{Mae diweddariad newydd ar gyfer Brave ar gael a bydd yn cael ei gymhwyso cyn gynted ag y byddwch yn ail-lansio. Ni fydd eich # ffenestr Anhysbys yn ailagor.}other{Mae diweddariad newydd ar gyfer Brave ar gael a bydd yn cael ei gymhwyso cyn gynted ag y byddwch yn ail-lansio. Ni fydd eich # ffenestr Anhysbys yn ailagor.}}</translation>
 <translation id="3667616615096815454">Methu â gosod, mae'r ap yn anhysbys i'r gweinydd.</translation>
@@ -288,9 +288,9 @@ Mae'n bosib na fydd rhai nodweddion ar gael ac ni fydd newidiadau o ran dewisiad
 <translation id="4050175100176540509">Mae gwelliannau diogelwch pwysig a nodweddion newydd ar gael yn y fersiwn ddiweddaraf.</translation>
 <translation id="4055805654398742145">R&amp;heolwr Cyfrineiriau</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Mae eich sefydliad yn cau Brave yn awtomatig pan na chaiff ei ddefnyddio am 1 funud. Mae data pori yn cael eu dileu. Gallai hyn gynnwys hanes, awtolenwi a lawrlwythiadau.}zero{Mae eich sefydliad yn cau Brave yn awtomatig pan na chaiff ei ddefnyddio am # munud. Mae data pori yn cael eu dileu. Gallai hyn gynnwys hanes, awtolenwi a lawrlwythiadau.}two{Mae eich sefydliad yn cau Brave yn awtomatig pan na chaiff ei ddefnyddio am # funud. Mae data pori yn cael eu dileu. Gallai hyn gynnwys hanes, awtolenwi a lawrlwythiadau.}few{Mae eich sefydliad yn cau Brave yn awtomatig pan na chaiff ei ddefnyddio am # munud. Mae data pori yn cael eu dileu. Gallai hyn gynnwys hanes, awtolenwi a lawrlwythiadau.}many{Mae eich sefydliad yn cau Brave yn awtomatig pan na chaiff ei ddefnyddio am # munud. Mae data pori yn cael eu dileu. Gallai hyn gynnwys hanes, awtolenwi a lawrlwythiadau.}other{Mae eich sefydliad yn cau Brave yn awtomatig pan na chaiff ei ddefnyddio am # munud. Mae data pori yn cael eu dileu. Gallai hyn gynnwys hanes, awtolenwi a lawrlwythiadau.}}</translation>
-<translation id="2589970573128789862">Brave Anhysbys</translation>
+<translation id="2090681901335274465">Wryling Anhysbys</translation>
 <translation id="5794951150713244901">Mynd i'r dudalen Ynghylch Brave</translation>
-<translation id="10925962326134232">Gallwch addasu Brave i roi gwedd newydd i'ch porwr</translation>
+<translation id="908722199085381104">Gallwch addasu Wryling i roi gwedd newydd i'ch porwr</translation>
 <translation id="6596295505984504022">A&amp;ddasu eich Brave</translation>
 <translation id="4148957013307229264">Wrthi’n gosod...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> - Mewngofnodi Rhwydwaith - Brave</translation>
@@ -395,7 +395,7 @@ Mae'n bosib na fydd rhai nodweddion ar gael ac ni fydd newidiadau o ran dewisiad
 <translation id="5154625106151193600">Dysgu pam fod Brave yn rhwystro rhai ffeiliau</translation>
 <translation id="1786715389543715322">Wrthi'n Diweddaru Brave (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Caniatáu Mewngofnodi drwy Brave</translation>
-<translation id="5267531627648004734">Tynnu o Brave</translation>
+<translation id="6125790165673488794">Tynnu o Wryling</translation>
 <translation id="4620757336635063467">Yn lleihau perfformiad ond yn gwneud Brave yn fwy ymwrthol i ymosodiadau</translation>
 <translation id="239760341987199724">Gosod Brave fel eich porwr diofyn</translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Beta Brave</translation>
@@ -575,7 +575,7 @@ Ni ellir cadw nodau tudalen newydd yn eich cyfrif nes i chi ddileu rhai. Os bydd
 <translation id="7024536598735240744">Gwall dadbacio: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">Personoleiddiwch Brave</translation>
 <translation id="7047386856539490735">Ydy'r canlyniadau hyn yn ddefnyddiol?</translation>
-<translation id="1705567146636171298">Diweddaru Brave</translation>
+<translation id="4469722898384489712">Diweddaru Wryling</translation>
 <translation id="5499063270485366718">Os nad oes gan ddelwedd ddisgrifiad defnyddiol, bydd Brave yn ceisio darparu un ar eich cyfer. Rydym yn anfon delweddau at Brave er mwyn creu disgrifiadau.</translation>
 <translation id="1196733835766994012">Cael pŵer AI pan fyddwch yn defnyddio'r ap Brave ar eich <ph name="DEVICE_TYPE"/></translation>
 <translation id="7166289504510860270">Ewch â'ch cyfrineiriau, tabiau a rhagor gyda'r ap Brave ar eich ffôn</translation>
@@ -785,7 +785,7 @@ Ni all Brave adfer eich gosodiadau.</translation>
 <translation id="8965179855019347124">Defnyddiwch offer AI gorau Brave gyda'r ap Brave ar eich ffôn</translation>
 <translation id="9049928023195059068">Mewngofnodwch i Brave pan fyddwch yn mewngofnodi i wasanaethau Brave eraill</translation>
 <translation id="4561046754724442504">Caewyd Brave yn awtomatig</translation>
-<translation id="5173820533850252773">Mae Brave yn hen</translation>
+<translation id="1523936557081546133">Mae Wryling yn hen</translation>
 <translation id="310518206836658214">{0,plural, =1{Bydd Brave yn ail-lansio mewn awr}zero{Bydd Brave yn ail-lansio mewn # awr}two{Bydd Brave yn ail-lansio mewn # awr}few{Bydd Brave yn ail-lansio mewn # awr}many{Bydd Brave yn ail-lansio mewn # awr}other{Bydd Brave yn ail-lansio mewn # awr}}</translation>
 <translation id="9106236359747881194">Dewiswch destun i'w chwilio</translation>
 <translation id="5190991181158966940">I gael diweddariadau Brave yn y dyfodol, bydd angen Windows 10 neu ddiweddarach arnoch. Mae'r cyfrifiadur hwn yn defnyddio Windows 8.1.</translation>
@@ -797,12 +797,12 @@ Ni all Brave adfer eich gosodiadau.</translation>
 <translation id="2444257125841652328">Mae'ch gweinyddwr system wedi ffurfweddu Brave i agor porwr gwahanol i fynd i mewn i <ph name="TARGET_URL_HOSTNAME"/>.</translation>
 <translation id="7902365066753170041">Ail-lansiwch i ddiweddaru &amp;Brave</translation>
 <translation id="3350544518197210895">Brave (mDNS-In)</translation>
-<translation id="296137235951584143">Personoleiddio Brave</translation>
+<translation id="4578349172774307195">Personoleiddio Wryling</translation>
 <translation id="7977787072794666032">Mae'n bosib na fydd Brave yn gweithredu'n gywir oherwydd nad yw'n cael ei gefnogi mwyach ar Windows XP na Windows Vista</translation>
 <translation id="8462937515915443472">Cael nodweddion diogelwch gorau Brave wrth fynd gyda Brave.</translation>
 <translation id="945522503751344254">Danfon adborth</translation>
 <translation id="4484434718272972655">Pwy sy'n defnyddio Brave?</translation>
-<translation id="7173394303099002355">Cael diogelwch cryfaf Brave</translation>
+<translation id="1158507424343802366">Cael diogelwch cryfaf Wryling</translation>
 <translation id="983803489796659991">Methodd y gosodiad oherwydd nad oes gan y gweinydd diweddaru unrhyw ddata hash ar gyfer yr ap.</translation>
 <translation id="8435446479956716379">Defnyddio Brave Heb Gyfrif</translation>
 <translation id="8992261409816268381">Awduron Brave</translation>

@@ -44,7 +44,7 @@
 <translation id="7083341910267693582"><ph name="APP_NAME"/> öppnas i Brave. Genom att fortsätta godkänner du <ph name="BEGIN_LINK1"/>Braves användarvillkor<ph name="END_LINK1"/> och <ph name="BEGIN_LINK2"/>de ytterligare användarvillkoren för Brave och ChromeOS<ph name="END_LINK2"/>.</translation>
 <translation id="7443574521624544928">Du har inga sparade lösenord i Brave Lösenordshantering.</translation>
 <translation id="115483310321669804">Använd lösenordet <ph name="PASSWORD"/></translation>
-<translation id="4489415936688888898">Gemini i Brave</translation>
+<translation id="4980210551795949534">Gemini i Wryling</translation>
 <translation id="1161065531352634524">Synkronisera flikar och historik</translation>
 <translation id="1165109137568919258">Ta ett foto eller lägg till en bild från fotogalleriet för att söka</translation>
 <translation id="1173894706177603556">Ändra namn</translation>
@@ -91,8 +91,8 @@
 <translation id="1333491156693005331">Kontrollerades nyligen</translation>
 <translation id="1336996151357442890">Prenumerationen på <ph name="SITE_NAME"/> har avslutats. Du blir tillfrågad igen nästa gång du besöker webbplatsen.</translation>
 <translation id="1340839264183302272">Lämna grupp</translation>
-<translation id="873343310451048603">Öppna Brave Lösenordshantering för att kontrollera om det finns utsatta lösenord</translation>
-<translation id="4167284810587724062">Logga in i Brave</translation>
+<translation id="4973862711373394097">Öppna Wryling Lösenordshantering för att kontrollera om det finns utsatta lösenord</translation>
+<translation id="5451434122049588189">Logga in i Wryling</translation>
 <translation id="1344653310988386453">Ta med länk till markering</translation>
 <translation id="1355088659320425659">Historik och flikar</translation>
 <translation id="1363028406613469049">Spår</translation>
@@ -147,7 +147,7 @@ Du hittar fler inställningar som använder data för att förbättra Brave-uppl
 Din krypterade data kan endast läsas av en person som har din lösenfras. Lösenfrasen varken skickas till eller lagras av Brave. Om du glömmer lösenfrasen eller vill ändra den här inställningen <ph name="BEGIN_LINK"/>rensar du kontots Brave-data<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">Tryck på knappen Hantera kontot om du vill hantera ditt Brave-konto</translation>
 <translation id="1549000191223877751">Flytta till annat fönster</translation>
-<translation id="1705567146636171298">Uppdatera Brave</translation>
+<translation id="4469722898384489712">Uppdatera Wryling</translation>
 <translation id="1554352084785952638"><ph name="SEARCH_ENGINE"/> för <ph name="SEARCH_TERMS"/></translation>
 <translation id="2509230690562869141">Hjälp oss att göra Brave bättre för den som använder programmet på samma sätt som du</translation>
 <translation id="1568636008098739136">Lyssna på sidan. Tryck länge om du vill ändra det här kortkommandot.</translation>
@@ -207,8 +207,8 @@ Din krypterade data kan endast läsas av en person som har din lösenfras. Löse
 <translation id="4544426875066706571">Tillåt att Brave tar bort behörigheter från webbplatser som du inte har besökt nyligen för att skydda din data</translation>
 <translation id="1851551847729706116"><ph name="TAB_NAME"/> delas på den här fliken</translation>
 <translation id="1869691326892615940">Säkrare lösenord, snabbare inloggning</translation>
-<translation id="7175072311426658869">Öppna i Brave-webbläsaren</translation>
-<translation id="5173820533850252773">Den här versionen av Brave är inaktuell</translation>
+<translation id="7259806589727104192">Öppna i Wryling-webbläsaren</translation>
+<translation id="1523936557081546133">Den här versionen av Wryling är inaktuell</translation>
 <translation id="1877073879466606884">Profilen som du är inloggad med är en hanterad profil. Administratören kan göra ändringar i profilinställningarna på distans, analysera information om webbläsaren genom rapportering och utföra andra nödvändiga uppgifter.</translation>
 <translation id="1879904908408734349">Arket för inloggning på nedre delen av skärmen har stängts</translation>
 <translation id="1883903952484604915">Mina filer</translation>
@@ -576,7 +576,7 @@ Din krypterade data kan endast läsas av en person som har din lösenfras. Löse
 <translation id="3384347053049321195">Dela bild</translation>
 <translation id="3387650086002190359">Det gick inte att ladda ned <ph name="FILE_NAME"/> på grund av filsystemfel.</translation>
 <translation id="5654361895804243820">Du kan hantera dina fönster i Braves fönsterhanterare</translation>
-<translation id="4302350545547675750">Hantera i Brave Lösenordshantering</translation>
+<translation id="54130667607538272">Hantera i Wryling Lösenordshantering</translation>
 <translation id="3417835166382867856">Sök bland flikar</translation>
 <translation id="3430670036890315772">Om du inaktiverar profillåset tas dina sparade uppgifter bort</translation>
 <translation id="4114256890962999877">Om du vill behålla åtkomsten till dina lösenord kan du exportera dem nu, uppdatera Google Play-tjänster och sedan importera dem till Brave Lösenordshantering. <ph name="BEGIN_LINK"/>Se fullständiga instruktioner<ph name="END_LINK"/>.</translation>
@@ -738,7 +738,7 @@ Din krypterade data kan endast läsas av en person som har din lösenfras. Löse
 <translation id="4072805772816336153">Försök igen senare</translation>
 <translation id="4084682180776658562">Lägg till bokmärke</translation>
 <translation id="4521874409998847950">Från <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>via Brave<ph name="END_DEEMPHASIZED"/></translation>
-<translation id="7268155614575494857">Hjälp Brave Lösenordshantering att spara dina inloggningsuppgifter genom att lägga till ditt användarnamn för den här webbplatsen</translation>
+<translation id="6708405940091325014">Hjälp Wryling Lösenordshantering att spara dina inloggningsuppgifter genom att lägga till ditt användarnamn för den här webbplatsen</translation>
 <translation id="4095146165863963773">Vill du ta bort appdata?</translation>
 <translation id="4095483462103784441">Skapa en ny flikgrupp</translation>
 <translation id="1523634703470981382">Uppdatering av Brave Lösenordshantering har öppnats</translation>
@@ -1086,7 +1086,7 @@ Det kan finnas andra former av webbhistorik i Brave-kontot på <ph name="BEGIN_L
 <translation id="5532536403031755365">Lägg till ett extra skyddslager mot onlinehot med Utökat skydd</translation>
 <translation id="5540127996007641535">{NUM_BOOKMARKS,plural, =1{Öppna bokmärke}other{Öppna alla (#)}}</translation>
 <translation id="5548606607480005320">Säkerhetskontroll</translation>
-<translation id="4362225295386962644">När du använder ett lösenord visas en varning i Brave om det har publicerats online. När detta görs krypteras dina lösenord och användarnamn så att varken Brave eller någon annan kan läsa dem.</translation>
+<translation id="3680104634340426001">När du använder ett lösenord visas en varning i Brave om det har publicerats online. När detta görs krypteras dina lösenord och användarnamn så att varken Brave eller någon annan kan läsa dem.</translation>
 <translation id="5555525474779371165">Välj ditt skydd med Säker webbsökning</translation>
 <translation id="5556459405103347317">Läs in på nytt</translation>
 <translation id="555671485580955310">Synkronisera historik och flikar</translation>
@@ -1189,7 +1189,7 @@ Det kan finnas andra former av webbhistorik i Brave-kontot på <ph name="BEGIN_L
 <translation id="6002122790816966947">Dina enheter</translation>
 <translation id="6011308810877101166">Förbättra sökförslag</translation>
 <translation id="6013305291643746595">Sorterar efter äldsta</translation>
-<translation id="296137235951584143">Anpassa Brave</translation>
+<translation id="4578349172774307195">Anpassa Wryling</translation>
 <translation id="6023820583797130428">Öppna menyn för att gå tillbaka</translation>
 <translation id="6026538407078977628">Utöka till helskärmsläge</translation>
 <translation id="6039379616847168523">Hoppa till nästa flik</translation>
@@ -1248,7 +1248,7 @@ Det kan finnas andra former av webbhistorik i Brave-kontot på <ph name="BEGIN_L
 Vissa webbplatser kan till exempel svara på begäran genom att visa annonser som inte baseras på andra webbplatser du har besökt. Många webbplatser samlar ändå in och använder din webbinformation – till exempel för att förbättra säkerheten, tillhandahålla innehåll, annonser och rekommendationer samt generera rapportstatistik.</translation>
 <translation id="623755660902014047">Läsläge</translation>
 <translation id="6246073558347462570">Popupfönster för sammanhang</translation>
-<translation id="8883879481897424949">Brave Lösenordshantering</translation>
+<translation id="3888885285070224654">Wryling Lösenordshantering</translation>
 <translation id="6248988683584659830">Sök i inställningar</translation>
 <translation id="2715956954609894918">Visa Brave-historiken här</translation>
 <translation id="6254139308321626268">Du ser en PDF-fil</translation>
@@ -1297,7 +1297,7 @@ Vissa webbplatser kan till exempel svara på begäran genom att visa annonser so
 <translation id="6394791151443660613">Sök efter: <ph name="SEARCH_QUERY"/></translation>
 <translation id="6397616442223433927">Online igen</translation>
 <translation id="6399363707848566877">Nu kan du enkelt lägga till flikar i grupper här</translation>
-<translation id="8789425457808164956">Om du vill skicka den här fliken till en annan enhet loggar du in i Brave på den enheten</translation>
+<translation id="2522845252291433622">Om du vill skicka den här fliken till en annan enhet loggar du in i Wryling på den enheten</translation>
 <translation id="6404511346730675251">Redigera bokmärke</translation>
 <translation id="6410883413783534063">Öppna flikar för att besöka olika sidor samtidigt</translation>
 <translation id="6411009031428071896">Lyssna på flödet</translation>
@@ -1327,7 +1327,7 @@ Vissa webbplatser kan till exempel svara på begäran genom att visa annonser so
 <translation id="6482749332252372425">Det gick inte att ladda ned <ph name="FILE_NAME"/> eftersom det inte finns tillräckligt med lagringsutrymme.</translation>
 <translation id="6486420406192123355">Den här PDF-filen kommer från en webbplats som använder en osäker anslutning</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{Filen har laddats ned}other{# nedladdningar har slutförts}}</translation>
-<translation id="3960299545138990065">Starta om Brave</translation>
+<translation id="6199441660763014986">Starta om Wryling</translation>
 <translation id="6513924416597632811">Kopiera länken till sökresultatsidan för: <ph name="SEARCH_QUERY"/>. Källa: <ph name="PAGE_URL"/></translation>
 <translation id="6518133107902771759">Verifiera</translation>
 <translation id="6521218807522232085">Skapa, spara och hantera dina lösenord så att du enkelt kan logga in</translation>
@@ -1357,7 +1357,7 @@ Vissa webbplatser kan till exempel svara på begäran genom att visa annonser so
 <translation id="6602173570135186741">Autofyll och lösenord</translation>
 <translation id="661266467055912436">Förbättrar säkerheten för dig och alla andra på webben.</translation>
 <translation id="6615455863669487791">Visa mig</translation>
-<translation id="8127050479140582768">Om du vill skicka den här fliken till en annan enhet loggar du in i Brave på båda enheterna</translation>
+<translation id="7379057487310867567">Om du vill skicka den här fliken till en annan enhet loggar du in i Wryling på båda enheterna</translation>
 <translation id="6627583120233659107">Redigera mapp</translation>
 <translation id="6636623428211296678">Utforska fler inställningar nedan eller avsluta nu</translation>
 <translation id="7939692063031538305">Brave skickar data om användning och krascher till Brave i syfte att förbättra appen. <ph name="BEGIN_UMA_LINK"/>Hantera<ph name="END_UMA_LINK"/></translation>
@@ -2027,7 +2027,7 @@ Om du vill ändra den här inställningen <ph name="BEGIN_LINK"/>raderar du Brav
 <translation id="9212845824145208577">Markeringen kan inte utökas mer i riktning nedåt. Testa att börja någonstans längre ned på sidan.</translation>
 <translation id="9218430445555521422">Ange som standard</translation>
 <translation id="9219103736887031265">Bilder</translation>
-<translation id="142389341645668510">Anpassa Brave</translation>
+<translation id="9094133852008074140">Anpassa Wryling</translation>
 <translation id="9222198206152536936">Logga in som <ph name="EMAIL"/> om du vill få tillgång till dina flikar med mera på alla dina enheter</translation>
 <translation id="7625138338483121345">Använda Brave som standardwebbläsare</translation>
 <translation id="4596514158372210596">Ta bort din aktivitet i Brave från Digitalt välmående</translation>
@@ -2057,7 +2057,7 @@ Om du vill ändra den här inställningen <ph name="BEGIN_LINK"/>raderar du Brav
 <translation id="5352668640894950863">Lås privata fönster när du lämnar Brave</translation>
 <translation id="1014490034578104945">Använd skärmlås för att se öppna privata flikar</translation>
 <translation id="5572558661069030949">Använd skärmlås för att se öppna privata fönster</translation>
-<translation id="2589970573128789862">Brave privat</translation>
+<translation id="2090681901335274465">Wryling privat</translation>
 <translation id="5809126106485463836">Privat läge håller din surfning privat från andra som använder din enhet</translation>
 <translation id="5487565066256782913">Öppna nytt inkognitofönster</translation>
 <translation id="5706084539081051088">När du surfar i inkognitoläge ser andra som använder den här enheten inte din aktivitet, så du kan surfa mer privat. <ph name="BEGIN_LINK"/>Läs mer<ph name="END_LINK"/></translation>

@@ -44,7 +44,7 @@
 <translation id="7083341910267693582">Lietotne <ph name="APP_NAME"/> tiks atvērta pārlūkā Brave. Turpinot jūs piekrītat <ph name="BEGIN_LINK1"/>Brave pakalpojumu sniegšanas noteikumiem<ph name="END_LINK1"/>, kā arī <ph name="BEGIN_LINK2"/>Brave un Brave OS pakalpojumu sniegšanas papildu noteikumiem<ph name="END_LINK2"/>.</translation>
 <translation id="7443574521624544928">Brave paroļu pārvaldniekā nav saglabāta neviena parole.</translation>
 <translation id="115483310321669804">Izmantot paroli <ph name="PASSWORD"/></translation>
-<translation id="4489415936688888898">Gemini pārlūkā Brave</translation>
+<translation id="4980210551795949534">Gemini pārlūkā Wryling</translation>
 <translation id="1161065531352634524">Ciļņu un vēstures sinhronizēšana</translation>
 <translation id="1165109137568919258">Lai meklētu, uzņemiet fotoattēlu vai pievienojiet attēlu no fotoattēlu galerijas.</translation>
 <translation id="1173894706177603556">Pārdēvēt</translation>
@@ -91,8 +91,8 @@
 <translation id="1333491156693005331">Nesen pārbaudīts</translation>
 <translation id="1336996151357442890">Vietnes <ph name="SITE_NAME"/> abonements ir anulēts. Jums tiks vaicāts atkal, kad nākamreiz apmeklēsiet vietni.</translation>
 <translation id="1340839264183302272">Pamest grupu</translation>
-<translation id="873343310451048603">Lai pārbaudītu, vai neviena parole nav uzlauzta, pārejiet uz Brave paroļu pārvaldnieku.</translation>
-<translation id="4167284810587724062">Pierakstīšanās pārlūkā Brave</translation>
+<translation id="4973862711373394097">Lai pārbaudītu, vai neviena parole nav uzlauzta, pārejiet uz Wryling paroļu pārvaldnieku.</translation>
+<translation id="5451434122049588189">Pierakstīšanās pārlūkā Wryling</translation>
 <translation id="1344653310988386453">Ietveriet saiti uz atzīmēto tekstu.</translation>
 <translation id="1355088659320425659">Vēsture un cilnes</translation>
 <translation id="1363028406613469049">Izsekošana</translation>
@@ -147,7 +147,7 @@ Lai skatītu citus iestatījumus, kuros dati tiek izmantoti Brave lietošanas ie
 Jūsu šifrētos datus var lasīt tikai personas, kurām ir jūsu ieejas frāze. Ieejas frāze netiek sūtīta uzņēmumam Brave, un uzņēmums Brave to neuzglabā. Ja esat aizmirsis ieejas frāzi vai vēlaties mainīt šo iestatījumu, <ph name="BEGIN_LINK"/>notīriet Brave datus savā kontā<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">Lai pārvaldītu savu Brave kontu, pieskarieties pogai “Konta pārvaldība”</translation>
 <translation id="1549000191223877751">Pārvietot uz citu logu</translation>
-<translation id="1705567146636171298">Atjaunināt Brave</translation>
+<translation id="4469722898384489712">Atjaunināt Wryling</translation>
 <translation id="1554352084785952638"><ph name="SEARCH_ENGINE"/> — “<ph name="SEARCH_TERMS"/>”</translation>
 <translation id="2509230690562869141">Jūs varat palīdzēt uzlabot Brave darbību citiem lietotājiem, kuri to izmanto līdzīgā veidā.</translation>
 <translation id="1568636008098739136">Klausīties šīs lapas saturu. Lai rediģētu šo īsinājumtaustiņu, pieskarieties un turiet.</translation>
@@ -207,8 +207,8 @@ Jūsu šifrētos datus var lasīt tikai personas, kurām ir jūsu ieejas frāze.
 <translation id="4544426875066706571">Lai aizsargātu savus datus, ļaujiet pārlūkā Brave noņemt atļaujas vietnēm, ko pēdējā laikā neesat apmeklējis.</translation>
 <translation id="1851551847729706116">Kopīgo cilni <ph name="TAB_NAME"/> ar šo cilni</translation>
 <translation id="1869691326892615940">Drošākas paroles, ātrāka pierakstīšanās</translation>
-<translation id="7175072311426658869">Atvērt pārlūkā Brave</translation>
-<translation id="5173820533850252773">Brave versija ir novecojusi.</translation>
+<translation id="7259806589727104192">Atvērt pārlūkā Wryling</translation>
+<translation id="1523936557081546133">Wryling versija ir novecojusi.</translation>
 <translation id="1877073879466606884">Profils, kurā esat pierakstījies, ir pārvaldīts profils. Administrators var attāli veikt izmaiņas jūsu profila iestatījumos, analizēt informāciju par pārlūku, izmantojot pārskatus, kā arī veikt citus nepieciešamos uzdevumus.</translation>
 <translation id="1879904908408734349">Pierakstīšanās ekrāna apakšdaļas lapa ir aizvērta</translation>
 <translation id="1883903952484604915">Mani faili</translation>
@@ -576,7 +576,7 @@ Jūsu šifrētos datus var lasīt tikai personas, kurām ir jūsu ieejas frāze.
 <translation id="3384347053049321195">Kopīgot attēlu</translation>
 <translation id="3387650086002190359">Neizdevās lejupielādēt failu <ph name="FILE_NAME"/>, jo radās failu sistēmas kļūdas.</translation>
 <translation id="5654361895804243820">Varat pārvaldīt savus logus Brave logu pārvaldniekā.</translation>
-<translation id="4302350545547675750">Pārvaldiet Brave paroļu pārvaldniekā.</translation>
+<translation id="54130667607538272">Pārvaldiet Wryling paroļu pārvaldniekā.</translation>
 <translation id="3417835166382867856">Meklēt cilnēs</translation>
 <translation id="3430670036890315772">Izslēdzot profila bloķēšanu, tiks noņemta jūsu saglabātā informācija.</translation>
 <translation id="4114256890962999877">Lai saglabātu piekļuvi savām parolēm, eksportējiet tās tūlīt, atjauniniet Google Play pakalpojumus un pēc tam atkal importējiet paroles Brave paroļu pārvaldniekā. <ph name="BEGIN_LINK"/>Skatiet visus norādījumus<ph name="END_LINK"/>.</translation>
@@ -738,7 +738,7 @@ Jūsu šifrētos datus var lasīt tikai personas, kurām ir jūsu ieejas frāze.
 <translation id="4072805772816336153">Vēlāk mēģiniet vēlreiz.</translation>
 <translation id="4084682180776658562">Grāmatzīme</translation>
 <translation id="4521874409998847950">No izdevēja <ph name="PUBLISHER_ORIGIN"/> — <ph name="BEGIN_DEEMPHASIZED"/>nodrošina Brave<ph name="END_DEEMPHASIZED"/></translation>
-<translation id="7268155614575494857">Lai palīdzētu Brave paroļu pārvaldniekā saglabāt pierakstīšanās informāciju, pievienojiet savu lietotājvārdu šajā vietnē.</translation>
+<translation id="6708405940091325014">Lai palīdzētu Wryling paroļu pārvaldniekā saglabāt pierakstīšanās informāciju, pievienojiet savu lietotājvārdu šajā vietnē.</translation>
 <translation id="4095146165863963773">Vai dzēst lietotnes datus?</translation>
 <translation id="4095483462103784441">Izveidot jaunu ciļņu grupu</translation>
 <translation id="1523634703470981382">Atvērts Brave paroļu pārvaldnieka atjauninājums</translation>
@@ -1086,7 +1086,7 @@ Jūsu Brave kontam vietnē <ph name="BEGIN_LINK"/>myactivity.google.com<ph name=
 <translation id="5532536403031755365">Uzlabojiet drošību, pievienojot papildu aizsardzības līmeni pret draudiem tiešsaistē.</translation>
 <translation id="5540127996007641535">{NUM_BOOKMARKS,plural, =1{Atvērt grāmatzīmi}zero{Atvērt visas grāmatzīmes (#)}one{Atvērt visas grāmatzīmes (#)}other{Atvērt visas grāmatzīmes (#)}}</translation>
 <translation id="5548606607480005320">Drošības pārbaude</translation>
-<translation id="4362225295386962644">Pārlūkā Brave tiek parādīts brīdinājums, ja izmantojat paroli, kas ir publicēta tiešsaistē. To darot, jūsu paroles un lietotājvārdi tiek šifrēti, lai neviens tos nevarētu lasīt, tostarp Brave.</translation>
+<translation id="3680104634340426001">Pārlūkā Brave tiek parādīts brīdinājums, ja izmantojat paroli, kas ir publicēta tiešsaistē. To darot, jūsu paroles un lietotājvārdi tiek šifrēti, lai neviens tos nevarētu lasīt, tostarp Brave.</translation>
 <translation id="5555525474779371165">Drošas pārlūkošanas aizsardzības opciju izvēle</translation>
 <translation id="5556459405103347317">Pārlādēt</translation>
 <translation id="555671485580955310">Sinhronizēt vēsturi un cilnes</translation>
@@ -1189,7 +1189,7 @@ Jūsu Brave kontam vietnē <ph name="BEGIN_LINK"/>myactivity.google.com<ph name=
 <translation id="6002122790816966947">Jūsu ierīces</translation>
 <translation id="6011308810877101166">Uzlabot meklēšanas ieteikumus</translation>
 <translation id="6013305291643746595">Kārtošana pēc vecākās</translation>
-<translation id="296137235951584143">Pielāgojiet Brave savām prasībām</translation>
+<translation id="4578349172774307195">Pielāgojiet Wryling savām prasībām</translation>
 <translation id="6023820583797130428">Atveriet izvēlni, lai pārietu atpakaļ.</translation>
 <translation id="6026538407078977628">Izvērst pilnekrāna režīmā</translation>
 <translation id="6039379616847168523">Pāriet uz nākamo cilni</translation>
@@ -1248,7 +1248,7 @@ Jūsu Brave kontam vietnē <ph name="BEGIN_LINK"/>myactivity.google.com<ph name=
 Piemēram, dažas vietnes, reaģējot uz šo pieprasījumu, var rādīt jums reklāmas, kuru pamatā nav citas jūsu apmeklētās vietnes. Tomēr daudzas vietnes vāks un izmantos jūsu pārlūkošanas datus, piemēram, lai uzlabotu drošību, nodrošinātu saturu, reklāmas un ieteikumus un ģenerētu pārskatu statistiku.</translation>
 <translation id="623755660902014047">Lasīšanas režīms</translation>
 <translation id="6246073558347462570">Konteksta uznirstošais logs</translation>
-<translation id="8883879481897424949">Brave paroļu pārvaldnieks</translation>
+<translation id="3888885285070224654">Wryling paroļu pārvaldnieks</translation>
 <translation id="6248988683584659830">Meklēt iestatījumus</translation>
 <translation id="2715956954609894918">Skatīt savu Brave vēsturi šeit</translation>
 <translation id="6254139308321626268">Jūs skatāt PDF failu.</translation>
@@ -1297,7 +1297,7 @@ Piemēram, dažas vietnes, reaģējot uz šo pieprasījumu, var rādīt jums rek
 <translation id="6394791151443660613">Meklēt: <ph name="SEARCH_QUERY"/></translation>
 <translation id="6397616442223433927">Esat tiešsaistē</translation>
 <translation id="6399363707848566877">Tagad šeit varat ērti pievienot cilnes grupām.</translation>
-<translation id="8789425457808164956">Lai nosūtītu šo cilni uz citu ierīci, otrā ierīcē pierakstieties pārlūkā Brave</translation>
+<translation id="2522845252291433622">Lai nosūtītu šo cilni uz citu ierīci, otrā ierīcē pierakstieties pārlūkā Wryling</translation>
 <translation id="6404511346730675251">Rediģēt grāmatzīmi</translation>
 <translation id="6410883413783534063">Atveriet cilnes, lai vienlaikus apmeklētu vairākas lapas</translation>
 <translation id="6411009031428071896">Klausīties plūsmu</translation>
@@ -1327,7 +1327,7 @@ Piemēram, dažas vietnes, reaģējot uz šo pieprasījumu, var rādīt jums rek
 <translation id="6482749332252372425">Neizdevās lejupielādēt failu <ph name="FILE_NAME"/>, jo krātuvē nav pietiekami daudz vietas.</translation>
 <translation id="6486420406192123355">Šis PDF fails ir no vietnes, kurā tiek izmantots nedrošs savienojums.</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{Fails ir lejupielādēts.}zero{# lejupielādes ir pabeigtas.}one{# lejupielāde ir pabeigta.}other{# lejupielādes ir pabeigtas.}}</translation>
-<translation id="3960299545138990065">Restartējiet pārlūku Brave</translation>
+<translation id="6199441660763014986">Restartējiet pārlūku Wryling</translation>
 <translation id="6513924416597632811">Kopēt saiti uz meklēšanas rezultātu lapu vaicājumam “<ph name="SEARCH_QUERY"/>”. Avots: <ph name="PAGE_URL"/>.</translation>
 <translation id="6518133107902771759">Verificēt</translation>
 <translation id="6521218807522232085">Izveidojiet, saglabājiet un pārvaldiet paroles, lai varētu ērti pierakstīties.</translation>
@@ -1357,7 +1357,7 @@ Piemēram, dažas vietnes, reaģējot uz šo pieprasījumu, var rādīt jums rek
 <translation id="6602173570135186741">Automātiskā aizpilde un paroles</translation>
 <translation id="661266467055912436">Šis režīms efektīvāk aizsargā gan jūs, gan visus citus tīmekļa lietotājus.</translation>
 <translation id="6615455863669487791">Rādīt man</translation>
-<translation id="8127050479140582768">Lai nosūtītu šo cilni uz citu ierīci, abās ierīcēs pierakstieties pārlūkā Brave</translation>
+<translation id="7379057487310867567">Lai nosūtītu šo cilni uz citu ierīci, abās ierīcēs pierakstieties pārlūkā Wryling</translation>
 <translation id="6627583120233659107">Rediģēt mapi</translation>
 <translation id="6636623428211296678">Tālāk izpētīt citus iestatījumus vai beigt tūlīt</translation>
 <translation id="7939692063031538305">Lai palīdzētu uzlabot lietotni, uzņēmumam Brave tiek sūtīti lietojuma un avāriju dati no pārlūka Brave. <ph name="BEGIN_UMA_LINK"/>Pārvaldīt<ph name="END_UMA_LINK"/></translation>
@@ -2027,7 +2027,7 @@ Lai mainītu šo iestatījumu, <ph name="BEGIN_LINK"/>izdzēsiet Brave datus sav
 <translation id="9212845824145208577">Zemāku ekrāna daļu nevar ietvert. Mēģiniet iegūt ekrānuzņēmumu no zemākas vietas lapā.</translation>
 <translation id="9218430445555521422">Iestatīt kā noklusējumu</translation>
 <translation id="9219103736887031265">Attēli</translation>
-<translation id="142389341645668510">Pielāgot pārlūkprogrammu Brave</translation>
+<translation id="9094133852008074140">Pielāgot pārlūkprogrammu Wryling</translation>
 <translation id="9222198206152536936">Pierakstieties ar kontu <ph name="EMAIL"/>, lai varētu piekļūt cilnēm un citiem datiem visās savās ierīcēs.</translation>
 <translation id="7625138338483121345">Iestatiet Brave par noklusējuma pārlūku</translation>
 <translation id="4596514158372210596">Brave darbību noņemšana no Digitālās labjutības</translation>
@@ -2057,7 +2057,7 @@ Lai mainītu šo iestatījumu, <ph name="BEGIN_LINK"/>izdzēsiet Brave datus sav
 <translation id="5352668640894950863">Bloķējiet privātos logus, kad atstājat Brave</translation>
 <translation id="1014490034578104945">Izmantojiet ekrāna bloķētāju, lai redzētu atvērtas inkognito cilnes</translation>
 <translation id="5572558661069030949">Ekrāna bloķēšanas izmantošana, lai redzētu atvērtos privātos logus</translation>
-<translation id="2589970573128789862">Brave inkognito</translation>
+<translation id="2090681901335274465">Wryling inkognito</translation>
 <translation id="5809126106485463836">Privātais režīms ļauj jums pārlūkot privāti no citiem, kuri lieto jūsu ierīci</translation>
 <translation id="5487565066256782913">Atvērt jaunu inkognito režīma logu</translation>
 <translation id="5706084539081051088">Kad pārlūkojat inkognito režīmā, citi šīs ierīces lietotāji neredzēs jūsu darbības, tāpēc varat pārlūkot privātāk. <ph name="BEGIN_LINK"/>Uzzināt vairāk<ph name="END_LINK"/></translation>

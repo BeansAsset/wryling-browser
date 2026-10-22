@@ -1,0 +1,152 @@
+diff --git a/ui/views/bubble/popup_glass_mac.mm b/ui/views/bubble/popup_glass_mac.mm
+new file mode 100644
+index 0000000000000000000000000000000000000000..f6169719813c31824e4d60b6bd818f28ecbfbb04
+--- /dev/null
++++ b/ui/views/bubble/popup_glass_mac.mm
+@@ -0,0 +1,146 @@
++// Copyright 2026 The Chromium Authors
++// Use of this source code is governed by a BSD-style license that can be
++// found in the LICENSE file.
++
++#include "ui/views/bubble/popup_glass_mac.h"
++
++#import <AppKit/AppKit.h>
++#import <QuartzCore/QuartzCore.h>
++
++#include <cmath>
++
++#include "ui/compositor/layer.h"
++#include "ui/gfx/geometry/rect.h"
++#include "ui/views/controls/label.h"
++#include "ui/views/view.h"
++#include "ui/views/view_utils.h"
++#include "ui/views/widget/widget.h"
++
++API_AVAILABLE(macos(26.0))
++@interface WrylingPopupGlassView : NSGlassEffectView
++@end
++
++@implementation WrylingPopupGlassView
++// Clicks belong to the popup's contents, which Chromium draws above.
++- (NSView*)hitTest:(NSPoint)point {
++  return nil;
++}
++@end
++
++namespace views {
++
++DEFINE_UI_CLASS_PROPERTY_KEY(bool, kWrylingPopupGlassKey, false)
++
++namespace {
++
++// The glass panel behind Wryling's sidebar (see
++// BraveVerticalTabStripRegionView::UpdateWrylingSidebarGlass). Its tint holds
++// the space colour at the user's strength.
++NSGlassEffectView* FindSidebarGlass(NSView* view) API_AVAILABLE(macos(26.0)) {
++  static Class sidebar_class = NSClassFromString(@"WrylingSidebarGlassView");
++  if (!sidebar_class) {
++    return nil;
++  }
++  for (NSView* child in view.subviews) {
++    if ([child isKindOfClass:sidebar_class]) {
++      return static_cast<NSGlassEffectView*>(child);
++    }
++  }
++  return nil;
++}
++
++WrylingPopupGlassView* FindPopupGlass(NSView* content)
++    API_AVAILABLE(macos(26.0)) {
++  for (NSView* child in content.subviews) {
++    if ([child isKindOfClass:[WrylingPopupGlassView class]]) {
++      return static_cast<WrylingPopupGlassView*>(child);
++    }
++  }
++  return nil;
++}
++
++}  // namespace
++
++void PrepareViewsForWrylingGlass(View* view) {
++  if (auto* label = AsViewClass<Label>(view)) {
++    label->SetSubpixelRenderingEnabled(false);
++  }
++  // Solid-colour layers describe their own opacity (and may not change it).
++  if (view->layer() && view->layer()->type() != ui::LAYER_SOLID_COLOR) {
++    view->layer()->SetFillsBoundsOpaquely(false);
++  }
++  for (View* child : view->children()) {
++    PrepareViewsForWrylingGlass(child);
++  }
++}
++
++bool UpdateWrylingPopupGlass(Widget* popup,
++                             const gfx::Rect& bounds,
++                             float corner_radius,
++                             float tint_scale) {
++  if (@available(macOS 26, *)) {
++    NSWindow* window =
++        popup ? popup->GetNativeWindow().GetNativeNSWindow() : nil;
++    NSView* content = window.contentView;
++    if (!content) {
++      return false;
++    }
++    WrylingPopupGlassView* glass = FindPopupGlass(content);
++    NSGlassEffectView* sidebar =
++        FindSidebarGlass(window.parentWindow.contentView);
++    const bool usable =
++        sidebar && !bounds.IsEmpty() &&
++        !NSWorkspace.sharedWorkspace
++             .accessibilityDisplayShouldReduceTransparency;
++    if (!usable) {
++      if (glass) {
++        [glass removeFromSuperview];
++        content.layer.cornerRadius = 0;
++        content.layer.masksToBounds = NO;
++        [window invalidateShadow];
++      }
++      popup->SetProperty(kWrylingPopupGlassKey, false);
++      return false;
++    }
++    if (!glass) {
++      glass = [[WrylingPopupGlassView alloc] initWithFrame:NSZeroRect];
++      glass.style = NSGlassEffectViewStyleRegular;
++      // Below Chromium's compositor view, so everything it draws is on top.
++      [content addSubview:glass positioned:NSWindowBelow relativeTo:nil];
++    }
++    glass.frame =
++        NSMakeRect(bounds.x(), NSHeight(content.bounds) - bounds.bottom(),
++                   bounds.width(), bounds.height());
++    glass.cornerRadius = corner_radius;
++    NSColor* tint = sidebar.tintColor;
++    glass.tintColor =
++        tint && tint_scale != 1.0f
++            ? [tint colorWithAlphaComponent:tint.alphaComponent * tint_scale]
++            : tint;
++    glass.appearance = sidebar.effectiveAppearance;
++
++    // The window server shapes a window's shadow from its pixels. With the
++    // solid fill gone, only the glass is left, which it treats as the whole
++    // rectangle: a square shadow edge shows around the rounded corners. When
++    // the glass fills the window (bubbles, whose shadow is the window
++    // server's), round the window's content itself to the same radius so the
++    // shadow follows it. Popups that draw their own shadow inside the window
++    // (the address bar dropdown) are left alone.
++    const bool fills_window =
++        std::abs(bounds.width() - NSWidth(content.bounds)) <= 2 &&
++        std::abs(bounds.height() - NSHeight(content.bounds)) <= 2;
++    if (fills_window) {
++      content.wantsLayer = YES;
++      content.layer.cornerRadius = corner_radius;
++      content.layer.cornerCurve = kCACornerCurveContinuous;
++      content.layer.masksToBounds = YES;
++    }
++    [window invalidateShadow];
++    PrepareViewsForWrylingGlass(popup->GetRootView());
++    popup->SetProperty(kWrylingPopupGlassKey, true);
++    return true;
++  }
++  return false;
++}
++
++}  // namespace views

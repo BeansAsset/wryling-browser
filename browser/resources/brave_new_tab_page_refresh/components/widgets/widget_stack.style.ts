@@ -23,7 +23,7 @@ export const style = scoped.css`
     overflow: clip;
 
     > * {
-      background: rgba(255, 255, 255, 0.10);
+      background: ${color.container.highlight};
       flex: 1 1 auto;
       padding: 0 16px;
       display: flex;
@@ -31,7 +31,7 @@ export const style = scoped.css`
     }
 
     .active {
-      --leo-icon-color: #fff;
+      --leo-icon-color: ${color.text.interactive};
       background: inherit;
     }
   }

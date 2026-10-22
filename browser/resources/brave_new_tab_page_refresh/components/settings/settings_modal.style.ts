@@ -34,6 +34,59 @@ export const style = scoped.css`
     padding: 0 ${spacing['2Xl']};
   }
 
+  /* Wryling source list: rows 32 high, inset 8
+     from the edges, radius-m, a 16pt icon and body text; the selected row
+     is the accent-tinted "selected" shape, never an edge bar. The shared
+     component sheet styles every button, hence the !important. */
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 0 8px;
+  }
+
+  .nav-row {
+    --leo-icon-size: 16px;
+
+    display: flex !important;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 32px;
+    min-height: 32px !important;
+    padding: 0 10px !important;
+    border: 0 !important;
+    border-radius: var(--wry-radius-m, 8px) !important;
+    background: transparent !important;
+    color: var(--wry-text, ${color.text.primary}) !important;
+    font: var(--wry-body, 13px/18px system-ui) !important;
+    text-align: start;
+    cursor: pointer;
+
+    leo-icon {
+      color: var(--wry-text-secondary, ${color.icon.default});
+    }
+
+    &:hover {
+      background: var(--wry-hover, rgba(127, 127, 127, .12)) !important;
+    }
+
+    &.selected {
+      background: var(--wry-selected,
+          color-mix(in srgb, var(--wry-accent, #6f52dc) 22%, transparent))
+          !important;
+
+      leo-icon {
+        color: var(--wry-accent-text, ${color.icon.interactive});
+      }
+    }
+
+    &:focus-visible {
+      outline: 3px solid var(--wry-focus, rgba(111, 82, 220, .5)) !important;
+      outline-offset: 1px;
+    }
+  }
+
   section {
     flex: 1 1 auto;
     min-height: 0;

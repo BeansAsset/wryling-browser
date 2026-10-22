@@ -86,6 +86,8 @@ class BraveVerticalTabStripContainerView;
 class WalletButton;
 #endif
 
+class WrylingCommandBar;
+
 class BraveBrowserView : public BrowserView,
                          public BookmarkTabHelperObserver,
                          public commands::AcceleratorService::Observer,
@@ -206,6 +208,21 @@ class BraveBrowserView : public BrowserView,
 
   TabStripPlacementCoordinator* tab_strip_placement_coordinator() {
     return tab_strip_placement_.get();
+  }
+
+  // Wryling: moves the toolbar into the vertical tab sidebar (macOS) and
+  // back, the same way the tab strip is moved. Brave's coordinator works for
+  // any view.
+  // Wryling: shows the command bar (⌘T, the sidebar's New Tab row). Returns
+  // false where it isn't available; the caller then opens a tab as usual.
+  bool ShowWrylingCommandBar();
+  // The background behind the page card (its margins).
+  views::View* contents_background_view() const {
+    return contents_background_view_;
+  }
+
+  TabStripPlacementCoordinator* toolbar_placement_coordinator() {
+    return toolbar_placement_.get();
   }
 
   FocusModeTopOverlay* focus_mode_top_overlay() {
@@ -349,6 +366,9 @@ class BraveBrowserView : public BrowserView,
   void UpdateSideBarHorizontalAlignment();
 
   std::unique_ptr<TabStripPlacementCoordinator> tab_strip_placement_;
+  std::unique_ptr<TabStripPlacementCoordinator> toolbar_placement_;
+  // Wryling: the command bar shown for new tabs.
+  std::unique_ptr<WrylingCommandBar> command_bar_;
   std::unique_ptr<views::Widget> vertical_tab_strip_widget_;
 
   bool closing_confirm_dialog_activated_ = false;

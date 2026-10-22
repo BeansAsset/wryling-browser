@@ -1,0 +1,25 @@
+diff --git a/chrome/browser/ui/views/infobars/confirm_infobar.cc b/chrome/browser/ui/views/infobars/confirm_infobar.cc
+index e1c67ffc0808f2c54d14f0b09c4bd6b9f9749137..6be05f7ddf0e43a7f499417f589c83ee850f3a37 100644
+--- a/chrome/browser/ui/views/infobars/confirm_infobar.cc
++++ b/chrome/browser/ui/views/infobars/confirm_infobar.cc
+@@ -155,9 +155,17 @@ ConfirmInfoBar::ConfirmInfoBar(std::unique_ptr<ConfirmInfoBarDelegate> delegate)
+       AddViewBeforeCloseButton(std::move(link_unique_ptr));
+     }
+     link_->SetProperty(views::kFlexBehaviorKey, kRigidFlex);
+-    // Add margins for spacing for flex layout.
+-    link_->SetProperty(views::kMarginsKey, std::make_unique<gfx::Insets>(
+-                                               gfx::Insets::TLBR(0, 0, 0, 0)));
++    // Add margins for spacing for flex layout. Wryling: after the buttons the
++    // link keeps a gap from them even when the bar is too narrow for the
++    // spacers between them (e.g. beside the sidebar).
++    const int leading_margin =
++        GetDelegate()->ShouldShowLinkBeforeButton()
++            ? 0
++            : ChromeLayoutProvider::Get()->GetDistanceMetric(
++                  views::DISTANCE_UNRELATED_CONTROL_HORIZONTAL);
++    link_->SetProperty(views::kMarginsKey,
++                       std::make_unique<gfx::Insets>(
++                           gfx::Insets::TLBR(0, leading_margin, 0, 0)));
+   }
+ }
+ 

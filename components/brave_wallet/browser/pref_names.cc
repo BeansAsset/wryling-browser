@@ -135,21 +135,22 @@ void RegisterLocalStatePrefs(PrefRegistrySimple* registry) {
 }
 
 void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
-  registry->RegisterBooleanPref(kBraveWalletDisabledByPolicy, false);
+  // Wryling: Wallet is off until turned on in Settings › Extras.
+  registry->RegisterBooleanPref(kBraveWalletDisabledByPolicy, true);
+  // Wryling: no Brave Wallet provider is injected into pages unless the user
+  // picks one in Settings; wallet extensions inject their own as usual.
   registry->RegisterIntegerPref(
       kDefaultEthereumWallet,
-      static_cast<int>(
-          brave_wallet::mojom::DefaultWallet::BraveWalletPreferExtension));
+      static_cast<int>(brave_wallet::mojom::DefaultWallet::None));
   registry->RegisterIntegerPref(
       kDefaultSolanaWallet,
-      static_cast<int>(
-          brave_wallet::mojom::DefaultWallet::BraveWalletPreferExtension));
+      static_cast<int>(brave_wallet::mojom::DefaultWallet::None));
   registry->RegisterIntegerPref(
       kDefaultCardanoWallet,
-      static_cast<int>(brave_wallet::mojom::DefaultWallet::BraveWallet));
+      static_cast<int>(brave_wallet::mojom::DefaultWallet::None));
   registry->RegisterStringPref(kDefaultBaseCurrency, "USD");
   registry->RegisterStringPref(kDefaultBaseCryptocurrency, "BTC");
-  registry->RegisterBooleanPref(kShowWalletIconOnToolbar, true);
+  registry->RegisterBooleanPref(kShowWalletIconOnToolbar, false);
   registry->RegisterDictionaryPref(kBraveWalletKeyrings);
   registry->RegisterBooleanPref(kBraveWalletKeyringEncryptionKeysMigrated,
                                 false);

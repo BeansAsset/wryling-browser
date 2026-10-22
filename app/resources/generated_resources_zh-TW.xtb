@@ -26,7 +26,7 @@
 <translation id="1010833424573920260">{NUM_PAGES,plural, =1{一個網頁無回應}other{多個網頁無回應}}</translation>
 <translation id="1011003645819296594">已儲存的裝置</translation>
 <translation id="1011355516189274711">文字轉語音的音量</translation>
-<translation id="6189564748168922180">變更 Brave 密碼管理工具的備援 PIN 碼</translation>
+<translation id="1208075464878533724">變更 Wryling 密碼管理工具的備援 PIN 碼</translation>
 <translation id="1012876632442809908">USB-C 裝置 (前方連接埠)</translation>
 <translation id="1015041505466489552">TrackPoint</translation>
 <translation id="1015318665228971643">編輯資料夾名稱</translation>
@@ -70,7 +70,7 @@
 <translation id="6666716404807343028">在 Brave 中管理網站位置存取權</translation>
 <translation id="1042248468362992359">連線至行動數據即可使用無線基地台。<ph name="BEGIN_LINK_LEARN_MORE"/>瞭解詳情<ph name="END_LINK_LEARN_MORE"/></translation>
 <translation id="104385770822424034">新增動作</translation>
-<translation id="4141377378685217435">你不必記住密碼，因為系統會替你儲存到 Brave 密碼管理工具</translation>
+<translation id="5549984969275909493">你不必記住密碼，因為系統會替你儲存到 Wryling 密碼管理工具</translation>
 <translation id="1046521327593783388">{NUM_PASSWORDS,plural, =1{已將 1 組密碼匯入這部裝置的「<ph name="BRAND"/>」中}other{已將 {NUM_PASSWORDS} 組密碼匯入這部裝置的「<ph name="BRAND"/>」中}}</translation>
 <translation id="1046572983040892965">視窗已向左上方移動</translation>
 <translation id="1047431265488717055">複製連結文字(&amp;X)</translation>
@@ -96,7 +96,7 @@
 <translation id="10619348099955377">複製顯示名稱</translation>
 <translation id="1062407476771304334">取代</translation>
 <translation id="1064236804542808595">還原機構捷徑</translation>
-<translation id="2729345439181698540">Brave 認為你不想收到這個網站的通知，因此會隱藏要求，減少干擾。</translation>
+<translation id="7962797086784806183">Wryling 認為你不想收到這個網站的通知，因此會隱藏要求，減少干擾。</translation>
 <translation id="1066964438793906105">掃描是否有惡意軟體</translation>
 <translation id="3983904244054509097">為進一步加強安全性，建議先在裝置上將密碼加密，再儲存至你的 Brave 帳戶</translation>
 <translation id="5428209950370661546">其他 Brave 服務</translation>
@@ -139,7 +139,7 @@
 <translation id="1090541560108055381">配對前，請確認兩部裝置上均顯示這組代碼</translation>
 <translation id="1093457606523402488">可偵測到的網路：</translation>
 <translation id="1093645050124056515">ctrl + alt + 向下鍵</translation>
-<translation id="1676423917671990874">Brave 密碼管理工具網頁版</translation>
+<translation id="3958643735082353873">Wryling 密碼管理工具網頁版</translation>
 <translation id="1097016918605049747">無法翻譯這個網頁</translation>
 <translation id="1099962274138857708">從「<ph name="DEVICE_NAME"/>」複製的圖片</translation>
 <translation id="1100040363679327583">請查看任務。問問 Gemini</translation>
@@ -222,7 +222,7 @@
 <translation id="1155816283571436363">正在連線到你的手機</translation>
 <translation id="3265387852639842086">關閉 Brave 搜尋側邊面板</translation>
 <translation id="1158080958325422608">使用大寫字母</translation>
-<translation id="4489415936688888898">Brave 內建 Gemini</translation>
+<translation id="4980210551795949534">Wryling 內建 Gemini</translation>
 <translation id="1159879754517035595">管理擴充功能設定</translation>
 <translation id="1160800016654917722">視窗已向左下方移動</translation>
 <translation id="116173250649946226">管理員設定的預設主題不可變更。</translation>
@@ -247,8 +247,8 @@
 <translation id="1173332155861271669">Passpoint 供應商詳細資料</translation>
 <translation id="1173894706177603556">重新命名</translation>
 <translation id="1174073918202301297">已新增捷徑</translation>
-<translation id="4720923867206970346">除非 Brave 另行通知，否則你的連線都安全無虞</translation>
-<translation id="4077881064206141073">前往 Brave</translation>
+<translation id="460601934457493674">除非 Wryling 另行通知，否則你的連線都安全無虞</translation>
+<translation id="3040558678310756332">前往 Wryling</translation>
 <translation id="1175131936083782305">管理員已停用這項功能。</translation>
 <translation id="1175277108283187866">造訪網站或在網址列中開始搜尋</translation>
 <translation id="1175364870820465910">列印(&amp;P)...</translation>
@@ -426,7 +426,7 @@
 <translation id="1308105352527684175">你可能無法存取特定內容</translation>
 <translation id="1311092170520822848">這個網站正在控制裝置連接的智慧卡讀卡機，以及可讀取的智慧卡</translation>
 <translation id="131112695174432497">系統會刪除影響廣告個人化的資料</translation>
-<translation id="1092870157695460112">探索強化防護，享有 Brave 最強大的下載項目安全防護機制</translation>
+<translation id="1239647152794634812">探索強化防護，享有 Wryling 最強大的下載項目安全防護機制</translation>
 <translation id="1312298796781107732">{NUM_TABS,plural, =1{修正導致瀏覽器運作緩慢的分頁}other{修正導致瀏覽器運作緩慢的分頁}}</translation>
 <translation id="1312721752506309252">已啟用強化防護功能</translation>
 <translation id="13130607084115184">已儲存的密碼會顯示在這裡。如要在這部裝置上將密碼匯入 <ph name="BRAND"/>，請<ph name="BEGIN_LINK"/>選取 CSV 檔案<ph name="END_LINK"/>。</translation>
@@ -462,7 +462,7 @@
 <translation id="1340839264183302272">退出群組</translation>
 <translation id="1341002693404468853">隱藏整理工具</translation>
 <translation id="1341701348342335220">太厲害了！</translation>
-<translation id="873343310451048603">如要檢查密碼是否外洩，請前往 Brave 密碼管理工具</translation>
+<translation id="4973862711373394097">如要檢查密碼是否外洩，請前往 Wryling 密碼管理工具</translation>
 <translation id="1343920184519992513">繼續瀏覽上次開啟的網頁並開啟某組特定網頁</translation>
 <translation id="1346630054604077329">確認並重新啟動</translation>
 <translation id="1346748346194534595">向右</translation>
@@ -495,7 +495,7 @@
 <translation id="1374844444528092021">網路「<ph name="NETWORK_NAME"/>」要求的憑證尚未安裝或已經無效。請取得新憑證，然後嘗試重新連線。</translation>
 <translation id="1374948751106271187">隨時隨地更多一層安全保障</translation>
 <translation id="137651782282853227">你所儲存的地址會顯示在這裡</translation>
-<translation id="7377055577309465332">如果你的密碼在資料侵害事件中外洩，Brave 密碼管理工具會詢問你是否要改用高強度密碼</translation>
+<translation id="5008990945704272605">如果你的密碼在資料侵害事件中外洩，Wryling 密碼管理工具會詢問你是否要改用高強度密碼</translation>
 <translation id="1378613616312864539">這項設定目前受「<ph name="NAME"/>」控制</translation>
 <translation id="1378715594598306389">查看更多分頁</translation>
 <translation id="1380028686461971526">自動連線至網路</translation>
@@ -644,7 +644,7 @@
 <translation id="1499041187027566160">調高音量</translation>
 <translation id="1499948601784722399">網站要求</translation>
 <translation id="1500297251995790841">不明裝置 [<ph name="VENDOR_ID"/>:<ph name="PRODUCT_ID"/>]</translation>
-<translation id="6440894523770886280">進一步瞭解不支援的 Brave 應用程式</translation>
+<translation id="7828916217230765229">進一步瞭解不支援的 Wryling 應用程式</translation>
 <translation id="1501480321619201731">刪除群組</translation>
 <translation id="150411034776756821">移除 <ph name="SITE"/></translation>
 <translation id="1504253885059472207">固定分割畫面</translation>
@@ -664,7 +664,7 @@
 <translation id="1512210426710821809">如要復原這個動作，唯一的辦法是重新安裝 <ph name="IDS_SHORT_PRODUCT_OS_NAME"/></translation>
 <translation id="1512642802859169995"><ph name="FILE_NAME"/> 已加密。請要求檔案擁有者解密。</translation>
 <translation id="151501797353681931">由 Safari 匯入</translation>
-<translation id="7181162989909413015">如要使用代碼建立投放連線，請開啟 Brave 瀏覽器同步處理設定</translation>
+<translation id="4295055064213980989">如要使用代碼建立投放連線，請開啟 Wryling 瀏覽器同步處理設定</translation>
 <translation id="1521442365706402292">管理憑證</translation>
 <translation id="1521655867290435174">Brave 試算表</translation>
 <translation id="1521933835545997395">已連線到 Android 手機</translation>
@@ -702,11 +702,11 @@
 <translation id="1546452108651444655"><ph name="CHILD_NAME"/>要求安裝需要下列權限的<ph name="EXTENSION_TYPE"/>：</translation>
 <translation id="1547123415014299762">已允許第三方 Cookie</translation>
 <translation id="1547808936554660006">我瞭解執行 Powerwash 將不會移除已安裝的 eSIM 設定檔</translation>
-<translation id="2009341821632988095">無法使用 Brave 內建 Gemini</translation>
+<translation id="280951773191806143">無法使用 Wryling 內建 Gemini</translation>
 <translation id="1549275686094429035">已啟用 ARC</translation>
 <translation id="1549788673239553762">「<ph name="APP_NAME"/>」要求存取 <ph name="VOLUME_NAME"/>。您的檔案可能會遭到修改或刪除。</translation>
 <translation id="1549966883323105187">快速查看已儲存的密碼</translation>
-<translation id="822755500038144322">Brave 預設主題</translation>
+<translation id="5480276139257027757">Wryling 預設主題</translation>
 <translation id="1552301827267621511">「<ph name="EXTENSION_NAME"/>」擴充功能已將搜尋引擎改為 <ph name="SEARCH_PROVIDER_DOMAIN"/></translation>
 <translation id="1552752544932680961">管理擴充功能</translation>
 <translation id="1553538517812678578">無限制</translation>
@@ -749,7 +749,7 @@
 <translation id="1581962803218266616">在 Finder 中顯示</translation>
 <translation id="1582955169539260415">刪除 [<ph name="FINGERPRINT_NAME"/>]</translation>
 <translation id="1583127975413389276">系統會在本機處理<ph name="LANGUAGE"/>內容，而且這些內容可以離線運作</translation>
-<translation id="491276955533054201">請先在這部裝置啟用 Brave 自動瀏覽功能</translation>
+<translation id="2483396658308611628">請先在這部裝置啟用 Wryling 自動瀏覽功能</translation>
 <translation id="1587275751631642843">JavaScript 控制台(&amp;J)</translation>
 <translation id="1588438908519853928">一般</translation>
 <translation id="1588772269240419305">查看標誌和名稱更新</translation>
@@ -775,7 +775,7 @@
 <translation id="1600857548979126453">存取網頁偵錯工具後端</translation>
 <translation id="1601481906560916994">排除網站</translation>
 <translation id="1601560923496285236">套用</translation>
-<translation id="8275260485701169654">Brave 系統資訊</translation>
+<translation id="302546259431411287">Wryling 系統資訊</translation>
 <translation id="1603411913360944381">清除「<ph name="DEVICE_NAME"/>」</translation>
 <translation id="1604567162047669454">辨識視覺版面配置語義</translation>
 <translation id="1605148987885002237">鍵盤與輸入法</translation>
@@ -792,7 +792,7 @@
 <translation id="1611649489706141841">往前</translation>
 <translation id="1612019740169791082">你目前的容器設定不允許調整磁碟大小。如要調整 Linux 的預留空間大小，請先備份容器，然後再還原至新容器。</translation>
 <translation id="1612179176000108678">只在電量剩 <ph name="PERCENT"/>% 以下時開啟</translation>
-<translation id="2811168643228573149">2022 年 12 月之後，舊版 Brave 應用程式將無法開啟。你也可以自行檢查是否有可用的新版本。</translation>
+<translation id="8232170710895633549">2022 年 12 月之後，舊版 Wryling 應用程式將無法開啟。你也可以自行檢查是否有可用的新版本。</translation>
 <translation id="1614511179807650956">你的行動數據配額可能已經用完。造訪 <ph name="NAME"/> 啟用入口網站即可購買更多數據量。</translation>
 <translation id="161460670679785907">偵測不到你的手機</translation>
 <translation id="1614890968027287789">要分開保存瀏覽資料嗎？</translation>
@@ -805,7 +805,7 @@
 <translation id="1620307519959413822">密碼錯誤。請再試一次，或按一下「忘記密碼」來重設密碼。</translation>
 <translation id="1620510694547887537">攝影機</translation>
 <translation id="1620760691416124482">在分割畫面中開啟(&amp;S)</translation>
-<translation id="2380574999275845178">你的密碼已在公開的資料侵害事件中外洩。Brave 密碼管理工具可以變更密碼，並儲存在 <ph name="EMAIL"/> 中。<ph name="LINK"/></translation>
+<translation id="945706443844722845">你的密碼已在公開的資料侵害事件中外洩。Wryling 密碼管理工具可以變更密碼，並儲存在 <ph name="EMAIL"/> 中。<ph name="LINK"/></translation>
 <translation id="1621729191093924223">需要麥克風的功能將無法運作</translation>
 <translation id="1621984899599015181">共用選項是由貴機構所管理。系統可能會隱藏部分項目。</translation>
 <translation id="1622054403950683339">清除 Wi-Fi 網路</translation>
@@ -846,7 +846,7 @@
 <translation id="1651609627703324721">這個分頁正在對頭戴式裝置展示 VR 內容</translation>
 <translation id="1652281434788353738">沉思</translation>
 <translation id="1652326691684645429">啟用鄰近分享功能</translation>
-<translation id="3549478477646243075">如要搭配 macOS 鑰匙圈使用密碼管理工具，請重新啟動 Brave 並允許存取鑰匙圈。重新啟動之後，會重新開啟所有分頁。</translation>
+<translation id="2499592745937512720">如要搭配 macOS 鑰匙圈使用密碼管理工具，請重新啟動 Wryling 並允許存取鑰匙圈。重新啟動之後，會重新開啟所有分頁。</translation>
 <translation id="165448107578581061">Gemini 正在處理你的工作...</translation>
 <translation id="1654580009054503925">不允許顯示要求</translation>
 <translation id="1656528038316521561">背景不透明度</translation>
@@ -865,7 +865,7 @@
 <translation id="1665328953287874063">使用密碼或 PIN 碼解鎖 <ph name="DEVICE_TYPE"/></translation>
 <translation id="1665859804801131136">表現主義</translation>
 <translation id="1667842670298352129">讓系統大聲朗讀特定文字內容。請先選取畫面底部的「隨選朗讀」圖示，然後顯目顯示所需文字。你也可以使用鍵盤快速鍵：醒目顯示文字，然後按下搜尋鍵 + S 鍵。</translation>
-<translation id="1907729551248502985"><ph name="TASK_TITLE"/>：Gemini 已完成任務，你可以前往 Brave 查看</translation>
+<translation id="6525814448763773534"><ph name="TASK_TITLE"/>：Gemini 已完成任務，你可以前往 Wryling 查看</translation>
 <translation id="1668804837842452164">儲存至 <ph name="EMAIL"/> 的 <ph name="BRAND"/></translation>
 <translation id="1670070366970670971">PDF 子頁框：<ph name="SUBFRAME_SITE"/></translation>
 <translation id="1670399744444387456">基本</translation>
@@ -873,7 +873,7 @@
 <translation id="1671749176392751693">已允許受保護內容的 ID</translation>
 <translation id="1673137583248014546"><ph name="URL"/> 要求查看安全金鑰的製造商和型號</translation>
 <translation id="1673855466663721679">在側邊面板中顯示書籤</translation>
-<translation id="360538872024580404">Brave 密碼管理工具可以提高帳戶密碼的強度，並儲存到帳戶 <ph name="EMAIL"/> 中。</translation>
+<translation id="7045853495100965504">Wryling 密碼管理工具可以提高帳戶密碼的強度，並儲存到帳戶 <ph name="EMAIL"/> 中。</translation>
 <translation id="1674945585974615438">自動在不熟悉的網站上停用 JavaScript 最佳化工具</translation>
 <translation id="1675964862374196038">註冊 <ph name="IDP_NAME"/> 帳戶</translation>
 <translation id="1677306805708094828">無法新增<ph name="EXTENSION_TYPE_PARAMETER"/></translation>
@@ -911,7 +911,7 @@
 <translation id="1703666494654169921">禁止網站使用虛擬實境裝置或資料</translation>
 <translation id="1704097193565924901">大小寫設定</translation>
 <translation id="1704230497453185209">禁止網站播放音效</translation>
-<translation id="2330259386430751078">除了你選擇提交的以上資訊外，你的 Brave 版本、作業系統版本、Cast 設定、鏡像成效統計資料和通訊頻道診斷記錄也會一併提交。我們會使用你提交的意見回饋來診斷問題並協助改善功能。其中無論是你明確提交還是不慎提交的個人資訊，一律會依隱私權政策規定受到妥善保護。提交意見回饋即表示你同意 Brave 將你提供的意見回饋用於改善任何 Brave 產品或服務。</translation>
+<translation id="2276664597334765028">除了你選擇提交的以上資訊外，你的 Brave 版本、作業系統版本、Cast 設定、鏡像成效統計資料和通訊頻道診斷記錄也會一併提交。我們會使用你提交的意見回饋來診斷問題並協助改善功能。其中無論是你明確提交還是不慎提交的個人資訊，一律會依隱私權政策規定受到妥善保護。提交意見回饋即表示你同意 Brave 將你提供的意見回饋用於改善任何 Brave 產品或服務。</translation>
 <translation id="17081583771848899">啟動鍵 + Alt + <ph name="TOP_ROW_KEY"/> 鍵</translation>
 <translation id="170825127491242914">儲存到雲端儲存空間</translation>
 <translation id="1708291623166985230">已停用無線基地台</translation>
@@ -1114,7 +1114,7 @@
 <translation id="1866589962721094893">授權 Android 應用程式控管這台 Chromebook 上的 USB 裝置。每次插入 USB 裝置時，系統都會要求權限。個別 Android 應用程式會要求額外權限。</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME"/> 已準備好完成安裝程序</translation>
 <translation id="1869433484041798909">書籤按鈕</translation>
-<translation id="7175072311426658869">在 Brave 瀏覽器中開啟</translation>
+<translation id="7259806589727104192">在 Wryling 瀏覽器中開啟</translation>
 <translation id="1871131409931646355">完整下載記錄</translation>
 <translation id="187145082678092583">較少應用程式</translation>
 <translation id="1871615898038944731">你的 <ph name="DEVICE_TYPE"/> 已搭載最新版本的作業系統</translation>
@@ -1166,11 +1166,11 @@
 <translation id="1907044622262489040">使用語音輸入。按下搜尋鍵 + D 鍵，然後開始說話。</translation>
 <translation id="1907659324308286326">某些 Thunderbolt 或 USB4 配件必須存取記憶體，才能正常運作。</translation>
 <translation id="1908591798274282246">重新開啟先前關閉的群組</translation>
-<translation id="6307771221551726329">Brave 目前受到自動測試軟體控制</translation>
+<translation id="5448629660377773960">Wryling 目前受到自動測試軟體控制</translation>
 <translation id="1909880997794698664">你確定要讓這個裝置永久使用 Kiosk 模式嗎？</translation>
 <translation id="1910721550319506122">歡迎使用！</translation>
 <translation id="1910736334623230603">無法搜尋多張圖片，請一次提供一張圖片。</translation>
-<translation id="2675239977494524649">Brave for Testing v<ph name="BROWSER_VERSION"/> 僅適用於自動化測試。如果是一般瀏覽用途，請使用會自動更新的 Brave 標準版。</translation>
+<translation id="3397046954990092136">Wryling for Testing v<ph name="BROWSER_VERSION"/> 僅適用於自動化測試。如果是一般瀏覽用途，請使用會自動更新的 Wryling 標準版。</translation>
 <translation id="1913734973620799732">{NUM_TABS,plural, =1{暫停導致瀏覽器運作緩慢的分頁}other{暫停導致瀏覽器運作緩慢的分頁}}</translation>
 <translation id="1913749768968678106">投放、儲存及分享</translation>
 <translation id="19147273405311768">將工具列重設為預設設定</translation>
@@ -1184,7 +1184,7 @@
 <translation id="1918281588461452432">瀏覽網站時，網頁內容會加密並儲存到裝置上</translation>
 <translation id="1918761619391445601">已固定「<ph name="EXTENSION_NAME"/>」。查看更多選項。</translation>
 <translation id="1920390473494685033">聯絡人</translation>
-<translation id="1303494024456273059">Brave 最強大的安全防護機制可協助防範不安全的網站、下載內容和擴充功能</translation>
+<translation id="4473968066674302045">Wryling 最強大的安全防護機制可協助防範不安全的網站、下載內容和擴充功能</translation>
 <translation id="1921584744613111023"><ph name="DPI"/> dpi</translation>
 <translation id="1921600948984918136">「<ph name="NAME"/>」只會儲存在這部裝置。如要在其他裝置上使用，請儲存到 Brave 帳戶。</translation>
 <translation id="2428738111653039235">除非你已變更個別產品的語言設定，否則 Gmail、雲端硬碟和 YouTube 等 Brave 網站會使用你在 Brave 帳戶中設定的語言</translation>
@@ -1192,7 +1192,7 @@
 <translation id="192494336144674234">選擇開啟工具</translation>
 <translation id="1925017091976104802">按下 <ph name="MODIFIER_KEY_DESCRIPTION"/> 鍵即可貼上</translation>
 <translation id="1925021887439448749">輸入自訂網址</translation>
-<translation id="8049922435917813862">2022 年 12 月之後，舊版 Brave 應用程式將無法在 Windows 裝置上開啟。你可以自行檢查是否有可用的新版本。</translation>
+<translation id="3973756123782124071">2022 年 12 月之後，舊版 Wryling 應用程式將無法在 Windows 裝置上開啟。你可以自行檢查是否有可用的新版本。</translation>
 <translation id="1925907592956229423">無法正常運作嗎？</translation>
 <translation id="1926339101652878330">這些設定受到公司政策管控。如需瞭解詳情，請與您的管理員聯絡。</translation>
 <translation id="1926887872692564784">游標</translation>
@@ -1290,7 +1290,7 @@
 <translation id="1995916364271252349">控管網站可以使用和顯示的資訊 (位置資訊、攝影機和彈出式視窗等等)</translation>
 <translation id="199610894463449797">{0,plural, =1{關閉這個設定檔}other{關閉這個設定檔 (# 個視窗)}}</translation>
 <translation id="1996557034791506430">要移除權限嗎？</translation>
-<translation id="5123795870522389058">Brave 需要權限才能使用藍牙連線至你的裝置</translation>
+<translation id="3521856355166442895">Wryling 需要權限才能使用藍牙連線至你的裝置</translation>
 <translation id="1997616988432401742">您的憑證</translation>
 <translation id="1998715278591719161">允許追蹤手勢</translation>
 <translation id="1999115740519098545">起始畫面</translation>
@@ -1372,7 +1372,7 @@
 <translation id="2071393345806050157">沒有本機記錄檔案。</translation>
 <translation id="2073148037220830746">{NUM_EXTENSIONS,plural, =1{按一下即可安裝擴充功能}other{按一下即可安裝這些擴充功能}}</translation>
 <translation id="2073505299004274893">最多只能使用 <ph name="CHARACTER_LIMIT"/> 個字元</translation>
-<translation id="6310091415404224128">ChromeOS Brave 使用者記錄</translation>
+<translation id="652095390288645804">ChromeOS Wryling 使用者記錄</translation>
 <translation id="2074599390896964828">精確位置</translation>
 <translation id="2075088158103027942">前往訂閱頁面</translation>
 <translation id="2075474481720804517">電量：<ph name="BATTERY_PERCENTAGE"/>%</translation>
@@ -1466,7 +1466,7 @@
 <translation id="2146263598007866206">網站可能會自動一併下載相關檔案，為你節省時間</translation>
 <translation id="2147218225094845757">隱藏側邊面板</translation>
 <translation id="2147282432401652483">Command 鍵</translation>
-<translation id="2147402320887035428">這個檔案可能有惡意軟體。<ph name="LINE_BREAK"/>Brave 安全瀏覽功能正在檢查這個檔案是否安全，掃描程序通常需要幾秒鐘的時間。</translation>
+<translation id="3524545590873425652">這個檔案可能有惡意軟體。<ph name="LINE_BREAK"/>Brave 安全瀏覽功能正在檢查這個檔案是否安全，掃描程序通常需要幾秒鐘的時間。</translation>
 <translation id="2147584561902725329">上次執行定期工作：</translation>
 <translation id="2148212683005708350"><ph name="MODIFIER_ONE"/> + <ph name="MODIFIER_TWO"/> + <ph name="MODIFIER_THREE"/> + <ph name="KEY"/> 鍵</translation>
 <translation id="2148219725039824548">掛接共用裝置時發生錯誤。在網路上找不到指定的共用裝置。</translation>
@@ -1543,7 +1543,7 @@
 <translation id="3750252396973215586">你必須登入 Brave 帳戶，<ph name="BRAND"/>才能檢查你的密碼</translation>
 <translation id="2204020417499639567">已填寫電子郵件地址。</translation>
 <translation id="2204034823255629767">讀取及變更你輸入的任何設定</translation>
-<translation id="2421570739058774699">如要使用 Brave 密碼管理工具建立這個密碼金鑰，請驗證身分</translation>
+<translation id="4389439850249114056">如要使用 Wryling 密碼管理工具建立這個密碼金鑰，請驗證身分</translation>
 <translation id="2204387456724731099">無法翻譯這個選取的項目</translation>
 <translation id="2204613850236199029">這項資訊已移除</translation>
 <translation id="2207116775853792104">保留這項擴充功能</translation>
@@ -1693,7 +1693,7 @@
 <translation id="2323685460575935191">隱藏捲動按鈕</translation>
 <translation id="2325444234681128157">記住密碼</translation>
 <translation id="2326188115274135041">確認 PIN 碼以開啟自動解鎖功能</translation>
-<translation id="932658359823557793">這不是 Brave 帳戶，因此儲存到 Brave 的項目將無法在其他裝置上使用。</translation>
+<translation id="2402143283348433546">這不是 Brave 帳戶，因此儲存到 Brave 的項目將無法在其他裝置上使用。</translation>
 <translation id="2326906096734221931">開啟應用程式設定</translation>
 <translation id="2326931316514688470">重新載入應用程式(&amp;R)</translation>
 <translation id="2327920026543055248">輸入第 <ph name="CHARACTER"/> 個字元 (共 <ph name="TOTAL"/> 個)</translation>
@@ -1719,7 +1719,7 @@
 <translation id="2343160676229467122">不允許在 <ph name="SITE_NAME"/> 上使用擴充功能</translation>
 <translation id="2343390523044483367">洛磯山國家公園</translation>
 <translation id="2343747224442182863">將焦點移至這個分頁</translation>
-<translation id="6055117817387598516">2022 年 12 月之後，舊版 Brave 應用程式將無法開啟。請與系統管理員聯絡以更新至新版本，或移除這個應用程式。</translation>
+<translation id="5799730171660321530">2022 年 12 月之後，舊版 Wryling 應用程式將無法開啟。請與系統管理員聯絡以更新至新版本，或移除這個應用程式。</translation>
 <translation id="2348176352564285430">應用程式：<ph name="ARC_PROCESS_NAME"/></translation>
 <translation id="2348729153658512593"><ph name="WINDOW_TITLE"/> - 已要求權限，按下 Ctrl + Forward 鍵即可回覆</translation>
 <translation id="234889437187286781">載入資料時發生錯誤</translation>
@@ -1872,10 +1872,10 @@
 <translation id="2462577132948197840">在手機上登入</translation>
 <translation id="246264032905007361">開啟 Edge</translation>
 <translation id="2462752602710430187">已新增「<ph name="PRINTER_NAME"/>」</translation>
-<translation id="3708525592265213987">畫面會顯示建議的檔案，方便你繼續進行最近在 Microsoft SharePoint 和 OneDrive 中的活動。
+<translation id="3512223990745179540">畫面會顯示建議的檔案，方便你繼續進行最近在 Microsoft SharePoint 和 OneDrive 中的活動。
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        你可以透過資訊卡選單管理設定，也可以前往「自訂 Brave」查看更多選項。</translation>
+        你可以透過資訊卡選單管理設定，也可以前往「自訂 Wryling」查看更多選項。</translation>
 <translation id="2464079411014186876">冰淇淋</translation>
 <translation id="2467755475704469005">未偵測到任何裝置。<ph name="BEGIN_LINK"/>瞭解詳情<ph name="END_LINK"/></translation>
 <translation id="2467933879189426525">加入<ph name="OWNER_FIRST_NAME"/>和另外 <ph name="NUM_OTHER_MEMBERS"/> 人的分頁群組</translation>
@@ -1947,10 +1947,10 @@
 <translation id="2509918030571808322"><ph name="TASK_TITLE"/>：<ph name="STEP_PROGRESS"/></translation>
 <translation id="2512065992892294946"><ph name="LANGUAGE"/> (已選取)</translation>
 <translation id="2513904627589542105">自我測試</translation>
-<translation id="2853929249020379065">系統會顯示你曾造訪的網頁和建議搜尋項目，方便你回到最近造訪過的頁面。
+<translation id="2148080035799245255">系統會顯示你曾造訪的網頁和建議搜尋項目，方便你回到最近造訪過的頁面。
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        你可以使用資訊卡選單管理設定，也可以前往「自訂 Brave」查看更多選項。</translation>
+        你可以使用資訊卡選單管理設定，也可以前往「自訂 Wryling」查看更多選項。</translation>
 <translation id="2514465118223423406">連接滑鼠時</translation>
 <translation id="2515586267016047495">Alt</translation>
 <translation id="251722524540674480">確認你的使用者名稱</translation>
@@ -2043,7 +2043,7 @@
 <translation id="2589658397149952302">一律不顯示雲端硬碟檔案</translation>
 <translation id="2597073208962000830">「鄰近分享」功能會透過藍牙掃描功能尋找附近的裝置。</translation>
 <translation id="2598136842498757793">自訂工具列按鈕</translation>
-<translation id="2024721991200132064">有新版 Brave 可安裝</translation>
+<translation id="2001896808401121187">有新版 Wryling 可安裝</translation>
 <translation id="2599048253926156421">使用者名稱已複製到剪貼簿</translation>
 <translation id="2600631204638174747">{NUM_SITES,plural, =1{已關閉 1 個不安全的擴充功能}other{已關閉 {NUM_SITES} 個不安全的擴充功能}}</translation>
 <translation id="2603121359676416582">針對這個頁面</translation>
@@ -2072,7 +2072,7 @@
 <translation id="2618797463720777311">設定鄰近分享功能</translation>
 <translation id="2619305858360733464"><ph name="SHARED_STATE"/>未命名群組 - <ph name="OPENED_STATE"/></translation>
 <translation id="2619340799655338321">播放/暫停</translation>
-<translation id="9145669676445236687">Brave 研究室功能(&amp;L)...</translation>
+<translation id="7386574547123882068">Wryling 研究室功能(&amp;L)...</translation>
 <translation id="2620215283731032047">無法安全下載「<ph name="FILE_NAME"/>」。</translation>
 <translation id="2620245777360407679">目前已連上無線基地台的裝置</translation>
 <translation id="2620436844016719705">系統</translation>
@@ -2149,26 +2149,26 @@
 <translation id="2667463864537187133">管理拼字檢查</translation>
 <translation id="2669250147452250961">開啟即可取得其他裝置的瀏覽記錄和分頁</translation>
 <translation id="2669454659051515572">這部裝置的任何使用者都可以看到已下載的檔案</translation>
-<translation id="351520635355732555"><ph name="APP_NAME"/> 正在共用 Brave 分頁。</translation>
-<translation id="3767686227734654975">如果 Brave 發現你的密碼曾在公開資料侵害事件中外洩，Brave 密碼管理工具可能會在你登入時建議變更密碼。<ph name="BEGIN_LINK"/>進一步瞭解自動變更密碼的功能<ph name="END_LINK"/></translation>
+<translation id="4660722239919846618"><ph name="APP_NAME"/> 正在共用 Wryling 分頁。</translation>
+<translation id="5637102320592120576">如果 Wryling 發現你的密碼曾在公開資料侵害事件中外洩，Wryling 密碼管理工具可能會在你登入時建議變更密碼。<ph name="BEGIN_LINK"/>進一步瞭解自動變更密碼的功能<ph name="END_LINK"/></translation>
 <translation id="2670350619068134931">經過簡化的動畫</translation>
 <translation id="2670403088701171361">禁止網站查看剪貼簿中的文字或圖片</translation>
 <translation id="2671423594960767771">分享群組項目</translation>
 <translation id="2671451824761031126">現在可以使用你的書籤和設定了</translation>
-<translation id="5999615052787816207">Brave 正在從指令列檔案載入旗標，穩定性和安全性可能會受到影響。</translation>
+<translation id="2630650338443498102">Wryling 正在從指令列檔案載入旗標，穩定性和安全性可能會受到影響。</translation>
 <translation id="2673135533890720193">讀取你的瀏覽記錄</translation>
 <translation id="2673848446870717676">請確認你的藍牙裝置放在附近，且處於配對模式。只配對你信任的裝置。在這部 Chromebook 上，所有帳戶都能看到配對的裝置。</translation>
 <translation id="2673873887296220733">要將 1 個檔案複製到「<ph name="CLOUD_PROVIDER"/>」再開啟嗎？</translation>
 <translation id="267442004702508783">重新整理</translation>
 <translation id="2674756932811577764">暫停特效</translation>
-<translation id="6593843405048698743">認識 Brave 內建的 Gemini</translation>
+<translation id="7272548036530777000">認識 Wryling 內建的 Gemini</translation>
 <translation id="2677748264148917807">離開</translation>
 <translation id="267829273183481634">{NUM_GROUPS,plural, =1{要保留分頁群組嗎？}other{要保留分頁群組嗎？}}</translation>
 <translation id="268053382412112343">記錄(&amp;S)</translation>
 <translation id="2682498795777673382">你的家長已更新設定</translation>
 <translation id="2683638487103917598">資料夾已排序</translation>
 <translation id="2685193395980129388">已允許 - <ph name="PERMISSION_DETAILS"/></translation>
-<translation id="4772325112693163883">你不必記住這組密碼，系統會將密碼儲存至 <ph name="ACCOUNT"/> 的 Brave 密碼管理工具中。</translation>
+<translation id="3156512094077940104">你不必記住這組密碼，系統會將密碼儲存至 <ph name="ACCOUNT"/> 的 Wryling 密碼管理工具中。</translation>
 <translation id="2690024944919328218">顯示語言選項</translation>
 <translation id="2691385045260836588">型號</translation>
 <translation id="2692503699962701720">在朗讀元素類型和格式化文字時變更音調</translation>
@@ -2250,7 +2250,7 @@
 <translation id="2741912629735277980">在登入畫面上顯示 UI</translation>
 <translation id="2742373789128106053">目前無法使用「<ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/>」。</translation>
 <translation id="2743301740238894839">開始</translation>
-<translation id="3491974999711898233">如要將密碼儲存到 Brave 密碼管理工具，請點選網址列中的「密碼管理工具」圖示</translation>
+<translation id="2309654501049956864">如要將密碼儲存到 Wryling 密碼管理工具，請點選網址列中的「密碼管理工具」圖示</translation>
 <translation id="2743387203779672305">複製到剪貼簿</translation>
 <translation id="274362947316498129">一個應用程式正在嘗試存取<ph name="DEVICE_NAME"/>。如要允許存取，請關閉<ph name="DEVICE_NAME"/>隱私權切換鈕。</translation>
 <translation id="2744221223678373668">共用</translation>
@@ -2415,7 +2415,7 @@
 <translation id="2869511363030898130">在「<ph name="APP_NAME"/>」應用程式中開啟</translation>
 <translation id="2870560284913253234">網站</translation>
 <translation id="2870909136778269686">更新中…</translation>
-<translation id="796921500671266784">這個應用程式可能不安全，因此 Brave 已封鎖</translation>
+<translation id="5973705351508783392">這個應用程式可能不安全，因此 Wryling 已封鎖</translation>
 <translation id="2871733351037274014">預先載入網頁</translation>
 <translation id="2871813825302180988">已有人在這個裝置上使用這個帳戶。</translation>
 <translation id="287205682142673348">連接埠轉送</translation>
@@ -2424,7 +2424,7 @@
 <translation id="2873744479411987024">較高的刷新率能讓畫面顯示更流暢，細節更清晰。請注意，提高刷新率可能會影響電池續航力。</translation>
 <translation id="2873956234023215251">發生錯誤，無法安裝應用程式。</translation>
 <translation id="2874939134665556319">上一首曲目</translation>
-<translation id="4156865452842056672">(Brave 錯誤頁面)</translation>
+<translation id="1764117716686866474">(Wryling 錯誤頁面)</translation>
 <translation id="2876369937070532032">當網站具有安全性風險時，Brave 會將你造訪的部分網頁網址傳送給 Brave</translation>
 <translation id="2876484123356705658">選擇時間範圍</translation>
 <translation id="2876556152483133018">網站搜尋</translation>
@@ -2438,7 +2438,7 @@
 <translation id="2885378588091291677">工作管理員</translation>
 <translation id="2886771036282400576">• <ph name="PERMISSION"/></translation>
 <translation id="288734198558082692">「<ph name="DEVICE"/>」和另外 <ph name="NUMBER_OF_DEVICES"/> 部裝置</translation>
-<translation id="7145068271494881186">瀏覽網頁時，可與 Brave 內建 Gemini 對話，取得解答、重點摘要等資訊</translation>
+<translation id="36564223923169344">瀏覽網頁時，可與 Wryling 內建 Gemini 對話，取得解答、重點摘要等資訊</translation>
 <translation id="2889043468805635730">未發現問題</translation>
 <translation id="2889064240420137087">使用其他程式開啟連結...</translation>
 <translation id="2889937141553641427">{0,plural, =1{隔離模式}other{# 個開啟的隔離模式視窗}}</translation>
@@ -2448,7 +2448,7 @@
 <translation id="2893318819023133318">對調畫面</translation>
 <translation id="2894596417096093634">當機報告 ID</translation>
 <translation id="2894757982205307093">在群組中新增分頁</translation>
-<translation id="5168657537153320842">這部裝置必須處於喚醒狀態，且正在執行 Brave，Gemini Spark 才能使用自動瀏覽功能。</translation>
+<translation id="4609378462161046249">這部裝置必須處於喚醒狀態，且正在執行 Wryling，Gemini Spark 才能使用自動瀏覽功能。</translation>
 <translation id="289695669188700754">金鑰識別碼：<ph name="KEY_ID"/></translation>
 <translation id="2897878306272793870">你確定要開啟 <ph name="TAB_COUNT"/> 分頁嗎？</translation>
 <translation id="2900247416110050639">Brave 文件、試算表和簡報要求將檔案儲存在 Brave 雲端硬碟中。系統會移動本機檔案，並複製其他位置的檔案。你可以在「檔案」應用程式的 Brave 雲端硬碟資料夾中找到檔案。</translation>
@@ -2469,7 +2469,7 @@
 <translation id="2908122561561557160">開啟 Word、Excel 和 PowerPoint 檔案</translation>
 <translation id="2908162660801918428">依目錄新增媒體庫</translation>
 <translation id="2908358077082926882">再次按下「<ph name="CURRENTKEY"/>」鍵即可移除指派設定並<ph name="RESPONSE"/></translation>
-<translation id="2266953261741300226">在行動裝置上取得 Brave</translation>
+<translation id="1076740576781805023">在行動裝置上取得 Wryling</translation>
 <translation id="2910318910161511225">請連線至網路，然後再試一次</translation>
 <translation id="2910678330803525229">現在可以使用這個設定檔上網了</translation>
 <translation id="2912247081180973411">關閉視窗</translation>
@@ -2484,14 +2484,14 @@
 <translation id="2920852127376356161">不得處理通訊協定</translation>
 <translation id="2923234477033317484">移除這個帳戶</translation>
 <translation id="2923644930701689793">存取手機的相機膠卷</translation>
-<translation id="3249101334307130799">Brave 設定</translation>
+<translation id="3482382083907212749">Wryling 設定</translation>
 <translation id="2926085873880284723">還原預設捷徑</translation>
 <translation id="2926708162326352948">主題已更新為上傳的圖片</translation>
 <translation id="2927017729816812676">快取儲存空間</translation>
 <translation id="7099134950659097846">系統已儲存你的選擇，並在你登入其他 Brave 服務時套用這項設定。</translation>
 <translation id="2928361271496576301">接受快速鍵</translation>
 <translation id="2928795416630981206">可以追蹤攝影機位置</translation>
-<translation id="8154235090364237757">{NUM_SITES,plural, =1{Brave 已移除 1 個網站的權限}other{Brave 已移除 {NUM_SITES} 個網站的權限}}</translation>
+<translation id="5921083063517633760">{NUM_SITES,plural, =1{Wryling 已移除 1 個網站的權限}other{Wryling 已移除 {NUM_SITES} 個網站的權限}}</translation>
 <translation id="2931157624143513983">依可列印範圍自動調整</translation>
 <translation id="2931342457001070961">未連上任何麥克風</translation>
 <translation id="2932085390869194046">建議密碼...</translation>
@@ -2515,7 +2515,7 @@
 <translation id="2946119680249604491">新增連線</translation>
 <translation id="2946190589196900944">顯示界線</translation>
 <translation id="2946640296642327832">啟用藍牙</translation>
-<translation id="1130593361639324030">你必須能夠登入 Brave，才能分享或加入分頁群組</translation>
+<translation id="3774434044366960368">你必須能夠登入 Wryling，才能分享或加入分頁群組</translation>
 <translation id="2947605845283690091">網路瀏覽速度應該要快速流暢。現在就花點時間<ph name="BEGIN_LINK"/>檢查擴充功能<ph name="END_LINK"/>吧。</translation>
 <translation id="2948287943780377675">{FILE_COUNT,plural, =1{將檔案拖曳到這裡}other{將檔案拖曳到這裡}}</translation>
 <translation id="2948300991547862301">前往<ph name="PAGE_TITLE"/></translation>
@@ -2544,7 +2544,7 @@
 <translation id="2967926928600500959">符合這些規則的網址會在特定瀏覽器中強制開啟。</translation>
 <translation id="2969411787010981955">資料已匯出至所選位置</translation>
 <translation id="2970766364519518369">附近的指定聯絡人可與你分享內容，系統會詢問你是否同意接收。不過，如果分享及接收內容的裝置都登入 <ph name="USER_EMAIL"/>，系統就不會詢問。</translation>
-<translation id="4802379027410104335">以這個 Brave 帳戶登入 Brave</translation>
+<translation id="5125039946630180885">以這個 Brave 帳戶登入 Brave</translation>
 <translation id="2972557485845626008">韌體</translation>
 <translation id="2972581237482394796">重做(&amp;R)</translation>
 <translation id="2973324205039581528">將網站設為靜音</translation>
@@ -2562,7 +2562,7 @@
 <translation id="2983373101216420412">充電盒電量為 <ph name="PERCENTAGE"/>%。</translation>
 <translation id="2983818520079887040">設定...</translation>
 <translation id="2984727013951557074">系統仍在將檔案同步到 Brave 雲端硬碟。</translation>
-<translation id="5706997116413643454">在這部裝置上用 Brave 密碼管理工具取得密碼金鑰</translation>
+<translation id="47461721301249579">在這部裝置上用 Wryling 密碼管理工具取得密碼金鑰</translation>
 <translation id="2985476671756533899">{NUM_SUB_APPS,plural, =1{「<ph name="APP_NAME"/>」已解除安裝 1 個應用程式}other{「<ph name="APP_NAME"/>」已解除安裝 # 個應用程式}}</translation>
 <translation id="2988018669686457659">備用轉譯器</translation>
 <translation id="2988328607561082373">目前未重複使用任何密碼</translation>
@@ -2712,7 +2712,7 @@
 <translation id="3083899879156272923">以滑鼠游標為中心移動畫面</translation>
 <translation id="3084121729444215602">系統管理員已固定「<ph name="EXTENSION_NAME"/>」</translation>
 <translation id="3084548735795614657">拖曳即可安裝</translation>
-<translation id="5418694430960033386">Brave 記憶體不足或其他某些原因導致網頁處理程序終止。如要繼續執行，請重新載入或前往其他網頁。</translation>
+<translation id="1938891602372007002">Wryling 記憶體不足或其他某些原因導致網頁處理程序終止。如要繼續執行，請重新載入或前往其他網頁。</translation>
 <translation id="3085412380278336437">網站可以使用你的攝影機</translation>
 <translation id="3087734570205094154">置底</translation>
 <translation id="3088052000289932193">網站正在使用 MIDI 裝置</translation>
@@ -2730,7 +2730,7 @@
 <translation id="310297983047869047">上一張投影片</translation>
 <translation id="3103451787721578293">請提供上傳這項資料的原因：</translation>
 <translation id="3105339775057145050">上次更新失敗</translation>
-<translation id="4566550081126272435">要改回 Brave 嗎？</translation>
+<translation id="5053372439942907467">要改回 Wryling 嗎？</translation>
 <translation id="3105820656234755131">已更新密碼</translation>
 <translation id="3105990244222795498"><ph name="DEVICE_NAME"/> (藍牙)</translation>
 <translation id="310671807099593501">網站正在使用藍牙</translation>
@@ -2756,7 +2756,7 @@
 <translation id="3122496702278727796">無法建立資料目錄</translation>
 <translation id="3122883569442693641">詳細資料</translation>
 <translation id="3124111068741548686">USER 控制代碼</translation>
-<translation id="10925962326134232">根據自己的需求更新 Brave 瀏覽器外觀</translation>
+<translation id="908722199085381104">根據自己的需求更新 Wryling 瀏覽器外觀</translation>
 <translation id="3124950826511066429">影響不同類型資訊的自動填入設定</translation>
 <translation id="3125361247594231799">固定這項功能，方便下次使用</translation>
 <translation id="3126026824346185272">Ctrl</translation>
@@ -2779,7 +2779,7 @@
 <translation id="3143754809889689516">從頭播放</translation>
 <translation id="3144647712221361880">以其他身分開啟連結</translation>
 <translation id="3147878021189006333">網址列</translation>
-<translation id="300669147395456190">Brave 應用程式</translation>
+<translation id="7379373399486006075">Wryling 應用程式</translation>
 <translation id="3150927491400159470">強制重新載入</translation>
 <translation id="315116470104423982">行動數據</translation>
 <translation id="3151539355209957474">開始時間</translation>
@@ -2856,15 +2856,15 @@
 <translation id="3202499879214571401">暫停將畫面投放到「<ph name="DEVICE_NAME"/>」</translation>
 <translation id="3202578601642193415">最新</translation>
 <translation id="3206289903841621620">使用者字典 <ph name="NUMBER"/></translation>
-<translation id="3746394893874035323">系統會根據你的最近活動，顯示你可能感興趣的建議搜尋與購物折扣。
+<translation id="929201866904025342">系統會根據你的最近活動，顯示你可能感興趣的建議搜尋與購物折扣。
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        你隨時可以透過這張資訊卡管理設定，也可以前往「自訂 Brave」查看更多選項。</translation>
+        你隨時可以透過這張資訊卡管理設定，也可以前往「自訂 Wryling」查看更多選項。</translation>
 <translation id="3207909572959773060">{NUM_TABS,plural, =1{在 1 個分頁的群組新增分頁}other{在 # 個分頁的群組新增分頁}}</translation>
 <translation id="3207960819495026254">已加入書籤</translation>
 <translation id="3208321278970793882">應用程式</translation>
 <translation id="3208703785962634733">尚未確認的</translation>
-<translation id="3209703592917353472">你造訪的網站可儲存使用者的活動資訊，協助正常運作，例如在網站上保持登入狀態或儲存購物車內的項目。網站通常會暫時在裝置上儲存這項資訊。</translation>
+<translation id="6830723795172079256">你造訪的網站可儲存使用者的活動資訊，協助正常運作，例如在網站上保持登入狀態或儲存購物車內的項目。網站通常會暫時在裝置上儲存這項資訊。</translation>
 <translation id="3210736980143419785">無法完成下載作業</translation>
 <translation id="321084946921799184">黃色與白色</translation>
 <translation id="3211126692872351610">開啟新分頁並使用「<ph name="SEARCH_ENGINE"/>」搜尋「<ph name="SEARCH_TERMS"/>」(&amp;S)</translation>
@@ -2915,7 +2915,7 @@
 <translation id="3250374026663843838">管理技能</translation>
 <translation id="3251119461199395237">檔案同步處理</translation>
 <translation id="3251759466064201842">&lt;不是憑證的一部分&gt;</translation>
-<translation id="4413356660053702703">你可以透過 Brave 密碼管理工具使用這組密碼</translation>
+<translation id="5277009598698141857">你可以透過 Wryling 密碼管理工具使用這組密碼</translation>
 <translation id="3253225298092156258">無法使用</translation>
 <translation id="3253344772044554413">{NUM_OF_FILES,plural, =1{請釋出「<ph name="CLOUD_PROVIDER"/>」的空間，才能複製檔案}other{請釋出「<ph name="CLOUD_PROVIDER"/>」的空間，才能複製檔案}}</translation>
 <translation id="3253448572569133955">未知的帳戶</translation>
@@ -2951,7 +2951,7 @@
 <translation id="3277214528693754078">使用文字游標進行瀏覽 (鍵盤瀏覽)</translation>
 <translation id="3279092821516760512">指定聯絡人在附近時可與你分享內容。系統會先確認你是否同意，然後才會開始進行資料傳輸作業。</translation>
 <translation id="3280237271814976245">另存新檔(&amp;A)...</translation>
-<translation id="5340857474604400806">繼續使用 Brave</translation>
+<translation id="4768106021954837307">繼續使用 Wryling</translation>
 <translation id="3282210178675490297">正在與 <ph name="APP_NAME"/> 共用這個分頁</translation>
 <translation id="3284050785966252943">自動填入中繼資料預覽</translation>
 <translation id="3285218179623157680"><ph name="WINDOW_TITLE"/> - 下方畫面</translation>
@@ -2985,10 +2985,10 @@
 <translation id="3303855915957856445">找不到相符的搜尋結果</translation>
 <translation id="3304212451103136496">現折 <ph name="DISCOUNT_AMOUNT"/></translation>
 <translation id="3305661444342691068">在預覽應用程式開啟 PDF</translation>
-<translation id="9133756165511111573">系統現會顯示你在其他裝置中開啟的分頁，方便你輕鬆回到最近的活動。
+<translation id="3052673784611846156">系統現會顯示你在其他裝置中開啟的分頁，方便你輕鬆回到最近的活動。
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        你可以透過資訊卡選單管理設定，也可以前往「自訂 Brave」查看更多選項。</translation>
+        你可以透過資訊卡選單管理設定，也可以前往「自訂 Wryling」查看更多選項。</translation>
 <translation id="3308134619352333507">隱藏按鈕</translation>
 <translation id="3308604065765626613">{GROUP_COUNT,plural, =1{這些分頁會在這部裝置上保持開啟，但該群組會永久刪除。}other{這些分頁會在這部裝置上保持開啟，但這些群組會永久刪除。}}</translation>
 <translation id="3309124184713871355">建築作品</translation>
@@ -3042,7 +3042,7 @@
 <translation id="3348973040180736882">解壓縮</translation>
 <translation id="3349933790966648062">記憶體使用量</translation>
 <translation id="3351472127384196879">新增或點選觸控筆按鈕</translation>
-<translation id="2198340416484774609">2022 年 12 月之後，舊版 Brave 應用程式將無法在 Mac 裝置上開啟。你可以自行檢查是否有可用的新版本。</translation>
+<translation id="7121948070993040604">2022 年 12 月之後，舊版 Wryling 應用程式將無法在 Mac 裝置上開啟。你可以自行檢查是否有可用的新版本。</translation>
 <translation id="3354972872297836698">無法與裝置「<ph name="DEVICE_NAME"/>」配對，請選取裝置後再試一次</translation>
 <translation id="335581015389089642">語音</translation>
 <translation id="3355936511340229503">連線錯誤</translation>
@@ -3092,7 +3092,7 @@
 <translation id="3390442085511866400">另存影片影格(&amp;F)...</translation>
 <translation id="3390530051434634135">備註：<ph name="NOTE"/></translation>
 <translation id="3390740059150071453">往左看</translation>
-<translation id="404326254653176440">Brave 文件分析</translation>
+<translation id="4786791686512231403">Wryling 文件分析</translation>
 <translation id="3394072120086516913">電腦使用有線網路，投放裝置則使用 Wi-Fi 網路</translation>
 <translation id="3394850431319394743">允許使用 ID 來播放受保護的內容</translation>
 <translation id="339722927132407568">畫面凍結</translation>
@@ -3141,7 +3141,7 @@
 <translation id="3431715928297727378"><ph name="WINDOW_TITLE"/> - 已釋出 <ph name="MEMORY_VALUE"/></translation>
 <translation id="3432762828853624962">Shared Workers</translation>
 <translation id="3433507769937235446">離開時鎖定</translation>
-<translation id="3044702330949941099">Brave 密碼管理工具需要更多存取權</translation>
+<translation id="1271779175305705203">Wryling 密碼管理工具需要更多存取權</translation>
 <translation id="3434107140712555581"><ph name="BATTERY_PERCENTAGE"/>%</translation>
 <translation id="3434475275396485144">這項設定由你的手機系統管理員所控管</translation>
 <translation id="3434512374684753970">音訊和影片</translation>
@@ -3219,7 +3219,7 @@
 <translation id="3487649228420469005">掃描完成</translation>
 <translation id="3488199663160411179">名稱</translation>
 <translation id="3488609300093733298">在手機上登入</translation>
-<translation id="1088295851754116403">自 2025 年 7 月起，Brave 應用程式已停止在 ChromeOS 裝置上執行。請考慮改用其他應用程式。</translation>
+<translation id="1326424950426003192">自 2025 年 7 月起，Wryling 應用程式已停止在 ChromeOS 裝置上執行。請考慮改用其他應用程式。</translation>
 <translation id="3490695139702884919">下載中... <ph name="PERCENT"/>%</translation>
 <translation id="3491171603443463516">可在你忘記 PIN 碼或密碼時還原本機內容</translation>
 <translation id="3491616972057195633">彈回鍵</translation>
@@ -3253,7 +3253,7 @@
 <translation id="3512465804715993309">自動調整標示</translation>
 <translation id="3513019849832307207">加入並開啟</translation>
 <translation id="3513563267917474897">色調滑桿，最小值為 <ph name="MIN_VALUE"/>，最大值為 <ph name="MAX_VALUE"/></translation>
-<translation id="5382999936194307983">你即將使用標準安全防護機制。如要進一步防範不安全的網站、下載內容和擴充功能，請在 Brave 設定中啟用「安全瀏覽強化防護功能」。</translation>
+<translation id="3918639430309311642">你即將使用標準安全防護機制。如要進一步防範不安全的網站、下載內容和擴充功能，請在 Wryling 設定中啟用「安全瀏覽強化防護功能」。</translation>
 <translation id="3514681096978190000">這個封存檔案包含可能隱藏惡意軟體的其他檔案</translation>
 <translation id="3515783508789430906">新版本 (<ph name="VERSION"/>) 已就緒。重新啟動應用程式即可套用更新。未儲存的資料可能會遺失。</translation>
 <translation id="3515983984924808886">請再次輕觸安全金鑰以確認重設。這個安全金鑰上儲存的所有資訊 (包括 PIN 碼) 都將遭到刪除。</translation>
@@ -3395,7 +3395,7 @@
 <translation id="3616658341000358527">讓 Gemini 自動登入，在網路上幫你完成工作</translation>
 <translation id="3617062258679844578">如要點選，請輕觸觸控板，不要按壓</translation>
 <translation id="3617891479562106823">目前無法存取背景，請稍後再試。</translation>
-<translation id="2934767186202458579">現在起，<ph name="RECIPIENT_NAME"/>可以透過 Brave 密碼管理工具使用你的使用者名稱和密碼。你可以請對方前往 <ph name="WEBSITE"/> 登入帳戶。</translation>
+<translation id="1877646679208644382">現在起，<ph name="RECIPIENT_NAME"/>可以透過 Wryling 密碼管理工具使用你的使用者名稱和密碼。你可以請對方前往 <ph name="WEBSITE"/> 登入帳戶。</translation>
 <translation id="3619115746895587757">卡布奇諾</translation>
 <translation id="3619294456800709762">網站可以自動進入子母畫面</translation>
 <translation id="3620136223548713675">地理位置</translation>
@@ -3474,7 +3474,7 @@
 <translation id="3679126865530709868">內建觸控板</translation>
 <translation id="3680683624079082902">文字轉語音的聲音</translation>
 <translation id="3681017028939109078">進入分割畫面模式時顯示視窗建議</translation>
-<translation id="318206792789506219">Brave 認為你不想在這個網站使用位置資訊，因此會隱藏要求，減少干擾。</translation>
+<translation id="8663031781937737605">Wryling 認為你不想在這個網站使用位置資訊，因此會隱藏要求，減少干擾。</translation>
 <translation id="3681311097828166361">感謝你提供意見！你目前處於離線狀態，重新上線後系統就會傳送你的意見回饋報告。</translation>
 <translation id="3681548574519135185">聚焦環</translation>
 <translation id="3682207069037179944">捲動分頁列或使用滑鼠滾輪，即可查看所有分頁</translation>
@@ -3553,7 +3553,7 @@
 <translation id="3727473233247516571">往返快取子頁框：<ph name="BACK_FORWARD_CACHE_PAGE_URL"/></translation>
 <translation id="3727558469988088200">取得密碼金鑰</translation>
 <translation id="3727843212509629024">PIN 碼不正確，請再試一次</translation>
-<translation id="8077319455765501118">如要搭配 macOS 鑰匙圈使用 Brave 密碼管理工具，請重新啟動 Brave 並允許存取鑰匙圈。重新啟動之後，會重新開啟所有分頁。</translation>
+<translation id="1149143655905087705">如要搭配 macOS 鑰匙圈使用 Wryling 密碼管理工具，請重新啟動 Wryling 並允許存取鑰匙圈。重新啟動之後，會重新開啟所有分頁。</translation>
 <translation id="3728188878314831180">鏡向投射手機的通知</translation>
 <translation id="3728572446941976198">人工審查員不會將你的內容用於提升 AI 技術，貴機構隨時可以變更這些設定</translation>
 <translation id="3728681439294129328">設定網路位址</translation>
@@ -3662,10 +3662,10 @@
 <translation id="3799128412641261490">切換控制功能設定</translation>
 <translation id="3800764353337460026">符號樣式</translation>
 <translation id="3800898876950197674">如要允許這個擴充功能，請輸入密碼。</translation>
-<translation id="8331080218091581609">系統會根據你的日常需求，提供個人化 Brave 設定和強化功能的建議。
+<translation id="7293495029773307557">系統會根據你的日常需求，提供個人化 Wryling 設定和強化功能的建議。
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        你可以透過資訊卡選單管理設定，也可以前往「自訂 Brave」查看更多選項。</translation>
+        你可以透過資訊卡選單管理設定，也可以前往「自訂 Wryling」查看更多選項。</translation>
 <translation id="3801449494961771207">預設的文字轉語音聲音</translation>
 <translation id="3802486193901166966">這個擴充功能不需要特殊權限，且沒有其他的網站存取權</translation>
 <translation id="380329542618494757">姓名</translation>
@@ -3809,7 +3809,7 @@
 <translation id="3903187154317825986">內建鍵盤</translation>
 <translation id="3903696968689283281">Wi-Fi Direct 擁有者資訊：</translation>
 <translation id="3904572359926093799">分割畫面大小調整控點 (可拖曳)</translation>
-<translation id="6894211654645352450">刪除伺服器憑證後，Brave 就不會再用該憑證識別伺服器。</translation>
+<translation id="7978440528848173448">刪除伺服器憑證後，Wryling 就不會再用該憑證識別伺服器。</translation>
 <translation id="3909701002594999354">顯示所有控制項(&amp;C)</translation>
 <translation id="3909791450649380159">剪下(&amp;T)</translation>
 <translation id="39103738135459590">啟用代碼</translation>
@@ -3823,12 +3823,12 @@
 <translation id="3917644013202553949">儲存空間不足，無法同步處理檔案。請嘗試釋出空間。</translation>
 <translation id="3919145445993746351">如要在所有電腦上使用你的擴充功能，請開啟同步功能</translation>
 <translation id="3919229493046408863">附近有其他裝置時關閉通知</translation>
-<translation id="3937043680469836680">2022 年 12 月之後，舊版 Brave 應用程式將無法在 Mac 裝置上開啟。如要更新至新版本或移除這個應用程式，請與系統管理員聯絡。</translation>
+<translation id="4376308464194569825">2022 年 12 月之後，舊版 Wryling 應用程式將無法在 Mac 裝置上開啟。如要更新至新版本或移除這個應用程式，請與系統管理員聯絡。</translation>
 <translation id="3919376399641777316">使用 Brave 雲端硬碟儲存空間</translation>
 <translation id="3919798653937160644">你在這個視窗瀏覽的網頁不會顯示在瀏覽器記錄中，而且所有開啟的訪客視窗都關閉後，電腦上也不會留下 Cookie 等其他追蹤記錄。不過，系統將保留你下載的所有檔案。</translation>
 <translation id="3920909973552939961">不得安裝付款處理常式</translation>
 <translation id="3920938867981797493">更新工具政策</translation>
-<translation id="4008841832817149051">讓 Brave 幫你瀏覽網頁</translation>
+<translation id="2216933027668139688">讓 Wryling 幫你瀏覽網頁</translation>
 <translation id="3922823422695198027">其他應用程式所設定會開啟的連結與「<ph name="APP_NAME"/>」的設定相同，這會導致「<ph name="APP_NAME_2"/>」、「<ph name="APP_NAME_3"/>」和「<ph name="APP_NAME_4"/>」無法開啟支援的連結。</translation>
 <translation id="3923184630988645767">數據用量</translation>
 <translation id="3923494859158167397">尚未設定行動網路</translation>
@@ -3906,7 +3906,7 @@
 <translation id="3976108569178263973">沒有可用的印表機。</translation>
 <translation id="3977886311744775419">這個網路類型無法下載自動更新，但你可以手動檢查更新。</translation>
 <translation id="3978325380690188371">ChromeVox 開啟時無法使用相黏鍵</translation>
-<translation id="2069130488333600772">Brave 讓 PDF 檔案更容易閱讀</translation>
+<translation id="5874495328861857125">Wryling 讓 PDF 檔案更容易閱讀</translation>
 <translation id="3979093622823535817">加入這場會議：<ph name="MEETING_TITLE"/></translation>
 <translation id="3979395879372752341">已新增以下擴充功能：<ph name="EXTENSION_NAME"/></translation>
 <translation id="3980708588513986958">查看及管理你的「技能」</translation>
@@ -4007,7 +4007,7 @@
 <translation id="4053028343167125998">請解鎖「<ph name="TOKEN_NAME"/>」，以便匯入用戶端憑證。</translation>
 <translation id="4053833479432165765">將頁面安裝為應用程式(&amp;I)...</translation>
 <translation id="4054070260844648638">向所有人顯示</translation>
-<translation id="8891261408659902804">你已達到貴家長為「<ph name="APP_NAME"/>」這款 Brave 應用程式設定的使用時間限制。你明天可以使用 <ph name="TIME_LIMIT"/>。</translation>
+<translation id="3587910514908289330">你已達到貴家長為「<ph name="APP_NAME"/>」這款 Wryling 應用程式設定的使用時間限制。你明天可以使用 <ph name="TIME_LIMIT"/>。</translation>
 <translation id="4057041477816018958"><ph name="SPEED"/> - <ph name="RECEIVED_AMOUNT"/></translation>
 <translation id="405733379999213678">繼續允許這個網站控制 MIDI 裝置及重設程式</translation>
 <translation id="4057896668975954729">前往商店查看</translation>
@@ -4042,7 +4042,7 @@
 <translation id="4089235344645910861">設定儲存完畢，已開始同步處理。</translation>
 <translation id="4089817585533500276">Shift + <ph name="TOP_ROW_KEY"/> 鍵</translation>
 <translation id="4090103403438682346">啟用已驗證存取權</translation>
-<translation id="7268155614575494857">請新增你在這個網站的使用者名稱，Brave 密碼管理工具才能儲存登入資訊</translation>
+<translation id="6708405940091325014">請新增你在這個網站的使用者名稱，Wryling 密碼管理工具才能儲存登入資訊</translation>
 <translation id="4093173301198419723">必須包含大小寫英文字母、數字和符號</translation>
 <translation id="4093955363990068916">本機檔案：</translation>
 <translation id="4094647278880271855">你使用了系統不支援的環境變數 (<ph name="BAD_VAR"/>)，這會影響穩定性與安全性。</translation>
@@ -4069,7 +4069,7 @@
 <translation id="4110485659976215879">取消忽略警告</translation>
 <translation id="4112194537011183136"><ph name="DEVICE_NAME"/> (離線)</translation>
 <translation id="4113743276555482284">檔案密碼</translation>
-<translation id="1423132677367459502">畫面上會顯示建議的檔案，方便你繼續執行最近在 Brave 雲端硬碟中的活動。
+<translation id="5884518115438412995">畫面上會顯示建議的檔案，方便你繼續執行最近在 Brave 雲端硬碟中的活動。
         <ph name="BREAK"/>
         <ph name="BREAK"/>
         你可以透過資訊卡選單管理設定，或前往「自訂 Brave」查看更多選項。</translation>
@@ -4138,7 +4138,7 @@
 <translation id="4176463684765177261">已停用</translation>
 <translation id="4176864026061939326">這是受管理的裝置。你的裝置管理員要求必須為 <ph name="USER_EMAIL_ADDRESS"/> 帳戶設定新的設定檔</translation>
 <translation id="4177668342649553942">開啟 <ph name="SHORTCUT_NAME"/> - <ph name="APP_NAME"/></translation>
-<translation id="638591227897120703">擴充功能是 Brave 的外掛程式，可協助你妥善處理事務、簡化工作流程，以及自訂瀏覽體驗</translation>
+<translation id="6210463748469316524">擴充功能是 Wryling 的外掛程式，可協助你妥善處理事務、簡化工作流程，以及自訂瀏覽體驗</translation>
 <translation id="4177860704813504507">密碼或指紋</translation>
 <translation id="4178220097446335546">如要清除此訂閱項目及相關網路，請前往 Passpoint 訂閱頁面移除訂閱項目。</translation>
 <translation id="4181376007499455822">不覆寫</translation>
@@ -4303,7 +4303,7 @@
 <translation id="4304713468139749426">密碼管理工具</translation>
 <translation id="4305817255990598646">切換</translation>
 <translation id="4306489587293957491">輸入</translation>
-<translation id="1689951986267171188">Brave 不會再將來自這個網站的通知標示為垃圾訊息</translation>
+<translation id="6665952731838572283">Wryling 不會再將來自這個網站的通知標示為垃圾訊息</translation>
 <translation id="4307992518367153382">基本選項</translation>
 <translation id="4309035504231554969">因不明原因安裝失敗。</translation>
 <translation id="4309183709806093061">一併分享系統音訊。這部裝置將設為靜音，以避免音訊回授。</translation>
@@ -4329,7 +4329,7 @@
 <translation id="4324577459193912240">檔案未完成下載</translation>
 <translation id="4325433082696797523">儲存空間與電源</translation>
 <translation id="4325515113816851466">你登出後，系統就不會套用家長的選擇</translation>
-<translation id="7463244538445813736">Brave 最強大的安全防護功能可進一步協助你防範危險的網站、下載內容和擴充功能</translation>
+<translation id="8506408958028373380">Wryling 最強大的安全防護功能可進一步協助你防範危險的網站、下載內容和擴充功能</translation>
 <translation id="4327380114687339519">擴充功能選單</translation>
 <translation id="4328160087116165267">分享系統音訊</translation>
 <translation id="4330191372652740264">冰水</translation>
@@ -4338,7 +4338,7 @@
 <translation id="4332976768901252016">設定家長監護功能</translation>
 <translation id="4334768748331667190">之後不會再顯示<ph name="MODULE_NAME"/></translation>
 <translation id="4335835283689002019">安全瀏覽功能已關閉</translation>
-<translation id="5889020479667192676">必須先登入帳戶，Brave 才能完成這項工作</translation>
+<translation id="488757428703018223">必須先登入帳戶，Wryling 才能完成這項工作</translation>
 <translation id="433776600277609450">新增篩選條件</translation>
 <translation id="4338363401382232853">分割畫面視窗建議</translation>
 <translation id="4339203724549370495">解除安裝應用程式</translation>
@@ -4391,7 +4391,7 @@
 <translation id="437809255587011096">朗讀文字樣式</translation>
 <translation id="4378154925671717803">電話</translation>
 <translation id="4378308539633073595">向前捲動</translation>
-<translation id="4378363201814870400">管理自動填入資訊 (例如密碼、付款方式、地址和身分證件)，加快上網速度</translation>
+<translation id="4005743806371955395">管理自動填入資訊 (例如密碼、付款方式、地址和身分證件)，加快上網速度</translation>
 <translation id="4378551569595875038">連線中…</translation>
 <translation id="4378589147979399051">使用主要鍵盤控制滑鼠游標</translation>
 <translation id="30088850081141729">問問 Brave 關於「<ph name="SEARCH_TERMS"/>」的資訊</translation>
@@ -4447,7 +4447,7 @@
 <translation id="4914256659228865673">這些密碼金鑰會儲存在這部電腦的 Windows Hello 上，不會儲存到你的 Brave 帳戶。</translation>
 <translation id="4412544493002546580">請再試一次，或選擇下列其中一個靈感。</translation>
 <translation id="4412547955014928315">要刪除 <ph name="SITE_NAME"/> 和其下所有網站的網站資料和權限嗎？</translation>
-<translation id="2225668468568666081">Brave 應用程式即將遷移至漸進式網頁應用程式。這個 Brave 應用程式是由貴機構安裝在你的瀏覽器中。如要從「應用程式」清單中開啟漸進式網頁應用程式，請先與系統管理員聯絡，要求對方解除安裝 Brave 應用程式。於此期間，你可以前往 <ph name="EXTENSION_LAUNCH_URL"/>，在網頁上開啟 <ph name="EXTENSION_NAME"/>。</translation>
+<translation id="9096070332505320117">Wryling 應用程式即將遷移至漸進式網頁應用程式。這個 Wryling 應用程式是由貴機構安裝在你的瀏覽器中。如要從「應用程式」清單中開啟漸進式網頁應用程式，請先與系統管理員聯絡，要求對方解除安裝 Wryling 應用程式。於此期間，你可以前往 <ph name="EXTENSION_LAUNCH_URL"/>，在網頁上開啟 <ph name="EXTENSION_NAME"/>。</translation>
 <translation id="4412698727486357573">說明中心</translation>
 <translation id="4412992751769744546">允許第三方 Cookie</translation>
 <translation id="4413087696295876280">讀取 ChromeOS Flex 裝置資訊和資料</translation>
@@ -4543,15 +4543,15 @@
 <translation id="4501530680793980440">確認移除</translation>
 <translation id="4502423230170890588">從這個裝置中移除</translation>
 <translation id="4502477450742595012">在分頁標籤上按一下滑鼠右鍵，選取「將分頁加入新群組」</translation>
-<translation id="7840745488816718252">系統顯示最近使用的分頁群組，方便你接續先前的瀏覽進度。<ph name="BREAK"/><ph name="BREAK"/>你可以透過三點選單管理設定，也可以前往「自訂 Brave」查看更多選項。</translation>
+<translation id="975374802834211974">系統顯示最近使用的分頁群組，方便你接續先前的瀏覽進度。<ph name="BREAK"/><ph name="BREAK"/>你可以透過三點選單管理設定，也可以前往「自訂 Wryling」查看更多選項。</translation>
 <translation id="4504940961672722399">按一下這個圖示或按下 <ph name="EXTENSION_SHORTCUT"/>，即可使用這項擴充功能。</translation>
-<translation id="8141996966528663835">使用這個 QR code 下載 Brave，然後登入 Brave 帳戶。</translation>
+<translation id="1258044875592855240">使用這個 QR code 下載 Brave，然後登入 Brave 帳戶。</translation>
 <translation id="450552327874992444">已新增該字詞</translation>
 <translation id="4507373251891673233">你已封鎖來自 <ph name="HOST"/> 的所有擴充功能</translation>
 <translation id="4507401683427517298">按一下「新增捷徑」</translation>
 <translation id="4508265954913339219">啟用失敗</translation>
 <translation id="4508765956121923607">檢視原始碼(&amp;O)</translation>
-<translation id="4161817736307925392">當你分享<ph name="BEGIN_BOLD_USERNAME"/>使用者名稱<ph name="END_BOLD_USERNAME"/>和<ph name="BEGIN_BOLD_PASSWORD"/>密碼<ph name="END_BOLD_PASSWORD"/>副本後，家庭成員就能使用 Brave 密碼管理工具填寫這類資訊</translation>
+<translation id="7514388439385693063">當你分享<ph name="BEGIN_BOLD_USERNAME"/>使用者名稱<ph name="END_BOLD_USERNAME"/>和<ph name="BEGIN_BOLD_PASSWORD"/>密碼<ph name="END_BOLD_PASSWORD"/>副本後，家庭成員就能使用 Wryling 密碼管理工具填寫這類資訊</translation>
 <translation id="4509421746503122514">重新啟動即可更新</translation>
 <translation id="4510195992002502722">無法傳送意見。重試中...</translation>
 <translation id="4511344327646819192">如果不希望他人使用你的密碼，請前往 <ph name="WEBSITE"/> 變更密碼</translation>
@@ -4581,7 +4581,7 @@
 <translation id="4536769240747010177">網路共用功能：</translation>
 <translation id="4538417792467843292">刪除文字</translation>
 <translation id="4538792345715658285">由公司政策安裝</translation>
-<translation id="6339420797559770249">連不上 Brave 密碼管理工具，請過幾分鐘後再試</translation>
+<translation id="1573625443275169446">連不上 Wryling 密碼管理工具，請過幾分鐘後再試</translation>
 <translation id="4540780316273593836">發生錯誤</translation>
 <translation id="4541396589393395475">貴機構已停用這項功能</translation>
 <translation id="4541505619120536051">一律開啟</translation>
@@ -4646,7 +4646,7 @@
 <translation id="4580389561674319558">所有聯絡人都可以看見</translation>
 <translation id="4580596421317071374">密碼已儲存至這部裝置上的 <ph name="GOOGLE_PASSWORD_MANAGER"/>。</translation>
 <translation id="4582297591746054421">網站通常會讀取你的剪貼簿，以提供保留複製文字格式等功能</translation>
-<translation id="376109232905238597">要從 Brave 自動填入功能中移除這項資訊嗎？</translation>
+<translation id="7933642050191342525">要從 Wryling 自動填入功能中移除這項資訊嗎？</translation>
 <translation id="4584770411839426377">視窗</translation>
 <translation id="4584836561445313300">貴機構將可查看及管理包括密碼在內的任何現有瀏覽資料</translation>
 <translation id="4585793705637313973">編輯頁面</translation>
@@ -4775,7 +4775,7 @@
 <translation id="4682003508123230705">幫助我學習</translation>
 <translation id="4682481611456523884">這個網站上的嵌入內容無法使用與你相關的既有資訊</translation>
 <translation id="4524261726901681678">使用這些功能時，系統會將相關資料傳送給 Brave，以提供 AI 體驗</translation>
-<translation id="3704650847382671289">Brave 已更新</translation>
+<translation id="6644622854523272162">Wryling 已更新</translation>
 <translation id="4683629100208651599">使用小寫字母</translation>
 <translation id="4683947955326903992"><ph name="PERCENTAGE"/>% (預設)</translation>
 <translation id="4684427112815847243">同步處理所有資料</translation>
@@ -5099,7 +5099,7 @@
 <translation id="4918762404810341788">複製並開啟</translation>
 <translation id="4918844574251943176">已複製圖片</translation>
 <translation id="4921348630401250116">文字轉語音</translation>
-<translation id="1298471559729553235">如要在作業系統上使用 Brave 密碼管理工具，請重新啟動 Brave，並允許存取電腦的密碼管理工具。分頁會在重新啟動之後再次開啟。</translation>
+<translation id="2177523175450524748">如要在作業系統上使用 Brave 密碼管理工具，請重新啟動 Brave，並允許存取電腦的密碼管理工具。分頁會在重新啟動之後再次開啟。</translation>
 <translation id="4923561999941435531">{0,plural, =1{將 1 個項目儲存到帳戶}other{將 # 個項目儲存到帳戶}}</translation>
 <translation id="4923977675318667854">顯示分頁群組</translation>
 <translation id="4924002401726507608">提供意見</translation>
@@ -5178,7 +5178,7 @@
 <translation id="4979263087381759787">開發人員選項</translation>
 <translation id="4979510648199782334">Microsoft 365 設定完成</translation>
 <translation id="4980805016576257426">這個擴充功能含有惡意軟體。</translation>
-<translation id="8231468153901265517">系統未分享你的密碼。請檢查網際網路連線，並確定你已登入 Brave，然後再試一次。</translation>
+<translation id="950784604556747155">系統未分享你的密碼。請檢查網際網路連線，並確定你已登入 Wryling，然後再試一次。</translation>
 <translation id="498624032394115435">知道連結的使用者都可以編輯所有分頁。</translation>
 <translation id="6814280300414171363">你隨時可以在設定中選擇要同步處理的資料。Brave 可能會根據你的歷史記錄，在 Brave 搜尋和其他服務中提供個人化體驗。</translation>
 <translation id="4986728572522335985">這項操作將刪除這個安全金鑰上的所有資料，包括 PIN 碼</translation>
@@ -5188,7 +5188,7 @@
 <translation id="4989966318180235467">檢查背景頁面(&amp;B)</translation>
 <translation id="499016799952867794">這樣應用程式就能正常運作。</translation>
 <translation id="4990673372047946816">沒有可用的相機</translation>
-<translation id="7538826519053730023">Gemini Spark 可以在這部裝置上使用 Brave 自動瀏覽功能，與網站互動並代你完成任務。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
+<translation id="6942602636852210373">Gemini Spark 可以在這部裝置上使用 Wryling 自動瀏覽功能，與網站互動並代你完成任務。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
 <translation id="4991420928586866460">使用最上方一排按鍵做為功能鍵</translation>
 <translation id="4991873517942703737">詢問與這份文件相關的問題</translation>
 <translation id="4992066212339426712">取消靜音</translation>
@@ -5340,7 +5340,7 @@
 <translation id="5111794652433847656">這部裝置上沒有「<ph name="APP_NAME"/>」的任何密碼金鑰</translation>
 <translation id="5112686815928391420">{NUM_OF_FILES,plural, =1{已移動 1 個檔案}other{已移動 {NUM_OF_FILES} 個檔案}}</translation>
 <translation id="511313294362309725">開啟快速配對</translation>
-<translation id="6409962091529734959">進一步瞭解 Brave 自動瀏覽功能</translation>
+<translation id="3721809128005666745">進一步瞭解 Wryling 自動瀏覽功能</translation>
 <translation id="51143538739122961">插入並輕觸安全金鑰</translation>
 <translation id="5115338116365931134">單一登入 (SSO)</translation>
 <translation id="5116628073786783676">另存音訊(&amp;V)...</translation>
@@ -5363,7 +5363,7 @@
 <translation id="5130080518784460891">倚天</translation>
 <translation id="5130675701626084557">無法載入設定檔。請稍後再試，或向電信業者尋求協助。</translation>
 <translation id="5131591206283983824">觸控板輕觸拖曳</translation>
-<translation id="112893101983775894">你的 Brave 雲端硬碟內容只會用於這項檔案搜尋功能，不會用來提升 Brave 搜尋品質。除非你主動上傳檔案，否則 Brave 不會存取你的 Brave 雲端硬碟內容。</translation>
+<translation id="3232662147308516489">你的 Brave 雲端硬碟內容只會用於這項檔案搜尋功能，不會用來提升 Brave 搜尋品質。除非你主動上傳檔案，否則 Brave 不會存取你的 Brave 雲端硬碟內容。</translation>
 <translation id="5133035646508467110">如果你與其他人共用這部裝置，要使用已儲存的密碼時，可以用指紋驗證身分</translation>
 <translation id="5135533361271311778">無法建立書籤項目。</translation>
 <translation id="513555878193063507">新增 APN</translation>
@@ -5422,18 +5422,18 @@
 <translation id="5179428098696668914">關閉 AI 播放功能</translation>
 <translation id="5180276433875360121">顯示<ph name="CERT_LIST"/></translation>
 <translation id="5181140330217080051">下載中</translation>
-<translation id="3656271699136235245">儲存至 <ph name="ACCOUNT"/> 的 Brave 密碼管理工具</translation>
+<translation id="1388473966322202858">儲存至 <ph name="ACCOUNT"/> 的 Wryling 密碼管理工具</translation>
 <translation id="6029810565516522064">這個密碼只會儲存到這部裝置。如要在其他裝置上使用，請儲存到 Brave 帳戶 (<ph name="USER_EMAIL"/>)。</translation>
 <translation id="5182671122927417841">停用擴充功能</translation>
 <translation id="5183344263225877832">要重設所有 HID 裝置權限嗎？</translation>
 <translation id="5184063094292164363">JavaScript 控制台(&amp;J)</translation>
 <translation id="5184209580557088469">已有票證使用這個使用者名稱</translation>
-<translation id="8445059357334030806">在 Brave 中開啟</translation>
+<translation id="4126334514963731148">在 Wryling 中開啟</translation>
 <translation id="5184662919967270437">正在更新您的裝置</translation>
 <translation id="5185500136143151980">沒有網際網路連線</translation>
 <translation id="5186362203408605578">掃描 QR code 即可使用另一部裝置</translation>
 <translation id="5186381005592669696">自訂支援應用程式的顯示語言</translation>
-<translation id="3075701570150269201">你可以在所有裝置上使用這個密碼金鑰快速登入。系統會將密碼金鑰儲存到 <ph name="ACCOUNT_NAME"/> 的 Brave 密碼管理工具。</translation>
+<translation id="8357398038570228285">你可以在所有裝置上使用這個密碼金鑰快速登入。系統會將密碼金鑰儲存到 <ph name="ACCOUNT_NAME"/> 的 Wryling 密碼管理工具。</translation>
 <translation id="5186792064936776005">使用預設值 (如有)</translation>
 <translation id="5186931074173692059">密碼已儲存到 <ph name="EMAIL"/> 的 <ph name="GOOGLE_PASSWORD_MANAGER"/>。</translation>
 <translation id="5187826826541650604"><ph name="KEY_NAME"/> (<ph name="DEVICE"/>)</translation>
@@ -5532,7 +5532,7 @@
 <translation id="5263656105659419083">如要輕鬆返回側邊面板，請按一下右上方的「固定」</translation>
 <translation id="5266117308710480775">查看所有分頁</translation>
 <translation id="526622169288322445">可對「<ph name="ADDRESS_SUMMARY"/>」執行的其他動作</translation>
-<translation id="904084505809395909">如要使用技能，請在 Brave 中登入 Brave 帳戶，並啟用 Brave 內建 Gemini</translation>
+<translation id="8409037861809652895">如要使用技能，請在 Brave 中登入 Brave 帳戶，並啟用 Brave 內建 Gemini</translation>
 <translation id="5267572070504076962">開啟安全瀏覽功能即可防範危險網站</translation>
 <translation id="5269659747698455324">解鎖密碼金鑰</translation>
 <translation id="5269977353971873915">列印失敗</translation>
@@ -5569,7 +5569,7 @@
 <translation id="815099619559018451"><ph name="DEVICE_TYPE"/> 會使用內建感應器偵測裝置前方的人員。所有資料都會立即在這部裝置上處理，完成後便會全數刪除。感應器資料絕不會傳送給 Brave。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
 <translation id="5294922869942863768">PDF 翻譯內容會顯示在閱讀模式側邊面板</translation>
 <translation id="5296350763804564124">系統會提供互動朗讀內容，讓你不用看螢幕也能夠輕鬆使用裝置。你可透過已連結的裝置使用點字回饋功能。</translation>
-<translation id="6092554978456048094">Brave 提供最強大的安全防護機制，可避免你誤入有害網站</translation>
+<translation id="434455729075409436">Wryling 提供最強大的安全防護機制，可避免你誤入有害網站</translation>
 <translation id="5297005732522718715">重新整理網路共用設定</translation>
 <translation id="5297021821125993168">啟用成功</translation>
 <translation id="5297082477358294722">密碼已儲存。你可以查看及管理 <ph name="SAVED_PASSWORDS_STORE"/>中儲存的密碼。</translation>
@@ -5805,7 +5805,7 @@
 <translation id="5490798133083738649">允許 Linux 存取你的麥克風</translation>
 <translation id="549211519852037402">米色與白色</translation>
 <translation id="5492637351392383067">裝置端加密</translation>
-<translation id="525561504184560379">擴充功能是 Brave 的外掛程式，可協助你處理大小事</translation>
+<translation id="4269985980162690000">擴充功能是 Wryling 的外掛程式，可協助你處理大小事</translation>
 <translation id="5493455553805432330">移除</translation>
 <translation id="5493792505296048976">螢幕已開啟</translation>
 <translation id="5494016731375030300">最近關閉的分頁</translation>
@@ -5820,7 +5820,7 @@
 <translation id="5497250476399536588">你可以在「地址和其他資訊」中查看這項資訊</translation>
 <translation id="5497251278400702716">這個檔案</translation>
 <translation id="549762298434242239">安全瀏覽強化防護功能不信任這個擴充功能。<ph name="LEARN_MORE_LINK"/></translation>
-<translation id="8535881475141081242">Brave 無法驗證這個安裝套件</translation>
+<translation id="3284580476319813256">Wryling 無法驗證這個安裝套件</translation>
 <translation id="5499211612787418966">這個對話方塊未處於聚焦狀態。按下 Alt + Shift + A 鍵即可聚焦這個對話方塊。</translation>
 <translation id="5499476581866658341">你現在可以查看手機近期的相片和媒體</translation>
 <translation id="549957179819296104">新圖示</translation>
@@ -5859,7 +5859,7 @@
 <translation id="5527822190489075064">最佳化充電</translation>
 <translation id="5529554942700688235">記憶體用量節省摘要，已釋出 <ph name="MEMORY_VALUE"/></translation>
 <translation id="5529693968082667490">顯示「分頁搜尋」按鈕</translation>
-<translation id="8476278190293667671">如要將密碼儲存到 Brave 密碼管理工具，請按一下這個按鍵</translation>
+<translation id="7590006893770451825">如要將密碼儲存到 Wryling 密碼管理工具，請按一下這個按鍵</translation>
 <translation id="5532223876348815659">通用</translation>
 <translation id="5533001281916885985"><ph name="SITE_NAME"/> 要求下列權限</translation>
 <translation id="5533343601674003130">PDF 服務</translation>
@@ -5984,7 +5984,7 @@
 <translation id="5632300633605675627">正在設定你的設定檔...</translation>
 <translation id="5632566673632479864">你已不能再將 <ph name="EMAIL"/> 設為主要帳戶。這個帳戶是由 <ph name="DOMAIN"/> 所管理，因此系統會將您的書籤、歷史記錄、密碼和其他設定從這個裝置上清除。</translation>
 <translation id="5633149627228920745">進一步瞭解系統需求</translation>
-<translation id="4349643148868035678">盡情體驗 Brave AI 的強大功能。將 Gemini 固定到工具列方便存取，或隨時從 Brave 選單開啟。</translation>
+<translation id="1259136609764667252">盡情體驗 Brave AI 的強大功能。將 Gemini 固定到工具列方便存取，或隨時從 Brave 選單開啟。</translation>
 <translation id="563371367637259496">行動網路</translation>
 <translation id="5635312199252507107">允許在特定網站上執行</translation>
 <translation id="5636012309446422">要將「<ph name="DEVICE"/>」從 <ph name="PRIMARY_EMAIL"/> 中移除嗎？</translation>
@@ -6028,7 +6028,7 @@
 <translation id="5677503058916217575">網頁語言：</translation>
 <translation id="5677928146339483299">已封鎖</translation>
 <translation id="5678550637669481956">已授予 <ph name="VOLUME_NAME"/> 的讀取及寫入權限。</translation>
-<translation id="9187489046368002999">無論在何處使用 Brave，都能重新開啟最近關閉的分頁</translation>
+<translation id="1324707973668136061">無論在何處使用 Wryling，都能重新開啟最近關閉的分頁</translation>
 <translation id="5678955352098267522">讀取你在 <ph name="WEBSITE_1"/> 上產生的資料</translation>
 <translation id="5680050361008726776">要移除「<ph name="ESIM_PROFILE_NAME"/>」嗎？</translation>
 <translation id="5681586175480958839">正在開啟檔案</translation>
@@ -6132,7 +6132,7 @@
 <translation id="5776415697119024904"><ph name="DEVICE_NAME"/> (系統預設)</translation>
 <translation id="5776450228446082914">可在任一瀏覽器中開啟的網站清單。</translation>
 <translation id="5776571780337000608">你可以在檔案瀏覽器或其他應用程式中，透過這個應用程式開啟及編輯支援的檔案。如要控管要在這個應用程式預設開啟哪些檔案，請<ph name="BEGIN_LINK"/>進一步瞭解如何在裝置上設定預設應用程式<ph name="END_LINK"/>。</translation>
-<translation id="6676231621615806698">開啟 Brave</translation>
+<translation id="2366428511841171478">開啟 Wryling</translation>
 <translation id="5778491106820461378">你可以透過<ph name="LINK_BEGIN"/>設定<ph name="LINK_END"/>管理已登入的 Brave 帳戶。你授予網站和應用程式的權限可能適用於所有帳戶。如果不想讓網站和應用程式存取你的帳戶資訊，請以訪客身分登入 <ph name="DEVICE_TYPE"/>。</translation>
 <translation id="5780011244986845107">你選取的資料夾包含敏感檔案。你確定要將這個資料夾的讀取權限永久授予「<ph name="APP_NAME"/>」嗎？</translation>
 <translation id="5780973441651030252">處理優先順序</translation>
@@ -6142,7 +6142,7 @@
 <translation id="5783346913439924978">頭部追蹤</translation>
 <translation id="57838592816432529">靜音</translation>
 <translation id="5784291589716625675">變更應用程式語言</translation>
-<translation id="7171242884588191792">Brave 檔案公用程式</translation>
+<translation id="6694176433685812521">Wryling 檔案公用程式</translation>
 <translation id="5787420647064736989">裝置名稱</translation>
 <translation id="3481489625298495279">前往 Brave 錢包新增或管理<ph name="BEGIN_LINK_LOYALTY_CARDS"/>會員卡<ph name="END_LINK_LOYALTY_CARDS"/>或 Google Pay <ph name="BEGIN_LINK_PAYMENT_METHODS"/>付款方式<ph name="END_LINK_PAYMENT_METHODS"/></translation>
 <translation id="5789581866075720267">如要在這部裝置上將密碼匯入 <ph name="BRAND"/>，請選取 CSV 檔案。</translation>
@@ -6275,7 +6275,7 @@
 <translation id="587234395549708302">要清理書籤嗎？</translation>
 <translation id="587502357434914765">選取畫面上的區域</translation>
 <translation id="5875534259258494936">已終止分享螢幕畫面</translation>
-<translation id="5087908853264608754">Brave 應用程式 &gt; <ph name="APP_NAME"/></translation>
+<translation id="3007975053754227498">Wryling 應用程式 &gt; <ph name="APP_NAME"/></translation>
 <translation id="5876851302954717356">在右側新增分頁</translation>
 <translation id="5877064549588274448">版本已變更。請重新啟動裝置以套用變更。</translation>
 <translation id="5877584842898320529">選取的印表機無法使用或未正確安裝。<ph name="BR"/>請檢查你的印表機，或改選其他印表機。</translation>
@@ -6306,7 +6306,7 @@
 <translation id="5901069264981746702">你的指紋資料會安全地儲存在 <ph name="DEVICE_TYPE"/> 上，絕不會外洩。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
 <translation id="5901089233978050985">切換至目前擷取的分頁</translation>
 <translation id="5901630391730855834">黃色</translation>
-<translation id="3535209993382976135">Brave 密碼管理工具已關閉</translation>
+<translation id="7043941876121223194">Wryling 密碼管理工具已關閉</translation>
 <translation id="5906457147959147328">繼續允許這個網站使用 ID 播放受保護的內容</translation>
 <translation id="5906655207909574370">即將更新為最新版本！重新啟動您的裝置即可完成更新程序。</translation>
 <translation id="5906732635754427568">與這個應用程式相關聯的資料會從這個裝置上移除。</translation>
@@ -6329,7 +6329,7 @@
 <translation id="5919486630433391408">系統管理員已停用韌體更新。</translation>
 <translation id="5920543303088087579">你的管理員禁止使用者連線到這個網路</translation>
 <translation id="5922493635960054020">禁止初次造訪的網站使用 JavaScript 最佳化工具 (必須開啟安全瀏覽功能)</translation>
-<translation id="2323567368243374972">點選「自訂 Brave」</translation>
+<translation id="4776890532807780579">點選「自訂 Wryling」</translation>
 <translation id="5924047253200400718">查看說明。<ph name="SCANNING_STATUS"/></translation>
 <translation id="5924438086390153180">先詢問我，再將 Microsoft 檔案複製或移動到 Brave 雲端硬碟</translation>
 <translation id="5925057331573749968">使用 QR code 快速登入</translation>
@@ -6426,7 +6426,7 @@
 <translation id="5992652489368666106">無框線</translation>
 <translation id="5996490984199062729">你的設定檔尚未完成設定</translation>
 <translation id="5997337190805127100">進一步瞭解網站存取權</translation>
-<translation id="1113417784664180765">只要登入同一個 Brave 帳戶，就能在不同裝置間快速互傳連結</translation>
+<translation id="2406114405348885691">只要登入同一個 Wryling 帳戶，就能在不同裝置間快速互傳連結</translation>
 <translation id="5998458948782718639">協助改善自動填入功能</translation>
 <translation id="5998976983953384016">確認並啟用</translation>
 <translation id="5999630716831179808">語音</translation>
@@ -6458,7 +6458,7 @@
 <translation id="6021293122504240352">系統已不再支援 <ph name="APPS"/> 個應用程式</translation>
 <translation id="6021969570711251331">交錯顯示</translation>
 <translation id="6022526133015258832">開啟全螢幕</translation>
-<translation id="296137235951584143">打造專屬的 Brave</translation>
+<translation id="4578349172774307195">打造專屬的 Wryling</translation>
 <translation id="6024317249717725918">使用「<ph name="VISUAL_SEARCH_PROVIDER"/>」搜尋影片影格(&amp;S)</translation>
 <translation id="6025215716629925253">堆疊追蹤</translation>
 <translation id="6026819612896463875"><ph name="WINDOW_TITLE"/> - 已連接 USB 裝置</translation>
@@ -6547,7 +6547,7 @@
 <translation id="6099766472403716061">一律允許 <ph name="HOST"/> 控制 MIDI 裝置及重設程式</translation>
 <translation id="6100736666660498114">開始功能表</translation>
 <translation id="6100737823178787570">請放大視窗以繼續執行工作</translation>
-<translation id="4012048950158900308">如果 Brave 發現你的密碼曾在公開資料侵害事件中外洩，Brave 密碼管理工具可能會在你登入時建議變更密碼。</translation>
+<translation id="4455711252967107965">如果 Wryling 發現你的密碼曾在公開資料侵害事件中外洩，Wryling 密碼管理工具可能會在你登入時建議變更密碼。</translation>
 <translation id="6101226222197207147">已新增以下應用程式：<ph name="EXTENSION_NAME"/></translation>
 <translation id="6102043788063419338">進階保護功能已封鎖這個檔案。</translation>
 <translation id="6103681770816982672">警告：你即將切換為開發人員版</translation>
@@ -6580,7 +6580,7 @@
 <translation id="6126601353087978360">請在這裡提供意見：</translation>
 <translation id="6127292407256937949">音量已開啟。關閉音量。</translation>
 <translation id="6127598727646973981">安全連線</translation>
-<translation id="7089529486065491663">系統已將所選資料從 Brave 和其他同步的裝置中移除。你的 Brave 帳戶仍可能保留了其他類型的瀏覽記錄，例如其他 Brave 服務中的搜尋和活動記錄 (可前往 <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> 查詢)。</translation>
+<translation id="8909926044863596423">系統已將所選資料從 Brave 和其他同步的裝置中移除。你的 Brave 帳戶仍可能保留了其他類型的瀏覽記錄，例如其他 Brave 服務中的搜尋和活動記錄 (可前往 <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> 查詢)。</translation>
 <translation id="6129938384427316298">Netscape 憑證評論</translation>
 <translation id="6129953537138746214">空格鍵</translation>
 <translation id="6130692320435119637">新增 Wi-Fi</translation>
@@ -6657,7 +6657,7 @@
 <translation id="6181218116951226898">應用程式有時會更新品牌識別。請先查看所有異動，確認沒問題再更新。</translation>
 <translation id="6181431612547969857">下載遭封鎖</translation>
 <translation id="6183369864942961155">自動切換淺色/深色主題</translation>
-<translation id="7995865526174204486">Brave 內建 Gemini 使用自動瀏覽功能，能在分頁中完成你交辦的工作。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
+<translation id="896787455774331657">Wryling 內建 Gemini 使用自動瀏覽功能，能在分頁中完成你交辦的工作。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
 <translation id="6184099524311454384">搜尋分頁</translation>
 <translation id="6185151644843671709">已儲存密碼金鑰並建立 PIN 碼</translation>
 <translation id="2250900586478000379">{PASSWORD_COUNT,plural, =1{這 1 組密碼和其他項目只會儲存在這部裝置。如要在其他裝置使用，請儲存到 Brave 帳戶。此操作也會清理所有重複項目。}other{這 {PASSWORD_COUNT} 組密碼和其他項目只會儲存在這部裝置。如要在其他裝置使用，請儲存到 Brave 帳戶。此操作也會清理所有重複項目。}}</translation>
@@ -6729,7 +6729,7 @@
 <translation id="6239558157302047471">重新載入頁框(&amp;F)</translation>
 <translation id="6240637845286751292">已允許。開啟<ph name="LINK_BEGIN"/>系統位置資訊存取權<ph name="LINK_END"/>。</translation>
 <translation id="6240821072888636753">每次都詢問</translation>
-<translation id="4174528239215311406">如要在作業系統上使用 Brave 密碼管理工具，請重新啟動 Brave，並允許存取電腦的密碼管理工具。分頁會在重新啟動之後再次開啟。</translation>
+<translation id="242014192545524966">如要在作業系統上使用 Wryling 密碼管理工具，請重新啟動 Wryling，並允許存取電腦的密碼管理工具。分頁會在重新啟動之後再次開啟。</translation>
 <translation id="6241530762627360640">存取與系統配對的藍牙裝置資訊並搜尋附近的藍牙裝置。</translation>
 <translation id="6241844896329831164">不需要存取權</translation>
 <translation id="6242589501614145408">重設安全金鑰</translation>
@@ -6737,8 +6737,8 @@
 <translation id="6242852299490624841">將焦點移至這個分頁</translation>
 <translation id="6243774244933267674">無法與伺服器連線</translation>
 <translation id="6244245036423700521">匯入 ONC 檔案</translation>
-<translation id="5455369595872837596">你可以透過 Brave 密碼管理工具使用這組密碼。</translation>
-<translation id="8883879481897424949">Brave 密碼管理工具</translation>
+<translation id="6643271232839544541">你可以透過 Wryling 密碼管理工具使用這組密碼。</translation>
+<translation id="3888885285070224654">Wryling 密碼管理工具</translation>
 <translation id="6247620186971210352">找不到應用程式</translation>
 <translation id="6247708409970142803"><ph name="PERCENTAGE"/>%</translation>
 <translation id="6247802389331535091">系統：<ph name="ARC_PROCESS_NAME"/></translation>
@@ -6834,11 +6834,11 @@
 <translation id="6324916366299863871">編輯捷徑</translation>
 <translation id="6325191661371220117">停用自動啟動功能</translation>
 <translation id="632524945411480350">已向下調整並排視窗的大小</translation>
-<translation id="5267531627648004734">從 Brave 中移除</translation>
+<translation id="6125790165673488794">從 Wryling 中移除</translation>
 <translation id="6326855256003666642">Keepalive 數量</translation>
 <translation id="6327785803543103246">網路 Proxy 自動探索</translation>
 <translation id="6329916384047371874">你將在 <ph name="DOMAIN"/> 使用 <ph name="PASSWORD_DOMAIN"/> 的密碼。除非你信任 <ph name="DOMAIN"/>，否則請勿使用你的密碼。</translation>
-<translation id="894516897589069384">密碼金鑰會儲存到 <ph name="ACCOUNT_NAME"/> 的 Brave 密碼管理工具 (這項操作只需執行一次)。</translation>
+<translation id="96451127607926283">密碼金鑰會儲存到 <ph name="ACCOUNT_NAME"/> 的 Wryling 密碼管理工具 (這項操作只需執行一次)。</translation>
 <translation id="8329196515830093443">檔案會傳送給 Brave 進行偵錯</translation>
 <translation id="6333170995003625229">無法驗證你的電子郵件地址或密碼，請再試一次。</translation>
 <translation id="6334267141726449402">複製這個連結，並傳送給要收集記錄的使用者。</translation>
@@ -6897,7 +6897,7 @@
 <translation id="637135143619858508">寬行距</translation>
 <translation id="6374077068638737855">Iceweasel</translation>
 <translation id="6374469231428023295">再試一次</translation>
-<translation id="3816315808514424202">2022 年 12 月之後，舊版 Brave 應用程式將無法在 Linux 裝置上開啟。如要更新至新版本或移除這個應用程式，請與系統管理員聯絡。</translation>
+<translation id="8663109891702419184">2022 年 12 月之後，舊版 Wryling 應用程式將無法在 Linux 裝置上開啟。如要更新至新版本或移除這個應用程式，請與系統管理員聯絡。</translation>
 <translation id="6377268785556383139">有 1 個與「<ph name="SEARCH_TEXT"/>」相符的搜尋結果</translation>
 <translation id="6378392501584240055">開啟 Wi-Fi 網路清單</translation>
 <translation id="6379228010899751161">請驗證身分，確保你隨時可以使用帳戶 (<ph name="ACCOUNT_EMAIL"/>) 中的密碼</translation>
@@ -6929,7 +6929,7 @@
 <translation id="6399774419735315745">女間諜</translation>
 <translation id="6400360390396538896">一律在 <ph name="ORIGIN"/> 上執行</translation>
 <translation id="6401118106417399952">裝置 EID 為 <ph name="EID_NUMBER"/>，裝置序號為 <ph name="SERIAL_NUMBER"/>。你可以使用這些號碼啟用服務。</translation>
-<translation id="8789425457808164956">如要將這個分頁傳送到其他裝置，請在該裝置上登入 Brave</translation>
+<translation id="2522845252291433622">如要將這個分頁傳送到其他裝置，請在該裝置上登入 Wryling</translation>
 <translation id="6402042774506839496">如要瞭解原因，請與應用程式開發人員聯絡</translation>
 <translation id="6402921224457714577">網站可以要求控制 MIDI 裝置及重設程式</translation>
 <translation id="6404511346730675251">編輯書籤</translation>
@@ -7020,7 +7020,7 @@
 <translation id="6469557521904094793">開啟行動數據網路</translation>
 <translation id="6469702164109431067">密碼和密碼金鑰</translation>
 <translation id="6470120577693311302">閃光燈通知</translation>
-<translation id="2444643906853437046">如要共用分頁、與他人協作，請登入 Brave 並同步歷史記錄和分頁。你也可以在登入的裝置上使用儲存的密碼等資料。</translation>
+<translation id="5220171877391975452">如要共用分頁、與他人協作，請登入 Wryling 並同步歷史記錄和分頁。你也可以在登入的裝置上使用儲存的密碼等資料。</translation>
 <translation id="6470823736074966819">忽略通知</translation>
 <translation id="6472893788822429178">顯示 [首頁] 按鈕</translation>
 <translation id="6473315466413288899">請選擇</translation>
@@ -7045,7 +7045,7 @@
 <translation id="649396225532207613">這個檔案可能會危害你的個人和社群網路帳戶</translation>
 <translation id="6493991254603208962">調低亮度</translation>
 <translation id="6494327278868541139">顯示強化防護功能詳細資料</translation>
-<translation id="4328654367880031858">主題已更新為預設的 Brave 主題</translation>
+<translation id="7396469211317307267">主題已更新為預設的 Wryling 主題</translation>
 <translation id="6496641546298525838">你的裝置</translation>
 <translation id="6497784818439587832">變更顯示大小以縮小或放大畫面上的項目</translation>
 <translation id="6497789971060331894">滑鼠反向捲動</translation>
@@ -7073,8 +7073,8 @@
 <translation id="6519437681804756269">[<ph name="TIMESTAMP"/>]
         <ph name="FILE_INFO"/>
         <ph name="EVENT_NAME"/></translation>
-<translation id="7978371405408781051">你可以在 Brave 密碼管理員中查看及管理儲存的密碼</translation>
-<translation id="3268749830200917889"><ph name="SITE"/> 想驗證你的身分，請輸入 Brave 密碼管理工具的英數字元 PIN 碼</translation>
+<translation id="4368425522364057431">你可以在 Wryling 密碼管理員中查看及管理儲存的密碼</translation>
+<translation id="4584640130722526280"><ph name="SITE"/> 想驗證你的身分，請輸入 Wryling 密碼管理工具的英數字元 PIN 碼</translation>
 <translation id="6520876759015997832">第 <ph name="LIST_POSITION"/> 項搜尋結果，共 <ph name="LIST_SIZE"/> 項：<ph name="SEARCH_RESULT_TEXT"/>。按下 Enter 鍵即可前往這個部分。</translation>
 <translation id="6521214596282732365">網站通常會使用你的字型，方便你透過線上的設計及圖像工具建立具有高度一致性的內容</translation>
 <translation id="6521218807522232085">設定、儲存及管理密碼，輕鬆登入</translation>
@@ -7132,7 +7132,7 @@
 <translation id="656293578423618167">檔案路徑或檔案名稱過長。請縮短檔案名稱或選擇其他儲存位置。</translation>
 <translation id="6563002009564846727">查看從 Windows 匯入的憑證</translation>
 <translation id="6563055593659435495">無法與你的手機維持連線狀態。請確認你的手機在附近，且已解鎖及開啟藍牙功能和 Wi-Fi。</translation>
-<translation id="5101641460012906639">必須啟用 Brave 密碼管理工具，才能為「<ph name="APP_NAME"/>」建立密碼金鑰</translation>
+<translation id="220477283561908794">必須啟用 Wryling 密碼管理工具，才能為「<ph name="APP_NAME"/>」建立密碼金鑰</translation>
 <translation id="6565899972286925956">創作任何內容</translation>
 <translation id="6566648465417201421">重新開啟已關閉的分割畫面</translation>
 <translation id="656679903990115526">用手機掃描這個 QR code，即可儲存及自動填入密碼，輕鬆登入網站和應用程式</translation>
@@ -7162,7 +7162,7 @@
 <translation id="6582274660680936615">你目前是以訪客身分瀏覽</translation>
 <translation id="6583328141350416497">繼續下載</translation>
 <translation id="6584878029876017575">Microsoft 永久簽署</translation>
-<translation id="3967591872717355005">關閉 Brave 內建 Gemini</translation>
+<translation id="4549910236442219988">關閉 Wryling 內建 Gemini</translation>
 <translation id="6585584201072946561">自訂網路瀏覽器的文字大小和字型</translation>
 <translation id="6586099239452884121">訪客瀏覽</translation>
 <translation id="6586451623538375658">調換滑鼠主按鈕</translation>
@@ -7174,11 +7174,11 @@
 <translation id="6592808042417736307">已擷取你的指紋</translation>
 <translation id="6594011207075825276">正在尋找序列裝置…</translation>
 <translation id="6595322909015878027">不允許自動進入子母畫面</translation>
-<translation id="5089633794744090226">{COUNT,plural, =1{已成功變更外洩的密碼。
+<translation id="4604137824271419035">{COUNT,plural, =1{已成功變更外洩的密碼。
 
-你還有 # 組密碼外洩，Brave 密碼管理工具建議你立即變更這組密碼。}other{已成功變更外洩的密碼。
+你還有 # 組密碼外洩，Wryling 密碼管理工具建議你立即變更這組密碼。}other{已成功變更外洩的密碼。
 
-你還有 # 組密碼外洩，Brave 密碼管理工具建議你立即變更這些密碼。}}</translation>
+你還有 # 組密碼外洩，Wryling 密碼管理工具建議你立即變更這些密碼。}}</translation>
 <translation id="6596325263575161958">加密選項</translation>
 <translation id="6596816719288285829">IP 位址</translation>
 <translation id="6596916244504302242">重新載入這個頁面，即可將更新後的擴充功能設定套用到此網站</translation>
@@ -7213,7 +7213,7 @@
 <translation id="6619801788773578757">新增 Kiosk 應用程式</translation>
 <translation id="6619990499523117484">確認你的 PIN 碼</translation>
 <translation id="808383181727223557">問問 Brave 或輸入網址</translation>
-<translation id="8127050479140582768">如要將這個分頁傳送到其他裝置，請在這兩部裝置上登入 Brave</translation>
+<translation id="7379057487310867567">如要將這個分頁傳送到其他裝置，請在這兩部裝置上登入 Wryling</translation>
 <translation id="6622980291894852883">繼續封鎖圖片</translation>
 <translation id="6624036901798307345">在平板電腦模式中，輕觸分頁計數器的工具列按鈕即可開啟新的分頁列，當中會顯示各分頁的縮圖。</translation>
 <translation id="6624538059730609162">關閉右側畫面</translation>
@@ -7231,7 +7231,7 @@
 <translation id="663569763553406962">查看哪些擴充功能可讀取或變更網站</translation>
 <translation id="6636258750460740634">瀏覽記錄</translation>
 <translation id="6636623428211296678">探索下方更多設定或立即結束審查作業</translation>
-<translation id="7039910610180903356">「技能」功能目前已停用。如要開始使用，請更新 Brave 設定。</translation>
+<translation id="2685022934261893296">「技能」功能目前已停用。如要開始使用，請更新 Wryling 設定。</translation>
 <translation id="6639554308659482635">SQLite 記憶體使用量</translation>
 <translation id="6640268266988685324">開啟分頁</translation>
 <translation id="664271268954513498">政策值</translation>
@@ -7265,7 +7265,7 @@
 <translation id="6660819301598582123">敏捷的棕色狐狸跳過一條懶狗。</translation>
 <translation id="666099631117081440">印表機伺服器</translation>
 <translation id="6662339038589469159">選取要問 Gemini 的文字</translation>
-<translation id="5651734709592044140">在任何裝置上，都能使用 Brave 密碼管理工具快速登入網站</translation>
+<translation id="7879317760767371797">在任何裝置上，都能使用 Wryling 密碼管理工具快速登入網站</translation>
 <translation id="6662931079349804328">企業政策已變更，[實驗性功能] 按鈕已從工具列移除。</translation>
 <translation id="6664774537677393800">開啟你的設定檔時發生錯誤。請先登出，然後再次登入。</translation>
 <translation id="6665874326033183068">狂野</translation>
@@ -7286,7 +7286,7 @@
 <translation id="6677527809400770913">已將「<ph name="GESTURE"/>」表情設為<ph name="ACTION"/></translation>
 <translation id="6678604587151240716">海上大浪噴濺，遠處背景可見陸地。在黑暗陰鬱的天空中，地平線上出現些微橘色光芒。</translation>
 <translation id="6678717876183468697">查詢網址</translation>
-<translation id="4179272988780553308">Brave 需要協助才能變更密碼</translation>
+<translation id="6399206009398414883">Wryling 需要協助才能變更密碼</translation>
 <translation id="6679947539429331601">隱藏 12 小時</translation>
 <translation id="6680650203439190394">語速</translation>
 <translation id="6683022854667115063">耳罩式耳機</translation>
@@ -7297,7 +7297,7 @@
 <translation id="6686676261102452995">你今天開啟過</translation>
 <translation id="6686817083349815241">儲存你的密碼</translation>
 <translation id="6686878118106035853">自訂強化防護會關閉所有網站的 JavaScript 最佳化功能</translation>
-<translation id="8244419959467378067">變更 Brave 密碼管理工具 PIN 碼</translation>
+<translation id="6670208233381808278">變更 Wryling 密碼管理工具 PIN 碼</translation>
 <translation id="6687079240787935001">隱藏「<ph name="MODULE_TITLE"/>」</translation>
 <translation id="6689092196793298127">整理工具</translation>
 <translation id="6689948774466767379">滑鼠按鍵</translation>
@@ -7390,9 +7390,9 @@
 <translation id="6762833852331690540">開啟</translation>
 <translation id="6762861159308991328">你可以在「應用程式」設定中變更連結開啟方式</translation>
 <translation id="676560328519657314">你的 Google Pay 付款方式</translation>
-<translation id="3829555700225710632">前往 Brave 密碼管理工具</translation>
+<translation id="1991746409654589637">前往 Wryling 密碼管理工具</translation>
 <translation id="6767566652486411142">選擇其他語言...</translation>
-<translation id="3118781942424119876"><ph name="DISPLAYED_TEXT"/>，Brave 內建 Gemini</translation>
+<translation id="444975012123670651"><ph name="DISPLAYED_TEXT"/>，Wryling 內建 Gemini</translation>
 <translation id="6768034047581882264">不得顯示不安全的內容</translation>
 <translation id="6770602306803890733">可為你和所有網路使用者提供更完善的安全防護</translation>
 <translation id="6771503742377376720">這是憑證授權單位</translation>
@@ -7408,7 +7408,7 @@
 <translation id="6777817260680419853">已禁止重新導向</translation>
 <translation id="6777845730143344223">進一步瞭解 Passpoint 訂閱</translation>
 <translation id="6779092717724412415">如要建立其他醒目標示內容，請選取所需文字後按一下滑鼠右鍵。</translation>
-<translation id="4302311572898487420">Brave 密碼管理工具需要 macOS 鑰匙圈存取權</translation>
+<translation id="5994277662125312553">Wryling 密碼管理工具需要 macOS 鑰匙圈存取權</translation>
 <translation id="677965093459947883">非常小</translation>
 <translation id="6781005693196527806">管理搜尋引擎...(&amp;M)</translation>
 <translation id="6781284683813954823">Doodle 連結</translation>
@@ -7417,7 +7417,7 @@
 <translation id="678520006562636090">在 <ph name="DEVICE_TYPE"/> 上試用 Brave 智慧鏡頭</translation>
 <translation id="6785594991951195537">使用 <ph name="PASSWORD_DOMAIN"/> 的密碼</translation>
 <translation id="6785739405821760313">正在查看已儲存的桌面，按下 Tab 鍵即可瀏覽。</translation>
-<translation id="3970420313383499900">使用 <ph name="FOCUS_TOGGLE_HOTKEY"/> 開啟 Brave 內建 Gemini</translation>
+<translation id="1947654530370382747">使用 <ph name="FOCUS_TOGGLE_HOTKEY"/> 開啟 Wryling 內建 Gemini</translation>
 <translation id="6785915470941880363">反向捲動。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
 <translation id="67862343314499040">紫羅蘭色</translation>
 <translation id="6786480815699355166">只能翻譯支援的即時字幕語言</translation>
@@ -7487,10 +7487,10 @@
 <translation id="6825184156888454064">依名稱排序</translation>
 <translation id="6827121912381363404">允許所有擴充功能讀取及變更 <ph name="PERMITTED_SITE"/></translation>
 <translation id="4109630956174373924">使用 Brave 帳戶登入後，所有 ChromeOS 裝置上的應用程式和設定都會保持同步。如要查看瀏覽器同步處理選項，請前往 <ph name="LINK_BEGIN"/>Brave 設定<ph name="LINK_END"/>。</translation>
-<translation id="8295391943105726234">2022 年 12 月之後，舊版 Brave 應用程式將無法在 Windows 裝置上開啟。如要更新至新版本或移除這個應用程式，請與系統管理員聯絡。</translation>
+<translation id="6370110567774380901">2022 年 12 月之後，舊版 Wryling 應用程式將無法在 Windows 裝置上開啟。如要更新至新版本或移除這個應用程式，請與系統管理員聯絡。</translation>
 <translation id="6828182567531805778">如果要同步處理資料，請輸入你的通關密語</translation>
 <translation id="6828860976882136098">無法為所有使用者設定自動更新作業 (預先執行錯誤：<ph name="ERROR_NUMBER"/>)</translation>
-<translation id="2119951199746818124">使用畫面上的日曆即可輕鬆瀏覽 Brave 日曆中的下一個活動。
+<translation id="1976443593815762542">使用畫面上的日曆即可輕鬆瀏覽 Brave 日曆中的下一個活動。
         <ph name="BREAK"/>
         <ph name="BREAK"/>
         你可以透過資訊卡選單管理設定，也可以前往「自訂 Brave」查看更多選項。</translation>
@@ -7620,7 +7620,7 @@
 <translation id="6916818963747321523">全部展開</translation>
 <translation id="8995127535539248248">如要分享、加入分頁群組並在其中協作，請前往設定頁面開啟「允許登入 Brave」</translation>
 <translation id="6919354101107095996">請嘗試登入網站，然後再下載一次</translation>
-<translation id="4194845302979409023">要一併開啟這個 Brave 設定檔的安全瀏覽強化防護功能嗎？</translation>
+<translation id="4828791257596683710">要一併開啟這個 Wryling 設定檔的安全瀏覽強化防護功能嗎？</translation>
 <translation id="6920989436227028121">在一般分頁中開啟</translation>
 <translation id="6921104647315081813">清除活動</translation>
 <translation id="692114467174262153">無法開啟 <ph name="ALTERNATIVE_BROWSER_NAME"/></translation>
@@ -7666,7 +7666,7 @@
 <translation id="6961327401577924850">一般來說，網站掃描藍牙裝置的原因是為了執行功能，例如設定或同步低功耗信標、健康/健身智慧手環或智慧型燈泡</translation>
 <translation id="6963772203726867701">未偵測到</translation>
 <translation id="6963872466817251924">文字游標醒目顯示工具</translation>
-<translation id="6638101873197257342">這些是 Brave 的外掛程式，可助你事半功倍</translation>
+<translation id="1130544806072374777">這些是 Wryling 的外掛程式，可助你事半功倍</translation>
 <translation id="6964390816189577014">英雄</translation>
 <translation id="6964760285928603117">從群組中移除</translation>
 <translation id="6965382102122355670">確定</translation>
@@ -7769,7 +7769,7 @@
 <translation id="7033616203784997570">輸入內容長度上限為 62 個半形字元</translation>
 <translation id="7033731598469029604">自動瀏覽</translation>
 <translation id="70356134210715500">取得密碼金鑰</translation>
-<translation id="205056676188659235"><ph name="RP_ID"/> 剛剛為你的帳戶建立了密碼金鑰。密碼金鑰會儲存到 <ph name="USER"/> 的 Brave 密碼管理工具，讓你登入時更快速、安全。<ph name="LEARN_MORE"/></translation>
+<translation id="779273391657213098"><ph name="RP_ID"/> 剛剛為你的帳戶建立了密碼金鑰。密碼金鑰會儲存到 <ph name="USER"/> 的 Wryling 密碼管理工具，讓你登入時更快速、安全。<ph name="LEARN_MORE"/></translation>
 <translation id="7036833812387983071">前往開發人員工具查看</translation>
 <translation id="7037157058268992880">忘記 PIN 碼</translation>
 <translation id="7037509989619051237">要預覽的文字</translation>
@@ -7805,7 +7805,7 @@
 <translation id="706626672220389329">掛接共用裝置時發生錯誤。指定的共用裝置已掛接。</translation>
 <translation id="7067396782363924830">環境光顏色</translation>
 <translation id="7067725467529581407">不再顯示這個訊息。</translation>
-<translation id="8332021337957914073">現在隨時可以透過「自訂 Brave」選單變更瀏覽器的外觀</translation>
+<translation id="3448852526253868901">現在隨時可以透過「自訂 Wryling」選單變更瀏覽器的外觀</translation>
 <translation id="7068591156533195518">「<ph name="APP_NAME"/>」和另外幾個應用程式已禁止在 <ph name="DEVICE_TYPE"/> 上使用</translation>
 <translation id="706949303827219454">在新分頁中開啟安全性設定頁面</translation>
 <translation id="7069750557362084654">{NUM_PASSWORDS,plural, =1{這個網站的新密碼}other{這個網站的新密碼}}</translation>
@@ -7844,7 +7844,7 @@
 <translation id="7099027177878709408">關閉(&amp;C)</translation>
 <translation id="7099337801055912064">無法載入大型 PPD。大小上限為 250 KB。</translation>
 <translation id="7099739618316136113">{COUNT,plural, =0{沒有任何密碼外洩}=1{{COUNT} 組密碼外洩}other{{COUNT} 組密碼外洩}}</translation>
-<translation id="6930289083458871157">Brave 剛才已禁止下載危險的檔案。強化防護機制能讓上網安全再升級。</translation>
+<translation id="1075350995323790968">Wryling 剛才已禁止下載危險的檔案。強化防護機制能讓上網安全再升級。</translation>
 <translation id="710047887584828070">正在分享這個分頁的內容</translation>
 <translation id="710224247908684995">某個擴充功能已將安全瀏覽功能關閉</translation>
 <translation id="7102832101143475489">要求逾時</translation>
@@ -7857,7 +7857,7 @@
 <translation id="7109543803214225826">已移除捷徑</translation>
 <translation id="7110644433780444336">{NUM_TABS,plural, =1{將分頁加入群組}other{將分頁加入群組}}</translation>
 <translation id="7111822978084196600">為這個視窗命名</translation>
-<translation id="3052944975426153700">Brave 內建 Gemini 的服務範圍正持續擴大，但目前尚未在所有地區推出</translation>
+<translation id="4390080968239229040">Wryling 內建 Gemini 的服務範圍正持續擴大，但目前尚未在所有地區推出</translation>
 <translation id="7113502843173351041">存取你的電子郵件地址</translation>
 <translation id="7115361495406486998">沒有可建立連線的聯絡人</translation>
 <translation id="7117228822971127758">請稍後再試</translation>
@@ -7933,7 +7933,7 @@
 <translation id="7180611975245234373">重新整理</translation>
 <translation id="7180865173735832675">自訂</translation>
 <translation id="7181117767881540376">隱藏書籤列(&amp;H)</translation>
-<translation id="6219131628242399788">如要讓<ph name="CHILD_NAME"/>之後可直接安裝擴充功能，不必經過你的核准，請在你的裝置上開啟 Family Link 應用程式，並更新<ph name="CHILD_NAME"/>的 Brave 設定。</translation>
+<translation id="6411090479042324249">如要讓<ph name="CHILD_NAME"/>之後可直接安裝擴充功能，不必經過你的核准，請在你的裝置上開啟 Family Link 應用程式，並更新<ph name="CHILD_NAME"/>的 Wryling 設定。</translation>
 <translation id="7181840534454431748">加入<ph name="OWNER_FIRST_NAME"/>所在的分頁群組{NUM_OTHER_MEMBERS,plural, =0{加入<ph name="OWNER_FIRST_NAME"/>所在的分頁群組}=1{加入<ph name="OWNER_FIRST_NAME"/>和另外 # 人所在的分頁群組}other{加入<ph name="OWNER_FIRST_NAME"/>和另外 # 人所在的分頁群組}}</translation>
 <translation id="7181976109296206547">查看標誌、名稱和網址更新</translation>
 <translation id="7182051712900867547">使用其他帳戶</translation>
@@ -7956,7 +7956,7 @@
 <translation id="7191063546666816478">某些支援連結仍會在「<ph name="APP_NAME"/>」、「<ph name="APP_NAME_2"/>」、「<ph name="APP_NAME_3"/>」、「<ph name="NUMBER_OF_OTHER_APPS"/>」和其他應用程式中開啟。</translation>
 <translation id="7191159667348037">不明的印表機 (USB)</translation>
 <translation id="7191631508323321927">走廊</translation>
-<translation id="2348760106555630118">現在起，家庭成員可以透過 Brave 密碼管理工具使用你的使用者名稱和密碼。你可以請對方前往 <ph name="WEBSITE"/> 登入帳戶。</translation>
+<translation id="8493777968162809528">現在起，家庭成員可以透過 Wryling 密碼管理工具使用你的使用者名稱和密碼。你可以請對方前往 <ph name="WEBSITE"/> 登入帳戶。</translation>
 <translation id="7193051357671784796">這個應用程式是由貴機構新增。請重新啟動應用程式以完成安裝。</translation>
 <translation id="7193374945610105795">系統沒有儲存 <ph name="ORIGIN"/> 的密碼</translation>
 <translation id="7193887851827841439">透過媒體控制項儲存影片影格的圖片</translation>
@@ -8264,7 +8264,7 @@
 <translation id="7421293530411019405">要退出分頁群組嗎？</translation>
 <translation id="7421925624202799674">檢視網頁原始碼(&amp;V)</translation>
 <translation id="7422192691352527311">偏好設定...</translation>
-<translation id="5797098178256696347">他人只要能存取你的 Gemini Spark 代理，便可控制你的 Brave 瀏覽器。</translation>
+<translation id="8720537059196709339">他人只要能存取你的 Gemini Spark 代理，便可控制你的 Wryling 瀏覽器。</translation>
 <translation id="7423425410216218516">分享設定在 <ph name="MINUTES"/> 分鐘內為開啟狀態</translation>
 <translation id="7423513079490750513">移除<ph name="INPUT_METHOD_NAME"/></translation>
 <translation id="7424818322350938336">已新增網路</translation>
@@ -8274,7 +8274,7 @@
 <translation id="7427798576651127129">用「<ph name="DEVICE_NAME"/>」撥打電話</translation>
 <translation id="7429415133937917139">在 ChromeVox 面板的畫面頂端
         模擬可重新整理的點字顯示器輸出結果</translation>
-<translation id="1782880777068048256">「<ph name="FILENAME"/>」可能含有危險內容。如要讓 Brave 驗證檔案，可以新增密碼。你也可以選擇直接下載檔案。</translation>
+<translation id="7095911894329901179">「<ph name="FILENAME"/>」可能含有危險內容。如要讓 Wryling 驗證檔案，可以新增密碼。你也可以選擇直接下載檔案。</translation>
 <translation id="7431719494109538750">找不到 HID 裝置</translation>
 <translation id="7431991332293347422">控管 Brave 如何使用瀏覽記錄，提供個人化的搜尋服務和其他內容</translation>
 <translation id="7432200167665670017">你的管理員已封鎖「<ph name="EXTENSION_NAME"/>」(應用程式 ID：<ph name="EXTENSION_ID"/>)</translation>
@@ -8342,11 +8342,11 @@
 <translation id="7479221278376295180">儲存空間使用量總覽</translation>
 <translation id="747981547666531654">已連線至名為「<ph name="FIRST_DEVICE"/>」和「<ph name="SECOND_DEVICE"/>」的藍牙裝置</translation>
 <translation id="7480076846077373008">可對宣傳內容執行的其他動作</translation>
-<translation id="7173394303099002355">獲得 Brave 最強大的安全防護</translation>
+<translation id="1158507424343802366">獲得 Wryling 最強大的安全防護</translation>
 <translation id="7481312909269577407">往前</translation>
 <translation id="7483732342458943943">這個連結無效</translation>
 <translation id="7484645889979462775">一律不儲存這個網站的密碼</translation>
-<translation id="7914076745371236476">你可以在這部裝置上使用 Brave 密碼管理工具儲存的所有密碼金鑰 (這項操作只需執行一次)。</translation>
+<translation id="3172962224062640933">你可以在這部裝置上使用 Wryling 密碼管理工具儲存的所有密碼金鑰 (這項操作只需執行一次)。</translation>
 <translation id="7486587904541741388">節省量：大</translation>
 <translation id="7487141338393529395">開啟進階拼字檢查功能</translation>
 <translation id="7487969577036436319">未安裝任何元件</translation>
@@ -8388,7 +8388,7 @@
 <translation id="7516641972665276706">page down 鍵</translation>
 <translation id="7516981202574715431">「<ph name="APP_NAME"/>」已暫停</translation>
 <translation id="9075033240840348521">使用 Brave 的預設方式加密 Brave 帳戶中的密碼</translation>
-<translation id="385431757934284424">你的家庭成員目前無法接收密碼。請要求他們更新 Brave 並同步處理密碼。</translation>
+<translation id="8558089421968810910">你的家庭成員目前無法接收密碼。請要求他們更新 Wryling 並同步處理密碼。</translation>
 <translation id="7518079994230200553">目前無法使用這個選項。</translation>
 <translation id="752098910262610337">顯示捷徑</translation>
 <translation id="7521430434164837205">Microsoft 365 檔案</translation>
@@ -8457,7 +8457,7 @@
 <translation id="7583948862126372804">計數</translation>
 <translation id="7585106857920830898">正在檢查下載內容是否符合貴機構的安全性政策...</translation>
 <translation id="7585490016012953607">備援密碼：最多可暫時儲存 3 個月</translation>
-<translation id="8201192017531062522">在 Brave 應用程式開啟的狀態下保持 Brave 繼續執行。</translation>
+<translation id="1532744110192127389">在 Wryling 應用程式開啟的狀態下保持 Wryling 繼續執行。</translation>
 <translation id="7587297195142686341">Gemini 可以替你登入</translation>
 <translation id="7587806318633605613">建議字詞記錄</translation>
 <translation id="7589448773774086276">使用目前分頁建立新的分割畫面</translation>
@@ -8522,11 +8522,11 @@
 <translation id="764178579712141045">已新增 <ph name="USER_EMAIL"/></translation>
 <translation id="7642778300616172920">隱藏敏感內容</translation>
 <translation id="7645176681409127223"><ph name="USER_NAME"/> (擁有者)</translation>
-<translation id="7195740973702314115">登入 Brave 後，可以使用 Brave 密碼管理工具儲存密碼</translation>
+<translation id="468780285679255462">登入 Wryling 後，可以使用 Wryling 密碼管理工具儲存密碼</translation>
 <translation id="7646499124171960488">在你造訪不安全的公開網站時發出警告</translation>
 <translation id="7646772052135772216">密碼同步功能無法正常運作</translation>
 <translation id="7647403192093989392">最近沒有活動</translation>
-<translation id="3350442560878669560">Brave 正在驗證安裝套件</translation>
+<translation id="867511901854381903">Wryling 正在驗證安裝套件</translation>
 <translation id="7648048654005891115">按鍵對映樣式</translation>
 <translation id="7649070708921625228">說明</translation>
 <translation id="7649954700951153978">在 iOS 裝置上提醒我</translation>
@@ -8560,7 +8560,7 @@
 <translation id="766635563210446220">無法匯入密碼，請檢查「<ph name="FILENAME"/>」的格式是否正確。<ph name="BEGIN_LINK"/>瞭解詳情<ph name="END_LINK"/></translation>
 <translation id="7666966001957552011">針對已知的危險網站、下載內容和擴充功能發出警告。你隨時可以關閉這些警告。如果內容沒問題卻收到警告，可以<ph name="BEGIN_LINK"/>回報錯誤<ph name="END_LINK"/>。</translation>
 <translation id="7668205084604701639">Office 檔案設定</translation>
-<translation id="2190324512336800037">前往 <ph name="ACCOUNT"/> 的 Brave 密碼管理員進行更新</translation>
+<translation id="2583370393244501496">前往 <ph name="ACCOUNT"/> 的 Wryling 密碼管理員進行更新</translation>
 <translation id="7668648754769651616">無障礙功能讓裝置更容易使用。如要存取快速設定，請選取畫面底部的時間。</translation>
 <translation id="7669620291129890197">你的裝置可以看見</translation>
 <translation id="7669825497510425694">{NUM_ATTEMPTS,plural, =1{PIN 碼不正確。你還可以再試 1 次。}other{PIN 碼不正確。你還可以再試 # 次。}}</translation>
@@ -8750,7 +8750,7 @@
 <translation id="7807711621188256451">一律允許 <ph name="HOST"/> 存取你的攝影機</translation>
 <translation id="7810202088502699111">系統已封鎖此網頁的彈出式視窗。</translation>
 <translation id="7810367892333449285">輸入的內容應採用以下格式：<ph name="LPA_0"/>$<ph name="LPA_1"/>SM-DP+ &lt;位址&gt;<ph name="LPA_2"/>$<ph name="LPA_3"/>&lt;選填的相符 ID&gt;<ph name="LPA_4"/></translation>
-<translation id="5014491767627896944">Brave 的開發受惠於 Brave 開放原始碼計畫與其他<ph name="BEGIN_HIGHLIGHT"/>開放原始碼<ph name="END_HIGHLIGHT"/>軟體。</translation>
+<translation id="8386624919122501557">Brave 的開發受惠於 Brave 開放原始碼計畫與其他<ph name="BEGIN_HIGHLIGHT"/>開放原始碼<ph name="END_HIGHLIGHT"/>軟體。</translation>
 <translation id="7811263553491007091">請再試一次，或選取下方其中一個先前生成的主題。</translation>
 <translation id="7811926937048662341">在這裡按一下滑鼠右鍵，然後選取「垂直顯示分頁」</translation>
 <translation id="7811986034759500329">在系統設定中設定</translation>
@@ -8760,7 +8760,7 @@
 <translation id="7815583197273433531">編輯「<ph name="EXTENSION_NAME"/>」的快速鍵 <ph name="SHORTCUT"/></translation>
 <translation id="7815680994978050279">已封鎖危險下載內容</translation>
 <translation id="7818135753970109980">已新增以下主題：<ph name="EXTENSION_NAME"/></translation>
-<translation id="5224689297916943449">擴充功能是 Brave 的外掛程式，可助你事半功倍</translation>
+<translation id="3964226695702299610">擴充功能是 Wryling 的外掛程式，可助你事半功倍</translation>
 <translation id="7819968103441522596">還原(&amp;R)</translation>
 <translation id="7820400255539998692">請刪除「<ph name="FILENAME"/>」，以免這部裝置的其他使用者看到你的密碼</translation>
 <translation id="7820561748632634942">要指派其他切換工具嗎？</translation>
@@ -9055,13 +9055,13 @@
 <translation id="8037801708772278989">剛剛檢查</translation>
 <translation id="8038111231936746805">(預設)</translation>
 <translation id="8039151841428107077">{NUM_OF_FILES,plural, =1{正在將 1 個檔案複製到「<ph name="CLOUD_PROVIDER"/>」}other{正在將 {NUM_OF_FILES} 個檔案複製到「<ph name="CLOUD_PROVIDER"/>」}}</translation>
-<translation id="6409220262307200557">ChromeOS 版本更新後，這個 Brave 應用程式就會停止運作，請儲存要保留的所有應用程式資料。如要瞭解可用的選項，請與應用程式開發人員或 IT 支援團隊聯絡。</translation>
+<translation id="5802820480808479038">ChromeOS 版本更新後，這個 Wryling 應用程式就會停止運作，請儲存要保留的所有應用程式資料。如要瞭解可用的選項，請與應用程式開發人員或 IT 支援團隊聯絡。</translation>
 <translation id="804060420274176929">在 iOS 裝置上提醒我</translation>
 <translation id="8041089156583427627">提供意見</translation>
 <translation id="8041093619605951337">開心</translation>
 <translation id="8041267120753677077">串流手機的應用程式</translation>
 <translation id="8042142357103597104">文字不透明度</translation>
-<translation id="3111556746481227182">系統會先在裝置上將密碼加密，再儲存至 Brave 密碼管理員</translation>
+<translation id="2338836979057110587">系統會先在裝置上將密碼加密，再儲存至 Wryling 密碼管理員</translation>
 <translation id="8044899503464538266">慢</translation>
 <translation id="5462539695964427820">已透過 Brave 資訊主頁停止同步功能。</translation>
 <translation id="8045752459073395242">進一步瞭解如何將生成式 AI 用於工作</translation>
@@ -9106,7 +9106,7 @@
 <translation id="8077120325605624147">你造訪的網站都能對你顯示所有廣告</translation>
 <translation id="8077749280021225629">一併刪除瀏覽資料 (<ph name="URL"/>)。這項操作會將你登出 <ph name="DOMAIN"/>。<ph name="LEARN_MORE"/></translation>
 <translation id="80790299200510644">圖片搜尋</translation>
-<translation id="7239633109246708042">Brave 密碼管理工具可以提高帳戶密碼的強度，並儲存在 <ph name="EMAIL"/> 中。<ph name="PASSWORD_CHANGE"/></translation>
+<translation id="7245967958317519468">Wryling 密碼管理工具可以提高帳戶密碼的強度，並儲存在 <ph name="EMAIL"/> 中。<ph name="PASSWORD_CHANGE"/></translation>
 <translation id="80798452873915119">網站可以要求管理所有螢幕上的視窗</translation>
 <translation id="8080028325999236607">關閉所有分頁</translation>
 <translation id="8080530871547404884">在你關閉這個網站的所有分頁前，<ph name="ORIGIN"/> 都可以查看「<ph name="FILENAME"/>」，並自行建立副本</translation>
@@ -9157,7 +9157,7 @@
 <translation id="8114925369073821854">「<ph name="APP_NAME"/>」的麥克風權限</translation>
 <translation id="8116497846156149">請家長核准</translation>
 <translation id="8118276691321086429"><ph name="PASSWORD_MANAGER_BRAND"/>會記住你的登入資訊，並在情況允許時自動登入。如果關閉這項功能，系統每次都會詢問你是否要登入。</translation>
-<translation id="177808131755847449">這個擴充功能可能不安全，因此遭到 Brave 停用。</translation>
+<translation id="4606044028490598627">這個擴充功能可能不安全，因此遭到 Wryling 停用。</translation>
 <translation id="8118448640060360549">{EXTENSIONS_COUNT,plural, =1{# 個書籤}other{# 個書籤}}</translation>
 <translation id="8118488170956489476">你的<ph name="BEGIN_LINK"/>瀏覽器是由貴機構所管理<ph name="END_LINK"/></translation>
 <translation id="8118515372935001629">螢幕重新整理頻率</translation>
@@ -9200,7 +9200,7 @@
 <translation id="814870937590541483">可對 Brave 雲端硬碟檔案執行的其他操作</translation>
 <translation id="8148760431881541277">限制登入</translation>
 <translation id="8149596686567059924">更新套件無法解壓縮。</translation>
-<translation id="932155016683443951">如要在手機上使用儲存的密碼，請下載 Brave iOS 版，然後登入 Brave 帳戶。</translation>
+<translation id="7217558756211206193">如要在手機上使用儲存的密碼，請下載 Brave iOS 版，然後登入 Brave 帳戶。</translation>
 <translation id="8150396590017071059">變更密碼管理工具 PIN 碼</translation>
 <translation id="8151057139207656239">已複製版本詳細資料</translation>
 <translation id="815114315010033526">改用 QR 圖碼</translation>
@@ -9243,7 +9243,7 @@
 <translation id="8187447507633277520">填入密碼時使用指紋驗證</translation>
 <translation id="8188389033983459049">檢查裝置設定並開啟藍牙功能，以便繼續操作</translation>
 <translation id="8188742492803591566">輸入顯示在 Chromecast 或電視上的存取碼，即可開始投放畫面。</translation>
-<translation id="572432499443011145">連不上 Brave 密碼管理工具</translation>
+<translation id="5613558594377719760">連不上 Wryling 密碼管理工具</translation>
 <translation id="8189306097519446565">學校帳戶</translation>
 <translation id="8191230140820435481">管理你的應用程式、擴充功能和主題</translation>
 <translation id="8192944472786724289">「<ph name="APP_NAME"/>」要求分享螢幕內容。</translation>
@@ -9323,7 +9323,7 @@
 <translation id="8248050856337841185">貼上(&amp;P)</translation>
 <translation id="8248381369318572865">存取你的麥克風及分析語音內容</translation>
 <translation id="8248442552146815926">{NUM_COOKIES,plural, =1{1 個 Cookie}other{{NUM_COOKIES} 個 Cookie}}</translation>
-<translation id="3105590366897772437">Brave 實用訣竅</translation>
+<translation id="5456551355833319124">Wryling 實用訣竅</translation>
 <translation id="8249239468199142122">省電模式</translation>
 <translation id="8250210000648910632">儲存空間已用盡</translation>
 <translation id="8251441930213048644">立即更新</translation>
@@ -9379,7 +9379,7 @@
 <translation id="8288032458496410887">解除安裝「<ph name="APP"/>」...</translation>
 <translation id="8288553158681886528">擷取 PDF 中的文字</translation>
 <translation id="8289128870594824098">磁碟大小</translation>
-<translation id="2265163333261443610">下載 Brave</translation>
+<translation id="5003181522013475477">下載 Wryling</translation>
 <translation id="8293206222192510085">新增書籤</translation>
 <translation id="8293957715257389063">深度搜尋分頁內容</translation>
 <translation id="8294431847097064396">來源</translation>
@@ -9387,7 +9387,7 @@
 <translation id="8295450130892483256">安裝 Microsoft 365</translation>
 <translation id="8297292446125062288">HID 設定</translation>
 <translation id="8298429963694909221">你現在可以透過 <ph name="DEVICE_TYPE"/> 接收手機上的通知。在 <ph name="DEVICE_TYPE"/> 上關閉通知也會關閉手機上的通知。請確認你的手機在附近，且已開啟藍牙功能和 Wi-Fi。</translation>
-<translation id="1074485905526403616">新增 Brave 密碼管理工具的捷徑</translation>
+<translation id="7930908256018939896">新增 Wryling 密碼管理工具的捷徑</translation>
 <translation id="8299319456683969623">你目前處於離線狀態。</translation>
 <translation id="829937697336000302">提升效率</translation>
 <translation id="8299951061833867575">Wi-Fi、行動數據</translation>
@@ -9555,7 +9555,7 @@
 <translation id="8434109185104929038">閱讀角落</translation>
 <translation id="8434837876193928924">分頁群組詳細資料</translation>
 <translation id="8435951291982398331">{NUM_TABS,plural, =1{修正這個分頁}other{修正這些分頁}}</translation>
-<translation id="1720111858957434186">設定 Brave 密碼管理工具的英數字元備援 PIN 碼</translation>
+<translation id="4122874379521992029">設定 Wryling 密碼管理工具的英數字元備援 PIN 碼</translation>
 <translation id="8437209419043462667">美式配置</translation>
 <translation id="8438518537545182071">家長監護設定現在會進一步守護你的上網安全</translation>
 <translation id="8438566539970814960">改善搜尋和瀏覽體驗</translation>
@@ -9587,13 +9587,13 @@
 <translation id="8459333762072051247">登入狀態</translation>
 <translation id="8459596896605939741">提醒：隨時隨地享有最佳線上購物體驗</translation>
 <translation id="8460448946170646641">查看最重要的隱私權和安全性控制項</translation>
-<translation id="2380462972976700566">為節省記憶體，Brave 已移除部分內容</translation>
+<translation id="7717824985119563101">為節省記憶體，Wryling 已移除部分內容</translation>
 <translation id="8460932807646981183">管理搜尋引擎和網站搜尋</translation>
 <translation id="8461572080432076264">朗讀這頁內容</translation>
 <translation id="8461914792118322307">Proxy</translation>
 <translation id="8461973047386722744">找不到密碼</translation>
 <translation id="846205103980293931">{NUM_TABS,plural, =1{含有 1 個項目的清單方塊}other{含有 {NUM_TABS} 個項目的清單方塊}}</translation>
-<translation id="1212036593149207916">在 Brave 設定檔中管理密碼金鑰</translation>
+<translation id="2444416606050412192">在 Wryling 設定檔中管理密碼金鑰</translation>
 <translation id="8463955938112983119"><ph name="PLUGIN_NAME"/> 已停用。</translation>
 <translation id="846399539692727039">執行 ChromeOS Flex 診斷測試</translation>
 <translation id="8465252176946159372">無效</translation>
@@ -9608,7 +9608,7 @@
 <translation id="8473863474539038330">地址和其他資訊</translation>
 <translation id="847433688444405067">跨裝置瀏覽</translation>
 <translation id="8474378002946546633">允許通知</translation>
-<translation id="2015014930243978107">電腦中其他程式所新增的擴充功能可能會變更 Brave 的運作方式。</translation>
+<translation id="1410568059039013240">電腦中其他程式所新增的擴充功能可能會變更 Wryling 的運作方式。</translation>
 <translation id="8476408756881832830">ChromeVox 朗讀時暫停播放音訊</translation>
 <translation id="8476630458761527665">請輸入檔案密碼</translation>
 <translation id="8476942730579767658">視窗和桌面</translation>
@@ -9634,7 +9634,7 @@
 <translation id="849488240089599592">返回近期下載內容</translation>
 <translation id="8496717697661868878">執行這個外掛程式</translation>
 <translation id="8497219075884839166">Windows 公用程式</translation>
-<translation id="4310099790173688345">透過 Brave 儲存</translation>
+<translation id="5071155148309447758">透過 Wryling 儲存</translation>
 <translation id="8498214519255567734">讓你在光線昏暗的環境下更容易看清畫面內容或閱讀文字</translation>
 <translation id="8499083585497694743">開啟麥克風</translation>
 <translation id="8500044868721690197">這個網站無法控制 MIDI 裝置及重設程式</translation>
@@ -9759,7 +9759,7 @@
 <translation id="8597845839771543242">屬性格式：</translation>
 <translation id="8598249292448297523">列印</translation>
 <translation id="8600362954032151088">可以在 <ph name="GOOGLE_PASSWORD_MANAGER"/>調整密碼和密碼金鑰的設定</translation>
-<translation id="6637045053447935202">電腦中其他程式所新增的應用程式可能會變更 Brave 的運作方式。</translation>
+<translation id="8642399151949912011">電腦中其他程式所新增的應用程式可能會變更 Wryling 的運作方式。</translation>
 <translation id="7765260303733194693">Brave 會使用更多資料 (例如網址、網頁內容樣本、系統資訊)，更快且更準確地偵測威脅</translation>
 <translation id="860399903490378651">關閉這個畫面</translation>
 <translation id="8605428685123651449">SQLite 記憶體使用量</translation>
@@ -9798,7 +9798,7 @@
 <translation id="8631032106121706562">朵朵</translation>
 <translation id="8632104508818855045">你先前已選擇不允許 <ph name="ORIGIN"/> 上的任何擴充功能</translation>
 <translation id="8633025649649592204">近期活動</translation>
-<translation id="423702950449472136">2022 年 12 月之後，舊版 Brave 應用程式將無法在 Linux 裝置上開啟。你可以自行檢查是否有可用的新版本。</translation>
+<translation id="1791127122244433652">2022 年 12 月之後，舊版 Wryling 應用程式將無法在 Linux 裝置上開啟。你可以自行檢查是否有可用的新版本。</translation>
 <translation id="8634348081024879304">你將無法再透過 Google Pay 使用虛擬卡片。<ph name="BEGIN_LINK"/>瞭解虛擬卡片<ph name="END_LINK"/></translation>
 <translation id="8634703204743010992">ChromeOS 虛擬鍵盤</translation>
 <translation id="8635399646025169806">要保留分頁群組嗎？</translation>
@@ -9834,10 +9834,10 @@
 <translation id="865857184419171576">將字幕翻譯為</translation>
 <translation id="865936634714975126">在網址中新增查詢參數，以便在網頁載入時選取類型，例如 chrome://device-log/?types=Bluetooth,USB</translation>
 <translation id="8659609431223166673">視窗已向下移動</translation>
-<translation id="1488895872893658122">你可以使用畫面上的日曆輕鬆瀏覽 Outlook 行事曆中的下一個活動。
+<translation id="7290653826136040271">你可以使用畫面上的日曆輕鬆瀏覽 Outlook 行事曆中的下一個活動。
         <ph name="BREAK"/>
        <ph name="BREAK"/>
-       你可以透過資訊卡選單管理設定，也可以前往「自訂 Brave」查看更多選項。</translation>
+       你可以透過資訊卡選單管理設定，也可以前往「自訂 Wryling」查看更多選項。</translation>
 <translation id="8662474268934425487">登入 <ph name="SITE_ETLD_PLUS_ONE"/></translation>
 <translation id="8662671328352114214">加入 <ph name="TYPE"/> 網路</translation>
 <translation id="8662795692588422978">人員</translation>
@@ -9874,7 +9874,7 @@
 <translation id="8682730193597992579"><ph name="PRINTER_NAME"/> 已連接且準備就緒</translation>
 <translation id="8683720831806477407">更新工具範圍</translation>
 <translation id="8684471948980641888">允許透過計量付費網路進行同步處理</translation>
-<translation id="4117118854497824215">你的 Brave 設定檔</translation>
+<translation id="7564690708819959309">你的 Wryling 設定檔</translation>
 <translation id="8685882652128627032">點選即可開啟「新增網站搜尋引擎」對話方塊</translation>
 <translation id="8686142379631285985">目前登入的帳戶：<ph name="BEGIN_BOLD"/><ph name="DRIVE_ACCOUNT_EMAIL"/><ph name="END_BOLD"/></translation>
 <translation id="8687103160920393343">取消下載 <ph name="FILE_NAME"/></translation>
@@ -9882,7 +9882,7 @@
 <translation id="8687774873995698516">一律禁止 <ph name="HOST"/> 使用 ID 播放受保護的內容</translation>
 <translation id="8688672835843460752">可用空間</translation>
 <translation id="8689811383248488428">拒絕並關閉設定檔</translation>
-<translation id="4541401414755838742">允許 Brave 自動變更「<ph name="WEBSITE"/>」的密碼</translation>
+<translation id="4057479308397800545">允許 Wryling 自動變更「<ph name="WEBSITE"/>」的密碼</translation>
 <translation id="8689998525144040851">100</translation>
 <translation id="8690129572193755009">網站可以要求處理通訊協定</translation>
 <translation id="869144235543261764">這個分頁正在使用子母畫面模式播放影片</translation>
@@ -9919,7 +9919,7 @@
 <translation id="8713761545374852805">協助你撰寫評論、電子郵件、社群媒體貼文、文章等內容</translation>
 <translation id="8714731224866194981">查看手機上的相片和應用程式，以及快速回覆訊息通知。</translation>
 <translation id="8714838604780058252">背景圖形</translation>
-<translation id="5891814591156187199">選擇裝置，然後在該裝置上開啟 Brave 即可查看頁面。</translation>
+<translation id="1850636781542949515">選擇裝置，然後在該裝置上開啟 Wryling 即可查看頁面。</translation>
 <translation id="8715480913140015283">背景分頁正在使用你的攝影機</translation>
 <translation id="8716050156658570300">網站可以要求使用動作感應器和光度感應器</translation>
 <translation id="8716067129332848360">檢視整理工具</translation>
@@ -10050,7 +10050,7 @@
 <translation id="8819510664278523111">裝置 EID 為 <ph name="EID_NUMBER"/>，裝置 IMEI 為 <ph name="IMEI_NUMBER"/>，裝置序號為 <ph name="SERIAL_NUMBER"/>。你可以使用這些號碼啟用服務。</translation>
 <translation id="8820817407110198400">書籤</translation>
 <translation id="8821045908425223359">自動設定 IP 位址</translation>
-<translation id="2361985035137943119">你的帳戶無法存取 Brave 內建 Gemini</translation>
+<translation id="1177360087205071213">你的帳戶無法存取 Wryling 內建 Gemini</translation>
 <translation id="8823514049557262177">複製連結文字(&amp;X)</translation>
 <translation id="8823704566850948458">建議密碼...</translation>
 <translation id="8823963789776061136">您也可以選取印表機 PPD。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
@@ -10165,8 +10165,8 @@
 <translation id="2684652081942622950">Brave 帳戶</translation>
 <translation id="8912810933860534797">啟用自動掃描</translation>
 <translation id="8913485523736543337">更新工具</translation>
-<translation id="908256400270698357">在 <ph name="BEGIN_LINK"/>passwords.google.com<ph name="END_LINK"/> 登入帳戶後，即使不是使用 Brave 或 Android，也能查看自己的密碼</translation>
-<translation id="4805806622840861220">重新啟動 Brave</translation>
+<translation id="4979643858549519655">在 <ph name="BEGIN_LINK"/>passwords.google.com<ph name="END_LINK"/> 登入帳戶後，即使不是使用 Wryling 或 Android，也能查看自己的密碼</translation>
+<translation id="2036272753168211127">重新啟動 Wryling</translation>
 <translation id="8915307125957890427">在分頁標籤上按一下滑鼠右鍵，然後依序選取「將分頁加入群組」和「新群組」</translation>
 <translation id="8915370057835397490">正在載入建議</translation>
 <translation id="8917490105272468696">啟用同步功能</translation>
@@ -10278,7 +10278,7 @@
 <translation id="8993030412405061612">工作完成</translation>
 <translation id="8993198843374358393">複製「<ph name="CERT_NAME"/>」的憑證雜湊</translation>
 <translation id="8993737615451556423">提供可調整朗讀速度以及暫停語音朗讀的控制項</translation>
-<translation id="591917183749839690">如果 Brave 發現你的密碼曾在公開的資料侵害事件中外洩，可能會在你登入時建議變更密碼</translation>
+<translation id="8588872875448377133">如果 Wryling 發現你的密碼曾在公開的資料侵害事件中外洩，可能會在你登入時建議變更密碼</translation>
 <translation id="899384117894244799">移除受限制的使用者</translation>
 <translation id="8993853206419610596">展開所有要求</translation>
 <translation id="899403249577094719">Netscape 憑證基底網址</translation>
@@ -10347,7 +10347,7 @@
 <translation id="9038489124413477075">未命名的資料夾</translation>
 <translation id="9039014462651733343">{NUM_ATTEMPTS,plural, =1{你還可以再試 1 次。}other{你還可以再試 # 次。}}</translation>
 <translation id="9040661932550800571">要更新 <ph name="ORIGIN"/> 的密碼嗎？</translation>
-<translation id="6583236347997565045">如要使用 Brave 密碼管理工具儲存高強度密碼，請登入 Brave</translation>
+<translation id="5837934549740960208">如要使用 Wryling 密碼管理工具儲存高強度密碼，請登入 Wryling</translation>
 <translation id="9041692268811217999">管理員停用了電腦本機檔案的存取權</translation>
 <translation id="9041881059840744611">關於學校設定檔</translation>
 <translation id="904224458472510106">這項操作無法復原</translation>
@@ -10428,7 +10428,7 @@
 <translation id="910000385680858937">已允許 – <ph name="PERMISSION_DETAILS"/>。請將麥克風連接到裝置。</translation>
 <translation id="9100416672768993722">如要切換到上次使用的輸入法，請按下 <ph name="BEGIN_SHORTCUT"/><ph name="BEGIN_CTRL"/>Ctrl<ph name="END_CTRL"/><ph name="SEPARATOR"/><ph name="BEGIN_SPACE"/>Space<ph name="END_SPACE"/><ph name="END_SHORTCUT"/> 鍵</translation>
 <translation id="9100765901046053179">進階設定</translation>
-<translation id="3297683531718793313">如要投放，請前往「<ph name="IDS_MEDIA_ROUTER_LOCAL_DISCOVERY_PERMISSION_REJECTED_LINK"/>」&gt;「區域網路」&gt;「Brave」並授予 Brave 權限</translation>
+<translation id="50299853723079745">如要投放，請前往「<ph name="IDS_MEDIA_ROUTER_LOCAL_DISCOVERY_PERMISSION_REJECTED_LINK"/>」&gt;「區域網路」&gt;「Wryling」並授予 Wryling 權限</translation>
 <translation id="9103868373786083162">按下即可返回，內容選單會顯示歷史記錄</translation>
 <translation id="9107096627210171112">翻譯(&amp;R)...</translation>
 <translation id="9107624673674616016">彩色鉛筆</translation>
@@ -10458,7 +10458,7 @@
 <translation id="9117030152748022724">管理應用程式</translation>
 <translation id="9117446363580518867">一律隱藏</translation>
 <translation id="9120761757252614786">自訂工具列</translation>
-<translation id="8429962505443892563">下載 Brave iOS 版，在手機上存取你的分頁、書籤和密碼。</translation>
+<translation id="4781214144575706176">下載 Wryling iOS 版，在手機上存取你的分頁、書籤和密碼。</translation>
 <translation id="9121814364785106365">在固定分頁中開啟</translation>
 <translation id="9122099953033442610">{MULTI_GROUP_TAB_COUNT,plural, =0{要關閉分頁並刪除群組嗎？}=1{要關閉分頁並刪除群組嗎？}other{要關閉分頁並刪除群組嗎？}}</translation>
 <translation id="9123287046453017203">這部裝置不是最新版本</translation>
@@ -10521,7 +10521,7 @@
 <translation id="9170061643796692986">目前的瀏覽權限設為「所有聯絡人」</translation>
 <translation id="9170766151357647548">你的裝置 EID 是 <ph name="EID_NUMBER"/>。這個編號可用於啟用服務。</translation>
 <translation id="9170848237812810038">取消(&amp;U)</translation>
-<translation id="2060128809251156338">電腦中其他程式所新增的主題可能會變更 Brave 的運作方式。</translation>
+<translation id="6656888234505288335">電腦中其他程式所新增的主題可能會變更 Wryling 的運作方式。</translation>
 <translation id="9172270007201309670">字型已放大</translation>
 <translation id="917350715406657904">你已達到貴家長為「<ph name="APP_NAME"/>」設定的使用時間限制。你明天可以使用 <ph name="TIME_LIMIT"/>。</translation>
 <translation id="9174854240439014335">分割畫面可拖曳到視窗左側或右側</translation>
@@ -10570,7 +10570,7 @@
 <translation id="9220525904950070496">移除帳戶</translation>
 <translation id="9220723036554088545">上傳檔案</translation>
 <translation id="9220820413868316583">請移開手指，然後再試一次。</translation>
-<translation id="142389341645668510">自訂 Brave</translation>
+<translation id="9094133852008074140">自訂 Wryling</translation>
 <translation id="9222839391870847423">時間長度：<ph name="DURATION"/></translation>
 <translation id="9223158240932249417">不允許顯示文字動作</translation>
 <translation id="923306663772315007">傳送到你的裝置(&amp;D)</translation>
@@ -10598,7 +10598,7 @@
 <translation id="939736085109172342">新增資料夾</translation>
 <translation id="942296794412775122">開啟/關閉麥克風</translation>
 <translation id="942488123151518958">暫停 (K 鍵)</translation>
-<translation id="5770515304879261338"><ph name="APP_NAME"/> 正在共用 Brave 分頁和音訊。</translation>
+<translation id="8882675094816400392"><ph name="APP_NAME"/> 正在共用 Wryling 分頁和音訊。</translation>
 <translation id="945522503751344254">提供意見</translation>
 <translation id="947156494302904893">你造訪的網站可驗證你是真人，而不是機器人</translation>
 <translation id="947329552760389097">檢查元素 (&amp;I)</translation>

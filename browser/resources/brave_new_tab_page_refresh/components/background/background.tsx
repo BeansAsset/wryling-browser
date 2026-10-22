@@ -7,6 +7,15 @@ import * as React from 'react'
 
 import { loadImage } from '../../lib/image_loader'
 import { RichMediaBackground } from './rich_media_background'
+import {
+  findWallpaper,
+  isWallpaperValue,
+} from '../../lib/wryling_wallpapers'
+import {
+  WallpaperCanvas,
+  useDarkMode,
+  useWallpaperColor,
+} from '../wryling_dashboard/wallpaper'
 
 import {
   useCurrentBackground,
@@ -18,6 +27,13 @@ import { style } from './background.style'
 export function Background() {
   const actions = useBackgroundActions()
   const currentBackground = useCurrentBackground()
+
+  React.useEffect(() => {
+    // Wryling wallpapers count as imagery: cards over them use web glass.
+    document.documentElement.toggleAttribute('data-wry-imagery',
+      !!currentBackground && (currentBackground.type !== 'color'
+        || isWallpaperValue(currentBackground.cssValue)))
+  }, [currentBackground])
 
   function renderBackground() {
     if (!currentBackground) {
@@ -40,11 +56,30 @@ export function Background() {
       case 'sponsored-rich-media':
         return <RichMediaBackground background={currentBackground} />
       case 'color':
+        if (isWallpaperValue(currentBackground.cssValue)) {
+          return <WrylingWallpaper value={currentBackground.cssValue} />
+        }
         return <ColorBackground colorValue={currentBackground.cssValue} />
     }
   }
 
   return <div data-css-scope={style.scope}>{renderBackground()}</div>
+}
+
+// One of Wryling's wallpapers, drawn in the space's colour.
+function WrylingWallpaper(props: { value: string }) {
+  const color = useWallpaperColor()
+  const dark = useDarkMode()
+  React.useEffect(() => setBackgroundVariable(''), [])
+  return (
+    <div className='color-background'>
+      <WallpaperCanvas
+        wallpaper={findWallpaper(props.value)}
+        color={color}
+        dark={dark}
+      />
+    </div>
+  )
 }
 
 function ColorBackground(props: { colorValue: string }) {

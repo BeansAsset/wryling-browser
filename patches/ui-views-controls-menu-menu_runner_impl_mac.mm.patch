@@ -1,0 +1,17 @@
+diff --git a/ui/views/controls/menu/menu_runner_impl_mac.mm b/ui/views/controls/menu/menu_runner_impl_mac.mm
+index 1b5d97c3f6b49dbd4daa6dff81e44b1e3d56e283..baa57da99fef924846b8146961dfb3d94eaf6ef4 100644
+--- a/ui/views/controls/menu/menu_runner_impl_mac.mm
++++ b/ui/views/controls/menu/menu_runner_impl_mac.mm
+@@ -17,6 +17,12 @@ MenuRunnerImplInterface* MenuRunnerImplInterface::Create(
+     ui::MenuModel* menu_model,
+     int32_t run_types,
+     base::RepeatingClosure on_menu_closed_callback) {
++  // Use the shared Views menu surface so context menus get Wryling's tint and
++  // native glass backing too. Older systems retain their existing native path.
++  if (@available(macOS 26, *)) {
++    return new MenuRunnerImplAdapter(menu_model,
++                                     std::move(on_menu_closed_callback));
++  }
+   if ((run_types & MenuRunner::CONTEXT_MENU) &&
+       !(run_types & (MenuRunner::IS_NESTED))) {
+     return new MenuRunnerImplMac(menu_model,

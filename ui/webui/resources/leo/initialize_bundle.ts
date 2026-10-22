@@ -3,6 +3,8 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
+import { installWrylingComponents } from '$web-common/wryling_components'
+
 // Import web components here. They will be available on the page
 // as <leo-{component}></leo-{component}>.
 import '@brave/leo/web-components/alert'
@@ -65,3 +67,5 @@ if (!/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
       ColorChangeUpdater.forDocument().start();
     });
 }
+
+void installWrylingComponents()

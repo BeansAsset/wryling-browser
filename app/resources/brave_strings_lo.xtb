@@ -104,7 +104,7 @@
 <translation id="2137162749895930932">ປິດໜ້າຈໍແປພາສາ</translation>
 <translation id="5789330946301045610">Brave ບລັອກການດາວໂຫຼດນີ້ ເນື່ອງຈາກເວັບໄຊບໍ່ໄດ້ໃຊ້ການເຊື່ອມຕໍ່ທີ່ປອດໄພ ແລະ ໄຟລ໌ອາດມີການດັດແປງ</translation>
 <translation id="2170098639895543546">ເລືອກສິ່ງໃດກໍໄດ້ໃນໜ້າ</translation>
-<translation id="142389341645668510">ປັບແຕ່ງ Brave</translation>
+<translation id="9094133852008074140">ປັບແຕ່ງ Wryling</translation>
 <translation id="2174917724755363426">ການຕິດຕັ້ງບໍ່ສຳເລັດ. ທ່ານແນ່ໃຈບໍ່ວ່າທ່ານຕ້ອງການຍົກເລີກ?</translation>
 <translation id="8745514854244955877">Brave - ການເຂົ້າສູ່ລະບົບເຄືອຂ່າຍ - <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">ກວດສອບການອັບເດດຜິດພາດ: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -203,7 +203,7 @@
 <translation id="3137969841538672700">ລາກເພື່ອຊອກຫາ</translation>
 <translation id="8372436892102763334">ແຖບນີ້ກຳລັງໃຊ້ຊັບພະຍາກອນເພີ່ມເຕີມ. ເພື່ອປັບປຸງປະສິດທິພາບຂອງທ່ານ, ໃຫ້ Brave ຊ່ວຍເຮັດໃຫ້ມັນບໍ່ເຮັດວຽກ.</translation>
 <translation id="5949068186379578553">ເພື່ອແບ່ງປັນໜ້າຈໍຂອງທ່ານ, ໃຫ້ອະນຸຍາດການບັນທຶກໜ້າຈໍສຳລັບ Brave ໃນການຕັ້ງຄ່າລະບົບ</translation>
-<translation id="4805806622840861220">ປິດແລ້ວເປີດ Brave ຄືນໃໝ່</translation>
+<translation id="2036272753168211127">ປິດແລ້ວເປີດ Wryling ຄືນໃໝ່</translation>
 <translation id="3161522574479303604">ທຸກ​ພາ​ສາ</translation>
 <translation id="1742948938503172561">ປັບແຕ່ງໂປຣໄຟລ໌ Brave ໃໝ່ຂອງທ່ານ</translation>
 <translation id="2430807206104224491">ທ່ານສາມາດສົນທະນາກັບໂໝດ AI ຕໍ່ໄປໄດ້ໂດຍບໍ່ຕ້ອງສະຫຼັບແຖບ. ເພື່ອເລີ່ມຕົ້ນ, ໃຫ້ເຂົ້າສູ່ລະບົບ Brave. ນອກຈາກນີ້, ທ່ານຍັງຈະຮັບລະຫັດຜ່ານ ແລະ ຂໍ້ມູນອື່ນໆໃນອຸປະກອນທຸກເຄື່ອງຂອງທ່ານໄດ້ນຳ.</translation>
@@ -237,7 +237,7 @@
 <translation id="8981774130895723211">ເພື່ອແບ່ງປັນໜ້າຈໍຂອງທ່ານ, ໃຫ້ອະນຸຍາດການບັນທຶກໜ້າຈໍສຳລັບ Brave ໃນການຕັ້ງຄ່າລະບົບ.</translation>
 <translation id="2981961446160697133">ການປົກປ້ອງທີ່ປັບປຸງດີຂຶ້ນຈະປິດການເພີ່ມປະສິດທິພາບ JavaScript ສຳລັບເວັບໄຊທີ່ Brave ບໍ່ຮູ້ຈັກ</translation>
 <translation id="3597003331831379823">ເອີ້ນໃຊ້ການຕັ້ງຄ່າດ້ວຍສິດທິພິເສດລະດັບສູງບໍ່ສຳເລັດ. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">ເຂົ້າສູ່ລະບົບ Brave</translation>
+<translation id="5451434122049588189">ເຂົ້າສູ່ລະບົບ Wryling</translation>
 <translation id="3066805437003400520">ຂໍ້ມູນການທ່ອງເວັບຂອງບຸກຄົນນີ້ຈະຖືກລຶບອອກຈາກອຸປະກອນນີ້. ເພື່ອກູ້ຂໍ້ມູນຄືນມາ, ກະລຸນາເຂົ້າສູ່ລະບົບ Brave ເປັນ <ph name="USER_EMAIL"/>.</translation>
 <translation id="3667616615096815454">ບໍ່ສາມາດຕິດຕັ້ງໄດ້, ເຊີບເວີບໍ່ຮູ້ຈັກແອັບພລິເຄຊັນ.</translation>
 <translation id="1128485277465085828">ໃຊ້ <ph name="BEGIN_LINK"/>ລະຫັດຜ່ານຂອງທ່ານເອງ<ph name="END_LINK"/> ໃນການເຂົ້າລະຫັດຂໍ້ມູນ Brave ທັງໝົດໃນບັນຊີ Brave ຂອງທ່ານ. ວິທີການຈ່າຍເງິນ ແລະ ທີ່ຢູ່ຈາກ Google Pay ຈະບໍ່ໄດ້ຖືກເຂົ້າລະຫັດໄວ້. ປະຫວັດການທ່ອງເວັບຈາກ Brave ຈະບໍ່ຊິ້ງ.</translation>
@@ -280,7 +280,7 @@
 <translation id="4055805654398742145">ຕົວຈັດການລະຫັດຜ່ານ</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{ອົງກອນຂອງທ່ານຈະປິດ Brave ໂດຍອັດຕະໂນມັດເມື່ອບໍ່ມີການນຳໃຊ້ເປັນເວລາ 1 ນາທີ. ລຶບຂໍ້ມູນການທ່ອງເວັບອອກແລ້ວ. ເຊິ່ງຮວມເຖິງປະຫວັດ, ການຕື່ມຂໍ້ມູນອັດຕະໂນມັດ ແລະ ການດາວໂຫຼດ.}other{ອົງກອນຂອງທ່ານຈະປິດ Brave ໂດຍອັດຕະໂນມັດເມື່ອບໍ່ມີການນຳໃຊ້ເປັນເວລາ # ນາທີ. ລຶບຂໍ້ມູນການທ່ອງເວັບອອກແລ້ວ. ເຊິ່ງຮວມເຖິງປະຫວັດ, ການຕື່ມຂໍ້ມູນອັດຕະໂນມັດ ແລະ ການດາວໂຫຼດ.}}</translation>
 <translation id="5794951150713244901">ເຂົ້າໄປໜ້າກ່ຽວກັບ Brave</translation>
-<translation id="10925962326134232">ປັບແຕ່ງ Brave ເພື່ອສ້າງຮູບລັກໃໝ່ໃຫ້ໂປຣແກຣມທ່ອງເວັບຂອງທ່ານ</translation>
+<translation id="908722199085381104">ປັບແຕ່ງ Wryling ເພື່ອສ້າງຮູບລັກໃໝ່ໃຫ້ໂປຣແກຣມທ່ອງເວັບຂອງທ່ານ</translation>
 <translation id="6596295505984504022">ປັບແຕ່ງ Brave ຂອງທ່ານ</translation>
 <translation id="4148957013307229264">ກໍາລັງ​ຕິດ​ຕັ້ງ...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> - ການເຂົ້າສູ່ລະບົບເຄືອຂ່າຍ - Brave</translation>
@@ -383,7 +383,7 @@
 <translation id="5154625106151193600">ສຶກສາວ່າເປັນຫຍັງ Brave ຈຶ່ງບລັອກໄຟລ໌ບາງລາຍການ</translation>
 <translation id="1786715389543715322">ກຳລັງອັບເດດ Brave (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">ອະນຸຍາດການເຂົ້າສູ່ລະບົບ Brave</translation>
-<translation id="5267531627648004734">ເອົາ​ອອກ​ຈາກ Brave</translation>
+<translation id="6125790165673488794">ເອົາ​ອອກ​ຈາກ Wryling</translation>
 <translation id="4620757336635063467">ຫຼຸດປະສິດທິພາບ ແຕ່ເຮັດໃຫ້ Brave ທົນທານຕໍ່ການໂຈມຕີໄດ້ຫຼາຍຂຶ້ນ</translation>
 <translation id="239760341987199724">ຕັ້ງ Brave ເປັນບຣາວ​ເຊີມາດຕະຖານຂອງທ່ານ</translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Brave Beta</translation>
@@ -562,7 +562,7 @@
 <translation id="7024536598735240744">ແຕກໄຟລ໌ຜິດພາດ: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">ຕັ້ງຄ່າ Brave ແບບກຳນົດເອງ</translation>
 <translation id="7047386856539490735">ຜົນການຊອກຫາເຫຼົ່ານີ້ມີປະໂຫຍດຫຼືບໍ່?</translation>
-<translation id="1705567146636171298">ອັບເດດ Brave</translation>
+<translation id="4469722898384489712">ອັບເດດ Wryling</translation>
 <translation id="5499063270485366718">ຖ້າຮູບບໍ່ມີລາຍລະອຽດທີ່ເປັນປະໂຫຍດ, Brave ຈະພະຍາຍາມໃຫ້ລາຍລະອຽດແກ່ທ່ານ. ເພື່ອສ້າງລາຍລະອຽດ, ລະບົບຈະສົ່ງຮູບພາບໃຫ້ Brave.</translation>
 <translation id="1196733835766994012">ສຳຜັດປະສິດທິພາບຂອງ AI ເມື່ອທ່ານໃຊ້ແອັບ Brave ຢູ່ <ph name="DEVICE_TYPE"/> ຂອງທ່ານ</translation>
 <translation id="7166289504510860270">ເຂົ້າເຖິງລະຫັດຜ່ານ, ແຖບ ແລະ ຂໍ້ມູນອື່ນໆຂອງທ່ານໄດ້ທຸກບ່ອນທຸກເວລາດ້ວຍແອັບ Brave ຢູ່ໂທລະສັບຂອງທ່ານ</translation>
@@ -768,7 +768,7 @@ Brave ບໍ່ສາມາດກູ້ການຕັ້ງຄ່າຂອງ�
 <translation id="8965179855019347124">ໃຊ້ເຄື່ອງມື AI ທີ່ດີທີ່ສຸດຂອງ Brave ດ້ວຍແອັບ Brave ຢູ່ໂທລະສັບຂອງທ່ານ</translation>
 <translation id="9049928023195059068">ເຂົ້າສູ່ລະບົບ Brave ເມື່ອທ່ານເຂົ້າສູ່ລະບົບບໍລິການອື່ນໆຂອງ Brave</translation>
 <translation id="4561046754724442504">Brave ຖືກປິດໂດຍອັດຕະໂນມັດ</translation>
-<translation id="5173820533850252773">Brave ຫຼ້າສະໄໝແລ້ວ</translation>
+<translation id="1523936557081546133">Wryling ຫຼ້າສະໄໝແລ້ວ</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave ຈະເປີດຄືນໃໝ່ໃນໜຶ່ງຊົ່ວໂມງ}other{Brave ຈະເປີດຄືນໃໝ່ໃນ # ຊົ່ວໂມງ}}</translation>
 <translation id="9106236359747881194">ເລືອກຂໍ້ຄວາມທີ່ຈະຊອກຫາ</translation>
 <translation id="5190991181158966940">ເພື່ອໄດ້ຮັບການອັບເດດ Brave ໃນອະນາຄົດ, ທ່ານຈະຕ້ອງໃຊ້ Windows 10 ຫຼື ໃໝ່ກວ່ານັ້ນ. ຄອມພິວເຕີນີ້ກຳລັງນຳໃຊ້ Windows 8.1.</translation>
@@ -780,12 +780,12 @@ Brave ບໍ່ສາມາດກູ້ການຕັ້ງຄ່າຂອງ�
 <translation id="2444257125841652328">ຜູ້ເບິ່ງແຍງລະບົບໄດ້ກຳນົດຄ່າ Brave ໃຫ້ເປີດໂປຣແກຣມທ່ອງເວັບສຳຮອງເພື່ອເຂົ້າເຖິງ <ph name="TARGET_URL_HOSTNAME"/>.</translation>
 <translation id="7902365066753170041">ເລີ່ມເປີດໃຊ້ໃໝ່ເພື່ອອັບເດດ &amp;Brave</translation>
 <translation id="3350544518197210895">Brave (mDNS-In)</translation>
-<translation id="296137235951584143">ຕັ້ງຄ່າ Brave ໃນແບບຂອງທ່ານເອງ</translation>
+<translation id="4578349172774307195">ຕັ້ງຄ່າ Wryling ໃນແບບຂອງທ່ານເອງ</translation>
 <translation id="7977787072794666032">Brave ອາດຈະບໍ່ເຮັດວຽກຢ່າງຖືກຕ້ອງ ເພາະວ່າມັນບໍ່ຖືກຮອງຮັບໃນ Windows XP ຫຼື Windows Vista ອີກຕໍ່ໄປ</translation>
 <translation id="8462937515915443472">ໃຊ້ຄຸນສົມບັດຄວາມປອດໄພທີ່ດີທີ່ສຸດຂອງ Brave ໄດ້ທຸກບ່ອນທຸກເວລາດ້ວຍ Brave.</translation>
 <translation id="945522503751344254">ສົ່ງ​ຄໍາ​ຄິດ​​ເຫັນ</translation>
 <translation id="4484434718272972655">ໃຜກຳລັງໃຊ້ Brave)</translation>
-<translation id="7173394303099002355">ໃຊ້ຄວາມປອດໄພຂັ້ນສູງສຸດຂອງ Brave</translation>
+<translation id="1158507424343802366">ໃຊ້ຄວາມປອດໄພຂັ້ນສູງສຸດຂອງ Wryling</translation>
 <translation id="983803489796659991">ການຕິດຕັ້ງບໍ່ສຳເລັດເນື່ອງຈາກເຊີບເວີອັບເດດບໍ່ມີຂໍ້ມູນ hash ໃດໆສຳລັບແອັບພລິເຄຊັນ.</translation>
 <translation id="8435446479956716379">ໃຊ້ Brave ໂດຍບໍ່ມີບັນຊີ</translation>
 <translation id="8992261409816268381">ຜູ້ຂຽນ Brave</translation>
@@ -809,6 +809,6 @@ Brave ບໍ່ສາມາດກູ້ການຕັ້ງຄ່າຂອງ�
 <translation id="1400696845469684552">{COUNT, plural, =0 {ການປົກປ້ອງຂັ້ນສູງກໍ່າລະບຸໃຫ້ທ່ານເປີດ Brave ໃໝ່ເພື່ອໃຫ້ການອັບເດດນີ້ເຂົ້າໃຊ້ງານ} =1 {ການປົກປ້ອງຂັ້ນສູງກໍ່າລະບຸໃຫ້ທ່ານເປີດ Brave ໃໝ່ເພື່ອໃຫ້ການອັບເດດເຂົ້າໃຊ້ງານ. ໜ້າຕ່າງສ່ວນຕົວຂອງທ່ານຈະບໍ່ເປີດຄືນ.} other {ການປົກປ້ອງຂັ້ນສູງກໍ່າລະບຸໃຫ້ທ່ານເປີດ Brave ໃໝ່ເພື່ອໃຫ້ການອັບເດດເຂົ້າໃຊ້ງານ. ໜ້າຕ່າງສ່ວນຕົວ # ຂອງທ່ານຈະບໍ່ເປີດຄືນ.}}</translation>
 <translation id="5749154344207139683">ຊ່ວຍໃຫ້ສັນທະນານັກດວນໃ່ເຄືອນນອນໄລຈຳນຍາສອນປີນາທ</translation>
 <translation id="79269250264141507">ເມື່ອທ່ານພິມຢູ່ໃນບີນທີ່ທິດສຳລະທີ່ຢູ່ຕ່ຳຂອງທ່ານ, Brave ຈະສົ່ງມູນທີ່ທ່ານພີລາຍນັ້ປານທເຮັບໃຫ້ທິດສຳລະທີ່ຕັ້ງໂຂມາດເພື້ອໃຫ້ລາຍໄດ້ດີ. ໃຊ້ງານໄດ້.</translation>
-<translation id="2589970573128789862">ແທການ Brave Private</translation>
+<translation id="2090681901335274465">ແທການ Wryling Private</translation>
 <translation id="5994282802285556682">ເມື່ອເຊີມມູນໃນເ້ບສ່ວນຕົວ, Brave ຈະກາຍຫຼືວາເຕືອນກ່ຽວກັນໃກ້ເປັນໃນພຽງໃກ້</translation>
 </translationbundle>

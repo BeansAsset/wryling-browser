@@ -104,7 +104,7 @@
         </message>
         <!-- DataCollector strings -->
         <message name="IDS_SUPPORT_TOOL_CHROME_SYSTEM_INFO" desc="This is a data source name for internal Brave logs.">
-            Brave System Information
+            Wryling System Information
         </message>
         <message name="IDS_SUPPORT_TOOL_CRASH_IDS" desc="An identification number is given every time Brave crashes on the device. This data source collects those IDs.">
             Crash IDs
@@ -149,7 +149,7 @@
             ChromeOS System Logs
         </message>
         <message name="IDS_SUPPORT_TOOL_CHROMEOS_CHROME_USER_LOGS" desc="Brave logs from user's session on ChromeOS.">
-            ChromeOS Brave User Logs
+            ChromeOS Wryling User Logs
         </message>
         <message name="IDS_SUPPORT_TOOL_CHROMEOS_BLUETOOTH_FLOSS" desc="Bluetooth logs if Floss is enabled on the device. Floss is the project that works on converging on a single Bluetooth stack between Android and ChromeOS.">
             ChromeOS Bluetooth

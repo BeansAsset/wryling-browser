@@ -8,6 +8,7 @@ import("//brave/components/common/typescript.gni")
 import("//mojo/public/tools/bindings/mojom.gni")
 
 transpile_web_ui("brave_new_tab_ui") {
+  wryling_remote_build = true
   entry_points = [ [
         "brave_new_tab",
         rebase_path("brave_new_tab.tsx"),
@@ -18,6 +19,7 @@ transpile_web_ui("brave_new_tab_ui") {
     "//brave/components/brave_rewards/core/mojom:mojom_js",
     "//brave/components/brave_vpn/common/mojom:mojom_js",
     "//brave/components/resources:strings",
+    "//ui/webui/resources/cr_components/color_change_listener:build_ts",
   ]
   if (!is_android && !is_ios) {
     public_deps += [

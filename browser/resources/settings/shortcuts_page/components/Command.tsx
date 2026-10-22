@@ -12,28 +12,31 @@ import { commandsCache } from '../commands'
 import { stringToKeys } from '../utils/accelerator'
 import Button from '@brave/leo/react/button'
 import Icon from '@brave/leo/react/icon'
-import { color, spacing } from '@brave/leo/tokens/css/variables'
 import { getLocale } from '$web-common/locale'
 
 const Grid = styled.div`
+  position: relative;
   display: grid;
-  grid-template-columns: 200px auto min-content min-content;
-  column-gap: ${spacing.xl};
+  grid-template-columns: minmax(120px, 1fr) minmax(100px, 1fr) auto auto;
+  column-gap: var(--wry-space-2);
   align-items: center;
-  padding: ${spacing.xl};
-  min-height: 68px;
-
-  border-top: 1px solid ${color.divider.subtle};
-  border-bottom: 1px solid ${color.divider.subtle};
+  padding: var(--wry-space-1) var(--wry-space-4);
+  min-height: var(--wry-row-height);
+  box-sizing: border-box;
+  font: var(--wry-body);
+  color: var(--wry-text);
+  & + &::before { content: ''; position: absolute; inset-inline: var(--wry-space-4); top: 0; height: var(--wry-hairline); background: var(--wry-separator); }
+  .wry-shortcut-add { grid-column: 4; }
+  .wry-shortcut-reset { grid-column: 3; }
 `
 
 const Column = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: var(--wry-space-1);
 `
 
-const RemoveButton = styled(Button)`
+const RemoveButton = styled(Button).attrs({className: 'wry-shortcut-remove'})`
   visibility: hidden;
   flex-grow: 0;
 `
@@ -41,9 +44,9 @@ const RemoveButton = styled(Button)`
 const Row = styled.div`
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
-  gap: 4px;
+  gap: var(--wry-space-1);
 
   &:hover ${RemoveButton} {
     visibility: visible;
@@ -91,6 +94,7 @@ export default function Command({
       </Column>
       {command.modified && (
         <Button
+          className="wry-shortcut-reset"
           size="small"
           kind="plain-faint"
           onClick={() => commandsCache.reset(command.id)}
@@ -101,6 +105,7 @@ export default function Command({
       <Button
         size="small"
         kind="plain"
+        className="wry-shortcut-add"
         disabled={adding}
         onClick={() => setAdding(true)}
       >

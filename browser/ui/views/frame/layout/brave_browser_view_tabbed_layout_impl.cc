@@ -5,6 +5,8 @@
 
 #include "brave/browser/ui/views/frame/layout/brave_browser_view_tabbed_layout_impl.h"
 
+#include "brave/browser/ui/views/frame/vertical_tabs/vertical_tab_strip_region_view.h"
+
 #include <algorithm>
 #include <limits>
 #include <utility>
@@ -258,6 +260,17 @@ gfx::Rect BraveBrowserViewTabbedLayoutImpl::CalculateTopContainerLayout(
     ProposedLayout& layout,
     BrowserLayoutParams params,
     bool needs_exclusion) const {
+  if (IsWrylingSidebarToolbar()) {
+    // Wryling: the toolbar lives in the sidebar, so the top container only
+    // holds the bookmarks bar, to the side of the sidebar. The page then
+    // starts at the top of the window.
+    gfx::Insets beside_sidebar = GetInsetsConsideringVerticalTabHost();
+    beside_sidebar.set_top(0);
+    beside_sidebar.set_bottom(0);
+    return BrowserViewTabbedLayoutImpl::CalculateTopContainerLayout(
+        layout, params.WithInsets(beside_sidebar), /*needs_exclusion=*/false);
+  }
+
   gfx::Rect bounds = BrowserViewTabbedLayoutImpl::CalculateTopContainerLayout(
       layout, params, needs_exclusion);
 
@@ -365,6 +378,11 @@ void BraveBrowserViewTabbedLayoutImpl::CalculateBraveVerticalTabStripLayout(
   // Compute the top edge based on the proposed bounds of bookmark/infobar/top
   // container, not the current view bounds.
   auto get_vertical_tabs_top = [&]() -> int {
+    // Wryling: the sidebar holds the toolbar and runs the full height.
+    if (IsWrylingSidebarToolbar()) {
+      return 0;
+    }
+
     // In focus mode the top chrome slides over the contents area rather than
     // pushing it down. Anchor the vertical tab strip to the top of the
     // contents bounds so it stays full-height and the revealed top views
@@ -626,6 +644,13 @@ gfx::Insets BraveBrowserViewTabbedLayoutImpl::GetContentsMargins() const {
   }
 
   gfx::Insets margins(kRoundedCornersContentsViewMargin);
+#if BUILDFLAG(IS_MAC)
+  // Wryling: the page card sits the same distance from the window edges as
+  // the floating glass sidebar, so their tops and bottoms line up.
+  if (IsWrylingSidebarToolbar()) {
+    margins = gfx::Insets(BraveVerticalTabStripRegionView::kWrylingPanelInset);
+  }
+#endif
 
   if (!IsContentsAtTopEdge()) {
     margins.set_top(0);
@@ -647,7 +672,14 @@ bool BraveBrowserViewTabbedLayoutImpl::IsContentsAtTopEdge() const {
   // occupying the top edge when the top container is still a child of the
   // browser view.
   if (IsParentedTo(views().top_container, views().browser_view)) {
-    if (delegate().ShouldDrawTabStrip() || delegate().IsToolbarVisible() ||
+    // Wryling: the tab strip and toolbar both live in the sidebar, so neither
+    // is above the page. (ShouldDrawTabStrip() stays true with vertical tabs.)
+    const bool in_sidebar = IsWrylingSidebarToolbar();
+    const bool tab_strip_above_contents =
+        delegate().ShouldDrawTabStrip() && !in_sidebar;
+    const bool toolbar_above_contents =
+        delegate().IsToolbarVisible() && !in_sidebar;
+    if (tab_strip_above_contents || toolbar_above_contents ||
         delegate().IsBookmarkBarVisible()) {
       return false;
     }
@@ -756,6 +788,11 @@ bool BraveBrowserViewTabbedLayoutImpl::ShouldPushBookmarkBarForVerticalTabs()
   CHECK(views().vertical_tab_strip_host)
       << "This method is used only when vertical tab strip host is set";
 
+  // Wryling: the bookmarks bar already sits beside the sidebar.
+  if (IsWrylingSidebarToolbar()) {
+    return false;
+  }
+
   // In focus mode, the top container (and the bookmark view within it) has been
   // parented to the top overlay and the bookmark bar does not need to be
   // repositioned.
@@ -768,6 +805,14 @@ bool BraveBrowserViewTabbedLayoutImpl::ShouldPushBookmarkBarForVerticalTabs()
   // the tab strip doesn't move when changing the active tab.
   return views().bookmark_bar && !delegate().IsBookmarkBarOnByPref() &&
          delegate().IsBookmarkBarVisible();
+}
+
+bool BraveBrowserViewTabbedLayoutImpl::IsWrylingSidebarToolbar() const {
+  // True once BraveVerticalTabStripRegionView has taken the toolbar out of
+  // the top container (macOS, vertical tabs).
+  return delegate().ShouldShowVerticalTabs() && views().toolbar &&
+         views().vertical_tab_strip_host &&
+         views().toolbar->parent() != views().top_container;
 }
 
 bool BraveBrowserViewTabbedLayoutImpl::IsSidebarLeading() const {

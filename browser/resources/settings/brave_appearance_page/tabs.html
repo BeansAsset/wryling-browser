@@ -12,6 +12,11 @@
   label="$i18n{appearanceSettingsTabsUseVerticalTabs}"
   disabled="[[!verticalTabsToggleEnabled_]]">
 </settings-toggle-button>
+<!-- Wryling: split view pane labels -->
+<settings-wryling-pane-labels></settings-wryling-pane-labels>
+
+<details>
+<summary>$i18n{wrylingMoreTabOptions}</summary>
 <template
   is="dom-if"
   if="[[verticalTabsEnabledPref_.value]]">
@@ -169,4 +174,13 @@
   on-sub-label-link-clicked="onDiscardRingTreatmentLearnMoreLinkClick_">
 </settings-toggle-button>
 
+<settings-toggle-button class="hr" id="showSavedTabGroups"
+    pref-key="bookmark_bar.show_tab_groups"
+    label="$i18n{showTabGroupsInBookmarksBar}">
+</settings-toggle-button>
+<settings-toggle-button class="hr" id="autoPinNewTabGroups"
+    pref-key="auto_pin_new_tab_groups"
+    label="$i18n{autoPinNewTabGroups}">
+</settings-toggle-button>
+</details>
 </settings-section>

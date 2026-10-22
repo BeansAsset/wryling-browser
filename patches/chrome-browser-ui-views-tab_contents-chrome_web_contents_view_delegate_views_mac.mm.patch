@@ -1,0 +1,106 @@
+diff --git a/chrome/browser/ui/views/tab_contents/chrome_web_contents_view_delegate_views_mac.mm b/chrome/browser/ui/views/tab_contents/chrome_web_contents_view_delegate_views_mac.mm
+index 564c8c000c5be649a59bfc845fc8158bd6534240..1dfd7e436472f4f93fa909e946475e74f98704c8 100644
+--- a/chrome/browser/ui/views/tab_contents/chrome_web_contents_view_delegate_views_mac.mm
++++ b/chrome/browser/ui/views/tab_contents/chrome_web_contents_view_delegate_views_mac.mm
+@@ -7,6 +7,14 @@
+ #include <memory>
+ #include <optional>
+ 
++#include "base/memory/raw_ptr.h"
++#include "base/task/current_thread.h"
++#include "chrome/browser/global_keyboard_shortcuts_mac.h"
++#include "chrome/browser/headless/headless_mode_util.h"
++#include "components/renderer_context_menu/views/toolkit_delegate_views.h"
++#include "ui/gfx/geometry/point.h"
++#include "ui/views/controls/menu/menu_item_view.h"
++
+ #import "chrome/browser/renderer_host/chrome_render_widget_host_view_mac_delegate.h"
+ #include "chrome/browser/ui/browser_window/public/browser_window_interface.h"
+ #include "chrome/browser/ui/browser_window/public/global_browser_collection.h"
+@@ -31,6 +39,67 @@
+ #include "ui/base/data_transfer_policy/data_transfer_endpoint.h"
+ #include "ui/views/widget/widget.h"
+ 
++namespace {
++
++// Preserve the Mac model's text services while rendering its rows in Views.
++class WrylingMacMenuDelegate : public ToolkitDelegateViews {
++ public:
++  explicit WrylingMacMenuDelegate(RenderViewContextMenuMac* menu) : menu_(menu) {}
++
++  void Init(ui::SimpleMenuModel* model) override {
++    menu_->InitToolkitMenu();
++    ToolkitDelegateViews::Init(model);
++  }
++
++  void UpdateMenuItem(int command_id,
++                      bool enabled,
++                      bool hidden,
++                      const std::u16string& title) override {
++    if (auto* item = menu_view()->GetMenuItemByID(command_id)) {
++      item->SetTitle(title);
++      item->SetEnabled(enabled);
++      item->SetVisible(!hidden);
++      menu_view()->ChildrenChanged();
++    }
++  }
++
++ private:
++  raw_ptr<RenderViewContextMenuMac> menu_;
++};
++
++class WrylingMacContextMenu : public RenderViewContextMenuMac {
++ public:
++  WrylingMacContextMenu(content::RenderFrameHost& frame,
++                       const content::ContextMenuParams& params,
++                       bool paste_enabled,
++                       bool paste_and_match_style_enabled)
++      : RenderViewContextMenuMac(frame, params, paste_enabled,
++                                 paste_and_match_style_enabled) {
++    set_toolkit_delegate(std::make_unique<WrylingMacMenuDelegate>(this));
++  }
++
++  void Show() override {
++    auto* widget = views::Widget::GetTopLevelWidgetForNativeView(
++        source_web_contents_->GetNativeView());
++    if (!widget || headless::IsHeadlessMode() ||
++        menu_model_.GetItemCount() == 0) {
++      return;
++    }
++    gfx::Point point = source_web_contents_->GetContainerBounds().origin();
++    point.Offset(params_.x, params_.y);
++    base::CurrentThread::ScopedAllowApplicationTasksInNativeNestedLoop allow;
++    static_cast<ToolkitDelegateViews*>(toolkit_delegate())
++        ->RunMenuAt(widget, point, params_.source_type);
++  }
++
++  bool GetAcceleratorForCommandId(int command_id,
++                                  ui::Accelerator* accelerator) const override {
++    return GetDefaultMacAcceleratorForCommandId(command_id, accelerator);
++  }
++};
++
++}  // namespace
++
+ ChromeWebContentsViewDelegateViewsMac::ChromeWebContentsViewDelegateViewsMac(
+     content::WebContents* web_contents)
+     : ContextMenuDelegate(web_contents),
+@@ -182,9 +251,15 @@ ChromeWebContentsViewDelegateViewsMac::BuildMenu(
+   } else {
+     gfx::NativeView parent_view =
+         GetActiveRenderWidgetHostView()->GetNativeView();
+-    menu = std::make_unique<RenderViewContextMenuMacCocoa>(
+-        render_frame_host, params, is_paste_enabled_,
+-        is_paste_and_match_style_enabled_, parent_view.GetNativeNSView());
++    if (@available(macOS 26, *)) {
++      menu = std::make_unique<WrylingMacContextMenu>(
++          render_frame_host, params, is_paste_enabled_,
++          is_paste_and_match_style_enabled_);
++    } else {
++      menu = std::make_unique<RenderViewContextMenuMacCocoa>(
++          render_frame_host, params, is_paste_enabled_,
++          is_paste_and_match_style_enabled_, parent_view.GetNativeNSView());
++    }
+   }
+ 
+   menu->Init();

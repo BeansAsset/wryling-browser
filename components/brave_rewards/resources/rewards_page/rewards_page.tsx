@@ -3,6 +3,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
+import {installWrylingComponents} from '$web-common/wryling_components'
+
 import * as React from 'react'
 import { createRoot } from 'react-dom/client'
 import { setIconBasePath } from '@brave/leo/react/icon'
@@ -58,3 +60,5 @@ whenDocumentReady().then(() => {
     </TabOpenerContext.Provider>,
   )
 })
+
+void installWrylingComponents()

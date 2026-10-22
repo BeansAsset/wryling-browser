@@ -39,6 +39,7 @@
 #include "brave/components/ntp_background_images/common/view_counter_pref_registry.h"
 #include "brave/components/p3a/metric_log_store.h"
 #include "brave/components/p3a/p3a_service.h"
+#include "brave/components/p3a/pref_names.h"
 #include "brave/components/p3a/rotation_scheduler.h"
 #include "brave/components/playlist/core/common/buildflags/buildflags.h"
 #include "brave/components/skus/browser/skus_utils.h"
@@ -207,6 +208,9 @@ void RegisterLocalStatePrefs(PrefRegistrySimple* registry) {
                                  // doesn't use this arg on Android
                                  false);
 #endif  // !BUILDFLAG(IS_ANDROID)
+  // Wryling: never show the P3A notice infobar. brave.p3a.enabled itself keeps
+  // Brave's default; the user decides in Settings > Privacy.
+  registry->SetDefaultPrefValue(p3a::kP3ANoticeAcknowledged, base::Value(true));
 
   brave_shields::RegisterShieldsP3ALocalPrefs(registry);
 #if !BUILDFLAG(IS_ANDROID)

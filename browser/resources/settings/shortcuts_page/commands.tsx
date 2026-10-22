@@ -21,56 +21,51 @@ import { match } from './utils/match'
 import { getLocale } from '$web-common/locale'
 
 import Icon, { setIconBasePath } from '@brave/leo/react/icon'
-import { color, font, radius, spacing } from '@brave/leo/tokens/css/variables'
 import Button from '@brave/leo/react/button'
 setIconBasePath('chrome://resources/brave-icons')
 
 const Container = styled.div`
-  padding: ${spacing['2Xl']};
+  padding: 0;
+  color: var(--wry-text);
+  background: var(--wry-canvas);
+  font: var(--wry-body);
 `
-
 const CommandsContainer = styled.div`
   display: flex;
   flex-direction: column;
-  font: ${font.default.regular};
-  margin-bottom: ${spacing['2Xl']};
-  border: 1px solid ${color.divider.subtle};
-  border-radius: ${radius.m};
+  margin-bottom: var(--wry-space-4);
+  background: var(--wry-raised);
+  border: var(--wry-hairline) solid var(--wry-stroke);
+  border-radius: var(--wry-radius-xl);
+  overflow: hidden;
 `
-
-const SearchContainer = styled.div`
+const SearchContainer = styled.div.attrs({className: 'wry-command-search'})`
   position: relative;
   display: flex;
-  justify-content: stretch;
+  align-items: center;
+  margin-bottom: var(--wry-space-4);
 `
-
 const SearchBox = styled.input`
-  all: unset;
-
-  border: 1px solid ${color.divider.subtle};
-  border-top-left-radius: ${radius.m};
-  border-top-right-radius: ${radius.m};
-  background: ${color.container.highlight};
-  color: ${color.text.secondary};
-  padding: ${spacing.xl} ${spacing['2Xl']} ${spacing.xl} 44px;
-  flex: 1;
-
-  &:hover {
-    border: 1px solid ${color.divider.strong};
-  }
-
-  &:focus-visible {
-    box-shadow: 0px 0px 0px 1.5px rgba(255, 255, 255, 0.5),
-    0px 0px 4px 2px #423eee;
-  }
+  width: 100%;
+  min-width: 0;
+  height: var(--wry-control-height);
+  box-sizing: border-box;
+  border: 0;
+  border-radius: var(--wry-radius-m);
+  background: var(--wry-fill);
+  color: var(--wry-text);
+  font: var(--wry-body);
+  padding-inline: var(--wry-space-8) var(--wry-space-2) !important;
 `
-
 const SearchIcon = styled(Icon)`
-  --leo-icon-size: 16px;
+  --leo-icon-size: var(--wry-search-icon);
+  width: var(--wry-search-icon);
+  height: var(--wry-search-icon);
   position: absolute;
-  left: ${spacing.xl};
+  left: var(--wry-search-icon-inset);
   top: 50%;
   transform: translateY(-50%);
+  pointer-events: none;
 `
 
 export const commandsCache = new CommandsCache()
@@ -99,8 +94,7 @@ function App() {
   )
   return (
     <Container>
-      <CommandsContainer>
-        <SearchContainer>
+      <SearchContainer>
           <SearchIcon name="search" />
           <SearchBox
             placeholder={getLocale(S.SHORTCUTS_PAGE_SEARCH_PLACEHOLDER)}
@@ -109,7 +103,8 @@ function App() {
               setFilter(e.target.value)
             }}
           />
-        </SearchContainer>
+      </SearchContainer>
+      <CommandsContainer>
         {filteredCommands?.map((c) => (
           <Command key={c.id} command={c} />
         ))}

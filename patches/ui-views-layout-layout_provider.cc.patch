@@ -1,0 +1,23 @@
+diff --git a/ui/views/layout/layout_provider.cc b/ui/views/layout/layout_provider.cc
+index d243aa338748a0a13be6f0292b3877b893cb4639..f21174d0295cbe7c71621a21d4b242486f3bf931 100644
+--- a/ui/views/layout/layout_provider.cc
++++ b/ui/views/layout/layout_provider.cc
+@@ -226,6 +226,18 @@ ShapeSysTokens GetShapeSysToken(ShapeContextTokens id) {
+ 
+ int LayoutProvider::GetCornerRadiusMetric(ShapeContextTokens id,
+                                           const gfx::Size& size) const {
++  // Wryling radii (the same
++  // values as brave/browser/ui/color/wryling_tokens.h, which ui/views can't
++  // depend on): popovers and dialogs share Chromium's dialog shape, so both
++  // take the popover radius; buttons are rounded rectangles, not pills.
++  switch (id) {
++    case ShapeContextTokens::kDialogRadius:
++      return 14;
++    case ShapeContextTokens::kButtonRadius:
++      return 10;
++    default:
++      break;
++  }
+   ShapeSysTokens token = GetShapeSysToken(id);
+   DCHECK_NE(token, ShapeSysTokens::kDefault)
+       << "kDefault token means there is a missing mapping between shape tokens";

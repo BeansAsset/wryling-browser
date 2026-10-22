@@ -29,7 +29,12 @@ const MenuConfig& MenuConfig::instance() {
       mutable_config.item_horizontal_border_padding = 4;
       mutable_config.item_horizontal_padding =
           24 - config.item_horizontal_border_padding;
+#if BUILDFLAG(IS_MAC)
+      mutable_config.corner_radius = 12;
+      mutable_config.auxiliary_corner_radius = 12;
+#else
       mutable_config.corner_radius = 8;
+#endif
       mutable_config.use_bubble_border = true;
     }
   } const run_once(config);

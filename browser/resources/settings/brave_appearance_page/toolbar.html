@@ -8,6 +8,35 @@
     align-items: start;
   }
 </style>
+<div class="wry-group-wrap">
+  <h2 class="wry-group-title">$i18n{wrylingThemeGroup}</h2>
+  <div class="wry-group"><settings-wryling-space></settings-wryling-space></div>
+</div>
+<div class="wry-group-wrap">
+  <h2 class="wry-group-title">$i18n{wrylingTabsSidebarGroup}</h2>
+  <div class="wry-group">
+<settings-brave-appearance-tabs></settings-brave-appearance-tabs>
+<settings-brave-appearance-bookmark-bar>
+</settings-brave-appearance-bookmark-bar>
+<settings-toggle-button
+  id="compactModeToggle"
+  class="cr-row"
+  pref-key="brave.tabs.compact_horizontal_tabs"
+  label="$i18n{SETTINGS_APPEARANCE_SETTINGS_TABS_USE_COMPACT_HORIZONTAL_TABS}"
+  disabled="[[!compactModeToggleEnabled_]]">
+</settings-toggle-button>
+
+<settings-toggle-button
+  class="cr-row"
+  pref-key="brave.web_view_rounded_corners"
+  label="$i18n{appearanceSettingsWebViewRoundedCorners}">
+</settings-toggle-button>
+<settings-brave-appearance-sidebar></settings-brave-appearance-sidebar>
+  </div>
+</div>
+<div class="wry-group-wrap">
+  <h2 class="wry-group-title">$i18n{wrylingAddressBarGroup}</h2>
+  <div class="wry-group">
 <settings-toggle-button elide-label
   class="cr-row"
   hidden="[[!pageVisibility.homeButton]]"
@@ -49,16 +78,6 @@
   hidden="[[!isShowBraveShieldsInPageInfoEnabled_]]"
   pref-key="brave.subtle_app_menu_logo"
   label="$i18n{appearanceSettingsSubtleAppMenuLogo}">
-</settings-toggle-button>
-<settings-brave-appearance-bookmark-bar>
-</settings-brave-appearance-bookmark-bar>
-<settings-toggle-button class="hr" id="showSavedTabGroups"
-    pref-key="bookmark_bar.show_tab_groups"
-    label="$i18n{showTabGroupsInBookmarksBar}">
-</settings-toggle-button>
-<settings-toggle-button class="hr" id="autoPinNewTabGroups"
-    pref-key="auto_pin_new_tab_groups"
-    label="$i18n{autoPinNewTabGroups}">
 </settings-toggle-button>
 <settings-toggle-button
   id="autocomplete-suggestion-sources"
@@ -121,16 +140,9 @@
   </settings-toggle-button>
 </if>
 
-<settings-toggle-button
-  id="compactModeToggle"
-  class="cr-row"
-  pref-key="brave.tabs.compact_horizontal_tabs"
-  label="$i18n{SETTINGS_APPEARANCE_SETTINGS_TABS_USE_COMPACT_HORIZONTAL_TABS}"
-  disabled="[[!compactModeToggleEnabled_]]">
-</settings-toggle-button>
-
-<settings-toggle-button
-  class="cr-row"
-  pref-key="brave.web_view_rounded_corners"
-  label="$i18n{appearanceSettingsWebViewRoundedCorners}">
-</settings-toggle-button>
+  </div>
+</div>
+<div class="wry-group-wrap">
+  <h2 class="wry-group-title">$i18n{defaultBrowser}</h2>
+  <div class="wry-group"><settings-default-browser-page></settings-default-browser-page></div>
+</div>

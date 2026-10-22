@@ -1,0 +1,26 @@
+diff --git a/chrome/browser/ui/views/omnibox/omnibox_match_cell_view.cc b/chrome/browser/ui/views/omnibox/omnibox_match_cell_view.cc
+index aec29b55d39045a7ffd89361f5b4282668c76b41..74772b83b6a2d9a51c49353fdd5d1898ee682eab 100644
+--- a/chrome/browser/ui/views/omnibox/omnibox_match_cell_view.cc
++++ b/chrome/browser/ui/views/omnibox/omnibox_match_cell_view.cc
+@@ -7,6 +7,7 @@
+ #include <algorithm>
+ #include <optional>
+ 
++#include "build/build_config.h"
+ #include "chrome/browser/ui/color/chrome_color_id.h"
+ #include "chrome/browser/ui/omnibox/omnibox_theme.h"
+ #include "chrome/browser/ui/views/chrome_typography.h"
+@@ -564,7 +565,13 @@ gfx::Size OmniboxMatchCellView::CalculatePreferredSize(
+     height = kRowHeight + 4;
+   } else {
+     // The height for traditional 1-line matches.
++#if BUILDFLAG(IS_MAC)
++    // Wryling: compact rows, close to a macOS menu.
++    constexpr int kWrylingRowHeight = 30;
++    height = kWrylingRowHeight;
++#else
+     height = kRowHeight;
++#endif
+   }
+ 
+   return gfx::Size(width, height);

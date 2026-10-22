@@ -101,7 +101,7 @@
 <translation id="2137162749895930932">翻訳画面を閉じる</translation>
 <translation id="5789330946301045610">このダウンロードは Brave でブロックされました。サイトで安全な接続が使用されておらず、ファイルが改ざんされている可能性があります</translation>
 <translation id="2170098639895543546">ページ上のコンテンツを選択</translation>
-<translation id="142389341645668510">Brave をカスタマイズ</translation>
+<translation id="9094133852008074140">Wryling をカスタマイズ</translation>
 <translation id="2174917724755363426">インストールは完了していません。キャンセルしてもよろしいですか？</translation>
 <translation id="8841019650931243995">Brave Origin - ネットワークにログイン - <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">更新確認エラー: <ph name="UPDATE_CHECK_ERROR"/>。</translation>
@@ -200,7 +200,7 @@
 <translation id="3137969841538672700">ドラッグして検索</translation>
 <translation id="8372436892102763334">このタブでは追加のリソースが使用されています。パフォーマンスを改善するには、このタブを非アクティブにしてください。</translation>
 <translation id="5949068186379578553">画面を共有するには、[システム設定] で Brave に画面の録画を許可してください。</translation>
-<translation id="4805806622840861220">Brave を再起動します</translation>
+<translation id="2036272753168211127">Wryling を再起動します</translation>
 <translation id="3161522574479303604">すべての言語</translation>
 <translation id="1742948938503172561">新しい Brave プロフィールをカスタマイズ</translation>
 <translation id="2430807206104224491">タブを切り替えることなく、AI モードでチャットを続けることができます。開始するには、Brave にログインしてください。これにより、すべてのデバイスでパスワードなどの設定も使用できるようになります。</translation>
@@ -234,7 +234,7 @@
 <translation id="8981774130895723211">画面を共有するには、[システム設定] で Brave に画面の録画を許可してください。</translation>
 <translation id="2981961446160697133">保護強化機能により、Brave で認識できないサイトでは JavaScript の最適化が無効になります</translation>
 <translation id="3597003331831379823">昇格された権限で設定を実行できませんでした。<ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Brave にログイン</translation>
+<translation id="5451434122049588189">Wryling にログイン</translation>
 <translation id="3066805437003400520">この操作を行うと、このユーザーの閲覧データがこのデバイスから削除されます。データを復元するには、<ph name="USER_EMAIL"/> として Brave にログインしてください。</translation>
 <translation id="3667616615096815454">インストールできません。このアプリはサーバーに認識されていません。</translation>
 <translation id="1128485277465085828"><ph name="BEGIN_LINK"/>独自のパスフレーズ<ph name="END_LINK"/>を使用して Brave アカウントの Brave データをすべて暗号化する。暗号化の対象に Google Pay のお支払い方法と住所は含まれません。また、Brave の閲覧履歴は同期されません。</translation>
@@ -277,7 +277,7 @@
 <translation id="4055805654398742145">パスワード マネージャー(&amp;A)</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{1 分間使用しなかった場合、組織は Brave を自動的に終了します。閲覧データは削除されます。これには、履歴、自動入力、ダウンロードが含まれます。}other{# 分間使用しなかった場合、組織は Brave を自動的に終了します。閲覧データは削除されます。これには、履歴、自動入力、ダウンロードが含まれます。}}</translation>
 <translation id="5794951150713244901">Brave についてのページに移動</translation>
-<translation id="10925962326134232">Brave をカスタマイズして、ブラウザのデザインを一新</translation>
+<translation id="908722199085381104">Wryling をカスタマイズして、ブラウザのデザインを一新</translation>
 <translation id="6596295505984504022">Brave をカスタマイズ(&amp;U)</translation>
 <translation id="4148957013307229264">インストール中...</translation>
 <translation id="5011704081781303429"><ph name="PAGE_TITLE"/> - ネットワークにログイン - Brave Origin</translation>
@@ -379,7 +379,7 @@
 <translation id="5154625106151193600">Brave で一部のファイルがブロックされる理由</translation>
 <translation id="1786715389543715322">Brave を更新しています（<ph name="PROGRESS_PERCENT"/>）</translation>
 <translation id="7021823858304886493">Brave へのログインを許可する</translation>
-<translation id="5267531627648004734">Brave から削除</translation>
+<translation id="6125790165673488794">Wryling から削除</translation>
 <translation id="4620757336635063467">パフォーマンスは低下しますが、攻撃に対する Brave の耐性が強化されます</translation>
 <translation id="239760341987199724">Brave をデフォルト ブラウザに設定する</translation>
 <translation id="5165277482382778404"><ph name="PAGE_TITLE"/> - Brave Origin Beta</translation>
@@ -556,7 +556,7 @@
 <translation id="7024536598735240744">解凍エラー: <ph name="UNPACK_ERROR"/>。</translation>
 <translation id="280382502853897110">Brave を独自にカスタマイズ</translation>
 <translation id="7047386856539490735">この結果は役に立ちましたか？</translation>
-<translation id="1705567146636171298">Brave を更新</translation>
+<translation id="4469722898384489712">Wryling を更新</translation>
 <translation id="5499063270485366718">画像に有効な説明が設定されていない場合に、Brave で説明を自動的に生成できるよう Brave に画像が送信されます。</translation>
 <translation id="1196733835766994012"><ph name="DEVICE_TYPE"/> の Brave アプリで AI を活用できます</translation>
 <translation id="7166289504510860270">スマートフォンの Brave アプリで、パスワードやタブなどを外出先でも使用できます</translation>
@@ -762,7 +762,7 @@
 <translation id="8965179855019347124">スマートフォンの Brave アプリで Brave の優れた AI ツールを使用できます</translation>
 <translation id="9049928023195059068">他の Brave サービスにログインしたときに Brave にログインする</translation>
 <translation id="4561046754724442504">Brave は自動的に終了しました</translation>
-<translation id="5173820533850252773">Brave は古いバージョンです</translation>
+<translation id="1523936557081546133">Wryling は古いバージョンです</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave は 1 時間後に再起動されます}other{Brave は # 時間後に再起動されます}}</translation>
 <translation id="9106236359747881194">検索するテキストを選択</translation>
 <translation id="5190991181158966940">今後、Brave のアップデートを受信するには、Windows 10 以降が必要となります。このパソコンでは Windows 8.1 が実行されています。</translation>
@@ -774,12 +774,12 @@
 <translation id="2444257125841652328">システム管理者が、<ph name="TARGET_URL_HOSTNAME"/> へのアクセスに代替ブラウザを開くよう Brave を設定しています。</translation>
 <translation id="7902365066753170041">再起動して Brave を更新(&amp;C)</translation>
 <translation id="538146372587193686">Brave Origin（mDNS インバウンド）</translation>
-<translation id="296137235951584143">Brave を独自にカスタマイズ</translation>
+<translation id="4578349172774307195">Wryling を独自にカスタマイズ</translation>
 <translation id="7977787072794666032">Windows XP と Windows Vista はサポートされなくなったため、Brave は正常に機能しない可能性があります</translation>
 <translation id="8462937515915443472">Brave で、Brave の優れた安全機能を外出先でも利用できます。</translation>
 <translation id="945522503751344254">フィードバックを送信</translation>
 <translation id="4484434718272972655">Brave はどなたが使用しますか？</translation>
-<translation id="7173394303099002355">Brave の最高のセキュリティ強度で保護</translation>
+<translation id="1158507424343802366">Wryling の最高のセキュリティ強度で保護</translation>
 <translation id="983803489796659991">更新サーバーにアプリケーションのハッシュデータがないため、インストールできませんでした。</translation>
 <translation id="8435446479956716379">アカウントなしで Brave を使用する</translation>
 <translation id="8992261409816268381">Brave 開発者</translation>
@@ -804,6 +804,6 @@
 <translation id="1400696845469684552">{COUNT, plural, =0{Advanced Protection により、アップデートを適用するために Brave を再起動する必要があります}=1{Advanced Protection により、アップデートを適用するために Brave を再起動する必要があります。プライベートウィンドウは、再起動後は自動的には開きません。}other{Advanced Protection により、アップデートを適用するために Brave を再起動する必要があります。現在開いている # 個のプライベートウィンドウは、再起動後は自動的には開きません。}}</translation>
 <translation id="5749154344207139683">プライベートの改善のため、この１分間のアンケートにご協力ください。</translation>
 <translation id="79269250264141507">アドレスバーや検索ボックスに文字を入力すると、Braveは入力した文字をデフォルトの検索エンジンに送信し、より良い候補を取得します。これはプライベートではオフになっています。</translation>
-<translation id="2589970573128789862">Braveプライベートモード</translation>
+<translation id="2090681901335274465">Braveプライベートモード</translation>
 <translation id="5994282802285556682">プライベートモードでブラウザを利用している場合、安全でない接続を使用してサイトを読み込む前にBraveが警告を表示します</translation>
 </translationbundle>

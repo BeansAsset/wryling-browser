@@ -10,6 +10,7 @@
 
 #include "base/feature_list.h"
 #include "base/functional/bind.h"
+#include "brave/browser/ui/color/brave_color_id.h"
 #include "brave/browser/ui/page_info/features.h"
 #include "brave/browser/ui/views/brave_actions/brave_shields_action_view.h"
 #include "brave/browser/ui/views/rounded_separator.h"
@@ -17,6 +18,7 @@
 #include "brave/components/brave_rewards/core/buildflags/buildflags.h"
 #include "brave/components/constants/pref_names.h"
 #include "brave/ui/color/nala/nala_color_id.h"
+#include "build/build_config.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/layout_constants.h"
@@ -57,7 +59,13 @@ void BraveActionsContainer::Init() {
 
   // children
   RoundedSeparator* brave_button_separator = new RoundedSeparator();
+#if BUILDFLAG(IS_MAC)
+  // Wryling: the address bar is a pill of the space colour; match the
+  // sidebar's dividers instead of Brave's neutral grey.
+  brave_button_separator->SetColorId(kColorBraveVerticalTabSeparator);
+#else
   brave_button_separator->SetColorId(nala::kColorDividerSubtle);
+#endif
   brave_button_separator->SetPreferredSize(
       gfx::Size(kSeparatorWidth + kSeparatorMargin,
                 GetLayoutConstant(LayoutConstant::kLocationBarIconSize)));
@@ -71,6 +79,11 @@ void BraveActionsContainer::Init() {
 #endif
   AddActionViewForShields();
   AddChildViewAt(brave_button_separator, 0);
+#if BUILDFLAG(IS_MAC)
+  // Wryling: the address pill is just icons and the address, as in the design
+  // mock; no divider before Shields.
+  brave_button_separator->SetVisible(false);
+#endif
 
 #if BUILDFLAG(ENABLE_BRAVE_REWARDS)
   // React to Brave Rewards preferences changes.
@@ -91,6 +104,9 @@ void BraveActionsContainer::Init() {
 
 #if BUILDFLAG(ENABLE_BRAVE_REWARDS)
 bool BraveActionsContainer::ShouldShowBraveRewardsAction() const {
+  if (compact_) {
+    return false;
+  }
   if (!brave_rewards::IsSupportedForProfile(
           browser_window_interface_->GetProfile())) {
     return false;
@@ -100,6 +116,17 @@ bool BraveActionsContainer::ShouldShowBraveRewardsAction() const {
   return prefs->GetBoolean(brave_rewards::prefs::kShowLocationBarButton);
 }
 #endif
+
+void BraveActionsContainer::SetCompact(bool compact) {
+  if (compact_ == compact) {
+    return;
+  }
+  compact_ = compact;
+#if BUILDFLAG(ENABLE_BRAVE_REWARDS)
+  OnBraveRewardsPreferencesChanged();
+#endif
+  PreferredSizeChanged();
+}
 
 void BraveActionsContainer::AddActionViewForShields() {
   // Do not create the shields button if the shields UI is displayed in the Page

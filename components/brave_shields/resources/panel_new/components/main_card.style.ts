@@ -4,93 +4,71 @@
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
 import { scoped } from '$web-common/scoped_css'
-import { color, effect, font } from '@brave/leo/tokens/css/variables'
 
 export const style = scoped.css`
   & {
-    background: ${color.neutral['10']};
-    padding: 12px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    border-bottom: solid 1px ${color.divider.subtle};
+    gap: var(--wry-space-2);
   }
-
-  &[data-shields-off='true'] {
-    background: ${color.neutral['20']};
-    color: ${color.text.secondary};
-
-    .site-icon img {
-      filter: grayscale(100%);
-    }
+  &[data-shields-off='true'] .site-icon img {
+    filter: grayscale(100%);
   }
-
   .site-info {
-    --leo-toggle-width: 65px;
-    --leo-toggle-height: 40px;
-
-    padding: 12px;
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: var(--wry-space-2);
+    min-height: var(--wry-row-height);
   }
-
   .site-text {
-    flex: 1 1 auto;
-    overflow: hidden;
+    flex: 1;
+    min-width: 0;
   }
-
+  .site-text h3 {
+    font: var(--wry-headline);
+    color: var(--wry-text);
+  }
   .site-icon {
-    flex: 0 0 auto;
-    padding: 6px;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background: ${color.container.background};
-    box-shadow: ${effect.elevation['01']};
-
-    img {
-      display: block;
-      width: 100%;
-      height: 100%;
-    }
+    flex: 0 0 var(--wry-icon);
+    width: var(--wry-icon);
+    height: var(--wry-icon);
   }
-
+  .site-icon img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
   .shields-status {
-    font: ${font.large.regular};
-
-    strong {
-      font: ${font.large.semibold};
-    }
+    font: var(--wry-callout);
+    color: var(--wry-text-secondary);
   }
-
-  .block-info {
-    border-radius: 16px;
-    padding: 12px 8px;
-    background: ${color.container.background};
-    box-shadow: ${effect.elevation['01']};
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-
-    .count {
-      font: ${font.heading.h2};
-    }
+  .shields-status strong {
+    font-weight: 400;
   }
-
+  .block-info,
   .report-prompt {
-    padding: 12px 16px;
-    border-radius: 16px;
-    background: ${color.neutral['5']};
-    box-shadow: ${effect.elevation['01']};
     display: flex;
     align-items: center;
-    gap: 12px;
-
-    leo-button {
-      margin-left: auto;
-      flex: 0 1 auto;
-    }
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: var(--wry-space-2);
+    padding: var(--wry-space-2) var(--wry-space-3);
+    background: var(--wry-raised);
+    border-radius: var(--wry-radius-l);
+    font: var(--wry-callout);
+  }
+  .block-info {
+    background: var(--wry-fill);
+  }
+  .block-info .count {
+    font: var(--wry-headline);
+    color: var(--wry-text);
+  }
+  .block-info .blocked-items {
+    display: none;
+  }
+  .report-prompt leo-button {
+    margin-inline-start: auto;
   }
 `

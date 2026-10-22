@@ -51,8 +51,10 @@ constexpr size_t kCardanoScriptHashSize = 28u;
 
 bool IsDisabledByPolicy(PrefService* prefs) {
   DCHECK(prefs);
-  return prefs->IsManagedPreference(kBraveWalletDisabledByPolicy) &&
-         prefs->GetBoolean(kBraveWalletDisabledByPolicy);
+  // Wryling: extras are really off by default, not just hidden. Each
+  // feature's own policy switch is honoured whoever set it (Settings ›
+  // Extras writes it), not only when an organisation's policy manages it.
+  return prefs->GetBoolean(kBraveWalletDisabledByPolicy);
 }
 
 constexpr const char kEnsRegistryContractAddress[] =

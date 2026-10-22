@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/ui/webui/version/version_ui.cc b/chrome/browser/ui/webui/version/version_ui.cc
+index 4c523d48d8f8537042a9483e4fd0c6d163c8de52..0811651c1d7408d1fa04d4cf4b17e785fce5f2fa 100644
+--- a/chrome/browser/ui/webui/version/version_ui.cc
++++ b/chrome/browser/ui/webui/version/version_ui.cc
+@@ -151,6 +151,7 @@ std::string_view GetVersionInformationalSuffix() {
+ 
+ VersionUI::VersionUI(content::WebUI* web_ui)
+     : content::WebUIController(web_ui) {
++  BRAVE_VERSION_UI_CONSTRUCTOR
+   Profile* profile = Profile::FromWebUI(web_ui);
+ 
+ #if BUILDFLAG(IS_CHROMEOS)

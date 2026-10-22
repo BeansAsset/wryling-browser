@@ -10,6 +10,7 @@
 
 #include "base/functional/bind.h"
 #include "brave/browser/ui/color/brave_color_id.h"
+#include "brave/browser/ui/views/side_panel/side_panel_utils.h"
 #include "brave/common/pref_names.h"
 #include "brave/components/vector_icons/vector_icons.h"
 #include "brave/grit/brave_generated_resources.h"
@@ -19,6 +20,7 @@
 #include "chrome/browser/ui/side_panel/side_panel_ui.h"
 #include "chrome/browser/ui/singleton_tabs.h"
 #include "chrome/browser/ui/views/chrome_layout_provider.h"
+#include "chrome/browser/ui/views/frame/browser_view.h"
 #include "chrome/common/webui_url_constants.h"
 #include "chrome/grit/generated_resources.h"
 #include "components/prefs/pref_service.h"
@@ -127,6 +129,12 @@ int BraveSidePanelHeaderController::GetTopRadius() const {
   if (!browser_window_->GetProfile()->GetPrefs()->GetBoolean(
           kWebViewRoundedCorners)) {
     return 0;
+  }
+  if (auto* browser_view =
+          BrowserView::GetBrowserViewForBrowser(&browser_window_.get())) {
+    return static_cast<int>(brave::GetPanelContentsRoundedCorners(
+                                browser_view, /*flatten_top_for_header=*/false)
+                                .upper_left());
   }
   return views::LayoutProvider::Get()->GetDistanceMetric(
       ChromeDistanceMetric::DISTANCE_SIDE_PANEL_CONTENT_RADIUS);

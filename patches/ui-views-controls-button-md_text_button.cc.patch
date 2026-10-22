@@ -1,5 +1,5 @@
 diff --git a/ui/views/controls/button/md_text_button.cc b/ui/views/controls/button/md_text_button.cc
-index f4f6b86afebdc20b3ad6aeffd34f64655195df77..82f7eaa32ce237bf240f348a18dbeae86163a659 100644
+index f4f6b86afebdc20b3ad6aeffd34f64655195df77..35ea363cbcbe02e5bbd7a085e7353d67d7e419a3 100644
 --- a/ui/views/controls/button/md_text_button.cc
 +++ b/ui/views/controls/button/md_text_button.cc
 @@ -43,7 +43,7 @@
@@ -197,7 +197,7 @@ index f4f6b86afebdc20b3ad6aeffd34f64655195df77..82f7eaa32ce237bf240f348a18dbeae8
    // Don't use font-based padding when there's no text visible.
    if (GetText().empty()) {
      SetBorder(NullBorder());
-@@ -260,7 +260,7 @@ void MdTextButton::UpdatePadding() {
+@@ -260,11 +260,18 @@ void MdTextButton::UpdatePadding() {
        CreateEmptyBorder(custom_padding_.value_or(CalculateDefaultPadding())));
  }
  
@@ -206,7 +206,31 @@ index f4f6b86afebdc20b3ad6aeffd34f64655195df77..82f7eaa32ce237bf240f348a18dbeae8
    int target_height = LayoutProvider::GetControlHeightForFont(
        label()->GetTextContext(), style::STYLE_PRIMARY, label()->font_list());
  
-@@ -283,7 +283,7 @@ gfx::Insets MdTextButton::CalculateDefaultPadding() const {
+   int label_height = label()->GetPreferredSize({}).height();
++#if BUILDFLAG(IS_MAC)
++  // Wryling: macOS-sized push buttons, 28 tall (unless the
++  // text needs more), 14 of padding on each side.
++  constexpr int kWrylingButtonHeight = 28;
++  constexpr int kWrylingButtonPadding = 14;
++  target_height = std::max(label_height, kWrylingButtonHeight);
++#endif
+   DCHECK_GE(target_height, label_height);
+   int top_padding = (target_height - label_height) / 2;
+   int bottom_padding = (target_height - label_height + 1) / 2;
+@@ -272,8 +279,12 @@ gfx::Insets MdTextButton::CalculateDefaultPadding() const {
+ 
+   // TODO(estade): can we get rid of the platform style border hoopla if
+   // we apply the MD treatment to all buttons, even GTK buttons?
++#if BUILDFLAG(IS_MAC)
++  int right_padding = kWrylingButtonPadding;
++#else
+   int right_padding = LayoutProvider::Get()->GetDistanceMetric(
+       DISTANCE_BUTTON_HORIZONTAL_PADDING);
++#endif
+   int left_padding = right_padding;
+   if (HasImage(GetVisualState())) {
+     constexpr int kLeftPadding = 12;
+@@ -283,7 +294,7 @@ gfx::Insets MdTextButton::CalculateDefaultPadding() const {
                             right_padding);
  }
  
@@ -215,7 +239,7 @@ index f4f6b86afebdc20b3ad6aeffd34f64655195df77..82f7eaa32ce237bf240f348a18dbeae8
    if (explicitly_set_normal_color()) {
      return;
    }
-@@ -311,7 +311,7 @@ void MdTextButton::UpdateTextColor() {
+@@ -311,7 +322,7 @@ void MdTextButton::UpdateTextColor() {
    set_explicitly_set_colors(colors);
  }
  
@@ -224,7 +248,7 @@ index f4f6b86afebdc20b3ad6aeffd34f64655195df77..82f7eaa32ce237bf240f348a18dbeae8
    bool is_disabled = GetVisualState() == STATE_DISABLED;
    const ui::ColorProvider* color_provider = GetColorProvider();
    SkColor bg_color = color_provider->GetColor(ui::kColorButtonBackground);
-@@ -360,7 +360,7 @@ void MdTextButton::UpdateBackgroundColor() {
+@@ -360,7 +371,7 @@ void MdTextButton::UpdateBackgroundColor() {
            true /* antialias */, true /* should_border_scale */)));
  }
  
@@ -233,7 +257,7 @@ index f4f6b86afebdc20b3ad6aeffd34f64655195df77..82f7eaa32ce237bf240f348a18dbeae8
    if (use_text_color_for_icon_ && HasImage(ButtonState::STATE_NORMAL)) {
      const std::optional<ui::ImageModel>& image_model =
          GetImageModel(ButtonState::STATE_NORMAL);
-@@ -375,7 +375,7 @@ void MdTextButton::UpdateIconColor() {
+@@ -375,7 +386,7 @@ void MdTextButton::UpdateIconColor() {
    }
  }
  
@@ -242,7 +266,7 @@ index f4f6b86afebdc20b3ad6aeffd34f64655195df77..82f7eaa32ce237bf240f348a18dbeae8
    if (GetWidget()) {
      UpdateTextColor();
      UpdateBackgroundColor();
-@@ -384,7 +384,7 @@ void MdTextButton::UpdateColors() {
+@@ -384,7 +395,7 @@ void MdTextButton::UpdateColors() {
    }
  }
  
@@ -251,7 +275,7 @@ index f4f6b86afebdc20b3ad6aeffd34f64655195df77..82f7eaa32ce237bf240f348a18dbeae8
    switch (button_style) {
      case ui::ButtonStyle::kProminent:
        return GetColorProvider()->GetColor(ui::kColorSysStateHoverOnProminent);
-@@ -396,18 +396,18 @@ SkColor MdTextButton::GetHoverColor(ui::ButtonStyle button_style) {
+@@ -396,18 +407,18 @@ SkColor MdTextButton::GetHoverColor(ui::ButtonStyle button_style) {
    }
  }
  
@@ -273,7 +297,7 @@ index f4f6b86afebdc20b3ad6aeffd34f64655195df77..82f7eaa32ce237bf240f348a18dbeae8
      : LabelButtonActionViewInterface(action_view), action_view_(action_view) {}
  
  void MdTextButtonActionViewInterface::ActionItemChangedImpl(
-@@ -418,7 +418,7 @@ void MdTextButtonActionViewInterface::ActionItemChangedImpl(
+@@ -418,7 +429,7 @@ void MdTextButtonActionViewInterface::ActionItemChangedImpl(
                                action_item->GetImage());
  }
  

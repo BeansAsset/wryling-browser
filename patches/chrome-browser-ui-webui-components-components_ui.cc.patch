@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/ui/webui/components/components_ui.cc b/chrome/browser/ui/webui/components/components_ui.cc
+index e479a95d9001ff71c237eb385349ba366df0494f..1c6cd2d9d20458f1dc5be6b7e98b0b34b49e6e19 100644
+--- a/chrome/browser/ui/webui/components/components_ui.cc
++++ b/chrome/browser/ui/webui/components/components_ui.cc
+@@ -87,6 +87,7 @@ void CreateAndAddComponentsUIHTMLSource(Profile* profile) {
+ ///////////////////////////////////////////////////////////////////////////////
+ 
+ ComponentsUI::ComponentsUI(content::WebUI* web_ui) : WebUIController(web_ui) {
++  BRAVE_COMPONENTS_UI_CONSTRUCTOR
+   web_ui->AddMessageHandler(std::make_unique<ComponentsHandler>(
+       g_browser_process->component_updater()));
+ 

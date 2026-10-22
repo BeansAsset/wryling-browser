@@ -11,7 +11,8 @@ export const style = scoped.css`
     position: relative;
     color: ${color.text.primary};
     border-radius: 16px;
-    background: ${color.material.thin};
+    background: var(--wryling-theme-card, ${color.material.thin});
+    border: 1px solid ${color.divider.subtle};
     backdrop-filter: blur(50px);
     display: flex;
     align-items: stretch;

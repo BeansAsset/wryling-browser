@@ -1,0 +1,139 @@
+<style include="cr-shared-style settings-shared">
+  :host { display: block; }
+  .labels-section { padding: var(--wry-space-4); }
+  h3 { font: var(--wry-headline); margin: 0 0 var(--wry-space-1); }
+  .description { color: var(--wry-text-secondary); font: var(--wry-callout); margin: 0 0 var(--wry-space-4); }
+  .picker { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--wry-space-3); }
+  .option {
+    display: block; padding: var(--wry-space-2); margin: 0; text-align: start;
+    font: inherit; color: inherit; cursor: pointer;
+    /* Over the shared Wryling button style, like the segmented controls. */
+    background: transparent !important; box-shadow: none !important;
+    border: 2px solid transparent !important; border-radius: var(--wry-radius-l) !important;
+    min-height: 0 !important; height: auto !important;
+  }
+  .option:hover { background: var(--wry-hover) !important; }
+  .option[aria-checked="true"] { border-color: var(--wry-accent) !important; }
+  .option:focus-visible { outline: 2px solid var(--wry-focus); outline-offset: 2px; }
+  .option svg { display: block; width: 100%; height: auto; }
+  .name { display: block; margin-top: var(--wry-space-2); font: var(--wry-body); }
+  .hint { display: block; color: var(--wry-text-secondary); font: var(--wry-callout); }
+  .frame { fill: color-mix(in srgb, var(--wry-accent) 30%, var(--wry-canvas)); }
+  .side { fill: color-mix(in srgb, var(--wry-accent) 40%, var(--wry-canvas)); }
+  .row { fill: color-mix(in srgb, var(--wry-accent) 60%, var(--wry-canvas)); }
+  .pane { fill: var(--wry-raised); }
+  .pane.active { stroke: var(--wry-accent); stroke-width: 1.2; }
+  .line { fill: var(--wry-stroke); }
+  .chip { fill: var(--wry-raised); stroke: var(--wry-stroke); stroke-width: 0.5; }
+  .site { fill: var(--wry-text); font: 500 6.5px system-ui, sans-serif; }
+  .chip-site { fill: var(--wry-text); font: 500 5.2px system-ui, sans-serif; }
+  .fav-a { fill: #d68c59; }
+  .fav-b { fill: #459d96; }
+</style>
+<section class="labels-section" aria-labelledby="pane-labels-title">
+  <h3 id="pane-labels-title">$i18n{wrylingPaneLabels}</h3>
+  <p class="description">$i18n{wrylingPaneLabelsDescription}</p>
+  <div class="picker" role="radiogroup" aria-labelledby="pane-labels-title">
+
+    <button class="option" type="button" role="radio" data-mode="0"
+        aria-checked$="[[isSelected_(0, mode_)]]" disabled="[[!ready_]]"
+        on-click="onOptionClick_">
+      <svg viewBox="0 0 160 96" aria-hidden="true">
+        <rect class="frame" width="160" height="96" rx="10"/>
+        <rect class="side" x="6" y="6" width="30" height="84" rx="6"/>
+        <rect class="row" x="10" y="16" width="22" height="5" rx="2"/>
+        <rect class="row" x="10" y="25" width="22" height="5" rx="2"/>
+        <rect class="row" x="10" y="34" width="22" height="5" rx="2"/>
+        <rect class="fav-a" x="42" y="9" width="6" height="6" rx="1.5"/>
+        <text class="site" x="51" y="14.5">videos.site</text>
+        <rect class="pane active" x="40" y="19" width="55" height="71" rx="6"/>
+        <rect class="line" x="46" y="27" width="25" height="3" rx="1.5"/>
+        <rect class="line" x="46" y="34" width="41" height="3" rx="1.5"/>
+        <rect class="line" x="46" y="41" width="30" height="3" rx="1.5"/>
+        <rect class="pane" x="99" y="6" width="55" height="84" rx="6"/>
+        <rect class="line" x="105" y="14" width="25" height="3" rx="1.5"/>
+        <rect class="line" x="105" y="21" width="41" height="3" rx="1.5"/>
+        <rect class="line" x="105" y="28" width="30" height="3" rx="1.5"/>
+      </svg>
+      <span class="name">$i18n{wrylingPaneLabelsOnHover}</span>
+      <span class="hint">$i18n{wrylingPaneLabelsOnHoverHint}</span>
+    </button>
+
+    <button class="option" type="button" role="radio" data-mode="1"
+        aria-checked$="[[isSelected_(1, mode_)]]" disabled="[[!ready_]]"
+        on-click="onOptionClick_">
+      <svg viewBox="0 0 160 96" aria-hidden="true">
+        <rect class="frame" width="160" height="96" rx="10"/>
+        <rect class="side" x="6" y="6" width="30" height="84" rx="6"/>
+        <rect class="row" x="10" y="16" width="22" height="5" rx="2"/>
+        <rect class="row" x="10" y="25" width="22" height="5" rx="2"/>
+        <rect class="row" x="10" y="34" width="22" height="5" rx="2"/>
+        <rect class="fav-a" x="42" y="9" width="6" height="6" rx="1.5"/>
+        <text class="site" x="51" y="14.5">videos.site</text>
+        <rect class="pane active" x="40" y="19" width="55" height="71" rx="6"/>
+        <rect class="line" x="46" y="27" width="25" height="3" rx="1.5"/>
+        <rect class="line" x="46" y="34" width="41" height="3" rx="1.5"/>
+        <rect class="line" x="46" y="41" width="30" height="3" rx="1.5"/>
+        <rect class="fav-b" x="101" y="9" width="6" height="6" rx="1.5"/>
+        <text class="site" x="110" y="14.5">notes.site</text>
+        <rect class="pane" x="99" y="19" width="55" height="71" rx="6"/>
+        <rect class="line" x="105" y="27" width="25" height="3" rx="1.5"/>
+        <rect class="line" x="105" y="34" width="41" height="3" rx="1.5"/>
+        <rect class="line" x="105" y="41" width="30" height="3" rx="1.5"/>
+      </svg>
+      <span class="name">$i18n{wrylingPaneLabelsAlways}</span>
+      <span class="hint">$i18n{wrylingPaneLabelsAlwaysHint}</span>
+    </button>
+
+    <button class="option" type="button" role="radio" data-mode="2"
+        aria-checked$="[[isSelected_(2, mode_)]]" disabled="[[!ready_]]"
+        on-click="onOptionClick_">
+      <svg viewBox="0 0 160 96" aria-hidden="true">
+        <rect class="frame" width="160" height="96" rx="10"/>
+        <rect class="side" x="6" y="6" width="30" height="84" rx="6"/>
+        <rect class="row" x="10" y="16" width="22" height="5" rx="2"/>
+        <rect class="row" x="10" y="25" width="22" height="5" rx="2"/>
+        <rect class="row" x="10" y="34" width="22" height="5" rx="2"/>
+        <rect class="pane active" x="40" y="6" width="55" height="84" rx="6"/>
+        <rect class="line" x="46" y="14" width="25" height="3" rx="1.5"/>
+        <rect class="line" x="46" y="21" width="41" height="3" rx="1.5"/>
+        <rect class="line" x="46" y="28" width="30" height="3" rx="1.5"/>
+        <rect class="chip" x="51" y="76" width="40" height="10" rx="5"/>
+        <rect class="fav-a" x="54" y="78.5" width="5" height="5" rx="1"/>
+        <text class="chip-site" x="61" y="83">videos.site</text>
+        <rect class="pane" x="99" y="6" width="55" height="84" rx="6"/>
+        <rect class="line" x="105" y="14" width="25" height="3" rx="1.5"/>
+        <rect class="line" x="105" y="21" width="41" height="3" rx="1.5"/>
+        <rect class="line" x="105" y="28" width="30" height="3" rx="1.5"/>
+        <rect class="chip" x="110" y="76" width="40" height="10" rx="5"/>
+        <rect class="fav-b" x="113" y="78.5" width="5" height="5" rx="1"/>
+        <text class="chip-site" x="120" y="83">notes.site</text>
+      </svg>
+      <span class="name">$i18n{wrylingPaneLabelsCorner}</span>
+      <span class="hint">$i18n{wrylingPaneLabelsCornerHint}</span>
+    </button>
+
+    <button class="option" type="button" role="radio" data-mode="3"
+        aria-checked$="[[isSelected_(3, mode_)]]" disabled="[[!ready_]]"
+        on-click="onOptionClick_">
+      <svg viewBox="0 0 160 96" aria-hidden="true">
+        <rect class="frame" width="160" height="96" rx="10"/>
+        <rect class="side" x="6" y="6" width="30" height="84" rx="6"/>
+        <rect class="row" x="10" y="16" width="22" height="5" rx="2"/>
+        <rect class="row" x="10" y="25" width="22" height="5" rx="2"/>
+        <rect class="row" x="10" y="34" width="22" height="5" rx="2"/>
+        <rect class="pane active" x="40" y="6" width="55" height="84" rx="6"/>
+        <rect class="line" x="46" y="14" width="25" height="3" rx="1.5"/>
+        <rect class="line" x="46" y="21" width="41" height="3" rx="1.5"/>
+        <rect class="line" x="46" y="28" width="30" height="3" rx="1.5"/>
+        <rect class="pane" x="99" y="6" width="55" height="84" rx="6"/>
+        <rect class="line" x="105" y="14" width="25" height="3" rx="1.5"/>
+        <rect class="line" x="105" y="21" width="41" height="3" rx="1.5"/>
+        <rect class="line" x="105" y="28" width="30" height="3" rx="1.5"/>
+      </svg>
+      <span class="name">$i18n{wrylingPaneLabelsOff}</span>
+      <span class="hint">$i18n{wrylingPaneLabelsOffHint}</span>
+    </button>
+
+  </div>
+</section>

@@ -1,0 +1,13 @@
+diff --git a/chrome/browser/ui/tabs/split_tab_swap_menu_model.cc b/chrome/browser/ui/tabs/split_tab_swap_menu_model.cc
+index 7b3307b7856fdc4e2b8c42cd541225fda943c519..32106b5a8a0b3987c1bd94da91405c1574f9bead 100644
+--- a/chrome/browser/ui/tabs/split_tab_swap_menu_model.cc
++++ b/chrome/browser/ui/tabs/split_tab_swap_menu_model.cc
+@@ -102,7 +102,7 @@ void SplitTabSwapMenuModel::ExecuteCommand(int command_id, int event_flags) {
+   split_tabs::SplitTabData* const split_tab_data =
+       tab_strip_model_->GetSplitData(*split_id);
+   std::vector<tabs::TabInterface*> tabs_in_split = split_tab_data->ListTabs();
+-  CHECK_EQ(tabs_in_split.size(), 2U);
++  CHECK_GE(tabs_in_split.size(), 2U);  // Wryling: up to four.
+ 
+   if (id == CommandId::kSwapStartTab) {
+     tab_strip_model_->UpdateTabInSplit(tabs_in_split[0], tab_index_,

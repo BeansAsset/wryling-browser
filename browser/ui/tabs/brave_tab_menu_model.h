@@ -60,6 +60,11 @@ class BraveTabMenuModel : public TabMenuModel {
   void BuildSplitTabEntry(TabStripModel* tab_strip_model, int selected_index);
   int GetRestoreTabCommandStringId() const;
 
+  // Wryling Spaces: "Move to space ▸" with the window's other spaces.
+  void BuildItemForSpaces(BrowserWindowInterface* browser_window,
+                          TabStripModel* tab_strip_model,
+                          const std::vector<int>& selected_tab_indices);
+
 #if BUILDFLAG(ENABLE_CONTAINERS)
   void BuildItemForContainers(BrowserWindowInterface* browser_window,
                               TabStripModel* tab_strip_model,
@@ -69,6 +74,9 @@ class BraveTabMenuModel : public TabMenuModel {
   ui::SimpleMenuModel* arrange_split_view_submenu_for_testing() const {
     return arrange_split_view_submenu_.get();
   }
+
+  std::unique_ptr<ui::SimpleMenuModel::Delegate> spaces_menu_delegate_;
+  std::unique_ptr<ui::SimpleMenuModel> spaces_submenu_;
 
   raw_ptr<sessions::TabRestoreService> restore_service_ = nullptr;
   raw_ptr<VerticalTabController> vertical_tab_controller_ = nullptr;

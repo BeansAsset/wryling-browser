@@ -119,6 +119,15 @@ const PrefsUtil::TypedPrefMap& BravePrefsUtil::GetAllowlistedKeys() {
   const auto chromium_prefs = PrefsUtil::GetAllowlistedKeys();
   s_brave_allowlist->insert(chromium_prefs.begin(), chromium_prefs.end());
   // Add Brave values to the allowlist
+  // Wryling Extras uses the real feature switches, including policy control.
+  for (const char* pref : {"brave.ai_chat.enabled_by_policy",
+                           "brave.wallet.disabled_by_policy",
+                           "brave.brave_vpn.disabled_by_policy",
+                           "brave.rewards.disabled_by_policy",
+                           "brave.news.disabled_by_policy",
+                           "brave.talk.disabled_by_policy"}) {
+    (*s_brave_allowlist)[pref] = settings_api::PrefType::kBoolean;
+  }
   // import data
   (*s_brave_allowlist)[kImportDialogExtensions] =
       settings_api::PrefType::kBoolean;
@@ -381,6 +390,9 @@ const PrefsUtil::TypedPrefMap& BravePrefsUtil::GetAllowlistedKeys() {
       settings_api::PrefType::kBoolean;
   (*s_brave_allowlist)[brave_tabs::kVerticalTabsShowToggleButton] =
       settings_api::PrefType::kBoolean;
+  // Wryling split view pane labels (registered in brave_profile_prefs.cc).
+  (*s_brave_allowlist)["wryling.split_view.pane_labels"] =
+      settings_api::PrefType::kNumber;
 
   // Horizontal tabs settings
   (*s_brave_allowlist)[brave_tabs::kCompactHorizontalTabs] =

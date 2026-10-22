@@ -18,7 +18,8 @@ void RegisterProfilePrefs(PrefRegistrySimple* registry) {
   if (ai_chat::features::IsAIChatEnabled()) {
     registry->RegisterTimePref(kLastAcceptedDisclaimer, {});
     registry->RegisterBooleanPref(kBraveChatStorageEnabled, true);
-    registry->RegisterBooleanPref(kBraveChatAutocompleteProviderEnabled, true);
+    // Wryling: Brave extras are off until turned on in Settings.
+    registry->RegisterBooleanPref(kBraveChatAutocompleteProviderEnabled, false);
     registry->RegisterBooleanPref(kUserDismissedPremiumPrompt, false);
     registry->RegisterBooleanPref(kUserDismissedStorageNotice, false);
 #if BUILDFLAG(IS_ANDROID)
@@ -30,11 +31,11 @@ void RegisterProfilePrefs(PrefRegistrySimple* registry) {
     // 0 is not linked
     registry->RegisterIntegerPref(kBraveChatSubscriptionLinkStatusAndroid, 0);
 #endif
-    registry->RegisterBooleanPref(kBraveAIChatContextMenuEnabled, true);
-    registry->RegisterBooleanPref(kBraveAIChatShowToolbarButton, true);
+    registry->RegisterBooleanPref(kBraveAIChatContextMenuEnabled, false);
+    registry->RegisterBooleanPref(kBraveAIChatShowToolbarButton, false);
     registry->RegisterBooleanPref(kBraveAIChatToolbarButtonOpensFullPage,
                                   false);
-    registry->RegisterBooleanPref(kBraveAIChatTabOrganizationEnabled, true);
+    registry->RegisterBooleanPref(kBraveAIChatTabOrganizationEnabled, false);
     registry->RegisterStringPref(kBraveAIChatTabOrganizationModelKey,
                                  kChatAutomaticModelKey);
     registry->RegisterBooleanPref(kBraveAIChatUserCustomizationEnabled, true);
@@ -47,7 +48,8 @@ void RegisterProfilePrefs(PrefRegistrySimple* registry) {
     registry->RegisterDictionaryPref(kAIChatObliviousHttpKeyConfigs);
     registry->RegisterTimePref(kRemoteModelsCachedAt, {});
   }
-  registry->RegisterBooleanPref(kEnabledByPolicy, true);
+  // Wryling: Leo is off until turned on in Settings › Extras.
+  registry->RegisterBooleanPref(kEnabledByPolicy, false);
 }
 
 void RegisterProfilePrefsForMigration(PrefRegistrySimple* registry) {

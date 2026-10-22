@@ -873,11 +873,12 @@ void BraveTreeTabStripCollectionDelegate::MoveTabsIntoGroup(
                      CHECK_EQ(collection_ptr->type(),
                               tabs::TabCollection::Type::SPLIT);
                      auto tabs = collection_ptr->GetTabsRecursive();
-                     CHECK_EQ(tabs.size(), 2u);
-                     CHECK_EQ(tabs[0]->GetGroup().value(),
-                              group_collection->GetTabGroupId());
-                     CHECK_EQ(tabs[1]->GetGroup().value(),
-                              group_collection->GetTabGroupId());
+                     // Wryling: a split holds up to four tabs.
+                     CHECK_GE(tabs.size(), 2u);
+                     for (auto* split_tab : tabs) {
+                       CHECK_EQ(split_tab->GetGroup().value(),
+                                group_collection->GetTabGroupId());
+                     }
                    },
                },
                std::move(tab));

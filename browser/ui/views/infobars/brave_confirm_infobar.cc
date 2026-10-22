@@ -273,14 +273,23 @@ void BraveConfirmInfoBar::Layout(PassKey) {
   place_button(ok_button_);
   place_button(cancel_button_);
 
+  int controls_right = cancel_button_ ? cancel_button_->bounds().right()
+                       : ok_button_   ? ok_button_->bounds().right()
+                                      : label_->bounds().right();
+
   // Place checkbox after latest button
   if (checkbox_) {
     checkbox_->SizeToPreferredSize();
     x += kCheckboxSpacing;
     checkbox_->SetPosition(gfx::Point(x, OffsetY(checkbox_)));
+    controls_right = checkbox_->bounds().right();
   }
 
-  link_->SetPosition(gfx::Point(GetEndX() - link_->width(), OffsetY(link_)));
+  // The link sits at the trailing edge, but never closer than
+  // GetLinkSpacing() to the controls before it.
+  link_->SetPosition(gfx::Point(
+      std::max(GetEndX() - link_->width(), controls_right + GetLinkSpacing()),
+      OffsetY(link_)));
 }
 
 gfx::Size BraveConfirmInfoBar::CalculatePreferredSize(
@@ -455,10 +464,17 @@ void BraveConfirmInfoBar::LinkClicked(const ui::Event& event) {
   }
 }
 
+int BraveConfirmInfoBar::GetLinkSpacing() const {
+  return ChromeLayoutProvider::Get()->GetDistanceMetric(
+      views::DISTANCE_UNRELATED_CONTROL_HORIZONTAL);
+}
+
 int BraveConfirmInfoBar::NonLabelWidth() const {
   auto* layout_provider = ChromeLayoutProvider::Get();
+  // Wryling: the same gaps Layout() uses, so a narrow bar (beside the
+  // sidebar) can't push the link onto the buttons.
   const int label_spacing = layout_provider->GetDistanceMetric(
-      views::DISTANCE_RELATED_LABEL_HORIZONTAL);
+      DISTANCE_INFOBAR_HORIZONTAL_ICON_LABEL_PADDING);
   const int button_spacing = layout_provider->GetDistanceMetric(
       views::DISTANCE_RELATED_BUTTON_HORIZONTAL);
 
@@ -476,7 +492,7 @@ int BraveConfirmInfoBar::NonLabelWidth() const {
     width += checkbox_->width() + kCheckboxSpacing;
   }
 
-  return width + ((link_->GetText().empty() || !width) ? 0 : label_spacing);
+  return width + ((link_->GetText().empty() || !width) ? 0 : GetLinkSpacing());
 }
 
 void BraveConfirmInfoBar::MaybeLayoutMultiLineLabelAndLink() {

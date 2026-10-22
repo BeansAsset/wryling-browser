@@ -14,7 +14,7 @@ namespace brave_tabs {
 
 void RegisterBraveProfilePrefs(PrefRegistrySimple* registry) {
   registry->RegisterIntegerPref(kTabHoverMode, TabHoverMode::CARD);
-  registry->RegisterBooleanPref(kVerticalTabsEnabled, false);
+  registry->RegisterBooleanPref(kVerticalTabsEnabled, true);
   registry->RegisterBooleanPref(kVerticalTabsCollapsed, false);
   registry->RegisterBooleanPref(kVerticalTabsExpandedStatePerWindow, false);
 #if BUILDFLAG(IS_WIN)
@@ -26,13 +26,15 @@ void RegisterBraveProfilePrefs(PrefRegistrySimple* registry) {
 #endif
 
   if (base::FeatureList::IsEnabled(tabs::kBraveVerticalTabHideCompletely)) {
+    // Wryling: a collapsed sidebar hides completely and slides
+    // back in from the window's edge on hover.
     registry->RegisterBooleanPref(kVerticalTabsHideCompletelyWhenCollapsed,
-                                  false);
+                                  true);
   }
 
   registry->RegisterBooleanPref(kVerticalTabsFloatingEnabled, true);
   registry->RegisterBooleanPref(kVerticalTabsShowToggleButton, true);
-  registry->RegisterIntegerPref(kVerticalTabsExpandedWidth, 220);
+  registry->RegisterIntegerPref(kVerticalTabsExpandedWidth, 280);
   registry->RegisterBooleanPref(kVerticalTabsOnRight, false);
   registry->RegisterBooleanPref(kVerticalTabsShowScrollbar, false);
   registry->RegisterBooleanPref(kShowHorizontalTabScrollButtons, false);

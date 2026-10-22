@@ -102,7 +102,7 @@
 <translation id="2137162749895930932">Đóng màn hình dịch</translation>
 <translation id="5789330946301045610">Brave đã chặn tệp tải xuống này vì trang web không sử dụng kết nối an toàn và tệp có thể đã bị can thiệp</translation>
 <translation id="2170098639895543546">Chọn nội dung bất kỳ trên trang</translation>
-<translation id="142389341645668510">Tùy chỉnh Brave</translation>
+<translation id="9094133852008074140">Tùy chỉnh Wryling</translation>
 <translation id="2174917724755363426">Chưa cài đặt xong. Bạn có chắc chắn muốn huỷ không?</translation>
 <translation id="8745514854244955877">Brave – Đăng nhập vào mạng – <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">Lỗi khi kiểm tra bản cập nhật: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -201,7 +201,7 @@
 <translation id="3137969841538672700">Kéo để tìm</translation>
 <translation id="8372436892102763334">Thẻ này đang sử dụng thêm tài nguyên. Để cải thiện hiệu suất, hãy cho phép Brave dừng hoạt động của thẻ này.</translation>
 <translation id="5949068186379578553">Để chia sẻ màn hình, hãy cho phép Brave ghi màn hình trong phần Cài đặt hệ thống</translation>
-<translation id="4805806622840861220">Chạy lại Brave</translation>
+<translation id="2036272753168211127">Chạy lại Wryling</translation>
 <translation id="3161522574479303604">Tất cả ngôn ngữ</translation>
 <translation id="1742948938503172561">Tùy chỉnh hồ sơ mới của bạn trên Brave</translation>
 <translation id="2430807206104224491">Bạn có thể tiếp tục trò chuyện với Chế độ AI mà không cần chuyển đổi giữa các thẻ. Để bắt đầu, hãy đăng nhập vào Brave. Bạn cũng có thể sử dụng mật khẩu và nhiều dữ liệu khác trên mọi thiết bị của mình.</translation>
@@ -235,7 +235,7 @@
 <translation id="8981774130895723211">Để chia sẻ màn hình, hãy cho phép Brave ghi màn hình trong phần Cài đặt hệ thống.</translation>
 <translation id="2981961446160697133">Chế độ bảo vệ nâng cao sẽ tắt tính năng tối ưu hoá JavaScript đối với những trang web mà Brave không nhận ra</translation>
 <translation id="3597003331831379823">Không thể chạy quy trình thiết lập bằng đặc quyền cấp cao. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Đăng nhập vào Brave</translation>
+<translation id="5451434122049588189">Đăng nhập vào Wryling</translation>
 <translation id="3066805437003400520">Dữ liệu duyệt web của người này sẽ bị xóa khỏi thiết bị này. Để khôi phục dữ liệu, hãy đăng nhập vào Brave bằng <ph name="USER_EMAIL"/>.</translation>
 <translation id="3667616615096815454">Không thể cài đặt, máy chủ không xác định được ứng dụng.</translation>
 <translation id="1128485277465085828">Sử dụng <ph name="BEGIN_LINK"/>cụm mật khẩu của riêng bạn<ph name="END_LINK"/> để mã hoá tất cả dữ liệu Brave trong Tài khoản Brave Các địa chỉ và phương thức thanh toán từ Google Pay sẽ không được mã hoá. Nhật ký duyệt web trên Brave sẽ không đồng bộ hoá.</translation>
@@ -278,7 +278,7 @@
 <translation id="4055805654398742145">Trình quản lý mật khẩu</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Tổ chức sẽ tự động đóng Brave sau 1 phút bạn không dùng đến. Dữ liệu duyệt web sẽ bị xoá. Dữ liệu này có thể bao gồm nhật ký, nội dung tự động điền và tệp đã tải xuống.}other{Tổ chức sẽ tự động đóng Brave sau # phút bạn không dùng đến. Dữ liệu duyệt web sẽ bị xoá. Dữ liệu này có thể bao gồm nhật ký, nội dung tự động điền và tệp đã tải xuống.}}</translation>
 <translation id="5794951150713244901">Chuyển đến trang Giới thiệu về Brave</translation>
-<translation id="10925962326134232">Tuỳ chỉnh Brave để mang lại giao diện mới cho trình duyệt</translation>
+<translation id="908722199085381104">Tuỳ chỉnh Wryling để mang lại giao diện mới cho trình duyệt</translation>
 <translation id="6596295505984504022">Tuỳ chỉnh Brave</translation>
 <translation id="4148957013307229264">Đang cài đặt...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> – Đăng nhập vào mạng – Brave</translation>
@@ -380,7 +380,7 @@
 <translation id="5154625106151193600">Tìm hiểu lý do Brave chặn một số tệp</translation>
 <translation id="1786715389543715322">Đang cập nhật Brave (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Cho phép đăng nhập vào Brave</translation>
-<translation id="5267531627648004734">Xóa khỏi Brave</translation>
+<translation id="6125790165673488794">Xóa khỏi Wryling</translation>
 <translation id="4620757336635063467">Làm giảm hiệu suất nhưng giúp Brave tăng khả năng chống lại các cuộc tấn công</translation>
 <translation id="239760341987199724">Đặt Brave là trình duyệt mặc định của bạn</translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Brave phiên bản beta</translation>
@@ -559,7 +559,7 @@ Bạn phải xoá bớt một số dấu trang thì mới có thể lưu dấu t
 <translation id="7024536598735240744">Lỗi khi giải nén: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">Biến Brave thành trình duyệt của riêng bạn</translation>
 <translation id="7047386856539490735">Những kết quả này có hữu ích không?</translation>
-<translation id="1705567146636171298">Cập nhật Brave</translation>
+<translation id="4469722898384489712">Cập nhật Wryling</translation>
 <translation id="5499063270485366718">Brave sẽ cố gắng mô tả cho bạn những hình ảnh không có nội dung mô tả hữu ích. Để tạo nội dung mô tả, các hình ảnh sẽ được gửi đến Brave.</translation>
 <translation id="1196733835766994012">Khai thác sức mạnh của AI khi bạn dùng ứng dụng Brave trên <ph name="DEVICE_TYPE"/></translation>
 <translation id="7166289504510860270">Mang theo mật khẩu, thẻ và nhiều dữ liệu khác mọi lúc, mọi nơi nhờ ứng dụng Brave trên điện thoại</translation>
@@ -765,7 +765,7 @@ Brave không thể khôi phục cài đặt của bạn.</translation>
 <translation id="8965179855019347124">Sử dụng các công cụ AI tốt nhất của Brave nhờ ứng dụng Brave trên điện thoại</translation>
 <translation id="9049928023195059068">Đăng nhập vào Brave khi bạn đăng nhập vào các dịch vụ khác của Brave</translation>
 <translation id="4561046754724442504">Brave đã tự động đóng</translation>
-<translation id="5173820533850252773">Brave đã lỗi thời</translation>
+<translation id="1523936557081546133">Wryling đã lỗi thời</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave sẽ khởi động lại sau một giờ}other{Brave sẽ khởi động lại sau # giờ}}</translation>
 <translation id="9106236359747881194">Chọn văn bản bạn muốn tìm</translation>
 <translation id="5190991181158966940">Để nhận các bản cập nhật Brave sau này, bạn cần có Windows 10 trở lên. Máy tính này đang sử dụng Windows 8.1.</translation>
@@ -777,12 +777,12 @@ Brave không thể khôi phục cài đặt của bạn.</translation>
 <translation id="2444257125841652328">Quản trị viên hệ thống của bạn đã định cấu hình Brave để mở một trình duyệt thay thế khi truy cập vào <ph name="TARGET_URL_HOSTNAME"/>.</translation>
 <translation id="7902365066753170041">Chạy lại để cập nhật &amp;Brave</translation>
 <translation id="3350544518197210895">Brave (mDNS-In)</translation>
-<translation id="296137235951584143">Biến Brave thành trình duyệt của riêng bạn</translation>
+<translation id="4578349172774307195">Biến Wryling thành trình duyệt của riêng bạn</translation>
 <translation id="7977787072794666032">Brave có thể không hoạt động chính xác do không được hỗ trợ trên Windows XP hoặc Windows Vista nữa</translation>
 <translation id="8462937515915443472">Tận hưởng các tính năng an toàn tốt nhất của Brave mọi lúc, mọi nơi nhờ Brave.</translation>
 <translation id="945522503751344254">Gửi phản hồi</translation>
 <translation id="4484434718272972655">Ai đang sử dụng Brave?</translation>
-<translation id="7173394303099002355">Có được chế độ bảo mật mạnh nhất của Brave</translation>
+<translation id="1158507424343802366">Có được chế độ bảo mật mạnh nhất của Wryling</translation>
 <translation id="983803489796659991">Không cài đặt được do máy chủ cập nhật không có dữ liệu băm nào cho ứng dụng.</translation>
 <translation id="8435446479956716379">Dùng Brave mà không cần tài khoản</translation>
 <translation id="8992261409816268381">Tác giả Brave</translation>
@@ -810,6 +810,6 @@ Brave không thể khôi phục cài đặt của bạn.</translation>
               other {Chế độ Bảo vệ Nâng cao yêu cầu bạn khởi động lại Brave để áp dụng bản cập nhật. Các cửa sổ Riêng tư của bạn sẽ không mở lại.}}</translation>
 <translation id="5749154344207139683">Hãy giúp chúng tôi cải thiện chế độ duyệt riêng tư bằng cách tham gia khảo sát dài 1 phút này.</translation>
 <translation id="79269250264141507">Khi bạn nhập vào thanh địa chỉ hoặc hộp tìm kiếm, Brave sẽ gửi nội dung bạn nhập tới công cụ tìm kiếm mặc định của bạn để nhận các đề xuất tốt hơn. Điều này được tắt trong Riêng tư.</translation>
-<translation id="2589970573128789862">Brave Riêng tư</translation>
+<translation id="2090681901335274465">Wryling Riêng tư</translation>
 <translation id="5994282802285556682">Khi duyệt ở chế độ Riêng tư, Brave sẽ cảnh báo bạn trước khi tải trang web bằng kết nối không an toàn</translation>
 </translationbundle>

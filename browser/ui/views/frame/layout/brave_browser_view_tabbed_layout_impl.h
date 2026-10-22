@@ -147,6 +147,8 @@ class BraveBrowserViewTabbedLayoutImpl : public BrowserViewTabbedLayoutImpl {
   // these flip the user's alignment pref so the visual side always matches
   // the pref. This is the same conversion upstream does for its side panel
   // (`side_panel_leading` in BrowserViewTabbedLayoutImpl).
+  // Wryling: the toolbar has been moved into the vertical tab sidebar.
+  bool IsWrylingSidebarToolbar() const;
   bool IsSidebarLeading() const;
   bool IsVerticalTabStripLeading() const;
 };

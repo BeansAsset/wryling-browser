@@ -57,6 +57,8 @@ class SidebarItemsArrowView : public views::ImageButton {
     views::FocusRing::Get(this)->SetColorId(gfx::kBraveBlurple300);
     SetAccessibleName(accessible_name);
     SetPaintToLayer();
+    // Wryling: see-through over the window's glass (see SidebarContainerView).
+    layer()->SetFillsBoundsOpaquely(false);
   }
 
   ~SidebarItemsArrowView() override = default;

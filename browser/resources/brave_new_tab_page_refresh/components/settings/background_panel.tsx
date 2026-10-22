@@ -25,9 +25,21 @@ import { settingsURL } from '../../../../../components/brave_rewards/resources/s
 import {
   SelectedBackgroundType,
   backgroundCSSValue,
-  gradientPreviewBackground,
+  gradientBackgrounds,
   solidPreviewBackground,
 } from '../../state/background_store'
+
+import {
+  findWallpaper,
+  isWallpaperValue,
+  wallpaperValue,
+  wallpapers,
+} from '../../lib/wryling_wallpapers'
+import {
+  WallpaperCanvas,
+  useDarkMode,
+  useWallpaperColor,
+} from '../wryling_dashboard/wallpaper'
 
 import { style } from './background_panel.style'
 
@@ -52,6 +64,13 @@ export function BackgroundPanel() {
 
   const [panelType, setPanelType] =
     React.useState<SelectedBackgroundType | null>(null)
+  // Wryling: the list of Wryling wallpapers.
+  const [wallpaperPanel, setWallpaperPanel] = React.useState(false)
+  const wallpaperColor = useWallpaperColor()
+  const dark = useDarkMode()
+  const wallpaperSelected =
+    selectedBackground.type === SelectedBackgroundType.kSolid
+    && isWallpaperValue(selectedBackground.value)
   const [uploading, setUploading] = React.useState(false)
 
   React.useEffect(() => {
@@ -69,7 +88,7 @@ export function BackgroundPanel() {
         }
         return customBackgrounds[0] ?? ''
       case SelectedBackgroundType.kSolid:
-        if (isSelectedType && selectedBackground.value) {
+        if (isSelectedType && selectedBackground.value && !wallpaperSelected) {
           return selectedBackground.value
         }
         return solidPreviewBackground
@@ -77,7 +96,9 @@ export function BackgroundPanel() {
         if (isSelectedType && selectedBackground.value) {
           return selectedBackground.value
         }
-        return gradientPreviewBackground
+        // Wryling: a real gradient (the first one follows the theme and
+        // previews as near-black).
+        return gradientBackgrounds[1]
       default:
         console.error('Unhandled background type', type)
         return ''
@@ -101,6 +122,7 @@ export function BackgroundPanel() {
       return renderUploadPreview()
     }
     const selected = type === selectedBackground.type
+      && !(type === SelectedBackgroundType.kSolid && wallpaperSelected)
     return (
       <div
         className={classnames({ preview: true, selected })}
@@ -147,6 +169,59 @@ export function BackgroundPanel() {
       default:
         return ''
     }
+  }
+
+  function renderWallpaperPreview(value: string, selected: boolean) {
+    return (
+      <div className={classnames({ preview: true, wallpaper: true, selected })}>
+        <WallpaperCanvas
+          wallpaper={findWallpaper(value)}
+          color={wallpaperColor}
+          dark={dark}
+        />
+        {selected && (
+          <span className='selected-marker'>
+            <Icon name='check-normal' />
+          </span>
+        )}
+      </div>
+    )
+  }
+
+  if (wallpaperPanel) {
+    return (
+      <SettingsPanel
+        cssScope={style.scope}
+        title='Wryling'
+        onBack={() => setWallpaperPanel(false)}
+      >
+        <div className='background-options'>
+          {wallpapers.map((wallpaper) => {
+            const value = wallpaperValue(wallpaper.id)
+            const selected =
+              wallpaperSelected && selectedBackground.value === value
+            return (
+              <div
+                key={wallpaper.id}
+                className='background-option'
+              >
+                <button
+                  onClick={() => {
+                    actions.selectBackground(
+                      SelectedBackgroundType.kSolid,
+                      value,
+                    )
+                  }}
+                >
+                  {renderWallpaperPreview(value, selected)}
+                  {wallpaper.name}
+                </button>
+              </div>
+            )
+          })}
+        </div>
+      </SettingsPanel>
+    )
   }
 
   if (panelType !== null) {
@@ -231,6 +306,17 @@ export function BackgroundPanel() {
       {backgroundsEnabled && backgroundsCustomizable && (
         <>
           <div className='background-options'>
+            <div className='background-option'>
+              <button onClick={() => setWallpaperPanel(true)}>
+                {renderWallpaperPreview(
+                  wallpaperSelected
+                    ? selectedBackground.value
+                    : wallpaperValue('aurora'),
+                  wallpaperSelected,
+                )}
+                Wryling
+              </button>
+            </div>
             <div className='background-option'>
               <button
                 onClick={() => {

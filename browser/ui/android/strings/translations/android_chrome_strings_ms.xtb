@@ -44,7 +44,7 @@
 <translation id="7083341910267693582"><ph name="APP_NAME"/> akan dibuka dalam Brave. Dengan meneruskan penggunaan, anda bersetuju menerima <ph name="BEGIN_LINK1"/>Syarat Perkhidmatan Brave<ph name="END_LINK1"/> dan <ph name="BEGIN_LINK2"/>Syarat Perkhidmatan Tambahan Brave dan Chrome OS<ph name="END_LINK2"/>.</translation>
 <translation id="7443574521624544928">Anda tiada kata laluan yang disimpan dalam Brave Password Manager.</translation>
 <translation id="115483310321669804">Gunakan kata laluan <ph name="PASSWORD"/></translation>
-<translation id="4489415936688888898">Gemini dalam Brave</translation>
+<translation id="4980210551795949534">Gemini dalam Wryling</translation>
 <translation id="1161065531352634524">Segerakkan tab dan sejarah</translation>
 <translation id="1165109137568919258">Ambil foto atau tambahkan imej daripada galeri foto anda untuk membuat carian</translation>
 <translation id="1173894706177603556">Namakan semula</translation>
@@ -91,8 +91,8 @@
 <translation id="1333491156693005331">Telah disemak baru-baru ini</translation>
 <translation id="1336996151357442890">Telah menyahlanggan daripada <ph name="SITE_NAME"/>. Anda akan ditanya lagi pada lawatan akan datang.</translation>
 <translation id="1340839264183302272">Tinggalkan kumpulan</translation>
-<translation id="873343310451048603">Untuk menyemak kata laluan yang terjejas, akses Brave Password Manager</translation>
-<translation id="4167284810587724062">Log masuk ke Brave</translation>
+<translation id="4973862711373394097">Untuk menyemak kata laluan yang terjejas, akses Wryling Password Manager</translation>
+<translation id="5451434122049588189">Log masuk ke Wryling</translation>
 <translation id="1344653310988386453">Sertakan pautan kepada serlahan</translation>
 <translation id="1355088659320425659">Sejarah dan tab</translation>
 <translation id="1363028406613469049">Penjejakan</translation>
@@ -147,7 +147,7 @@ Untuk mendapatkan lebih banyak tetapan yang menggunakan data untuk meningkatkan 
 Orang yang mengetahui ungkapan laluan anda sahaja yang dapat membaca data anda yang disulitkan. Ungkapan laluan tidak dihantar kepada atau disimpan oleh Brave. Jika anda terlupa ungkapan laluan anda atau mahu menukar tetapan ini, <ph name="BEGIN_LINK"/>kosongkan data Brave dalam akaun anda<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">Untuk mengurus Brave sync chain anda, ketik butang "Urus akaun"</translation>
 <translation id="1549000191223877751">Alihkan ke tetingkap lain</translation>
-<translation id="1705567146636171298">Kemas Kini Brave</translation>
+<translation id="4469722898384489712">Kemas Kini Wryling</translation>
 <translation id="1554352084785952638"><ph name="SEARCH_ENGINE"/> untuk "<ph name="SEARCH_TERMS"/>"</translation>
 <translation id="2509230690562869141">Membantu jadikan Brave lebih baik untuk orang yang menggunakannya seperti yang anda lakukan</translation>
 <translation id="1568636008098739136">Dengar halaman ini. Untuk mengedit pintasan ini, sentuh dan tahan butang.</translation>
@@ -207,8 +207,8 @@ Orang yang mengetahui ungkapan laluan anda sahaja yang dapat membaca data anda y
 <translation id="4544426875066706571">Untuk melindungi data anda, benarkan Brave mengalih keluar kebenaran daripada laman yang belum anda lawati baru-baru ini</translation>
 <translation id="1851551847729706116">Berkongsi <ph name="TAB_NAME"/> pada tab ini</translation>
 <translation id="1869691326892615940">Kata laluan yang lebih selamat, log masuk yang lebih pantas</translation>
-<translation id="7175072311426658869">Buka dalam penyemak imbas Brave</translation>
-<translation id="5173820533850252773">Brave sudah usang</translation>
+<translation id="7259806589727104192">Buka dalam penyemak imbas Wryling</translation>
+<translation id="1523936557081546133">Wryling sudah usang</translation>
 <translation id="1877073879466606884">Profil yang anda log masuk ialah profil terurus. Pentadbir anda boleh membuat perubahan pada tetapan profil anda dari jauh, menganalisis maklumat tentang penyemak imbas melalui pelaporan dan melaksanakan tugas penting yang lain.</translation>
 <translation id="1879904908408734349">Helaian bawah log masuk ditutup</translation>
 <translation id="1883903952484604915">Fail Saya</translation>
@@ -576,7 +576,7 @@ Orang yang mengetahui ungkapan laluan anda sahaja yang dapat membaca data anda y
 <translation id="3384347053049321195">Kongsi imej</translation>
 <translation id="3387650086002190359">Muat turun <ph name="FILE_NAME"/> gagal disebabkan oleh ralat sistem fail.</translation>
 <translation id="5654361895804243820">Anda boleh mengurus tetingkap anda dalam Pengurus Tetingkap Brave</translation>
-<translation id="4302350545547675750">Urus dalam Brave Password Manager</translation>
+<translation id="54130667607538272">Urus dalam Wryling Password Manager</translation>
 <translation id="3417835166382867856">Cari tab</translation>
 <translation id="3430670036890315772">Tindakan mematikan kunci profil anda akan mengalih keluar maklumat anda yang disimpan</translation>
 <translation id="4114256890962999877">Untuk mengekalkan akses kepada kata laluan anda, eksport kata laluan tersebut sekarang, kemas kinikan Perkhidmatan Google Play, kemudian import semula kata laluan tersebut pada Brave Password Manager. <ph name="BEGIN_LINK"/>Lihat arahan penuh<ph name="END_LINK"/>.</translation>
@@ -738,7 +738,7 @@ Orang yang mengetahui ungkapan laluan anda sahaja yang dapat membaca data anda y
 <translation id="4072805772816336153">Cuba lagi nanti</translation>
 <translation id="4084682180776658562">Penanda halaman</translation>
 <translation id="4521874409998847950">Daripada <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>disampaikan oleh Brave<ph name="END_DEEMPHASIZED"/></translation>
-<translation id="7268155614575494857">Untuk membantu Brave Password Manager menyimpan maklumat log masuk anda, tambahkan nama pengguna anda untuk laman ini</translation>
+<translation id="6708405940091325014">Untuk membantu Wryling Password Manager menyimpan maklumat log masuk anda, tambahkan nama pengguna anda untuk laman ini</translation>
 <translation id="4095146165863963773">Padam data apl?</translation>
 <translation id="4095483462103784441">Buat kumpulan tab baharu</translation>
 <translation id="1523634703470981382">Kemaskinian Brave Password Manager dibuka</translation>
@@ -1086,7 +1086,7 @@ Brave sync chain anda mungkin mempunyai sejarah penyemakan imbas dalam bentuk la
 <translation id="5532536403031755365">Tambahkan lapisan perlindungan tambahan terhadap ancaman dalam talian dengan perlindungan yang dipertingkatkan</translation>
 <translation id="5540127996007641535">{NUM_BOOKMARKS,plural, =1{Buka penanda halaman}other{Buka semua (#)}}</translation>
 <translation id="5548606607480005320">Semakan keselamatan</translation>
-<translation id="4362225295386962644">Apabila anda menggunakan kata laluan, Brave akan memberi anda amaran jika kata laluan tersebut telah diterbitkan dalam talian. Apabila melakukan tindakan ini, kata laluan dan nama pengguna anda akan disulitkan supaya data ini tidak dapat dibaca oleh sesiapa termasuk Brave.</translation>
+<translation id="3680104634340426001">Apabila anda menggunakan kata laluan, Brave akan memberi anda amaran jika kata laluan tersebut telah diterbitkan dalam talian. Apabila melakukan tindakan ini, kata laluan dan nama pengguna anda akan disulitkan supaya data ini tidak dapat dibaca oleh sesiapa termasuk Brave.</translation>
 <translation id="5555525474779371165">Pilih perlindungan Penyemakan Imbas Selamat anda</translation>
 <translation id="5556459405103347317">Muat Semula</translation>
 <translation id="555671485580955310">Segerakkan sejarah dan tab</translation>
@@ -1189,7 +1189,7 @@ Brave sync chain anda mungkin mempunyai sejarah penyemakan imbas dalam bentuk la
 <translation id="6002122790816966947">Peranti anda</translation>
 <translation id="6011308810877101166">Tingkatkan cadangan carian</translation>
 <translation id="6013305291643746595">Mengisih mengikut tertib paling lama</translation>
-<translation id="296137235951584143">Peribadikan Brave anda</translation>
+<translation id="4578349172774307195">Peribadikan Wryling anda</translation>
 <translation id="6023820583797130428">Buka menu untuk kembali</translation>
 <translation id="6026538407078977628">Kembangkan kepada skrin penuh</translation>
 <translation id="6039379616847168523">Lompat ke tab seterusnya</translation>
@@ -1248,7 +1248,7 @@ Brave sync chain anda mungkin mempunyai sejarah penyemakan imbas dalam bentuk la
 Sebagai contoh, sesetengah laman web mungkin memberi respons kepada permintaan ini dengan memaparkan iklan yang tidak berdasarkan laman web lain yang anda lawati. Pelbagai laman web masih akan mengumpul dan menggunakan data penyemakan imbas anda — contohnya, untuk meningkatkan keselamatan, untuk menyediakan kandungan, iklan dan cadangan serta untuk menjana statistik pelaporan.</translation>
 <translation id="623755660902014047">Mod membaca</translation>
 <translation id="6246073558347462570">Tetingkap timbul konteks</translation>
-<translation id="8883879481897424949">Brave Password Manager</translation>
+<translation id="3888885285070224654">Wryling Password Manager</translation>
 <translation id="6248988683584659830">Tetapan carian</translation>
 <translation id="2715956954609894918">Lihat sejarah Brave anda di sini</translation>
 <translation id="6254139308321626268">Anda sedang melihat fail PDF</translation>
@@ -1297,7 +1297,7 @@ Sebagai contoh, sesetengah laman web mungkin memberi respons kepada permintaan i
 <translation id="6394791151443660613">Carian: <ph name="SEARCH_QUERY"/></translation>
 <translation id="6397616442223433927">Kembali dalam talian</translation>
 <translation id="6399363707848566877">Kini anda boleh menambahkan tab kepada kumpulan di sini dengan mudah</translation>
-<translation id="8789425457808164956">Untuk menghantar tab ini ke peranti lain, log masuk ke Brave pada peranti tersebut</translation>
+<translation id="2522845252291433622">Untuk menghantar tab ini ke peranti lain, log masuk ke Wryling pada peranti tersebut</translation>
 <translation id="6404511346730675251">Edit penanda halaman</translation>
 <translation id="6410883413783534063">Buka tab untuk melawati halaman yang berlainan pada masa yang sama</translation>
 <translation id="6411009031428071896">Dengar suapan</translation>
@@ -1327,7 +1327,7 @@ Sebagai contoh, sesetengah laman web mungkin memberi respons kepada permintaan i
 <translation id="6482749332252372425">Muat turun <ph name="FILE_NAME"/> gagal kerana ruang storan tidak mencukupi.</translation>
 <translation id="6486420406192123355">Fail PDF ini berasal daripada laman yang menggunakan sambungan tidak selamat</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{Fail dimuat turun}other{# muat turun selesai}}</translation>
-<translation id="3960299545138990065">Mulakan semula Brave</translation>
+<translation id="6199441660763014986">Mulakan semula Wryling</translation>
 <translation id="6513924416597632811">Salin pautan kepada halaman hasil carian untuk: <ph name="SEARCH_QUERY"/>. Sumber: <ph name="PAGE_URL"/></translation>
 <translation id="6518133107902771759">Sahkan</translation>
 <translation id="6521218807522232085">Buat, simpan dan urus kata laluan anda supaya anda dapat log masuk dengan mudah</translation>
@@ -1357,7 +1357,7 @@ Sebagai contoh, sesetengah laman web mungkin memberi respons kepada permintaan i
 <translation id="6602173570135186741">Autolengkap dan kata laluan</translation>
 <translation id="661266467055912436">Meningkatkan keselamatan untuk anda dan semua orang yang melayari web.</translation>
 <translation id="6615455863669487791">Tunjukkan kepada saya</translation>
-<translation id="8127050479140582768">Untuk menghantar tab ini ke peranti lain, log masuk ke Brave pada kedua-dua peranti</translation>
+<translation id="7379057487310867567">Untuk menghantar tab ini ke peranti lain, log masuk ke Wryling pada kedua-dua peranti</translation>
 <translation id="6627583120233659107">Edit folder</translation>
 <translation id="6636623428211296678">Terokai lebih banyak tetapan di bawah atau selesaikan sekarang</translation>
 <translation id="7939692063031538305">Untuk membantu dalam usaha meningkatkan apl, Brave menghantar data penggunaan dan ranap sistem kepada Brave. <ph name="BEGIN_UMA_LINK"/>Urus<ph name="END_UMA_LINK"/></translation>
@@ -2027,7 +2027,7 @@ Untuk menukar tetapan ini, <ph name="BEGIN_LINK"/>padamkan data Brave dalam akau
 <translation id="9212845824145208577">Tidak dapat pergi lebih rendah. Cuba bermula dari bahagian bawah halaman.</translation>
 <translation id="9218430445555521422">Tetapkan sebagai lalai</translation>
 <translation id="9219103736887031265">Imej</translation>
-<translation id="142389341645668510">Sesuaikan Brave</translation>
+<translation id="9094133852008074140">Sesuaikan Wryling</translation>
 <translation id="9222198206152536936">Untuk mendapatkan tab anda dan pelbagai lagi pada semua peranti anda, log masuk sebagai <ph name="EMAIL"/></translation>
 <translation id="7625138338483121345">Jadikan Brave penyemak imbas lalai anda</translation>
 <translation id="4596514158372210596">Alih keluar aktiviti Brave anda daripada Kesejahteraan Digital</translation>
@@ -2057,7 +2057,7 @@ Untuk menukar tetapan ini, <ph name="BEGIN_LINK"/>padamkan data Brave dalam akau
 <translation id="5352668640894950863">Kunci tetingkap Peribadi apabila anda meninggalkan Brave</translation>
 <translation id="1014490034578104945">Gunakan kunci skrin untuk melihat tab Peribadi terbuka</translation>
 <translation id="5572558661069030949">Gunakan kunci skrin untuk melihat tetingkap Peribadi terbuka</translation>
-<translation id="2589970573128789862">Brave Private</translation>
+<translation id="2090681901335274465">Wryling Private</translation>
 <translation id="5809126106485463836">Mod peribadi memastikan aktiviti pelayaran anda dirahsiakan daripada orang lain yang menggunakan peranti anda</translation>
 <translation id="5487565066256782913">Buka tetingkap Peribadi baharu</translation>
 <translation id="5706084539081051088">Apabila anda melayari dalam mod Peribadi, orang lain yang menggunakan peranti ini tidak akan melihat aktiviti anda, jadi anda boleh melayari dengan lebih peribadi. <ph name="BEGIN_LINK"/>Ketahui lebih lanjut<ph name="END_LINK"/></translation>

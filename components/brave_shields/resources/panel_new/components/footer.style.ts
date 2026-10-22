@@ -3,39 +3,33 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-import { color, font } from '@brave/leo/tokens/css/variables'
 import { scoped } from '$web-common/scoped_css'
 
 export const style = scoped.css`
+  & {
+    border-top: 1px solid var(--wry-separator);
+  }
   .actions {
-    padding: 16px;
+    padding: var(--wry-space-2) 0;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    gap: 8px;
-    border-top: solid 1px ${color.divider.subtle};
-
-    > * {
-      flex: 1 1 calc(50% - 8px);
-      white-space: nowrap;
-    }
+    gap: var(--wry-space-2);
   }
-
+  .actions > * {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
   .try-off {
-    padding: 12px 8px 16px;
-    border-top: solid 1px ${color.divider.subtle};
-    background: ${color.page.background};
-    color: ${color.text.tertiary};
-    font: ${font.small.regular};
-    text-align: center;
-
-    a {
-      color: inherit;
-    }
+    padding-top: var(--wry-space-2);
+    color: var(--wry-text-secondary);
+    font: var(--wry-caption);
+    text-align: start;
   }
-
-  &:nth-child(2) .actions {
-    border: none;
-    padding-top: 8px;
+  .try-off p + p {
+    margin-top: var(--wry-space-1);
+  }
+  .try-off a {
+    white-space: nowrap;
+    color: var(--wry-accent-text);
   }
 `

@@ -60,10 +60,14 @@ NTPBackgroundPrefs::~NTPBackgroundPrefs() = default;
 // static
 void NTPBackgroundPrefs::RegisterPref(
     user_prefs::PrefRegistrySyncable* registry) {
+  // Wryling: the New Tab / Home background defaults to Wryling's Aurora
+  // wallpaper (drawn by the page in the space's colour; see
+  // brave_new_tab_page_refresh/lib/wryling_wallpapers.ts) rather than
+  // Brave's photos.
   base::DictValue dict;
-  dict.Set(kTypeKey, TypeToString(Type::kBrave));
+  dict.Set(kTypeKey, TypeToString(Type::kColor));
   dict.Set(kRandomKey, false);
-  dict.Set(kSelectedValueKey, "");
+  dict.Set(kSelectedValueKey, "wryling:aurora");
   registry->RegisterDictionaryPref(kPrefName, std::move(dict));
 
   registry->RegisterListPref(kCustomImageListPrefName);

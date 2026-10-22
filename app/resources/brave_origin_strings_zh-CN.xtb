@@ -101,7 +101,7 @@
 <translation id="2137162749895930932">关闭翻译屏幕</translation>
 <translation id="5789330946301045610">Brave 阻止了此项下载操作，因为网站未使用安全连接，该文件可能已被篡改</translation>
 <translation id="2170098639895543546">选择页面上的任何内容</translation>
-<translation id="142389341645668510">自定义 Brave</translation>
+<translation id="9094133852008074140">自定义 Wryling</translation>
 <translation id="2174917724755363426">尚未完成安装，确定要取消吗？</translation>
 <translation id="8841019650931243995">Brave Origin - 网络登录 - <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">更新检查错误：<ph name="UPDATE_CHECK_ERROR"/>。</translation>
@@ -200,7 +200,7 @@
 <translation id="3137969841538672700">拖动即可搜索</translation>
 <translation id="8372436892102763334">此标签页正在占用额外的资源。请通过 Brave 将其设为非活跃状态，以便提升性能。</translation>
 <translation id="5949068186379578553">若要共享屏幕，请在“系统设置”中为 Brave 启用屏幕录制功能</translation>
-<translation id="4805806622840861220">重新启动 Brave</translation>
+<translation id="2036272753168211127">重新启动 Wryling</translation>
 <translation id="3161522574479303604">所有语言</translation>
 <translation id="1742948938503172561">自定义您的新 Brave 个人资料</translation>
 <translation id="2430807206104224491">无需切换标签页，即可继续在 AI 模式下对话。如需开始使用，请登录 Brave。登录后，您还可在自己的所有设备上同步保存的密码等信息。</translation>
@@ -234,7 +234,7 @@
 <translation id="8981774130895723211">若要共享屏幕，请在“系统设置”中为 Brave 启用屏幕录制功能。</translation>
 <translation id="2981961446160697133">增强型保护会为 Brave 无法识别的网站关闭 JavaScript 优化功能</translation>
 <translation id="3597003331831379823">未能以提升的权限运行设置。<ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">登录 Brave</translation>
+<translation id="5451434122049588189">登录 Wryling</translation>
 <translation id="3066805437003400520">系统将会从此设备上删除该用户的浏览数据。要想恢复这些数据，请以“<ph name="USER_EMAIL"/>”的身份登录 Brave。</translation>
 <translation id="3667616615096815454">无法安装，服务器无法识别该应用。</translation>
 <translation id="1128485277465085828">使用您<ph name="BEGIN_LINK"/>自己的口令<ph name="END_LINK"/>加密您 Brave 账号中的所有 Brave 数据。系统不会加密 Google Pay 中的支付方式和地址，也不会同步 Brave 中的浏览记录。</translation>
@@ -278,7 +278,7 @@
 <translation id="4055805654398742145">密码管理工具(&amp;A)</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{您的组织会在 Brave 闲置 1 分钟后自动关闭它。浏览数据会被删除。这些数据可能包括历史记录、自动填充数据和下载内容。}other{您的组织会在 Brave 闲置 # 分钟后自动关闭它。浏览数据会被删除。这些数据可能包括历史记录、自动填充数据和下载内容。}}</translation>
 <translation id="5794951150713244901">前往“关于 Brave”页面</translation>
-<translation id="10925962326134232">自定义 Brave，为您的浏览器换上全新外观</translation>
+<translation id="908722199085381104">自定义 Wryling，为您的浏览器换上全新外观</translation>
 <translation id="6596295505984504022">自定义 Brave(&amp;U)</translation>
 <translation id="4148957013307229264">正在安装...</translation>
 <translation id="5011704081781303429"><ph name="PAGE_TITLE"/> - 网络登录 - Brave Origin</translation>
@@ -380,7 +380,7 @@
 <translation id="5154625106151193600">了解 Brave 为何屏蔽某些文件</translation>
 <translation id="1786715389543715322">正在更新 Brave (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">允许登录 Brave</translation>
-<translation id="5267531627648004734">从Brave中移除</translation>
+<translation id="6125790165673488794">从Brave中移除</translation>
 <translation id="4620757336635063467">降低性能，但提高 Brave 防范攻击的能力</translation>
 <translation id="239760341987199724">将Brave设为默认浏览器</translation>
 <translation id="5165277482382778404"><ph name="PAGE_TITLE"/> - Brave Origin 测试版</translation>
@@ -559,7 +559,7 @@
 <translation id="7024536598735240744">解压缩时出错：<ph name="UNPACK_ERROR"/>。</translation>
 <translation id="280382502853897110">定制您的专属 Brave</translation>
 <translation id="7047386856539490735">这些结果有用吗？</translation>
-<translation id="1705567146636171298">更新 Brave</translation>
+<translation id="4469722898384489712">更新 Wryling</translation>
 <translation id="5499063270485366718">如果图片缺少有用的说明，则 Brave 会尝试为您提供一条说明。为便于创建说明，系统会将图片发送给 Brave。</translation>
 <translation id="1196733835766994012">强大 AI 体验，尽在 <ph name="DEVICE_TYPE"/> 版 Brave 应用</translation>
 <translation id="7166289504510860270">借助手机上的 Brave 应用，随时随地同步您的密码、标签页等内容</translation>
@@ -765,7 +765,7 @@ Brave 无法恢复您的设置。</translation>
 <translation id="8965179855019347124">借助手机上的 Brave 应用，体验 Brave 最出色的 AI 工具</translation>
 <translation id="9049928023195059068">登录其他 Brave 服务时登录 Brave</translation>
 <translation id="4561046754724442504">Brave 已自动关闭</translation>
-<translation id="5173820533850252773">Brave版本太旧</translation>
+<translation id="1523936557081546133">Brave版本太旧</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave 将在 1 小时后重新启动}other{Brave 将在 # 小时后重新启动}}</translation>
 <translation id="9106236359747881194">选择文字即可搜索</translation>
 <translation id="5190991181158966940">若要接收后续 Brave 更新，您需使用 Windows 10 或更高版本。该计算机目前使用的是 Windows 8.1。</translation>
@@ -777,12 +777,12 @@ Brave 无法恢复您的设置。</translation>
 <translation id="2444257125841652328">您的系统管理员已将 Brave 配置为使用备用浏览器访问 <ph name="TARGET_URL_HOSTNAME"/>。</translation>
 <translation id="7902365066753170041">重新启动以更新 Brave(&amp;C)</translation>
 <translation id="538146372587193686">Brave Origin (mDNS-In)</translation>
-<translation id="296137235951584143">定制您的专属 Brave</translation>
+<translation id="4578349172774307195">定制您的专属 Wryling</translation>
 <translation id="7977787072794666032">Brave 可能无法正常运行，因为它不再支持 Windows XP 和 Windows Vista</translation>
 <translation id="8462937515915443472">畅享 Brave 顶级安全功能，Brave 随时随地守护您。</translation>
 <translation id="945522503751344254">发送反馈</translation>
 <translation id="4484434718272972655">谁在使用 Brave？</translation>
-<translation id="7173394303099002355">获享 Brave 的最强安全保护</translation>
+<translation id="1158507424343802366">获享 Wryling 的最强安全保护</translation>
 <translation id="983803489796659991">更新服务器没有应用的任何哈希数据，因此安装失败。</translation>
 <translation id="8435446479956716379">在不登录账号的情况下使用 Brave</translation>
 <translation id="8992261409816268381">Brave Software Inc</translation>
@@ -810,6 +810,6 @@ Brave 无法恢复您的设置。</translation>
               other {高级保护功能要求您重新启动 Brave 以应用更新。您的 # 个无痕窗口不会重新打开。}}</translation>
 <translation id="5749154344207139683">参与此次 1 分钟问卷调查，帮助我们优化隐私性。</translation>
 <translation id="79269250264141507">当您在地址栏或搜索框中输入时，Brave 会将您输入的内容发送到默认搜索引擎，以获得更好的建议。这是私密的。</translation>
-<translation id="2589970573128789862">Brave 隐私</translation>
+<translation id="2090681901335274465">Wryling 隐私</translation>
 <translation id="5994282802285556682">在隐私模式下浏览时，Brave 会在使用不安全连接加载网站之前向您发出警告</translation>
 </translationbundle>

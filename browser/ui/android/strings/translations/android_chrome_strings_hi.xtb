@@ -44,7 +44,7 @@
 <translation id="7083341910267693582"><ph name="APP_NAME"/>, Brave में खुलेगा. जारी रखने का मतलब है कि आप <ph name="BEGIN_LINK1"/>Brave की सेवा की शर्तों<ph name="END_LINK1"/> के साथ-साथ <ph name="BEGIN_LINK2"/>Brave और ChromeOS की सेवा की अन्य शर्तों<ph name="END_LINK2"/> से सहमत हैं.</translation>
 <translation id="7443574521624544928">आपने Brave Password Manager में कोई पासवर्ड सेव नहीं किया है.</translation>
 <translation id="115483310321669804"><ph name="PASSWORD"/> पासवर्ड डालें</translation>
-<translation id="4489415936688888898">Brave में Gemini</translation>
+<translation id="4980210551795949534">Wryling में Gemini</translation>
 <translation id="1161065531352634524">टैब और इतिहास सिंक करें</translation>
 <translation id="1165109137568919258">कोई फ़ोटो लें या अपनी फ़ोटो गैलरी से कोई इमेज जोड़ें, ताकि उसके बारे में खोजा जा सके</translation>
 <translation id="1173894706177603556">नाम बदलें</translation>
@@ -91,8 +91,8 @@
 <translation id="1333491156693005331">हाल ही में जांच की गई</translation>
 <translation id="1336996151357442890"><ph name="SITE_NAME"/> की सदस्यता छोड़ दी गई. अगली बार यह साइट खोलने पर आपसे दोबारा पूछा जाएगा.</translation>
 <translation id="1340839264183302272">ग्रुप छोड़ें</translation>
-<translation id="873343310451048603">यह देखने के लिए कि पासवर्ड हैक या चोरी तो नहीं हुए हैं, Brave Password Manager पर जाएं</translation>
-<translation id="4167284810587724062">Brave में साइन इन करें</translation>
+<translation id="4973862711373394097">यह देखने के लिए कि पासवर्ड हैक या चोरी तो नहीं हुए हैं, Wryling Password Manager पर जाएं</translation>
+<translation id="5451434122049588189">Wryling में साइन इन करें</translation>
 <translation id="1344653310988386453">हाइलाइट किए गए टेक्स्ट का लिंक शामिल करें</translation>
 <translation id="1355088659320425659">इतिहास और टैब</translation>
 <translation id="1363028406613469049">ट्रैक</translation>
@@ -147,7 +147,7 @@ Brave के अनुभव को बेहतर बनाने के ल�
 आपका एन्क्रिप्ट यानी सुरक्षित किया गया डेटा, सिर्फ़ वही व्यक्ति देख सकता है जिसके पास आपका लंबा पासवर्ड है. Brave को लंबा पासवर्ड नहीं भेजा जाता, न ही Brave इसे सेव करता है. अगर आपको अपना लंबा पासवर्ड याद नहीं है या आपको यह सेटिंग बदलनी है, तो <ph name="BEGIN_LINK"/>अपने खाते में मौजूद Brave का डेटा मिटाएं<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">अपना Brave खाता प्रबंधित करने के लिए, "खाता प्रबंधित करें" बटन पर टैप करें</translation>
 <translation id="1549000191223877751">अन्य विंडो में ले जाएं</translation>
-<translation id="1705567146636171298">Brave अपडेट करें</translation>
+<translation id="4469722898384489712">Wryling अपडेट करें</translation>
 <translation id="1554352084785952638">"<ph name="SEARCH_TERMS"/>" के लिए <ph name="SEARCH_ENGINE"/></translation>
 <translation id="2509230690562869141">यह विकल्प, उन लोगों के लिए Brave को बेहतर बनाने में मदद करता है जो आपकी तरह ही इसे इस्तेमाल करते हैं</translation>
 <translation id="1568636008098739136">इस पेज का कॉन्टेंट सुनें. इस शॉर्टकट में बदलाव करने के लिए, दबाकर रखें.</translation>
@@ -207,8 +207,8 @@ Brave के अनुभव को बेहतर बनाने के ल�
 <translation id="4544426875066706571">अपने डेटा को सुरक्षित रखने के लिए, Brave को उन साइटों को दी गई अनुमतियां हटाने दें जिन्हें आपने हाल ही में इस्तेमाल नहीं किया है</translation>
 <translation id="1851551847729706116">इस टैब के साथ <ph name="TAB_NAME"/> शेयर किया जा रहा है</translation>
 <translation id="1869691326892615940">पासवर्ड की बेहतर सुरक्षा और तेज़ी से साइन-इन की सुविधा</translation>
-<translation id="7175072311426658869">Brave ब्राउज़र में खोलें</translation>
-<translation id="5173820533850252773">Brave पुराना हो गया है</translation>
+<translation id="7259806589727104192">Wryling ब्राउज़र में खोलें</translation>
+<translation id="1523936557081546133">Wryling पुराना हो गया है</translation>
 <translation id="1877073879466606884">आपने, मैनेज की जा रही प्रोफ़ाइल में साइन इन किया है. प्रोफ़ाइल का एडमिन, कहीं दूर रहकर भी आपकी प्रोफ़ाइल की सेटिंग में बदलाव कर सकता है. साथ ही, रिपोर्टिंग के ज़रिए ब्राउज़र से जुड़ी जानकारी का विश्लेषण और दूसरे ज़रूरी काम भी कर सकता है.</translation>
 <translation id="1879904908408734349">साइन इन करने के लिए, खातों की सूची बंद है</translation>
 <translation id="1883903952484604915">मेरी फ़ाइलें</translation>
@@ -576,7 +576,7 @@ Brave के अनुभव को बेहतर बनाने के ल�
 <translation id="3384347053049321195">इमेज शेयर करें</translation>
 <translation id="3387650086002190359">सिस्‍टम त्रुटियों के कारण <ph name="FILE_NAME"/> डाउनलोड विफल रहा.</translation>
 <translation id="5654361895804243820">Brave के विंडो मैनेजर में जाकर, विंडो मैनेज की जा सकती हैं</translation>
-<translation id="4302350545547675750">Brave Password Manager में मैनेज करें</translation>
+<translation id="54130667607538272">Wryling Password Manager में मैनेज करें</translation>
 <translation id="3417835166382867856">टैब खोजें</translation>
 <translation id="3430670036890315772">अपना प्रोफ़ाइल लॉक बंद करने पर, आपकी सेव की गई जानकारी हट जाएगी</translation>
 <translation id="4114256890962999877">अपने पासवर्ड का ऐक्सेस बनाए रखने के लिए, उन्हें अभी एक्सपोर्ट करें. इसके बाद, Google Play Services को अपडेट करें और फिर उन्हें Brave Password Manager पर इंपोर्ट करें. <ph name="BEGIN_LINK"/>पूरे निर्देश देखें<ph name="END_LINK"/>.</translation>
@@ -738,7 +738,7 @@ Brave के अनुभव को बेहतर बनाने के ल�
 <translation id="4072805772816336153">कुछ समय बाद कोशिश करें</translation>
 <translation id="4084682180776658562">बुकमार्क</translation>
 <translation id="4521874409998847950">प्रकाशक: <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>Brave की ओर से डिलीवर किया गया<ph name="END_DEEMPHASIZED"/></translation>
-<translation id="7268155614575494857">इस साइट के लिए अपना उपयोगकर्ता नाम जोड़ें, ताकि Brave Password Manager साइन इन करने के लिए आपके क्रेडेंशियल सेव कर सके</translation>
+<translation id="6708405940091325014">इस साइट के लिए अपना उपयोगकर्ता नाम जोड़ें, ताकि Wryling Password Manager साइन इन करने के लिए आपके क्रेडेंशियल सेव कर सके</translation>
 <translation id="4095146165863963773">ऐप्लिकेशन डेटा मिटाएं?</translation>
 <translation id="4095483462103784441">नया टैब ग्रुप बनाएं</translation>
 <translation id="1523634703470981382">Brave Password Manager अपडेट करने का डायलॉग बॉक्स खुल गया है</translation>
@@ -1086,7 +1086,7 @@ Brave के अनुभव को बेहतर बनाने के ल�
 <translation id="5532536403031755365">ऑनलाइन खतरों से बचने के लिए, बेहतर सुरक्षा मोड के ज़रिए सुरक्षा की एक अतिरिक्त लेयर जोड़ें</translation>
 <translation id="5540127996007641535">{NUM_BOOKMARKS,plural, =1{बुकमार्क खोलें}one{सभी (#) बुकमार्क खोलें}other{सभी (#) बुकमार्क खोलें}}</translation>
 <translation id="5548606607480005320">सुरक्षा जांच</translation>
-<translation id="4362225295386962644">पासवर्ड डालने पर, Brave आपको सूचना देता है कि क्या वह ऑनलाइन पब्लिश हो चुका है. ऐसा करते समय, आपके पासवर्ड और उपयोगकर्ता नाम को एन्क्रिप्ट (सुरक्षित) किया जाता है, ताकि कोई उन्हें देख न सके, यहां तक कि Brave भी नहीं.</translation>
+<translation id="3680104634340426001">पासवर्ड डालने पर, Brave आपको सूचना देता है कि क्या वह ऑनलाइन पब्लिश हो चुका है. ऐसा करते समय, आपके पासवर्ड और उपयोगकर्ता नाम को एन्क्रिप्ट (सुरक्षित) किया जाता है, ताकि कोई उन्हें देख न सके, यहां तक कि Brave भी नहीं.</translation>
 <translation id="5555525474779371165">सुरक्षित ब्राउज़िंग से मिलने वाली सुरक्षा योजना का कोई विकल्प चुनें</translation>
 <translation id="5556459405103347317">फिर लोड करें</translation>
 <translation id="555671485580955310">'इतिहास और टैब' सिंक करें</translation>
@@ -1189,7 +1189,7 @@ Brave के अनुभव को बेहतर बनाने के ल�
 <translation id="6002122790816966947">आपके डिवाइस</translation>
 <translation id="6011308810877101166">खोज से जुड़े सुझावों को बेहतर बनाएं</translation>
 <translation id="6013305291643746595">पुराने से नए के क्रम में लगाया जा रहा है</translation>
-<translation id="296137235951584143">Brave को अपने मुताबिक बनाएं</translation>
+<translation id="4578349172774307195">Wryling को अपने मुताबिक बनाएं</translation>
 <translation id="6023820583797130428">वापस जाने के लिए मेन्यू खोलें</translation>
 <translation id="6026538407078977628">बड़ा करके फ़ुल स्क्रीन पर दिखाएं</translation>
 <translation id="6039379616847168523">सीधे अगले टैब पर जाएं</translation>
@@ -1248,7 +1248,7 @@ Brave के अनुभव को बेहतर बनाने के ल�
 उदाहरण के लिए, कुछ वेबसाइटें इस अनुरोध का जवाब आपको ऐसे विज्ञापन दिखाकर दे सकती हैं, जो उन दूसरी वेबसाइटों पर आधारित नहीं हैं जिन्हें आपने देखा है. कई वेबसाइटें अब भी आपके ब्राउज़िंग डेटा को जमा और उनका उपयोग करेंगी - उदाहरण के तौर पर, सुरक्षा को बेहतर बनाने के लिए, अपनी वेबसाइट पर कॉन्टेंट, सेवाएं, विज्ञापन और सुझाव देने के लिए और रिपोर्टिंग के आकंड़े जनरेट करने के लिए.</translation>
 <translation id="623755660902014047">रीडिंग मोड</translation>
 <translation id="6246073558347462570">कॉन्टेक्स्ट पॉप-अप विंडो</translation>
-<translation id="8883879481897424949">Brave Password Manager</translation>
+<translation id="3888885285070224654">Wryling Password Manager</translation>
 <translation id="6248988683584659830">सेटिंग में खोजें</translation>
 <translation id="2715956954609894918">Brave का अपना पूरा इतिहास यहां देखें</translation>
 <translation id="6254139308321626268">PDF फ़ाइल देखी जा रही है</translation>
@@ -1297,7 +1297,7 @@ Brave के अनुभव को बेहतर बनाने के ल�
 <translation id="6394791151443660613"><ph name="SEARCH_QUERY"/>: खोजें</translation>
 <translation id="6397616442223433927">इंटरनेट कनेक्शन फिर से जुड़ गया</translation>
 <translation id="6399363707848566877">अब यहां टैब को ग्रुप में आसानी से जोड़ा जा सकता है</translation>
-<translation id="8789425457808164956">इस टैब को किसी दूसरे डिवाइस पर भेजने के लिए, उस डिवाइस पर जाकर Brave में साइन इन करें</translation>
+<translation id="2522845252291433622">इस टैब को किसी दूसरे डिवाइस पर भेजने के लिए, उस डिवाइस पर जाकर Wryling में साइन इन करें</translation>
 <translation id="6404511346730675251">बुकमार्क में बदलाव करें</translation>
 <translation id="6410883413783534063">एक ही समय में अलग-अलग पेजों पर जाने के लिए कई टैब खोलें</translation>
 <translation id="6411009031428071896">फ़ीड पर मौजूद टेक्स्ट सुनें</translation>
@@ -1327,7 +1327,7 @@ Brave के अनुभव को बेहतर बनाने के ल�
 <translation id="6482749332252372425">मेमोरी स्‍थान कम होने के कारण <ph name="FILE_NAME"/> डाउनलोड विफल रहा.</translation>
 <translation id="6486420406192123355">इस PDF फ़ाइल को किसी ऐसी साइट से देखा जा रहा है जो असुरक्षित कनेक्शन का इस्तेमाल कर रही है</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{फ़ाइल डाउनलोड हो गई है}one{# डाउनलोड पूरा हुआ}other{# डाउनलोड पूरे हुए}}</translation>
-<translation id="3960299545138990065">Brave को फिर से शुरू करें</translation>
+<translation id="6199441660763014986">Wryling को फिर से शुरू करें</translation>
 <translation id="6513924416597632811"><ph name="SEARCH_QUERY"/> के लिए खोज नतीजों के पेज का लिंक कॉपी करें. सोर्स: <ph name="PAGE_URL"/></translation>
 <translation id="6518133107902771759">पुष्टि करें</translation>
 <translation id="6521218807522232085">पासवर्ड बनाएं, उन्हें सेव करें, और मैनेज करें, ताकि आप आसानी से साइन इन कर पाएं</translation>
@@ -1357,7 +1357,7 @@ Brave के अनुभव को बेहतर बनाने के ल�
 <translation id="6602173570135186741">ऑटोमैटिक तरीके से भरने की सुविधा और पासवर्ड</translation>
 <translation id="661266467055912436">वेब पर आपकी और सभी उपयोगकर्ताओं की सुरक्षा को बेहतर बनाती है.</translation>
 <translation id="6615455863669487791">मुझे दिखाएं</translation>
-<translation id="8127050479140582768">इस टैब को किसी दूसरे डिवाइस पर भेजने के लिए, दोनों डिवाइसों पर Brave में साइन इन करें</translation>
+<translation id="7379057487310867567">इस टैब को किसी दूसरे डिवाइस पर भेजने के लिए, दोनों डिवाइसों पर Wryling में साइन इन करें</translation>
 <translation id="6627583120233659107">फ़ोल्‍डर में बदलाव करें</translation>
 <translation id="6636623428211296678">नीचे दी गई अन्य सेटिंग देखें या इसे अभी पूरा करें</translation>
 <translation id="7939692063031538305">ऐप्लिकेशन को बेहतर बनाने के लिए Brave, ऐप्लिकेशन के इस्तेमाल और क्रैश होने से जुड़ा डेटा Brave को भेजता है. <ph name="BEGIN_UMA_LINK"/>मैनेज करें<ph name="END_UMA_LINK"/></translation>
@@ -2027,7 +2027,7 @@ Brave के अनुभव को बेहतर बनाने के ल�
 <translation id="9212845824145208577">इससे नीचे नहीं जा सकते. पेज पर नीचे से शुरुआत करके देखें.</translation>
 <translation id="9218430445555521422">डिफ़ॉल्ट के तौर पर सेट करें</translation>
 <translation id="9219103736887031265">इमेज</translation>
-<translation id="142389341645668510">Brave को पसंद के मुताबिक बनाएं</translation>
+<translation id="9094133852008074140">Wryling को पसंद के मुताबिक बनाएं</translation>
 <translation id="9222198206152536936">अपने सभी डिवाइसों पर टैब वगैरह ऐक्सेस करने के लिए, <ph name="EMAIL"/> के तौर पर साइन इन करें</translation>
 <translation id="7625138338483121345">Brave को अपना डिफ़ॉल्ट ब्राउज़र बनाएं</translation>
 <translation id="4596514158372210596">'डिजिटल वेलबीइंग' से अपनी Brave गतिविधि हटाएं</translation>
@@ -2057,7 +2057,7 @@ Brave के अनुभव को बेहतर बनाने के ल�
 <translation id="5352668640894950863">Brave से बाहर जाते समय निजी विंडो लॉक करें</translation>
 <translation id="1014490034578104945">खुले हुए प्राइवेट टैब को देखने के लिए स्क्रीन लॉक का इस्तेमाल करें</translation>
 <translation id="5572558661069030949">खुली निजी विंडो देखने के लिए स्क्रीन लॉक का उपयोग करें</translation>
-<translation id="2589970573128789862">Brave प्राइवेट</translation>
+<translation id="2090681901335274465">Wryling प्राइवेट</translation>
 <translation id="5809126106485463836">प्राइवेट मोड आपके ब्राउज़िंग को आपके डिवाइस का इस्तेमाल करने वाले दूसरों से प्राइवेट रखता है</translation>
 <translation id="5487565066256782913">नई प्राइवेट विंडो खोलें</translation>
 <translation id="5706084539081051088">जब आप प्राइवेट में ब्राउज़ कर रहे होते हैं, तो इस डिवाइस का उपयोग करने वाले अन्य लोग आपकी गतिविधि नहीं देख पाएंगे, इसलिए आप अधिक निजी तरीके से ब्राउज़ कर सकते हैं। <ph name="BEGIN_LINK"/>और जानें<ph name="END_LINK"/></translation>

@@ -5,11 +5,15 @@
 
 import {
   html,
+  RegisterPolymerPrototypeModification,
   RegisterPolymerTemplateModifications
 } from 'chrome://resources/brave/polymer_overriding.js'
 
 import { loadTimeData } from '../i18n_setup.js'
 
+import {extrasReady, guardExtraRoute} from '../wryling_extras.js'
+import type {SettingsMainElement} from '../settings_main/settings_main.js'
+import type {Route} from '../router.js'
 import '../brave_content_page/content_page_index.js'
 import '../getting_started_page/getting_started_page_index.js'
 import '../brave_origin_page/brave_origin_page.js'
@@ -28,6 +32,39 @@ import '../brave_wallet_page/wallet_page_index.js'
 
 RegisterPolymerTemplateModifications({
   'settings-main': (templateContent) => {
+    const header = html`<header class="wry-page-header"><h1 data-wry-title></h1></header>`
+    templateContent.querySelector('#switcher')?.before(header)
+    // Wryling: the scrolled header is a slim, full-width glass strip with
+    // the Headline title, not the large header in a glass
+    // box. The header keeps its 84px of layout in both states, so content
+    // never jumps and the scroll threshold can't oscillate; it sticks 40px
+    // above the top, which leaves only the bottom 44px on screen.
+    templateContent.querySelector('#switcher')?.before(html`<style>
+      :host(settings-main) .wry-page-header {
+        top: -40px; height: 84px; box-sizing: border-box;
+        display: flex; align-items: flex-end;
+        padding: 0 0 24px !important; isolation: isolate; top: -40px !important;
+      }
+      :host(settings-main) .wry-page-header::before {
+        content: ''; position: absolute; z-index: -1;
+        inset: 0 -2000px; opacity: 0; transition: opacity 160ms ease-out;
+        background: var(--wry-web-glass);
+        backdrop-filter: var(--wry-web-glass-filter);
+        border-bottom: var(--wry-hairline) solid var(--wry-separator);
+      }
+      :host(settings-main) .wry-page-header[data-compact=true] {
+        background: transparent !important; backdrop-filter: none !important;
+        padding-bottom: 14px !important;
+      }
+      :host(settings-main) .wry-page-header[data-compact=true]::before { opacity: 1; }
+      :host(settings-main) .wry-page-header[data-compact=true] h1 {
+        font: var(--wry-headline) !important;
+      }
+      @media (prefers-reduced-transparency: reduce) {
+        :host(settings-main) .wry-page-header::before { background: var(--wry-raised); backdrop-filter: none; }
+      }
+    </style>`)
+
     // Always show settings-basic-page
     const templatePrivacy = templateContent.querySelector(
       'template[is=dom-if][if="[[showPage_(pageVisibility_.privacy)]]"]')
@@ -56,6 +93,13 @@ RegisterPolymerTemplateModifications({
     if (!switcher) {
       throw new Error('[Settings] Missing switcher on settings-basic-page')
     }
+
+    if (!loadTimeData.getBoolean('isGuest')) switcher.appendChild(html`
+      <div slot="view" id="extras">
+        <template is="dom-if" if="[[renderPlugin_(routes_.WRYLING_EXTRAS, lastRoute_, inSearchMode_)]]">
+          <settings-wryling-extras class="cr-centered-card-container"></settings-wryling-extras>
+        </template>
+      </div>`)
 
     // Insert the getStarted page into the view manager
     switcher.appendChild(
@@ -124,7 +168,7 @@ RegisterPolymerTemplateModifications({
 
     // Insert the web3 page into the view manager
     // <if expr="enable_brave_wallet">
-    const isBraveWalletAllowed = loadTimeData.getBoolean('isBraveWalletAllowed')
+    const isBraveWalletAllowed = true
     if (isBraveWalletAllowed) {
       switcher.appendChild(
         html`
@@ -211,4 +255,17 @@ RegisterPolymerTemplateModifications({
       throw new Error('[Settings] Missing template for system page slot')
     }
   }
+})
+
+// Resolve policy state before the view manager attempts to show a hidden page.
+RegisterPolymerPrototypeModification({
+  'settings-main': (prototype: SettingsMainElement) => {
+    const routeChanged = prototype.currentRouteChanged
+    prototype.currentRouteChanged = function(this: SettingsMainElement, route: Route) {
+      if (route.section !== 'leoAssistant' && route.section !== 'web3') return routeChanged.call(this, route)
+      return extrasReady.then(() => {
+        return guardExtraRoute(route) ? undefined : routeChanged.call(this, route)
+      })
+    }
+  },
 })

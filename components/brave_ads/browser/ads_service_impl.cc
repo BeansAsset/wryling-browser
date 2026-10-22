@@ -266,8 +266,8 @@ void AdsServiceImpl::UnregisterLanguageResourceComponent() {
 }
 
 bool AdsServiceImpl::UserHasJoinedBraveRewards() const {
-  if (prefs_->IsManagedPreference(brave_rewards::prefs::kDisabledByPolicy) &&
-      prefs_->GetBoolean(brave_rewards::prefs::kDisabledByPolicy)) {
+  // Wryling: honoured whoever set it (see brave_rewards::IsDisabledByPolicy).
+  if (prefs_->GetBoolean(brave_rewards::prefs::kDisabledByPolicy)) {
     return false;
   }
   return prefs_->GetBoolean(brave_rewards::prefs::kEnabled);

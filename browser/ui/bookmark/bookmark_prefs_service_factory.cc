@@ -53,6 +53,9 @@ bool BookmarkPrefsServiceFactory::ServiceIsCreatedWithBrowserContext() const {
 
 void BookmarkPrefsServiceFactory::RegisterProfilePrefs(
     user_prefs::PrefRegistrySyncable* registry) {
+  // Wryling: off by default. Every space opens on a Home (new tab) page, so
+  // "only on the new tab page" meant an always-on empty bar with an import
+  // prompt. Settings > Appearance > Show bookmarks bar turns it back on.
   registry->RegisterBooleanPref(bookmarks::prefs::kAlwaysShowBookmarkBarOnNTP,
-                                true);
+                                false);
 }

@@ -1,0 +1,14 @@
+diff --git a/ui/base/ui_base_features.cc b/ui/base/ui_base_features.cc
+index 480fdaf4b6118394410fc2d903477ce8e34c722d..50f1bc78aef9b266c98455f689968c1cfa6ec42e 100644
+--- a/ui/base/ui_base_features.cc
++++ b/ui/base/ui_base_features.cc
+@@ -514,7 +514,8 @@ BASE_FEATURE_PARAM(int,
+ 
+ BASE_FEATURE(kDesktopGlowUp, base::FEATURE_DISABLED_BY_DEFAULT);
+ 
+-BASE_FEATURE(kGlassFrame, base::FEATURE_DISABLED_BY_DEFAULT);
++// Wryling: real macOS glass (NSGlassEffectView) behind the browser frame.
++BASE_FEATURE(kGlassFrame, base::FEATURE_ENABLED_BY_DEFAULT);
+ BASE_FEATURE_PARAM(bool, kGlassExpandOnHoverEnabled, &kGlassFrame, true);
+ 
+ BASE_FEATURE(kRoundedIcons, base::FEATURE_DISABLED_BY_DEFAULT);

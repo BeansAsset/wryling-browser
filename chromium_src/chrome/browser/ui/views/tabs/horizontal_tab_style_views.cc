@@ -5,6 +5,8 @@
 
 #include "chrome/browser/ui/views/tabs/horizontal_tab_style_views.h"
 
+#include <cmath>
+
 #include "base/check.h"
 #include "base/dcheck_is_on.h"
 #include "base/logging.h"
@@ -16,7 +18,11 @@
 #include "chrome/browser/ui/tabs/features.h"
 #include "chrome/browser/ui/views/tabs/tab_container.h"
 #include "chrome/browser/ui/views/tabs/tab_slot_controller.h"
+#include "ui/gfx/color_utils.h"
 #include "ui/views/view_utils.h"
+#include "ui/color/color_id.h"
+#include "ui/gfx/shadow_value.h"
+#include "ui/gfx/skia_paint_util.h"
 
 #include <chrome/browser/ui/views/tabs/horizontal_tab_style_views.cc>
 
@@ -253,9 +259,10 @@ SkPath BraveVerticalTabStyle::GetPath(TabStyle::PathType path_type,
   if (!is_pinned && IsSplitTab(tab()) &&
       path_type != TabStyle::PathType::kHitTest) {
     if (ShouldShowVerticalTabs()) {
-      IsStartSplitTab(tab())
-          ? tab_top += scale* kPaddingForVerticalTabInTile
-          : tab_bottom -= scale * kPaddingForVerticalTabInTile;
+      // Wryling: a split's tabs sit side by side in one card, each inset
+      // all round.
+      tab_top += scale * kPaddingForVerticalTabInTile;
+      tab_bottom -= scale * kPaddingForVerticalTabInTile;
       tab_left += scale * kPaddingForVerticalTabInTile;
       tab_right -= scale * kPaddingForVerticalTabInTile;
     } else {
@@ -320,10 +327,8 @@ gfx::Insets BraveVerticalTabStyle::GetContentsInsets() const {
   add_extra_left_padding(insets);
 
   if (!is_pinned && is_vertical_tabs && IsSplitTab(tab())) {
-    const bool is_first_tab = IsStartSplitTab(tab());
-    return insets + gfx::Insets::TLBR(
-                        is_first_tab ? kPaddingForVerticalTabInTile : 0, 0,
-                        is_first_tab ? 0 : kPaddingForVerticalTabInTile, 0);
+    // Wryling: side by side in one row, so no extra height either way.
+    return insets;
   }
 
   if (HorizontalTabsUpdateEnabled()) {
@@ -436,6 +441,45 @@ void BraveVerticalTabStyle::PaintTab(gfx::Canvas* canvas) const {
   }
 
   if (ShouldShowVerticalTabs()) {
+#if BUILDFLAG(IS_MAC)
+    // Wryling: upstream skips inactive tab fills in a glass frame, but
+    // favourite tiles keep their resting fill. Hover paints on top of it.
+    if (tab()->data().pinned && !tab()->IsActive() &&
+        delegate()->IsGlassFrame()) {
+      const SkPath fill_path = GetPath(TabStyle::PathType::kHighlight,
+                                       canvas->image_scale(), {});
+      gfx::ScopedCanvas scoped_canvas(canvas);
+      const float scale = canvas->UndoDeviceScaleFactor();
+      canvas->ClipPath(fill_path, true);
+      cc::PaintFlags flags;
+      flags.setAntiAlias(true);
+      flags.setColor(GetCurrentTabBackgroundColor(
+          TabStyle::TabSelectionState::kInactive, /*hovered=*/false));
+      canvas->DrawRect(
+          gfx::ScaleToEnclosingRect(tab()->GetLocalBounds(), scale), flags);
+    }
+#endif
+#if BUILDFLAG(IS_MAC)
+    // Wryling: the current tab is a card lifted off the sidebar:
+    // a soft shadow under its fill, darker in light mode where the card is
+    // near-white.
+    if (tab()->IsActive() && !tab()->data().pinned) {
+      const SkPath card = GetPath(TabStyle::PathType::kActiveTab,
+                                  canvas->image_scale(), {});
+      const bool dark = color_utils::IsDark(
+          tab()->GetColorProvider()->GetColor(ui::kColorFrameActive));
+      gfx::ScopedCanvas scoped_canvas(canvas);
+      canvas->UndoDeviceScaleFactor();
+      cc::PaintFlags shadow;
+      shadow.setAntiAlias(true);
+      shadow.setColor(SK_ColorTRANSPARENT);
+      const float s = canvas->image_scale();
+      shadow.setLooper(gfx::CreateShadowDrawLooper(
+          {gfx::ShadowValue(gfx::Vector2d(0, std::lround(1 * s)), 4 * s,
+                            SkColorSetA(SK_ColorBLACK, dark ? 0x40 : 0x26))}));
+      canvas->DrawPath(card, shadow);
+    }
+#endif
     // For vertical tabs, bypass the upstream logic to paint theme backgrounds,
     // as this can cause crashes due to the vertical tabstrip living in a
     // different widget hierarchy.
@@ -451,8 +495,14 @@ void BraveVerticalTabStyle::PaintTab(gfx::Canvas* canvas) const {
     return;
   }
 
-  // Paint a stroke for pinned tabs.
-  if (tab()->data().pinned) {
+  // Paint a stroke for pinned tabs. Wryling (macOS): vertical pinned tabs are
+  // filled favourite tiles without an outline (see the background colour).
+#if BUILDFLAG(IS_MAC)
+  const bool outline_pinned = !ShouldShowVerticalTabs();
+#else
+  const bool outline_pinned = true;
+#endif
+  if (tab()->data().pinned && outline_pinned) {
     const auto* widget = tab()->GetWidget();
     CHECK(widget);
 
@@ -698,6 +748,24 @@ std::optional<SkColor> BraveVerticalTabStyle::GetTargetTabBackgroundColor(
   if (tab()->IsActive()) {
     return cp->GetColor(kColorBraveVerticalTabActiveBackground);
   }
+
+#if BUILDFLAG(IS_MAC)
+  // Wryling: favourite tiles always have a soft fill; a little brighter on
+  // hover, brightest (above) when open.
+  if (tab()->data().pinned) {
+    const SkColor rest = cp->GetColor(kColorBraveVerticalTabHoveredBackground);
+    if (!hovered) {
+      return rest;
+    }
+    // In a glass frame the hover colour is painted over the resting fill
+    // (see PaintTab), so it only adds a little more of the same.
+    if (delegate()->IsGlassFrame()) {
+      return SkColorSetA(rest, SkColorGetA(rest) / 2);
+    }
+    return color_utils::AlphaBlend(
+        cp->GetColor(kColorBraveVerticalTabActiveBackground), rest, 0.5f);
+  }
+#endif
 
   if (hovered) {
     return cp->GetColor(kColorBraveVerticalTabHoveredBackground);

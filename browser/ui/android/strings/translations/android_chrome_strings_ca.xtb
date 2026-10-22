@@ -44,7 +44,7 @@
 <translation id="7083341910267693582"><ph name="APP_NAME"/> s'obrirà a Brave. En continuar, acceptes les <ph name="BEGIN_LINK1"/>condicions del servei de Brave<ph name="END_LINK1"/> i les <ph name="BEGIN_LINK2"/>condicions del servei addicionals de Brave i Chrome OS<ph name="END_LINK2"/>.</translation>
 <translation id="7443574521624544928">No tens cap contrasenya desada al gestor de contrasenyes de Brave.</translation>
 <translation id="115483310321669804">Utilitza la contrasenya <ph name="PASSWORD"/></translation>
-<translation id="4489415936688888898">Gemini a Brave</translation>
+<translation id="4980210551795949534">Gemini a Wryling</translation>
 <translation id="1161065531352634524">Sincronitza les pestanyes i l'historial</translation>
 <translation id="1165109137568919258">Fes una foto o afegeix una imatge de la galeria de fotos per cercar-la</translation>
 <translation id="1173894706177603556">Canvia el nom</translation>
@@ -91,8 +91,8 @@
 <translation id="1333491156693005331">S'ha comprovat recentment</translation>
 <translation id="1336996151357442890">S'ha cancel·lat la subscripció a <ph name="SITE_NAME"/>. Se't tornarà a preguntar a la propera visita.</translation>
 <translation id="1340839264183302272">Surt del grup</translation>
-<translation id="873343310451048603">Per comprovar si hi ha contrasenyes en perill, ves al gestor de contrasenyes de Brave</translation>
-<translation id="4167284810587724062">Inicia la sessió a Brave</translation>
+<translation id="4973862711373394097">Per comprovar si hi ha contrasenyes en perill, ves al gestor de contrasenyes de Wryling</translation>
+<translation id="5451434122049588189">Inicia la sessió a Wryling</translation>
 <translation id="1344653310988386453">Inclou un enllaç al text marcat</translation>
 <translation id="1355088659320425659">Historial i pestanyes</translation>
 <translation id="1363028406613469049">Fes un seguiment</translation>
@@ -147,7 +147,7 @@ Per veure més opcions de configuració que utilitzin dades per millorar la teva
 Només les persones que sàpiguen la teva frase de contrasenya podran llegir les dades encriptades. La frase de contrasenya no s'envia a Brave, i Brave tampoc no l'emmagatzema. Si oblides la frase de contrasenya o vols canviar aquesta opció de configuració, <ph name="BEGIN_LINK"/>esborra les dades de Brave del compte<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">Per gestionar el teu Compte de Brave, toca el botó Gestiona el compte</translation>
 <translation id="1549000191223877751">Mou a l'altra finestra</translation>
-<translation id="1705567146636171298">Actualitza Brave</translation>
+<translation id="4469722898384489712">Actualitza Wryling</translation>
 <translation id="1554352084785952638"><ph name="SEARCH_ENGINE"/> per a <ph name="SEARCH_TERMS"/></translation>
 <translation id="2509230690562869141">Ajuda a millorar Brave per a les persones que el fan servir igual que tu</translation>
 <translation id="1568636008098739136">Escolta aquesta pàgina. Per editar aquesta drecera, mantén-la premuda.</translation>
@@ -207,8 +207,8 @@ Només les persones que sàpiguen la teva frase de contrasenya podran llegir les
 <translation id="4544426875066706571">Per protegir les teves dades, permet que Brave suprimeixi els permisos dels llocs web que no has visitat recentment</translation>
 <translation id="1851551847729706116">S'està compartint <ph name="TAB_NAME"/> en aquesta pestanya</translation>
 <translation id="1869691326892615940">Contrasenyes més segures, inici de sessió més ràpid</translation>
-<translation id="7175072311426658869">Obre al navegador Brave</translation>
-<translation id="5173820533850252773">Brave no està actualitzat</translation>
+<translation id="7259806589727104192">Obre al navegador Wryling</translation>
+<translation id="1523936557081546133">Wryling no està actualitzat</translation>
 <translation id="1877073879466606884">El perfil en què tens la sessió iniciada és un perfil gestionat. L'administrador pot fer canvis a la configuració del perfil de manera remota, analitzar informació sobre el navegador mitjançant informes i dur a terme altres tasques necessàries.</translation>
 <translation id="1879904908408734349">El full inferior d'inici de sessió està tancat</translation>
 <translation id="1883903952484604915">Els meus fitxers</translation>
@@ -576,7 +576,7 @@ Només les persones que sàpiguen la teva frase de contrasenya podran llegir les
 <translation id="3384347053049321195">Comparteix la imatge</translation>
 <translation id="3387650086002190359">No s'ha pogut baixar <ph name="FILE_NAME"/> a causa d'errors amb el sistema de fitxers.</translation>
 <translation id="5654361895804243820">Pots gestionar les finestres al gestor de finestres de Brave</translation>
-<translation id="4302350545547675750">Gestiona al gestor de contrasenyes de Brave</translation>
+<translation id="54130667607538272">Gestiona al gestor de contrasenyes de Wryling</translation>
 <translation id="3417835166382867856">Cerca pestanyes</translation>
 <translation id="3430670036890315772">En desactivar el bloqueig de perfil, se suprimirà la informació desada</translation>
 <translation id="4114256890962999877">Per mantenir l'accés a les contrasenyes, exporta-les ara, actualitza Serveis de Google Play i, a continuació, importa-les al gestor de contrasenyes de Brave. <ph name="BEGIN_LINK"/>Mostra les instruccions completes<ph name="END_LINK"/>.</translation>
@@ -738,7 +738,7 @@ Només les persones que sàpiguen la teva frase de contrasenya podran llegir les
 <translation id="4072805772816336153">Torna-ho a provar més tard</translation>
 <translation id="4084682180776658562">Adreça d'interès</translation>
 <translation id="4521874409998847950">Publicada originalment per <ph name="PUBLISHER_ORIGIN"/>, <ph name="BEGIN_DEEMPHASIZED"/>oferida per Brave<ph name="END_DEEMPHASIZED"/></translation>
-<translation id="7268155614575494857">Per ajudar el gestor de contrasenyes de Brave a desar la teva informació d'inici de sessió, afegeix el teu nom d'usuari per a aquest lloc web</translation>
+<translation id="6708405940091325014">Per ajudar el gestor de contrasenyes de Wryling a desar la teva informació d'inici de sessió, afegeix el teu nom d'usuari per a aquest lloc web</translation>
 <translation id="4095146165863963773">Vols suprimir les dades de l'aplicació?</translation>
 <translation id="4095483462103784441">Crea un grup de pestanyes nou</translation>
 <translation id="1523634703470981382">S'ha obert l'actualització del gestor de contrasenyes de Brave</translation>
@@ -1086,7 +1086,7 @@ Només les persones que sàpiguen la teva frase de contrasenya podran llegir les
 <translation id="5532536403031755365">Afegeix una capa de protecció addicional contra les amenaces en línia amb la protecció millorada</translation>
 <translation id="5540127996007641535">{NUM_BOOKMARKS,plural, =1{Obre l'adreça d'interès}other{Obre-les totes (#)}}</translation>
 <translation id="5548606607480005320">Comprovació de seguretat</translation>
-<translation id="4362225295386962644">Quan utilitzes una contrasenya, Brave t'avisa si s'ha publicat en línia. Quan ho fa, les teves contrasenyes i els teus noms d'usuari s'encripten i, per tant, ningú no els pot llegir (ni tan sols Brave).</translation>
+<translation id="3680104634340426001">Quan utilitzes una contrasenya, Brave t'avisa si s'ha publicat en línia. Quan ho fa, les teves contrasenyes i els teus noms d'usuari s'encripten i, per tant, ningú no els pot llegir (ni tan sols Brave).</translation>
 <translation id="5555525474779371165">Tria la teva protecció de Navegació segura</translation>
 <translation id="5556459405103347317">Torna a carregar</translation>
 <translation id="555671485580955310">Sincronitza l'historial i les pestanyes</translation>
@@ -1189,7 +1189,7 @@ Només les persones que sàpiguen la teva frase de contrasenya podran llegir les
 <translation id="6002122790816966947">Els teus dispositius</translation>
 <translation id="6011308810877101166">Millora els suggeriments de cerca</translation>
 <translation id="6013305291643746595">S'ordena per més antics</translation>
-<translation id="296137235951584143">Personalitza Brave</translation>
+<translation id="4578349172774307195">Personalitza Wryling</translation>
 <translation id="6023820583797130428">Obre el menú per tornar enrere</translation>
 <translation id="6026538407078977628">Desplega en pantalla completa</translation>
 <translation id="6039379616847168523">Ves a la pestanya següent</translation>
@@ -1248,7 +1248,7 @@ Només les persones que sàpiguen la teva frase de contrasenya podran llegir les
 Per exemple, és possible que alguns llocs web responguin a aquesta sol·licitud mostrant-te anuncis que no estiguin basats en altres llocs web que hagis visitat. Molts llocs web continuaran recopilant i utilitzant les teves dades de navegació (per exemple, per millorar la seguretat, per proporcionar contingut, anuncis i recomanacions i per generar estadístiques).</translation>
 <translation id="623755660902014047">Mode de lectura</translation>
 <translation id="6246073558347462570">Finestra emergent de context</translation>
-<translation id="8883879481897424949">Gestor de contrasenyes de Brave</translation>
+<translation id="3888885285070224654">Gestor de contrasenyes de Wryling</translation>
 <translation id="6248988683584659830">Cerca a la configuració</translation>
 <translation id="2715956954609894918">Consulta l'historial de Brave aquí</translation>
 <translation id="6254139308321626268">Estàs veient un fitxer PDF</translation>
@@ -1297,7 +1297,7 @@ Per exemple, és possible que alguns llocs web responguin a aquesta sol·licitud
 <translation id="6394791151443660613">Cerca: <ph name="SEARCH_QUERY"/></translation>
 <translation id="6397616442223433927">Tornes a tenir connexió</translation>
 <translation id="6399363707848566877">Ara pots afegir fàcilment pestanyes als grups aquí</translation>
-<translation id="8789425457808164956">Per enviar aquesta pestanya a un altre dispositiu, inicia la sessió a Brave al dispositiu en qüestió</translation>
+<translation id="2522845252291433622">Per enviar aquesta pestanya a un altre dispositiu, inicia la sessió a Wryling al dispositiu en qüestió</translation>
 <translation id="6404511346730675251">Edita l'adreça d'interès</translation>
 <translation id="6410883413783534063">Obre pestanyes per visitar diverses pàgines al mateix temps</translation>
 <translation id="6411009031428071896">Escolta el feed</translation>
@@ -1327,7 +1327,7 @@ Per exemple, és possible que alguns llocs web responguin a aquesta sol·licitud
 <translation id="6482749332252372425">No s'ha pogut baixar <ph name="FILE_NAME"/> perquè falta espai d'emmagatzematge.</translation>
 <translation id="6486420406192123355">Aquest fitxer PDF prové d'un lloc web que utilitza una connexió no segura</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{S'ha baixat el fitxer}other{S'han completat # baixades}}</translation>
-<translation id="3960299545138990065">Reinicia Brave</translation>
+<translation id="6199441660763014986">Reinicia Wryling</translation>
 <translation id="6513924416597632811">Copia l'enllaç a la pàgina de resultats de la cerca per a: <ph name="SEARCH_QUERY"/>. Font: <ph name="PAGE_URL"/>.</translation>
 <translation id="6518133107902771759">Verifica</translation>
 <translation id="6521218807522232085">Crea, desa i gestiona les teves contrasenyes de manera que puguis iniciar la sessió fàcilment</translation>
@@ -1357,7 +1357,7 @@ Per exemple, és possible que alguns llocs web responguin a aquesta sol·licitud
 <translation id="6602173570135186741">Emplenament automàtic i contrasenyes</translation>
 <translation id="661266467055912436">Millora la seguretat per a tu i per a tots els usuaris del web.</translation>
 <translation id="6615455863669487791">Mostra-m'ho</translation>
-<translation id="8127050479140582768">Per enviar aquesta pestanya a un altre dispositiu, inicia la sessió a Brave als dos dispositius</translation>
+<translation id="7379057487310867567">Per enviar aquesta pestanya a un altre dispositiu, inicia la sessió a Wryling als dos dispositius</translation>
 <translation id="6627583120233659107">Edita la carpeta</translation>
 <translation id="6636623428211296678">Explora més opcions de configuració a continuació o acaba ara</translation>
 <translation id="7939692063031538305">Per ajudar a millorar l'aplicació, Brave envia les dades d'ús i de bloqueig a Brave. <ph name="BEGIN_UMA_LINK"/>Gestiona<ph name="END_UMA_LINK"/></translation>
@@ -2027,7 +2027,7 @@ Per canviar aquesta opció de configuració, <ph name="BEGIN_LINK"/>suprimeix le
 <translation id="9212845824145208577">No es pot baixar més. Prova de començar des de més avall a la pàgina.</translation>
 <translation id="9218430445555521422">Defineix com a predeterminat</translation>
 <translation id="9219103736887031265">Imatges</translation>
-<translation id="142389341645668510">Personalitza Brave</translation>
+<translation id="9094133852008074140">Personalitza Wryling</translation>
 <translation id="9222198206152536936">Per obtenir les teves pestanyes i altres dades en tots els dispositius, inicia la sessió com a <ph name="EMAIL"/></translation>
 <translation id="7625138338483121345">Estableix Brave com a navegador predeterminat</translation>
 <translation id="4596514158372210596">Suprimeix l'activitat de Brave de l'aplicació Benestar digital</translation>
@@ -2057,7 +2057,7 @@ Per canviar aquesta opció de configuració, <ph name="BEGIN_LINK"/>suprimeix le
 <translation id="5352668640894950863">Bloca les finestres privades quan surts de Brave</translation>
 <translation id="1014490034578104945">Utilitza la pantalla de bloqueig per visualitzar les pestanyes d'incògnit obertes</translation>
 <translation id="5572558661069030949">Usa el bloqueig de pantalla per veure les finestres privades obertes</translation>
-<translation id="2589970573128789862">Brave Incògnit</translation>
+<translation id="2090681901335274465">Wryling Incògnit</translation>
 <translation id="5809126106485463836">El mode d'incògnit facilita que la vostra navegació mantingui la privadesa amb altres usuaris que facin servir el dispositiu.</translation>
 <translation id="5487565066256782913">Obre una finestra d'incògnit nova</translation>
 <translation id="5706084539081051088">Quan navegueu en mode d'incògnit, altres persones que facin servir aquest aparell no veuran la vostra activitat, de manera que podreu navegar de forma més privada. <ph name="BEGIN_LINK"/>Més informació<ph name="END_LINK"/></translation>

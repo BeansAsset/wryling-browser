@@ -19,6 +19,14 @@ if (!is_android) {
     "//brave/browser/ui/color/color_palette.h",
     "//brave/browser/ui/color/material_brave_color_mixer.cc",
     "//brave/browser/ui/color/material_brave_color_mixer.h",
+    "//brave/browser/ui/color/wryling_menu_color_mixer.cc",
+    "//brave/browser/ui/color/wryling_menu_color_mixer.h",
+    "//brave/browser/ui/color/wryling_space_color.cc",
+    "//brave/browser/ui/color/wryling_space_color.h",
+    "//brave/browser/ui/color/wryling_tokens.cc",
+    "//brave/browser/ui/color/wryling_tokens.h",
+    "//brave/browser/ui/color/wryling_webui_theme.cc",
+    "//brave/browser/ui/color/wryling_webui_theme.h",
   ]
 
   brave_browser_ui_color_mixers_deps += [

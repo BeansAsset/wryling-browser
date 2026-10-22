@@ -26,7 +26,7 @@
 <translation id="1010833424573920260">{NUM_PAGES,plural, =1{ページが応答しません}other{ページが応答しません}}</translation>
 <translation id="1011003645819296594">保存済みのデバイス</translation>
 <translation id="1011355516189274711">テキスト読み上げの音量</translation>
-<translation id="6189564748168922180">Brave パスワード マネージャーのリカバリ PIN を変更</translation>
+<translation id="1208075464878533724">Wryling パスワード マネージャーのリカバリ PIN を変更</translation>
 <translation id="1012876632442809908">USB-C デバイス（前面のポート）</translation>
 <translation id="1015041505466489552">TrackPoint</translation>
 <translation id="1015318665228971643">フォルダ名の編集</translation>
@@ -70,7 +70,7 @@
 <translation id="6666716404807343028">Brave でのウェブサイトに対する位置情報の利用許可を管理する</translation>
 <translation id="1042248468362992359">アクセス ポイントを使用するには、モバイルデータに接続してください。<ph name="BEGIN_LINK_LEARN_MORE"/>詳細<ph name="END_LINK_LEARN_MORE"/></translation>
 <translation id="104385770822424034">アクションを追加</translation>
-<translation id="4141377378685217435">パスワードは Brave パスワード マネージャーに保存されるため、覚えておく必要はありません</translation>
+<translation id="5549984969275909493">パスワードは Wryling パスワード マネージャーに保存されるため、覚えておく必要はありません</translation>
 <translation id="1046521327593783388">{NUM_PASSWORDS,plural, =1{1 件のパスワードをこのデバイスの <ph name="BRAND"/> にインポートしました}other{{NUM_PASSWORDS} 件のパスワードをこのデバイスの <ph name="BRAND"/> にインポートしました}}</translation>
 <translation id="1046572983040892965">ウィンドウを左上に移動しました</translation>
 <translation id="1047431265488717055">リンクテキストをコピー(&amp;X)</translation>
@@ -96,7 +96,7 @@
 <translation id="10619348099955377">表示名をコピー</translation>
 <translation id="1062407476771304334">置換</translation>
 <translation id="1064236804542808595">組織のショートカットを復元</translation>
-<translation id="2729345439181698540">このサイトからの通知をご希望でないと判断されました。ブラウジングの妨げにならないようリクエストは非表示になっています。</translation>
+<translation id="7962797086784806183">このサイトからの通知をご希望でないと判断されました。ブラウジングの妨げにならないようリクエストは非表示になっています。</translation>
 <translation id="1066964438793906105">マルウェアをスキャン</translation>
 <translation id="3983904244054509097">セキュリティ強化のため、Brave アカウントに保存する前にデバイス上でパスワードを暗号化できます。</translation>
 <translation id="5428209950370661546">他の Brave サービス</translation>
@@ -139,7 +139,7 @@
 <translation id="1090541560108055381">ペア設定を行う前に、両方のデバイスでコードが一致しているか確認してください</translation>
 <translation id="1093457606523402488">検出されたネットワーク:</translation>
 <translation id="1093645050124056515">Ctrl+Alt+下矢印</translation>
-<translation id="1676423917671990874">ウェブ上の Brave パスワード マネージャー</translation>
+<translation id="3958643735082353873">ウェブ上の Wryling パスワード マネージャー</translation>
 <translation id="1097016918605049747">このページを翻訳できませんでした</translation>
 <translation id="1099962274138857708"><ph name="DEVICE_NAME"/> から画像がコピーされました</translation>
 <translation id="1100040363679327583">タスクを確認Gemini に相談</translation>
@@ -222,7 +222,7 @@
 <translation id="1155816283571436363">スマートフォンに接続しています</translation>
 <translation id="3265387852639842086">Brave 検索のサイドパネルを閉じる</translation>
 <translation id="1158080958325422608">大文字にする</translation>
-<translation id="4489415936688888898">Gemini in Brave</translation>
+<translation id="4980210551795949534">Gemini in Wryling</translation>
 <translation id="1159879754517035595">拡張機能の設定を管理する</translation>
 <translation id="1160800016654917722">ウィンドウを左下に移動しました</translation>
 <translation id="116173250649946226">デフォルトのテーマは管理者が設定しており、変更できません。</translation>
@@ -247,8 +247,8 @@
 <translation id="1173332155861271669">Passpoint プロバイダの詳細</translation>
 <translation id="1173894706177603556">名前を変更</translation>
 <translation id="1174073918202301297">ショートカットを追加しました</translation>
-<translation id="4720923867206970346">接続は常に保護されます（保護されない場合は通知されます）</translation>
-<translation id="4077881064206141073">Brave に移動する</translation>
+<translation id="460601934457493674">接続は常に保護されます（保護されない場合は通知されます）</translation>
+<translation id="3040558678310756332">Wryling に移動する</translation>
 <translation id="1175131936083782305">この機能は管理者が無効にしています。</translation>
 <translation id="1175277108283187866">サイトにアクセスするか、アドレスバーで検索を開始します</translation>
 <translation id="1175364870820465910">印刷(&amp;P)...</translation>
@@ -426,7 +426,7 @@
 <translation id="1308105352527684175">一部のコンテンツにアクセスできない可能性があります</translation>
 <translation id="1311092170520822848">このサイトは、デバイスに接続されているスマートカード リーダーと、リーダーで読み取り可能なスマートカードを制御しています</translation>
 <translation id="131112695174432497">広告のパーソナライズに影響するデータは削除されます</translation>
-<translation id="1092870157695460112">Brave の最高レベルのセキュリティでダウンロードを保護する保護強化機能について確認する</translation>
+<translation id="1239647152794634812">Wryling の最高レベルのセキュリティでダウンロードを保護する保護強化機能について確認する</translation>
 <translation id="1312298796781107732">{NUM_TABS,plural, =1{ブラウザの動作を遅くしているタブを修正}other{ブラウザの動作を遅くしているタブを修正}}</translation>
 <translation id="1312721752506309252">保護強化機能がオンになっています</translation>
 <translation id="13130607084115184">保存したパスワードはこちらに表示されます。このデバイスの <ph name="BRAND"/> にパスワードをインポートするには、<ph name="BEGIN_LINK"/>CSV ファイルを選択<ph name="END_LINK"/>してください。</translation>
@@ -462,7 +462,7 @@
 <translation id="1340839264183302272">グループから退出</translation>
 <translation id="1341002693404468853">整理機能を非表示</translation>
 <translation id="1341701348342335220">おつかれさまでした！</translation>
-<translation id="873343310451048603">Brave パスワード マネージャーに移動して、不正使用されたパスワードを確認してください。</translation>
+<translation id="4973862711373394097">Wryling パスワード マネージャーに移動して、不正使用されたパスワードを確認してください。</translation>
 <translation id="1343920184519992513">前回中断したところから再開して、特定のページを開く</translation>
 <translation id="1346630054604077329">確定して再起動</translation>
 <translation id="1346748346194534595">右</translation>
@@ -495,7 +495,7 @@
 <translation id="1374844444528092021">ネットワーク「<ph name="NETWORK_NAME"/>」が要求する証明書がインストールされていないか、証明書の有効期限が切れています。新しい証明書を取得して、もう一度接続してみてください。</translation>
 <translation id="1374948751106271187">外出先でのセキュリティを強化できます</translation>
 <translation id="137651782282853227">保存した住所がここに表示されます</translation>
-<translation id="7377055577309465332">パスワードのデータ侵害が検出された場合、Brave パスワード マネージャーによって、安全なパスワードに変更するかどうかを確認するメッセージが表示されます</translation>
+<translation id="5008990945704272605">パスワードのデータ侵害が検出された場合、Wryling パスワード マネージャーによって、安全なパスワードに変更するかどうかを確認するメッセージが表示されます</translation>
 <translation id="1378613616312864539">この設定は <ph name="NAME"/> により制御されています</translation>
 <translation id="1378715594598306389">他のタブを表示する</translation>
 <translation id="1380028686461971526">自動接続するネットワーク</translation>
@@ -644,7 +644,7 @@
 <translation id="1499041187027566160">音量を上げる</translation>
 <translation id="1499948601784722399">サイトのリクエスト</translation>
 <translation id="1500297251995790841">不明なデバイス [<ph name="VENDOR_ID"/>:<ph name="PRODUCT_ID"/>]</translation>
-<translation id="6440894523770886280">サポートされていない Brave アプリの詳細</translation>
+<translation id="7828916217230765229">サポートされていない Wryling アプリの詳細</translation>
 <translation id="1501480321619201731">グループを削除</translation>
 <translation id="150411034776756821"><ph name="SITE"/> を削除</translation>
 <translation id="1504253885059472207">分割表示を固定</translation>
@@ -664,7 +664,7 @@
 <translation id="1512210426710821809">この設定を元に戻すには、<ph name="IDS_SHORT_PRODUCT_OS_NAME"/> の再インストールが必要になります</translation>
 <translation id="1512642802859169995"><ph name="FILE_NAME"/> は暗号化されています。所有者に復号するよう依頼してください。</translation>
 <translation id="151501797353681931">Safari からのインポート</translation>
-<translation id="7181162989909413015">コードを使ってキャストするには、Brave ブラウザの同期設定を有効にしてください</translation>
+<translation id="4295055064213980989">コードを使ってキャストするには、Wryling ブラウザの同期設定を有効にしてください</translation>
 <translation id="1521442365706402292">証明書の管理</translation>
 <translation id="1521655867290435174">Brave スプレッドシート</translation>
 <translation id="1521933835545997395">Android スマートフォンに接続しました</translation>
@@ -702,11 +702,11 @@
 <translation id="1546452108651444655"><ph name="CHILD_NAME"/> さんが次の処理を行う<ph name="EXTENSION_TYPE"/>のインストールを求めています。</translation>
 <translation id="1547123415014299762">サードパーティの Cookie が許可されています</translation>
 <translation id="1547808936554660006">eSIM プロファイルは Powerwash で削除されないことを理解しました</translation>
-<translation id="2009341821632988095">Gemini in Brave は利用できません</translation>
+<translation id="280951773191806143">Gemini in Wryling は利用できません</translation>
 <translation id="1549275686094429035">ARC は有効になっています</translation>
 <translation id="1549788673239553762">「<ph name="APP_NAME"/>」が <ph name="VOLUME_NAME"/> へのアクセスを求めています。ファイルが変更または削除される可能性があります。</translation>
 <translation id="1549966883323105187">保存したパスワードにすばやくアクセスできます</translation>
-<translation id="822755500038144322">デフォルトの Brave</translation>
+<translation id="5480276139257027757">デフォルトの Wryling</translation>
 <translation id="1552301827267621511">「<ph name="EXTENSION_NAME"/>」拡張機能により <ph name="SEARCH_PROVIDER_DOMAIN"/> を使用して検索するよう変更されました</translation>
 <translation id="1552752544932680961">拡張機能を管理</translation>
 <translation id="1553538517812678578">無制限</translation>
@@ -749,7 +749,7 @@
 <translation id="1581962803218266616">Finder で表示</translation>
 <translation id="1582955169539260415">[<ph name="FINGERPRINT_NAME"/>] を削除</translation>
 <translation id="1583127975413389276"><ph name="LANGUAGE"/> はローカルで処理され、オフラインで使用できます</translation>
-<translation id="491276955533054201">最初にこのデバイスで Brave の自動ブラウジングをオンにしてください</translation>
+<translation id="2483396658308611628">最初にこのデバイスで Wryling の自動ブラウジングをオンにしてください</translation>
 <translation id="1587275751631642843">JavaScript コンソール(&amp;J)</translation>
 <translation id="1588438908519853928">ノーマル</translation>
 <translation id="1588772269240419305">ロゴと名前の更新内容を確認</translation>
@@ -775,7 +775,7 @@
 <translation id="1600857548979126453">ページ デバッガ バックエンドにアクセスする</translation>
 <translation id="1601481906560916994">サイトを除外</translation>
 <translation id="1601560923496285236">適用</translation>
-<translation id="8275260485701169654">Brave のシステム情報</translation>
+<translation id="302546259431411287">Wryling のシステム情報</translation>
 <translation id="1603411913360944381"><ph name="DEVICE_NAME"/> との接続を解除</translation>
 <translation id="1604567162047669454">ビジュアル レイアウト セマンティクスを認識</translation>
 <translation id="1605148987885002237">キーボードと入力</translation>
@@ -792,7 +792,7 @@
 <translation id="1611649489706141841">進む</translation>
 <translation id="1612019740169791082">コンテナはディスクサイズを変更できるように設定されていません。Linux 用に予約されている容量を調整するには、バックアップしてから新しいコンテナに復元してください。</translation>
 <translation id="1612179176000108678">バッテリー残量が <ph name="PERCENT"/>% 以下の場合にのみオンにする</translation>
-<translation id="2811168643228573149">古いバージョンの Brave アプリを使用できるのは、2022 年 12 月までです。新しいバージョンが利用可能かどうか確認してみてください。</translation>
+<translation id="8232170710895633549">古いバージョンの Wryling アプリを使用できるのは、2022 年 12 月までです。新しいバージョンが利用可能かどうか確認してみてください。</translation>
 <translation id="1614511179807650956">モバイルデータの割り当て量をすべて使用している可能性があります。データを追加購入するには、<ph name="NAME"/> の有効化ポータルにアクセスしてください</translation>
 <translation id="161460670679785907">スマートフォンが見つかりません</translation>
 <translation id="1614890968027287789">ブラウジングを切り分け？</translation>
@@ -805,7 +805,7 @@
 <translation id="1620307519959413822">パスワードが正しくありません。もう一度入力するか、[パスワードをお忘れの場合] をクリックしてパスワードをリセットしてください。</translation>
 <translation id="1620510694547887537">カメラ</translation>
 <translation id="1620760691416124482">分割ビューで開く(&amp;S)</translation>
-<translation id="2380574999275845178">一般に報告されているデータ侵害であなたのパスワードが検出されました。Brave パスワード マネージャーでパスワードを変更し、<ph name="EMAIL"/> に保存できます。<ph name="LINK"/></translation>
+<translation id="945706443844722845">一般に報告されているデータ侵害であなたのパスワードが検出されました。Wryling パスワード マネージャーでパスワードを変更し、<ph name="EMAIL"/> に保存できます。<ph name="LINK"/></translation>
 <translation id="1621729191093924223">マイクを必要とする機能は動作しなくなります</translation>
 <translation id="1621984899599015181">共有オプションは組織によって管理されています。一部のアイテムは表示されていない可能性があります。</translation>
 <translation id="1622054403950683339">Wi-Fi ネットワークの削除</translation>
@@ -846,7 +846,7 @@
 <translation id="1651609627703324721">このタブはヘッドセットに VR コンテンツを配信しています</translation>
 <translation id="1652281434788353738">思慮深い</translation>
 <translation id="1652326691684645429">ニアバイシェアを有効にする</translation>
-<translation id="3549478477646243075">macOS キーチェーンでパスワード マネージャーを使用するには、Brave を再起動してキーチェーンへのアクセスを許可してください。再起動すると、タブが再度開きます。</translation>
+<translation id="2499592745937512720">macOS キーチェーンでパスワード マネージャーを使用するには、Wryling を再起動してキーチェーンへのアクセスを許可してください。再起動すると、タブが再度開きます。</translation>
 <translation id="165448107578581061">Gemini がタスクを処理しています...</translation>
 <translation id="1654580009054503925">リクエストの表示を許可しないウェブサイト</translation>
 <translation id="1656528038316521561">背景の不透明度</translation>
@@ -865,7 +865,7 @@
 <translation id="1665328953287874063">パスワードまたは PIN を使用して <ph name="DEVICE_TYPE"/> のロックを解除してください</translation>
 <translation id="1665859804801131136">表現主義</translation>
 <translation id="1667842670298352129">指定したテキストを読み上げます。画面下部の「選択して読み上げ」アイコンを選択してから、テキストを選択します。キーボード ショートカットを使用する場合は、テキストを選択してから検索+S キーを押します。</translation>
-<translation id="1907729551248502985"><ph name="TASK_TITLE"/>: Gemini がタスクを完了しました。Brave で確認できます</translation>
+<translation id="6525814448763773534"><ph name="TASK_TITLE"/>: Gemini がタスクを完了しました。Wryling で確認できます</translation>
 <translation id="1668804837842452164"><ph name="EMAIL"/> の <ph name="BRAND"/> に保存する</translation>
 <translation id="1670070366970670971">PDF サブフレーム: <ph name="SUBFRAME_SITE"/></translation>
 <translation id="1670399744444387456">基本設定</translation>
@@ -873,7 +873,7 @@
 <translation id="1671749176392751693">保護されたコンテンツの識別子が許可されました</translation>
 <translation id="1673137583248014546"><ph name="URL"/> よりセキュリティ キーのメーカーとモデルの読み取り許可を求められています</translation>
 <translation id="1673855466663721679">サイドパネルにブックマークを表示</translation>
-<translation id="360538872024580404">Brave パスワード マネージャーで、Brave アカウント「<ph name="EMAIL"/>」に保存されているこのアカウントのパスワードを安全なものに変更できます。</translation>
+<translation id="7045853495100965504">Brave パスワード マネージャーで、Brave アカウント「<ph name="EMAIL"/>」に保存されているこのアカウントのパスワードを安全なものに変更できます。</translation>
 <translation id="1674945585974615438">未知のサイトで JavaScript オプティマイザーを自動的に無効にする</translation>
 <translation id="1675964862374196038"><ph name="IDP_NAME"/> で登録</translation>
 <translation id="1677306805708094828"><ph name="EXTENSION_TYPE_PARAMETER"/> を追加できません</translation>
@@ -911,7 +911,7 @@
 <translation id="1703666494654169921">サイトにバーチャル リアリティ デバイスとデータの使用を許可しない</translation>
 <translation id="1704097193565924901">大文字にする</translation>
 <translation id="1704230497453185209">サイトに音声の再生を許可しない</translation>
-<translation id="2330259386430751078">上記で送信するよう選択した情報に加えて、お使いの Brave のバージョン、オペレーティング システムのバージョン、キャストの設定、ミラーリングのパフォーマンス統計情報、通信チャンネルの診断ログが送信されます。お寄せいただいたフィードバックは、問題の診断と機能の改善に使用されます。送信していただいた個人情報は、直接の送信、他の情報に付随しての送信を問わず、Brave のプライバシー ポリシーに従って保護されます。このフィードバックを送信すると、Brave がその内容を Brave のプロダクトまたはサービスの改善のため使用することについて同意したことになります。</translation>
+<translation id="2276664597334765028">上記で送信するよう選択した情報に加えて、お使いの Brave のバージョン、オペレーティング システムのバージョン、キャストの設定、ミラーリングのパフォーマンス統計情報、通信チャンネルの診断ログが送信されます。お寄せいただいたフィードバックは、問題の診断と機能の改善に使用されます。送信していただいた個人情報は、直接の送信、他の情報に付随しての送信を問わず、Brave のプライバシー ポリシーに従って保護されます。このフィードバックを送信すると、Brave がその内容を Brave のプロダクトまたはサービスの改善のため使用することについて同意したことになります。</translation>
 <translation id="17081583771848899">ランチャー+Alt+<ph name="TOP_ROW_KEY"/></translation>
 <translation id="170825127491242914">クラウド ストレージに保存</translation>
 <translation id="1708291623166985230">アクセス ポイントを無効にしました</translation>
@@ -1114,7 +1114,7 @@
 <translation id="1866589962721094893">この Chromebook で Android アプリに USB デバイスの制御を許可します。USB デバイスを接続するたびに権限がリクエストされます。一部の Android アプリでは、他の権限もリクエストされる場合があります。</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME"/> をインストールする準備ができました</translation>
 <translation id="1869433484041798909">ブックマーク ボタン</translation>
-<translation id="7175072311426658869">Brave ブラウザで開く</translation>
+<translation id="7259806589727104192">Wryling ブラウザで開く</translation>
 <translation id="1871131409931646355">すべてのダウンロード履歴</translation>
 <translation id="187145082678092583">表示するアプリを減らす</translation>
 <translation id="1871615898038944731">お使いの <ph name="DEVICE_TYPE"/> は最新です</translation>
@@ -1165,11 +1165,11 @@
 <translation id="1907044622262489040">音声で入力できます。音声入力を開始するには、検索+D キーを使用します。</translation>
 <translation id="1907659324308286326">一部の Thunderbolt または USB4 アクセサリーは、正しく動作するためにメモリにアクセスする必要があります。</translation>
 <translation id="1908591798274282246">閉じたグループを開く</translation>
-<translation id="6307771221551726329">Brave は自動テスト ソフトウェアによって制御されています</translation>
+<translation id="5448629660377773960">Wryling は自動テスト ソフトウェアによって制御されています</translation>
 <translation id="1909880997794698664">このデバイスをキオスク モードに固定してもよろしいですか？</translation>
 <translation id="1910721550319506122">ようこそ！</translation>
 <translation id="1910736334623230603">複数の画像を検索することはできません。一度につき画像を 1 つだけ追加してください。</translation>
-<translation id="2675239977494524649">Brave for Testing v<ph name="BROWSER_VERSION"/> は、自動テスト専用です。通常のブラウジングには、自動的に更新される標準版の Brave をご使用ください。</translation>
+<translation id="3397046954990092136">Wryling for Testing v<ph name="BROWSER_VERSION"/> は、自動テスト専用です。通常のブラウジングには、自動的に更新される標準版の Wryling をご使用ください。</translation>
 <translation id="1913734973620799732">{NUM_TABS,plural, =1{ブラウザの動作を遅くしているタブを一時停止}other{ブラウザの動作を遅くしているタブを一時停止}}</translation>
 <translation id="1913749768968678106">キャスト、保存、共有</translation>
 <translation id="19147273405311768">ツールバーをデフォルトの設定にリセット</translation>
@@ -1183,7 +1183,7 @@
 <translation id="1918281588461452432">サイトを閲覧すると、そのページのコンテンツが暗号化されてデバイスに保存されます</translation>
 <translation id="1918761619391445601"><ph name="EXTENSION_NAME"/> は固定されています。その他のオプションを表示します。</translation>
 <translation id="1920390473494685033">連絡先</translation>
-<translation id="1303494024456273059">Brave の強化されたセキュリティ機能で、危険なウェブサイト、ダウンロード、拡張機能から保護します。</translation>
+<translation id="4473968066674302045">Wryling の強化されたセキュリティ機能で、危険なウェブサイト、ダウンロード、拡張機能から保護します。</translation>
 <translation id="1921584744613111023"><ph name="DPI"/> dpi</translation>
 <translation id="1921600948984918136">「<ph name="NAME"/>」は、このデバイスのみに保存されます。他のデバイスで使用するには、アカウントに保存してください。</translation>
 <translation id="2428738111653039235">Gmail、ドライブ、YouTube などの Brave サイトでは、個々のサービスの言語を変更しない限り、Brave アカウントの言語が使用されます。</translation>
@@ -1191,7 +1191,7 @@
 <translation id="192494336144674234">アプリケーションで開く</translation>
 <translation id="1925017091976104802">貼り付けるには、<ph name="MODIFIER_KEY_DESCRIPTION"/> キーを押してください</translation>
 <translation id="1925021887439448749">カスタムのウェブアドレスを入力</translation>
-<translation id="8049922435917813862">古いバージョンの Brave アプリを Windows デバイスで使用できるのは、2022 年 12 月までです。新しいバージョンが利用可能かどうか確認してみてください。</translation>
+<translation id="3973756123782124071">古いバージョンの Wryling アプリを Windows デバイスで使用できるのは、2022 年 12 月までです。新しいバージョンが利用可能かどうか確認してみてください。</translation>
 <translation id="1925907592956229423">機能しない場合は、</translation>
 <translation id="1926339101652878330">これらの設定は会社のポリシーによって制御されています。詳しくは管理者にお尋ねください。</translation>
 <translation id="1926887872692564784">カーソル</translation>
@@ -1289,7 +1289,7 @@
 <translation id="1995916364271252349">サイトが使用、表示できる情報（位置情報、カメラ、ポップアップなど）を制御します</translation>
 <translation id="199610894463449797">{0,plural, =1{このプロフィールを閉じる}other{このプロフィールを閉じる（# 個のウィンドウ）}}</translation>
 <translation id="1996557034791506430">権限を削除しますか？</translation>
-<translation id="5123795870522389058">Brave からデバイスに接続するには、Bluetooth の使用を許可する必要があります</translation>
+<translation id="3521856355166442895">Wryling からデバイスに接続するには、Bluetooth の使用を許可する必要があります</translation>
 <translation id="1997616988432401742">ユーザーの証明書</translation>
 <translation id="1998715278591719161">ハンド トラッキングを許可するサイト</translation>
 <translation id="1999115740519098545">起動時</translation>
@@ -1371,7 +1371,7 @@
 <translation id="2071393345806050157">ローカルのログ ファイルがありません。</translation>
 <translation id="2073148037220830746">{NUM_EXTENSIONS,plural, =1{この拡張機能をインストールするには、クリックしてください}other{これらの拡張機能をインストールするには、クリックしてください}}</translation>
 <translation id="2073505299004274893">半角 <ph name="CHARACTER_LIMIT"/> 文字以内で入力してください</translation>
-<translation id="6310091415404224128">ChromeOS の Brave ユーザーのログ</translation>
+<translation id="652095390288645804">ChromeOS の Wryling ユーザーのログ</translation>
 <translation id="2074599390896964828">正確な位置情報</translation>
 <translation id="2075088158103027942">登録ページに移動</translation>
 <translation id="2075474481720804517">バッテリー残量: <ph name="BATTERY_PERCENTAGE"/>%</translation>
@@ -1465,7 +1465,7 @@
 <translation id="2146263598007866206">時間節約のために、関連する複数のファイルをまとめて自動的にダウンロードするサイトもあります</translation>
 <translation id="2147218225094845757">サイドパネルを非表示</translation>
 <translation id="2147282432401652483">command</translation>
-<translation id="2147402320887035428">このファイルはマルウェアの可能性があります。<ph name="LINE_BREAK"/>Brave セーフ ブラウジングで、このファイルの安全性を確認しています。通常、スキャンには数秒かかります。</translation>
+<translation id="3524545590873425652">このファイルはマルウェアの可能性があります。<ph name="LINE_BREAK"/>Brave セーフ ブラウジングで、このファイルの安全性を確認しています。通常、スキャンには数秒かかります。</translation>
 <translation id="2147584561902725329">前回の定期タスクの実行:</translation>
 <translation id="2148212683005708350"><ph name="MODIFIER_ONE"/>+<ph name="MODIFIER_TWO"/>+<ph name="MODIFIER_THREE"/>+<ph name="KEY"/></translation>
 <translation id="2148219725039824548">共有フォルダのマウントエラー。指定された共有フォルダがネットワークで見つかりませんでした。</translation>
@@ -1542,7 +1542,7 @@
 <translation id="3750252396973215586">Brave アカウントでログインすると、<ph name="BRAND"/> でパスワードを確認できるようになります。</translation>
 <translation id="2204020417499639567">メールを入力しました。</translation>
 <translation id="2204034823255629767">すべての入力内容の読み取りと変更</translation>
-<translation id="2421570739058774699">Brave パスワード マネージャーでこのパスキーを作成するには、本人確認を行ってください</translation>
+<translation id="4389439850249114056">Wryling パスワード マネージャーでこのパスキーを作成するには、本人確認を行ってください</translation>
 <translation id="2204387456724731099">このテキストを翻訳できませんでした</translation>
 <translation id="2204613850236199029">情報を削除しました</translation>
 <translation id="2207116775853792104">この拡張機能を残す</translation>
@@ -1692,7 +1692,7 @@
 <translation id="2323685460575935191">スクロール ボタンを非表示</translation>
 <translation id="2325444234681128157">パスワードを保存する</translation>
 <translation id="2326188115274135041">PIN を入力して自動ロック解除を有効にする</translation>
-<translation id="932658359823557793">これは Brave アカウントではありません。Brave に保存したアイテムを他のデバイスで使用することはできません。</translation>
+<translation id="2402143283348433546">これは Brave アカウントではありません。Brave に保存したアイテムを他のデバイスで使用することはできません。</translation>
 <translation id="2326906096734221931">アプリの設定を開く</translation>
 <translation id="2326931316514688470">アプリを再読み込み(&amp;R)</translation>
 <translation id="2327920026543055248"><ph name="TOTAL"/> 文字中 <ph name="CHARACTER"/> 文字目を入力</translation>
@@ -1718,7 +1718,7 @@
 <translation id="2343160676229467122"><ph name="SITE_NAME"/> では拡張機能が許可されていません</translation>
 <translation id="2343390523044483367">ロッキー マウンテン国立公園</translation>
 <translation id="2343747224442182863">このタブをフォーカス</translation>
-<translation id="6055117817387598516">古いバージョンの Brave アプリを使用できるのは、2022 年 12 月までです。管理者にお問い合わせのうえ、新しいバージョンに更新するか、アプリを削除してください。</translation>
+<translation id="5799730171660321530">古いバージョンの Wryling アプリを使用できるのは、2022 年 12 月までです。管理者にお問い合わせのうえ、新しいバージョンに更新するか、アプリを削除してください。</translation>
 <translation id="2348176352564285430">アプリ: <ph name="ARC_PROCESS_NAME"/></translation>
 <translation id="2348729153658512593"><ph name="WINDOW_TITLE"/> - 権限がリクエストされました。対応するには、Ctrl+Forward キーを押してください</translation>
 <translation id="234889437187286781">データの読み込み中にエラーが発生しました</translation>
@@ -1871,10 +1871,10 @@
 <translation id="2462577132948197840">スマートフォンでログイン</translation>
 <translation id="246264032905007361">Edge を開く</translation>
 <translation id="2462752602710430187"><ph name="PRINTER_NAME"/> を追加しました</translation>
-<translation id="3708525592265213987">Microsoft SharePoint と OneDrive の最近のアクティビティに簡単にアクセスできるよう、ファイル候補が表示されています。
+<translation id="3512223990745179540">Microsoft SharePoint と OneDrive の最近のアクティビティに簡単にアクセスできるよう、ファイル候補が表示されています。
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        カードメニューから設定を管理することや、[Brave をカスタマイズ] でその他のオプションを見ることができます。</translation>
+        カードメニューから設定を管理することや、[Wryling をカスタマイズ] でその他のオプションを見ることができます。</translation>
 <translation id="2464079411014186876">アイスクリーム</translation>
 <translation id="2467755475704469005">デバイスは検出されませんでした。<ph name="BEGIN_LINK"/>詳細<ph name="END_LINK"/></translation>
 <translation id="2467933879189426525"><ph name="OWNER_FIRST_NAME"/> さんと他 <ph name="NUM_OTHER_MEMBERS"/> 人のタブグループに参加</translation>
@@ -1946,10 +1946,10 @@
 <translation id="2509918030571808322"><ph name="TASK_TITLE"/>: <ph name="STEP_PROGRESS"/></translation>
 <translation id="2512065992892294946"><ph name="LANGUAGE"/>（選択済み）</translation>
 <translation id="2513904627589542105">セルフテスト</translation>
-<translation id="2853929249020379065">これまでアクセスしたページや検索候補が表示され、最近のアクティビティに簡単にアクセスできます。
+<translation id="2148080035799245255">これまでアクセスしたページや検索候補が表示され、最近のアクティビティに簡単にアクセスできます。
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        カードメニューから設定を管理することや、[Brave をカスタマイズ] でその他のオプションを見ることができます。</translation>
+        カードメニューから設定を管理することや、[Wryling をカスタマイズ] でその他のオプションを見ることができます。</translation>
 <translation id="2514465118223423406">マウスの接続時</translation>
 <translation id="2515586267016047495">Alt</translation>
 <translation id="251722524540674480">ユーザー名を確認</translation>
@@ -2042,7 +2042,7 @@
 <translation id="2589658397149952302">ドライブ ファイルを表示しない</translation>
 <translation id="2597073208962000830">ニアバイシェアでは Bluetooth のスキャン機能を使用して、付近のデバイスを探します。</translation>
 <translation id="2598136842498757793">ツールバーのボタンをカスタマイズ</translation>
-<translation id="2024721991200132064">新しい Brave をご利用いただけます</translation>
+<translation id="2001896808401121187">新しい Wryling をご利用いただけます</translation>
 <translation id="2599048253926156421">ユーザー名をクリップボードにコピーしました</translation>
 <translation id="2600631204638174747">{NUM_SITES,plural, =1{1 個の安全でない拡張機能をオフにしました}other{{NUM_SITES} 個の安全でない拡張機能をオフにしました}}</translation>
 <translation id="2603121359676416582">このページに対する操作</translation>
@@ -2071,7 +2071,7 @@
 <translation id="2618797463720777311">ニアバイシェアの設定</translation>
 <translation id="2619305858360733464"><ph name="SHARED_STATE"/> 名前のないグループ - <ph name="OPENED_STATE"/></translation>
 <translation id="2619340799655338321">再生 / 一時停止</translation>
-<translation id="9145669676445236687">Brave Labs(&amp;L)...</translation>
+<translation id="7386574547123882068">Wryling Labs(&amp;L)...</translation>
 <translation id="2620215283731032047"><ph name="FILE_NAME"/> は安全にダウンロードできません。</translation>
 <translation id="2620245777360407679">アクセス ポイントに現在接続中のデバイス</translation>
 <translation id="2620436844016719705">システム</translation>
@@ -2148,26 +2148,26 @@
 <translation id="2667463864537187133">スペルチェックの管理</translation>
 <translation id="2669250147452250961">オンにすると、他のデバイスの閲覧履歴とタブにアクセスできます</translation>
 <translation id="2669454659051515572">ダウンロードしたファイルは、このデバイスのすべてのユーザーが確認できます</translation>
-<translation id="351520635355732555"><ph name="APP_NAME"/> が Brave タブを共有しています。</translation>
-<translation id="3767686227734654975">一般に報告されているデータ侵害でパスワードが検出された場合、Brave パスワード マネージャーによってログイン時にパスワードの変更を促すメッセージが表示されます。<ph name="BEGIN_LINK"/>自動パスワード変更の詳細<ph name="END_LINK"/></translation>
+<translation id="4660722239919846618"><ph name="APP_NAME"/> が Wryling タブを共有しています。</translation>
+<translation id="5637102320592120576">一般に報告されているデータ侵害でパスワードが検出された場合、Brave パスワード マネージャーによってログイン時にパスワードの変更を促すメッセージが表示されます。<ph name="BEGIN_LINK"/>自動パスワード変更の詳細<ph name="END_LINK"/></translation>
 <translation id="2670350619068134931">アニメーションを減らす</translation>
 <translation id="2670403088701171361">サイトにクリップボード内のテキストや画像へのアクセスを許可しない</translation>
 <translation id="2671423594960767771">グループを共有</translation>
 <translation id="2671451824761031126">ブックマークと設定をインポートしました</translation>
-<translation id="5999615052787816207">Brave がコマンドライン ファイルからフラグを読み込んでいます。安定性とセキュリティに影響する可能性があります。</translation>
+<translation id="2630650338443498102">Wryling がコマンドライン ファイルからフラグを読み込んでいます。安定性とセキュリティに影響する可能性があります。</translation>
 <translation id="2673135533890720193">閲覧履歴の読み取り</translation>
 <translation id="2673848446870717676">Bluetooth デバイスがペア設定モードになっていて、近くにあることを確認してください。ペア設定は信頼しているデバイスとのみ行ってください。ペア設定したデバイスは、この Chromebook のすべてのアカウントに表示されます。</translation>
 <translation id="2673873887296220733">1 個のファイルを <ph name="CLOUD_PROVIDER"/> にコピーして開きますか？</translation>
 <translation id="267442004702508783">更新</translation>
 <translation id="2674756932811577764">エフェクトを一時停止</translation>
-<translation id="6593843405048698743">Brave に組み込まれた Gemini のご紹介</translation>
+<translation id="7272548036530777000">Wryling に組み込まれた Gemini のご紹介</translation>
 <translation id="2677748264148917807">このページを離れる</translation>
 <translation id="267829273183481634">{NUM_GROUPS,plural, =1{タブグループを保持しますか？}other{タブグループを保持しますか？}}</translation>
 <translation id="268053382412112343">履歴(&amp;S)</translation>
 <translation id="2682498795777673382">保護者の方による更新</translation>
 <translation id="2683638487103917598">フォルダが並べ替えられました</translation>
 <translation id="2685193395980129388">許可しました – <ph name="PERMISSION_DETAILS"/></translation>
-<translation id="4772325112693163883">このパスワードを覚えておく必要はありません。パスワードは、<ph name="ACCOUNT"/> の Brave パスワード マネージャーに保存されます。</translation>
+<translation id="3156512094077940104">このパスワードを覚えておく必要はありません。パスワードは、<ph name="ACCOUNT"/> の Wryling パスワード マネージャーに保存されます。</translation>
 <translation id="2690024944919328218">言語オプションを表示</translation>
 <translation id="2691385045260836588">車種</translation>
 <translation id="2692503699962701720">要素タイプと書式付きテキストを読み上げるときにピッチを変更する</translation>
@@ -2249,7 +2249,7 @@
 <translation id="2741912629735277980">ログイン画面に UI を表示する</translation>
 <translation id="2742373789128106053"><ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> は現在使用できません。</translation>
 <translation id="2743301740238894839">開始</translation>
-<translation id="3491974999711898233">Brave パスワード マネージャーにパスワードを保存するには、ロケーション バーのパスワード マネージャー アイコンをクリックします</translation>
+<translation id="2309654501049956864">Wryling パスワード マネージャーにパスワードを保存するには、ロケーション バーのパスワード マネージャー アイコンをクリックします</translation>
 <translation id="2743387203779672305">クリップボードにコピー</translation>
 <translation id="274362947316498129">アプリが <ph name="DEVICE_NAME"/> にアクセスしようとしています。アクセスを許可するには、<ph name="DEVICE_NAME"/> のプライバシー スイッチをオフにしてください。</translation>
 <translation id="2744221223678373668">共有</translation>
@@ -2414,7 +2414,7 @@
 <translation id="2869511363030898130"><ph name="APP_NAME"/> アプリで開く</translation>
 <translation id="2870560284913253234">ウェブサイト</translation>
 <translation id="2870909136778269686">更新しています...</translation>
-<translation id="796921500671266784">このアプリは危険な可能性があるため、Brave によってブロックされました</translation>
+<translation id="5973705351508783392">このアプリは危険な可能性があるため、Wryling によってブロックされました</translation>
 <translation id="2871733351037274014">ページをプリロードする</translation>
 <translation id="2871813825302180988">このアカウントは既にこのデバイスで使用されています。</translation>
 <translation id="287205682142673348">ポート転送</translation>
@@ -2423,7 +2423,7 @@
 <translation id="2873744479411987024">リフレッシュ レートが高いほど、細かい部分が滑らかに表示されます。リフレッシュ レートを高くすると、バッテリー駆動時間に影響する可能性があります。</translation>
 <translation id="2873956234023215251">アプリをインストールできません。エラーが発生しました。</translation>
 <translation id="2874939134665556319">前のトラック</translation>
-<translation id="4156865452842056672">（Brave エラーページ）</translation>
+<translation id="1764117716686866474">（Wryling エラーページ）</translation>
 <translation id="2876369937070532032">セキュリティ上のリスクがある場合に、アクセスした一部のページの URL が Brave に送信されます</translation>
 <translation id="2876484123356705658">期間を選択します</translation>
 <translation id="2876556152483133018">サイト内検索</translation>
@@ -2437,7 +2437,7 @@
 <translation id="2885378588091291677">タスク マネージャ</translation>
 <translation id="2886771036282400576">• <ph name="PERMISSION"/></translation>
 <translation id="288734198558082692"><ph name="DEVICE"/> とその他 <ph name="NUMBER_OF_DEVICES"/> 個のデバイス</translation>
-<translation id="7145068271494881186">ブラウジング中に Gemini in Brave と話して、質問の回答や重要なポイントなどを確認できます</translation>
+<translation id="36564223923169344">ブラウジング中に Gemini in Wryling と話して、質問の回答や重要なポイントなどを確認できます</translation>
 <translation id="2889043468805635730">問題は見つかりませんでした</translation>
 <translation id="2889064240420137087">次のプログラムでリンクを開く...</translation>
 <translation id="2889937141553641427">{0,plural, =1{アイソレート モード}other{開いているアイソレート モード ウィンドウ（# 個）}}</translation>
@@ -2447,7 +2447,7 @@
 <translation id="2893318819023133318">ビューを反転</translation>
 <translation id="2894596417096093634">障害レポート ID</translation>
 <translation id="2894757982205307093">グループにタブを追加</translation>
-<translation id="5168657537153320842">Gemini Spark は、デバイスが起動していて Brave が実行されている場合にのみ、このデバイスで自動ブラウジングを使用できます。</translation>
+<translation id="4609378462161046249">Gemini Spark は、デバイスが起動していて Wryling が実行されている場合にのみ、このデバイスで自動ブラウジングを使用できます。</translation>
 <translation id="289695669188700754">キー ID: <ph name="KEY_ID"/></translation>
 <translation id="2897878306272793870"><ph name="TAB_COUNT"/> 個のタブが開きます。本当によろしいですか？</translation>
 <translation id="2900247416110050639">Brave ドキュメント、スプレッドシート、スライドでは、ファイルを Brave ドライブに保存する必要があります。ローカル ファイルは移動され、他の場所にあるファイルはコピーされます。ファイルはファイルアプリの Brave ドライブ フォルダで確認できます。</translation>
@@ -2468,7 +2468,7 @@
 <translation id="2908122561561557160">Word、Excel、PowerPoint のファイルを開く</translation>
 <translation id="2908162660801918428">メディア ギャラリーをディレクトリ単位で追加</translation>
 <translation id="2908358077082926882">割り当てを削除して<ph name="RESPONSE"/>には、もう一度「<ph name="CURRENTKEY"/>」キーを押してください</translation>
-<translation id="2266953261741300226">モバイル デバイスに Brave をインストール</translation>
+<translation id="1076740576781805023">モバイル デバイスに Wryling をインストール</translation>
 <translation id="2910318910161511225">ネットワークに接続してから、もう一度お試しください</translation>
 <translation id="2910678330803525229">ブラウジングを開始できます</translation>
 <translation id="2912247081180973411">ウィンドウを閉じる</translation>
@@ -2483,14 +2483,14 @@
 <translation id="2920852127376356161">プロトコルの処理を許可しないサイト</translation>
 <translation id="2923234477033317484">このアカウントを削除</translation>
 <translation id="2923644930701689793">スマートフォンのカメラロールにアクセス</translation>
-<translation id="3249101334307130799">Brave の設定</translation>
+<translation id="3482382083907212749">Wryling の設定</translation>
 <translation id="2926085873880284723">デフォルトのショートカットに戻す</translation>
 <translation id="2926708162326352948">アップロードした画像に合わせてテーマが更新されました</translation>
 <translation id="2927017729816812676">キャッシュ ストレージ</translation>
 <translation id="7099134950659097846">選択内容を保存しました。選択した設定は、他の Brave サービスにログインしたときに適用されます。</translation>
 <translation id="2928361271496576301">ホットキーを承認</translation>
 <translation id="2928795416630981206">カメラ位置の追跡を許可するサイト</translation>
-<translation id="8154235090364237757">{NUM_SITES,plural, =1{Brave で 1 件のサイトの権限を削除しました}other{Brave で {NUM_SITES} 件のサイトの権限を削除しました}}</translation>
+<translation id="5921083063517633760">{NUM_SITES,plural, =1{Wryling で 1 件のサイトの権限を削除しました}other{Wryling で {NUM_SITES} 件のサイトの権限を削除しました}}</translation>
 <translation id="2931157624143513983">印刷可能領域に合わせる</translation>
 <translation id="2931342457001070961">マイクが接続されていません</translation>
 <translation id="2932085390869194046">パスワードを自動生成...</translation>
@@ -2514,7 +2514,7 @@
 <translation id="2946119680249604491">接続を追加</translation>
 <translation id="2946190589196900944">ディスプレイの境界</translation>
 <translation id="2946640296642327832">Bluetooth を有効にする</translation>
-<translation id="1130593361639324030">タブグループを共有するか、タブグループに参加するには、Brave にログインする必要があります</translation>
+<translation id="3774434044366960368">タブグループを共有するか、タブグループに参加するには、Wryling にログインする必要があります</translation>
 <translation id="2947605845283690091">高速なウェブ ブラウジングの妨げとなっていないか、<ph name="BEGIN_LINK"/>拡張機能を確認<ph name="END_LINK"/>しましょう。</translation>
 <translation id="2948287943780377675">{FILE_COUNT,plural, =1{ここにファイルをドロップ}other{ここにファイルをドロップ}}</translation>
 <translation id="2948300991547862301"><ph name="PAGE_TITLE"/> へ移動</translation>
@@ -2543,7 +2543,7 @@
 <translation id="2967926928600500959">これらのルールに一致する URL は、特定のブラウザで強制的に開かれます。</translation>
 <translation id="2969411787010981955">データを選択した場所にエクスポートしました</translation>
 <translation id="2970766364519518369">近くにいる選択した連絡先と共有できます。共有リクエストを承認するよう求められます。<ph name="USER_EMAIL"/> にログインしているデバイス間では共有リクエストを承認する必要はありません。</translation>
-<translation id="4802379027410104335">この Brave アカウントを使用して Brave</translation>
+<translation id="5125039946630180885">この Brave アカウントを使用して Brave</translation>
 <translation id="2972557485845626008">ファームウェア</translation>
 <translation id="2972581237482394796">やり直し(&amp;R)</translation>
 <translation id="2973324205039581528">サイトをミュート</translation>
@@ -2561,7 +2561,7 @@
 <translation id="2983373101216420412">ケースのバッテリー残量は <ph name="PERCENTAGE"/>% です。</translation>
 <translation id="2983818520079887040">設定...</translation>
 <translation id="2984727013951557074">ファイルはまだドライブに同期中です。</translation>
-<translation id="5706997116413643454">Brave パスワード マネージャーを使用して、このデバイスでパスキーを設定できます</translation>
+<translation id="47461721301249579">Wryling パスワード マネージャーを使用して、このデバイスでパスキーを設定できます</translation>
 <translation id="2985476671756533899">{NUM_SUB_APPS,plural, =1{<ph name="APP_NAME"/> は 1 個のアプリをアンインストールしました}other{<ph name="APP_NAME"/> は # 個のアプリをアンインストールしました}}</translation>
 <translation id="2988018669686457659">スペアレンダラ</translation>
 <translation id="2988328607561082373">使い回されているパスワードはありません</translation>
@@ -2711,7 +2711,7 @@
 <translation id="3083899879156272923">マウスを画面の中央に固定して画面を移動する</translation>
 <translation id="3084121729444215602"><ph name="EXTENSION_NAME"/> は管理者によって固定されています</translation>
 <translation id="3084548735795614657">ここにドロップすると、インストールされます</translation>
-<translation id="5418694430960033386">Brave のメモリが不足しているか、ウェブページのプロセスが何らかの原因で終了しました。続行するには、ページを再読み込みするか別のページに移動してください。</translation>
+<translation id="1938891602372007002">Wryling のメモリが不足しているか、ウェブページのプロセスが何らかの原因で終了しました。続行するには、ページを再読み込みするか別のページに移動してください。</translation>
 <translation id="3085412380278336437">サイトにカメラの使用が許可されています</translation>
 <translation id="3087734570205094154">下部</translation>
 <translation id="3088052000289932193">サイトで MIDI が使用されています</translation>
@@ -2729,7 +2729,7 @@
 <translation id="310297983047869047">前のスライド</translation>
 <translation id="3103451787721578293">このデータをアップロードする理由を入力してください。</translation>
 <translation id="3105339775057145050">前回失敗した更新</translation>
-<translation id="4566550081126272435">Brave に戻しますか？</translation>
+<translation id="5053372439942907467">Wryling に戻しますか？</translation>
 <translation id="3105820656234755131">パスワードを更新しました</translation>
 <translation id="3105990244222795498"><ph name="DEVICE_NAME"/>（Bluetooth）</translation>
 <translation id="310671807099593501">サイトで Bluetooth が使用されています</translation>
@@ -2755,7 +2755,7 @@
 <translation id="3122496702278727796">データ ディレクトリの作成に失敗しました</translation>
 <translation id="3122883569442693641">詳細</translation>
 <translation id="3124111068741548686">USER ハンドル</translation>
-<translation id="10925962326134232">Brave をカスタマイズして、ブラウザのデザインを一新</translation>
+<translation id="908722199085381104">Wryling をカスタマイズして、ブラウザのデザインを一新</translation>
 <translation id="3124950826511066429">さまざまな種類の情報に対する自動入力の動作に影響する設定</translation>
 <translation id="3125361247594231799">固定して簡単にアクセス</translation>
 <translation id="3126026824346185272">Ctrl</translation>
@@ -2778,7 +2778,7 @@
 <translation id="3143754809889689516">最初から再生</translation>
 <translation id="3144647712221361880">別のユーザーとしてリンクを開く</translation>
 <translation id="3147878021189006333">アドレスバー</translation>
-<translation id="300669147395456190">Brave アプリ</translation>
+<translation id="7379373399486006075">Wryling アプリ</translation>
 <translation id="3150927491400159470">ハード再読み込み</translation>
 <translation id="315116470104423982">モバイル データ</translation>
 <translation id="3151539355209957474">開始時間</translation>
@@ -2856,15 +2856,15 @@
 <translation id="3202499879214571401"><ph name="DEVICE_NAME"/> への画面のキャストを一時停止する</translation>
 <translation id="3202578601642193415">新しい順</translation>
 <translation id="3206289903841621620">ユーザー辞書 <ph name="NUMBER"/></translation>
-<translation id="3746394893874035323">最近のアクティビティに基づいて、興味のありそうな検索候補とショッピングの割引が表示されています。
+<translation id="929201866904025342">最近のアクティビティに基づいて、興味のありそうな検索候補とショッピングの割引が表示されています。
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        このカードからいつでも設定を管理できます。その他のオプションは [Brave をカスタマイズ] を開きます。</translation>
+        このカードからいつでも設定を管理できます。その他のオプションは [Wryling をカスタマイズ] を開きます。</translation>
 <translation id="3207909572959773060">{NUM_TABS,plural, =1{1 個のタブに新しいタブを追加}other{# 個のタブに新しいタブを追加}}</translation>
 <translation id="3207960819495026254">ブックマークしました</translation>
 <translation id="3208321278970793882">アプリ</translation>
 <translation id="3208703785962634733">未確認</translation>
-<translation id="3209703592917353472">アクセスしたサイトで、想定どおりに機能するよう（サイトへのログイン状態を保持する、ショッピング カートに商品を保存するなど）、行った操作に関する情報が保存されることがあります。多くの場合、こうした情報はデバイスに一時的に保存されます。</translation>
+<translation id="6830723795172079256">アクセスしたサイトで、想定どおりに機能するよう（サイトへのログイン状態を保持する、ショッピング カートに商品を保存するなど）、行った操作に関する情報が保存されることがあります。多くの場合、こうした情報はデバイスに一時的に保存されます。</translation>
 <translation id="3210736980143419785">ダウンロードを完了できませんでした</translation>
 <translation id="321084946921799184">黄色と白</translation>
 <translation id="3211126692872351610">新しいタブで「<ph name="SEARCH_TERMS"/>」を <ph name="SEARCH_ENGINE"/> 検索(&amp;S)</translation>
@@ -2915,7 +2915,7 @@
 <translation id="3250374026663843838">スキルを管理</translation>
 <translation id="3251119461199395237">ファイルの同期</translation>
 <translation id="3251759466064201842">&lt;証明書に含まれていません&gt;</translation>
-<translation id="4413356660053702703">Brave パスワード マネージャーからアクセスできます</translation>
+<translation id="5277009598698141857">Wryling パスワード マネージャーからアクセスできます</translation>
 <translation id="3253225298092156258">利用できません</translation>
 <translation id="3253344772044554413">{NUM_OF_FILES,plural, =1{このファイルをコピーするには、<ph name="CLOUD_PROVIDER"/> の空き容量を増やしてください}other{これらのファイルをコピーするには、<ph name="CLOUD_PROVIDER"/> の空き容量を増やしてください}}</translation>
 <translation id="3253448572569133955">不明なアカウント</translation>
@@ -2951,7 +2951,7 @@
 <translation id="3277214528693754078">テキスト カーソルを使って移動する（カーソル ブラウジング）</translation>
 <translation id="3279092821516760512">近くにいる連絡先のうち、選択した人があなたと共有できます。許可するまで転送は行われません。</translation>
 <translation id="3280237271814976245">名前を付けて保存(&amp;A)...</translation>
-<translation id="5340857474604400806">Brave に留まる</translation>
+<translation id="4768106021954837307">Wryling に留まる</translation>
 <translation id="3282210178675490297">タブを <ph name="APP_NAME"/> と共有します</translation>
 <translation id="3284050785966252943">自動入力メタデータのプレビュー</translation>
 <translation id="3285218179623157680"><ph name="WINDOW_TITLE"/> - 下のビュー</translation>
@@ -2985,10 +2985,10 @@
 <translation id="3303855915957856445">一致する結果は見つかりませんでした</translation>
 <translation id="3304212451103136496"><ph name="DISCOUNT_AMOUNT"/> オフ</translation>
 <translation id="3305661444342691068">PDF をプレビュー</translation>
-<translation id="9133756165511111573">最近のアクティビティに簡単に戻れるよう、他のデバイスのタブが表示されています。
+<translation id="3052673784611846156">最近のアクティビティに簡単に戻れるよう、他のデバイスのタブが表示されています。
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        カードメニューから設定を管理することや、[Brave をカスタマイズ] でその他のオプションを見ることができます。</translation>
+        カードメニューから設定を管理することや、[Wryling をカスタマイズ] でその他のオプションを見ることができます。</translation>
 <translation id="3308134619352333507">ボタンを非表示にする</translation>
 <translation id="3308604065765626613">{GROUP_COUNT,plural, =1{タブはこのデバイスで引き続き表示されますが、グループは完全に削除されます。}other{タブはこのデバイスで引き続き表示されますが、グループは完全に削除されます。}}</translation>
 <translation id="3309124184713871355">構造物</translation>
@@ -3042,7 +3042,7 @@
 <translation id="3348973040180736882">解凍中</translation>
 <translation id="3349933790966648062">メモリ使用量</translation>
 <translation id="3351472127384196879">ペンのボタンを追加または指定する</translation>
-<translation id="2198340416484774609">古いバージョンの Brave アプリを Mac デバイスで使用できるのは、2022 年 12 月までです。新しいバージョンが利用可能かどうか確認してみてください。</translation>
+<translation id="7121948070993040604">古いバージョンの Wryling アプリを Mac デバイスで使用できるのは、2022 年 12 月までです。新しいバージョンが利用可能かどうか確認してみてください。</translation>
 <translation id="3354972872297836698">デバイス <ph name="DEVICE_NAME"/>　とペア設定できませんでした。デバイスを選択してもう一度お試しください</translation>
 <translation id="335581015389089642">スピーチ</translation>
 <translation id="3355936511340229503">接続エラー</translation>
@@ -3092,7 +3092,7 @@
 <translation id="3390442085511866400">動画フレームに名前を付けて保存(&amp;F)...</translation>
 <translation id="3390530051434634135">注意: <ph name="NOTE"/></translation>
 <translation id="3390740059150071453">左を見る</translation>
-<translation id="404326254653176440">Brave ドキュメント解析</translation>
+<translation id="4786791686512231403">Wryling ドキュメント解析</translation>
 <translation id="3394072120086516913">PC は有線、キャスト デバイスは Wi-Fi で接続されている</translation>
 <translation id="3394850431319394743">識別子の使用と保護されたコンテンツの再生を許可するサイト</translation>
 <translation id="339722927132407568">固まる</translation>
@@ -3141,7 +3141,7 @@
 <translation id="3431715928297727378"><ph name="WINDOW_TITLE"/> - <ph name="MEMORY_VALUE"/> を解放しました</translation>
 <translation id="3432762828853624962">共有ワーカー</translation>
 <translation id="3433507769937235446">離席時ロック</translation>
-<translation id="3044702330949941099">Brave パスワード マネージャーにさらにアクセスを許可する必要があります</translation>
+<translation id="1271779175305705203">Wryling パスワード マネージャーにさらにアクセスを許可する必要があります</translation>
 <translation id="3434107140712555581"><ph name="BATTERY_PERCENTAGE"/>%</translation>
 <translation id="3434475275396485144">この設定はスマートフォンの管理者によって管理されています</translation>
 <translation id="3434512374684753970">音声と動画</translation>
@@ -3219,7 +3219,7 @@
 <translation id="3487649228420469005">スキャンが完了しました</translation>
 <translation id="3488199663160411179">名前</translation>
 <translation id="3488609300093733298">スマートフォンでログイン</translation>
-<translation id="1088295851754116403">Brave アプリは 2025 年 7 月以降 ChromeOS デバイスで使用できなくなりました。別のアプリをご検討ください。</translation>
+<translation id="1326424950426003192">Wryling アプリは 2025 年 7 月以降 ChromeOS デバイスで使用できなくなりました。別のアプリをご検討ください。</translation>
 <translation id="3490695139702884919">ダウンロードしています... <ph name="PERCENT"/>%</translation>
 <translation id="3491171603443463516">PIN やパスワードを忘れてもローカルデータを復元できます</translation>
 <translation id="3491616972057195633">バウンスキー</translation>
@@ -3253,7 +3253,7 @@
 <translation id="3512465804715993309">アダプティブ ハイライト表示</translation>
 <translation id="3513019849832307207">参加して開く</translation>
 <translation id="3513563267917474897">色相スライダー <ph name="MIN_VALUE"/>～<ph name="MAX_VALUE"/></translation>
-<translation id="5382999936194307983">標準のセキュリティ機能で保護します。危険なウェブサイト、ダウンロード、拡張機能からの保護を強化するには、Brave の設定でセーフ ブラウジング保護強化機能をオンにしてください。</translation>
+<translation id="3918639430309311642">標準のセキュリティ機能で保護します。危険なウェブサイト、ダウンロード、拡張機能からの保護を強化するには、Wryling の設定でセーフ ブラウジング保護強化機能をオンにしてください。</translation>
 <translation id="3514681096978190000">このアーカイブ ファイルには、マルウェアが潜んでいる可能性がある別のファイルが含まれています</translation>
 <translation id="3515783508789430906">新しいバージョン（<ph name="VERSION"/>）が利用可能です。アップデートを適用するには、アプリを再起動してください。未保存のデータは失われる可能性があります。</translation>
 <translation id="3515983984924808886">リセットを確定するには、セキュリティ キーをもう一度タップしてください。セキュリティ キーに保存されているすべての情報（PIN を含む）が削除されます。</translation>
@@ -3395,7 +3395,7 @@
 <translation id="3616658341000358527">Gemini で自動的にログインして、ウェブ上でタスクを完了できます</translation>
 <translation id="3617062258679844578">クリックするには、タッチパッドを押さずにタップします</translation>
 <translation id="3617891479562106823">背景を利用できません。しばらくしてからもう一度お試しください。</translation>
-<translation id="2934767186202458579"><ph name="RECIPIENT_NAME"/> が Brave パスワード マネージャーを使用する際に、あなたのユーザー名とパスワードを使用できるようになりました。<ph name="WEBSITE"/> にアクセスしてログインするよう伝えてください。</translation>
+<translation id="1877646679208644382"><ph name="RECIPIENT_NAME"/> が Wryling パスワード マネージャーを使用する際に、あなたのユーザー名とパスワードを使用できるようになりました。<ph name="WEBSITE"/> にアクセスしてログインするよう伝えてください。</translation>
 <translation id="3619115746895587757">カプチーノ</translation>
 <translation id="3619294456800709762">サイトはピクチャー イン ピクチャーを自動的に開始できる</translation>
 <translation id="3620136223548713675">位置情報</translation>
@@ -3474,7 +3474,7 @@
 <translation id="3679126865530709868">内蔵タッチパッド</translation>
 <translation id="3680683624079082902">テキスト読み上げの音声</translation>
 <translation id="3681017028939109078">分割画面の開始時にウィンドウの候補を表示する</translation>
-<translation id="318206792789506219">このサイトでの位置情報の使用をご希望でないと判断されました。ブラウジングの妨げにならないようリクエストは非表示になっています。</translation>
+<translation id="8663031781937737605">このサイトでの位置情報の使用をご希望でないと判断されました。ブラウジングの妨げにならないようリクエストは非表示になっています。</translation>
 <translation id="3681311097828166361">ご意見をお寄せいただきありがとうございます。現在オフラインのため、ご報告の内容は後で送信されます。</translation>
 <translation id="3681548574519135185">フォーカス リング</translation>
 <translation id="3682207069037179944">すべてのタブを表示するには、スクロールするかマウスホイールを使用します</translation>
@@ -3553,7 +3553,7 @@
 <translation id="3727473233247516571">バックフォワード キャッシュのサブフレーム: <ph name="BACK_FORWARD_CACHE_PAGE_URL"/></translation>
 <translation id="3727558469988088200">パスキーを設定</translation>
 <translation id="3727843212509629024">PIN が正しくありません。もう一度お試しください</translation>
-<translation id="8077319455765501118">macOS キーチェーンで Brave パスワード マネージャーを使用するには、Brave を再起動してキーチェーンへのアクセスを許可してください。再起動すると、タブが再度開きます。</translation>
+<translation id="1149143655905087705">macOS キーチェーンで Wryling パスワード マネージャーを使用するには、Wryling を再起動してキーチェーンへのアクセスを許可してください。再起動すると、タブが再度開きます。</translation>
 <translation id="3728188878314831180">スマートフォンから通知をミラーリング</translation>
 <translation id="3728572446941976198">AI を改善するために、コンテンツが人間のレビュアーによって使用されることはありません。組織はこれらの設定をいつでも変更できます。</translation>
 <translation id="3728681439294129328">ネットワーク アドレスの設定</translation>
@@ -3662,10 +3662,10 @@
 <translation id="3799128412641261490">スイッチ アクセスの設定</translation>
 <translation id="3800764353337460026">記号のスタイル</translation>
 <translation id="3800898876950197674">この拡張機能を許可するには、パスワードを入力してください。</translation>
-<translation id="8331080218091581609">Brave をパーソナライズして、日々のニーズに合わせて最大限に活用するための提案が表示されています。
+<translation id="7293495029773307557">Wryling をパーソナライズして、日々のニーズに合わせて最大限に活用するための提案が表示されています。
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        カードメニューから設定を管理することや、[Brave をカスタマイズ] でその他のオプションを見ることができます。</translation>
+        カードメニューから設定を管理することや、[Wryling をカスタマイズ] でその他のオプションを見ることができます。</translation>
 <translation id="3801449494961771207">システムのテキスト読み上げの音声</translation>
 <translation id="3802486193901166966">この拡張機能では、特別な権限は必要なく、追加のサイトアクセスは行われません</translation>
 <translation id="380329542618494757">名前</translation>
@@ -3809,7 +3809,7 @@
 <translation id="3903187154317825986">デバイス内蔵キーボード</translation>
 <translation id="3903696968689283281">Wi-Fi Direct 所有者情報:</translation>
 <translation id="3904572359926093799">分割ビューのサイズ変更ハンドル（ドラッグ可能）</translation>
-<translation id="6894211654645352450">サーバー証明書を削除すると、その証明書は Brave によるサーバーの識別に使用されなくなります。</translation>
+<translation id="7978440528848173448">サーバー証明書を削除すると、その証明書は Wryling によるサーバーの識別に使用されなくなります。</translation>
 <translation id="3909701002594999354">すべてのコントロールを表示(&amp;C)</translation>
 <translation id="3909791450649380159">切り取り(&amp;T)</translation>
 <translation id="39103738135459590">アクティベーション コード</translation>
@@ -3823,12 +3823,12 @@
 <translation id="3917644013202553949">空き容量が不足しているため、ファイルを同期できません。空き容量を増やしてみてください。</translation>
 <translation id="3919145445993746351">お使いのどのパソコンでも同じ拡張機能を使用するには、同期を有効にします</translation>
 <translation id="3919229493046408863">周辺にデバイスがあるときに通知をオフにする</translation>
-<translation id="3937043680469836680">古いバージョンの Brave アプリを Mac デバイスで使用できるのは、2022 年 12 月までです。管理者にお問い合わせのうえ、新しいバージョンに更新するか、アプリを削除してください。</translation>
+<translation id="4376308464194569825">古いバージョンの Wryling アプリを Mac デバイスで使用できるのは、2022 年 12 月までです。管理者にお問い合わせのうえ、新しいバージョンに更新するか、アプリを削除してください。</translation>
 <translation id="3919376399641777316">Brave ドライブ ストレージを使用</translation>
 <translation id="3919798653937160644">このウィンドウで開いたページはブラウザの履歴に記録されません。また、開いているゲスト ウィンドウをすべて閉じると、Cookie などのデータはパソコンから消去されます。ただし、ダウンロードしたファイルは保持されます。</translation>
 <translation id="3920909973552939961">支払いハンドラのインストールを許可しないサイト</translation>
 <translation id="3920938867981797493">アップデータ ポリシー</translation>
-<translation id="4008841832817149051">Brave のブラウジング サポート</translation>
+<translation id="2216933027668139688">Wryling のブラウジング サポート</translation>
 <translation id="3922823422695198027"><ph name="APP_NAME"/> と同じリンクを開くよう設定されているアプリが複数あります。設定を変更すると、<ph name="APP_NAME_2"/>、<ph name="APP_NAME_3"/>、<ph name="APP_NAME_4"/> で対応リンクを開けなくなります。</translation>
 <translation id="3923184630988645767">データ使用</translation>
 <translation id="3923494859158167397">モバイル ネットワークが設定されていません</translation>
@@ -3907,7 +3907,7 @@
 <translation id="3976108569178263973">利用できるプリンタがありません。</translation>
 <translation id="3977886311744775419">このネットワーク タイプでは自動更新はダウンロードされませんが、手動で更新を確認できます。</translation>
 <translation id="3978325380690188371">ChromeVox が有効になっている場合、固定キーは利用できません</translation>
-<translation id="2069130488333600772">Brave で PDF が使いやすく</translation>
+<translation id="5874495328861857125">Wryling で PDF が使いやすく</translation>
 <translation id="3979093622823535817">会議 <ph name="MEETING_TITLE"/> に参加</translation>
 <translation id="3979395879372752341">新しい拡張機能が追加されました（<ph name="EXTENSION_NAME"/>）</translation>
 <translation id="3980708588513986958">スキルを表示、管理する</translation>
@@ -4008,7 +4008,7 @@
 <translation id="4053028343167125998">クライアント証明書をインポートするには、<ph name="TOKEN_NAME"/> のロックを解除してください。</translation>
 <translation id="4053833479432165765">ページをアプリとしてインストール(&amp;I)...</translation>
 <translation id="4054070260844648638">全員が検出可能</translation>
-<translation id="8891261408659902804">保護者が設定した <ph name="APP_NAME"/> Brave アプリの利用時間の上限に達しました。明日は <ph name="TIME_LIMIT"/> まで使えます。</translation>
+<translation id="3587910514908289330">保護者が設定した <ph name="APP_NAME"/> Wryling アプリの利用時間の上限に達しました。明日は <ph name="TIME_LIMIT"/> まで使えます。</translation>
 <translation id="4057041477816018958"><ph name="SPEED"/> - <ph name="RECEIVED_AMOUNT"/></translation>
 <translation id="405733379999213678">このサイトによる MIDI デバイスの操作と再プログラムを引き続き許可する</translation>
 <translation id="4057896668975954729">ストアで見る</translation>
@@ -4043,7 +4043,7 @@
 <translation id="4089235344645910861">設定が保存され、同期が始まりました。</translation>
 <translation id="4089817585533500276">Shift+<ph name="TOP_ROW_KEY"/></translation>
 <translation id="4090103403438682346">確認済みアクセスを有効にする</translation>
-<translation id="7268155614575494857">Brave パスワード マネージャーでログイン情報を保存するには、このサイトのユーザー名を追加してください</translation>
+<translation id="6708405940091325014">Wryling パスワード マネージャーでログイン情報を保存するには、このサイトのユーザー名を追加してください</translation>
 <translation id="4093173301198419723">英字（大文字と小文字）、数字、および記号を使用してください</translation>
 <translation id="4093955363990068916">ローカル ファイル:</translation>
 <translation id="4094647278880271855">サポートされていない環境変数が使用されています: <ph name="BAD_VAR"/>。これにより、安全性とセキュリティが損なわれます。</translation>
@@ -4070,7 +4070,7 @@
 <translation id="4110485659976215879">警告を復元</translation>
 <translation id="4112194537011183136"><ph name="DEVICE_NAME"/>（オフライン）</translation>
 <translation id="4113743276555482284">ファイルのパスワード</translation>
-<translation id="1423132677367459502">Brave ドライブで最近使用したファイルに簡単にアクセスできるよう、ファイルの候補が表示されています。
+<translation id="5884518115438412995">Brave ドライブで最近使用したファイルに簡単にアクセスできるよう、ファイルの候補が表示されています。
         <ph name="BREAK"/>
         <ph name="BREAK"/>
         カードメニューから設定を管理することや、[Brave をカスタマイズ] でその他のオプションを見ることができます。</translation>
@@ -4139,7 +4139,7 @@
 <translation id="4176463684765177261">停止中</translation>
 <translation id="4176864026061939326">このデバイスは管理されています。デバイスの管理者がアカウント <ph name="USER_EMAIL_ADDRESS"/> の新しいプロフィールを作成するよう求めています</translation>
 <translation id="4177668342649553942"><ph name="SHORTCUT_NAME"/> を開く　- <ph name="APP_NAME"/></translation>
-<translation id="638591227897120703">拡張機能は Brave に追加できるアドオンで、情報を整理したり、タスクを簡素化したり、ブラウジング環境をカスタマイズしたりできます</translation>
+<translation id="6210463748469316524">拡張機能は Wryling に追加できるアドオンで、情報を整理したり、タスクを簡素化したり、ブラウジング環境をカスタマイズしたりできます</translation>
 <translation id="4177860704813504507">パスワードまたは指紋認証</translation>
 <translation id="4178220097446335546">この登録とそれに関連付けられているネットワークを削除するには、Passpoint の登録ページに移動して登録を削除してください。</translation>
 <translation id="4181376007499455822">オーバーライドしない</translation>
@@ -4304,7 +4304,7 @@
 <translation id="4304713468139749426">パスワード マネージャー</translation>
 <translation id="4305817255990598646">切り替え</translation>
 <translation id="4306489587293957491">入力</translation>
-<translation id="1689951986267171188">今後、このサイトからの通知はスパムとして報告しません</translation>
+<translation id="6665952731838572283">今後、このサイトからの通知はスパムとして報告しません</translation>
 <translation id="4307992518367153382">基本設定</translation>
 <translation id="4309035504231554969">不明な理由により、インストールできませんでした。</translation>
 <translation id="4309183709806093061">システム音声も共有します。ハウリングが発生しないように、このデバイスはミュートされます。</translation>
@@ -4330,7 +4330,7 @@
 <translation id="4324577459193912240">ファイルが不完全です</translation>
 <translation id="4325433082696797523">ストレージと電源</translation>
 <translation id="4325515113816851466">ログアウトすると、保護者の方が指定した設定は適用されなくなります</translation>
-<translation id="7463244538445813736">Brave の最高水準のセキュリティで、危険なウェブサイト、ダウンロード、拡張機能から保護します</translation>
+<translation id="8506408958028373380">Wryling の最高水準のセキュリティで、危険なウェブサイト、ダウンロード、拡張機能から保護します</translation>
 <translation id="4327380114687339519">拡張機能メニュー</translation>
 <translation id="4328160087116165267">システムの音声を含めて共有する</translation>
 <translation id="4330191372652740264">氷水</translation>
@@ -4339,7 +4339,7 @@
 <translation id="4332976768901252016">保護者による使用制限を設定する</translation>
 <translation id="4334768748331667190"><ph name="MODULE_NAME"/> は今後表示されません</translation>
 <translation id="4335835283689002019">セーフ ブラウジングはオフになっています</translation>
-<translation id="5889020479667192676">Brave でこのタスクを完了するには、ログインする必要があります</translation>
+<translation id="488757428703018223">Wryling でこのタスクを完了するには、ログインする必要があります</translation>
 <translation id="433776600277609450">フィルタを追加</translation>
 <translation id="4338363401382232853">分割画面のウィンドウ候補</translation>
 <translation id="4339203724549370495">アプリをアンインストール</translation>
@@ -4392,7 +4392,7 @@
 <translation id="437809255587011096">テキストのスタイル設定を読み上げる</translation>
 <translation id="4378154925671717803">電話</translation>
 <translation id="4378308539633073595">前方スクロール</translation>
-<translation id="4378363201814870400">パスワード、お支払い方法、住所、ID カードなどの自動入力情報を管理して、ブラウジングを高速化できます</translation>
+<translation id="4005743806371955395">パスワード、お支払い方法、住所、ID カードなどの自動入力情報を管理して、ブラウジングを高速化できます</translation>
 <translation id="4378551569595875038">接続中...</translation>
 <translation id="4378589147979399051">メインのキーボードによるマウスカーソルの操作</translation>
 <translation id="30088850081141729">Brave に「<ph name="SEARCH_TERMS"/>」について質問</translation>
@@ -4448,7 +4448,7 @@
 <translation id="4914256659228865673">これらのパスキーは、このパソコンの Windows Hello に保存されます。Brave アカウントには保存されません。</translation>
 <translation id="4412544493002546580">もう一度お試しいただくか、以下のインスピレーションから選択してください。</translation>
 <translation id="4412547955014928315"><ph name="SITE_NAME"/> とその下にあるすべてのサイトのサイトデータと権限を削除しますか？</translation>
-<translation id="2225668468568666081">Brave アプリはプログレッシブ ウェブアプリに移行しています。この Brave アプリは組織によりブラウザにインストールされたものです。アプリのリストからプログレッシブ ウェブアプリを開くには、まず Brave アプリをアンインストールするよう管理者に依頼します。その間は、<ph name="EXTENSION_LAUNCH_URL"/> にアクセスして、ウェブで <ph name="EXTENSION_NAME"/> を開いてください。</translation>
+<translation id="9096070332505320117">Wryling アプリはプログレッシブ ウェブアプリに移行しています。この Wryling アプリは組織によりブラウザにインストールされたものです。アプリのリストからプログレッシブ ウェブアプリを開くには、まず Wryling アプリをアンインストールするよう管理者に依頼します。その間は、<ph name="EXTENSION_LAUNCH_URL"/> にアクセスして、ウェブで <ph name="EXTENSION_NAME"/> を開いてください。</translation>
 <translation id="4412698727486357573">ヘルプセンター</translation>
 <translation id="4412992751769744546">サードパーティの Cookie を許可する</translation>
 <translation id="4413087696295876280">ChromeOS Flex のデバイス情報とデータを読み取る</translation>
@@ -4544,18 +4544,18 @@
 <translation id="4501530680793980440">削除の確認</translation>
 <translation id="4502423230170890588">このデバイスから削除</translation>
 <translation id="4502477450742595012">タブを右クリックして、[新しいグループに追加] を選択します</translation>
-<translation id="7840745488816718252">最近使用したタブグループが表示され、中断したところから簡単に再開できます。
+<translation id="975374802834211974">最近使用したタブグループが表示され、中断したところから簡単に再開できます。
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        カードメニューで設定を管理することや、[Brave をカスタマイズ] でその他のオプションを見ることができます。</translation>
+        カードメニューで設定を管理することや、[Wryling をカスタマイズ] でその他のオプションを見ることができます。</translation>
 <translation id="4504940961672722399">この拡張機能を使用するには、このアイコンをクリックするか、<ph name="EXTENSION_SHORTCUT"/> を押します。</translation>
-<translation id="8141996966528663835">この QR コードを使用して Brave をダウンロードし、Brave アカウントにログインしてください。</translation>
+<translation id="1258044875592855240">この QR コードを使用して Brave をダウンロードし、Brave アカウントにログインしてください。</translation>
 <translation id="450552327874992444">この語句はすでに追加されています</translation>
 <translation id="4507373251891673233"><ph name="HOST"/> のすべての拡張機能をブロックしました</translation>
 <translation id="4507401683427517298">[ショートカットを追加] をクリックします</translation>
 <translation id="4508265954913339219">起動に失敗しました</translation>
 <translation id="4508765956121923607">ソースを表示(&amp;O)</translation>
-<translation id="4161817736307925392"><ph name="BEGIN_BOLD_USERNAME"/>ユーザー名<ph name="END_BOLD_USERNAME"/>と<ph name="BEGIN_BOLD_PASSWORD"/>パスワード<ph name="END_BOLD_PASSWORD"/>を共有すると、ファミリー メンバーは Brave パスワード マネージャーを使用してそれらを入力できます</translation>
+<translation id="7514388439385693063"><ph name="BEGIN_BOLD_USERNAME"/>ユーザー名<ph name="END_BOLD_USERNAME"/>と<ph name="BEGIN_BOLD_PASSWORD"/>パスワード<ph name="END_BOLD_PASSWORD"/>を共有すると、ファミリー メンバーは Wryling パスワード マネージャーを使用してそれらを入力できます</translation>
 <translation id="4509421746503122514">再起動して更新する</translation>
 <translation id="4510195992002502722">フィードバックを送信できませんでした。再試行しています...</translation>
 <translation id="4511344327646819192">他のユーザーがパスワードを使用できないようにするには、<ph name="WEBSITE"/> でパスワードを変更します</translation>
@@ -4585,7 +4585,7 @@
 <translation id="4536769240747010177">テザリング機能:</translation>
 <translation id="4538417792467843292">1 語削除する</translation>
 <translation id="4538792345715658285">会社のポリシーによってインストール済み。</translation>
-<translation id="6339420797559770249">Brave パスワード マネージャーにアクセスできません。数分後にもう一度お試しください。</translation>
+<translation id="1573625443275169446">Wryling パスワード マネージャーにアクセスできません。数分後にもう一度お試しください。</translation>
 <translation id="4540780316273593836">エラーが発生しました</translation>
 <translation id="4541396589393395475">この機能は組織により無効になっています</translation>
 <translation id="4541505619120536051">常に開く</translation>
@@ -4650,7 +4650,7 @@
 <translation id="4580389561674319558">すべての連絡先に公開</translation>
 <translation id="4580596421317071374">パスワードは、このデバイスの <ph name="GOOGLE_PASSWORD_MANAGER"/> に保存されています。</translation>
 <translation id="4582297591746054421">多くのサイトは、コピーしたテキストの書式を保持するなどのためにクリップボードを読み取ります。</translation>
-<translation id="376109232905238597">Brave の自動入力からこの情報を削除しますか？</translation>
+<translation id="7933642050191342525">Wryling の自動入力からこの情報を削除しますか？</translation>
 <translation id="4584770411839426377">ウィンドウ</translation>
 <translation id="4584836561445313300">組織は、既存の閲覧データ（パスワードなど）を確認、管理できるようになります</translation>
 <translation id="4585793705637313973">ページの編集</translation>
@@ -4779,7 +4779,7 @@
 <translation id="4682003508123230705">学習サポート</translation>
 <translation id="4682481611456523884">このサイトの埋め込みコンテンツでは、保存したあなたに関する情報は使用できません</translation>
 <translation id="4524261726901681678">これらの機能を使用すると、AI によるエクスペリエンスを提供するため、関連するデータが Brave に送信されます</translation>
-<translation id="3704650847382671289">Brave を更新しました</translation>
+<translation id="6644622854523272162">Wryling を更新しました</translation>
 <translation id="4683629100208651599">小文字にする</translation>
 <translation id="4683947955326903992"><ph name="PERCENTAGE"/>%（デフォルト）</translation>
 <translation id="4684427112815847243">すべてを同期する</translation>
@@ -5103,7 +5103,7 @@
 <translation id="4918762404810341788">コピーして開く</translation>
 <translation id="4918844574251943176">画像をコピーしました</translation>
 <translation id="4921348630401250116">テキスト読み上げ</translation>
-<translation id="1298471559729553235">お使いのオペレーティング システムでパスワード マネージャーを使用するには、Brave を再起動してパソコンのパスワード マネージャーへのアクセスを許可してください。再起動すると、タブが再度開きます。</translation>
+<translation id="2177523175450524748">お使いのオペレーティング システムでパスワード マネージャーを使用するには、Wryling を再起動してパソコンのパスワード マネージャーへのアクセスを許可してください。再起動すると、タブが再度開きます。</translation>
 <translation id="4923561999941435531">{0,plural, =1{アカウントに 1 件のアイテムを保存}other{アカウントに # 件のアイテムを保存}}</translation>
 <translation id="4923977675318667854">タブグループを表示</translation>
 <translation id="4924002401726507608">フィードバックを送信</translation>
@@ -5182,7 +5182,7 @@
 <translation id="4979263087381759787">デベロッパー オプション</translation>
 <translation id="4979510648199782334">Microsoft 365 のセットアップが完了しました</translation>
 <translation id="4980805016576257426">この拡張機能には不正なソフトウェアが含まれています。</translation>
-<translation id="8231468153901265517">パスワードは共有されませんでした。インターネット接続と、Brave にログインしていることを確認してから、もう一度お試しください。</translation>
+<translation id="950784604556747155">パスワードは共有されませんでした。インターネット接続と、Wryling にログインしていることを確認してから、もう一度お試しください。</translation>
 <translation id="498624032394115435">リンクを知っているユーザーは誰でも、すべてのタブを編集できます。</translation>
 <translation id="6814280300414171363">同期する項目はいつでも [設定] で選択できます。Brave では、履歴に基づいて検索やその他のサービスをカスタマイズすることがあります。</translation>
 <translation id="4986728572522335985">セキュリティ キーに保存されているすべてのデータ（PIN を含む）が削除されます</translation>
@@ -5192,7 +5192,7 @@
 <translation id="4989966318180235467">バックグラウンド ページの検証(&amp;B)</translation>
 <translation id="499016799952867794">これにより、アプリは想定どおりに動作します。</translation>
 <translation id="4990673372047946816">使用できるカメラがありません</translation>
-<translation id="7538826519053730023">Gemini Spark は、このデバイスで Brave の自動ブラウジングを使用してサイトを操作し、ユーザーに代わってタスクを完了できます。<ph name="LINK_BEGIN"/>詳細<ph name="LINK_END"/></translation>
+<translation id="6942602636852210373">Gemini Spark は、このデバイスで Wryling の自動ブラウジングを使用してサイトを操作し、ユーザーに代わってタスクを完了できます。<ph name="LINK_BEGIN"/>詳細<ph name="LINK_END"/></translation>
 <translation id="4991420928586866460">キーボードの最上段のキーをファンクション キーとして使用する</translation>
 <translation id="4991873517942703737">このドキュメントについて質問</translation>
 <translation id="4992066212339426712">ミュートを解除</translation>
@@ -5344,7 +5344,7 @@
 <translation id="5111794652433847656">このデバイスに <ph name="APP_NAME"/> のパスキーがありません</translation>
 <translation id="5112686815928391420">{NUM_OF_FILES,plural, =1{1 個のファイルを移動しました}other{{NUM_OF_FILES} 個のファイルを移動しました}}</translation>
 <translation id="511313294362309725">ファスト ペアリングをオンにする</translation>
-<translation id="6409962091529734959">Brave の自動ブラウジングの詳細</translation>
+<translation id="3721809128005666745">Wryling の自動ブラウジングの詳細</translation>
 <translation id="51143538739122961">セキュリティ キーを挿入し、タップしてください</translation>
 <translation id="5115338116365931134">SSO</translation>
 <translation id="5116628073786783676">名前を付けてオーディオを保存(&amp;V)...</translation>
@@ -5367,7 +5367,7 @@
 <translation id="5130080518784460891">Eten</translation>
 <translation id="5130675701626084557">プロファイルをダウンロードできませんでした。しばらくしてからもう一度試すか、携帯通信会社にお問い合わせください。</translation>
 <translation id="5131591206283983824">タッチパッドのタップによるドラッグ</translation>
-<translation id="112893101983775894">Brave ドライブのコンテンツには、このファイル検索機能を提供する目的でのみアクセスします。Brave 検索の改善にコンテンツが使用されることはありません。ユーザーが明示的にファイルをアップロードした場合を除き、Brave が Brave ドライブのコンテンツにアクセスすることはありません。</translation>
+<translation id="3232662147308516489">Brave ドライブのコンテンツには、このファイル検索機能を提供する目的でのみアクセスします。Brave 検索の改善にコンテンツが使用されることはありません。ユーザーが明示的にファイルをアップロードした場合を除き、Brave が Brave ドライブのコンテンツにアクセスすることはありません。</translation>
 <translation id="5133035646508467110">このデバイスを他のユーザーと共有している場合、保存したパスワードを使用するたびに指紋認証で本人確認を行うことができます</translation>
 <translation id="5135533361271311778">ブックマークの項目を作成できませんでした。</translation>
 <translation id="513555878193063507">新しい APN を追加</translation>
@@ -5425,18 +5425,18 @@
 <translation id="5179428098696668914">AI 再生をオフにする</translation>
 <translation id="5180276433875360121"><ph name="CERT_LIST"/> を表示</translation>
 <translation id="5181140330217080051">ダウンロードしています</translation>
-<translation id="3656271699136235245"><ph name="ACCOUNT"/> の Brave パスワード マネージャー</translation>
+<translation id="1388473966322202858"><ph name="ACCOUNT"/> の Wryling パスワード マネージャー</translation>
 <translation id="6029810565516522064">このパスワードは、このデバイスのみに保存されます。他のデバイスで使用するには、Brave アカウント（<ph name="USER_EMAIL"/>）に保存してください。</translation>
 <translation id="5182671122927417841">拡張機能を無効にする</translation>
 <translation id="5183344263225877832">HID デバイスの権限をすべてリセットしますか？</translation>
 <translation id="5184063094292164363">JavaScript コンソール(&amp;J)</translation>
 <translation id="5184209580557088469">このユーザー名のチケットはすでに設定されています</translation>
-<translation id="8445059357334030806">Braveで開く</translation>
+<translation id="4126334514963731148">Braveで開く</translation>
 <translation id="5184662919967270437">デバイスを更新しています</translation>
 <translation id="5185500136143151980">インターネットに接続されていません</translation>
 <translation id="5186362203408605578">QR コードをスキャンして別のデバイスを使用できます</translation>
 <translation id="5186381005592669696">対応アプリの表示言語をカスタマイズする</translation>
-<translation id="3075701570150269201">このパスキーを使用してどのデバイスでもすばやくログインできます。パスキーは <ph name="ACCOUNT_NAME"/> の Brave パスワード マネージャーに保存されます。</translation>
+<translation id="8357398038570228285">このパスキーを使用してどのデバイスでもすばやくログインできます。パスキーは <ph name="ACCOUNT_NAME"/> の Wryling パスワード マネージャーに保存されます。</translation>
 <translation id="5186792064936776005">利用可能な場合はデフォルトを使用する</translation>
 <translation id="5186931074173692059">パスワードは <ph name="EMAIL"/> の <ph name="GOOGLE_PASSWORD_MANAGER"/>に保存されます。</translation>
 <translation id="5187826826541650604"><ph name="KEY_NAME"/>（<ph name="DEVICE"/>）</translation>
@@ -5535,7 +5535,7 @@
 <translation id="5263656105659419083">右上の固定をクリックすると、サイドパネルにすばやく戻れます</translation>
 <translation id="5266117308710480775">すべてのタブを表示</translation>
 <translation id="526622169288322445"><ph name="ADDRESS_SUMMARY"/> に対するその他の操作</translation>
-<translation id="904084505809395909">スキルを使用するには、Gemini in Brave が有効になっている Brave アカウントで Brave にログインしてください</translation>
+<translation id="8409037861809652895">スキルを使用するには、Gemini in Brave が有効になっている Brave アカウントで Brave にログインしてください</translation>
 <translation id="5267572070504076962">セーフ ブラウジングをオンにすると危険なサイトから保護されます</translation>
 <translation id="5269659747698455324">パスキーのロックを解除</translation>
 <translation id="5269977353971873915">印刷の失敗</translation>
@@ -5572,7 +5572,7 @@
 <translation id="815099619559018451"><ph name="DEVICE_TYPE"/> では、内蔵センサーを使用してデバイスの前にいる人を検出します。すべてのデータがデバイス上ですぐに処理され、その後に削除されます。センサーデータは Brave には一切送信されません。<ph name="LINK_BEGIN"/>詳細<ph name="LINK_END"/></translation>
 <translation id="5294922869942863768">リーディング モードのサイドパネルに PDF の翻訳が表示されます</translation>
 <translation id="5296350763804564124">画面を見なくてもデバイスを使用できるように、音声フィードバックを読み上げます。点字によるフィードバックは接続されたデバイスで利用できます。</translation>
-<translation id="6092554978456048094">Brave の最高強度のセキュリティで有害なウェブサイトから保護します</translation>
+<translation id="434455729075409436">Wryling の最高強度のセキュリティで有害なウェブサイトから保護します</translation>
 <translation id="5297005732522718715">テザリング設定を更新</translation>
 <translation id="5297021821125993168">有効化に成功しました</translation>
 <translation id="5297082477358294722">パスワードが保存されました。保存パスワードの表示と管理は <ph name="SAVED_PASSWORDS_STORE"/> で行えます。</translation>
@@ -5807,7 +5807,7 @@
 <translation id="5490798133083738649">Linux にマイクへのアクセスを許可する</translation>
 <translation id="549211519852037402">ベージュと白</translation>
 <translation id="5492637351392383067">オンデバイスの暗号化</translation>
-<translation id="525561504184560379">拡張機能は Brave に追加できるアドオンで、次のような機能があります</translation>
+<translation id="4269985980162690000">拡張機能は Wryling に追加できるアドオンで、次のような機能があります</translation>
 <translation id="5493455553805432330">削除</translation>
 <translation id="5493792505296048976">画面オン</translation>
 <translation id="5494016731375030300">最近閉じたタブ</translation>
@@ -5822,7 +5822,7 @@
 <translation id="5497250476399536588">[住所やその他の情報] で確認できます</translation>
 <translation id="5497251278400702716">このファイル</translation>
 <translation id="549762298434242239">この拡張機能は、セーフ ブラウジング保護強化機能で信頼されていません。<ph name="LEARN_MORE_LINK"/></translation>
-<translation id="8535881475141081242">Brave でこのインストール バンドルを確認できませんでした</translation>
+<translation id="3284580476319813256">Wryling でこのインストール バンドルを確認できませんでした</translation>
 <translation id="5499211612787418966">このダイアログは現在フォーカスされていません。このダイアログをフォーカスするには Alt+Shift+A キーを押してください。</translation>
 <translation id="5499476581866658341">スマートフォンの最近の写真やメディアを表示できるようになりました</translation>
 <translation id="549957179819296104">アイコンが新しくなりました</translation>
@@ -5861,7 +5861,7 @@
 <translation id="5527822190489075064">充電の最適化</translation>
 <translation id="5529554942700688235">メモリ節約の概要、<ph name="MEMORY_VALUE"/> を解放しました</translation>
 <translation id="5529693968082667490">タブ検索のボタンを表示する</translation>
-<translation id="8476278190293667671">Brave パスワード マネージャーにパスワードを保存するには、鍵アイコンをクリックします</translation>
+<translation id="7590006893770451825">Wryling パスワード マネージャーにパスワードを保存するには、鍵アイコンをクリックします</translation>
 <translation id="5532223876348815659">グローバル</translation>
 <translation id="5533001281916885985"><ph name="SITE_NAME"/> が次の許可を求めています</translation>
 <translation id="5533343601674003130">PDF サービス</translation>
@@ -5988,7 +5988,7 @@
 <translation id="5632300633605675627">プロファイルを設定しています...</translation>
 <translation id="5632566673632479864">お使いのアカウント <ph name="EMAIL"/> は、メイン アカウントとして使用できなくなりました。このアカウントは <ph name="DOMAIN"/> で管理されているため、ブックマーク、履歴、パスワードなどの設定はこのデバイスから削除されます。</translation>
 <translation id="5633149627228920745">システム要件の詳細</translation>
-<translation id="4349643148868035678">最先端の Brave AI をお試しください。Gemini をツールバーに固定して簡単にアクセスできます。また、Brave メニューからいつでも開くことができます。</translation>
+<translation id="1259136609764667252">最先端の Brave AI をお試しください。Gemini をツールバーに固定して簡単にアクセスできます。また、Brave メニューからいつでも開くことができます。</translation>
 <translation id="563371367637259496">モバイル</translation>
 <translation id="5635312199252507107">特定のサイトで許可する</translation>
 <translation id="5636012309446422"><ph name="PRIMARY_EMAIL"/> から <ph name="DEVICE"/> を削除しますか？</translation>
@@ -6032,7 +6032,7 @@
 <translation id="5677503058916217575">ページの言語:</translation>
 <translation id="5677928146339483299">ブロック</translation>
 <translation id="5678550637669481956"><ph name="VOLUME_NAME"/> への読み書きのアクセス権が許可されました。</translation>
-<translation id="9187489046368002999">Brave を使用するどのデバイスからでも最近閉じたタブをもう一度開くことができます</translation>
+<translation id="1324707973668136061">Wryling を使用するどのデバイスからでも最近閉じたタブをもう一度開くことができます</translation>
 <translation id="5678955352098267522"><ph name="WEBSITE_1"/> でのユーザーデータの読み取り</translation>
 <translation id="5680050361008726776">「<ph name="ESIM_PROFILE_NAME"/>」を削除しますか？</translation>
 <translation id="5681586175480958839">ファイルはすでに開かれています</translation>
@@ -6136,7 +6136,7 @@
 <translation id="5776415697119024904"><ph name="DEVICE_NAME"/>（システムのデフォルト）</translation>
 <translation id="5776450228446082914">どちらのブラウザでも開くことができるウェブサイトのリストです。</translation>
 <translation id="5776571780337000608">ファイル ブラウザからこのアプリまたは他のアプリで、サポートされているファイルを開いて編集できます。デフォルトでこのアプリを使用して開くファイルを管理するには、<ph name="BEGIN_LINK"/>デバイスでデフォルトのアプリを設定する方法<ph name="END_LINK"/>をご確認ください。</translation>
-<translation id="6676231621615806698">Brave を起動</translation>
+<translation id="2366428511841171478">Wryling を起動</translation>
 <translation id="5778491106820461378">ログインする Brave アカウントは、<ph name="LINK_BEGIN"/>設定<ph name="LINK_END"/>で管理できます。ウェブサイトとアプリに許可した権限はすべてのアカウントに適用される可能性があります。サイトやアプリがアカウント情報にアクセスすることを望まない場合は、<ph name="DEVICE_TYPE"/> にゲストとしてログインできます。</translation>
 <translation id="5780011244986845107">選択したフォルダには、機密ファイルが含まれています。このフォルダに対する永続的な読み取りアクセス権を「<ph name="APP_NAME"/>」に付与してもよろしいですか？</translation>
 <translation id="5780973441651030252">プロセスの優先値</translation>
@@ -6146,7 +6146,7 @@
 <translation id="5783346913439924978">ヘッド トラッキング</translation>
 <translation id="57838592816432529">ミュート</translation>
 <translation id="5784291589716625675">アプリの言語を変更</translation>
-<translation id="7171242884588191792">Brave ファイル ユーティリティ</translation>
+<translation id="6694176433685812521">Wryling ファイル ユーティリティ</translation>
 <translation id="5787420647064736989">デバイス名</translation>
 <translation id="3481489625298495279"><ph name="BEGIN_LINK_LOYALTY_CARDS"/>ポイントカード<ph name="END_LINK_LOYALTY_CARDS"/>または Google Pay の<ph name="BEGIN_LINK_PAYMENT_METHODS"/>お支払い方法<ph name="END_LINK_PAYMENT_METHODS"/>を追加または管理するには、Brave ウォレットにアクセスしてください</translation>
 <translation id="5789581866075720267">このデバイスの <ph name="BRAND"/> にパスワードをインポートするには、CSV ファイルを選択してください。</translation>
@@ -6279,7 +6279,7 @@
 <translation id="587234395549708302">ブックマークを整理しますか？</translation>
 <translation id="587502357434914765">画面から選択</translation>
 <translation id="5875534259258494936">画面共有を終了しました</translation>
-<translation id="5087908853264608754">Brave アプリ &gt; <ph name="APP_NAME"/></translation>
+<translation id="3007975053754227498">Wryling アプリ &gt; <ph name="APP_NAME"/></translation>
 <translation id="5876851302954717356">右隣に新しいタブを開く</translation>
 <translation id="5877064549588274448">チャンネルが変更されました。変更を適用するには、デバイスを再起動してください。</translation>
 <translation id="5877584842898320529">選択したプリンタは利用できないか、正しくインストールされていません。<ph name="BR"/>プリンタを確認するか、別のプリンタを選択してみてください。</translation>
@@ -6310,7 +6310,7 @@
 <translation id="5901069264981746702">指紋データは <ph name="DEVICE_TYPE"/> にのみ安全に保存されます。<ph name="LINK_BEGIN"/>詳細<ph name="LINK_END"/></translation>
 <translation id="5901089233978050985">キャプチャ中のタブに切り替え</translation>
 <translation id="5901630391730855834">黄</translation>
-<translation id="3535209993382976135">Brave パスワード マネージャーはオフになっています</translation>
+<translation id="7043941876121223194">Wryling パスワード マネージャーはオフになっています</translation>
 <translation id="5906457147959147328">このサイトによる識別子の使用と保護されたコンテンツの再生を引き続き許可する</translation>
 <translation id="5906655207909574370">デバイスを再起動して更新を完了してください。</translation>
 <translation id="5906732635754427568">このアプリに関連付けられているデータはこのデバイスから削除されます。</translation>
@@ -6333,7 +6333,7 @@
 <translation id="5919486630433391408">ファームウェアの更新は管理者によって無効にされています。</translation>
 <translation id="5920543303088087579">このネットワークへの接続は管理者によって無効にされています</translation>
 <translation id="5922493635960054020">初めてアクセスするサイトで JavaScript オプティマイザーへのアクセスをブロックします。セーフ ブラウジングが必要です。</translation>
-<translation id="2323567368243374972">[Brave をカスタマイズ] をクリック</translation>
+<translation id="4776890532807780579">[Wryling をカスタマイズ] をクリック</translation>
 <translation id="5924047253200400718"><ph name="SCANNING_STATUS"/> ヘルプ</translation>
 <translation id="5924438086390153180">Microsoft のファイルを Brave ドライブにコピーまたは移動する前に確認する</translation>
 <translation id="5925057331573749968">QR コードですばやくログイン</translation>
@@ -6431,7 +6431,7 @@
 <translation id="5992652489368666106">余白なし</translation>
 <translation id="5996490984199062729">プロフィールが設定されていません</translation>
 <translation id="5997337190805127100">サイトアクセスの詳細</translation>
-<translation id="1113417784664180765">同じアカウントで Brave にログインしている場合は、デバイス間でリンクをすばやく送信できます</translation>
+<translation id="2406114405348885691">同じアカウントで Wryling にログインしている場合は、デバイス間でリンクをすばやく送信できます</translation>
 <translation id="5998458948782718639">自動入力の改善にご協力ください</translation>
 <translation id="5998976983953384016">確定して有効にする</translation>
 <translation id="5999630716831179808">音声</translation>
@@ -6463,7 +6463,7 @@
 <translation id="6021293122504240352"><ph name="APPS"/> 件のアプリが現在サポートされていません</translation>
 <translation id="6021969570711251331">インターリーブ</translation>
 <translation id="6022526133015258832">全画面表示</translation>
-<translation id="296137235951584143">Brave を自分用にカスタマイズ</translation>
+<translation id="4578349172774307195">Wryling を自分用にカスタマイズ</translation>
 <translation id="6024317249717725918"><ph name="VISUAL_SEARCH_PROVIDER"/> で動画フレームを検索(&amp;S)</translation>
 <translation id="6025215716629925253">スタック トレース</translation>
 <translation id="6026819612896463875"><ph name="WINDOW_TITLE"/> - USB デバイスに接続されています</translation>
@@ -6552,7 +6552,7 @@
 <translation id="6099766472403716061"><ph name="HOST"/> による MIDI デバイスの操作と再プログラムを常に許可する</translation>
 <translation id="6100736666660498114">スタート メニュー</translation>
 <translation id="6100737823178787570">タスクを再開するには、ウィンドウのサイズを大きくしてください</translation>
-<translation id="4012048950158900308">一般に報告されているデータ侵害でパスワードが検出された場合、Brave パスワード マネージャーによってログイン時にパスワードの変更を促すメッセージが表示されます。</translation>
+<translation id="4455711252967107965">一般に報告されているデータ侵害でパスワードが検出された場合、Brave パスワード マネージャーによってログイン時にパスワードの変更を促すメッセージが表示されます。</translation>
 <translation id="6101226222197207147">新しいアプリが追加されました（<ph name="EXTENSION_NAME"/>）</translation>
 <translation id="6102043788063419338">このファイルは高度な保護機能によってブロックされました。</translation>
 <translation id="6103681770816982672">警告: Dev チャンネルに切り替えようとしています</translation>
@@ -6585,7 +6585,7 @@
 <translation id="6126601353087978360">フィードバックの内容をご記入ください。</translation>
 <translation id="6127292407256937949">音量はオンになっています。音量をオフにします。</translation>
 <translation id="6127598727646973981">安全な接続</translation>
-<translation id="7089529486065491663">選択したデータが Brave から削除され、同期されたデバイスからも削除されました。他の Brave サービスでの検索や操作など、Brave アカウントの他の形式の閲覧履歴が <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> に残ることがあります。</translation>
+<translation id="8909926044863596423">選択したデータが Brave から削除され、同期されたデバイスからも削除されました。他の Brave サービスでの検索や操作など、Brave アカウントの他の形式の閲覧履歴が <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> に残ることがあります。</translation>
 <translation id="6129938384427316298">Netscape 証明書コメント</translation>
 <translation id="6129953537138746214">Space</translation>
 <translation id="6130692320435119637">Wi-Fi を追加</translation>
@@ -6662,7 +6662,7 @@
 <translation id="6181218116951226898">アプリでブランディングが更新されることがあります。更新の前に、すべての変更内容に問題がないことを確認してください。</translation>
 <translation id="6181431612547969857">ダウンロードがブロックされました</translation>
 <translation id="6183369864942961155">ライトモード / ダークモード自動設定</translation>
-<translation id="7995865526174204486">Gemini in Brave が自動でブラウジングして、タブ上の作業や指定されたタスクを行います。<ph name="LINK_BEGIN"/>詳細<ph name="LINK_END"/></translation>
+<translation id="896787455774331657">Gemini in Wryling が自動でブラウジングして、タブ上の作業や指定されたタスクを行います。<ph name="LINK_BEGIN"/>詳細<ph name="LINK_END"/></translation>
 <translation id="6184099524311454384">タブを検索</translation>
 <translation id="6185151644843671709">パスキーを保存し、PIN を作成しました</translation>
 <translation id="2250900586478000379">{PASSWORD_COUNT,plural, =1{1 件のパスワードとその他の項目がこのデバイスのみに保存されています。他のデバイスで使用するには、Brave アカウントに保存してください。保存時に重複する項目は整理されます。}other{{PASSWORD_COUNT} 件のパスワードとその他の項目がこのデバイスのみに保存されています。他のデバイスで使用するには、Brave アカウントに保存してください。保存時に重複する項目は整理されます。}}</translation>
@@ -6734,7 +6734,7 @@
 <translation id="6239558157302047471">フレームを再読み込み(&amp;F)</translation>
 <translation id="6240637845286751292">許可。<ph name="LINK_BEGIN"/>システムの位置情報へのアクセス<ph name="LINK_END"/>をオンにする。</translation>
 <translation id="6240821072888636753">毎回確認</translation>
-<translation id="4174528239215311406">お使いのオペレーティング システムで Brave パスワード マネージャーを使用するには、Brave を再起動してパソコンのパスワード マネージャーへのアクセスを許可してください。再起動すると、タブが再度開きます。</translation>
+<translation id="242014192545524966">お使いのオペレーティング システムで Wryling パスワード マネージャーを使用するには、Wryling を再起動してパソコンのパスワード マネージャーへのアクセスを許可してください。再起動すると、タブが再度開きます。</translation>
 <translation id="6241530762627360640">システムでペア設定されている Bluetooth デバイスの情報へのアクセスと、近くにある Bluetooth デバイスの検出。</translation>
 <translation id="6241844896329831164">アクセス不要</translation>
 <translation id="6242589501614145408">セキュリティ キーのリセット</translation>
@@ -6742,8 +6742,8 @@
 <translation id="6242852299490624841">このタブをフォーカス</translation>
 <translation id="6243774244933267674">サーバーを使用できません</translation>
 <translation id="6244245036423700521">ONC ファイルのインポート</translation>
-<translation id="5455369595872837596">Brave パスワード マネージャーからアクセスできます。</translation>
-<translation id="8883879481897424949">Brave パスワード マネージャー</translation>
+<translation id="6643271232839544541">Wryling パスワード マネージャーからアクセスできます。</translation>
+<translation id="3888885285070224654">Wryling パスワード マネージャー</translation>
 <translation id="6247620186971210352">アプリが見つかりません</translation>
 <translation id="6247708409970142803"><ph name="PERCENTAGE"/>%</translation>
 <translation id="6247802389331535091">システム: <ph name="ARC_PROCESS_NAME"/></translation>
@@ -6839,11 +6839,11 @@
 <translation id="6324916366299863871">ショートカットの編集</translation>
 <translation id="6325191661371220117">自動起動を無効にする</translation>
 <translation id="632524945411480350">ウィンドウを下方向にサイズ変更しました</translation>
-<translation id="5267531627648004734">Brave から削除</translation>
+<translation id="6125790165673488794">Wryling から削除</translation>
 <translation id="6326855256003666642">キープアライブ カウント</translation>
 <translation id="6327785803543103246">ウェブプロキシ自動検出</translation>
 <translation id="6329916384047371874"><ph name="DOMAIN"/> で <ph name="PASSWORD_DOMAIN"/> のパスワードを使用します。このパスワードは <ph name="DOMAIN"/> を信頼できる場合のみ使用してください。</translation>
-<translation id="894516897589069384">パスキーは <ph name="ACCOUNT_NAME"/> の Brave パスワード マネージャーに保存されます。この操作が必要なのは 1 回だけです。</translation>
+<translation id="96451127607926283">パスキーは <ph name="ACCOUNT_NAME"/> の Wryling パスワード マネージャーに保存されます。この操作が必要なのは 1 回だけです。</translation>
 <translation id="8329196515830093443">ファイルはデバッグのため Brave に送信されます</translation>
 <translation id="6333170995003625229">メールアドレスまたはパスワードを確認できませんでした。もう一度ログインしてみてください。</translation>
 <translation id="6334267141726449402">このリンクをコピーして、ログを収集するユーザーに送信します。</translation>
@@ -6902,7 +6902,7 @@
 <translation id="637135143619858508">広くする</translation>
 <translation id="6374077068638737855">Iceweasel</translation>
 <translation id="6374469231428023295">再試行</translation>
-<translation id="3816315808514424202">古いバージョンの Brave アプリを Linux デバイスで使用できるのは、2022 年 12 月までです。管理者にお問い合わせのうえ、新しいバージョンに更新するか、アプリを削除してください。</translation>
+<translation id="8663109891702419184">古いバージョンの Wryling アプリを Linux デバイスで使用できるのは、2022 年 12 月までです。管理者にお問い合わせのうえ、新しいバージョンに更新するか、アプリを削除してください。</translation>
 <translation id="6377268785556383139">「<ph name="SEARCH_TEXT"/>」に対する 1 件の検索結果</translation>
 <translation id="6378392501584240055">Wi-Fi ネットワークを開く</translation>
 <translation id="6379228010899751161">アカウント「<ph name="ACCOUNT_EMAIL"/>」のパスワードを常に使用できるようにするには、本人確認を行ってください</translation>
@@ -6934,7 +6934,7 @@
 <translation id="6399774419735315745">スパイ</translation>
 <translation id="6400360390396538896"><ph name="ORIGIN"/> では常に許可</translation>
 <translation id="6401118106417399952">デバイスの EID は <ph name="EID_NUMBER"/>、デバイスのシリアル番号は <ph name="SERIAL_NUMBER"/> です。これらの番号を使用して、サービスを有効にできます。</translation>
-<translation id="8789425457808164956">このタブを別のデバイスに送信するには、送信先のデバイスで Brave にログインしてください</translation>
+<translation id="2522845252291433622">このタブを別のデバイスに送信するには、送信先のデバイスで Wryling にログインしてください</translation>
 <translation id="6402042774506839496">理由については、アプリ デベロッパーにお問い合わせください</translation>
 <translation id="6402921224457714577">サイトによる MIDI デバイスの操作と再プログラムを許可する</translation>
 <translation id="6404511346730675251">ブックマークを編集</translation>
@@ -7025,7 +7025,7 @@
 <translation id="6469557521904094793">モバイル ネットワークをオンにする</translation>
 <translation id="6469702164109431067">パスワードとパスキー</translation>
 <translation id="6470120577693311302">点滅による通知</translation>
-<translation id="2444643906853437046">他のユーザーとタブを共有して共同作業を行うには、Brave にログインして、履歴とタブを同期してください。同期すると、すべてのデバイスでパスワードなどの設定も使用できるようになります。</translation>
+<translation id="5220171877391975452">他のユーザーとタブを共有して共同作業を行うには、Wryling にログインして、履歴とタブを同期してください。同期すると、すべてのデバイスでパスワードなどの設定も使用できるようになります。</translation>
 <translation id="6470823736074966819">通知をミュートする</translation>
 <translation id="6472893788822429178">ホーム ボタンを表示する</translation>
 <translation id="6473315466413288899">オプションを選択</translation>
@@ -7050,7 +7050,7 @@
 <translation id="649396225532207613">このファイルは、個人アカウントやソーシャル ネットワークのアカウントに危害を及ぼす可能性があります</translation>
 <translation id="6493991254603208962">明るさを下げる</translation>
 <translation id="6494327278868541139">保護強化機能の詳細を表示</translation>
-<translation id="4328654367880031858">テーマが Brave のデフォルトに更新されました</translation>
+<translation id="7396469211317307267">テーマが Wryling のデフォルトに更新されました</translation>
 <translation id="6496641546298525838">デバイス</translation>
 <translation id="6497784818439587832">画面上の項目のサイズを変えるには、表示サイズを変更します</translation>
 <translation id="6497789971060331894">マウスの逆スクロール</translation>
@@ -7078,8 +7078,8 @@
 <translation id="6519437681804756269">[<ph name="TIMESTAMP"/>]
         <ph name="FILE_INFO"/>
         <ph name="EVENT_NAME"/></translation>
-<translation id="7978371405408781051">保存したパスワードは Brave パスワード マネージャーで表示、管理できます</translation>
-<translation id="3268749830200917889"><ph name="SITE"/> が本人確認を求めています。Brave パスワード マネージャーの英数字の PIN を入力してください</translation>
+<translation id="4368425522364057431">保存したパスワードは Wryling パスワード マネージャーで表示、管理できます</translation>
+<translation id="4584640130722526280"><ph name="SITE"/> が本人確認を求めています。Wryling パスワード マネージャーの英数字の PIN を入力してください</translation>
 <translation id="6520876759015997832"><ph name="SEARCH_RESULT_TEXT"/> の検索結果 <ph name="LIST_SIZE"/> 件中 <ph name="LIST_POSITION"/> 件目です。Enter キーを押すと、そのセクションに移動します。</translation>
 <translation id="6521214596282732365">多くのサイトはデバイスのフォントを使用して、オンラインのデザインツールや画像編集ツールで高品質のコンテンツを作成できるようにしています</translation>
 <translation id="6521218807522232085">パスワードを作成、保存、管理して、簡単にログインできるようにします</translation>
@@ -7137,7 +7137,7 @@
 <translation id="656293578423618167">ファイルのパスまたは名前が長すぎます。名前を短くするか、別の場所に保存してください。</translation>
 <translation id="6563002009564846727">Windows からインポートした証明書を表示する</translation>
 <translation id="6563055593659435495">スマートフォンとの接続を維持できません。スマートフォンが近くにあってロックが解除され、Bluetooth と Wi−Fi がオンになっていることを確認してください。</translation>
-<translation id="5101641460012906639"><ph name="APP_NAME"/> のパスキーを作成するには、Brave パスワード マネージャーをオンにする必要があります</translation>
+<translation id="220477283561908794"><ph name="APP_NAME"/> のパスキーを作成するには、Wryling パスワード マネージャーをオンにする必要があります</translation>
 <translation id="6565899972286925956">あらゆるものを作成できます</translation>
 <translation id="6566648465417201421">閉じた分割ビューを再度開く</translation>
 <translation id="656679903990115526">スマートフォンでスキャンしてパスワードを保存すると、サイトやアプリで自動入力して簡単にログインできます。</translation>
@@ -7167,7 +7167,7 @@
 <translation id="6582274660680936615">ゲスト モードでブラウジング中</translation>
 <translation id="6583328141350416497">ダウンロードを続行</translation>
 <translation id="6584878029876017575">Microsoft ライフタイム署名</translation>
-<translation id="3967591872717355005">Gemini in Brave を閉じる</translation>
+<translation id="4549910236442219988">Gemini in Wryling を閉じる</translation>
 <translation id="6585584201072946561">ウェブブラウザのテキストのサイズとフォントをカスタマイズします</translation>
 <translation id="6586099239452884121">ゲスト ブラウジング</translation>
 <translation id="6586451623538375658">マウスのメイン ボタンを右にする</translation>
@@ -7179,11 +7179,11 @@
 <translation id="6592808042417736307">指紋を登録しました</translation>
 <translation id="6594011207075825276">シリアル デバイスを検出しています...</translation>
 <translation id="6595322909015878027">ピクチャー イン ピクチャーの自動開始を許可しないサイト</translation>
-<translation id="5089633794744090226">{COUNT,plural, =1{不正使用されたパスワードを変更しました。
+<translation id="4604137824271419035">{COUNT,plural, =1{不正使用されたパスワードを変更しました。
 
-不正使用されたパスワードは他にも # 件あります。Brave パスワード マネージャーでは、このパスワードを今すぐ確認することをおすすめします。}other{不正使用されたパスワードを変更しました。
+不正使用されたパスワードは他にも # 件あります。Wryling パスワード マネージャーでは、このパスワードを今すぐ確認することをおすすめします。}other{不正使用されたパスワードを変更しました。
 
-不正使用されたパスワードは他にも # 件あります。Brave パスワード マネージャーでは、これらのパスワードを今すぐ確認することをおすすめします。}}</translation>
+不正使用されたパスワードは他にも # 件あります。Wryling パスワード マネージャーでは、これらのパスワードを今すぐ確認することをおすすめします。}}</translation>
 <translation id="6596325263575161958">暗号化オプション</translation>
 <translation id="6596816719288285829">IP アドレス</translation>
 <translation id="6596916244504302242">更新した拡張機能の設定をこのサイトに適用するには、このページを再読み込みしてください</translation>
@@ -7218,7 +7218,7 @@
 <translation id="6619801788773578757">キオスク アプリケーションを追加</translation>
 <translation id="6619990499523117484">PIN を確認してください</translation>
 <translation id="808383181727223557">Brave に質問または URL を入力</translation>
-<translation id="8127050479140582768">このタブを別のデバイスに送信するには、両方のデバイスで Brave にログインしてください</translation>
+<translation id="7379057487310867567">このタブを別のデバイスに送信するには、両方のデバイスで Wryling にログインしてください</translation>
 <translation id="6622980291894852883">画像を引き続きブロックする</translation>
 <translation id="6624036901798307345">タブレット モードのときに、ツールバーのタブカウンタ ボタンをタップして、各タブのサムネイルが表示された新しいタブバーを開きます。</translation>
 <translation id="6624538059730609162">右のビューを閉じる</translation>
@@ -7236,7 +7236,7 @@
 <translation id="663569763553406962">拡張機能がサイトから読み取りまたは変更できる内容を確認する</translation>
 <translation id="6636258750460740634">履歴</translation>
 <translation id="6636623428211296678">下で他の設定を確認するか、ここで終了できます</translation>
-<translation id="7039910610180903356">スキル機能は現在無効になっています。利用を開始するには、Brave の設定を更新してください。</translation>
+<translation id="2685022934261893296">スキル機能は現在無効になっています。利用を開始するには、Wryling の設定を更新してください。</translation>
 <translation id="6639554308659482635">SQLite メモリ</translation>
 <translation id="6640268266988685324">開いているタブ</translation>
 <translation id="664271268954513498">ポリシーの値</translation>
@@ -7270,7 +7270,7 @@
 <translation id="6660819301598582123">あいうえおアイウエオABCabc123漢字</translation>
 <translation id="666099631117081440">プリント サーバー</translation>
 <translation id="6662339038589469159">テキストを選択して Gemini に質問する</translation>
-<translation id="5651734709592044140">Brave パスワード マネージャーを使用すると、どのデバイスからでもサイトにすばやくログインできます</translation>
+<translation id="7879317760767371797">Wryling パスワード マネージャーを使用すると、どのデバイスからでもサイトにすばやくログインできます</translation>
 <translation id="6662931079349804328">エンタープライズ ポリシーが変更され、ツールバーからテストボタンが削除されました。</translation>
 <translation id="6664774537677393800">プロフィールを開こうとして問題が発生しました。ログアウトしてから再度ログインしてください。</translation>
 <translation id="6665874326033183068">荒涼</translation>
@@ -7291,7 +7291,7 @@
 <translation id="6677527809400770913">ジェスチャー <ph name="GESTURE"/> を <ph name="ACTION"/> に割り当てました</translation>
 <translation id="6678604587151240716">しぶきを上げる海の大波と遠景の陸地。暗鬱な空の下、地平線にほのかに見えるオレンジ色の光。</translation>
 <translation id="6678717876183468697">クエリ URL</translation>
-<translation id="4179272988780553308">パスワード変更の操作が必要です</translation>
+<translation id="6399206009398414883">パスワード変更の操作が必要です</translation>
 <translation id="6679947539429331601">12 時間表示しない</translation>
 <translation id="6680650203439190394">速度</translation>
 <translation id="6683022854667115063">ヘッドフォン</translation>
@@ -7302,7 +7302,7 @@
 <translation id="6686676261102452995">今日開いたファイル</translation>
 <translation id="6686817083349815241">パスワードを保存</translation>
 <translation id="6686878118106035853">カスタムの保護強化機能により、すべてのサイトで JavaScript の最適化が無効になります</translation>
-<translation id="8244419959467378067">Brave パスワード マネージャーの PIN を変更</translation>
+<translation id="6670208233381808278">Wryling パスワード マネージャーの PIN を変更</translation>
 <translation id="6687079240787935001"><ph name="MODULE_TITLE"/> を非表示にする</translation>
 <translation id="6689092196793298127">整理機能</translation>
 <translation id="6689948774466767379">マウスキー</translation>
@@ -7395,9 +7395,9 @@
 <translation id="6762833852331690540">オン</translation>
 <translation id="6762861159308991328">リンクを開く方法はアプリの設定で変更できます</translation>
 <translation id="676560328519657314">Google Pay でのお支払い方法</translation>
-<translation id="3829555700225710632">Brave パスワード マネージャーに移動</translation>
+<translation id="1991746409654589637">Wryling パスワード マネージャーに移動</translation>
 <translation id="6767566652486411142">別の言語を選択...</translation>
-<translation id="3118781942424119876"><ph name="DISPLAYED_TEXT"/>、Gemini in Brave</translation>
+<translation id="444975012123670651"><ph name="DISPLAYED_TEXT"/>、Gemini in Wryling</translation>
 <translation id="6768034047581882264">安全でないコンテンツの表示を許可しないサイト</translation>
 <translation id="6770602306803890733">すべてのウェブユーザーの安全性を高めます</translation>
 <translation id="6771503742377376720">認証局である</translation>
@@ -7413,7 +7413,7 @@
 <translation id="6777817260680419853">リダイレクトがブロックされました</translation>
 <translation id="6777845730143344223">Passpoint の登録の詳細</translation>
 <translation id="6779092717724412415">このように選択箇所を指定するには、テキストを選択して右クリックします。</translation>
-<translation id="4302311572898487420">Brave パスワード マネージャーに MacOS キーチェーンへのアクセスを許可する必要があります</translation>
+<translation id="5994277662125312553">Wryling パスワード マネージャーに MacOS キーチェーンへのアクセスを許可する必要があります</translation>
 <translation id="677965093459947883">極小</translation>
 <translation id="6781005693196527806">検索エンジンを管理(&amp;M)...</translation>
 <translation id="6781284683813954823">Doodle リンク</translation>
@@ -7422,7 +7422,7 @@
 <translation id="678520006562636090"><ph name="DEVICE_TYPE"/> で Brave レンズを試す</translation>
 <translation id="6785594991951195537"><ph name="PASSWORD_DOMAIN"/> を使用する</translation>
 <translation id="6785739405821760313">保存したデスクを表示しています。Tab キーを押して移動できます。</translation>
-<translation id="3970420313383499900"><ph name="FOCUS_TOGGLE_HOTKEY"/> キーで Gemini in Brave を開く</translation>
+<translation id="1947654530370382747"><ph name="FOCUS_TOGGLE_HOTKEY"/> キーで Gemini in Wryling を開く</translation>
 <translation id="6785915470941880363">逆スクロール（<ph name="LINK_BEGIN"/>詳細<ph name="LINK_END"/>）</translation>
 <translation id="67862343314499040">バイオレット</translation>
 <translation id="6786480815699355166">自動字幕起こしに対応している言語のみ翻訳できます</translation>
@@ -7492,10 +7492,10 @@
 <translation id="6825184156888454064">名前順</translation>
 <translation id="6827121912381363404">すべての拡張機能に <ph name="PERMITTED_SITE"/> の読み取りと変更を許可する</translation>
 <translation id="4109630956174373924">Brave アカウントでログインしているすべての ChromeOS デバイス間で、アプリと設定が同期されます。ブラウザの同期オプションについては、<ph name="LINK_BEGIN"/>Brave の設定<ph name="LINK_END"/>をご覧ください。</translation>
-<translation id="8295391943105726234">古いバージョンの Brave アプリを Windows デバイスで使用できるのは、2022 年 12 月までです。管理者にお問い合わせのうえ、新しいバージョンに更新するか、アプリを削除してください。</translation>
+<translation id="6370110567774380901">古いバージョンの Wryling アプリを Windows デバイスで使用できるのは、2022 年 12 月までです。管理者にお問い合わせのうえ、新しいバージョンに更新するか、アプリを削除してください。</translation>
 <translation id="6828182567531805778">データを同期するにはパスフレーズを入力してください</translation>
 <translation id="6828860976882136098">すべてのユーザーで自動更新を行うよう設定できませんでした（プリフライト実行エラー: <ph name="ERROR_NUMBER"/>）</translation>
-<translation id="2119951199746818124">Brave カレンダーの次の予定を簡単に確認できるよう、カレンダーが表示されています。
+<translation id="1976443593815762542">Brave カレンダーの次の予定を簡単に確認できるよう、カレンダーが表示されています。
         <ph name="BREAK"/>
         <ph name="BREAK"/>
         カードメニューから設定を管理することや、[Brave をカスタマイズ] でその他のオプションを見ることができます。</translation>
@@ -7625,7 +7625,7 @@
 <translation id="6916818963747321523">すべて開く</translation>
 <translation id="8995127535539248248">タブグループの共有、参加、共同作業を行うには、設定を開いて [Brave へのログインを許可する] をオンにしてください</translation>
 <translation id="6919354101107095996">サイトにログインしてから、もう一度ダウンロードしてください</translation>
-<translation id="4194845302979409023">この Brave プロフィールでセーフ ブラウジング保護強化機能もオンにしますか？</translation>
+<translation id="4828791257596683710">この Wryling プロフィールでセーフ ブラウジング保護強化機能もオンにしますか？</translation>
 <translation id="6920989436227028121">通常のタブとして開く</translation>
 <translation id="6921104647315081813">アクティビティを削除</translation>
 <translation id="692114467174262153"><ph name="ALTERNATIVE_BROWSER_NAME"/> を開けませんでした</translation>
@@ -7671,7 +7671,7 @@
 <translation id="6961327401577924850">Bluetooth Low Energy ビーコン、ヘルス トラッカー、フィットネス トラッカー、スマート電球の設定や同期などの機能に対応するために、サイトは通常 Bluetooth デバイスを検出します。</translation>
 <translation id="6963772203726867701">検出されませんでした</translation>
 <translation id="6963872466817251924">テキスト カーソルのハイライト表示</translation>
-<translation id="6638101873197257342">は、Brave でさまざまな機能を利用できるようにするアドオンです</translation>
+<translation id="1130544806072374777">は、Wryling でさまざまな機能を利用できるようにするアドオンです</translation>
 <translation id="6964390816189577014">ヒーロー</translation>
 <translation id="6964760285928603117">グループから削除</translation>
 <translation id="6965382102122355670">OK</translation>
@@ -7774,7 +7774,7 @@
 <translation id="7033616203784997570">62 文字以下で入力してください</translation>
 <translation id="7033731598469029604">自動ブラウジング</translation>
 <translation id="70356134210715500">パスキーを設定</translation>
-<translation id="205056676188659235"><ph name="RP_ID"/> でアカウントのパスキーが作成されました。パスキーを使用すると、すばやく安全にログインできます。パスキーは <ph name="USER"/> の Brave パスワード マネージャーに保存されます。<ph name="LEARN_MORE"/></translation>
+<translation id="779273391657213098"><ph name="RP_ID"/> でアカウントのパスキーが作成されました。パスキーを使用すると、すばやく安全にログインできます。パスキーは <ph name="USER"/> の Wryling パスワード マネージャーに保存されます。<ph name="LEARN_MORE"/></translation>
 <translation id="7036833812387983071">DevTools で表示</translation>
 <translation id="7037157058268992880">PIN を忘れた場合</translation>
 <translation id="7037509989619051237">テキスト読み上げの音声をプレビュー</translation>
@@ -7810,7 +7810,7 @@
 <translation id="706626672220389329">共有フォルダのマウントエラー。指定された共有フォルダはすでにマウントされています。</translation>
 <translation id="7067396782363924830">環境色</translation>
 <translation id="7067725467529581407">今後このメッセージを表示しない。</translation>
-<translation id="8332021337957914073">[Brave をカスタマイズ] メニューから、ブラウザのデザインをいつでも変更できるようになりました</translation>
+<translation id="3448852526253868901">[Wryling をカスタマイズ] メニューから、ブラウザのデザインをいつでも変更できるようになりました</translation>
 <translation id="7068591156533195518"><ph name="APP_NAME"/> とその他数個のアプリが <ph name="DEVICE_TYPE"/> でブロックされています</translation>
 <translation id="706949303827219454">セキュリティ設定ページを新しいタブで開きます</translation>
 <translation id="7069750557362084654">{NUM_PASSWORDS,plural, =1{このサイトの新しいパスワード}other{このサイトの新しいパスワード}}</translation>
@@ -7849,7 +7849,7 @@
 <translation id="7099027177878709408">閉じる(&amp;C)</translation>
 <translation id="7099337801055912064">サイズの大きい PPD は読み込めません。最大サイズは 250 KB です。</translation>
 <translation id="7099739618316136113">{COUNT,plural, =0{不正使用されたパスワードはありません}=1{不正使用されたパスワード: {COUNT} 件}other{不正使用されたパスワード: {COUNT} 件}}</translation>
-<translation id="6930289083458871157">Brave で危険なファイルのダウンロードがブロックされました。保護強化機能を使用すると。セキュリティを強化できます。</translation>
+<translation id="1075350995323790968">Wryling で危険なファイルのダウンロードがブロックされました。保護強化機能を使用すると。セキュリティを強化できます。</translation>
 <translation id="710047887584828070">このタブのコンテンツは共有されています</translation>
 <translation id="710224247908684995">セーフ ブラウジングは拡張機能によってオフにされています</translation>
 <translation id="7102832101143475489">リクエストがタイムアウトになりました</translation>
@@ -7862,7 +7862,7 @@
 <translation id="7109543803214225826">ショートカットを削除しました</translation>
 <translation id="7110644433780444336">{NUM_TABS,plural, =1{タブをグループに追加}other{タブをグループに追加}}</translation>
 <translation id="7111822978084196600">このウィンドウに名前を付ける</translation>
-<translation id="3052944975426153700">Gemini in Brave は提供地域を拡大中ですが、一部の地域ではご利用いただけません</translation>
+<translation id="4390080968239229040">Gemini in Wryling は提供地域を拡大中ですが、一部の地域ではご利用いただけません</translation>
 <translation id="7113502843173351041">メールアドレスの読み取り</translation>
 <translation id="7115361495406486998">連絡先が見つかりませんでした</translation>
 <translation id="7117228822971127758">しばらくしてからもう一度お試しください</translation>
@@ -7938,7 +7938,7 @@
 <translation id="7180611975245234373">更新</translation>
 <translation id="7180865173735832675">カスタマイズ</translation>
 <translation id="7181117767881540376">ブックマーク バーを非表示(&amp;H)</translation>
-<translation id="6219131628242399788">今後、保護者の承認を得ずに <ph name="CHILD_NAME"/> さんが拡張機能をインストールできるようにするには、保護者のデバイスでファミリー リンク アプリを開いて、<ph name="CHILD_NAME"/> さんの Brave の設定を更新してください。</translation>
+<translation id="6411090479042324249">今後、保護者の承認を得ずに <ph name="CHILD_NAME"/> さんが拡張機能をインストールできるようにするには、保護者のデバイスでファミリー リンク アプリを開いて、<ph name="CHILD_NAME"/> さんの Wryling の設定を更新してください。</translation>
 <translation id="7181840534454431748"><ph name="OWNER_FIRST_NAME"/> さんのタブグループに参加
             {NUM_OTHER_MEMBERS,plural, =0{<ph name="OWNER_FIRST_NAME"/> さんのタブグループに参加}=1{<ph name="OWNER_FIRST_NAME"/> さんと他 # 人のタブグループに参加}other{<ph name="OWNER_FIRST_NAME"/> さんと他 # 人のタブグループに参加}}</translation>
 <translation id="7181976109296206547">ロゴ、名前、URL の更新内容を確認</translation>
@@ -7962,7 +7962,7 @@
 <translation id="7191063546666816478">サポートされているリンクの一部は、引き続き <ph name="APP_NAME"/>、<ph name="APP_NAME_2"/>、<ph name="APP_NAME_3"/>、その他 <ph name="NUMBER_OF_OTHER_APPS"/> 件のアプリで開かれます。</translation>
 <translation id="7191159667348037">不明なプリンタ（USB）</translation>
 <translation id="7191631508323321927">廊下</translation>
-<translation id="2348760106555630118">ファミリー メンバーが Brave パスワード マネージャーを使用する際に、あなたのユーザー名とパスワードを使用できるようになりました。<ph name="WEBSITE"/> にアクセスしてログインするよう伝えてください。</translation>
+<translation id="8493777968162809528">ファミリー メンバーが Wryling パスワード マネージャーを使用する際に、あなたのユーザー名とパスワードを使用できるようになりました。<ph name="WEBSITE"/> にアクセスしてログインするよう伝えてください。</translation>
 <translation id="7193051357671784796">このアプリは組織によって追加されました。インストールを完了するにはアプリを再起動してください。</translation>
 <translation id="7193374945610105795"><ph name="ORIGIN"/> 用に保存されているパスワードはありません</translation>
 <translation id="7193887851827841439">メディア コントロールから動画フレームの画像を保存できます</translation>
@@ -8270,7 +8270,7 @@
 <translation id="7421293530411019405">タブグループから退出しますか？</translation>
 <translation id="7421925624202799674">ページのソースを表示(&amp;V)</translation>
 <translation id="7422192691352527311">環境設定...</translation>
-<translation id="5797098178256696347">Gemini Spark エージェントにアクセスできるすべてのユーザーが Brave ブラウザを操作できます。</translation>
+<translation id="8720537059196709339">Gemini Spark エージェントにアクセスできるすべてのユーザーが Wryling ブラウザを操作できます。</translation>
 <translation id="7423425410216218516">公開設定は <ph name="MINUTES"/> 分間有効です</translation>
 <translation id="7423513079490750513"><ph name="INPUT_METHOD_NAME"/> を削除</translation>
 <translation id="7424818322350938336">ネットワークを追加しました</translation>
@@ -8280,7 +8280,7 @@
 <translation id="7427798576651127129"><ph name="DEVICE_NAME"/> から発信</translation>
 <translation id="7429415133937917139">点字ディスプレイの出力を
     画面上部の ChromeVox パネルにシミュレートします</translation>
-<translation id="1782880777068048256"><ph name="FILENAME"/> は危害を及ぼす可能性があります。Brave でこのファイルをチェックする、もしくは直接ダウンロードするには、パスワードを追加してください。</translation>
+<translation id="7095911894329901179"><ph name="FILENAME"/> は危害を及ぼす可能性があります。Wryling でこのファイルをチェックする、もしくは直接ダウンロードするには、パスワードを追加してください。</translation>
 <translation id="7431719494109538750">HID デバイスは見つかりませんでした</translation>
 <translation id="7431991332293347422">検索などのパーソナライズに閲覧履歴がどのように使われるかを管理します</translation>
 <translation id="7432200167665670017">「<ph name="EXTENSION_NAME"/>」（アプリ ID: <ph name="EXTENSION_ID"/>）は管理者によってブロックされています</translation>
@@ -8348,11 +8348,11 @@
 <translation id="7479221278376295180">ストレージ使用状況</translation>
 <translation id="747981547666531654"><ph name="FIRST_DEVICE"/> および <ph name="SECOND_DEVICE"/> という名前の Bluetooth デバイスに接続しました</translation>
 <translation id="7480076846077373008">メッセージのその他の操作</translation>
-<translation id="7173394303099002355">Brave の最高水準のセキュリティで保護</translation>
+<translation id="1158507424343802366">Wryling の最高水準のセキュリティで保護</translation>
 <translation id="7481312909269577407">進む</translation>
 <translation id="7483732342458943943">このリンクは機能していません</translation>
 <translation id="7484645889979462775">このサイトでは保存しない</translation>
-<translation id="7914076745371236476">本人確認を行うと、Brave パスワード マネージャーに保存されているすべてのパスキーをこのデバイスで使用できます。この操作が必要なのは 1 回だけです。</translation>
+<translation id="3172962224062640933">本人確認を行うと、Wryling パスワード マネージャーに保存されているすべてのパスキーをこのデバイスで使用できます。この操作が必要なのは 1 回だけです。</translation>
 <translation id="7486587904541741388">大量の節約</translation>
 <translation id="7487141338393529395">拡張スペルチェックの有効化</translation>
 <translation id="7487969577036436319">コンポーネントはインストールされていません</translation>
@@ -8394,7 +8394,7 @@
 <translation id="7516641972665276706">PageDown</translation>
 <translation id="7516981202574715431"><ph name="APP_NAME"/> は一時停止中です</translation>
 <translation id="9075033240840348521">Brave アカウントのパスワードに Brave のデフォルトの暗号化を使用する</translation>
-<translation id="385431757934284424">現在、ファミリー メンバーはパスワードを受信できません。Brave を更新してパスワードを同期するようメンバーに依頼してください。</translation>
+<translation id="8558089421968810910">現在、ファミリー メンバーはパスワードを受信できません。Wryling を更新してパスワードを同期するようメンバーに依頼してください。</translation>
 <translation id="7518079994230200553">このオプションは現在使用できません。</translation>
 <translation id="752098910262610337">ショートカットを表示</translation>
 <translation id="7521430434164837205">Microsoft 365 ファイル</translation>
@@ -8463,7 +8463,7 @@
 <translation id="7583948862126372804">数</translation>
 <translation id="7585106857920830898">組織のセキュリティ ポリシーに沿ってチェックしています…</translation>
 <translation id="7585490016012953607">再設定パスワード - 最大 3 か月間一時的に保存されます</translation>
-<translation id="8201192017531062522">Brave アプリが開いている間 Brave は実行され続けます。</translation>
+<translation id="1532744110192127389">Wryling アプリが開いている間 Wryling は実行され続けます。</translation>
 <translation id="7587297195142686341">Gemini によるログイン</translation>
 <translation id="7587806318633605613">候補の履歴</translation>
 <translation id="7589448773774086276">現在のタブで新しい分割ビュー</translation>
@@ -8528,11 +8528,11 @@
 <translation id="764178579712141045"><ph name="USER_EMAIL"/> を追加しました</translation>
 <translation id="7642778300616172920">プライベートな内容を表示しない</translation>
 <translation id="7645176681409127223"><ph name="USER_NAME"/>（所有者）</translation>
-<translation id="7195740973702314115">Brave にログインすると、Brave パスワード マネージャーでパスワードを保存できます</translation>
+<translation id="468780285679255462">Wryling にログインすると、Wryling パスワード マネージャーでパスワードを保存できます</translation>
 <translation id="7646499124171960488">安全でない公開サイトについて警告する</translation>
 <translation id="7646772052135772216">パスワード同期が機能していません</translation>
 <translation id="7647403192093989392">最近のアクティビティはありません</translation>
-<translation id="3350442560878669560">Brave がインストールするバンドルを確認しています</translation>
+<translation id="867511901854381903">Wryling がインストールするバンドルを確認しています</translation>
 <translation id="7648048654005891115">キーマップのスタイル</translation>
 <translation id="7649070708921625228">ヘルプ</translation>
 <translation id="7649954700951153978">iOS で通知</translation>
@@ -8566,7 +8566,7 @@
 <translation id="766635563210446220">パスワードをインポートできません。<ph name="FILENAME"/> で形式が正しいかどうかを確認してください。<ph name="BEGIN_LINK"/>詳細<ph name="END_LINK"/></translation>
 <translation id="7666966001957552011">危険だと認識されているサイト、ダウンロード、拡張機能について警告します。これらの警告はいつでもオフにできます。正当なコンテンツについて警告が表示された場合は、<ph name="BEGIN_LINK"/>エラーを報告<ph name="END_LINK"/>できます。</translation>
 <translation id="7668205084604701639">Office ファイルの設定</translation>
-<translation id="2190324512336800037"><ph name="ACCOUNT"/> の Brave パスワード マネージャー</translation>
+<translation id="2583370393244501496"><ph name="ACCOUNT"/> の Wryling パスワード マネージャー</translation>
 <translation id="7668648754769651616">ユーザー補助機能をオンにするとデバイスが使いやすくなります。クイック設定にアクセスするには、画面下部に表示されている時刻を選択します。</translation>
 <translation id="7669620291129890197">デバイスに表示</translation>
 <translation id="7669825497510425694">{NUM_ATTEMPTS,plural, =1{PIN が正しくありません。あと 1 回試行できます。}other{PIN が正しくありません。あと # 回試行できます。}}</translation>
@@ -8755,7 +8755,7 @@
 <translation id="7807711621188256451"><ph name="HOST"/> によるカメラへのアクセスを常に許可する</translation>
 <translation id="7810202088502699111">このページのポップアップはブロックされました。</translation>
 <translation id="7810367892333449285">エントリは「<ph name="LPA_0"/>$<ph name="LPA_1"/>SM-DP+ address<ph name="LPA_2"/>$<ph name="LPA_3"/>optional matching id<ph name="LPA_4"/>」という形式にする必要があります</translation>
-<translation id="5014491767627896944">Brave は、Brave オープンソース プロジェクトやその他の<ph name="BEGIN_HIGHLIGHT"/>オープンソース<ph name="END_HIGHLIGHT"/> ソフトウェアによって実現しました。</translation>
+<translation id="8386624919122501557">Brave は、Brave オープンソース プロジェクトやその他の<ph name="BEGIN_HIGHLIGHT"/>オープンソース<ph name="END_HIGHLIGHT"/> ソフトウェアによって実現しました。</translation>
 <translation id="7811263553491007091">もう一度お試しいただくか、以前に生成された下のテーマから選択してください。</translation>
 <translation id="7811926937048662341">ここを右クリックすると [タブを縦方向に表示] を選択できます</translation>
 <translation id="7811986034759500329">システム設定で設定</translation>
@@ -8765,7 +8765,7 @@
 <translation id="7815583197273433531"><ph name="EXTENSION_NAME"/> のショートカット <ph name="SHORTCUT"/> を編集</translation>
 <translation id="7815680994978050279">危険なダウンロードがブロックされました</translation>
 <translation id="7818135753970109980">新しいテーマが追加されました（<ph name="EXTENSION_NAME"/>）</translation>
-<translation id="5224689297916943449">拡張機能は、Brave でさまざまな機能を利用できるようにするアドオンです</translation>
+<translation id="3964226695702299610">拡張機能は、Wryling でさまざまな機能を利用できるようにするアドオンです</translation>
 <translation id="7819968103441522596">元に戻す(&amp;R)</translation>
 <translation id="7820400255539998692"><ph name="FILENAME"/> を削除して、このデバイスを使用する他のユーザーがパスワードを確認できないようにします。</translation>
 <translation id="7820561748632634942">スイッチを追加で割り当てますか？</translation>
@@ -9060,13 +9060,13 @@
 <translation id="8037801708772278989">前回の確認: たった今</translation>
 <translation id="8038111231936746805">（デフォルト）</translation>
 <translation id="8039151841428107077">{NUM_OF_FILES,plural, =1{1 個のファイルを <ph name="CLOUD_PROVIDER"/> にコピーしています}other{{NUM_OF_FILES} 個のファイルを <ph name="CLOUD_PROVIDER"/> にコピーしています}}</translation>
-<translation id="6409220262307200557">この Brave アプリは、ChromeOS のバージョンが更新されると動作しなくなります。残しておきたいアプリデータがある場合は保存してください。対応方法については、アプリのデベロッパーまたは IT サポートチームにお問い合わせください。</translation>
+<translation id="5802820480808479038">この Wryling アプリは、ChromeOS のバージョンが更新されると動作しなくなります。残しておきたいアプリデータがある場合は保存してください。対応方法については、アプリのデベロッパーまたは IT サポートチームにお問い合わせください。</translation>
 <translation id="804060420274176929">iOS で通知</translation>
 <translation id="8041089156583427627">フィードバックを送信</translation>
 <translation id="8041093619605951337">幸せ</translation>
 <translation id="8041267120753677077">スマートフォンのアプリをストリーミングします</translation>
 <translation id="8042142357103597104">テキストの不透明度</translation>
-<translation id="3111556746481227182">Brave パスワード マネージャーに保存する前にデバイス上でパスワードを暗号化します</translation>
+<translation id="2338836979057110587">Wryling パスワード マネージャーに保存する前にデバイス上でパスワードを暗号化します</translation>
 <translation id="8044899503464538266">遅い</translation>
 <translation id="5462539695964427820">同期は Brave ダッシュボードで停止されています。</translation>
 <translation id="8045752459073395242">会社での生成 AI の使用に関する詳細</translation>
@@ -9111,7 +9111,7 @@
 <translation id="8077120325605624147">アクセスしたすべてのサイトであらゆる広告の表示が許可されます</translation>
 <translation id="8077749280021225629">閲覧履歴データ（<ph name="URL"/>）も削除します。これにより、<ph name="DOMAIN"/> からログアウトします。<ph name="LEARN_MORE"/></translation>
 <translation id="80790299200510644">画像検索</translation>
-<translation id="7239633109246708042">Brave パスワード マネージャーでアカウントのパスワードを安全なものに変更し、<ph name="EMAIL"/> に保存できます。<ph name="PASSWORD_CHANGE"/></translation>
+<translation id="7245967958317519468">Wryling パスワード マネージャーでアカウントのパスワードを安全なものに変更し、<ph name="EMAIL"/> に保存できます。<ph name="PASSWORD_CHANGE"/></translation>
 <translation id="80798452873915119">全ディスプレイのウィンドウ管理をリクエストすることをサイトに許可する</translation>
 <translation id="8080028325999236607">すべてのタブを閉じる</translation>
 <translation id="8080530871547404884">このサイトのタブをすべて閉じるまでの間、<ph name="ORIGIN"/> は <ph name="FILENAME"/> を表示してコピーを作成できます</translation>
@@ -9162,7 +9162,7 @@
 <translation id="8114925369073821854"><ph name="APP_NAME"/> のマイクへのアクセス権</translation>
 <translation id="8116497846156149">保護者に承認を依頼してください</translation>
 <translation id="8118276691321086429"><ph name="PASSWORD_MANAGER_BRAND"/> でログイン方法を記憶し、可能な場合は自動的にログインします。オフにすると、毎回確認を求められます。</translation>
-<translation id="177808131755847449">Brave によって無効にされました。この拡張機能は安全ではない可能性があります。</translation>
+<translation id="4606044028490598627">Wryling によって無効にされました。この拡張機能は安全ではない可能性があります。</translation>
 <translation id="8118448640060360549">{EXTENSIONS_COUNT,plural, =1{# 件のブックマーク}other{# 件のブックマーク}}</translation>
 <translation id="8118488170956489476">お使いの<ph name="BEGIN_LINK"/>ブラウザは組織によって管理<ph name="END_LINK"/>されています</translation>
 <translation id="8118515372935001629">ディスプレイのリフレッシュ レート</translation>
@@ -9205,7 +9205,7 @@
 <translation id="814870937590541483">Brave ドライブのファイルに対するその他の操作</translation>
 <translation id="8148760431881541277">ログインの制限</translation>
 <translation id="8149596686567059924">更新パッケージを解凍できませんでした。</translation>
-<translation id="932155016683443951">スマートフォンに保存されているパスワードを使用するには、iOS 版 Brave をダウンロードして Brave アカウントにログインします。</translation>
+<translation id="7217558756211206193">スマートフォンに保存されているパスワードを使用するには、iOS 版 Brave をダウンロードして Brave アカウントにログインします。</translation>
 <translation id="8150396590017071059">パスワード マネージャーの PIN を変更する</translation>
 <translation id="8151057139207656239">ビルドの詳細をコピーしました</translation>
 <translation id="815114315010033526">代わりに QR コードを使用</translation>
@@ -9248,7 +9248,7 @@
 <translation id="8187447507633277520">パスワードの入力時に指紋認証を使用する</translation>
 <translation id="8188389033983459049">続行するには、デバイスの設定で Bluetooth をオンにしてください</translation>
 <translation id="8188742492803591566">Chromecast またはテレビに表示されたアクセスコードを入力すると画面でキャストを開始できます。</translation>
-<translation id="572432499443011145">Brave パスワード マネージャーにアクセスできません</translation>
+<translation id="5613558594377719760">Wryling パスワード マネージャーにアクセスできません</translation>
 <translation id="8189306097519446565">学校用アカウント</translation>
 <translation id="8191230140820435481">アプリ、拡張機能、テーマを管理する</translation>
 <translation id="8192944472786724289"><ph name="APP_NAME"/> が画面コンテンツの共有をリクエストしています。</translation>
@@ -9328,7 +9328,7 @@
 <translation id="8248050856337841185">貼り付け(&amp;P)</translation>
 <translation id="8248381369318572865">マイクへのアクセスと音声の分析</translation>
 <translation id="8248442552146815926">{NUM_COOKIES,plural, =1{1 件の Cookie}other{{NUM_COOKIES} 件の Cookie}}</translation>
-<translation id="3105590366897772437">Brave のヒント</translation>
+<translation id="5456551355833319124">Wryling のヒント</translation>
 <translation id="8249239468199142122">バッテリー セーバー</translation>
 <translation id="8250210000648910632">保存容量が不足しています</translation>
 <translation id="8251441930213048644">今すぐ更新</translation>
@@ -9384,7 +9384,7 @@
 <translation id="8288032458496410887">「<ph name="APP"/>」をアンインストール...</translation>
 <translation id="8288553158681886528">PDF からテキストを抽出</translation>
 <translation id="8289128870594824098">ディスクサイズ</translation>
-<translation id="2265163333261443610">Brave をダウンロードする</translation>
+<translation id="5003181522013475477">Wryling をダウンロードする</translation>
 <translation id="8293206222192510085">ブックマークの追加</translation>
 <translation id="8293957715257389063">タブの内容を詳しく調べます</translation>
 <translation id="8294431847097064396">ソース</translation>
@@ -9392,7 +9392,7 @@
 <translation id="8295450130892483256">Microsoft 365 をインストール</translation>
 <translation id="8297292446125062288">HID 設定</translation>
 <translation id="8298429963694909221">スマートフォンの通知を <ph name="DEVICE_TYPE"/> で受信できるようになりました。<ph name="DEVICE_TYPE"/> で通知を非表示にすると、その通知はスマートフォンでも表示されなくなります。Bluetooth 搭載のスマートフォンが近くにあり、Wi-Fi もオンになっていることを確認してください。</translation>
-<translation id="1074485905526403616">Brave パスワード マネージャーへのショートカットを追加できます</translation>
+<translation id="7930908256018939896">Wryling パスワード マネージャーへのショートカットを追加できます</translation>
 <translation id="8299319456683969623">現在オフラインです。</translation>
 <translation id="829937697336000302">生産性の向上</translation>
 <translation id="8299951061833867575">Wi-Fi、モバイルデータ</translation>
@@ -9560,7 +9560,7 @@
 <translation id="8434109185104929038">読書コーナー</translation>
 <translation id="8434837876193928924">タブグループの詳細</translation>
 <translation id="8435951291982398331">{NUM_TABS,plural, =1{このタブを修正}other{これらのタブを修正}}</translation>
-<translation id="1720111858957434186">Brave パスワード マネージャーの英数字のリカバリ PIN を作成</translation>
+<translation id="4122874379521992029">Wryling パスワード マネージャーの英数字のリカバリ PIN を作成</translation>
 <translation id="8437209419043462667">US</translation>
 <translation id="8438518537545182071">保護者の方が指定した設定でインターネットをより安全に利用できるようになりました</translation>
 <translation id="8438566539970814960">検索とブラウジングを改善する</translation>
@@ -9592,13 +9592,13 @@
 <translation id="8459333762072051247">ログイン ステータス</translation>
 <translation id="8459596896605939741">ヒント: いつでも手元で存分にオンライン ショッピング</translation>
 <translation id="8460448946170646641">プライバシーとセキュリティに関する重要な設定を確認します</translation>
-<translation id="2380462972976700566">メモリを節約するため、Brave により一部のコンテンツが削除されました</translation>
+<translation id="7717824985119563101">メモリを節約するため、Wryling により一部のコンテンツが削除されました</translation>
 <translation id="8460932807646981183">検索エンジンとサイト内検索を管理する</translation>
 <translation id="8461572080432076264">このページを読み上げ</translation>
 <translation id="8461914792118322307">プロキシ</translation>
 <translation id="8461973047386722744">パスワードは見つかりませんでした</translation>
 <translation id="846205103980293931">{NUM_TABS,plural, =1{リストボックスに 1 個のアイテム}other{リストボックスに {NUM_TABS} 個のアイテム}}</translation>
-<translation id="1212036593149207916">Brave プロファイルでパスキーを管理する</translation>
+<translation id="2444416606050412192">Wryling プロファイルでパスキーを管理する</translation>
 <translation id="8463955938112983119"><ph name="PLUGIN_NAME"/> が無効になっています。</translation>
 <translation id="846399539692727039">ChromeOS Flex 診断テストを実行する</translation>
 <translation id="8465252176946159372">無効です</translation>
@@ -9613,7 +9613,7 @@
 <translation id="8473863474539038330">住所やその他の情報</translation>
 <translation id="847433688444405067">複数のデバイスでブラウジング</translation>
 <translation id="8474378002946546633">通知を許可する</translation>
-<translation id="2015014930243978107">パソコン上の別のプログラムにより、Brave の動作方法を変更する可能性のある拡張機能が追加されました。</translation>
+<translation id="1410568059039013240">パソコン上の別のプログラムにより、Wryling の動作方法を変更する可能性のある拡張機能が追加されました。</translation>
 <translation id="8476408756881832830">ChromeVox の読み上げ中は再生を一時停止する</translation>
 <translation id="8476630458761527665">ファイルのパスワードを入力してください</translation>
 <translation id="8476942730579767658">ウィンドウとデスク</translation>
@@ -9639,7 +9639,7 @@
 <translation id="849488240089599592">最近のダウンロードに戻る</translation>
 <translation id="8496717697661868878">このプラグインを実行する</translation>
 <translation id="8497219075884839166">Windows ユーティリティ</translation>
-<translation id="4310099790173688345">Brave から保存</translation>
+<translation id="5071155148309447758">Wryling から保存</translation>
 <translation id="8498214519255567734">薄明かりの下でも画面を見やすくします</translation>
 <translation id="8499083585497694743">マイクのミュートを解除</translation>
 <translation id="8500044868721690197">このサイトでは MIDI デバイスの操作と再プログラムがブロックされています</translation>
@@ -9764,7 +9764,7 @@
 <translation id="8597845839771543242">プロパティの書式:</translation>
 <translation id="8598249292448297523">印刷</translation>
 <translation id="8600362954032151088">パスワードとパスキーは <ph name="GOOGLE_PASSWORD_MANAGER"/> で管理できます</translation>
-<translation id="6637045053447935202">パソコン上の別のプログラムにより、Brave の動作方法を変更する可能性のあるアプリが追加されました。</translation>
+<translation id="8642399151949912011">パソコン上の別のプログラムにより、Wryling の動作方法を変更する可能性のあるアプリが追加されました。</translation>
 <translation id="7765260303733194693">Brave でより多くのデータ（URL、ページ コンテンツのサンプル、システム情報など）を使用して、脅威を迅速かつ正確に検出します</translation>
 <translation id="860399903490378651">このビューを閉じる</translation>
 <translation id="8605428685123651449">SQLite メモリ</translation>
@@ -9803,7 +9803,7 @@
 <translation id="8631032106121706562">デイジー</translation>
 <translation id="8632104508818855045"><ph name="ORIGIN"/> の拡張機能を一切許可しないよう選択しています</translation>
 <translation id="8633025649649592204">最近のアクティビティ</translation>
-<translation id="423702950449472136">古いバージョンの Brave アプリを Linux デバイスで使用できるのは、2022 年 12 月までです。新しいバージョンが利用可能かどうか確認してみてください。</translation>
+<translation id="1791127122244433652">古いバージョンの Wryling アプリを Linux デバイスで使用できるのは、2022 年 12 月までです。新しいバージョンが利用可能かどうか確認してみてください。</translation>
 <translation id="8634348081024879304">Google Pay で仮想カードを使用できなくなります。<ph name="BEGIN_LINK"/>仮想カードについて<ph name="END_LINK"/></translation>
 <translation id="8634703204743010992">ChromeOS 仮想キーボード</translation>
 <translation id="8635399646025169806">タブグループを保持しますか？</translation>
@@ -9839,10 +9839,10 @@
 <translation id="865857184419171576">字幕の翻訳先</translation>
 <translation id="865936634714975126">ページ読み込み時にタイプを選択するには、URL にクエリ パラメータを追加します。例: chrome://device-log/?types=Bluetooth,USB</translation>
 <translation id="8659609431223166673">ウィンドウを下に移動しました</translation>
-<translation id="1488895872893658122">Outlook カレンダーの次の予定を簡単に確認できるよう、カレンダーが表示されています。
+<translation id="7290653826136040271">Outlook カレンダーの次の予定を簡単に確認できるよう、カレンダーが表示されています。
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        カードメニューから設定を管理することや、[Brave をカスタマイズ] でその他のオプションを見ることができます。</translation>
+        カードメニューから設定を管理することや、[Wryling をカスタマイズ] でその他のオプションを見ることができます。</translation>
 <translation id="8662474268934425487"><ph name="SITE_ETLD_PLUS_ONE"/> にログイン</translation>
 <translation id="8662671328352114214"><ph name="TYPE"/> ネットワークへの接続</translation>
 <translation id="8662795692588422978">ユーザー</translation>
@@ -9879,7 +9879,7 @@
 <translation id="8682730193597992579"><ph name="PRINTER_NAME"/> が接続され、準備が整いました</translation>
 <translation id="8683720831806477407">アップデータのスコープ</translation>
 <translation id="8684471948980641888">従量制ネットワークを使用した同期を許可する</translation>
-<translation id="4117118854497824215">自分の Brave プロフィール</translation>
+<translation id="7564690708819959309">自分の Wryling プロフィール</translation>
 <translation id="8685882652128627032">クリックすると [サイト内検索を追加] ダイアログが開きます</translation>
 <translation id="8686142379631285985"><ph name="BEGIN_BOLD"/><ph name="DRIVE_ACCOUNT_EMAIL"/><ph name="END_BOLD"/> としてログインしています</translation>
 <translation id="8687103160920393343"><ph name="FILE_NAME"/> をキャンセル</translation>
@@ -9887,7 +9887,7 @@
 <translation id="8687774873995698516"><ph name="HOST"/> による識別子の使用と保護されたコンテンツの再生を常にブロックする</translation>
 <translation id="8688672835843460752">使用可能</translation>
 <translation id="8689811383248488428">承認せずプロフィールを閉じる</translation>
-<translation id="4541401414755838742">Brave で <ph name="WEBSITE"/> のパスワードを自動的に変更する</translation>
+<translation id="4057479308397800545">Wryling で <ph name="WEBSITE"/> のパスワードを自動的に変更する</translation>
 <translation id="8689998525144040851">100</translation>
 <translation id="8690129572193755009">サイトがプロトコルの処理を要求できるようにする</translation>
 <translation id="869144235543261764">このタブはピクチャー イン ピクチャー モードで動画を再生しています</translation>
@@ -9924,7 +9924,7 @@
 <translation id="8713761545374852805">レビュー、メール、ソーシャル メディアの投稿、エッセイなどを書く際にサポートを利用できます</translation>
 <translation id="8714731224866194981">スマートフォンの写真とアプリを表示しますメッセージの通知にすばやく返信します。</translation>
 <translation id="8714838604780058252">背景のグラフィック</translation>
-<translation id="5891814591156187199">デバイスを選択します。次に、デバイスで Brave を開いてページを表示します。</translation>
+<translation id="1850636781542949515">デバイスを選択します。次に、デバイスで Wryling を開いてページを表示します。</translation>
 <translation id="8715480913140015283">バックグラウンドのタブでカメラが使用されています</translation>
 <translation id="8716050156658570300">サイトがモーション センサーと光センサーの使用を要求できるようにする</translation>
 <translation id="8716067129332848360">整理機能を表示</translation>
@@ -10055,7 +10055,7 @@
 <translation id="8819510664278523111">デバイスの EID は <ph name="EID_NUMBER"/>、デバイスの IMEI は <ph name="IMEI_NUMBER"/>、デバイスのシリアル番号は <ph name="SERIAL_NUMBER"/> です。これらの番号を使用して、サービスを有効にできます。</translation>
 <translation id="8820817407110198400">ブックマーク</translation>
 <translation id="8821045908425223359">IP アドレスを自動的に設定</translation>
-<translation id="2361985035137943119">お使いのアカウントでは Gemini in Brave にアクセスできません</translation>
+<translation id="1177360087205071213">お使いのアカウントでは Gemini in Wryling にアクセスできません</translation>
 <translation id="8823514049557262177">リンクテキストをコピー(&amp;X)</translation>
 <translation id="8823704566850948458">パスワードを自動生成...</translation>
 <translation id="8823963789776061136">または、プリンタの PPD を選択します。<ph name="LINK_BEGIN"/>詳細<ph name="LINK_END"/></translation>
@@ -10170,8 +10170,8 @@
 <translation id="2684652081942622950">Brave アカウントを使用</translation>
 <translation id="8912810933860534797">自動スキャンを有効にする</translation>
 <translation id="8913485523736543337">アップデータ</translation>
-<translation id="908256400270698357">Brave や Android を使用していないときでも、<ph name="BEGIN_LINK"/>passwords.google.com<ph name="END_LINK"/> にログインしてパスワードを確認できます</translation>
-<translation id="4805806622840861220">Brave の再起動</translation>
+<translation id="4979643858549519655">Wryling や Android を使用していないときでも、<ph name="BEGIN_LINK"/>passwords.google.com<ph name="END_LINK"/> にログインしてパスワードを確認できます</translation>
+<translation id="2036272753168211127">Wryling の再起動</translation>
 <translation id="8915307125957890427">タブを右クリックして [タブをグループに追加]、[新しいグループ] の順に選択します</translation>
 <translation id="8915370057835397490">候補を読み込んでいます</translation>
 <translation id="8917490105272468696">オンにする</translation>
@@ -10283,7 +10283,7 @@
 <translation id="8993030412405061612">タスクを完了しました</translation>
 <translation id="8993198843374358393"><ph name="CERT_NAME"/> の証明書ハッシュをコピー</translation>
 <translation id="8993737615451556423">読み上げを早送り、巻き戻し、一時停止できる操作パネルを表示します</translation>
-<translation id="591917183749839690">一般に報告されているデータ侵害でパスワードが検出された場合、ログイン時にパスワードの変更を促すメッセージを表示します</translation>
+<translation id="8588872875448377133">一般に報告されているデータ侵害でパスワードが検出された場合、ログイン時にパスワードの変更を促すメッセージを表示します</translation>
 <translation id="899384117894244799">制限付きユーザーの削除</translation>
 <translation id="8993853206419610596">すべてのリクエストを開く</translation>
 <translation id="899403249577094719">Netscape 証明書基本 URL</translation>
@@ -10352,7 +10352,7 @@
 <translation id="9038489124413477075">名前のないフォルダ</translation>
 <translation id="9039014462651733343">{NUM_ATTEMPTS,plural, =1{あと 1 回試行できます。}other{あと # 回試行できます。}}</translation>
 <translation id="9040661932550800571"><ph name="ORIGIN"/> のパスワードを更新しますか？</translation>
-<translation id="6583236347997565045">Brave パスワード マネージャーで安全なパスワードを保存するには、Brave にログインしてください</translation>
+<translation id="5837934549740960208">Wryling パスワード マネージャーで安全なパスワードを保存するには、Wryling にログインしてください</translation>
 <translation id="9041692268811217999">パソコンのローカル ファイルへのアクセスは管理者によって無効にされています</translation>
 <translation id="9041881059840744611">学校用プロフィールについて</translation>
 <translation id="904224458472510106">この操作は元に戻せません</translation>
@@ -10433,7 +10433,7 @@
 <translation id="910000385680858937">許可 – <ph name="PERMISSION_DETAILS"/>。デバイスにマイクを接続してください。</translation>
 <translation id="9100416672768993722">前回使用した入力方法に切り替えるには、<ph name="BEGIN_SHORTCUT"/><ph name="BEGIN_CTRL"/>Ctrl<ph name="END_CTRL"/><ph name="SEPARATOR"/><ph name="BEGIN_SPACE"/>Space<ph name="END_SPACE"/><ph name="END_SHORTCUT"/> キーを押します</translation>
 <translation id="9100765901046053179">詳細設定</translation>
-<translation id="3297683531718793313">キャストするには、[<ph name="IDS_MEDIA_ROUTER_LOCAL_DISCOVERY_PERMISSION_REJECTED_LINK"/>] &gt; [ローカル ネットワーク] &gt; [Brave] で Brave にアクセスを許可してください</translation>
+<translation id="50299853723079745">キャストするには、[<ph name="IDS_MEDIA_ROUTER_LOCAL_DISCOVERY_PERMISSION_REJECTED_LINK"/>] &gt; [ローカル ネットワーク] &gt; [Wryling] で Wryling にアクセスを許可してください</translation>
 <translation id="9103868373786083162">ボタンを押して前に戻ります。履歴を表示するにはコンテキスト メニューを選択します</translation>
 <translation id="9107096627210171112">翻訳(&amp;R)...</translation>
 <translation id="9107624673674616016">色鉛筆</translation>
@@ -10463,7 +10463,7 @@
 <translation id="9117030152748022724">アプリを管理する</translation>
 <translation id="9117446363580518867">常に非表示</translation>
 <translation id="9120761757252614786">ツールバーをカスタマイズ</translation>
-<translation id="8429962505443892563">Brave for iOS をダウンロードすると、スマートフォンでタブ、ブックマーク、パスワードにアクセスできます。</translation>
+<translation id="4781214144575706176">Wryling for iOS をダウンロードすると、スマートフォンでタブ、ブックマーク、パスワードにアクセスできます。</translation>
 <translation id="9121814364785106365">固定されたタブとして開く</translation>
 <translation id="9122099953033442610">{MULTI_GROUP_TAB_COUNT,plural, =0{タブを閉じてグループを削除しますか？}=1{タブを閉じてグループを削除しますか？}other{タブを閉じてグループを削除しますか？}}</translation>
 <translation id="9123287046453017203">お使いのデバイスは最新の状態ではありません</translation>
@@ -10526,7 +10526,7 @@
 <translation id="9170061643796692986">現在の公開設定はすべての連絡先です</translation>
 <translation id="9170766151357647548">デバイスの EID は <ph name="EID_NUMBER"/> です。この番号を使用して、サービスを有効にできます。</translation>
 <translation id="9170848237812810038">取消(&amp;U)</translation>
-<translation id="2060128809251156338">パソコン上の別のプログラムにより、Brave の動作方法を変更する可能性のあるテーマが追加されました。</translation>
+<translation id="6656888234505288335">パソコン上の別のプログラムにより、Wryling の動作方法を変更する可能性のあるテーマが追加されました。</translation>
 <translation id="9172270007201309670">フォントサイズを大きくしました</translation>
 <translation id="917350715406657904">保護者が設定した <ph name="APP_NAME"/> の利用時間の上限に達しました。明日は <ph name="TIME_LIMIT"/>まで使えます。</translation>
 <translation id="9174854240439014335">ウィンドウの左端または右端で分割ビューのドラッグ＆ドロップを許可する</translation>
@@ -10575,7 +10575,7 @@
 <translation id="9220525904950070496">アカウントを削除</translation>
 <translation id="9220723036554088545">ファイルをアップロードします</translation>
 <translation id="9220820413868316583">いったん指を放してもう一度お試しください。</translation>
-<translation id="142389341645668510">Brave をカスタマイズ</translation>
+<translation id="9094133852008074140">Wryling をカスタマイズ</translation>
 <translation id="9222839391870847423">期間: <ph name="DURATION"/></translation>
 <translation id="9223158240932249417">テキスト操作の表示を許可しないサイト</translation>
 <translation id="923306663772315007">デバイスに送信(&amp;D)</translation>
@@ -10603,7 +10603,7 @@
 <translation id="939736085109172342">新しいフォルダ</translation>
 <translation id="942296794412775122">マイクのオン / オフ</translation>
 <translation id="942488123151518958">一時停止（K）</translation>
-<translation id="5770515304879261338"><ph name="APP_NAME"/> が Brave タブと音声を共有しています。</translation>
+<translation id="8882675094816400392"><ph name="APP_NAME"/> が Wryling タブと音声を共有しています。</translation>
 <translation id="945522503751344254">フィードバックを送信</translation>
 <translation id="947156494302904893">アクセスしたサイトは、あなたが bot ではなく実在のユーザーであることを確認できます</translation>
 <translation id="947329552760389097">要素の検証(&amp;I)</translation>

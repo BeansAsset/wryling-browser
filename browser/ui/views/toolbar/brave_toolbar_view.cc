@@ -8,6 +8,7 @@
 #include <algorithm>
 #include <memory>
 #include <utility>
+#include <vector>
 
 #include "base/check.h"
 #include "base/check_deref.h"
@@ -20,6 +21,7 @@
 #include "brave/app/vector_icons/vector_icons.h"
 #include "brave/browser/ui/tabs/brave_tab_prefs.h"
 #include "brave/browser/ui/tabs/public/vertical_tab_controller.h"
+#include "brave/browser/ui/views/frame/wryling_command_bar.h"
 #include "brave/browser/ui/views/frame/brave_browser_view.h"
 #include "brave/browser/ui/views/frame/brave_non_client_hit_test_helper.h"
 #include "brave/browser/ui/views/frame/focus_mode_top_overlay.h"
@@ -48,6 +50,9 @@
 #include "chrome/browser/ui/ui_features.h"
 #include "chrome/browser/ui/views/bookmarks/bookmark_bubble_view.h"
 #include "chrome/browser/ui/views/frame/browser_view.h"
+#include "chrome/browser/ui/views/frame/top_container_view.h"
+#include "chrome/browser/ui/views/extensions/extensions_toolbar_desktop.h"
+#include "chrome/browser/ui/views/toolbar/reload_button.h"
 #include "chrome/browser/ui/views/profiles/avatar_toolbar_button.h"
 #include "chrome/browser/ui/views/tabs/shared/tab_strip_combo_button.h"
 #include "chrome/browser/ui/views/toolbar/browser_app_menu_button.h"
@@ -64,7 +69,9 @@
 #include "ui/events/event.h"
 #include "ui/views/bubble/bubble_anchor.h"
 #include "ui/views/layout/flex_layout_types.h"
+#include "ui/views/bubble/bubble_anchor_gap.h"
 #include "ui/views/view_class_properties.h"
+#include "ui/views/view_utils.h"
 #include "ui/views/window/hit_test_utils.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
@@ -630,7 +637,212 @@ void BraveToolbarView::VisibilityChanged(views::View* starting_from,
   }
 }
 
+bool BraveToolbarView::IsInWrylingSidebar() const {
+#if BUILDFLAG(IS_MAC)
+  return brave_initialized_ && display_mode_ == DisplayMode::kNormal &&
+         browser_view_ && parent() &&
+         parent() != browser_view_->top_container();
+#else
+  return false;
+#endif
+}
+
+// static
+bool BraveToolbarView::IsLocationBarInWrylingSidebar(
+    const views::View* location_bar) {
+  const auto* toolbar = location_bar
+                            ? views::AsViewClass<BraveToolbarView>(
+                                  location_bar->parent())
+                            : nullptr;
+  return toolbar && toolbar->IsInWrylingSidebar();
+}
+
+int BraveToolbarView::GetWrylingRowHeight() const {
+  return ToolbarView::CalculatePreferredSize({}).height();
+}
+
+gfx::Size BraveToolbarView::CalculatePreferredSize(
+    const views::SizeBounds& available_size) const {
+  if (IsInWrylingSidebar()) {
+    // Width comes from the sidebar column; a narrow column needs a third row
+    // for the navigation buttons.
+    const int width = available_size.width().is_bounded()
+                          ? available_size.width().value()
+                          : this->width();
+    const int rows = WrylingNavFitsInRow1(width) ? 2 : 3;
+    return gfx::Size(0, kWrylingTopPad + rows * GetWrylingRowHeight());
+  }
+  return ToolbarView::CalculatePreferredSize(available_size);
+}
+
+gfx::Size BraveToolbarView::GetMinimumSize() const {
+  if (IsInWrylingSidebar()) {
+    return gfx::Size(0, kWrylingTopPad + 2 * GetWrylingRowHeight());
+  }
+  return ToolbarView::GetMinimumSize();
+}
+
+std::vector<views::View*> BraveToolbarView::GetWrylingNavButtons() const {
+  std::vector<views::View*> nav;
+  for (views::View* button : std::initializer_list<views::View*>{
+           back_.get(), forward_.get(), reload_.get()}) {
+    if (button && button->GetVisible()) {
+      nav.push_back(button);
+    }
+  }
+  return nav;
+}
+
+views::View* BraveToolbarView::GetWrylingSidebarToggle() const {
+  return vertical_tab_toggle_ && vertical_tab_toggle_->GetVisible()
+             ? vertical_tab_toggle_.get()
+             : nullptr;
+}
+
+int BraveToolbarView::GetWrylingRow1Start() const {
+  // Row 1 starts right of the window's traffic lights, which overlap the
+  // toolbar's leading corner.
+  if (!GetWidget()) {
+    return kWrylingEdge;
+  }
+  gfx::Point origin_in_widget;
+  views::View::ConvertPointToWidget(this, &origin_in_widget);
+  const auto [leading_caption, trailing_caption] =
+      tabs::utils::GetLeadingTrailingCaptionButtonWidth(
+          browser_view_->browser_widget());
+  return std::max(kWrylingEdge,
+                  leading_caption - origin_in_widget.x() + kWrylingGap);
+}
+
+int BraveToolbarView::GetWrylingRow1Gap(int width) const {
+  // Row 1 holds the sidebar toggle and navigation buttons beside the traffic
+  // lights. Before giving the buttons a row of their own, pack them tighter.
+  constexpr int kTightGap = 2;
+  for (const int gap : {kWrylingGap, kTightGap}) {
+    int right = width - kWrylingEdge;
+    if (app_menu_button_ && app_menu_button_->GetVisible()) {
+      right -= app_menu_button_->GetPreferredSize().width() + gap;
+    }
+    int x = GetWrylingRow1Start();
+    if (views::View* toggle = GetWrylingSidebarToggle()) {
+      x += toggle->GetPreferredSize().width() + gap;
+    }
+    for (views::View* button : GetWrylingNavButtons()) {
+      x += button->GetPreferredSize().width() + gap;
+    }
+    if (x <= right + gap) {
+      return gap;
+    }
+  }
+  return 0;
+}
+
+bool BraveToolbarView::WrylingNavFitsInRow1(int width) const {
+  return GetWrylingRow1Gap(width) > 0;
+}
+
+void BraveToolbarView::LayoutWrylingSidebarRows() {
+  // While being moved into the sidebar the toolbar can briefly sit in a view
+  // tree that isn't in a window yet; its children need the window's theme to
+  // lay out, so wait for the layout that follows attachment.
+  if (!GetWidget()) {
+    return;
+  }
+
+  // Upstream's horizontal flex layout is not run here: at sidebar width it
+  // would push buttons into the overflow menu and could hide the app menu.
+  // Each piece is placed from its preferred size instead.
+  //
+  // Wide column:   [lights toggle back fwd reload  menu]
+  //                [address bar ............ extensions]
+  // Narrow column: [lights toggle                  menu]
+  //                [back fwd reload          extensions]
+  //                [address bar .......................]
+  const int row = GetWrylingRowHeight();
+  const bool compact = !WrylingNavFitsInRow1(width());
+  auto row_y = [&](int index, int height) {
+    return kWrylingTopPad + index * row + (row - height) / 2;
+  };
+
+  if (app_menu_button_ && app_menu_button_->GetVisible()) {
+    const gfx::Size size = app_menu_button_->GetPreferredSize();
+    app_menu_button_->SetBounds(width() - kWrylingEdge - size.width(),
+                                row_y(0, size.height()), size.width(),
+                                size.height());
+  }
+
+  // The sidebar toggle always sits right of the traffic lights: it hides the
+  // sidebar (hovering the window's edge brings it back) and, while
+  // it floats, pins it again.
+  const int gap = compact ? kWrylingGap : GetWrylingRow1Gap(width());
+  int x = GetWrylingRow1Start();
+  if (views::View* toggle = GetWrylingSidebarToggle()) {
+    const gfx::Size size = toggle->GetPreferredSize();
+    toggle->SetBounds(x, row_y(0, size.height()), size.width(), size.height());
+    x += size.width() + gap;
+  }
+  if (compact) {
+    x = kWrylingEdge;
+  }
+  const int nav_row = compact ? 1 : 0;
+  for (views::View* button : GetWrylingNavButtons()) {
+    const gfx::Size size = button->GetPreferredSize();
+    button->SetBounds(x, row_y(nav_row, size.height()), size.width(),
+                      size.height());
+    x += size.width() + gap;
+  }
+
+  // Extensions sit at the end of the address bar's row, or of the nav row
+  // when the column is narrow (leaving the address bar the full width).
+  const int address_row = compact ? 2 : 1;
+  int address_right = width() - kWrylingEdge;
+  if (extensions_container_ && extensions_container_->GetVisible()) {
+    const gfx::Size size = extensions_container_->GetPreferredSize();
+    extensions_container_->SetBounds(
+        width() - kWrylingEdge - size.width(),
+        row_y(compact ? 1 : address_row, size.height()), size.width(),
+        size.height());
+    if (!compact) {
+      address_right -= size.width() + kWrylingGap;
+    }
+  }
+  // While the command bar has borrowed the address bar, leave it alone.
+  if (location_bar_view_ && location_bar_view_->parent() == this) {
+    // Inset like the tab rows below it so their edges line up.
+    const int height = location_bar_view_->GetPreferredSize().height();
+    location_bar_view_->SetBounds(kWrylingEdge, row_y(address_row, height),
+                                  std::max(0, address_right - kWrylingEdge),
+                                  height);
+  }
+
+  // Everything else is reached from the app menu in this layout. Zero bounds
+  // rather than hiding, so Brave's own visibility logic is left alone.
+  const views::View* const kept[] = {vertical_tab_toggle_.get(),
+                                      back_.get(),
+                                      forward_.get(),
+                                      reload_.get(),
+                                      app_menu_button_.get(),
+                                      extensions_container_.get(),
+                                      location_bar_view_.get()};
+  for (views::View* child : children()) {
+    if (std::find(std::begin(kept), std::end(kept), child) == std::end(kept)) {
+      child->SetBoundsRect(gfx::Rect());
+    }
+  }
+}
+
 void BraveToolbarView::Layout(PassKey) {
+  // In the sidebar the address bar is a floating pill, so bubbles (page info,
+  // permissions, translate, menus) sit a little clear of it instead of
+  // hanging off its edge as they do from a full-width toolbar.
+  constexpr int kWrylingBubbleGap = 6;
+  const bool in_sidebar = IsInWrylingSidebar();
+  SetProperty(views::kBubbleAnchorGapKey, in_sidebar ? kWrylingBubbleGap : 0);
+  if (in_sidebar) {
+    LayoutWrylingSidebarRows();
+    return;
+  }
+
   if (!brave_initialized_ || display_mode_ != DisplayMode::kNormal) {
     LayoutSuperclass<ToolbarView>(this);
     return;

@@ -79,6 +79,13 @@ void CalculateVerticalLayout(const std::vector<TabWidthConstraints>& tabs,
         std::ranges::any_of(tabs, [](const TabWidthConstraints& tab) {
           return tab.state().pinned() == TabPinned::kPinned;
         });
+  } else if (std::ranges::none_of(
+                 tabs.begin(), tabs.begin() + result->size(),
+                 [](const TabWidthConstraints& tab) {
+                   return tab.state().open() == TabOpen::kOpen;
+                 })) {
+    // Wryling Spaces: every pinned tile is hidden (another space's) or
+    // closing, so the list starts at the top with no separator.
   } else {
     // This means pinned tabs are already laid out in grid. So start from the
     // bottom of the last pinned tab and add spacing and separator height.
@@ -89,8 +96,60 @@ void CalculateVerticalLayout(const std::vector<TabWidthConstraints>& tabs,
 
   gfx::Rect rect;
   rect.set_y(start);
+  // Wryling: the tabs of a split share one row, side by side.
+  int split_run_left = 0;  // Tabs of the current split still to place.
+  int split_run_size = 0;
+  int split_row_x = 0;
+  int split_row_width = 0;
+  bool split_row_open = false;  // Collapsed or other-space splits take no row.
   for (auto iter = tabs.begin() + result->size(); iter != tabs.end(); iter++) {
     auto& tab = *iter;
+
+    if (split_run_left == 0 && tab.state().split().has_value() &&
+        tab.state().pinned() != TabPinned::kPinned) {
+      int run = 0;
+      for (auto it = iter; it != tabs.end() &&
+                           it->state().split() == tab.state().split() &&
+                           it->state().pinned() != TabPinned::kPinned;
+           ++it) {
+        ++run;
+      }
+      if (run >= 2) {
+        split_run_left = split_run_size = run;
+      }
+    }
+    if (split_run_left > 0) {
+      if (consider_separator_bounds) {
+        rect.Offset(0, kVerticalTabsSpacing + kPinnedUnpinnedSeparatorHeight);
+        consider_separator_bounds = false;
+      }
+      const int k = split_run_size - split_run_left;
+      if (k == 0) {
+        split_row_open = false;
+        split_row_x =
+            kMarginForVerticalTabContainers +
+            (tab.is_tab_in_group() ? BraveTabGroupHeader::kPaddingForGroup : 0);
+        split_row_width = width.value_or(tab.GetPreferredWidth()) -
+                          split_row_x - kMarginForVerticalTabContainers;
+      }
+      constexpr int kSegmentGap = 2;
+      const int total = split_row_width - kSegmentGap * (split_run_size - 1);
+      const int x0 = split_row_x + (total * k) / split_run_size +
+                     kSegmentGap * k;
+      const int x1 = split_row_x + (total * (k + 1)) / split_run_size +
+                     kSegmentGap * k;
+      rect.set_x(x0);
+      rect.set_width(x1 - x0);
+      const bool open = tab.state().open() == TabOpen::kOpen;
+      rect.set_height(open ? kVerticalTabHeight : 0);
+      result->push_back(rect);
+      split_row_open |= open;
+      --split_run_left;
+      if (split_run_left == 0 && split_row_open) {
+        rect.set_y(rect.y() + kVerticalTabHeight + kVerticalTabsSpacing);
+      }
+      continue;
+    }
 
     if (consider_separator_bounds &&
         tab.state().pinned() != TabPinned::kPinned) {
@@ -159,30 +218,41 @@ void CalculatePinnedTabsBoundsInGrid(
     return;
   }
 
+  // Wryling (macOS): pinned tabs are favourite tiles: taller, a
+  // little wider, with more room between them.
+#if BUILDFLAG(IS_MAC)
+  constexpr int kTileHeight = 48;
+  constexpr int kTileMinWidth = 56;
+  constexpr int kTileSpacing = 8;
+#else
+  constexpr int kTileHeight = kVerticalTabHeight;
+  constexpr int kTileMinWidth = kVerticalTabMinWidth;
+  constexpr int kTileSpacing = kVerticalTabsSpacing;
+#endif
+
   // We need to lay out pinned tabs in a grid while filling the available width.
   // This will be done with base width and distributing extra widths to the
   // first few tabs by 1 pixels.
-  auto base_pinned_tab_width = kVerticalTabMinWidth;
+  auto base_pinned_tab_width = kTileMinWidth;
   std::vector<int> extra_widths;
   int tabs_in_one_row = 1;
 
   if (width.has_value()) {
     auto available_width = width.value() - 2 * kMarginForVerticalTabContainers;
     // 1. Check if how many pinned tabs can fit in one row.
-    tabs_in_one_row = (available_width + kVerticalTabsSpacing) /
-                      (kVerticalTabMinWidth + kVerticalTabsSpacing);
+    tabs_in_one_row =
+        (available_width + kTileSpacing) / (kTileMinWidth + kTileSpacing);
     tabs_in_one_row = std::min(pinned_tab_count, std::max(1, tabs_in_one_row));
 
     // 2. Calculate pinned tabs width so that they fit in one row.
     base_pinned_tab_width =
-        (available_width + kVerticalTabsSpacing) / tabs_in_one_row -
-        kVerticalTabsSpacing;
+        (available_width + kTileSpacing) / tabs_in_one_row - kTileSpacing;
 
     // 3. Distribute extra widths to the first few pinned tabs.
     extra_widths.resize(tabs_in_one_row, 0);
     int total_extra_width =
-        available_width + kVerticalTabsSpacing -
-        (base_pinned_tab_width + kVerticalTabsSpacing) * tabs_in_one_row;
+        available_width + kTileSpacing -
+        (base_pinned_tab_width + kTileSpacing) * tabs_in_one_row;
     CHECK_GE(total_extra_width, 0);
     for (int i = 0; i < total_extra_width; i++) {
       extra_widths[i]++;
@@ -195,19 +265,21 @@ void CalculatePinnedTabsBoundsInGrid(
                  /* y= */ kMarginForVerticalTabContainers,
                  /* width= */ base_pinned_tab_width +
                      (extra_widths.empty() ? 0 : extra_widths[0]),
-                 /* height= */ kVerticalTabHeight);
+                 /* height= */ kTileHeight);
   int i = 0;
   for (const auto& tab : tabs) {
     if (tab.state().pinned() != TabPinned::kPinned) {
       break;
     }
 
-    result->push_back(rect);
-
     if (tab.state().open() != TabOpen::kOpen) {
-      // Tabs being closed should not take space, so skip updating rect.
+      // Tabs being closed (or in another Wryling space) should not take
+      // space, so give them no height and skip updating rect.
+      result->push_back(gfx::Rect(rect.origin(), gfx::Size(rect.width(), 0)));
       continue;
     }
+
+    result->push_back(rect);
 
     i++;
     const auto tab_width =
@@ -216,14 +288,14 @@ void CalculatePinnedTabsBoundsInGrid(
     rect.set_width(tab_width);
 
     // Update rect for the next pinned tabs. If overflowed, break into new line.
-    if (rect.right() + kVerticalTabMinWidth + kVerticalTabsSpacing +
+    if (rect.right() + kTileMinWidth + kTileSpacing +
             kMarginForVerticalTabContainers <
         width.value_or(tab_style->GetStandardWidth(/*is_split*/ true))) {
-      rect.set_x(rect.right() + kVerticalTabsSpacing);
+      rect.set_x(rect.right() + kTileSpacing);
     } else {
       // New line
       rect.set_x(kMarginForVerticalTabContainers);
-      rect.set_y(result->back().bottom() + kVerticalTabsSpacing);
+      rect.set_y(result->back().bottom() + kTileSpacing);
     }
   }
 }
@@ -374,7 +446,16 @@ void UpdateInsertionIndexForVerticalTabs(
   } else {
     // Unpinned tabs are laid out vertically. So we consider only y
     // coordinate
+#if BUILDFLAG(IS_MAC)
+    // Wryling: by the dragged tab's middle (where the pointer is), not its
+    // top edge, so a tab dragged onto the middle of another row reaches it
+    // before they swap (dropping it there merges them into a split, see
+    // wryling::UpdateSidebarMergeTarget).
+    distance =
+        std::abs(dragged_bounds.CenterPoint().y() - candidate_bounds.bottom());
+#else
     distance = std::abs(dragged_bounds.y() - candidate_bounds.bottom());
+#endif
   }
 
   if (distance < min_distance) {

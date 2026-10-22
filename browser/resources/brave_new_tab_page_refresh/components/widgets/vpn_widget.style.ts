@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-import { color, font, gradient } from '@brave/leo/tokens/css/variables'
+import { color, font } from '@brave/leo/tokens/css/variables'
 import { scoped } from '$web-common/scoped_css'
 
 export const style = scoped.css`
@@ -15,7 +15,7 @@ export const style = scoped.css`
 
   .title {
     --leo-icon-size: 16px;
-    --leo-icon-color: ${gradient.iconsActive};
+    --leo-icon-color: ${color.text.interactive};
 
     font: ${font.components.buttonSmall};
     display: flex;
@@ -30,8 +30,8 @@ export const style = scoped.css`
   }
 
   .provider {
-    opacity: 0.3;
-    color: #fff;
+    opacity: 1;
+    color: ${color.text.secondary};
     font: ${font.xSmall.regular};
     display: flex;
     align-items: center;
@@ -71,13 +71,9 @@ export const style = scoped.css`
     gap: 4px;
     align-items: center;
 
-    leo-button {
-      --leo-button-color: rgba(255, 255, 255, 0.20);
-    }
-
     .restore {
-      opacity: 0.5;
-      color: #fff;
+      opacity: 1;
+      color: ${color.text.secondary};
       font: ${font.xSmall.regular};
       text-decoration: underline;
     }

@@ -103,7 +103,7 @@
 <translation id="2137162749895930932">भाषांतर स्क्रीन बंद करा</translation>
 <translation id="5789330946301045610">साइट, सुरक्षित कनेक्शन वापरत नसल्याने Brave ने हे डाउनलोड ब्लॉक केले आहे आणि फाइलशी छेडछाड केली गेलेली असू शकते</translation>
 <translation id="2170098639895543546">पेजवरील कोणतीही गोष्ट निवडा</translation>
-<translation id="142389341645668510">Brave कस्टमाइझ करा</translation>
+<translation id="9094133852008074140">Wryling कस्टमाइझ करा</translation>
 <translation id="2174917724755363426">इंस्टॉलेशन पूर्ण झाले नाही. तुम्हाला नक्की रद्द करायचे आहे का?</translation>
 <translation id="8841019650931243995">Brave Origin - नेटवर्क साइन इन - <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">अपडेट तपासणीदरम्यान एरर आली: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -202,7 +202,7 @@
 <translation id="3137969841538672700">शोधण्यासाठी ड्रॅग करा</translation>
 <translation id="8372436892102763334">हा टॅब अतिरिक्त स्रोत वापरत आहे. तुमच्या परफॉर्मन्समध्ये सुधारणा करण्यासाठी, Brave ला तो इनॅक्टिव्ह करू द्या.</translation>
 <translation id="5949068186379578553">तुमची स्क्रीन शेअर करण्यासाठी, सिस्टीम सेटिंग्ज मध्ये Brave साठी स्क्रीन रेकॉर्डिंगला अनुमती द्या</translation>
-<translation id="4805806622840861220">Brave पुन्हा लाँच करा</translation>
+<translation id="2036272753168211127">Wryling पुन्हा लाँच करा</translation>
 <translation id="3161522574479303604">सर्व भाषा</translation>
 <translation id="1742948938503172561">तुमची नवीन Brave प्रोफाइल कस्टमाइझ करा</translation>
 <translation id="2430807206104224491">तुम्ही टॅब स्विच न करता AI मोड सोबत चॅट करणे सुरू ठेवू शकता. सुरुवात करण्यासाठी, Brave मध्ये साइन इन करा. तुम्हाला तुमच्या सर्व डिव्हाइसवर तुमचे पासवर्ड आणि आणखी बरेच काही मिळेल.</translation>
@@ -236,7 +236,7 @@
 <translation id="8981774130895723211">तुमची स्क्रीन शेअर करण्यासाठी, सिस्टीम सेटिंग्ज मध्ये Brave साठी स्क्रीन रेकॉर्डिंगला अनुमती द्या.</translation>
 <translation id="2981961446160697133">Brave ओळखत नसलेल्या साइटसाठी वर्धित संरक्षण JavaScript ऑप्टिमायझेशन बंद करते</translation>
 <translation id="3597003331831379823">वाढीव विशेषाधिकारांसह सेटअप रन करता आला नाही. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Brave मध्ये साइन इन करा</translation>
+<translation id="5451434122049588189">Wryling मध्ये साइन इन करा</translation>
 <translation id="3066805437003400520">या व्यक्तीचा ब्राउझिंग डेटा या डिव्हाइसवरून हटवला जाईल. डेटा रीकव्हर करण्यासाठी, Brave वर <ph name="USER_EMAIL"/> म्हणून साइन इन करा.</translation>
 <translation id="3667616615096815454">इंस्टॉल करता आले नाही, सर्व्हरला अ‍ॅप्लिकेशन माहीत नाही.</translation>
 <translation id="1128485277465085828">तुमच्या Brave खाते मधील सर्व Brave डेटा एन्क्रिप्ट करण्यासाठी तुमचा <ph name="BEGIN_LINK"/>स्वतःचा पासफ्रेज<ph name="END_LINK"/> वापरा. Google Pay वरील पेमेंट पद्धती आणि पत्ते एन्क्रिप्ट केले जाणार नाहीत. Brave वरील ब्राउझिंग इतिहास सिंक होणार नाही.</translation>
@@ -279,7 +279,7 @@
 <translation id="4055805654398742145">Password Manager</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Brave १ मिनिटासाठी वापरले जात नाही, तेव्हा तुमची संस्था ते आपोआप बंद करते. ब्राउझिंग डेटा हटवला जातो. यात इतिहास, ऑटोफिल आणि डाउनलोड यांचा समावेश असू शकतो.}other{Brave # मिनिटांसाठी वापरले जात नाही, तेव्हा तुमची संस्था ते आपोआप बंद करते. ब्राउझिंग डेटा हटवला जातो. यात इतिहास, ऑटोफिल आणि डाउनलोड यांचा समावेश असू शकतो.}}</translation>
 <translation id="5794951150713244901">Brave विषयी या पेजवर जा</translation>
-<translation id="10925962326134232">तुमच्या ब्राउझरला नवीन लुक देण्यासाठी Brave कस्टमाइझ करा</translation>
+<translation id="908722199085381104">तुमच्या ब्राउझरला नवीन लुक देण्यासाठी Wryling कस्टमाइझ करा</translation>
 <translation id="6596295505984504022">तुमचे Brave कस्टमाइझ करा</translation>
 <translation id="4148957013307229264">स्थापना करत आहे...</translation>
 <translation id="5011704081781303429"><ph name="PAGE_TITLE"/> - नेटवर्क साइन इन - Brave Origin</translation>
@@ -381,7 +381,7 @@
 <translation id="5154625106151193600">Brave काही फाइल का ब्लॉक करते हे जाणून घ्या</translation>
 <translation id="1786715389543715322">Brave अपडेट करीत आहे (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Brave मध्ये साइन इन करण्यासाठी अनुमती द्या</translation>
-<translation id="5267531627648004734">Brave मधून काढा</translation>
+<translation id="6125790165673488794">Wryling मधून काढा</translation>
 <translation id="4620757336635063467">परफॉर्मन्स कमी करते, पण त्यामुळे Brave ची हल्ले रोखण्याची क्षमता वाढते</translation>
 <translation id="239760341987199724">तुमचा डीफॉल्ट ब्राउझर म्हणून Brave सेट करा</translation>
 <translation id="5165277482382778404"><ph name="PAGE_TITLE"/> - Brave Origin बीटा</translation>
@@ -560,7 +560,7 @@
 <translation id="7024536598735240744">उघडण्याशी संबंधित एरर: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">Brave ला तुमचे हक्काचे ठिकाण बनवा</translation>
 <translation id="7047386856539490735">हे परिणाम उपयुक्त आहेत का?</translation>
-<translation id="1705567146636171298">Brave अपडेट करा</translation>
+<translation id="4469722898384489712">Wryling अपडेट करा</translation>
 <translation id="5499063270485366718">इमेजचे उपयोगी वर्णन नसल्यास, Brave तुमच्यासाठी ते देण्याचा प्रयत्न करेल. वर्णने तयार करण्यासाठी, इमेज Brave ला पाठवल्या जातात.</translation>
 <translation id="1196733835766994012">तुमच्या <ph name="DEVICE_TYPE"/> वर Brave अ‍ॅप वापरून AI ची क्षमता मिळवा</translation>
 <translation id="7166289504510860270">तुमच्या फोनवरील Brave अ‍ॅपसह तुमचे पासवर्ड, टॅब आणि आणखी बरेच काही फिरतीवर असताना सोबत घेऊन जा</translation>
@@ -766,7 +766,7 @@ Brave तुमची सेटिंग्ज रिकव्हर करू �
 <translation id="8965179855019347124">तुमच्या फोनवरील Brave अ‍ॅपसह Brave ची सर्वोत्तम AI टूल वापरा</translation>
 <translation id="9049928023195059068">तुम्ही इतर Brave सेवांमध्ये साइन इन करता, तेव्हा Brave मध्ये साइन इन करा</translation>
 <translation id="4561046754724442504">Brave आपोआप बंद झाले</translation>
-<translation id="5173820533850252773">Brave कालबाह्य आहे</translation>
+<translation id="1523936557081546133">Wryling कालबाह्य आहे</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave एका तासामध्ये पुन्हा लाँच होईल}other{Brave # तासांमध्ये पुन्हा लाँच होईल}}</translation>
 <translation id="9106236359747881194">शोधण्यासाठी मजकूर निवडा</translation>
 <translation id="5190991181158966940">भविष्यातील Brave अपडेट मिळवण्यासाठी, तुमच्याकडे Windows 10 किंवा त्यापुढील आवृत्ती असणे आवश्यक आहे. हा कॉंप्युटर Windows 8.1 वापरत आहे.</translation>
@@ -778,12 +778,12 @@ Brave तुमची सेटिंग्ज रिकव्हर करू �
 <translation id="2444257125841652328">तुमच्या सिस्टीम अ‍ॅडमिनिस्ट्रेटरने <ph name="TARGET_URL_HOSTNAME"/>ॲक्सेस करण्याकरिता पर्यायी ब्राउझर उघडण्यासाठी Brave कॉन्फिगर केले आहे.</translation>
 <translation id="7902365066753170041">&amp;Brave अपडेट करण्यासाठी पुन्हा लाँच करा</translation>
 <translation id="538146372587193686">Brave Origin (mDNS-मध्ये)</translation>
-<translation id="296137235951584143">Brave ला तुमचे हक्काचे ठिकाण बनवा</translation>
+<translation id="4578349172774307195">Wryling ला तुमचे हक्काचे ठिकाण बनवा</translation>
 <translation id="7977787072794666032">Brave ला आता Windows XP किंवा Windows Vista चा सपोर्ट नसल्यामुळे ते आता कदाचित अचूकपणे काम करणार नाही</translation>
 <translation id="8462937515915443472">Brave वापरून फिरतीवर असताना Brave ची सर्वोत्तम सुरक्षितता वैशिष्ट्ये मिळवा.</translation>
 <translation id="945522503751344254">अभिप्राय पाठवा</translation>
 <translation id="4484434718272972655">Brave कोण वापरत आहे?</translation>
-<translation id="7173394303099002355">Brave ची सर्वात मजबूत सुरक्षा मिळवा</translation>
+<translation id="1158507424343802366">Wryling ची सर्वात मजबूत सुरक्षा मिळवा</translation>
 <translation id="983803489796659991">अपडेट सर्व्हरकडे अ‍ॅप्लिकेशनसाठी कोणताही हॅश डेटा नसल्यामुळे, इंस्टॉलेशन यशस्वी झाले नाही.</translation>
 <translation id="8435446479956716379">खाते शिवाय Brave वापरा</translation>
 <translation id="8992261409816268381">Brave लेखक</translation>
@@ -808,6 +808,6 @@ Brave तुमची सेटिंग्ज रिकव्हर करू �
 <translation id="1400696845469684552">{COUNT, plural,=0 {अपडेट लागू करण्यासाठी तुम्हाला Brave पुन्हा सुरू करावा लागेल – Advanced Protection आवश्यक आहे}=1 {अपडेट लागू करण्यासाठी तुम्हाला Brave पुन्हा सुरू करावा लागेल – Advanced Protection आवश्यक आहे. तुमचे प्रायव्हेट विंडो पुन्हा उघडणार नाहीत.}other {अपडेट लागू करण्यासाठी तुम्हाला Brave पुन्हा सुरू करावा लागेल – Advanced Protection आवश्यक आहे. तुमची # प्रायव्हेट विंडोज पुन्हा उघडणार नाहीत.}}</translation>
 <translation id="5749154344207139683">या 1 मिनिटाच्या सर्वेक्षणात भाग घेऊन आम्हाला गुप्त सुधारण्यास मदत करा.</translation>
 <translation id="79269250264141507">तुम्ही अ‍ॅड्रेस बार किंवा सर्च बॉक्समध्ये टाइप करता, तेव्हा अधिक चांगल्या सूचना मिळवण्यासाठी तुम्ही जे टाइप करता ते Brave तुमच्या डीफॉल्ट शोध इंजीनला पाठवते. हे गुप्त मोड मध्ये बंद आहे.</translation>
-<translation id="2589970573128789862">Brave चा गुप्त मोड</translation>
+<translation id="2090681901335274465">Wryling चा गुप्त मोड</translation>
 <translation id="5994282802285556682">गुप्त मोडमध्ये ब्राउझ करताना, असुरक्षित कनेक्शन वापरून साइट लोड करण्यापूर्वी Brave तुम्हाला चेतावणी देईल</translation>
 </translationbundle>

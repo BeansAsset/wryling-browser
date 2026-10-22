@@ -26,8 +26,10 @@ namespace {
 
 bool IsDisabledByPolicy(PrefService* prefs) {
   DCHECK(prefs);
-  return prefs->IsManagedPreference(prefs::kDisabledByPolicy) &&
-         prefs->GetBoolean(prefs::kDisabledByPolicy);
+  // Wryling: extras are really off by default, not just hidden. Each
+  // feature's own policy switch is honoured whoever set it (Settings ›
+  // Extras writes it), not only when an organisation's policy manages it.
+  return prefs->GetBoolean(prefs::kDisabledByPolicy);
 }
 
 bool IsDisabledByFeature() {

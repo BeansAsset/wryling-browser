@@ -3,17 +3,16 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-import { color } from '@brave/leo/tokens/css/variables'
 import { scoped } from '$web-common/scoped_css'
 
 export const style = scoped.css`
   & {
-    background: ${color.page.background};
+    background: var(--wry-raised);
     padding: 16px 16px 16px 12px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    border-bottom: solid 1px ${color.divider.subtle};
+    gap: var(--wry-space-2);
+    border-bottom: solid 1px var(--wry-separator);
   }
 
   .header {
@@ -28,7 +27,7 @@ export const style = scoped.css`
       flex: 0;
 
       &:hover {
-        background: ${color.button.hover};
+        background: var(--wry-hover);
       }
     }
   }
@@ -39,6 +38,6 @@ export const style = scoped.css`
   }
 
   .host {
-    color: ${color.text.secondary};
+    color: var(--wry-text-secondary);
   }
 `

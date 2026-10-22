@@ -1,0 +1,56 @@
+// Copyright (c) 2026 The Brave Authors. All rights reserved.
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this file,
+// You can obtain one at https://mozilla.org/MPL/2.0/.
+
+module wryling_dashboard.mojom;
+
+// One tile on a space's dashboard.
+struct Site {
+  string url;
+  string title;
+  // The site's own app icon (apple-touch-icon, web manifest icon or a large
+  // favicon) as a data: URL, or empty when none is known yet.
+  string icon;
+  // Width of `icon` in pixels. Under 64 it is a favicon, drawn small on a
+  // plain tile rather than filling it.
+  int32 icon_size;
+  // True for the space's own sites, false for "frequently visited" ones.
+  bool pinned;
+};
+
+struct Dashboard {
+  string space_id;
+  string space_name;
+  // The space's colour as ARGB, or 0 when it follows the theme colour.
+  uint32 space_color;
+  // How many spaces the profile has (the space name is only worth showing
+  // when there is more than one).
+  int32 space_count;
+  // The space's own sites first, in their order, then the sites visited most
+  // in this space that aren't already pinned or hidden.
+  array<Site> sites;
+};
+
+interface Page {
+  // The dashboard (or the space the tab is in) changed; fetch it again.
+  OnDashboardChanged();
+};
+
+// Served to the New Tab page's top frame only.
+interface PageHandler {
+  SetPage(pending_remote<Page> page);
+  GetDashboard() => (Dashboard dashboard);
+
+  // Pins a site to the tab's space. `url` may be typed without a scheme.
+  // Returns false when it isn't a web address.
+  AddSite(string url, string title) => (bool added);
+  UpdateSite(string old_url, string url, string title) => (bool updated);
+  // Unpins a pinned site, or hides a frequently visited one from this space.
+  RemoveSite(string url);
+  // Undoes the last RemoveSite on this page.
+  UndoRemove();
+  // Moves a pinned site to `index` among the pinned sites. Moving a
+  // frequently visited site pins it there.
+  MoveSite(string url, int32 index);
+};

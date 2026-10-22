@@ -104,7 +104,7 @@
 <translation id="2137162749895930932">अनुवाद गर्ने सुविधा भएको स्क्रिन बन्द गर्नुहोस्</translation>
 <translation id="5789330946301045610">यो साइटले सुरक्षित कनेक्सन प्रयोग नगरिरहेको र यो फाइलमा छेडखानी गरिएको हुन सक्ने भएकाले Brave ले यो फाइल डाउनलोड गर्ने कार्य ब्लक गरेको छ</translation>
 <translation id="2170098639895543546">पेजमा भएका सबै कुरा चयन गर्नुहोस्</translation>
-<translation id="142389341645668510">Brave आफूले चाहे जस्तो बनाउनुहोस्</translation>
+<translation id="9094133852008074140">Wryling आफूले चाहे जस्तो बनाउनुहोस्</translation>
 <translation id="2174917724755363426">इन्स्टल गर्ने प्रक्रिया पूरा भएन। तपाईंले यो प्रक्रिया रद्द गर्न खोज्नुभएकै हो?</translation>
 <translation id="8841019650931243995">Brave Origin - नेटवर्क साइन इन - <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">अपडेट उपलब्ध छ कि छैन भन्ने कुरा जाँच्ने क्रममा निम्न त्रुटि भयो: <ph name="UPDATE_CHECK_ERROR"/>।</translation>
@@ -203,7 +203,7 @@
 <translation id="3137969841538672700">खोज्न ड्र्याग गर्नुहोस्</translation>
 <translation id="8372436892102763334">यो ट्याबले अतिरिक्त स्रोतहरू प्रयोग गरिरहेको छ। पर्फर्मेन्स अझ राम्रो बनाउन Brave लाई यो ट्याब निष्क्रिय बनाउन दिनुहोस्।</translation>
 <translation id="5949068186379578553">आफ्नो स्क्रिन सेयर गर्न सिस्टम सेटिङमा गई Brave लाई स्क्रिन रेकर्ड गर्ने अनुमति दिनुहोस्</translation>
-<translation id="4805806622840861220">Brave पुनः सुरु गर्नुहोस्</translation>
+<translation id="2036272753168211127">Wryling पुनः सुरु गर्नुहोस्</translation>
 <translation id="3161522574479303604">सबै भाषाहरू</translation>
 <translation id="1742948938503172561">आफ्नो नयाँ Brave प्रोफाइल आफूले चाहे जस्तो बनाउनुहोस्</translation>
 <translation id="2430807206104224491">तपाईं ट्याबहरू अदलबदल नगरिकनै AI मोड प्रयोग गरी च्याट गरिराख्न सक्नुहुन्छ। सुरु गर्न Brave मा साइन इन गर्नुहोस्। तपाईं सबै डिभाइसमा रहेका आफ्ना पासवर्डलगायतका थप कुराहरू पनि प्राप्त गर्नु हुने छ।</translation>
@@ -235,7 +235,7 @@
 <translation id="8981774130895723211">आफ्नो स्क्रिन सेयर गर्न सिस्टम सेटिङमा गई Brave लाई स्क्रिन रेकर्ड गर्ने अनुमति दिनुहोस्।</translation>
 <translation id="2981961446160697133">उन्नत सुरक्षाले Brave ले नचिन्ने साइटहरूमा JavaScript अप्टिमाइजेसन अफ गर्छ</translation>
 <translation id="3597003331831379823">खास विशेषाधिकारहरू प्रयोग गरी सेटअप रन गर्न सकिएन। <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Brave मा साइन इन गर्नुहोस्</translation>
+<translation id="5451434122049588189">Wryling मा साइन इन गर्नुहोस्</translation>
 <translation id="3066805437003400520">यस डिभाइसबाट यो व्यक्तिको ब्राउजिङ डेटा मेटाइने छ। उक्त डेटा पुनः प्राप्त गर्न <ph name="USER_EMAIL"/> का रूपमा Brave मा साइन इन गर्नुहोस्।</translation>
 <translation id="3667616615096815454">इन्स्टल गर्न सकिएन, सर्भरका लागि यो एप अज्ञात छ।</translation>
 <translation id="1128485277465085828">आफ्नो Brave खातामा भएका Brave का सबै डेटा इन्क्रिप्ट गर्न <ph name="BEGIN_LINK"/>आफ्नै पासफ्रेज<ph name="END_LINK"/> प्रयोग गर्नुहोस्। Google Pay मा भएका भुक्तानी विधि र ठेगानाहरू इन्क्रिप्ट गरिने छैनन्। Brave को ब्राउजिङ हिस्ट्री सिंक गरिने छैन।</translation>
@@ -278,7 +278,7 @@
 <translation id="4055805654398742145">पासवर्ड म्यानेजर</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{तपाईंको सङ्गठनले तय गरेअनुसार तपाईंले १ मिनेटसम्म Brave प्रयोग गर्नुभएन भने Brave स्वतः बन्द हुन्छ। ब्राउजिङ डेटा मेटाइएको छ। यसअन्तर्गत हिस्ट्री, अटोफिल तथा डाउनलोड समावेश हुन सक्छन्।}other{तपाईंको सङ्गठनले तय गरेअनुसार तपाईंले # मिनेटसम्म Brave प्रयोग गर्नुभएन भने Brave स्वतः बन्द हुन्छ। ब्राउजिङ डेटा मेटाइएको छ। यसअन्तर्गत हिस्ट्री, अटोफिल तथा डाउनलोड समावेश हुन सक्छन्।}}</translation>
 <translation id="5794951150713244901">"Brave का बारेमा" पेजमा जानुहोस्</translation>
-<translation id="10925962326134232">Brave कस्टमाइज गरेर ब्राउजरको स्वरूप बदल्नुहोस्</translation>
+<translation id="908722199085381104">Wryling कस्टमाइज गरेर ब्राउजरको स्वरूप बदल्नुहोस्</translation>
 <translation id="6596295505984504022">आफ्नो Brave कस्टमाइज गर्नुहोस्</translation>
 <translation id="4148957013307229264">स्थापना गर्दै...</translation>
 <translation id="5011704081781303429"><ph name="PAGE_TITLE"/> - नेटवर्क साइन इन - Brave Origin</translation>
@@ -380,7 +380,7 @@
 <translation id="5154625106151193600">Brave ले केही फाइलहरू ब्लक गर्नुको कारण जान्नुहोस्</translation>
 <translation id="1786715389543715322">Brave लाई अद्यावधिक गर्दै (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Brave मा साइन इन गर्ने अनुमति दिनुहोस्</translation>
-<translation id="5267531627648004734">Braveबाट हटाउनुहोस्</translation>
+<translation id="6125790165673488794">Braveबाट हटाउनुहोस्</translation>
 <translation id="4620757336635063467">पर्फर्मेन्सको स्तर घटाउँछ तर Brave मा सुरक्षासम्बन्धी आक्रमणहरू हुने सम्भावना भने घटाउँछ</translation>
 <translation id="239760341987199724">Brave लाई तपाइँको डिफल्ट ब्राउजरको रूपमा सेट गर्नुहोस्</translation>
 <translation id="5165277482382778404"><ph name="PAGE_TITLE"/> - Brave Origin बिटा</translation>
@@ -559,7 +559,7 @@
 <translation id="7024536598735240744">अनप्याक गर्ने क्रममा त्रुटि भयो: <ph name="UNPACK_ERROR"/>।</translation>
 <translation id="280382502853897110">Brave आफूले चाहेको जस्तो बनाउनुहोस्</translation>
 <translation id="7047386856539490735">यी परिणामहरू उपयोगी छन्?</translation>
-<translation id="1705567146636171298">Brave अपडेट गर्नुहोस्</translation>
+<translation id="4469722898384489712">Wryling अपडेट गर्नुहोस्</translation>
 <translation id="5499063270485366718">कुनै छविमा उपयोगी विवरण नभएका खण्डमा Brave ले तपाईंलाई एउटा विवरण उपलब्ध गराउने प्रयास गर्ने छ। विवरणहरू सिर्जना गर्न फोटो Brave मा पठाइन्छ।</translation>
 <translation id="1196733835766994012">आफ्नो <ph name="DEVICE_TYPE"/> मा Brave एप प्रयोग गर्दा AI का सुविधाहरू प्राप्त गर्नुहोस्</translation>
 <translation id="7166289504510860270">आफ्नो फोनमा Brave एप इन्स्टल गरी आफ्ना पासवर्ड, ट्याब र अन्य कुराहरू जुनसुकै बेला जहाँसुकैबाट एक्सेस गर्नुहोस्</translation>
@@ -764,7 +764,7 @@ Brave ले तपाइँका सेटिङहरू पुनर्प�
 <translation id="8965179855019347124">आफ्नो फोनमा भएको Brave एप प्रयोग गरी Brave का उत्कृष्ट AI टुलहरू प्रयोग गर्नुहोस्</translation>
 <translation id="9049928023195059068">तपाईंले Brave का अन्य सेवामा साइन इन गर्दा Brave मा साइन इन गर्नुहोस्</translation>
 <translation id="4561046754724442504">Brave स्वतः बन्द गरियो</translation>
-<translation id="5173820533850252773">Braveको म्याद सकिएको छ</translation>
+<translation id="1523936557081546133">Braveको म्याद सकिएको छ</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave एक घन्टामा पुनः सुरु हुने छ}other{Brave # घन्टामा पुनः सुरु हुने छ}}</translation>
 <translation id="9106236359747881194">खोज्नु पर्ने टेक्स्ट चयन गर्नुहोस्</translation>
 <translation id="5190991181158966940">तपाईंको कम्प्युटरमा Windows १० वा सोभन्दा नयाँ संस्करण छ भने मात्र तपाईं भविष्यमा Brave का अपडेट प्राप्त गर्नुहुन्छ। यो कम्प्युटरमा Windows ८.१ प्रयोग भइरहेको छ।</translation>
@@ -776,12 +776,12 @@ Brave ले तपाइँका सेटिङहरू पुनर्प�
 <translation id="2444257125841652328">तपाईंको प्रणालीका प्रशासकले <ph name="TARGET_URL_HOSTNAME"/> माथि पहुँच गर्नका लागि वैकल्पिक ब्राउजर खोल्न Brave कन्फिगर गरेको छ।</translation>
 <translation id="7902365066753170041">&amp;Brave अपडेट गर्न पुनः सुरु गर्नुहोस्</translation>
 <translation id="538146372587193686">Brave Origin (mDNS-In)</translation>
-<translation id="296137235951584143">Brave आफूले चाहे जस्तो बनाउनुहोस्</translation>
+<translation id="4578349172774307195">Wryling आफूले चाहे जस्तो बनाउनुहोस्</translation>
 <translation id="7977787072794666032">Brave अब उप्रान्त Windows XP वा Windows Vista मा समर्थित नभएका कारण यसले सही ढङ्गले काम नगर्न सक्छ</translation>
 <translation id="8462937515915443472">Brave प्रयोग गरी जुनसुकै बेला जहाँसुकै पनि Brave का उत्कृष्ट सुरक्षा सुविधाहरू प्राप्त गर्नुहोस्।</translation>
 <translation id="945522503751344254">पृष्ठपोषण पठाउनुहोस्</translation>
 <translation id="4484434718272972655">Brave कसले चलाउँदै हुनुहुन्छ?</translation>
-<translation id="7173394303099002355">Brave को सबैभन्दा भरपर्दो सुरक्षा प्राप्त गर्नुहोस्</translation>
+<translation id="1158507424343802366">Wryling को सबैभन्दा भरपर्दो सुरक्षा प्राप्त गर्नुहोस्</translation>
 <translation id="983803489796659991">अपडेट सर्भरमा यो एपको कुनै पनि ह्यास डेटा नभएकाले उक्त एप इन्स्टल गर्न सकिएन।</translation>
 <translation id="8435446479956716379">खातामा साइन इन नगरिकनै Brave चलाउनुहोस्</translation>
 <translation id="8992261409816268381">Brave लेखकहरू</translation>
@@ -806,6 +806,6 @@ Brave ले तपाइँका सेटिङहरू पुनर्प�
 <translation id="1400696845469684552">{COUNT, plural,=0 {Advanced Protection ले यो अद्यावधिक लागू गर्न Brave पुन: सुरु गर्न आवश्यक बनाउँछ}=1 {Advanced Protection ले यो अद्यावधिक लागू गर्न Brave पुन: सुरु गर्न आवश्यक बनाउँछ। तपाईंको निजी सञ्झ्याल फेरि खोलिने छैन।}other {Advanced Protection ले यो अद्यावधिक लागू गर्न Brave पुन: सुरु गर्न आवश्यक बनाउँछ। तपाईंका # निजी सञ्झ्यालहरू फेरि खोलिने छैनन्।}}</translation>
 <translation id="5749154344207139683">यो सुधार गर्न मद्दत गर्न यस १ मिनेटको सर्वेक्षण लिनुहोस्।</translation>
 <translation id="79269250264141507">जब तपाई‍ले ठेगाना बार वा खोजी बक्समा टाइप गर्नुहुन्छ, Brave थप सुझावहरू प्राप्त गर्न तपाईंले टाइप गर्नु भएको कुरा तपाईँको डिफल्ट खोज इन्जिनमा पठाउँछ। यो निजि मोडमा बन्द हुन्छ।</translation>
-<translation id="2589970573128789862">Brave निजि</translation>
+<translation id="2090681901335274465">Wryling निजि</translation>
 <translation id="5994282802285556682">निजि मोडमा ब्राउजिङ गर्दा, Brave ले असुरक्षित जडान प्रयोग गर्ने साइट लोड गर्नु अघि तपाईंलाई चेतावनी दिनेछ।</translation>
 </translationbundle>

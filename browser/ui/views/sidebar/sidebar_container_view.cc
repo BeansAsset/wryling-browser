@@ -239,6 +239,9 @@ void SidebarContainerView::AddChildViews() {
   sidebar_control_view_ = AddChildView(
       std::make_unique<SidebarControlView>(this, GetBraveBrowser()));
   sidebar_control_view_->SetPaintToLayer();
+  // Wryling: see-through over the window's glass; an opaque layer renders the
+  // transparent background as black.
+  sidebar_control_view_->layer()->SetFillsBoundsOpaquely(false);
 
   // To prevent showing layered-children while its bounds is invisible.
   sidebar_control_view_->layer()->SetMasksToBounds(true);

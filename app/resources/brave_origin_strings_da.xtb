@@ -102,7 +102,7 @@
 <translation id="2137162749895930932">Luk oversættelsesskærmen</translation>
 <translation id="5789330946301045610">Brave har blokeret denne download, fordi websitet ikke anvender en sikker forbindelse, og der kan være blevet manipuleret med filen</translation>
 <translation id="2170098639895543546">Markér hvad som helst på siden</translation>
-<translation id="142389341645668510">Tilpas Brave</translation>
+<translation id="9094133852008074140">Tilpas Wryling</translation>
 <translation id="2174917724755363426">Installationen er ikke fuldført. Er du sikker på, at du vil annullere?</translation>
 <translation id="8841019650931243995">Brave Origin – Login på netværk – <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">Fejl ved søgning efter opdatering: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -201,7 +201,7 @@
 <translation id="3137969841538672700">Træk for at søge</translation>
 <translation id="8372436892102763334">Denne fane bruger ekstra ressourcer. Du kan forbedre ydeevnen ved at give Brave tilladelse til at gøre den inaktiv.</translation>
 <translation id="5949068186379578553">Tillad skærmoptagelse for Brave under Systemindstillinger for at dele din skærm.</translation>
-<translation id="4805806622840861220">Genstart Brave</translation>
+<translation id="2036272753168211127">Genstart Wryling</translation>
 <translation id="3161522574479303604">Alle sprog</translation>
 <translation id="1742948938503172561">Tilpas din nye Brave-profil</translation>
 <translation id="2430807206104224491">Du kan fortsætte med at chatte med AI-tilstand uden at skifte faner. Log ind i Brave for at komme i gang. Du kan også se dine adgangskoder m.m. på alle dine enheder.</translation>
@@ -235,7 +235,7 @@
 <translation id="8981774130895723211">Tillad skærmoptagelse for Brave under Systemindstillinger for at dele din skærm.</translation>
 <translation id="2981961446160697133">Forbedret beskyttelse deaktiverer JavaScript-optimering for websites, som Brave ikke genkender</translation>
 <translation id="3597003331831379823">Konfigurationen med udvidede adgangsrettigheder kunne ikke køres. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Log ind i Brave</translation>
+<translation id="5451434122049588189">Log ind i Wryling</translation>
 <translation id="3066805437003400520">Brugerens browserdata slettes fra denne enhed. Log ind på Brave som <ph name="USER_EMAIL"/> for at gendanne dataene.</translation>
 <translation id="3667616615096815454">Appen kan ikke installeres. Serveren kender ikke appen.</translation>
 <translation id="1128485277465085828">Brug din <ph name="BEGIN_LINK"/>egen adgangssætning<ph name="END_LINK"/> til at kryptere alle Brave-data på din Brave-konto. Betalingsmetoder og adresser fra Google Pay krypteres ikke. Browserhistorik fra Brave synkroniseres ikke.</translation>
@@ -278,7 +278,7 @@
 <translation id="4055805654398742145">Adgangs­kode­admin­istrator</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Din organisation lukker automatisk Brave, når den ikke bruges i 1 minut. Browserdataene slettes. Disse kan omfatte historik, autofyld og downloads.}one{Din organisation lukker automatisk Brave, når den ikke bruges i # minut. Browserdataene slettes. Disse kan omfatte historik, autofyld og downloads.}other{Din organisation lukker automatisk Brave, når den ikke bruges i # minutter. Browserdataene slettes. Disse kan omfatte historik, autofyld og downloads.}}</translation>
 <translation id="5794951150713244901">Gå til siden Om Brave</translation>
-<translation id="10925962326134232">Tilpas Brave for at give din browser et nyt udseende</translation>
+<translation id="908722199085381104">Tilpas Wryling for at give din browser et nyt udseende</translation>
 <translation id="6596295505984504022">Tilpas Brave</translation>
 <translation id="4148957013307229264">Installerer...</translation>
 <translation id="5011704081781303429"><ph name="PAGE_TITLE"/> – Login på netværk – Brave Origin</translation>
@@ -380,7 +380,7 @@
 <translation id="5154625106151193600">Se, hvorfor Brave blokerer visse filer</translation>
 <translation id="1786715389543715322">Opdaterer Brave (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Tillad login via Brave</translation>
-<translation id="5267531627648004734">Fjern fra Brave</translation>
+<translation id="6125790165673488794">Fjern fra Wryling</translation>
 <translation id="4620757336635063467">Reducerer ydeevnen, men gør Brave mere modstandsdygtig over for angreb</translation>
 <translation id="239760341987199724">Angiv Brave som din standardbrowser</translation>
 <translation id="5165277482382778404"><ph name="PAGE_TITLE"/> – Brave Origin beta</translation>
@@ -559,7 +559,7 @@ Nye bogmærker kan ikke gemmes på din konto, før du sletter nogle. Hvis du log
 <translation id="7024536598735240744">Fejl under udpakning: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">Tilpas Brave</translation>
 <translation id="7047386856539490735">Er disse resultater nyttige?</translation>
-<translation id="1705567146636171298">Opdater Brave</translation>
+<translation id="4469722898384489712">Opdater Wryling</translation>
 <translation id="5499063270485366718">Hvis et billede ikke har en brugbar beskrivelse, forsøger Brave at angive en for dig. Billederne sendes til Brave, så der kan oprettes beskrivelser.</translation>
 <translation id="1196733835766994012">Få nyttige AI-funktioner, når du bruger Brave-appen på din <ph name="DEVICE_TYPE"/></translation>
 <translation id="7166289504510860270">Tag dine adgangskoder, faner m.m. med på farten med Brave-appen på din telefon</translation>
@@ -765,7 +765,7 @@ Brave kan ikke gendanne dine præferencer.</translation>
 <translation id="8965179855019347124">Brug Braves bedste AI-værktøjer med Brave-appen på din telefon</translation>
 <translation id="9049928023195059068">Log ind i Brave, når du logger ind i andre Brave-tjenester</translation>
 <translation id="4561046754724442504">Brave blev automatisk lukket</translation>
-<translation id="5173820533850252773">Brave er forældet</translation>
+<translation id="1523936557081546133">Wryling er forældet</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave genstarter om en time}one{Brave genstarter om # time}other{Brave genstarter om # timer}}</translation>
 <translation id="9106236359747881194">Markér den tekst, du vil søge efter</translation>
 <translation id="5190991181158966940">Hvis du vil have fremtidige Brave-opdateringer, skal du have Windows 10 eller nyere. Denne computer anvender Windows 8.1.</translation>
@@ -777,12 +777,12 @@ Brave kan ikke gendanne dine præferencer.</translation>
 <translation id="2444257125841652328">Din systemadministrator har konfigureret Brave til at åbne en anden browser for at få adgang til <ph name="TARGET_URL_HOSTNAME"/>.</translation>
 <translation id="7902365066753170041">Genstart og opdater &amp;Brave</translation>
 <translation id="538146372587193686">Brave Origin (mDNS-In)</translation>
-<translation id="296137235951584143">Tilpas Brave</translation>
+<translation id="4578349172774307195">Tilpas Wryling</translation>
 <translation id="7977787072794666032">Brave fungerer muligvis ikke korrekt på grund af manglende understøttelse i Windows XP og Windows Vista</translation>
 <translation id="8462937515915443472">Få Braves bedste sikkerhedsfunktioner på farten med Brave.</translation>
 <translation id="945522503751344254">Send feedback</translation>
 <translation id="4484434718272972655">Hvem bruger Brave?</translation>
-<translation id="7173394303099002355">Få Braves stærkeste beskyttelse</translation>
+<translation id="1158507424343802366">Få Braves stærkeste beskyttelse</translation>
 <translation id="983803489796659991">Installationen mislykkedes, fordi opdateringsserveren ikke har nogen hash-data for appen.</translation>
 <translation id="8435446479956716379">Brug Brave uden en konto</translation>
 <translation id="8992261409816268381">Forfatterne til Brave</translation>
@@ -807,6 +807,6 @@ Brave kan ikke gendanne dine præferencer.</translation>
 <translation id="1400696845469684552">{COUNT, plural, =0{Avanceret beskyttelse kræver, at du genstarter Brave for at anvende en opdatering}=1{Avanceret beskyttelse kræver, at du genstarter Brave for at anvende en opdatering. Dit privat vindue åbnes ikke igen.}one{Avanceret beskyttelse kræver, at du genstarter Brave for at anvende en opdatering. # privat vindue åbnes ikke igen.}other{Avanceret beskyttelse kræver, at du genstarter Brave for at anvende en opdatering. Dine # private vinduer åbnes ikke igen.}}</translation>
 <translation id="5749154344207139683">Hjælp os med at forbedre Privat-tilstanden ved at deltage i denne 1 minut lange undersøgelse.</translation>
 <translation id="79269250264141507">Når du skriver noget i adresselinjen eller søgefeltet, sender Brave de indtastede værdier til din primære søgemaskine for at få bedre forslag. Dette er slået fra i Privat-tilstand.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
+<translation id="2090681901335274465">Wryling Private</translation>
 <translation id="5994282802285556682">Når du browser i Privat tilstand, vil Brave advare dig, før du indlæser et websted ved hjælp af en usikker forbindelse</translation>
 </translationbundle>

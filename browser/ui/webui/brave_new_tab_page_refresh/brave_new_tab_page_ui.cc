@@ -25,6 +25,7 @@
 #include "brave/components/brave_news/common/buildflags/buildflags.h"
 #include "brave/components/brave_rewards/core/buildflags/buildflags.h"
 #include "brave/components/misc_metrics/page_metrics.h"
+#include "brave/components/wryling_dashboard/wryling_dashboard_binder.h"
 #include "brave/components/ntp_background_images/browser/ntp_sponsored_rich_media_ad_event_handler.h"
 #include "chrome/browser/autocomplete/chrome_autocomplete_scheme_classifier.h"
 #include "chrome/browser/browser_process.h"
@@ -89,6 +90,10 @@ BraveNewTabPageUI::BraveNewTabPageUI(content::WebUI* web_ui)
 
   auto* web_contents = web_ui->GetWebContents();
   CHECK(web_contents);
+  // Wryling: chrome://newtab/?home is a space's Home tab.
+  if (web_contents->GetVisibleURL().query() == "home") {
+    web_ui->OverrideTitle(u"Home");
+  }
   const content::NavigationEntry* navigation_entry =
       web_contents->GetController().GetLastCommittedEntry();
   was_restored_ = navigation_entry && navigation_entry->IsRestored();
@@ -157,6 +162,12 @@ void BraveNewTabPageUI::BindInterface(
 #endif  // BUILDFLAG(ENABLE_BRAVE_ADS)
   );
   rich_media_ad_event_handler_->Bind(std::move(receiver));
+}
+
+void BraveNewTabPageUI::BindInterface(
+    mojo::PendingReceiver<wryling_dashboard::mojom::PageHandler> receiver) {
+  wryling_dashboard::BindPageHandler(web_ui()->GetWebContents(),
+                                     std::move(receiver));
 }
 
 void BraveNewTabPageUI::BindInterface(

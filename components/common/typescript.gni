@@ -121,6 +121,14 @@ template("transpile_web_ui") {
     # make sure rebuilds when common files change
     inputs = brave_common_web_compile_inputs
     inputs += [ "$root_gen_dir/tsconfig-webpack.json" ]
+    if (defined(invoker.wryling_remote_build) && invoker.wryling_remote_build) {
+      script = "//brave/build/webpack/wryling-remote-transpile-web-ui.mjs"
+      inputs += [
+        "//brave/build/webpack/transpile-web-ui.ts",
+        "//brave/build/webpack/wryling-remote-webpack.py",
+        "//brave/build/webpack/wryling-webpack-worker.py",
+      ]
+    }
     if (defined(invoker.inputs)) {
       inputs += invoker.inputs
     }

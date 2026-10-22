@@ -29,6 +29,7 @@ class PromotionButtonController;
 class PromotionButtonView;
 class RewardsBrowserTest;
 class SkPath;
+class WrylingCopyLinkButton;
 
 namespace policy {
 FORWARD_DECLARE_TEST(BraveRewardsPolicyTest, RewardsIconIsHidden);
@@ -64,6 +65,9 @@ class BraveLocationBarView : public LocationBarView {
   void OnVisibleBoundsChanged() override;
 
   // LocationBarView:
+  void OnBoundsChanged(const gfx::Rect& previous_bounds) override;
+  ui::ImageModel GetLocationIcon(
+      LocationIconView::Delegate::IconFetchedCallback on_icon_fetched) override;
   int GetMinimumTrailingWidth() const override;
 
   // views::View:
@@ -71,6 +75,8 @@ class BraveLocationBarView : public LocationBarView {
   void OnThemeChanged() override;
   void ChildVisibilityChanged(views::View* child) override;
   void AddedToWidget() override;
+  void ViewHierarchyChanged(
+      const views::ViewHierarchyChangedDetails& details) override;
   int GetBorderRadius() const override;
   void FocusLocation(bool is_user_initiated,
                      bool clear_focus_if_failed) override;
@@ -100,13 +106,18 @@ class BraveLocationBarView : public LocationBarView {
   friend class ::RewardsBrowserTest;
 
   void SetupShadow();
+  // Wryling: shows the copy-link button only where it makes sense.
+  void UpdateCopyLinkButton();
 
   // Prevent layout with invalid rect.
   // It also could make omnibox popup have wrong position.
   // See the comments of BraveToolbarView::Layout().
   bool ignore_layout_ = false;
+  // Wryling: the focus ring was removed while in the sidebar/command bar.
+  bool wryling_removed_focus_ring_ = false;
   std::unique_ptr<ViewShadow> shadow_;
   raw_ptr<BraveActionsContainer> brave_actions_ = nullptr;
+  raw_ptr<WrylingCopyLinkButton> copy_link_button_ = nullptr;
   std::unique_ptr<PromotionButtonController> promotion_controller_;
   raw_ptr<PromotionButtonView> promotion_button_ = nullptr;
   std::unique_ptr<BraveShieldsPageInfoController> shields_page_info_controller_;

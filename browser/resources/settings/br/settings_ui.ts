@@ -5,12 +5,17 @@
 
 import {
   html as braveHtml,
-  RegisterPolymerComponentBehaviors,
+  RegisterPolymerPrototypeModification,
   RegisterPolymerTemplateModifications,
   RegisterStyleOverride
 } from 'chrome://resources/brave/polymer_overriding.js'
 
 import {html} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js'
+
+import {Router} from '../router.js'
+import {installExtrasVisibility, guardExtraRoute} from '../wryling_extras.js'
+import type {Route} from '../router.js'
+import {loadTimeData} from '../i18n_setup.js'
 
 import {SettingsUiElement} from '../settings_ui/settings_ui.js'
 import {setGlobalScrollTarget, resetGlobalScrollTargetForTesting} from '../global_scroll_target_mixin.js';
@@ -31,161 +36,91 @@ if (document.readyState === 'loading') {
   initializeBraveOriginHandler();
 }
 
-// TODO: move throttle utility to a chrome://resources module
-function throttle (callback: () => void, maxWaitTime: number = 30) {
-  // Call on first invocation
-  let shouldWait = false
-  return function (this: unknown, ...args: []) {
-    if (!shouldWait) {
-      callback.apply(this, args)
-      shouldWait = true
-      setTimeout(function () {
-        shouldWait = false
-      }, maxWaitTime)
-    }
-  }
-}
-
 RegisterStyleOverride(
   'settings-ui',
   html`
     <style>
       :host {
-        display: inline-block;
-        /* we will enforce sizing at the container level and let children fill 100% of parent
-          top-down, rather than chromium's strategy of children setting their max width
-          bottom-up, which can be confusing, especially when our layout is different. */
-        --cr-centered-card-container_-_max-width: 100% !important; /* was 680px */
-        --brave-settings-content-max-width: 708px;
-        --brave-settings-menu-width: var(--settings-menu-width);
-        --brave-settings-menu-margin: 12px;
-        background-color: var(--leo-color-container-background);
-      }
-
-      /** Styling tweaks for the settings-menu when we display it inside the
-        * drawer. */
-      cr-drawer settings-menu {
-        --brave-settings-menu-margin-v: 0;
-        --brave-settings-menu-padding: 24px;
+        display: flex; height: 100%; background: var(--wry-canvas);
+        --settings-menu-width: var(--wry-source-width) !important;
+        --brave-settings-menu-width: var(--wry-source-width);
+        --brave-settings-content-max-width: var(--wry-content-width);
         --brave-settings-menu-margin: 0;
       }
-
-      cr-drawer settings-menu::part(header) {
-        display: none;
+      #container { display: flex; overflow: hidden; scrollbar-gutter: auto; }
+      #wrySource {
+        box-sizing: border-box; width: var(--wry-source-width); flex: 0 0 var(--wry-source-width);
+        background: color-mix(in srgb, var(--wry-surface) 55%, var(--wry-canvas));
+        display: flex; flex-direction: column; padding: var(--wry-space-3) var(--wry-space-2) 0;
       }
-      .cr-scrollable-top-shadow {
-        display: none !important;
-      }
-      #container {
-        /* menu and content next to each other in the horizontal center */
-      }
-      #left{
-        flex:0 !important;
-      }
-      #main {
-        margin: 0 var(--leo-spacing-m) var(--leo-spacing-m) 0;
-        background: var(--leo-color-page-background);
-        border-radius: var(--leo-radius-xl) var(--leo-radius-m) var(--leo-radius-m) var(--leo-radius-xl);
-        overflow: auto;
-      }
-      #right {
-        /* this element is only a space filler in chromium */
-        display: none;
-      }
-      @media (prefers-color-scheme: dark) {
-        #container {
-        }
-      }
-      @media (max-width: 980px) {
-        #main {
-          margin: 0;
-          border-radius: 0;
-          min-height: 100%;
-        }
+      #toolbar { flex: none; min-height: var(--wry-control-height); margin-bottom: var(--wry-space-2); }
+      #left { flex: 1 !important; min-height: 0; height: auto; position: static; }
+      #left settings-menu { width: 100% !important; height: 100%; max-height: 100%; overflow: hidden; }
+      #main { flex: 1; min-width: 0; margin: 0; border-radius: 0; background: var(--wry-canvas); overflow: auto; }
+      #right, .cr-scrollable-top-shadow { display: none !important; }
+      cr-drawer settings-menu { height: 100%; }
+      @media (max-width: 700px) {
+        #container { flex-direction: column; }
+        #wrySource { flex: none; width: 100%; }
+        #main { min-height: 0; }
       }
     </style>
   `
 )
 
-const BraveClearSettingsMenuHighlightBehavior = {
-  ready: function(this: SettingsUiElement) {
-    // Clear menu selection after scrolling away.
-    // Chromium's menu is not persistant, so does not have
-    // this issue.
-    const container = this.shadowRoot!.getElementById('container')
-    if (!container) {
-      console.error('Could not find #container in settings-ui module')
-      return
-    }
-    const menu = this.shadowRoot!.querySelector('settings-menu')
-    if (!menu) {
-      console.error('Could not find settings-menu in settings-ui module')
-      return
-    }
-    let onScroll: ((event: Event) => void) | null = null
-    function stopObservingScroll() {
-      if (onScroll) {
-        if (container) {
-          container.removeEventListener('scroll', onScroll)
-        }
-        onScroll = null
-      }
-    }
-    // @ts-expect-error
-    window.addEventListener('showing-section', ({ detail: section }) => {
-      // Currently showing or about to scroll to `section`. If we're getting
-      // further away from section top then section is no longer 'selected'.
-      // TODO(petemill): If this wasn't a chromium module, we'd simply add a
-      // handler for scrolling away, or have the menu change selection as we
-      // scroll.
-      stopObservingScroll()
-      function calcDistance() {
-        const sectionScrollTop = section.offsetTop
-        const currentScrollTop = container?.scrollTop || 0
-        return Math.abs(sectionScrollTop - currentScrollTop)
-      }
-      let distance = calcDistance()
-      onScroll = throttle(() => {
-        const latestDistance = calcDistance()
-        if (latestDistance > distance) {
-          if (menu) {
-            (menu as unknown as {
-              setSelectedPath_(path: string): void
-            }).setSelectedPath_('')
-          }
-          stopObservingScroll()
-        } else {
-          distance = latestDistance
-        }
-      }, 100)
-      container.addEventListener('scroll', onScroll)
-    })
-  },
-}
-
-// In Brave we scroll the settings-main element, not the container.
-const BraveSetGlobalScrollTargetBehavior = {
-  ready: function(this: SettingsUiElement) {
-    // Note: We abuse resetGlobalScrollTargetForTesting() to clear the
-    // global scroll target, as the promise it uses can only be resolved once.
-    resetGlobalScrollTargetForTesting();
-    setGlobalScrollTarget(this.$.main);
-  },
-}
-
-RegisterPolymerComponentBehaviors({
-  'settings-ui': [
-    BraveClearSettingsMenuHighlightBehavior,
-    BraveSetGlobalScrollTargetBehavior
-  ]
-})
-
 RegisterPolymerTemplateModifications({
   'settings-ui': (templateContent) => {
+    const container = templateContent.querySelector('#container')
+    const toolbar = templateContent.querySelector('#toolbar')
+    const left = templateContent.querySelector('#left')
+    if (container && toolbar && left) {
+      const source = document.createElement('aside')
+      source.id = 'wrySource'
+      toolbar.setAttribute('narrow-threshold', '700')
+      toolbar.setAttribute('search-prompt', 'Search')
+      container.insertBefore(source, left)
+      source.append(toolbar, left)
+    }
     templateContent.prepend(braveHtml`
       <leo-alertcenter style="position: fixed;
                               z-index: 1;">
       </leo-alertcenter>
     `)
   }
+})
+
+RegisterPolymerPrototypeModification({
+  'settings-ui': (prototype: SettingsUiElement) => {
+    const ready = prototype.ready
+    const routeChanged = prototype.currentRouteChanged
+    const updateTitle = (ui: SettingsUiElement, route: Route) => queueMicrotask(() => {
+      const header = ui.$.main.shadowRoot?.querySelector('h1[data-wry-title]')
+      const menu = ui.$.leftMenu.shadowRoot
+      if (!header || !menu) {
+        return
+      }
+      let current: Route | null = route
+      let title = ''
+      while (current && !title) {
+        const link = Array.from(menu.querySelectorAll<HTMLAnchorElement>('a[href]'))
+            .find(item => item.getAttribute('href') === current!.path)
+        title = link?.getAttribute('aria-label') || link?.textContent?.trim() || ''
+        current = current.parent
+      }
+      header.textContent = title || loadTimeData.getString('settings')
+      document.dispatchEvent(new Event('wryling-settings-search-changed'))
+    })
+    prototype.ready = function(this: SettingsUiElement) {
+      ready.call(this)
+      installExtrasVisibility(this)
+      resetGlobalScrollTargetForTesting()
+      setGlobalScrollTarget(this.$.main)
+      updateTitle(this, Router.getInstance().getCurrentRoute())
+    }
+    prototype.currentRouteChanged = function(this: SettingsUiElement, route: Route) {
+      if (guardExtraRoute(route)) return
+      routeChanged.call(this, route)
+      updateTitle(this, route)
+    }
+  },
 })

@@ -1,0 +1,16 @@
+diff --git a/chrome/browser/ui/views/infobars/infobar_view.cc b/chrome/browser/ui/views/infobars/infobar_view.cc
+index 10c414efbe15720b96e205bc378cab0937ffa243..f0cd1bd91e9f233eceb6ea08aa37138b13a342d0 100644
+--- a/chrome/browser/ui/views/infobars/infobar_view.cc
++++ b/chrome/browser/ui/views/infobars/infobar_view.cc
+@@ -178,8 +178,10 @@ InfoBarView::InfoBarView(std::unique_ptr<infobars::InfoBarDelegate> delegate)
+   right_side_container_ = AddChildView(std::make_unique<views::View>());
+   auto* right_layout = right_side_container_->SetLayoutManager(
+       std::make_unique<views::FlexLayout>());
++  // Wryling: centred, like the content, so a link here lines up with the
++  // buttons' text instead of sitting at the close button's bottom edge.
+   right_layout->SetOrientation(views::LayoutOrientation::kHorizontal)
+-      .SetCrossAxisAlignment(views::LayoutAlignment::kEnd);
++      .SetCrossAxisAlignment(views::LayoutAlignment::kCenter);
+   right_side_container_->SetProperty(views::kFlexBehaviorKey, kRigidFlex);
+ 
+   if (this->delegate()->IsCloseable()) {

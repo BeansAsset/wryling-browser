@@ -5,6 +5,9 @@
 
 #include "brave/browser/ui/views/frame/vertical_tabs/vertical_tab_strip_region_view.h"
 
+#include "brave/browser/ui/spaces/wryling_spaces.h"
+#include "brave/browser/ui/views/frame/vertical_tabs/wryling_space_switcher_view.h"
+
 #include <algorithm>
 #include <memory>
 #include <optional>
@@ -17,7 +20,9 @@
 #include "base/dcheck_is_on.h"
 #include "base/feature_list.h"
 #include "base/functional/bind.h"
+#include "base/strings/strcat.h"
 #include "base/strings/string_split.h"
+#include "base/task/sequenced_task_runner.h"
 #include "brave/app/vector_icons/vector_icons.h"
 #include "brave/browser/ui/color/brave_color_id.h"
 #include "brave/browser/ui/focus_mode/focus_mode_controller.h"
@@ -28,11 +33,13 @@
 #include "brave/browser/ui/views/frame/brave_browser_view.h"
 #include "brave/browser/ui/views/frame/brave_non_client_hit_test_helper.h"
 #include "brave/browser/ui/views/frame/tab_strip_placement_coordinator.h"
+#include "brave/browser/ui/color/wryling_space_color.h"
 #include "brave/browser/ui/views/tabs/brave_new_tab_button.h"
 #include "brave/browser/ui/views/tabs/brave_tab_container.h"
 #include "brave/browser/ui/views/tabs/brave_tab_strip_layout_helper.h"
 #include "brave/components/constants/pref_names.h"
 #include "brave/components/vector_icons/vector_icons.h"
+#include "cc/paint/paint_flags.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/themes/theme_properties.h"
 #include "chrome/browser/ui/browser.h"
@@ -55,13 +62,20 @@
 #include "ui/base/hit_test.h"
 #include "ui/base/l10n/l10n_util.h"
 #include "ui/base/metadata/metadata_impl_macros.h"
+#include "ui/color/color_provider_manager.h"
 #include "ui/compositor/compositor.h"
 #include "ui/compositor/layer.h"
 #include "ui/display/screen.h"
 #include "ui/events/event_observer.h"
 #include "ui/gfx/canvas.h"
+#include "ui/gfx/geometry/rect_f.h"
+#include "ui/gfx/geometry/vector2d.h"
 #include "ui/gfx/paint_vector_icon.h"
 #include "ui/gfx/scoped_canvas.h"
+#include "ui/gfx/shadow_value.h"
+#include "ui/gfx/skia_paint_util.h"
+#include "ui/views/background.h"
+#include "ui/native_theme/native_theme.h"
 #include "ui/views/accessibility/accessibility_paint_checks.h"
 #include "ui/views/animation/ink_drop.h"
 #include "ui/views/controls/highlight_path_generator.h"
@@ -85,6 +99,16 @@
 namespace {
 
 constexpr int kSeparatorHeight = 1;
+
+#if BUILDFLAG(IS_MAC)
+// Wryling: recomputes every window's colours after the tint strength
+// changes (it isn't part of the colour provider key, so cached providers
+// would keep the old colours).
+void RefreshWrylingColors() {
+  ui::ColorProviderManager::Get().ResetColorProviderCache();
+  ui::NativeTheme::GetInstanceForNativeUi()->NotifyOnNativeThemeUpdated();
+}
+#endif
 constexpr int kBorderThickness = 1;
 
 class ShortcutBox : public views::View {
@@ -98,13 +122,19 @@ class ShortcutBox : public views::View {
 
     std::vector<std::u16string> tokens = base::SplitString(
         shortcut_text, u"+", base::KEEP_WHITESPACE, base::SPLIT_WANT_ALL);
+#if BUILDFLAG(IS_MAC)
+    // Wryling: one quiet "⌘T" in plain text, Mac-menu style, instead of a
+    // row of outlined keycaps.
+    AddShortcutPart(base::StrCat(tokens), /*boxed=*/false);
+#else
     for (const auto& token : tokens) {
-      AddShortcutPart(token);
+      AddShortcutPart(token, /*boxed=*/true);
     }
+#endif
   }
 
  private:
-  void AddShortcutPart(const std::u16string& text) {
+  void AddShortcutPart(const std::u16string& text, bool boxed) {
     constexpr int kFontSize = 12;
     auto* shortcut_part = AddChildView(std::make_unique<views::Label>(text));
     shortcut_part->SetHorizontalAlignment(
@@ -114,6 +144,12 @@ class ShortcutBox : public views::View {
     shortcut_part->SetFontList(shortcut_font.DeriveWithSizeDelta(
         kFontSize - shortcut_font.GetFontSize()));
     shortcut_part->SetEnabledColor(kColorBraveVerticalTabNTBShortcutTextColor);
+    // Wryling: the sidebar is see-through glass; subpixel text needs an opaque
+    // backdrop.
+    shortcut_part->SetSubpixelRenderingEnabled(false);
+    if (!boxed) {
+      return;
+    }
     shortcut_part->SetBorder(views::CreateRoundedRectBorder(
         /*thickness*/ 1, /*radius*/ 4, kColorBraveVerticalTabSeparator));
 
@@ -187,6 +223,8 @@ class VerticalTabNewTabButton : public BraveNewTabButton {
     text_->SetFontList(
         text_font.DeriveWithSizeDelta(kFontSize - text_font.GetFontSize()));
     text_->SetEnabledColor(kColorBraveVerticalTabNTBTextColor);
+    // Wryling: see-through sidebar, so no subpixel text (see ShortcutBox).
+    text_->SetSubpixelRenderingEnabled(false);
 
     auto* spacer = AddChildView(std::make_unique<views::View>());
     spacer->SetProperty(
@@ -197,6 +235,11 @@ class VerticalTabNewTabButton : public BraveNewTabButton {
 
     auto* shortcut_box =
         AddChildView(std::make_unique<ShortcutBox>(shortcut_text));
+    shortcut_box_ = shortcut_box;
+#if BUILDFLAG(IS_MAC)
+    // Shown only while the row is hovered (see StateChanged).
+    shortcut_box->SetVisible(false);
+#endif
     shortcut_box->SetProperty(
         views::kMarginsKey, gfx::Insets::TLBR(0, kGapBetweenIconAndText, 0, 0));
     shortcut_box->SetProperty(
@@ -218,6 +261,12 @@ class VerticalTabNewTabButton : public BraveNewTabButton {
 
   void StateChanged(ButtonState old_state) override {
     BraveNewTabButton::StateChanged(old_state);
+#if BUILDFLAG(IS_MAC)
+    if (shortcut_box_) {
+      shortcut_box_->SetVisible(GetState() == views::Button::STATE_HOVERED ||
+                                GetState() == views::Button::STATE_PRESSED);
+    }
+#endif
     UpdateColors();
   }
 
@@ -245,6 +294,7 @@ class VerticalTabNewTabButton : public BraveNewTabButton {
 
   raw_ptr<views::ImageView> plus_icon_ = nullptr;
   raw_ptr<views::Label> text_ = nullptr;
+  raw_ptr<views::View> shortcut_box_ = nullptr;
 };
 
 BEGIN_METADATA(VerticalTabNewTabButton)
@@ -280,6 +330,57 @@ TabStripPlacementCoordinator* GetPlacementCoordinator(
       ->tab_strip_placement_coordinator();
 }
 
+#if BUILDFLAG(IS_MAC)
+TabStripPlacementCoordinator* GetToolbarPlacementCoordinator(
+    BrowserView* browser_view) {
+  CHECK(browser_view);
+  return BraveBrowserView::From(browser_view)->toolbar_placement_coordinator();
+}
+#endif
+
+#if BUILDFLAG(IS_MAC)
+// Wryling: the sidebar's panel while it floats open over the page.
+class WrylingFloatingPanelBackground : public views::Background {
+ public:
+  void Paint(gfx::Canvas* canvas, views::View* view) const override {
+    const auto* region = static_cast<BraveVerticalTabStripRegionView*>(view);
+    const auto* colors = view->GetColorProvider();
+    if (!colors) {
+      return;
+    }
+    using Region = BraveVerticalTabStripRegionView;
+    const gfx::Rect rows = region->GetContentsBounds();
+    gfx::RectF panel(rows.x() - Region::kWrylingPanelOutset,
+                     Region::kWrylingPanelInset,
+                     rows.width() + 2 * Region::kWrylingPanelOutset,
+                     view->height() - 2 * Region::kWrylingPanelInset);
+    const float radius = Region::kWrylingPanelCornerRadius;
+
+    cc::PaintFlags shadow;
+    shadow.setAntiAlias(true);
+    shadow.setColor(SK_ColorTRANSPARENT);
+    shadow.setLooper(gfx::CreateShadowDrawLooper(
+        {gfx::ShadowValue(gfx::Vector2d(0, 2), 12,
+                          SkColorSetA(SK_ColorBLACK, 0x55))}));
+    canvas->DrawRoundRect(panel, radius, shadow);
+
+    cc::PaintFlags fill;
+    fill.setAntiAlias(true);
+    fill.setColor(colors->GetColor(ui::kColorFrameActive));
+    canvas->DrawRoundRect(panel, radius, fill);
+
+    cc::PaintFlags stroke;
+    stroke.setAntiAlias(true);
+    stroke.setStyle(cc::PaintFlags::kStroke_Style);
+    stroke.setStrokeWidth(1);
+    stroke.setColor(colors->GetColor(ui::kColorBubbleBorder));
+    gfx::RectF edge = panel;
+    edge.Inset(0.5f);
+    canvas->DrawRoundRect(edge, radius - 0.5f, stroke);
+  }
+};
+#endif
+
 }  // namespace
 
 BraveVerticalTabStripRegionView::BraveVerticalTabStripRegionView(
@@ -310,6 +411,11 @@ BraveVerticalTabStripRegionView::BraveVerticalTabStripRegionView(
   // The default state is kExpanded, so reset animation state to 1.0.
   width_animation_.Reset(1.0);
 
+#if BUILDFLAG(IS_MAC)
+  toolbar_container_ = AddChildView(std::make_unique<views::View>());
+  toolbar_container_->SetLayoutManager(std::make_unique<views::FillLayout>());
+#endif
+
   region_view_container_ = AddChildView(std::make_unique<views::View>());
   region_view_container_->SetLayoutManager(
       std::make_unique<views::FillLayout>());
@@ -322,10 +428,27 @@ BraveVerticalTabStripRegionView::BraveVerticalTabStripRegionView(
   separator_ = AddChildView(std::make_unique<views::View>());
   separator_->SetBackground(
       views::CreateSolidBackground(kColorBraveVerticalTabSeparator));
+  // Wryling: the New Tab row shows the command bar (like ⌘T); a tab opens
+  // only once something is chosen in it.
   new_tab_button_ = AddChildView(std::make_unique<VerticalTabNewTabButton>(
-      base::BindRepeating(&TabStrip::NewTabButtonPressed,
-                          base::Unretained(original_region_view_->tab_strip_)),
+      base::BindRepeating(
+          [](BrowserView* browser_view, TabStrip* tab_strip,
+             const ui::Event& event) {
+            if (static_cast<BraveBrowserView*>(browser_view)
+                    ->ShowWrylingCommandBar()) {
+              return;
+            }
+            tab_strip->NewTabButtonPressed(event);
+          },
+          base::Unretained(browser_view),
+          base::Unretained(original_region_view_->tab_strip_)),
       GetShortcutTextForNewTabButton(browser_view), browser_));
+
+  if (auto* spaces = wryling::SpacesController::From(browser_)) {
+    space_switcher_ = AddChildView(std::make_unique<WrylingSpaceSwitcherView>(
+        spaces, /*swipe_area=*/this,
+        /*slide_target=*/region_view_container_.get()));
+  }
 
   resize_area_ = AddChildView(std::make_unique<ResettableResizeArea>(this));
   SetBackground(views::CreateSolidBackground(kColorToolbar));
@@ -342,6 +465,24 @@ BraveVerticalTabStripRegionView::BraveVerticalTabStripRegionView(
       base::BindRepeating(
           &BraveVerticalTabStripRegionView::OnExpandedWidthPrefChanged,
           base::Unretained(this)));
+#if BUILDFLAG(IS_MAC)
+  wryling_tint_opacity_pref_.Init(
+      wryling::kTintOpacityPref, prefs,
+      base::BindRepeating(
+          &BraveVerticalTabStripRegionView::OnWrylingTintStrengthChanged,
+          base::Unretained(this)));
+  wryling_clear_glass_pref_.Init(
+      wryling::kClearGlassPref, prefs,
+      base::BindRepeating(
+          &BraveVerticalTabStripRegionView::UpdateWrylingSidebarGlass,
+          base::Unretained(this)));
+  // Colours computed before this window existed used the default strength.
+  // Refresh them after construction rather than in the middle of it.
+  if (wryling::SetTintStrength(*wryling_tint_opacity_pref_)) {
+    base::SequencedTaskRunner::GetCurrentDefault()->PostTask(
+        FROM_HERE, base::BindOnce(&RefreshWrylingColors));
+  }
+#endif
   OnExpandedWidthPrefChanged();
 
   show_vertical_tabs_.Init(
@@ -431,6 +572,10 @@ BraveVerticalTabStripRegionView::~BraveVerticalTabStripRegionView() {
   if (auto* coordinator = GetPlacementCoordinator(browser_view_)) {
     coordinator->ClearPlacement(TabStripPlacementKind::kVerticalTabStrip);
   }
+#if BUILDFLAG(IS_MAC)
+  // Tearing down: never place the toolbar back into this view.
+  toolbar_container_ = nullptr;
+#endif
   UpdateLayout();
 }
 
@@ -533,6 +678,11 @@ void BraveVerticalTabStripRegionView::SetState(State state) {
 
   last_state_ = std::exchange(state_, state);
   resize_area_->SetEnabled(state == State::kExpanded);
+#if BUILDFLAG(IS_MAC)
+  UpdateWrylingToolbarPlacement();
+  UpdateWrylingTrafficLights();
+  UpdateWrylingSidebarGlass();
+#endif
 
   if (!VerticalTabController::FromBrowser(browser_)
            ->ShouldShowBraveVerticalTabs()) {
@@ -676,17 +826,72 @@ gfx::Size BraveVerticalTabStripRegionView::GetMinimumSize() const {
     size.Enlarge(kBorderThickness, 0);
   }
 
+#if BUILDFLAG(IS_MAC)
+  // Wryling: the glass panel's padding is part of the border (UpdateBorder),
+  // so reserve it too; otherwise the column overlaps the page.
+  size.Enlarge(kWrylingPaddingOuter + kWrylingPaddingInner, 0);
+#endif
+
   return size;
 }
 
 void BraveVerticalTabStripRegionView::Layout(PassKey) {
+#if BUILDFLAG(IS_MAC)
+  UpdateWrylingSidebarGlass();
+#endif
   if (original_region_view_->parent() != region_view_container_) {
     // When original_region_view_ is not a child of this view, it means that
     // the vertical tab strip is not visible.
     return;
   }
 
-  const auto contents_bounds = GetContentsBounds();
+  auto contents_bounds = GetContentsBounds();
+
+#if BUILDFLAG(IS_MAC)
+  // Wryling: the toolbar (two rows, three when narrow) sits at the top of the
+  // column, the tabs below it.
+  if (toolbar_container_) {
+    int toolbar_height = 0;
+    if (!toolbar_container_->children().empty()) {
+      // A narrow column gives the toolbar a third row (see BraveToolbarView).
+      toolbar_height =
+          toolbar_container_->children()
+              .front()
+              ->GetPreferredSize(views::SizeBounds(contents_bounds.width(), {}))
+              .height();
+    }
+    toolbar_container_->SetBoundsRect(
+        gfx::Rect(contents_bounds.x(), contents_bounds.y(),
+                  contents_bounds.width(), toolbar_height));
+    contents_bounds.Inset(gfx::Insets::TLBR(toolbar_height, 0, 0, 0));
+  }
+#endif
+
+  // Wryling Spaces: the switcher row sits at the panel's bottom edge; the
+  // tabs and New Tab row get the rest. Not in the narrow collapsed sidebar.
+  if (space_switcher_) {
+    const bool show_switcher = state_ != State::kCollapsed;
+    space_switcher_->SetVisible(show_switcher);
+    if (show_switcher) {
+      // The glass panel ends kWrylingPanelInset above the window's bottom
+      // edge; keep the row inside it.
+      int panel_gap = 0;
+#if BUILDFLAG(IS_MAC)
+      if (GetWidget() && GetWidget()->GetRootView()) {
+        const int below = GetWidget()->GetRootView()->height() -
+                          ConvertRectToWidget(contents_bounds).bottom();
+        panel_gap = std::max(0, kWrylingPanelInset - below);
+      }
+#endif
+      const int switcher_height = WrylingSpaceSwitcherView::kHeight;
+      space_switcher_->SetBounds(
+          contents_bounds.x(),
+          contents_bounds.bottom() - panel_gap - switcher_height,
+          contents_bounds.width(), switcher_height);
+      contents_bounds.Inset(
+          gfx::Insets::TLBR(0, 0, switcher_height + panel_gap, 0));
+    }
+  }
 
   constexpr int kNewTabButtonHeight = tabs::kVerticalTabHeight;
   const int contents_view_max_height =
@@ -747,10 +952,37 @@ void BraveVerticalTabStripRegionView::OnBrowserPanelsMoved() {
   PreferredSizeChanged();
 }
 
+#if BUILDFLAG(IS_MAC)
+void BraveVerticalTabStripRegionView::UpdateWrylingToolbarPlacement() {
+  auto* coordinator = GetToolbarPlacementCoordinator(browser_view_);
+  if (!coordinator) {
+    return;
+  }
+  // A sidebar that hides completely keeps the toolbar in every
+  // state: it disappears with the sidebar and floats back in with it. The
+  // narrow icon-only column has no room for it.
+  const bool keeps_toolbar =
+      state_ == State::kExpanded ||
+      VerticalTabController::FromBrowser(browser_)
+          ->ShouldHideVerticalTabsCompletelyWhenCollapsed();
+  if (keeps_toolbar && toolbar_container_) {
+    coordinator->SetPlacement(TabStripPlacementKind::kVerticalTabStrip,
+                              toolbar_container_.get());
+  } else {
+    coordinator->ClearPlacement(TabStripPlacementKind::kVerticalTabStrip);
+  }
+  coordinator->UpdatePlacement();
+  InvalidateLayout();
+}
+#endif
+
 void BraveVerticalTabStripRegionView::UpdateLayout() {
   if (auto* coordinator = GetPlacementCoordinator(browser_view_)) {
     coordinator->UpdatePlacement();
   }
+#if BUILDFLAG(IS_MAC)
+  UpdateWrylingToolbarPlacement();
+#endif
 
   bool vertical_tabs = VerticalTabController::FromBrowser(browser_)
                            ->ShouldShowBraveVerticalTabs();
@@ -775,6 +1007,10 @@ void BraveVerticalTabStripRegionView::OnThemeChanged() {
   View::OnThemeChanged();
 
   UpdateBorder();
+#if BUILDFLAG(IS_MAC)
+  // The space colour (the theme's user colour) may have changed.
+  UpdateWrylingSidebarGlass();
+#endif
 }
 
 void BraveVerticalTabStripRegionView::OnMouseExited(
@@ -883,6 +1119,9 @@ void BraveVerticalTabStripRegionView::OnMousePressedInTree() {
 
 void BraveVerticalTabStripRegionView::OnBoundsChanged(
     const gfx::Rect& previous_bounds) {
+#if BUILDFLAG(IS_MAC)
+  UpdateWrylingSidebarGlass();
+#endif
   if (!VerticalTabController::FromBrowser(browser_)
            ->ShouldShowBraveVerticalTabs()) {
     return;
@@ -972,7 +1211,10 @@ int BraveVerticalTabStripRegionView::GetTabStripViewportMaxHeight() const {
   // the actual viewport height.
   return GetContentsBounds().height() -
          (separator_->height() + tabs::kMarginForVerticalTabContainers) -
-         new_tab_button_->height();
+         new_tab_button_->height() -
+         (space_switcher_ && space_switcher_->GetVisible()
+              ? WrylingSpaceSwitcherView::kHeight
+              : 0);
 }
 
 void BraveVerticalTabStripRegionView::ResetExpandedWidth() {
@@ -1035,8 +1277,26 @@ void BraveVerticalTabStripRegionView::UpdateBorder() {
         border_insets.set_right(-(tabs::kMarginForVerticalTabContainers / 2));
       }
     }
+#if BUILDFLAG(IS_MAC)
+    // Wryling: room for the floating glass panel around the tab rows.
+    if (is_on_right) {
+      border_insets.set_left(border_insets.left() + kWrylingPaddingInner);
+      border_insets.set_right(border_insets.right() + kWrylingPaddingOuter);
+    } else {
+      border_insets.set_left(border_insets.left() + kWrylingPaddingOuter);
+      border_insets.set_right(border_insets.right() + kWrylingPaddingInner);
+    }
+#endif
     SetBorder(views::CreateEmptyBorder(border_insets));
   }
+
+#if BUILDFLAG(IS_MAC)
+  // Floating over the page, the glass panel can't show through, so the
+  // sidebar draws the panel itself: same shape, opaque, with a soft shadow.
+  SetBackground(state_ == State::kFloating
+                    ? std::make_unique<WrylingFloatingPanelBackground>()
+                    : nullptr);
+#endif
 
   PreferredSizeChanged();
 }
@@ -1099,6 +1359,15 @@ void BraveVerticalTabStripRegionView::OnShowToggleButtonPrefChanged() {
   // this state change is applied immediately.
   OnFloatingModePrefChanged();
 }
+
+#if BUILDFLAG(IS_MAC)
+void BraveVerticalTabStripRegionView::OnWrylingTintStrengthChanged() {
+  if (wryling::SetTintStrength(*wryling_tint_opacity_pref_)) {
+    RefreshWrylingColors();
+  }
+  UpdateWrylingSidebarGlass();
+}
+#endif
 
 void BraveVerticalTabStripRegionView::OnExpandedWidthPrefChanged() {
   if (!expanded_state_per_window_pref_.GetPrefName().empty() &&

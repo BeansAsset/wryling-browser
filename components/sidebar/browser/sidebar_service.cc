@@ -113,8 +113,12 @@ void SidebarService::RegisterProfilePrefs(
   registry->RegisterListPref(kSidebarItems);
   registry->RegisterListPref(kSidebarHiddenBuiltInItems);
   registry->RegisterBooleanPref(kLeoPanelOneShotOpen, false);
-  registry->RegisterIntegerPref(kSidebarShowOption,
-                                static_cast<int>(default_show_option));
+  // Wryling: the right-hand strip is off by default; it can be
+  // turned back on from the app menu's Sidebar item.
+  registry->RegisterIntegerPref(
+      kSidebarShowOption,
+      static_cast<int>(SidebarService::ShowSidebarOption::kShowNever));
+  (void)default_show_option;
   registry->RegisterIntegerPref(kSidebarItemAddedFeedbackBubbleShowCount, 0);
   registry->RegisterIntegerPref(
       kLastUsedBuiltInItemType,

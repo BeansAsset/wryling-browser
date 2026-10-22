@@ -46,6 +46,7 @@ export function AdvancedSettings(props: Props) {
     <div
       data-css-scope={style.scope}
       className='scrollable'
+      id='shields-advanced-settings'
       onScroll={(e) => {
         e.currentTarget.toggleAttribute(
           'data-scrolled',
@@ -81,6 +82,8 @@ function AdBlockControl(props: { showDetails: () => void }) {
     <div>
       <Icon name='hand-raised' />
       <Dropdown
+        mode='filled'
+        size='small'
         value={String(adBlockMode)}
         disabled={isManaged}
         onChange={({ value }) => {
@@ -146,6 +149,8 @@ function HttpsUpgradeControls() {
     <div>
       <Icon name='lock-dots' />
       <Dropdown
+        mode='filled'
+        size='small'
         value={String(httpsUpgradeMode)}
         onChange={({ value }) => {
           withEnumValue(value, (mode) => api.setHttpsUpgradeMode([mode]))
@@ -268,6 +273,8 @@ function FingerprintingControls(props: { showDetails: () => void }) {
       <Icon name='biometric-login' />
       {showStrictMode ? (
         <Dropdown
+        mode='filled'
+        size='small'
           value={String(fingerprintMode)}
           disabled={isManaged}
           onChange={({ value }) => {
@@ -334,6 +341,8 @@ function CookieBlockControls() {
     <div>
       <Icon name='cookie' />
       <Dropdown
+        mode='filled'
+        size='small'
         value={String(cookieBlockMode)}
         disabled={isManaged}
         onChange={({ value }) => {

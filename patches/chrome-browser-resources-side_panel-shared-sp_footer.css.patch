@@ -1,0 +1,13 @@
+diff --git a/chrome/browser/resources/side_panel/shared/sp_footer.css b/chrome/browser/resources/side_panel/shared/sp_footer.css
+index 4b7c9ab5d781575d822c0421cd2dbc5fec884dc3..57253a57d2ec7c089b6b0db7dee3caf040a2b78d 100644
+--- a/chrome/browser/resources/side_panel/shared/sp_footer.css
++++ b/chrome/browser/resources/side_panel/shared/sp_footer.css
+@@ -10,6 +10,8 @@
+ :host {
+   display: flex;
+   justify-content: center;
++  /* Wryling: keep the button off the panel's bottom edge. */
++  padding-block-end: 12px;
+ }
+ 
+ :host([pinned]) {

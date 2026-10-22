@@ -32,6 +32,7 @@ class MenuRunner;
 }  // namespace views
 
 class BraveNewTabButton;
+class WrylingSpaceSwitcherView;
 class BrowserView;
 class BrowserWindowInterface;
 class FullscreenController;
@@ -60,6 +61,19 @@ class BraveVerticalTabStripRegionView : public views::View,
     kFloating,
     kExpanded,
   };
+
+  // Wryling's floating Liquid Glass sidebar panel (macOS). The panel is
+  // kWrylingPanelInset from the window's top, bottom and outer edge, with a
+  // corner radius concentric with the window's. The tab rows get extra
+  // padding inside the column so they sit kWrylingPanelInset clear of the
+  // panel's edges; the panel itself is the contents bounds outset by
+  // kWrylingPanelOutset.
+  static constexpr int kWrylingPanelInset = 6;
+  static constexpr int kWrylingPanelCornerRadius = 14;
+  static constexpr int kWrylingPanelOutset = 4;
+  static constexpr int kWrylingPaddingOuter =
+      kWrylingPanelInset + kWrylingPanelOutset;  // Window-edge side.
+  static constexpr int kWrylingPaddingInner = 8;  // Page side.
 
   BraveVerticalTabStripRegionView(BrowserView* browser_view,
                                   HorizontalTabStripRegionView* region_view);
@@ -204,6 +218,21 @@ class BraveVerticalTabStripRegionView : public views::View,
 
   std::u16string GetShortcutTextForNewTabButton(BrowserView* browser_view);
 
+#if BUILDFLAG(IS_MAC)
+  // Wryling: places a native Liquid Glass panel (NSGlassEffectView) behind
+  // this sidebar, inset and rounded like Finder's sidebar on macOS 26. Called
+  // whenever the sidebar's bounds or layout change.
+  void UpdateWrylingSidebarGlass();
+  // Hides the window's traffic lights while the sidebar is hidden away;
+  // they come back with it.
+  void UpdateWrylingTrafficLights();
+  // Applies the "Tint strength" pref to the colours and the glass panel.
+  void OnWrylingTintStrengthChanged();
+  // The toolbar moves into the sidebar while it's expanded, and in every
+  // state when the sidebar hides completely (it floats back in with it).
+  void UpdateWrylingToolbarPlacement();
+#endif
+
   void OnMenuClosed();
 
   // Subscription to `RegisterBrowserDidClose`. We use this event to handle the
@@ -226,11 +255,20 @@ class BraveVerticalTabStripRegionView : public views::View,
   // https://github.com/brave/brave-browser/issues/51719
   raw_ptr<views::View> region_view_container_ = nullptr;
 
+#if BUILDFLAG(IS_MAC)
+  // Wryling: holds the toolbar (moved here from the top container) as two
+  // rows above the tabs.
+  raw_ptr<views::View> toolbar_container_ = nullptr;
+#endif
+
   // Separator between tabs and new tab button.
   raw_ptr<views::View> separator_ = nullptr;
 
   // New tab button created for vertical tabs
   raw_ptr<BraveNewTabButton> new_tab_button_ = nullptr;
+  // Wryling Spaces: the space buttons at the bottom of the panel (normal
+  // windows only).
+  raw_ptr<WrylingSpaceSwitcherView> space_switcher_ = nullptr;
 
   raw_ptr<views::View> resize_area_ = nullptr;
   std::optional<int> resize_offset_;
@@ -251,6 +289,11 @@ class BraveVerticalTabStripRegionView : public views::View,
   BooleanPrefMember show_toggle_button_pref_;
 
   IntegerPrefMember expanded_width_pref_;
+#if BUILDFLAG(IS_MAC)
+  // Wryling: tint strength of the glass panel (wryling::kTintOpacityPref).
+  IntegerPrefMember wryling_tint_opacity_pref_;
+  BooleanPrefMember wryling_clear_glass_pref_;
+#endif
   int expanded_width_ = 220;
 
   base::OneShotTimer mouse_enter_timer_;

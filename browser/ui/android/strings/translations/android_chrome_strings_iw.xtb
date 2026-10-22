@@ -44,7 +44,7 @@
 <translation id="7083341910267693582">‏האפליקציה <ph name="APP_NAME"/> תיפתח ב-Brave. המשך הפעולה מבטא הסכמה <ph name="BEGIN_LINK1"/>לתנאים ולהגבלות של Brave<ph name="END_LINK1"/> ו<ph name="BEGIN_LINK2"/>לתנאים ולהגבלות הנוספים של Brave ו-ChromeOS<ph name="END_LINK2"/>.</translation>
 <translation id="7443574521624544928">‏אין לך סיסמאות שמורות במנהל הסיסמאות של Brave.</translation>
 <translation id="115483310321669804">שימוש בסיסמה <ph name="PASSWORD"/></translation>
-<translation id="4489415936688888898">‏‫Gemini ב-Brave</translation>
+<translation id="4980210551795949534">‏‫Gemini ב-Wryling</translation>
 <translation id="1161065531352634524">סנכרון הכרטיסיות וההיסטוריה</translation>
 <translation id="1165109137568919258">כדי לחפש, אפשר לצלם תמונה או להוסיף תמונה מגלריית התמונות</translation>
 <translation id="1173894706177603556">שינוי שם</translation>
@@ -91,8 +91,8 @@
 <translation id="1333491156693005331">התבצעה בדיקה לאחרונה</translation>
 <translation id="1336996151357442890">ביטלת את ההרשמה לאתר <ph name="SITE_NAME"/>. תוצג שאלה נוספת בביקור הבא שלך.</translation>
 <translation id="1340839264183302272">יציאה מהקבוצה</translation>
-<translation id="873343310451048603">‏כדי לבדוק אם יש סיסמאות שנחשפו, צריך לעבור למנהל הסיסמאות של Brave</translation>
-<translation id="4167284810587724062">‏כניסה ל-Brave</translation>
+<translation id="4973862711373394097">‏כדי לבדוק אם יש סיסמאות שנחשפו, צריך לעבור למנהל הסיסמאות של Wryling</translation>
+<translation id="5451434122049588189">‏כניסה ל-Wryling</translation>
 <translation id="1344653310988386453">עליך לכלול קישור לטקסט המודגש</translation>
 <translation id="1355088659320425659">היסטוריה וכרטיסיות</translation>
 <translation id="1363028406613469049">רצועה</translation>
@@ -147,7 +147,7 @@
 רק מי שיודע את ביטוי הסיסמה יכול לקרוא את הנתונים המוצפנים. ביטוי הסיסמה לא נשלח אל Brave ולא מאוחסן ב-Brave. אם שכחת את ביטוי הסיסמה או שברצונך לשנות את ההגדרה הזו, <ph name="BEGIN_LINK"/>עליך לנקות את נתוני Brave בחשבון<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">‏כדי לנהל את חשבון Brave, יש ללחוץ על הכפתור "ניהול החשבון"</translation>
 <translation id="1549000191223877751">העברה לחלון האחר</translation>
-<translation id="1705567146636171298">‏כדאי לעדכן את Brave</translation>
+<translation id="4469722898384489712">‏כדאי לעדכן את Wryling</translation>
 <translation id="1554352084785952638">‫<ph name="SEARCH_ENGINE"/> את המונח "<ph name="SEARCH_TERMS"/>"</translation>
 <translation id="2509230690562869141">‏המדדים שישותפו יעזרו בשיפור Brave בשביל אנשים שמשתמשים בו בצורה דומה לשלך</translation>
 <translation id="1568636008098739136">האזנה לדף הזה. ניתן לערוך את קיצור הדרך הזה בלחיצה ארוכה.</translation>
@@ -207,8 +207,8 @@
 <translation id="4544426875066706571">‏כדי להגן על הנתונים שלך, כדאי לאפשר ל-Brave להסיר הרשאות מאתרים שלא נכנסת אליהם לאחרונה</translation>
 <translation id="1851551847729706116">מתבצע שיתוף של <ph name="TAB_NAME"/> לכרטיסייה הזו</translation>
 <translation id="1869691326892615940">סיסמאות בטוחות יותר, כניסה מהירה יותר</translation>
-<translation id="7175072311426658869">‏פתיחה בדפדפן Brave</translation>
-<translation id="5173820533850252773">‏Brave אינו מעודכן</translation>
+<translation id="7259806589727104192">‏פתיחה בדפדפן Wryling</translation>
+<translation id="1523936557081546133">‏Wryling אינו מעודכן</translation>
 <translation id="1877073879466606884">הפרופיל שאליו נכנסת הוא פרופיל מנוהל. לאדמין יש אפשרות לשנות מרחוק את הגדרות הפרופיל, לנתח מידע על הדפדפן באמצעות דוחות ולבצע משימות חשובות אחרות.</translation>
 <translation id="1879904908408734349">הגיליון התחתון של הכניסה סגור</translation>
 <translation id="1883903952484604915">הקבצים שלי</translation>
@@ -576,7 +576,7 @@
 <translation id="3384347053049321195">שיתוף תמונה</translation>
 <translation id="3387650086002190359">הורדת <ph name="FILE_NAME"/> נכשלה עקב שגיאות במערכת הקבצים.</translation>
 <translation id="5654361895804243820">‏אפשר לנהל את החלונות במנהל החלונות של Brave</translation>
-<translation id="4302350545547675750">‏ניהול במנהל הסיסמאות של Brave</translation>
+<translation id="54130667607538272">‏ניהול במנהל הסיסמאות של Wryling</translation>
 <translation id="3417835166382867856">חיפוש כרטיסיות</translation>
 <translation id="3430670036890315772">השבתה של נעילת הפרופיל תגרום להסרת המידע השמור</translation>
 <translation id="4114256890962999877">‏כדי לשמור על הגישה לסיסמאות, צריך לייצא אותן עכשיו, לעדכן את Google Play Services ואז לייבא אותן חזרה למנהל הסיסמאות של Brave. <ph name="BEGIN_LINK"/>לצפייה בהוראות המלאות<ph name="END_LINK"/>.</translation>
@@ -738,7 +738,7 @@
 <translation id="4072805772816336153">יש לנסות שוב מאוחר יותר</translation>
 <translation id="4084682180776658562">סימנייה</translation>
 <translation id="4521874409998847950">‏מאת <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>מוגש על-ידי Brave<ph name="END_DEEMPHASIZED"/></translation>
-<translation id="7268155614575494857">‏כדי לעזור למנהל הסיסמאות של Brave לשמור את פרטי הכניסה, עליך להוסיף את שם המשתמש שלך באתר הזה</translation>
+<translation id="6708405940091325014">‏כדי לעזור למנהל הסיסמאות של Wryling לשמור את פרטי הכניסה, עליך להוסיף את שם המשתמש שלך באתר הזה</translation>
 <translation id="4095146165863963773">למחוק נתוני יישומים?</translation>
 <translation id="4095483462103784441">יצירה של קבוצת כרטיסיות חדשה</translation>
 <translation id="1523634703470981382">‏העדכון של מנהל הסיסמאות של Brave נפתח</translation>
@@ -1086,7 +1086,7 @@
 <translation id="5532536403031755365">מוסיפים עוד שכבה של הגנה משופרת מפני איומים באינטרנט</translation>
 <translation id="5540127996007641535">{NUM_BOOKMARKS,plural, =1{פתיחת הסימנייה}one{פתיחת כל הסימניות (#)}two{פתיחת כל הסימניות (#)}other{פתיחת כל הסימניות (#)}}</translation>
 <translation id="5548606607480005320">בדיקת אבטחה</translation>
-<translation id="4362225295386962644">‏אם משתמשים בסיסמה והיא פורסמה באינטרנט, מוצגת אזהרה ב-Brave. כשהבדיקה הזו מתבצעת, הסיסמאות ושמות המשתמשים מוצפנים, כך שאיש לא יכול לקרוא אותם, כולל Brave.</translation>
+<translation id="3680104634340426001">‏אם משתמשים בסיסמה והיא פורסמה באינטרנט, מוצגת אזהרה ב-Brave. כשהבדיקה הזו מתבצעת, הסיסמאות ושמות המשתמשים מוצפנים, כך שאיש לא יכול לקרוא אותם, כולל Brave.</translation>
 <translation id="5555525474779371165">בחירת סוג ההגנה במסגרת 'גלישה בטוחה'</translation>
 <translation id="5556459405103347317">טעינה מחדש</translation>
 <translation id="555671485580955310">היסטוריית הסנכרון וכרטיסיות</translation>
@@ -1189,7 +1189,7 @@
 <translation id="6002122790816966947">המכשירים שלך</translation>
 <translation id="6011308810877101166">שיפור של ההצעות לחיפוש</translation>
 <translation id="6013305291643746595">בתהליך מיון לפי הפריט הישן ביותר</translation>
-<translation id="296137235951584143">‏אפשר להתאים אישית את Brave בדרך שנוחה לך</translation>
+<translation id="4578349172774307195">‏אפשר להתאים אישית את Wryling בדרך שנוחה לך</translation>
 <translation id="6023820583797130428">כדי לחזור למסך הקודם צריך לפתוח את התפריט</translation>
 <translation id="6026538407078977628">הרחבה למסך מלא</translation>
 <translation id="6039379616847168523">מעבר לכרטיסייה הבאה</translation>
@@ -1248,7 +1248,7 @@
 לדוגמה, ייתכן שבתגובה לבקשה, אתרים מסוימים יציגו מודעות שאינן מבוססות על אתרים אחרים שבהם ביקרת. אתרים רבים ימשיכו לאסוף את נתוני הגלישה שלך ולהשתמש בהם, למשל כדי לשפר את האבטחה, כדי לספק תוכן, מודעות והמלצות וכדי ליצור נתונים סטטיסטיים לדיווח.</translation>
 <translation id="623755660902014047">מצב קריאה</translation>
 <translation id="6246073558347462570">החלון הקופץ של "הוספת הקשר"</translation>
-<translation id="8883879481897424949">‏מנהל הסיסמאות של Brave</translation>
+<translation id="3888885285070224654">‏מנהל הסיסמאות של Wryling</translation>
 <translation id="6248988683584659830">חיפוש בהגדרות</translation>
 <translation id="2715956954609894918">‏לצפייה בהיסטוריה ב-Brave</translation>
 <translation id="6254139308321626268">‏מוצג לך קובץ PDF</translation>
@@ -1297,7 +1297,7 @@
 <translation id="6394791151443660613">חיפוש: <ph name="SEARCH_QUERY"/></translation>
 <translation id="6397616442223433927">חזרה למצב אונליין</translation>
 <translation id="6399363707848566877">עכשיו אפשר להוסיף בקלות כרטיסיות לקבוצות כאן</translation>
-<translation id="8789425457808164956">‏כדי לשלוח את הכרטיסייה הזו למכשיר אחר, צריך להיכנס ל-Brave במכשיר האחר</translation>
+<translation id="2522845252291433622">‏כדי לשלוח את הכרטיסייה הזו למכשיר אחר, צריך להיכנס ל-Wryling במכשיר האחר</translation>
 <translation id="6404511346730675251">עריכת סימנייה</translation>
 <translation id="6410883413783534063">ניתן לפתוח כרטיסיות כדי להיכנס אל דפים שונים בו-זמנית</translation>
 <translation id="6411009031428071896">האזנה לפיד</translation>
@@ -1327,7 +1327,7 @@
 <translation id="6482749332252372425">הורדת <ph name="FILE_NAME"/> נכשלה מאחר שחסר נפח אחסון.</translation>
 <translation id="6486420406192123355">‏קובץ ה-PDF הזה מגיע מאתר שמשתמש בחיבור לא מאובטח</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{קובץ אחד הורד}one{# הורדות הושלמו}two{# הורדות הושלמו}other{# הורדות הושלמו}}</translation>
-<translation id="3960299545138990065">‏הפעלה מחדש של Brave</translation>
+<translation id="6199441660763014986">‏הפעלה מחדש של Wryling</translation>
 <translation id="6513924416597632811">העתקת הקישור לדף תוצאות החיפוש של: <ph name="SEARCH_QUERY"/>. מקור: <ph name="PAGE_URL"/></translation>
 <translation id="6518133107902771759">אימות</translation>
 <translation id="6521218807522232085">כדי להיכנס לחשבון בקלות, אפשר ליצור, לשמור ולנהל סיסמאות</translation>
@@ -1357,7 +1357,7 @@
 <translation id="6602173570135186741">מילוי אוטומטי וסיסמאות</translation>
 <translation id="661266467055912436">רמת אבטחה משופרת עבורך ועבור כל מי שמתחבר לאינטרנט.</translation>
 <translation id="6615455863669487791">איך עושים את זה?</translation>
-<translation id="8127050479140582768">‏כדי לשלוח את הכרטיסייה הזו למכשיר אחר, צריך להיכנס ל-Brave בשני המכשירים</translation>
+<translation id="7379057487310867567">‏כדי לשלוח את הכרטיסייה הזו למכשיר אחר, צריך להיכנס ל-Wryling בשני המכשירים</translation>
 <translation id="6627583120233659107">עריכת התיקייה</translation>
 <translation id="6636623428211296678">אפשר לעיין למטה בהגדרות נוספות או לסיים עכשיו.</translation>
 <translation id="7939692063031538305">‏כדי לעזור בשיפור האפליקציה, Brave ישלח נתוני שימוש וקריסות אל Brave. <ph name="BEGIN_UMA_LINK"/>ניהול<ph name="END_UMA_LINK"/></translation>
@@ -2027,7 +2027,7 @@
 <translation id="9212845824145208577">אי אפשר לזוז למטה יותר. יש לנסות להתחיל מחלק נמוך יותר בדף.</translation>
 <translation id="9218430445555521422">הגדרה כברירת מחדל</translation>
 <translation id="9219103736887031265">תמונות</translation>
-<translation id="142389341645668510">‏התאמה אישית של Brave</translation>
+<translation id="9094133852008074140">‏התאמה אישית של Wryling</translation>
 <translation id="9222198206152536936">כדי לקבל גישה לכרטיסיות ולפריטים נוספים בכל המכשירים שלך, כדאי להיכנס לחשבון <ph name="EMAIL"/></translation>
 <translation id="7625138338483121345">‏הגדר את Brave בתור דפדפן ברירת המחדל</translation>
 <translation id="4596514158372210596">‏הסרת הפעילות שלך ב-Brave מ'שימוש חכם בדיגיטל'.</translation>
@@ -2057,7 +2057,7 @@
 <translation id="5352668640894950863">נעל חלונות פרטיים כשאתה עוזב את Brave</translation>
 <translation id="1014490034578104945">השתמשו בנעילת המסך כדי לראות את הכרטיסיות הפרטיות הפתוחות</translation>
 <translation id="5572558661069030949">השתמש בנעילת מסך כדי לראות חלונות פרטיים פתוחים</translation>
-<translation id="2589970573128789862">פרטי אמיץ</translation>
+<translation id="2090681901335274465">פרטי אמיץ</translation>
 <translation id="5809126106485463836">מצב פרטי מבטיח את פרטיות הגלישה מפני אנשים אחרים המשתמשים במכשיר שלכם</translation>
 <translation id="5487565066256782913">פתח חלון גלישה פרטית חדש</translation>
 <translation id="5706084539081051088">כאשר אתה גולש במצב פרטי, אחרים המשתמשים במכשיר זה לא יראו את הפעילות שלך, כך שתוכל לגלוש בצורה פרטית יותר. <ph name="BEGIN_LINK"/>למידע נוסף<ph name="END_LINK"/></translation>

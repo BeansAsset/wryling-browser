@@ -26,6 +26,7 @@
 #include "brave/components/brave_shields/content/browser/ad_block_subscription_service_manager_observer.h"
 #include "brave/components/brave_shields/core/browser/ad_block_filters_provider_manager.h"
 #include "brave/components/brave_shields/core/browser/ad_block_list_p3a.h"
+#include "brave/components/brave_shields/core/browser/wryling_public_lists.h"
 #include "brave/components/brave_shields/core/common/adblock/rs/src/lib.rs.h"
 #include "brave/components/brave_shields/core/common/brave_shield_constants.h"
 #include "brave/components/brave_shields/core/common/pref_names.h"
@@ -251,7 +252,8 @@ void AdBlockSubscriptionServiceManager::CreateSubscription(
           GetSubscriptionPath(sub_url).Append(kCustomSubscriptionListText),
           base::BindRepeating(
               &AdBlockSubscriptionServiceManager::OnListMetadata,
-              weak_ptr_factory_.GetWeakPtr(), sub_url));
+              weak_ptr_factory_.GetWeakPtr(), sub_url),
+          wryling::IsDefaultListUrl(sub_url.spec()));
   subscription_filters_providers_.insert(
       std::make_pair(sub_url, std::move(subscription_filters_provider)));
 
@@ -292,7 +294,8 @@ void AdBlockSubscriptionServiceManager::EnableSubscription(const GURL& sub_url,
             GetSubscriptionPath(sub_url).Append(kCustomSubscriptionListText),
             base::BindRepeating(
                 &AdBlockSubscriptionServiceManager::OnListMetadata,
-                weak_ptr_factory_.GetWeakPtr(), sub_url));
+                weak_ptr_factory_.GetWeakPtr(), sub_url),
+            wryling::IsDefaultListUrl(sub_url.spec()));
     subscription_filters_provider->OnListAvailable();
     subscription_filters_providers_.insert(
         {sub_url, std::move(subscription_filters_provider)});
@@ -442,12 +445,26 @@ void AdBlockSubscriptionServiceManager::LoadSubscriptionServices() {
                     kCustomSubscriptionListText),
                 base::BindRepeating(
                     &AdBlockSubscriptionServiceManager::OnListMetadata,
-                    weak_ptr_factory_.GetWeakPtr(), sub_url));
+                    weak_ptr_factory_.GetWeakPtr(), sub_url),
+                wryling::IsDefaultListUrl(sub_url.spec()));
         subscription_filters_provider->OnListAvailable();
         subscription_filters_providers_.insert(
             std::make_pair(sub_url, std::move(subscription_filters_provider)));
       }
     }
+  }
+
+  // Wryling: Brave's default lists come from components this build can't
+  // download, so subscribe once to their public sources instead.
+  if (!wryling::HasBraveServicesKey() &&
+      !local_state_->GetBoolean(wryling::kDefaultListsAddedPref)) {
+    for (std::string_view url : wryling::kDefaultListUrls) {
+      GURL sub_url{url};
+      if (!subscriptions_.FindDict(sub_url.spec())) {
+        CreateSubscription(sub_url);
+      }
+    }
+    local_state_->SetBoolean(wryling::kDefaultListsAddedPref, true);
   }
 }
 

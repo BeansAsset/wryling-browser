@@ -1,0 +1,28 @@
+diff --git a/ui/views/controls/menu/menu_host.cc b/ui/views/controls/menu/menu_host.cc
+index 547be87232685847ab0caf1c07e22a329d68767a..756a527cdd8419593f075de8ea6c62b05d607d28 100644
+--- a/ui/views/controls/menu/menu_host.cc
++++ b/ui/views/controls/menu/menu_host.cc
+@@ -44,6 +44,10 @@
+ #include "ui/ozone/public/ozone_platform.h"
+ #endif
+ 
++#if BUILDFLAG(IS_MAC)
++#include "ui/views/controls/menu/menu_glass_mac.h"
++#endif
++
+ namespace views {
+ 
+ namespace internal {
+@@ -203,6 +207,12 @@ void MenuHost::InitMenuHost(const InitParams& init_params) {
+   }
+   native_view_for_gestures_ = init_params.native_view_for_gestures;
+   SetContentsView(init_params.contents_view);
++#if BUILDFLAG(IS_MAC)
++  LayoutRootViewIfNecessary();
++  InstallWrylingMenuGlass(
++      this, init_params.parent ? init_params.parent : init_params.context,
++      submenu_->GetScrollViewContainer(), corner_radius);
++#endif
+   ShowMenuHost(init_params.do_capture);
+ }
+ 

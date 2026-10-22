@@ -44,7 +44,7 @@
 <translation id="7083341910267693582"><ph name="APP_NAME"/> do të hapet në Brave. Duke vazhduar, ti pranon <ph name="BEGIN_LINK1"/>"Kushtet e shërbimit" të Brave<ph name="END_LINK1"/> dhe <ph name="BEGIN_LINK2"/>"Kushtet shtesë të shërbimit" të Brave dhe të ChromeOS<ph name="END_LINK2"/>.</translation>
 <translation id="7443574521624544928">Nuk ke fjalëkalime të ruajtura te "Menaxheri i fjalëkalimeve i Brave".</translation>
 <translation id="115483310321669804">Përdor fjalëkalimin <ph name="PASSWORD"/></translation>
-<translation id="4489415936688888898">Gemini në Brave</translation>
+<translation id="4980210551795949534">Gemini në Wryling</translation>
 <translation id="1161065531352634524">Sinkronizo skedat dhe historikun</translation>
 <translation id="1165109137568919258">Nxirr një fotografi ose shto një imazh nga galeria jote e fotografive për të kërkuar</translation>
 <translation id="1173894706177603556">Riemërto</translation>
@@ -91,8 +91,8 @@
 <translation id="1333491156693005331">Kontrolluar së fundi</translation>
 <translation id="1336996151357442890">U çabonove nga <ph name="SITE_NAME"/>. Do të pyetesh përsëri gjatë vizitës sate të radhës.</translation>
 <translation id="1340839264183302272">Largohu nga grupi</translation>
-<translation id="873343310451048603">Për të kontrolluar për fjalëkalimet e komprometuara, shko te "Menaxheri i fjalëkalimeve i Brave"</translation>
-<translation id="4167284810587724062">Identifikohu në Brave</translation>
+<translation id="4973862711373394097">Për të kontrolluar për fjalëkalimet e komprometuara, shko te "Menaxheri i fjalëkalimeve i Wryling"</translation>
+<translation id="5451434122049588189">Identifikohu në Wryling</translation>
 <translation id="1344653310988386453">Përfshi lidhjen për te teksti i theksuar</translation>
 <translation id="1355088659320425659">Historiku dhe skedat</translation>
 <translation id="1363028406613469049">Pjesa muzikore</translation>
@@ -147,7 +147,7 @@ Për më shumë cilësime që përdorin të dhënat për të përmirësuar përv
 Vetëm dikush me frazën tënde të kalimit mund të lexojë të dhënat e tua të enkriptuara. Fraza e kalimit nuk dërgohet apo ruhet nga Brave. Nëse e harron frazën tënde të kalimit apo dëshiron të ndryshosh këtë cilësim, <ph name="BEGIN_LINK"/>pastro të dhënat e Brave në llogarinë tënde<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">Për të menaxhuar "Llogarinë tënde të Brave", prek butonin "Menaxho llogarinë"</translation>
 <translation id="1549000191223877751">Zhvendose te dritarja tjetër</translation>
-<translation id="1705567146636171298">Përditëso Brave</translation>
+<translation id="4469722898384489712">Përditëso Wryling</translation>
 <translation id="1554352084785952638"><ph name="SEARCH_ENGINE"/> për "<ph name="SEARCH_TERMS"/>"</translation>
 <translation id="2509230690562869141">Ndihmo në përmirësimin e Brave për njerëzit që e përdorin si ti</translation>
 <translation id="1568636008098739136">Dëgjoje këtë faqe. Për ta modifikuar këtë shkurtore, preke dhe mbaje shtypur.</translation>
@@ -207,8 +207,8 @@ Vetëm dikush me frazën tënde të kalimit mund të lexojë të dhënat e tua t
 <translation id="4544426875066706571">Për të mbrojtur të dhënat e tua, lejo që Brave të heqë lejet nga sajtet që nuk i ke vizituar së fundi</translation>
 <translation id="1851551847729706116">Po ndahet <ph name="TAB_NAME"/> në këtë skedë</translation>
 <translation id="1869691326892615940">Fjalëkalime më të sigurta, identifikim më i shpejtë</translation>
-<translation id="7175072311426658869">Hapi në shfletuesin Brave</translation>
-<translation id="5173820533850252773">Brave nuk është i përditësuar</translation>
+<translation id="7259806589727104192">Hapi në shfletuesin Wryling</translation>
+<translation id="1523936557081546133">Wryling nuk është i përditësuar</translation>
 <translation id="1877073879466606884">Profili në të cilin je i identifikuar është një profil i menaxhuar. Administratori yt mund të bëjë ndryshime në cilësimet e profilit tënd në distancë, mund të analizojë informacionet rreth shfletuesit nëpërmjet raportimit dhe mund të kryejë detyra të tjera të nevojshme.</translation>
 <translation id="1879904908408734349">Fleta e poshtme e identifikimit u mbyll</translation>
 <translation id="1883903952484604915">Skedarët e mi</translation>
@@ -576,7 +576,7 @@ Vetëm dikush me frazën tënde të kalimit mund të lexojë të dhënat e tua t
 <translation id="3384347053049321195">Ndaje imazhin</translation>
 <translation id="3387650086002190359">Shkarkimi i <ph name="FILE_NAME"/> dështoi për shkak të gabimeve të sistemit të skedarëve.</translation>
 <translation id="5654361895804243820">Mund t'i menaxhosh dritaret e tua te "Menaxheri i dritareve" i Brave</translation>
-<translation id="4302350545547675750">Menaxho te "Menaxheri i fjalëkalimeve i Brave"</translation>
+<translation id="54130667607538272">Menaxho te "Menaxheri i fjalëkalimeve i Wryling"</translation>
 <translation id="3417835166382867856">Kërko skedat</translation>
 <translation id="3430670036890315772">Çaktivizimi i kyçjes së profilit do të heqë informacionet e tua të ruajtura</translation>
 <translation id="4114256890962999877">Për të mbajtur qasjen te fjalëkalimet e tua, eksportoji ato tani, përditëso shërbimet e Google Play dhe më pas importoji fjalëkalimet sërish te "Menaxheri i fjalëkalimeve i Brave". <ph name="BEGIN_LINK"/>Shiko udhëzimet e plota<ph name="END_LINK"/>.</translation>
@@ -738,7 +738,7 @@ Vetëm dikush me frazën tënde të kalimit mund të lexojë të dhënat e tua t
 <translation id="4072805772816336153">Provo përsëri më vonë</translation>
 <translation id="4084682180776658562">Faqeshënuesi</translation>
 <translation id="4521874409998847950">Nga <ph name="PUBLISHER_ORIGIN"/> - <ph name="BEGIN_DEEMPHASIZED"/>dërguar nga Brave<ph name="END_DEEMPHASIZED"/></translation>
-<translation id="7268155614575494857">Për të ndihmuar që "Menaxheri i fjalëkalimeve i Brave" të ruajë informacionet e tua të identifikimit, shto emrin tënd të përdoruesit për këtë sajt</translation>
+<translation id="6708405940091325014">Për të ndihmuar që "Menaxheri i fjalëkalimeve i Wryling" të ruajë informacionet e tua të identifikimit, shto emrin tënd të përdoruesit për këtë sajt</translation>
 <translation id="4095146165863963773">Të fshihen të dhënat e aplikacioneve?</translation>
 <translation id="4095483462103784441">Krijo një grup të ri skedash</translation>
 <translation id="1523634703470981382">Përditësimi i "Menaxherit të fjalëkalimeve të Brave" u hap</translation>
@@ -1086,7 +1086,7 @@ Llogaria jote e Brave mund të ketë forma të tjera të historikut të shfletim
 <translation id="5532536403031755365">Shto një shtresë shtesë mbrojtjeje ndaj kërcënimeve online me mbrojtjen e përmirësuar</translation>
 <translation id="5540127996007641535">{NUM_BOOKMARKS,plural, =1{Hap faqeshënuesin}other{Hapi të gjithë (#)}}</translation>
 <translation id="5548606607480005320">Kontrolli i sigurisë</translation>
-<translation id="4362225295386962644">Kur përdor një fjalëkalim, Brave të paralajmëron nëse ai është publikuar online. Kur vepron kështu, fjalëkalimet dhe emrat e tu të përdoruesit enkriptohen, në mënyrë që të mos lexohen nga askush, duke përfshirë Brave.</translation>
+<translation id="3680104634340426001">Kur përdor një fjalëkalim, Brave të paralajmëron nëse ai është publikuar online. Kur vepron kështu, fjalëkalimet dhe emrat e tu të përdoruesit enkriptohen, në mënyrë që të mos lexohen nga askush, duke përfshirë Brave.</translation>
 <translation id="5555525474779371165">Zgjidh mbrojtjen me "Shfletimin e sigurt"</translation>
 <translation id="5556459405103347317">Ringarko</translation>
 <translation id="555671485580955310">Sinkronizo historikun dhe skedat</translation>
@@ -1189,7 +1189,7 @@ Llogaria jote e Brave mund të ketë forma të tjera të historikut të shfletim
 <translation id="6002122790816966947">Pajisjet e tua</translation>
 <translation id="6011308810877101166">Përmirëso sugjerimet për kërkimin</translation>
 <translation id="6013305291643746595">Po renditet sipas më të vjetërve</translation>
-<translation id="296137235951584143">Bëje Brave shfletuesin tënd</translation>
+<translation id="4578349172774307195">Bëje Wryling shfletuesin tënd</translation>
 <translation id="6023820583797130428">Hap menynë për t'u kthyer prapa</translation>
 <translation id="6026538407078977628">Zgjero në ekranin e plotë</translation>
 <translation id="6039379616847168523">Kalo te skeda tjetër</translation>
@@ -1248,7 +1248,7 @@ Llogaria jote e Brave mund të ketë forma të tjera të historikut të shfletim
 Për shembull, disa uebsajte mund t'i përgjigjen kësaj kërkese duke të treguar reklama që nuk bazohen në uebsajtet e tjera që ke vizituar. Shumë uebsajte do të mbledhin dhe do të përdorin përsëri të dhënat e tua të shfletimit - për shembull, për të përmirësuar sigurinë, për të ofruar përmbajtje, reklama dhe rekomandime, si dhe për të krijuar statistika raportimi.</translation>
 <translation id="623755660902014047">Modaliteti i leximit</translation>
 <translation id="6246073558347462570">Dritarja kërcyese kontekstuale</translation>
-<translation id="8883879481897424949">Menaxheri i fjalëkalimeve i Brave</translation>
+<translation id="3888885285070224654">Menaxheri i fjalëkalimeve i Wryling</translation>
 <translation id="6248988683584659830">Cilësimet e kërkimit</translation>
 <translation id="2715956954609894918">Shiko historikun e Brave këtu</translation>
 <translation id="6254139308321626268">Po shikon një skedar PDF</translation>
@@ -1297,7 +1297,7 @@ Për shembull, disa uebsajte mund t'i përgjigjen kësaj kërkese duke të tregu
 <translation id="6394791151443660613">Kërko: <ph name="SEARCH_QUERY"/></translation>
 <translation id="6397616442223433927">Përsëri online</translation>
 <translation id="6399363707848566877">Tani mund të shtosh me lehtësi skeda te grupet këtu</translation>
-<translation id="8789425457808164956">Për ta dërguar këtë skedë te një pajisje tjetër, identifikohu në Brave në të</translation>
+<translation id="2522845252291433622">Për ta dërguar këtë skedë te një pajisje tjetër, identifikohu në Wryling në të</translation>
 <translation id="6404511346730675251">Redakto faqeshënuesin</translation>
 <translation id="6410883413783534063">Hap skedat për të vizituar faqe të ndryshme njëkohësisht</translation>
 <translation id="6411009031428071896">Dëgjo furnizimin</translation>
@@ -1327,7 +1327,7 @@ Për shembull, disa uebsajte mund t'i përgjigjen kësaj kërkese duke të tregu
 <translation id="6482749332252372425">Shkarkimi i <ph name="FILE_NAME"/> dështoi për shkak të mungesës së hapësirës ruajtëse.</translation>
 <translation id="6486420406192123355">Ky skedar PDF është nga një sajt që përdor një lidhje të pasigurt</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{Skedar i shkarkuar}other{# shkarkime të përfunduara}}</translation>
-<translation id="3960299545138990065">Rinis Brave</translation>
+<translation id="6199441660763014986">Rinis Wryling</translation>
 <translation id="6513924416597632811">Kopjo lidhjen për te faqja e rezultateve të kërkimit për: <ph name="SEARCH_QUERY"/>. Burimi: <ph name="PAGE_URL"/></translation>
 <translation id="6518133107902771759">Verifiko</translation>
 <translation id="6521218807522232085">Krijo, ruaj dhe menaxho fjalëkalimet e tua që të mund të identifikohesh me lehtësi</translation>
@@ -1357,7 +1357,7 @@ Për shembull, disa uebsajte mund t'i përgjigjen kësaj kërkese duke të tregu
 <translation id="6602173570135186741">Plotësimi automatik dhe fjalëkalimet</translation>
 <translation id="661266467055912436">Përmirëson sigurinë për ty dhe këdo në ueb.</translation>
 <translation id="6615455863669487791">Ma trego</translation>
-<translation id="8127050479140582768">Për ta dërguar këtë skedë te një pajisje tjetër, identifikohu në Brave në të dyja pajisjet</translation>
+<translation id="7379057487310867567">Për ta dërguar këtë skedë te një pajisje tjetër, identifikohu në Wryling në të dyja pajisjet</translation>
 <translation id="6627583120233659107">Modifiko dosjen</translation>
 <translation id="6636623428211296678">Eksploro më shumë cilësime më poshtë ose përfundo tani</translation>
 <translation id="7939692063031538305">Për të ndihmuar në përmirësimin e aplikacionit, Brave dërgon të dhëna të përdorimit dhe të ndërprerjeve aksidentale te Brave. <ph name="BEGIN_UMA_LINK"/>Menaxho<ph name="END_UMA_LINK"/></translation>
@@ -2027,7 +2027,7 @@ Për ta ndryshuar këtë cilësim, <ph name="BEGIN_LINK"/>fshi të dhënat e Bra
 <translation id="9212845824145208577">Nuk mund të shkosh më poshtë. Provo të fillosh më poshtë në faqe.</translation>
 <translation id="9218430445555521422">Cakto si parazgjedhje</translation>
 <translation id="9219103736887031265">Imazhet</translation>
-<translation id="142389341645668510">Personalizo Brave</translation>
+<translation id="9094133852008074140">Personalizo Wryling</translation>
 <translation id="9222198206152536936">Për të marrë skedat etj. në të gjitha pajisjet e tua, identifikohu si <ph name="EMAIL"/></translation>
 <translation id="7625138338483121345">Bëje Brave shfletuesin e parazgjedhur</translation>
 <translation id="4596514158372210596">Hiq aktivitetin tënd të Brave nga "Mirëqenia dixhitale"</translation>
@@ -2057,7 +2057,7 @@ Për ta ndryshuar këtë cilësim, <ph name="BEGIN_LINK"/>fshi të dhënat e Bra
 <translation id="5352668640894950863">Blloko dritaret Private kur largoheni nga Brave</translation>
 <translation id="1014490034578104945">Përdor kyçjen e ekranit për të parë skedat "e fshehta"</translation>
 <translation id="5572558661069030949">Përdor bllokimin e ekranit për të parë dritaret Private të hapura</translation>
-<translation id="2589970573128789862">Brave Private</translation>
+<translation id="2090681901335274465">Wryling Private</translation>
 <translation id="5809126106485463836">Modaliteti privat mban private shfletimin tënd nga të tjerët që përdorin pajisjen tënde</translation>
 <translation id="5487565066256782913">Hap një dritare të re "të fshehtë"</translation>
 <translation id="5706084539081051088">Kur po shfletoni në modalitetin "të fshehtë", të tjerët që përdorin këtë pajisje s'do të shohin veprimtarinë tuaj, kështu që mund të shfletoni më privatësisht. <ph name="BEGIN_LINK"/>Mësoni më tepër<ph name="END_LINK"/></translation>

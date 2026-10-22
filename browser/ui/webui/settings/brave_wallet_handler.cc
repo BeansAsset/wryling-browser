@@ -217,12 +217,13 @@ void BraveWalletHandler::RemoveChain(const base::ListValue& args) {
 
   auto* chain_id = args[1].GetIfString();
   auto coin = ToCoinType(args[2].GetIfInt());
-  if (!chain_id || !coin) {
+  auto* network_manager = GetNetworkManager();
+  if (!chain_id || !coin || !network_manager) {
     ResolveJavascriptCallback(args[0], base::Value());
     return;
   }
 
-  GetNetworkManager()->RemoveCustomNetwork(*chain_id, *coin);
+  network_manager->RemoveCustomNetwork(*chain_id, *coin);
   ResolveJavascriptCallback(args[0], base::Value(true));
 }
 
@@ -232,14 +233,15 @@ void BraveWalletHandler::ResetChain(const base::ListValue& args) {
 
   auto* chain_id = args[1].GetIfString();
   auto coin = ToCoinType(args[2].GetIfInt());
-  if (!chain_id || !coin) {
+  auto* network_manager = GetNetworkManager();
+  if (!chain_id || !coin || !network_manager) {
     ResolveJavascriptCallback(args[0], base::Value());
     return;
   }
 
-  DCHECK(GetNetworkManager()->CustomChainExists(*chain_id, *coin));
-  GetNetworkManager()->RemoveCustomNetwork(*chain_id, *coin);
-  DCHECK(GetNetworkManager()->KnownChainExists(*chain_id, *coin));
+  DCHECK(network_manager->CustomChainExists(*chain_id, *coin));
+  network_manager->RemoveCustomNetwork(*chain_id, *coin);
+  DCHECK(network_manager->KnownChainExists(*chain_id, *coin));
   ResolveJavascriptCallback(args[0], base::Value(true));
 }
 
@@ -252,30 +254,43 @@ void BraveWalletHandler::GetNetworksList(const base::ListValue& args) {
     return;
   }
 
+  auto* network_manager = GetNetworkManager();
+  if (!network_manager) {
+    // An open Settings page may finish a request after Extras disables Wallet.
+    result.Set("defaultNetwork", "");
+    for (const char* key : {"networks", "knownNetworks", "customNetworks",
+                            "hiddenNetworks"}) {
+      result.Set(key, base::ListValue());
+    }
+    AllowJavascript();
+    ResolveJavascriptCallback(args[0], result);
+    return;
+  }
+
   result.Set("defaultNetwork",
-             GetNetworkManager()->GetCurrentChainId(*coin, std::nullopt));
+             network_manager->GetCurrentChainId(*coin, std::nullopt));
 
   auto& networks = result.Set("networks", base::ListValue())->GetList();
-  for (const auto& it : GetNetworkManager()->GetAllChains()) {
+  for (const auto& it : network_manager->GetAllChains()) {
     if (it->coin == coin) {
       networks.Append(brave_wallet::NetworkInfoToValue(*it));
     }
   }
   auto& known_networks =
       result.Set("knownNetworks", base::ListValue())->GetList();
-  for (const auto& it : GetNetworkManager()->GetAllKnownChains(*coin)) {
+  for (const auto& it : network_manager->GetAllKnownChains(*coin)) {
     known_networks.Append(it->chain_id);
   }
 
   auto& custom_networks =
       result.Set("customNetworks", base::ListValue())->GetList();
-  for (const auto& it : GetNetworkManager()->GetAllCustomChains(*coin)) {
+  for (const auto& it : network_manager->GetAllCustomChains(*coin)) {
     custom_networks.Append(it->chain_id);
   }
 
   auto& hidden_networks =
       result.Set("hiddenNetworks", base::ListValue())->GetList();
-  for (const auto& it : GetNetworkManager()->GetHiddenNetworks(*coin)) {
+  for (const auto& it : network_manager->GetHiddenNetworks(*coin)) {
     hidden_networks.Append(it);
   }
 
@@ -363,29 +378,31 @@ void BraveWalletHandler::SetDefaultNetwork(const base::ListValue& args) {
 
 void BraveWalletHandler::AddHiddenNetwork(const base::ListValue& args) {
   CHECK_EQ(args.size(), 3U);
+  AllowJavascript();
   auto* chain_id = args[1].GetIfString();
   auto coin = ToCoinType(args[2].GetIfInt());
-  if (!chain_id || !coin) {
+  auto* network_manager = GetNetworkManager();
+  if (!chain_id || !coin || !network_manager) {
     ResolveJavascriptCallback(args[0], base::Value());
     return;
   }
 
-  AllowJavascript();
-  GetNetworkManager()->AddHiddenNetwork(*coin, *chain_id);
+  network_manager->AddHiddenNetwork(*coin, *chain_id);
   ResolveJavascriptCallback(args[0], base::Value(true));
 }
 
 void BraveWalletHandler::RemoveHiddenNetwork(const base::ListValue& args) {
   CHECK_EQ(args.size(), 3U);
+  AllowJavascript();
   auto* chain_id = args[1].GetIfString();
   auto coin = ToCoinType(args[2].GetIfInt());
-  if (!chain_id || !coin) {
+  auto* network_manager = GetNetworkManager();
+  if (!chain_id || !coin || !network_manager) {
     ResolveJavascriptCallback(args[0], base::Value());
     return;
   }
 
-  AllowJavascript();
-  GetNetworkManager()->RemoveHiddenNetwork(*coin, *chain_id);
+  network_manager->RemoveHiddenNetwork(*coin, *chain_id);
   ResolveJavascriptCallback(args[0], base::Value(true));
 }
 
@@ -394,9 +411,9 @@ PrefService* BraveWalletHandler::GetPrefs() {
 }
 
 brave_wallet::NetworkManager* BraveWalletHandler::GetNetworkManager() {
-  return brave_wallet::BraveWalletServiceFactory::GetInstance()
-      ->GetServiceForContext(Profile::FromWebUI(web_ui()))
-      ->network_manager();
+  auto* service = brave_wallet::BraveWalletServiceFactory::GetServiceForContext(
+      Profile::FromWebUI(web_ui()));
+  return service ? service->network_manager() : nullptr;
 }
 
 void BraveWalletHandler::IsBitcoinEnabled(const base::ListValue& args) {

@@ -42,6 +42,8 @@
 #include "ui/gfx/geometry/rounded_corners_f.h"
 #include "ui/views/background.h"
 #include "ui/views/controls/button/label_button.h"
+#include "ui/views/controls/label.h"
+#include "ui/color/color_id.h"
 #include "ui/views/controls/menu/menu_item_view.h"
 #include "ui/views/layout/box_layout_view.h"
 #include "ui/views/metadata/view_factory.h"
@@ -97,6 +99,10 @@ class SidebarShowOptionInMenuButton : public views::LabelButton,
 
  private:
   void UpdateBackground();
+  void StateChanged(ButtonState old_state) override {
+    LabelButton::StateChanged(old_state);
+    UpdateBackground();
+  }
 
   sidebar::SidebarService::ShowSidebarOption show_option_;
   bool is_active_option_ = false;
@@ -121,6 +127,8 @@ SidebarShowOptionInMenuButton::SidebarShowOptionInMenuButton(
           model->GetCommandIdAt(index))),
       app_menu_(app_menu) {
   SetFocusBehavior(FocusBehavior::ALWAYS);
+  SetBorder(views::CreateEmptyBorder(gfx::Insets::VH(4, 8)));
+  label()->SetSubpixelRenderingEnabled(false);
 
   auto* service = sidebar::SidebarServiceFactory::GetForProfile(
       app_menu_->browser()->GetProfile());
@@ -133,19 +141,21 @@ SidebarShowOptionInMenuButton::SidebarShowOptionInMenuButton(
 void SidebarShowOptionInMenuButton::UpdateBackground() {
   if (is_active_option_) {
     SetBackground(views::CreateRoundedRectBackground(
-        nala::kColorButtonBackground, gfx::RoundedCornersF(2.0f),
+        ui::kColorAppMenuProfileRowChipBackground, gfx::RoundedCornersF(8),
         gfx::Insets(2)));
   } else {
-    SetBackground(app_menu_->CreateInMenuButtonBackgroundWithLeadingBorder());
+    SetBackground(GetState() == STATE_HOVERED || GetState() == STATE_PRESSED
+        ? views::CreateRoundedRectBackground(
+              ui::kColorAppMenuRowBackgroundHovered, gfx::RoundedCornersF(8),
+              gfx::Insets(2))
+        : nullptr);
   }
 }
 
 void SidebarShowOptionInMenuButton::OnShowSidebarOptionChanged(
     sidebar::SidebarService::ShowSidebarOption option) {
   is_active_option_ = option == show_option_;
-  SetEnabledTextColors(is_active_option_ ? std::optional<ui::ColorVariant>(
-                                               nala::kColorSchemesOnPrimary)
-                                         : std::nullopt);
+  SetEnabledTextColors(ui::kColorMenuItemForeground);
   UpdateBackground();
 }
 
@@ -175,6 +185,11 @@ END_METADATA
 SidebarShowOptionMenu::SidebarShowOptionMenu(BraveAppMenu* app_menu,
                                              ui::ButtonMenuItemModel* model)
     : model_(model) {
+  SetInsideBorderInsets(gfx::Insets::VH(4, 8));
+  SetBetweenChildSpacing(2);
+  SetBackground(views::CreateRoundedRectBackground(
+      ui::kColorAppMenuProfileRowBackground, gfx::RoundedCornersF(10),
+        gfx::Insets::VH(2, 5)));
   CHECK_EQ(3u, model->GetItemCount());
 
   CHECK_EQ(IDC_SIDEBAR_SHOW_OPTION_ALWAYS, model_->GetCommandIdAt(0));

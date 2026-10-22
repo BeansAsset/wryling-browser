@@ -21,6 +21,10 @@ import { BraveWalletBrowserProxy, BraveWalletBrowserProxyImpl } from '../brave_w
 import '../settings_shared.css.js'
 import '../settings_vars.css.js'
 import './bookmark_bar.js'
+import './wryling_space.js'
+import './tabs.js'
+import './sidebar.js'
+import '../default_browser_page/default_browser_page.js'
 
 const SettingsBraveAppearanceToolbarElementBase = WebUiListenerMixin(RouteObserverMixin(
   I18nMixin(PrefServiceObserverMixin(PolymerElement))

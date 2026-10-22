@@ -52,6 +52,9 @@ class BraveActionsContainer : public views::View {
   void Init();
   void Update();
   void SetShouldHide(bool should_hide);
+  // Wryling: in a narrow address bar the Rewards button is left out so the
+  // address itself stays readable.
+  void SetCompact(bool compact);
 
   // views::View:
   void ChildPreferredSizeChanged(views::View* child) override;
@@ -75,6 +78,7 @@ class BraveActionsContainer : public views::View {
   gfx::Size GetActionSize() const;
 
   bool should_hide_ = false;
+  bool compact_ = false;
 
   // The Browser this LocationBarView is in.  Note that at least
   // chromeos::SimpleWebViewDialog uses a LocationBarView outside any browser

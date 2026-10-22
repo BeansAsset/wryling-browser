@@ -11,7 +11,8 @@
 namespace brave_rewards {
 
 void RegisterProfilePrefs(PrefRegistrySimple* registry) {
-  registry->RegisterBooleanPref(prefs::kShowLocationBarButton, true);
+  // Wryling: Brave extras are off until turned on in Settings.
+  registry->RegisterBooleanPref(prefs::kShowLocationBarButton, false);
   registry->RegisterStringPref(prefs::kNotifications, "");
   registry->RegisterTimeDeltaPref(prefs::kNotificationTimerInterval,
                                   base::Days(1));
@@ -59,7 +60,8 @@ void RegisterProfilePrefs(PrefRegistrySimple* registry) {
   registry->RegisterStringPref(prefs::kWalletBitflyer, "");
   registry->RegisterStringPref(prefs::kWalletZebPay, "");
   registry->RegisterStringPref(prefs::kWalletSolana, "");
-  registry->RegisterBooleanPref(prefs::kDisabledByPolicy, false);
+  // Wryling: Rewards is off until turned on in Settings › Extras.
+  registry->RegisterBooleanPref(prefs::kDisabledByPolicy, true);
   registry->RegisterIntegerPref(prefs::kWalletCreationEnvironment, -1);
   registry->RegisterIntegerPref(prefs::kTosVersion, 0);
   registry->RegisterListPref(prefs::kRewardsPageViewCount);

@@ -3,6 +3,8 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at https://mozilla.org/MPL/2.0/.
 
+import {installWrylingComponents} from '$web-common/wryling_components'
+
 import '../common/strings'
 
 import * as React from 'react'
@@ -79,3 +81,5 @@ function initialize() {
 }
 
 document.addEventListener('DOMContentLoaded', initialize)
+
+void installWrylingComponents()

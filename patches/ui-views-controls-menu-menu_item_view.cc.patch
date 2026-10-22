@@ -1,8 +1,93 @@
 diff --git a/ui/views/controls/menu/menu_item_view.cc b/ui/views/controls/menu/menu_item_view.cc
-index 482d212cd03100ff0f7cf11d5a3be8c00a5bba9f..05883a4d5c84bf031287246990eb121daf2f5cc5 100644
+index 482d212cd03100ff0f7cf11d5a3be8c00a5bba9f..eb6a28ec673bdda8cfbbea114fe319b9dd4e7a6a 100644
 --- a/ui/views/controls/menu/menu_item_view.cc
 +++ b/ui/views/controls/menu/menu_item_view.cc
-@@ -1704,7 +1704,7 @@ void MenuItemView::UpdateSelectionBasedState(bool paint_as_selected) {
+@@ -68,6 +68,10 @@
+ #include "ui/views/view_utils.h"
+ #include "ui/views/widget/widget.h"
+ 
++#if BUILDFLAG(IS_MAC)
++#include "ui/views/controls/menu/menu_glass_mac.h"
++#endif
++
+ namespace views {
+ 
+ namespace {
+@@ -1198,6 +1202,11 @@ void MenuItemView::OnPaintImpl(gfx::Canvas* canvas, PaintMode mode) {
+   gfx::Rect text_bounds(label_start, top_margin, width, text_height);
+   text_bounds.set_x(GetMirroredXForRect(text_bounds));
+   int flags = GetDrawStringFlags();
++#if BUILDFLAG(IS_MAC)
++  if (GetWidget() && GetWidget()->GetProperty(kWrylingMenuGlass)) {
++    flags |= gfx::Canvas::NO_SUBPIXEL_RENDERING;
++  }
++#endif
+   if (mode == PaintMode::kForDrag) {
+     flags |= gfx::Canvas::NO_SUBPIXEL_RENDERING;
+   }
+@@ -1225,6 +1234,20 @@ void MenuItemView::OnPaintImpl(gfx::Canvas* canvas, PaintMode mode) {
+ void MenuItemView::PaintBackground(gfx::Canvas* canvas,
+                                    PaintMode mode,
+                                    bool paint_as_selected) {
++#if BUILDFLAG(IS_MAC)
++  if (paint_as_selected && mode != PaintMode::kForDrag) {
++    gfx::Rect bounds = GetLocalBounds();
++    bounds.Inset(gfx::Insets::VH(1, 5));
++    const auto* colors = GetColorProvider();
++    const SkColor fill =
++        colors->GetColor(ui::kColorMenuItemBackgroundSelected);
++    cc::PaintFlags flags;
++    flags.setAntiAlias(true);
++    flags.setColor(fill);
++    canvas->DrawRoundRect(bounds, 7, flags);
++    return;
++  }
++#endif
+   if (menu_item_background_.has_value()) {
+     MenuItemBackground background_info = menu_item_background_.value();
+     gfx::Rect bounds = GetLocalBounds();
+@@ -1295,6 +1318,13 @@ void MenuItemView::PaintBackground(gfx::Canvas* canvas,
+                    bottom_rounded_corners_.lower_left());
+     }
+ 
++#if BUILDFLAG(IS_MAC)
++    highlight_bounds = gfx::RectF(GetLocalBounds());
++    highlight_bounds.Inset(gfx::InsetsF::VH(1, 5));
++    for (auto& radius : radii) {
++      radius.set(7, 7);
++    }
++#endif
+     SkRRect rounded_rect;
+     rounded_rect.setRectRadii(gfx::RectFToSkRect(highlight_bounds), radii);
+     canvas->sk_canvas()->drawRRect(rounded_rect, flags);
+@@ -1372,6 +1402,11 @@ void MenuItemView::PaintMinorIconAndText(gfx::Canvas* canvas, SkColor color) {
+   };
+ 
+   if (!minor_text.empty()) {
++#if BUILDFLAG(IS_MAC)
++    if (GetWidget() && GetWidget()->GetProperty(kWrylingMenuGlass)) {
++      render_text->set_subpixel_rendering_suppressed(true);
++    }
++#endif
+     render_text->SetText(minor_text);
+     render_text->SetFontList(GetFontList());
+     render_text->SetColor(color);
+@@ -1431,6 +1466,14 @@ MenuItemView::Colors MenuItemView::CalculateColors(
+                         : GetTextColor(/*minor=*/false, paint_as_selected);
+   colors.icon_color = color_utils::DeriveDefaultIconColor(colors.fg_color);
+   colors.minor_fg_color = GetTextColor(/*minor=*/true, paint_as_selected);
++#if BUILDFLAG(IS_MAC)
++  if (paint_as_selected && GetEnabledInViewsSubtree()) {
++    colors.fg_color = GetColorProvider()->GetColor(
++        ui::kColorMenuItemForegroundSelected);
++    colors.minor_fg_color = colors.fg_color;
++    colors.icon_color = colors.fg_color;
++  }
++#endif
+   return colors;
+ }
+ 
+@@ -1704,7 +1747,7 @@ void MenuItemView::UpdateSelectionBasedState(bool paint_as_selected) {
          features::IsRoundedIconsEnabled()
              ? vector_icons::kKeyboardArrowRightFlippableIcon
              : vector_icons::kSubmenuArrowChromeRefreshOldIcon,
@@ -11,3 +96,31 @@ index 482d212cd03100ff0f7cf11d5a3be8c00a5bba9f..05883a4d5c84bf031287246990eb121d
    }
    MenuDelegate* delegate = GetDelegate();
    if (type_ == Type::kCheckbox && delegate &&
+@@ -1719,9 +1762,14 @@ void MenuItemView::UpdateSelectionBasedState(bool paint_as_selected) {
+                                                     : kMenuRadioSelectedOldIcon
+         : features::IsRoundedIconsEnabled() ? kCircleIcon
+                                             : kMenuRadioEmptyOldIcon;
+-    const SkColor radio_icon_color = GetColorProvider()->GetColor(
++    SkColor radio_icon_color = GetColorProvider()->GetColor(
+         toggled ? ui::kColorRadioButtonForegroundChecked
+                 : ui::kColorRadioButtonForegroundUnchecked);
++#if BUILDFLAG(IS_MAC)
++    if (paint_as_selected && GetEnabledInViewsSubtree()) {
++      radio_icon_color = colors.icon_color;
++    }
++#endif
+     radio_check_image_view_->SetImage(ui::ImageModel::FromVectorIcon(
+         radio_icon, radio_icon_color, kMenuCheckSize));
+   }
+@@ -1756,6 +1804,11 @@ void MenuItemView::UpdateSelectionBasedState(bool paint_as_selected) {
+           }
+         }
+       }
++#if BUILDFLAG(IS_MAC)
++      if (paint_as_selected && GetEnabledInViewsSubtree()) {
++        icon_color = colors.icon_color;
++      }
++#endif
+       const ui::ImageModel& image_model =
+           ui::ImageModel::FromVectorIcon(*icon, icon_color, model.icon_size());
+       icon_view_->SetImage(image_model);

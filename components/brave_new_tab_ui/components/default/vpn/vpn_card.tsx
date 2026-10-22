@@ -11,7 +11,7 @@ import Toggle from '@brave/leo/react/toggle'
 import { getLocale } from '$web-common/locale'
 import Button from '@brave/leo/react/button'
 import Icon from '@brave/leo/react/icon'
-import { color, font, gradient, spacing } from '@brave/leo/tokens/css/variables'
+import { color, font, spacing } from '@brave/leo/tokens/css/variables'
 import VPNShieldsConnecting from './vpn-shields-connecting'
 import * as Actions from '../../../actions/brave_vpn_actions'
 import { ConnectionState, ManageURLType, Region } from '../../../api/braveVpn'
@@ -21,23 +21,23 @@ import vpnShieldsDisconnectedUrl from '../vpn/assets/vpn-shields-disconnected.sv
 
 const HeaderIcon = styled(Icon)`
   --leo-icon-size: 24px;
-  --leo-icon-color: ${gradient.iconsActive};
+  --leo-icon-color: ${color.text.interactive};
 `
 
 const StyledTitle = styled.div`
   font: ${font.heading.h4};
-  color: ${color.white};
+  color: ${color.text.primary};
   display: flex;
   align-items: center;
   gap: 8px;
 `
 
-const WidgetWrapper = styled.div.attrs<{ 'data-theme'?: string }>({ 'data-theme': 'dark' })`
+const WidgetWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   align-self: stretch;
-  color: ${color.white};
+  color: ${color.text.primary};
   gap: ${spacing['2Xl']};
 `
 
@@ -52,11 +52,11 @@ const WidgetContent = styled.div`
 const PoweredBy = styled.div`
   display: flex;
   align-items: center;
-  opacity: 0.5;
+  opacity: 1;
   gap: 4px;
 
   span {
-    color: ${color.white};
+    color: ${color.text.primary};
     font: ${font.xSmall.regular};
     text-align: center;
   }
@@ -111,8 +111,8 @@ const ActionButton = styled(Button)`
 `
 
 const ActionLink = styled.a`
-  color: #fff;
-  opacity: 0.5;
+  color: ${color.text.secondary};
+  opacity: 1;
   font: ${font.small.link};
   line-height: 18px;
   letter-spacing: 0px;

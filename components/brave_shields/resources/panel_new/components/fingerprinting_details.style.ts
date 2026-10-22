@@ -3,16 +3,15 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-import { font } from '@brave/leo/tokens/css/variables'
 import { scoped } from '$web-common/scoped_css'
 
 export const style = scoped.css`
   .toggle-list {
-    max-width: 380px;
+    max-width: 100%;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 24px;
+    padding: var(--wry-space-4);
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -33,7 +32,7 @@ export const style = scoped.css`
 style.passthrough.css`
   p.header-text {
     margin-top: 16px;
-    font: ${font.small.regular};
+    font: var(--wry-callout);
 
     button {
       text-decoration: underline;

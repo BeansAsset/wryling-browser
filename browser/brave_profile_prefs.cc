@@ -5,6 +5,9 @@
 
 #include "brave/browser/brave_profile_prefs.h"
 
+#include "brave/browser/ui/color/wryling_space_color.h"
+#include "brave/browser/ui/spaces/wryling_spaces.h"
+
 #include <string>
 
 #include "base/feature_list.h"
@@ -280,10 +283,14 @@ void OverrideDefaultPrefValues(user_prefs::PrefRegistrySyncable* registry) {
   // against it (see components/omnibox/browser/omnibox_prefs.cc).
   registry->SetDefaultPrefValue(omnibox::kAIModeSettings, base::Value(-1));
 
-  // Disabled due to crash with tab group dragging.
-  // TODO(https://github.com/brave/brave-browser/issues/49752): Re-enable.
+  // Wryling: Brave turned split-view drag and drop off ("crash with tab group
+  // dragging", brave-browser#49752). Wryling's own drop target
+  // (wryling_split_controller.cc) refuses group drags, so it stays on.
   registry->SetDefaultPrefValue(prefs::kSplitViewDragAndDropEnabled,
-                                base::Value(false));
+                                base::Value(true));
+  // Wryling: how split panes show their site; 0 on hover, 1 always, 2 corner
+  // chip, 3 off (BraveMultiContentsView::PaneLabels).
+  registry->RegisterIntegerPref("wryling.split_view.pane_labels", 0);
 
   // Disables WebRTC logs collection.
   registry->SetDefaultPrefValue(prefs::kWebRtcEventLogCollectionAllowed,
@@ -493,16 +500,19 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
   registry->RegisterBooleanPref(kNewTabPageShowClock, false);
   registry->RegisterStringPref(kNewTabPageClockFormat, "");
   registry->RegisterBooleanPref(kNewTabPageShowStats, true);
-  registry->RegisterBooleanPref(kNewTabPageShowRewards, true);
+  // Wryling: Brave extras (Rewards, Talk, VPN cards) are off until turned on
+  // in Settings.
+  registry->RegisterBooleanPref(kNewTabPageShowRewards, false);
 
 #if BUILDFLAG(ENABLE_BRAVE_TALK)
   registry->RegisterBooleanPref(brave_talk::prefs::kNewTabPageShowBraveTalk,
-                                true);
-  registry->RegisterBooleanPref(brave_talk::prefs::kDisabledByPolicy, false);
+                                false);
+  // Wryling: Talk is off until turned on in Settings › Extras.
+  registry->RegisterBooleanPref(brave_talk::prefs::kDisabledByPolicy, true);
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-  registry->RegisterBooleanPref(kNewTabPageShowBraveVPN, true);
+  registry->RegisterBooleanPref(kNewTabPageShowBraveVPN, false);
 #endif
 
 // Private New Tab Page
@@ -561,9 +571,12 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
   registry->RegisterBooleanPref(kEnableWindowClosingConfirm, true);
   registry->RegisterBooleanPref(kEnableClosingLastTab, true);
   registry->RegisterBooleanPref(kShowFullscreenReminder, true);
-  registry->RegisterBooleanPref(
-      kWebViewRoundedCorners,
-      base::FeatureList::IsEnabled(features::kBraveRoundedCornersByDefault));
+  // Wryling: the page always sits as a rounded card inside the tinted frame.
+  registry->RegisterBooleanPref(kWebViewRoundedCorners, true);
+  wryling::RegisterSpacesProfilePrefs(registry);
+  registry->RegisterIntegerPref(wryling::kTintOpacityPref,
+                                wryling::kDefaultTintOpacity);
+  registry->RegisterBooleanPref(wryling::kClearGlassPref, false);
   registry->RegisterBooleanPref(kBraveSubtleAppMenuLogo, false);
 
   brave_tabs::RegisterBraveProfilePrefs(registry);

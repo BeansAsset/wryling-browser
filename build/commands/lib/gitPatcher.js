@@ -221,8 +221,9 @@ export class GitPatcher {
         )
         continue
       }
+      // Avoid exhausting the host's process limit on the first patch pass.
       prepOps.push(
-        this.getAppliesTo(patchData.patchPath)
+        await this.getAppliesTo(patchData.patchPath)
           .then((appliesTo) => ({
             appliesTo,
             ...patchData,

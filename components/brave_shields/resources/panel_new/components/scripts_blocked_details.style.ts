@@ -3,7 +3,6 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-import { color, font } from '@brave/leo/tokens/css/variables'
 import { scoped } from '$web-common/scoped_css'
 
 export const style = scoped.css`
@@ -12,24 +11,24 @@ export const style = scoped.css`
     display: flex;
     align-items: center;
     gap: 8px;
-    font: ${font.default.semibold};
+    font: var(--wry-headline);
 
     button {
       margin-inline-start: auto;
-      font: ${font.small.link};
+      font: var(--wry-callout);
       text-decoration: underline;
-      color: ${color.text.primary};
+      color: var(--wry-text);
     }
   }
 
   .allow-header {
-    color: ${color.systemfeedback.successText};
-    background: ${color.systemfeedback.successBackground};
+    color: var(--wry-text);
+    background: var(--wry-fill);
   }
 
   .block-header {
-    color: ${color.systemfeedback.errorText};
-    background: ${color.systemfeedback.errorBackground};
+    color: var(--wry-destructive);
+    background: var(--wry-fill);
   }
 
   .resource-list {

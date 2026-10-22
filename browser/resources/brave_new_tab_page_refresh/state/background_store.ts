@@ -88,7 +88,8 @@ export const gradientBackgrounds = [
   'linear-gradient(130.39deg, #FE6F4C 9.83%, #C53646 85.25%)',
 ]
 
-export const gradientPreviewBackground = gradientBackgrounds[0]
+export const gradientPreviewBackground =
+  'var(--wryling-theme-page, ' + gradientBackgrounds[0] + ')'
 
 export type BackgroundStore = StateStore<BackgroundState>
 
@@ -201,7 +202,9 @@ export function getCurrentBackground(
       return cssValue ? { type: 'color', cssValue } : null
     }
     case SelectedBackgroundType.kGradient: {
-      const cssValue = value || chooseRandom(gradientBackgrounds, randomValue)
+      const cssValue = value === gradientBackgrounds[0]
+        ? gradientPreviewBackground
+        : value || chooseRandom(gradientBackgrounds, randomValue)
       return cssValue ? { type: 'color', cssValue } : null
     }
     default: {

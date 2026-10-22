@@ -44,7 +44,7 @@
 <translation id="7083341910267693582"><ph name="APP_NAME"/>将在 Brave 中打开。继续操作即表示您同意接受 <ph name="BEGIN_LINK1"/>Brave 服务条款<ph name="END_LINK1"/>以及 <ph name="BEGIN_LINK2"/>Brave 和 Brave 操作系统附加服务条款<ph name="END_LINK2"/>。</translation>
 <translation id="7443574521624544928">您未在 Brave 密码管理工具中保存任何密码。</translation>
 <translation id="115483310321669804">使用密码 <ph name="PASSWORD"/></translation>
-<translation id="4489415936688888898">Brave 中的 Gemini</translation>
+<translation id="4980210551795949534">Wryling 中的 Gemini</translation>
 <translation id="1161065531352634524">同步标签页和历史记录</translation>
 <translation id="1165109137568919258">拍张照片，或从图库中选择图片进行搜索</translation>
 <translation id="1173894706177603556">重命名</translation>
@@ -91,8 +91,8 @@
 <translation id="1333491156693005331">近期检查过</translation>
 <translation id="1336996151357442890">已退订 <ph name="SITE_NAME"/>。当您下次访问时，系统会再次询问您。</translation>
 <translation id="1340839264183302272">退出分组</translation>
-<translation id="873343310451048603">若要检查是否存在已泄露的密码，请前往 Brave 密码管理工具</translation>
-<translation id="4167284810587724062">登录 Brave</translation>
+<translation id="4973862711373394097">若要检查是否存在已泄露的密码，请前往 Wryling 密码管理工具</translation>
+<translation id="5451434122049588189">登录 Wryling</translation>
 <translation id="1344653310988386453">包含指向突出显示的内容的链接</translation>
 <translation id="1355088659320425659">历史记录和标签页</translation>
 <translation id="1363028406613469049">跟踪</translation>
@@ -147,7 +147,7 @@
 只有知道您口令的人能读取您的加密数据。该口令不会发送给 Brave，也不会被 Brave 存储。如果您忘记了该口令或想更改此设置，请<ph name="BEGIN_LINK"/>清除您账号中的 Brave 数据<ph name="END_LINK"/>。</translation>
 <translation id="8090895580117672212">要管理您的 Brave 账号，请点按“管理账号”按钮</translation>
 <translation id="1549000191223877751">移至其他窗口</translation>
-<translation id="1705567146636171298">更新 Brave</translation>
+<translation id="4469722898384489712">更新 Wryling</translation>
 <translation id="1554352084785952638">针对“<ph name="SEARCH_TERMS"/>”<ph name="SEARCH_ENGINE"/></translation>
 <translation id="2509230690562869141">可协助改进 Brave，让所有像您这样使用 Brave 的用户都能够获享更好的体验</translation>
 <translation id="1568636008098739136">读出此网页的内容。如要修改此快捷方式，请轻触并按住这里。</translation>
@@ -207,8 +207,8 @@
 <translation id="4544426875066706571">为保护您的数据，对于您近期未访问的网站，请允许 Brave 撤消网站权限</translation>
 <translation id="1851551847729706116">正在将“<ph name="TAB_NAME"/>”共享到此标签页</translation>
 <translation id="1869691326892615940">密码更安全，登录更快捷</translation>
-<translation id="7175072311426658869">在 Brave 浏览器中打开</translation>
-<translation id="5173820533850252773">Brave 版本太旧</translation>
+<translation id="7259806589727104192">在 Wryling 浏览器中打开</translation>
+<translation id="1523936557081546133">Wryling 版本太旧</translation>
 <translation id="1877073879466606884">您登录的个人资料是受管个人资料。您的管理员可以远程更改您的个人资料设置，通过报告分析浏览器的相关信息，以及执行其他必要的任务。</translation>
 <translation id="1879904908408734349">已关闭用于选择登录账号的底部动作条</translation>
 <translation id="1883903952484604915">我的文件</translation>
@@ -576,7 +576,7 @@
 <translation id="3384347053049321195">分享图片</translation>
 <translation id="3387650086002190359">未能成功下载 <ph name="FILE_NAME"/>，因为文件系统出现了错误。</translation>
 <translation id="5654361895804243820">您可以在 Brave 的窗口管理器中管理窗口</translation>
-<translation id="4302350545547675750">在 Brave 密码管理工具中管理</translation>
+<translation id="54130667607538272">在 Wryling 密码管理工具中管理</translation>
 <translation id="3417835166382867856">搜索标签页</translation>
 <translation id="3430670036890315772">关闭个人资料锁定功能将移除您已保存的信息</translation>
 <translation id="4114256890962999877">如需继续使用您的密码，请立即将其导出，更新 Google Play 服务，然后将其重新导入 Brave 密码管理工具。<ph name="BEGIN_LINK"/>查看完整说明<ph name="END_LINK"/>。</translation>
@@ -738,7 +738,7 @@
 <translation id="4072805772816336153">请稍后重试</translation>
 <translation id="4084682180776658562">添加书签</translation>
 <translation id="4521874409998847950">来自 <ph name="PUBLISHER_ORIGIN"/> - <ph name="BEGIN_DEEMPHASIZED"/>由 Brave 提供<ph name="END_DEEMPHASIZED"/></translation>
-<translation id="7268155614575494857">请添加您在此网站上使用的用户名，以便 Brave 密码管理工具保存您的登录信息</translation>
+<translation id="6708405940091325014">请添加您在此网站上使用的用户名，以便 Wryling 密码管理工具保存您的登录信息</translation>
 <translation id="4095146165863963773">要删除应用数据吗？</translation>
 <translation id="4095483462103784441">创建新标签页分组</translation>
 <translation id="1523634703470981382">Brave 密码管理工具更新动作条已打开</translation>
@@ -1086,7 +1086,7 @@
 <translation id="5532536403031755365">借助增强型保护功能，再添一层保障，抵御网络威胁</translation>
 <translation id="5540127996007641535">{NUM_BOOKMARKS,plural, =1{打开书签}other{打开全部（# 个）书签}}</translation>
 <translation id="5548606607480005320">安全检查</translation>
-<translation id="4362225295386962644">如果 Brave 发现您使用的某个密码已被发布到网上，就会发出警告。在这个过程中，您的密码和用户名始终加密，任何人员/任何一方（包括 Brave）都无法读取。</translation>
+<translation id="3680104634340426001">如果 Brave 发现您使用的某个密码已被发布到网上，就会发出警告。在这个过程中，您的密码和用户名始终加密，任何人员/任何一方（包括 Brave）都无法读取。</translation>
 <translation id="5555525474779371165">选择所需的“安全浏览”功能保护级别</translation>
 <translation id="5556459405103347317">重新加载</translation>
 <translation id="555671485580955310">同步历史记录和标签页</translation>
@@ -1189,7 +1189,7 @@
 <translation id="6002122790816966947">您的设备</translation>
 <translation id="6011308810877101166">改进搜索建议</translation>
 <translation id="6013305291643746595">按从旧到新排序</translation>
-<translation id="296137235951584143">定制您的专属 Brave</translation>
+<translation id="4578349172774307195">定制您的专属 Wryling</translation>
 <translation id="6023820583797130428">打开菜单即可返回</translation>
 <translation id="6026538407078977628">展开为全屏</translation>
 <translation id="6039379616847168523">跳转到下一个标签页</translation>
@@ -1248,7 +1248,7 @@
 例如：某些网站在收到该请求后，可能会向您展示相应的广告（这些广告并不是根据您访问过的其他网站而展示的）。许多网站仍会出于一些目的收集并使用您的浏览数据，例如，为了提高安全性，为了提供相关内容、广告和推荐内容，以及为了生成报告统计信息。</translation>
 <translation id="623755660902014047">朗读模式</translation>
 <translation id="6246073558347462570">上下文弹窗</translation>
-<translation id="8883879481897424949">Brave 密码管理工具</translation>
+<translation id="3888885285070224654">Wryling 密码管理工具</translation>
 <translation id="6248988683584659830">搜索设置</translation>
 <translation id="2715956954609894918">在此处查看您的 Brave 历史记录</translation>
 <translation id="6254139308321626268">您正在查看 PDF 文件</translation>
@@ -1297,7 +1297,7 @@
 <translation id="6394791151443660613">搜索：<ph name="SEARCH_QUERY"/></translation>
 <translation id="6397616442223433927">已恢复在线状态</translation>
 <translation id="6399363707848566877">您现在可以在此处轻松地为分组添加标签页</translation>
-<translation id="8789425457808164956">若要将此标签页发送到另一设备，请在该设备上登录 Brave</translation>
+<translation id="2522845252291433622">若要将此标签页发送到另一设备，请在该设备上登录 Wryling</translation>
 <translation id="6404511346730675251">修改书签</translation>
 <translation id="6410883413783534063">打开多个标签页即可同时访问不同网页</translation>
 <translation id="6411009031428071896">收听信息流</translation>
@@ -1327,7 +1327,7 @@
 <translation id="6482749332252372425">未能成功下载 <ph name="FILE_NAME"/>，因为存储空间不足。</translation>
 <translation id="6486420406192123355">此 PDF 文件来自使用不安全连接的网站</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{文件已下载完毕}other{# 个文件已下载完毕}}</translation>
-<translation id="3960299545138990065">重新启动 Brave</translation>
+<translation id="6199441660763014986">重新启动 Wryling</translation>
 <translation id="6513924416597632811">复制指向以下搜索查询的搜索结果页的链接：<ph name="SEARCH_QUERY"/>。来源：<ph name="PAGE_URL"/></translation>
 <translation id="6518133107902771759">验证</translation>
 <translation id="6521218807522232085">您可以创建、保存和管理密码，以便轻松登录</translation>
@@ -1357,7 +1357,7 @@
 <translation id="6602173570135186741">自动填充和密码</translation>
 <translation id="661266467055912436">为您和网络上的所有人提供更好的安全保障。</translation>
 <translation id="6615455863669487791">演示一下</translation>
-<translation id="8127050479140582768">若要将此标签页发送到另一设备，请在这两部设备上都登录 Brave</translation>
+<translation id="7379057487310867567">若要将此标签页发送到另一设备，请在这两部设备上都登录 Wryling</translation>
 <translation id="6627583120233659107">修改文件夹</translation>
 <translation id="6636623428211296678">探索下方的更多设置，或立即结束</translation>
 <translation id="7939692063031538305">为帮助改进应用，Brave 会向 Brave 发送使用情况和崩溃数据。<ph name="BEGIN_UMA_LINK"/>管理<ph name="END_UMA_LINK"/></translation>
@@ -2025,7 +2025,7 @@
 <translation id="9212845824145208577">无法继续向下滚动屏幕了。请尝试从页面中更靠下的位置开始截屏。</translation>
 <translation id="9218430445555521422">设为默认</translation>
 <translation id="9219103736887031265">图片</translation>
-<translation id="142389341645668510">自定义 Brave</translation>
+<translation id="9094133852008074140">自定义 Wryling</translation>
 <translation id="9222198206152536936">如需在您的所有设备上获取标签页等信息，请以 <ph name="EMAIL"/> 的身份登录</translation>
 <translation id="7625138338483121345">将 Brave 设置为您的默认浏览器</translation>
 <translation id="4596514158372210596">从“数字健康”应用中移除您的 Brave 活动记录</translation>
@@ -2055,7 +2055,7 @@
 <translation id="5352668640894950863">离开 Brave 时锁定私人窗户</translation>
 <translation id="1014490034578104945">使用屏幕锁定查看打开的无痕标签页</translation>
 <translation id="5572558661069030949">使用屏幕锁定查看打开的私人窗口</translation>
-<translation id="2589970573128789862">Brave 隐私</translation>
+<translation id="2090681901335274465">Wryling 隐私</translation>
 <translation id="5809126106485463836">私密模式可确保您浏览的内容不被其他使用您设备的人看见</translation>
 <translation id="5487565066256782913">打开新的无痕窗口</translation>
 <translation id="5706084539081051088">当你在无痕模式下浏览时，使用此设备的其他人不会看到你的活动，因此你可以更私密地浏览。<ph name="BEGIN_LINK"/>了解更多<ph name="END_LINK"/></translation>

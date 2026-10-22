@@ -9,6 +9,7 @@ import("//brave/components/common/typescript.gni")
 assert(!is_android)
 
 transpile_web_ui("resources") {
+  wryling_remote_build = true
   entry_points = [ [
         "brave_new_tab_page",
         rebase_path("brave_new_tab_page.tsx"),
@@ -22,6 +23,7 @@ transpile_web_ui("resources") {
   ]
   deps = [
     "//brave/browser/ui/webui/brave_new_tab_page_refresh:mojom_js",
+    "//brave/components/wryling_dashboard:mojom_js",
 
     # Unconditional for gn check as typescript cannnot yet conditionally import
     # during typecheck.
@@ -34,6 +36,7 @@ transpile_web_ui("resources") {
     "//brave/components/brave_vpn/common/mojom:mojom_js",
     "//brave/components/ntp_background_images/browser/mojom:mojom_js",
     "//brave/components/resources:strings",
+    "//ui/webui/resources/cr_components/color_change_listener:build_ts",
     "//components/omnibox/browser:fusebox_action_mojo_bindings_js",
     "//components/omnibox/browser:mojo_bindings_js",
   ]

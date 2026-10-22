@@ -44,7 +44,7 @@
 <translation id="7083341910267693582"><ph name="APP_NAME"/> se abrirá en Brave. Al continuar, aceptas los <ph name="BEGIN_LINK1"/>Términos del Servicio de Brave<ph name="END_LINK1"/> y los <ph name="BEGIN_LINK2"/>Términos del Servicio Adicionales de Brave y ChromeOS<ph name="END_LINK2"/>.</translation>
 <translation id="7443574521624544928">No tienes contraseñas guardadas en el Gestor de contraseñas de Brave.</translation>
 <translation id="115483310321669804">Usar contraseña <ph name="PASSWORD"/></translation>
-<translation id="4489415936688888898">Gemini en Brave</translation>
+<translation id="4980210551795949534">Gemini en Wryling</translation>
 <translation id="1161065531352634524">Sincronizar pestañas e historial</translation>
 <translation id="1165109137568919258">Haz una foto o añade una imagen de tu galería de fotos para hacer una búsqueda</translation>
 <translation id="1173894706177603556">Cambiar nombre</translation>
@@ -91,8 +91,8 @@
 <translation id="1333491156693005331">Comprobado recientemente</translation>
 <translation id="1336996151357442890">Suscripción a <ph name="SITE_NAME"/> anulada. Se te volverá a preguntar la próxima vez que visites el sitio.</translation>
 <translation id="1340839264183302272">Salir del grupo</translation>
-<translation id="873343310451048603">Para comprobar si hay contraseñas vulneradas, ve al Gestor de contraseñas de Brave</translation>
-<translation id="4167284810587724062">Iniciar sesión en Brave</translation>
+<translation id="4973862711373394097">Para comprobar si hay contraseñas vulneradas, ve al Gestor de contraseñas de Wryling</translation>
+<translation id="5451434122049588189">Iniciar sesión en Wryling</translation>
 <translation id="1344653310988386453">Incluir enlace al texto destacado</translation>
 <translation id="1355088659320425659">Historial y pestañas</translation>
 <translation id="1363028406613469049">Seguir</translation>
@@ -147,7 +147,7 @@ Si quieres ver más ajustes que usan datos para mejorar tu experiencia con Brave
 Solo las personas que tengan tu frase de contraseña podrán leer tus datos cifrados. La frase de contraseña no se enviará a Brave, que tampoco la almacenará. Si olvidas tu frase de contraseña o quieres cambiar este ajuste, <ph name="BEGIN_LINK"/>borra los datos de Brave de tu cuenta<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">Para gestionar tu cuenta de Brave, toca el botón Gestionar cuenta</translation>
 <translation id="1549000191223877751">Mover a otra ventana</translation>
-<translation id="1705567146636171298">Actualizar Brave</translation>
+<translation id="4469722898384489712">Actualizar Wryling</translation>
 <translation id="1554352084785952638"><ph name="SEARCH_ENGINE"/> "<ph name="SEARCH_TERMS"/>"</translation>
 <translation id="2509230690562869141">Ayuda a mejorar Brave para las personas que lo usan como tú</translation>
 <translation id="1568636008098739136">Escuchar esta página. Para editar esta combinación de teclas, mantenlas pulsadas.</translation>
@@ -207,8 +207,8 @@ Solo las personas que tengan tu frase de contraseña podrán leer tus datos cifr
 <translation id="4544426875066706571">Para proteger tus datos, permite que Brave elimine los permisos de los sitios que no hayas visitado recientemente</translation>
 <translation id="1851551847729706116">Compartiendo <ph name="TAB_NAME"/> en esta pestaña</translation>
 <translation id="1869691326892615940">Contraseñas más seguras, inicio de sesión más rápido</translation>
-<translation id="7175072311426658869">Abrir en el navegador Brave</translation>
-<translation id="5173820533850252773">Brave no está actualizado</translation>
+<translation id="7259806589727104192">Abrir en el navegador Wryling</translation>
+<translation id="1523936557081546133">Wryling no está actualizado</translation>
 <translation id="1877073879466606884">El perfil con el que has iniciado sesión es un perfil gestionado. Tu administrador puede hacer cambios en la configuración de tu perfil de forma remota, analizar información sobre el navegador mediante informes y realizar otras tareas necesarias.</translation>
 <translation id="1879904908408734349">La hoja inferior de inicio de sesión está cerrada</translation>
 <translation id="1883903952484604915">Mis archivos</translation>
@@ -576,7 +576,7 @@ Solo las personas que tengan tu frase de contraseña podrán leer tus datos cifr
 <translation id="3384347053049321195">Compartir imagen</translation>
 <translation id="3387650086002190359">No se ha podido descargar <ph name="FILE_NAME"/> debido a problemas con el sistema de archivos.</translation>
 <translation id="5654361895804243820">Puedes gestionar tus ventanas en el Administrador de ventanas de Brave</translation>
-<translation id="4302350545547675750">Gestionar en el Gestor de contraseñas de Brave</translation>
+<translation id="54130667607538272">Gestionar en el Gestor de contraseñas de Wryling</translation>
 <translation id="3417835166382867856">Buscar pestañas</translation>
 <translation id="3430670036890315772">Si desactivas el bloqueo de perfil, se eliminarán tus datos guardados</translation>
 <translation id="4114256890962999877">Para seguir teniendo acceso a tus contraseñas, expórtalas ahora, actualiza Servicios de Google Play y, a continuación, vuelve a importarlas en el Gestor de contraseñas de Brave. <ph name="BEGIN_LINK"/>Consulta las instrucciones completas<ph name="END_LINK"/>.</translation>
@@ -738,7 +738,7 @@ Solo las personas que tengan tu frase de contraseña podrán leer tus datos cifr
 <translation id="4072805772816336153">Inténtalo de nuevo más tarde</translation>
 <translation id="4084682180776658562">Añadir a marcadores</translation>
 <translation id="4521874409998847950">De <ph name="PUBLISHER_ORIGIN"/> (<ph name="BEGIN_DEEMPHASIZED"/>ofrecida por Brave<ph name="END_DEEMPHASIZED"/>)</translation>
-<translation id="7268155614575494857">Para ayudar al Gestor de contraseñas de Brave a guardar tu información de inicio de sesión, añade tu nombre de usuario para este sitio</translation>
+<translation id="6708405940091325014">Para ayudar al Gestor de contraseñas de Wryling a guardar tu información de inicio de sesión, añade tu nombre de usuario para este sitio</translation>
 <translation id="4095146165863963773">¿Eliminar datos de la aplicación?</translation>
 <translation id="4095483462103784441">Crear grupo de pestañas</translation>
 <translation id="1523634703470981382">Actualización del Gestor de contraseñas de Brave abierta</translation>
@@ -1086,7 +1086,7 @@ Es posible que tu cuenta de Brave tenga otros tipos de historial de navegación,
 <translation id="5532536403031755365">Añade una capa adicional de seguridad frente a las amenazas online con la protección mejorada</translation>
 <translation id="5540127996007641535">{NUM_BOOKMARKS,plural, =1{Abrir marcador}other{Abrir todos (#)}}</translation>
 <translation id="5548606607480005320">Comprobación de seguridad</translation>
-<translation id="4362225295386962644">Cuando usas una contraseña, Brave te avisa si se ha publicado online. Al hacerlo, tus contraseñas y nombres de usuario se cifran para que nadie pueda leerlos, ni siquiera Brave.</translation>
+<translation id="3680104634340426001">Cuando usas una contraseña, Brave te avisa si se ha publicado online. Al hacerlo, tus contraseñas y nombres de usuario se cifran para que nadie pueda leerlos, ni siquiera Brave.</translation>
 <translation id="5555525474779371165">Elige tu nivel de protección de Navegación segura</translation>
 <translation id="5556459405103347317">Volver a cargar</translation>
 <translation id="555671485580955310">Sincronizar historial y pestañas</translation>
@@ -1189,7 +1189,7 @@ Es posible que tu cuenta de Brave tenga otros tipos de historial de navegación,
 <translation id="6002122790816966947">Tus dispositivos</translation>
 <translation id="6011308810877101166">Mejorar las sugerencias de búsqueda</translation>
 <translation id="6013305291643746595">Ordenados por más antiguo</translation>
-<translation id="296137235951584143">Personaliza Brave</translation>
+<translation id="4578349172774307195">Personaliza Wryling</translation>
 <translation id="6023820583797130428">Abre el menú para volver</translation>
 <translation id="6026538407078977628">Desplegar a pantalla completa</translation>
 <translation id="6039379616847168523">Te dirige a la siguiente pestaña</translation>
@@ -1248,7 +1248,7 @@ Es posible que tu cuenta de Brave tenga otros tipos de historial de navegación,
 Por ejemplo, algunos sitios web pueden responder a la solicitud mostrándote anuncios no basados en otros sitios web que hayas visitado. Muchos sitios web seguirán recopilando y utilizando tus datos de navegación (por ejemplo, para mejorar la seguridad, para proporcionar contenido, anuncios y recomendaciones, o para generar estadísticas de informes).</translation>
 <translation id="623755660902014047">Modo Lectura</translation>
 <translation id="6246073558347462570">Ventana emergente contextual</translation>
-<translation id="8883879481897424949">Gestor de contraseñas de Brave</translation>
+<translation id="3888885285070224654">Gestor de contraseñas de Wryling</translation>
 <translation id="6248988683584659830">Buscar ajustes</translation>
 <translation id="2715956954609894918">Consulta tu historial de Brave aquí</translation>
 <translation id="6254139308321626268">Estás viendo un archivo PDF</translation>
@@ -1297,7 +1297,7 @@ Por ejemplo, algunos sitios web pueden responder a la solicitud mostrándote anu
 <translation id="6394791151443660613">Buscar: <ph name="SEARCH_QUERY"/></translation>
 <translation id="6397616442223433927">Vuelves a tener conexión</translation>
 <translation id="6399363707848566877">Ahora puedes añadir pestañas a grupos fácilmente</translation>
-<translation id="8789425457808164956">Para enviar esta pestaña a otro dispositivo, inicia sesión en Brave en ese dispositivo</translation>
+<translation id="2522845252291433622">Para enviar esta pestaña a otro dispositivo, inicia sesión en Wryling en ese dispositivo</translation>
 <translation id="6404511346730675251">Editar marcador</translation>
 <translation id="6410883413783534063">Abre pestañas para visitar varias páginas al mismo tiempo</translation>
 <translation id="6411009031428071896">Escuchar el feed</translation>
@@ -1327,7 +1327,7 @@ Por ejemplo, algunos sitios web pueden responder a la solicitud mostrándote anu
 <translation id="6482749332252372425">No se ha podido descargar <ph name="FILE_NAME"/> porque no hay suficiente espacio de almacenamiento.</translation>
 <translation id="6486420406192123355">Este archivo PDF procede de un sitio que usa una conexión no segura</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{Archivo descargado}other{# descargas completadas}}</translation>
-<translation id="3960299545138990065">Reiniciar Brave</translation>
+<translation id="6199441660763014986">Reiniciar Wryling</translation>
 <translation id="6513924416597632811">Copia el enlace a la página de resultados de búsqueda de <ph name="SEARCH_QUERY"/>. Fuente: <ph name="PAGE_URL"/></translation>
 <translation id="6518133107902771759">Verificar</translation>
 <translation id="6521218807522232085">Crea, guarda y gestiona tus contraseñas para iniciar sesión fácilmente</translation>
@@ -1357,7 +1357,7 @@ Por ejemplo, algunos sitios web pueden responder a la solicitud mostrándote anu
 <translation id="6602173570135186741">Autocompletar y contraseñas</translation>
 <translation id="661266467055912436">Mejora tu seguridad y la de todo el mundo en la Web.</translation>
 <translation id="6615455863669487791">Ver</translation>
-<translation id="8127050479140582768">Para enviar esta pestaña a otro dispositivo, inicia sesión en Brave en ambos dispositivos</translation>
+<translation id="7379057487310867567">Para enviar esta pestaña a otro dispositivo, inicia sesión en Wryling en ambos dispositivos</translation>
 <translation id="6627583120233659107">Editar carpeta</translation>
 <translation id="6636623428211296678">Consulta más ajustes a continuación o termina ahora</translation>
 <translation id="7939692063031538305">Para ayudar a mejorar la aplicación, Brave envía datos de uso y de fallos a Brave. <ph name="BEGIN_UMA_LINK"/>Gestionar<ph name="END_UMA_LINK"/></translation>
@@ -2027,7 +2027,7 @@ Para cambiar este ajuste, <ph name="BEGIN_LINK"/>elimina los datos de Brave de t
 <translation id="9212845824145208577">No se puede ir más abajo. Intenta empezar desde más abajo de la página.</translation>
 <translation id="9218430445555521422">Establecer como predeterminado</translation>
 <translation id="9219103736887031265">Imágenes</translation>
-<translation id="142389341645668510">Personalizar Brave</translation>
+<translation id="9094133852008074140">Personalizar Wryling</translation>
 <translation id="9222198206152536936">Inicia sesión como <ph name="EMAIL"/> para acceder a tus pestañas y otros elementos en todos tus dispositivos</translation>
 <translation id="7625138338483121345">Establece Brave como navegador predeterminado</translation>
 <translation id="4596514158372210596">Eliminar tu actividad de Brave de Bienestar digital</translation>
@@ -2057,7 +2057,7 @@ Para cambiar este ajuste, <ph name="BEGIN_LINK"/>elimina los datos de Brave de t
 <translation id="5352668640894950863">Cierre las ventanas privadas cuando salga de Brave</translation>
 <translation id="1014490034578104945">Usar el bloqueo de pantalla para ver las pestañas privadas que están abiertas</translation>
 <translation id="5572558661069030949">Utilice el bloqueo de pantalla para ver las ventanas privadas abiertas</translation>
-<translation id="2589970573128789862">Modo privado de Brave</translation>
+<translation id="2090681901335274465">Modo privado de Wryling</translation>
 <translation id="5809126106485463836">El modo privado le permite navegar sin que los demás usuarios de su dispositivo puedan conocer su historial de navegación</translation>
 <translation id="5487565066256782913">Abrir nueva ventana de Incógnito</translation>
 <translation id="5706084539081051088">Cuando navegas en Incógnito, otras personas que usen este dispositivo no verán tu actividad, así que puedes navegar de forma más privada. <ph name="BEGIN_LINK"/>Más información<ph name="END_LINK"/></translation>

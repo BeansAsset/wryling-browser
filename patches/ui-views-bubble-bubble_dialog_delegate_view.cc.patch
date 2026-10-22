@@ -1,0 +1,35 @@
+diff --git a/ui/views/bubble/bubble_dialog_delegate_view.cc b/ui/views/bubble/bubble_dialog_delegate_view.cc
+index 16d2770cc0e5376f0389ac74743591a1f69ccbbb..7e4293d8a6350a592eb4c6eda94f35485fb6b9c1 100644
+--- a/ui/views/bubble/bubble_dialog_delegate_view.cc
++++ b/ui/views/bubble/bubble_dialog_delegate_view.cc
+@@ -49,6 +49,7 @@
+ #include "ui/gfx/geometry/vector2d_conversions.h"
+ #include "ui/views/accessibility/view_accessibility.h"
+ #include "ui/views/background.h"
++#include "ui/views/bubble/bubble_anchor_gap.h"
+ #include "ui/views/bubble/bubble_frame_view.h"
+ #include "ui/views/bubble_histograms_variant.h"
+ #include "ui/views/interaction/element_tracker_views.h"
+@@ -80,6 +81,8 @@ DEFINE_UI_CLASS_PROPERTY_TYPE(std::vector<views::BubbleDialogDelegate*>*)
+ 
+ namespace views {
+ 
++DEFINE_UI_CLASS_PROPERTY_KEY(int, kBubbleAnchorGapKey, 0)
++
+ namespace {
+ 
+ // Some anchors may have multiple bubbles associated with them. This can happen
+@@ -826,6 +829,13 @@ gfx::Rect BubbleDialogDelegate::GetAnchorRect() const {
+   View* anchor_view = GetAnchorView();
+   if (anchor_view) {
+     anchor_rect_ = anchor_view->GetAnchorBoundsInScreen();
++    // Wryling: keep the bubble clear of its anchor (above or below it).
++    for (const View* v = anchor_view; v; v = v->parent()) {
++      if (const int gap = v->GetProperty(kBubbleAnchorGapKey)) {
++        anchor_rect_->Outset(gfx::Outsets::VH(gap, 0));
++        break;
++      }
++    }
+   } else if (anchor_tracked_element_) {
+     anchor_rect_ = anchor_tracked_element_->GetScreenBounds();
+   } else {

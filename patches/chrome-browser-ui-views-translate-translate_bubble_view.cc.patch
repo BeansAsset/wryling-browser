@@ -1,0 +1,23 @@
+diff --git a/chrome/browser/ui/views/translate/translate_bubble_view.cc b/chrome/browser/ui/views/translate/translate_bubble_view.cc
+index 7c12096ea734f9ddf3127b052159e88d29d7113e..a19a77b3efbd9f226f9e8ead95058dddd5a48c16 100644
+--- a/chrome/browser/ui/views/translate/translate_bubble_view.cc
++++ b/chrome/browser/ui/views/translate/translate_bubble_view.cc
+@@ -660,10 +660,16 @@ std::unique_ptr<views::View> TranslateBubbleView::CreateView() {
+                                          kSourceLanguageTab);
+   tabbed_pane_->GetTabAt(1)->SetProperty(views::kElementIdentifierKey,
+                                          kTargetLanguageTab);
++#if BUILDFLAG(IS_MAC)
++  // Wryling: compact language tabs.
++  constexpr int kTabPadding = 12;
++#else
++  constexpr int kTabPadding = 20;
++#endif
+   tabbed_pane_->GetTabAt(0)->SetBorder(
+-      views::CreateEmptyBorder(gfx::Insets::VH(2, 20)));
++      views::CreateEmptyBorder(gfx::Insets::VH(2, kTabPadding)));
+   tabbed_pane_->GetTabAt(1)->SetBorder(
+-      views::CreateEmptyBorder(gfx::Insets::VH(2, 20)));
++      views::CreateEmptyBorder(gfx::Insets::VH(2, kTabPadding)));
+   tabbed_pane_->SetListener(this);
+ 
+   auto* padding_view =

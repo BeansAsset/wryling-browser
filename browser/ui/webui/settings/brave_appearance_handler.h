@@ -35,6 +35,10 @@ class BraveAppearanceHandler : public settings::SettingsPageUIHandler,
   // CommandObserver override:
   void EnabledStateChangedForCommand(int id, bool enabled) override;
 
+  void GetWrylingAppearance(const base::ListValue& args);
+  void SetWrylingSpaceColor(const base::ListValue& args);
+  void SetWrylingTintOpacity(const base::ListValue& args);
+  void SetWrylingClearGlass(const base::ListValue& args);
   void OnPreferenceChanged(const std::string& pref_name);
   void GetNewTabShowsOptionsList(const base::ListValue& args);
   void ShouldShowNewTabDashboardSettings(const base::ListValue& args);

@@ -125,6 +125,10 @@ transpile_web_ui("external_js_bundles") {
       "react",
       rebase_path("react/initialize_bundle.ts"),
     ],
+    [
+      "wryling_components",
+      rebase_path("leo/wryling_components.ts"),
+    ],
   ]
 
   resource_name = "external_js"

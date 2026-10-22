@@ -9,6 +9,7 @@
 #include <memory>
 
 #include "brave/browser/ui/webui/brave_new_tab_page_refresh/brave_new_tab_page.mojom.h"
+#include "brave/components/wryling_dashboard/wryling_dashboard.mojom.h"
 #include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
 #include "brave/components/brave_news/common/buildflags/buildflags.h"
 #include "brave/components/brave_rewards/core/buildflags/buildflags.h"
@@ -79,6 +80,10 @@ class BraveNewTabPageUI : public ui::MojoWebUIController,
       mojo::PendingReceiver<
           ntp_background_images::mojom::SponsoredRichMediaAdEventHandler>
           receiver);
+
+  // Wryling: the space's dashboard.
+  void BindInterface(
+      mojo::PendingReceiver<wryling_dashboard::mojom::PageHandler> receiver);
 
   // Instantiates the implementor of the searchbox::mojom::PageHandlerFactory
   // mojo interface passing the pending receiver that will be internally bound.

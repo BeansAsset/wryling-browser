@@ -30,6 +30,8 @@ namespace misc_metrics {
 class PageMetrics;
 }  // namespace misc_metrics
 
+class LocationBar;
+
 class BraveOmniboxClientImpl : public ChromeOmniboxClient {
  public:
   BraveOmniboxClientImpl(LocationBar* location_bar,
@@ -62,6 +64,9 @@ class BraveOmniboxClientImpl : public ChromeOmniboxClient {
   void RecordSearchEventP3A();
 
   raw_ptr<Profile> profile_ = nullptr;
+  // Wryling: the address bar this client serves (to tell when it's in the
+  // command bar).
+  raw_ptr<LocationBar> wryling_location_bar_ = nullptr;
   raw_ptr<SearchEngineTracker> search_engine_tracker_ = nullptr;
   raw_ptr<ai_chat::AIChatMetrics> ai_chat_metrics_ = nullptr;
   raw_ptr<misc_metrics::PageMetrics> page_metrics_ = nullptr;

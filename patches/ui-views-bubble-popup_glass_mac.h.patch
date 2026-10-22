@@ -1,0 +1,49 @@
+diff --git a/ui/views/bubble/popup_glass_mac.h b/ui/views/bubble/popup_glass_mac.h
+new file mode 100644
+index 0000000000000000000000000000000000000000..dd5af1d8b272b54c8e60d3e6403ba533316022a0
+--- /dev/null
++++ b/ui/views/bubble/popup_glass_mac.h
+@@ -0,0 +1,43 @@
++// Copyright 2026 The Chromium Authors
++// Use of this source code is governed by a BSD-style license that can be
++// found in the LICENSE file.
++
++#ifndef UI_VIEWS_BUBBLE_POPUP_GLASS_MAC_H_
++#define UI_VIEWS_BUBBLE_POPUP_GLASS_MAC_H_
++
++#include "ui/base/class_property.h"
++#include "ui/views/views_export.h"
++
++namespace gfx {
++class Rect;
++}
++
++namespace views {
++class View;
++class Widget;
++
++// Set on a popup widget while Wryling's glass is behind it, so its views skip
++// their solid backgrounds.
++VIEWS_EXPORT extern const ui::ClassProperty<bool>* const kWrylingPopupGlassKey;
++
++// Wryling (macOS 26): puts real Liquid Glass behind a translucent popup
++// widget (bubbles, the address bar dropdown) whose parent window has
++// Wryling's glass sidebar, tinted exactly like that sidebar. |bounds| is the
++// popup's visible shape in widget coordinates. Returns false, and removes
++// any glass it added before, when glass can't be used: older macOS, Reduce
++// Transparency, or a parent that isn't a Wryling browser window. The caller
++// then paints its usual solid background.
++// |tint_scale| scales the sidebar tint's strength (1 = identical; lower for a
++// clearer, Spotlight-like glass).
++VIEWS_EXPORT bool UpdateWrylingPopupGlass(Widget* popup,
++                                          const gfx::Rect& bounds,
++                                          float corner_radius,
++                                          float tint_scale = 1.0f);
++
++// Makes |view|'s subtree draw correctly over glass: layers that don't fill
++// their bounds opaquely, and no subpixel text (it needs an opaque backdrop).
++VIEWS_EXPORT void PrepareViewsForWrylingGlass(View* view);
++
++}  // namespace views
++
++#endif  // UI_VIEWS_BUBBLE_POPUP_GLASS_MAC_H_

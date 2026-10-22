@@ -103,7 +103,7 @@
 <translation id="2137162749895930932">Аударма экранын жабу</translation>
 <translation id="5789330946301045610">Brave жүктеп алуды блоктады, себебі сайтта қауіпсіз байланыс пайдаланылып жатқан жоқ және файл өзгертілген болуы мүмкін.</translation>
 <translation id="2170098639895543546">Беттен кез келген нәрсені таңдау</translation>
-<translation id="142389341645668510">Brave-ді реттеу</translation>
+<translation id="9094133852008074140">Wryling-ді реттеу</translation>
 <translation id="2174917724755363426">Орнату аяқталмады. Шынымен бас тартқыңыз келе ме?</translation>
 <translation id="8745514854244955877">Brave – Желіге кіру - <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">Жаңа нұсқаны тексеру қатесі: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -202,7 +202,7 @@
 <translation id="3137969841538672700">Іздеу үшін курсорды жүргізіңіз.</translation>
 <translation id="8372436892102763334">Бұл қойынды ресурстарды көп қолданып жатыр. Өнімділікті жақсарту үшін Brave-ге оны әрекетсіз қылуға рұқсат беріңіз.</translation>
 <translation id="5949068186379578553">Экранды бөлісу үшін жүйе параметрлерінде Brave-ге экран жазуға рұқсат беріңіз.</translation>
-<translation id="4805806622840861220">Brave қолданбасын қайта іске қосу</translation>
+<translation id="2036272753168211127">Wryling қолданбасын қайта іске қосу</translation>
 <translation id="3161522574479303604">Барлық тіл</translation>
 <translation id="1742948938503172561">Жаңа Brave профилін реттеңіз.</translation>
 <translation id="2430807206104224491">Қойындыларды ауыстырмай-ақ ЖИ режимінде сөйлесе беруге болады. Бастау үшін Brave-ге кіріңіз. Құпия сөздер мен басқа деректеріңіз барлық құрылғыңызда қолжетімді болады.</translation>
@@ -236,7 +236,7 @@
 <translation id="8981774130895723211">Экранды бөлісу үшін жүйе параметрлерінде Brave-ге экран жазуға рұқсат беріңіз.</translation>
 <translation id="2981961446160697133">Күшейтілген қорғаныс Brave танымайтын сайттар үшін JavaScript оңтайландыру мүмкіндігін өшіреді.</translation>
 <translation id="3597003331831379823">Реттеуді кеңейтілген құқықтармен бастау мүмкін болмады. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Brave аккаунтына кіріңіз</translation>
+<translation id="5451434122049588189">Wryling аккаунтына кіріңіз</translation>
 <translation id="3066805437003400520">Бұл пайдаланушының браузерді пайдалану деректері құрылғыдан жойылады. Деректерді қалпына келтіру үшін Brave браузеріне <ph name="USER_EMAIL"/> болып кіріңіз.</translation>
 <translation id="3667616615096815454">Орнату мүмкін болмады, себебі сервер қолданбаны анықтай алмады.</translation>
 <translation id="1128485277465085828">Brave аккаунтындағы барлық Brave дерегін шифрлау үшін <ph name="BEGIN_LINK"/>жеке құпия фразаны<ph name="END_LINK"/> пайдаланыңыз. Google Pay қызметіндегі төлеу әдістері мен мекенжайлары шифрланбайды. Brave-нің браузерді қолдану тарихы синхрондалмайды.</translation>
@@ -279,7 +279,7 @@
 <translation id="4055805654398742145">P&amp;assword Manager</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Brave 1 минут бойы пайдаланылмаса, ұйымыңыз оны автоматты түрде жабады. Браузерді пайдалану деректері жойылады. Оларға тарих, автотолтыру және жүктеп алынғандар кіруі мүмкін.}other{Brave # минут бойы пайдаланылмаса, ұйымыңыз оны автоматты түрде жабады. Браузерді пайдалану деректері жойылады. Оларға тарих, автотолтыру және жүктеп алынғандар кіруі мүмкін.}}</translation>
 <translation id="5794951150713244901">"Brave туралы ақпарат" бетіне өту</translation>
-<translation id="10925962326134232">Браузеріңізге жаңа көрініс беру үшін Brave-ді бейімдеңіз</translation>
+<translation id="908722199085381104">Браузеріңізге жаңа көрініс беру үшін Wryling-ді бейімдеңіз</translation>
 <translation id="6596295505984504022">Brave браузеріңізді бейімдеңіз</translation>
 <translation id="4148957013307229264">Орнатылуда…</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> –Желіге кіру – Brave</translation>
@@ -381,7 +381,7 @@
 <translation id="5154625106151193600">Неліктен Brave кейбір файлдарды блоктайтыны туралы ақпарат алыңыз</translation>
 <translation id="1786715389543715322">Brave жаңартылуда (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Brave браузеріне кіруге рұқсат ету</translation>
-<translation id="5267531627648004734">Brave-нен жою</translation>
+<translation id="6125790165673488794">Wryling-нен жою</translation>
 <translation id="4620757336635063467">Өнімділік азаяды, бірақ Brave шабуылдарға төзімді болады.</translation>
 <translation id="239760341987199724">Әдепкі браузер ретінде Brave қолданбасын орнату</translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Brave бета нұсқасы</translation>
@@ -560,7 +560,7 @@
 <translation id="7024536598735240744">Пакеттен шығару қатесі: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">Brave браузерін өз талғамыңызға сай реттеңіз</translation>
 <translation id="7047386856539490735">Бұл нәтижелер пайдалы ма?</translation>
-<translation id="1705567146636171298">Brave жаңарту</translation>
+<translation id="4469722898384489712">Wryling жаңарту</translation>
 <translation id="5499063270485366718">Егер суреттің пайдалы сипаттамасы болмаса, Brave оны өзі ұсынып көреді. Сипаттамалар жасау үшін суреттер Brave-ға жіберіледі.</translation>
 <translation id="1196733835766994012">Brave-ді <ph name="DEVICE_TYPE"/> құрылғысында пайдаланған кезде, ЖИ мүмкіндіктерін қолданыңыз</translation>
 <translation id="7166289504510860270">Телефондағы Brave-мен құпия сөздерді, қойындылар мен басқа деректерді жол-жөнекей пайдаланыңыз</translation>
@@ -766,7 +766,7 @@ Brave параметрлеріңізді қалпына келтіре алма�
 <translation id="8965179855019347124">Телефондағы Brave-мен Brave-дың үздік жасанды интеллект құралдарын пайдаланыңыз</translation>
 <translation id="9049928023195059068">Басқа Brave қызметтеріне кірген кезде, Brave-ге де кіресіз</translation>
 <translation id="4561046754724442504">Brave автоматты түрде жабылған</translation>
-<translation id="5173820533850252773">Brave ескірген</translation>
+<translation id="1523936557081546133">Wryling ескірген</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave браузері бір сағаттан кейін қайта іске қосылады}other{Brave браузері # сағаттан кейін қайта іске қосылады}}</translation>
 <translation id="9106236359747881194">Іздеу үшін мәтін таңдаңыз.</translation>
 <translation id="5190991181158966940">Brave-нің жаңа нұсқаларын алып тұру үшін Windows 10 не одан кейінгі операциялық жүйе керек болады. Бұл компьютерде Windows 8.1 нұсқасы орнатылған.</translation>
@@ -778,12 +778,12 @@ Brave параметрлеріңізді қалпына келтіре алма�
 <translation id="2444257125841652328">Жүйе әкімшісі Brave браузерін <ph name="TARGET_URL_HOSTNAME"/> сілтемесіне қосымша браузер арқылы кіре алатындай етіп конфигурациялады.</translation>
 <translation id="7902365066753170041">&amp;Brave-ді жаңарту үшін қайта іске қосу</translation>
 <translation id="3350544518197210895">Brave (mDNS-In)</translation>
-<translation id="296137235951584143">Brave браузерін өз талғамыңызға сай реттеңіз</translation>
+<translation id="4578349172774307195">Wryling браузерін өз талғамыңызға сай реттеңіз</translation>
 <translation id="7977787072794666032">Brave дұрыс жұмыс істемеуі мүмкін, себебі оған Windows XP не Windows Vista жүйелерінде қолдау көрсетілмейді</translation>
 <translation id="8462937515915443472">Brave арқылы Brave-дың ең үздік қауіпсіздік функцияларын жол-жөнекей пайдаланыңыз.</translation>
 <translation id="945522503751344254">Пікір жіберу</translation>
 <translation id="4484434718272972655">Brave-ді кім пайдаланып жатыр?</translation>
-<translation id="7173394303099002355">Brave браузерінің ең күшті қорғанысын қолданыңыз</translation>
+<translation id="1158507424343802366">Wryling браузерінің ең күшті қорғанысын қолданыңыз</translation>
 <translation id="983803489796659991">Орнатылмады, себебі жаңарту серверінде қолданбаға арналған хештеу деректері жоқ.</translation>
 <translation id="8435446479956716379">Brave-ді аккаунтсыз қолдану</translation>
 <translation id="8992261409816268381">Brave Software Inc</translation>
@@ -820,6 +820,6 @@ Brave параметрлеріңізді қалпына келтіре алма�
               other {Кеңейтілген Қорғау жаңартуды қолдану үшін Brave шолғышын қайта іске қосуды талап етеді. # Жеке терезелер қайта ашылмайды.}}</translation>
 <translation id="5749154344207139683">Басқаруға алғаныңызға рақмет. Бұл 1 минуттық сауалнаманы толтыру арқылы Жеке деректеріңізді жақсартуға бізге көмектесіңіз.</translation>
 <translation id="79269250264141507">Мекенжай жолағына немесе іздеу жолағына тергенде, Brave сіздің әдепкі іздеу жүйеңізге жақсы ұсыныстар алу үшін мәтінді жібереді. Бұл Жеке режимде өшірулі.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
+<translation id="2090681901335274465">Wryling Private</translation>
 <translation id="5994282802285556682">Жеке режимде шолу жасағанда, Brave жүйесі қауіпсіз емес қосылымды пайдаланып сайтты жүктеуден бұрын ескертеді.</translation>
 </translationbundle>

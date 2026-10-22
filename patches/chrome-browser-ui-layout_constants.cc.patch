@@ -1,0 +1,18 @@
+diff --git a/chrome/browser/ui/layout_constants.cc b/chrome/browser/ui/layout_constants.cc
+index 7d1a2d797fc2c5626b8a88d9e6a3b7ce30bde59e..161b4e7c0e8df261730c7d8680ba20b3a6f9c651 100644
+--- a/chrome/browser/ui/layout_constants.cc
++++ b/chrome/browser/ui/layout_constants.cc
+@@ -121,8 +121,13 @@ int GetLayoutConstant(LayoutConstant constant) {
+     case LayoutConstant::kToolbarButtonHeight:
+       return touch_ui ? 48 : 34;
+     case LayoutConstant::kToolbarButtonIconSize:
++#if BUILDFLAG(IS_MAC)
++      // Wryling: the toolbar lives in the sidebar; 16pt line icons.
++      return 16;
++#else
+       return touch_ui ? kDefaultTouchableIconSize
+                       : kDefaultIconSizeChromeRefresh;
++#endif
+     case LayoutConstant::kToolbarDividerCornerRadius:
+       return 1;
+     case LayoutConstant::kToolbarDividerHeight:

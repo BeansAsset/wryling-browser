@@ -6,6 +6,8 @@
 #ifndef BRAVE_BROWSER_UI_VIEWS_TOOLBAR_BRAVE_TOOLBAR_VIEW_H_
 #define BRAVE_BROWSER_UI_VIEWS_TOOLBAR_BRAVE_TOOLBAR_VIEW_H_
 
+#include <vector>
+
 #include "base/gtest_prod_util.h"
 #include "base/memory/raw_ptr.h"
 #include "base/scoped_observation.h"
@@ -65,8 +67,37 @@ class BraveToolbarView : public ToolbarView,
 
   void UpdateHorizontalPadding();
 
+  // Wryling (macOS): true while the toolbar sits in the vertical tab sidebar
+  // (see BraveVerticalTabStripRegionView), where it lays out as two rows:
+  // window buttons, back/forward/reload and the menu, then the address bar.
+  bool IsInWrylingSidebar() const;
+  // Whether |location_bar| belongs to a toolbar that is in the sidebar (its
+  // dropdown then floats below it as a popover).
+  static bool IsLocationBarInWrylingSidebar(const views::View* location_bar);
+  // Size of the dropdown popover's gap below the address bar and minimum
+  // width (wider than a narrow sidebar so suggestions stay readable).
+  static constexpr int kWrylingPopoverGap = 6;
+  static constexpr int kWrylingPopoverMinWidth = 380;
+  // Space above the first suggestion inside the popover.
+  static constexpr int kWrylingPopoverTopPadding = 6;
+  // Height of one toolbar row.
+  int GetWrylingRowHeight() const;
+  // Space above row 1, so it clears the glass panel's top edge like Finder's
+  // window buttons do.
+  static constexpr int kWrylingTopPad = 7;
+  // Horizontal inset of the rows and the gap between their buttons.
+  static constexpr int kWrylingEdge = 6;
+  static constexpr int kWrylingGap = 8;
+  // Title bar height that centres the macOS window buttons on row 1.
+  int GetWrylingTitlebarHeight() const {
+    return GetWrylingRowHeight() + 2 * kWrylingTopPad;
+  }
+
   void Init() override;
   void Layout(PassKey) override;
+  gfx::Size CalculatePreferredSize(
+      const views::SizeBounds& available_size) const override;
+  gfx::Size GetMinimumSize() const override;
   void Update(content::WebContents* tab) override;
   void OnThemeChanged() override;
   void OnEditBookmarksEnabledChanged();
@@ -81,6 +112,18 @@ class BraveToolbarView : public ToolbarView,
   FRIEND_TEST_ALL_PREFIXES(BraveToolbarViewTest, ToolbarDividerNotShownTest);
 
   void LoadImages() override;
+  void LayoutWrylingSidebarRows();
+  // Back/forward/reload, those that are visible.
+  std::vector<views::View*> GetWrylingNavButtons() const;
+  views::View* GetWrylingSidebarToggle() const;
+  // Where row 1's buttons can start: after the window's traffic lights.
+  int GetWrylingRow1Start() const;
+  // Whether back/forward/reload fit beside the traffic lights and the menu
+  // at |width|; if not, they get a row of their own.
+  // Spacing for row 1's buttons at |width|, or 0 if they need a row of
+  // their own.
+  int GetWrylingRow1Gap(int width) const;
+  bool WrylingNavFitsInRow1(int width) const;
   void ResetLocationBarBounds();
   void ResetBookmarkButtonBounds();
   void UpdateBookmarkVisibility();

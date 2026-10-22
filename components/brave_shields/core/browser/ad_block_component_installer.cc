@@ -14,6 +14,7 @@
 #include "base/functional/bind.h"
 #include "base/functional/callback.h"
 #include "brave/components/brave_component_updater/browser/brave_on_demand_updater.h"
+#include "brave/components/brave_shields/core/browser/wryling_public_lists.h"
 #include "brave/components/brave_shields/core/common/brave_shield_constants.h"
 #include "components/component_updater/component_installer.h"
 #include "components/component_updater/component_updater_service.h"
@@ -148,8 +149,11 @@ void RegisterAdBlockDefaultResourceComponent(
     component_updater::ComponentUpdateService* cus,
     OnComponentReadyCallback callback) {
   // In test, |cus| could be nullptr.
+  // Wryling: without a services key go-updater.brave.com refuses every
+  // request, so these components could only show "Update error".
   if (!cus ||
-      BraveOnDemandUpdater::GetInstance()->is_component_update_disabled()) {
+      BraveOnDemandUpdater::GetInstance()->is_component_update_disabled() ||
+      !wryling::HasBraveServicesKey()) {
     return;
   }
 
@@ -165,8 +169,11 @@ void RegisterAdBlockFilterListCatalogComponent(
     component_updater::ComponentUpdateService* cus,
     OnComponentReadyCallback callback) {
   // In test, |cus| could be nullptr.
+  // Wryling: without a services key go-updater.brave.com refuses every
+  // request, so these components could only show "Update error".
   if (!cus ||
-      BraveOnDemandUpdater::GetInstance()->is_component_update_disabled()) {
+      BraveOnDemandUpdater::GetInstance()->is_component_update_disabled() ||
+      !wryling::HasBraveServicesKey()) {
     return;
   }
 
@@ -186,8 +193,11 @@ void RegisterAdBlockFiltersComponent(
     const std::string& component_name,
     OnComponentReadyCallback callback) {
   // In test, |cus| could be nullptr.
+  // Wryling: without a services key go-updater.brave.com refuses every
+  // request, so these components could only show "Update error".
   if (!cus ||
-      BraveOnDemandUpdater::GetInstance()->is_component_update_disabled()) {
+      BraveOnDemandUpdater::GetInstance()->is_component_update_disabled() ||
+      !wryling::HasBraveServicesKey()) {
     return;
   }
 

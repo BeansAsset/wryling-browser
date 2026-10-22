@@ -4,110 +4,86 @@
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
 import { scoped } from '$web-common/scoped_css'
-import { color, font } from '@brave/leo/tokens/css/variables'
 
 export const style = scoped.css`
   & {
-    background: ${color.container.background};
+    background: transparent;
+    padding: var(--wry-space-4);
   }
 `
 
 style.passthrough.css`
-  /* Disable toggle animations (unless the user is hovering over the toggle) to
-   * avoid toggle thumb jumping on first render. */
-  --leo-toggle-transition-duration: 0;
-
-  leo-toggle:hover {
-    --leo-toggle-transition-duration: .12s;
-  }
-
   & {
-    font: ${font.default.regular};
-    color: ${color.text.primary};
+    font: var(--wry-body);
+    color: var(--wry-text);
     color-scheme: light dark;
+    --leo-control-radius: var(--wry-radius-m);
+    --leo-control-font: var(--wry-callout);
+    --leo-control-padding: var(--wry-space-1) var(--wry-space-2);
+    --leo-control-border-color: transparent;
+    --leo-control-text-color: var(--wry-text);
+    --leo-color-container-highlight: var(--wry-fill);
+    --leo-control-focus-effect: none;
+    --leo-effect-elevation-01: none;
   }
-
-  p {
-    margin: 0;
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
   }
-
-  h1 {
-    font: ${font.heading.h1};
-    margin: 0;
-  }
-
-  h2 {
-    font: ${font.heading.h2};
-    margin: 0;
-  }
-
-  h3 {
-    font: ${font.heading.h3};
-    margin: 0;
-  }
-
+  p,
+  h1,
+  h2,
+  h3,
   h4 {
-    font: ${font.heading.h4};
     margin: 0;
   }
-
+  h1,
+  h2,
+  h3,
+  h4 {
+    font: var(--wry-headline);
+  }
+  a {
+    color: var(--wry-accent-text);
+  }
   button {
     margin: 0;
-    padding: 0;
-    background: none;
-    border: none;
-    text-align: unset;
-    width: unset;
+    border: 0;
+    text-align: start;
     font: inherit;
     cursor: pointer;
-
-    &:disabled {
-      cursor: default;
-    }
   }
-
+  button:disabled {
+    cursor: default;
+  }
+  button:focus-visible {
+    outline: 3px solid color-mix(in srgb, var(--wry-accent-text) 50%, transparent);
+    outline-offset: 1px;
+  }
+  leo-toggle {
+    --wry-toggle-width: 38px;
+    --wry-toggle-height: 22px;
+    --leo-toggle-transition-duration: 0;
+  }
+  leo-toggle:hover {
+    --leo-toggle-transition-duration: 0.12s;
+  }
   main {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    max-height: calc(var(--browser-window-height, 9999px) - 112px);
-
-    /* Drop shadow on previous sibling when scrollable area is scrolled */
-    > :has(+ [data-scrolled]) {
-      position: relative;
-
-      &::after {
-        content: '';
-        position: absolute;
-        display: block;
-        top: 100%;
-        width: 100%;
-        height: 8px;
-        background: linear-gradient(rgba(0, 0, 0, 0.06), transparent);
-        pointer-events: none;
-        z-index: 1;
-      }
-    }
-
-    > .scrollable {
-      overflow-y: auto;
-      flex: 1 1 auto;
-
-      /* Remove the gap between the scrollable area and siblings */
-      margin-top: -8px;
-
-      + * {
-        margin-top: -8px;
-      }
-    }
+    gap: var(--wry-space-2);
+    max-height: calc(var(--browser-window-height, 9999px) - 144px);
   }
-
+  main > .scrollable {
+    overflow-y: auto;
+    flex: 1 1 auto;
+  }
   .overflow-ellipsis-start {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     unicode-bidi: isolate;
-
     &:dir(ltr) {
       direction: rtl;
       text-align: end;

@@ -6,6 +6,7 @@
 #ifndef BRAVE_BROWSER_UI_VIEWS_TABS_BRAVE_BROWSER_TAB_STRIP_CONTROLLER_H_
 #define BRAVE_BROWSER_UI_VIEWS_TABS_BRAVE_BROWSER_TAB_STRIP_CONTROLLER_H_
 
+#include <memory>
 #include <optional>
 
 #include "chrome/browser/ui/views/tabs/browser_tab_strip_controller.h"
@@ -14,6 +15,10 @@ namespace tabs {
 class TabInterface;
 class TreeTabNode;
 }  // namespace tabs
+
+namespace wryling {
+class SpacesController;
+}  // namespace wryling
 
 namespace tree_tab {
 class TreeTabNodeId;
@@ -85,6 +90,9 @@ class BraveBrowserTabStripController : public BrowserTabStripController {
   // the press moments earlier) and mistake it for a deliberate second click,
   // collapsing what it just selected. See SelectTab() for details.
   std::optional<int> tree_tab_subtree_expanded_on_press_index_;
+
+  // Wryling Spaces for this window (normal, non-incognito windows only).
+  std::unique_ptr<wryling::SpacesController> spaces_controller_;
 };
 
 #endif  // BRAVE_BROWSER_UI_VIEWS_TABS_BRAVE_BROWSER_TAB_STRIP_CONTROLLER_H_

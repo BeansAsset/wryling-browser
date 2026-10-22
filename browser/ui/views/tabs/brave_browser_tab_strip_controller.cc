@@ -11,7 +11,10 @@
 #include <utility>
 #include <vector>
 
+#include "base/functional/bind.h"
+
 #include "brave/browser/ui/browser_commands.h"
+#include "brave/browser/ui/spaces/wryling_spaces.h"
 #include "brave/browser/ui/tabs/brave_tab_prefs.h"
 #include "brave/browser/ui/tabs/brave_tab_strip_model.h"
 #include "brave/browser/ui/tabs/public/vertical_tab_controller.h"
@@ -41,7 +44,23 @@
 BraveBrowserTabStripController::BraveBrowserTabStripController(
     TabStripModel* model,
     BrowserView* browser_view)
-    : BrowserTabStripController(model, browser_view) {}
+    : BrowserTabStripController(model, browser_view) {
+  // Wryling Spaces: created after the base class, so it hears about tab
+  // changes after the tab strip views have been updated.
+  BrowserWindowInterface* browser = browser_view->browser();
+  if (browser->GetType() == BrowserWindowInterface::TYPE_NORMAL &&
+      !browser->GetProfile()->IsOffTheRecord()) {
+    spaces_controller_ =
+        std::make_unique<wryling::SpacesController>(browser_view, model);
+    spaces_controller_->set_relayout_callback(base::BindRepeating(
+        [](BraveBrowserTabStripController* controller) {
+          if (controller->tabstrip_) {
+            controller->tabstrip_->StopAnimating();
+          }
+        },
+        base::Unretained(this)));
+  }
+}
 
 BraveBrowserTabStripController::~BraveBrowserTabStripController() = default;
 
@@ -130,6 +149,10 @@ void BraveBrowserTabStripController::ExecuteContextMenuCommand(
       tab->Close();
       return;
     }
+  }
+
+  if (static_cast<int>(command_id) == wryling::kMoveToSpaceTabMenuCommand) {
+    return;
   }
 
   // Use if clause to prevent enumeration values not handled in switch errors.

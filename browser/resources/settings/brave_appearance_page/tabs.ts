@@ -16,6 +16,7 @@ import {sendWithPromise} from 'chrome://resources/js/cr.js'
 import {loadTimeData} from '../i18n_setup.js'
 
 import {getTemplate} from './tabs.html.js'
+import './wryling_pane_labels.js'
 
 const SettingsBraveAppearanceTabsElementBase =
     WebUiListenerMixin(PrefServiceObserverMixin(I18nMixin(PolymerElement))) as {

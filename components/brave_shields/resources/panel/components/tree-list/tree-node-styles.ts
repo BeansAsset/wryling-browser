@@ -3,7 +3,6 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import { color } from '@brave/leo/tokens/css/variables'
 import styled from 'styled-components'
 
 export const Tree = styled.div`
@@ -11,8 +10,8 @@ export const Tree = styled.div`
   grid-template-columns: 20px 2fr;
   grid-gap: 5px;
   align-items: flex-start;
-  color: ${color.text.primary};
-  font-family: ${(p) => p.theme.fontFamily.heading};
+  color: var(--wry-text);
+  font-family: var(--wry-font);
   font-size: 12px;
   font-weight: 600;
   font-weight: normal;
@@ -37,7 +36,7 @@ export const SVGBox = styled.i`
   left: 10px;
 
   path {
-    stroke: ${color.text.tertiary};
+    stroke: var(--wry-text-secondary);
   }
 `
 
@@ -54,7 +53,7 @@ export const ExpandToggleButton = styled.button`
   cursor: pointer;
 
   &:focus-visible {
-    --border: 2px solid ${color.divider.interactive};
+    --border: 2px solid var(--wry-accent-text);
   }
 `
 

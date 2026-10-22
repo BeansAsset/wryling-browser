@@ -4,6 +4,7 @@
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
 #include "brave/browser/sessions/brave_session_keys.h"
+#include "brave/browser/ui/spaces/wryling_spaces_hooks.h"
 #include "brave/components/tabs/public/tree_tab_node.h"
 #include "brave/components/tabs/public/tree_tab_node_tab_collection.h"
 #include "chrome/browser/ui/tabs/tab_strip_model.h"
@@ -53,6 +54,14 @@ void BuildCommandsForTreeTab(
     sessions::CommandStorageManager* command_storage_manager) {
   for (const auto* tab : *tab_strip_model) {
     BuildCommandsForTreeTab(tab, command_storage_manager);
+    // Wryling Spaces: each tab's space.
+    const std::string space = wryling::GetTabSpaceForSession(tab);
+    if (!space.empty() && tab->GetContents()) {
+      command_storage_manager->AppendRebuildCommand(
+          sessions::CreateAddTabExtraDataCommand(
+              sessions::SessionTabHelper::IdForTab(tab->GetContents()),
+              wryling::kSpaceSessionKey, space));
+    }
   }
 }
 

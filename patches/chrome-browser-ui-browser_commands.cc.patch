@@ -1,8 +1,17 @@
 diff --git a/chrome/browser/ui/browser_commands.cc b/chrome/browser/ui/browser_commands.cc
-index 54e747d468a5fb2c7441641e03f85e11acd0eaeb..8e287b7cd013fa02792153cad8c6a515bb664942 100644
+index 54e747d468a5fb2c7441641e03f85e11acd0eaeb..7ebd9a9d88e2e1a7060804ac585a39ae4d313c40 100644
 --- a/chrome/browser/ui/browser_commands.cc
 +++ b/chrome/browser/ui/browser_commands.cc
-@@ -496,7 +496,12 @@ void MoveTabsToWindowImpl(BrowserWindowInterface* source,
+@@ -4,6 +4,8 @@
+ 
+ #include "chrome/browser/ui/browser_commands.h"
+ 
++#include "brave/browser/ui/spaces/wryling_spaces_hooks.h"
++
+ #include <algorithm>
+ #include <memory>
+ #include <numeric>
+@@ -496,7 +498,12 @@ void MoveTabsToWindowImpl(BrowserWindowInterface* source,
      } else if (auto collection =
                     std::get_if<std::unique_ptr<DetachedTabCollection>>(
                         &tab_or_collection)) {
@@ -16,7 +25,19 @@ index 54e747d468a5fb2c7441641e03f85e11acd0eaeb..8e287b7cd013fa02792153cad8c6a515
                collection->get()->collection_)) {
          target_model->InsertDetachedTabGroupAt(std::move(*collection),
                                                 target_model->count());
-@@ -732,6 +737,11 @@ void ReloadInternal(BrowserWindowInterface* browser,
+@@ -585,6 +592,11 @@ bool IsTabSelectable(
+     TabStripModel* model,
+     tabs::TabInterface* tab,
+     const std::optional<tab_groups::TabGroupId>& focused_group) {
++  // Wryling Spaces: ⌘1 to ⌘9 count only the current space's tabs.
++  if (wryling::IsTabHiddenBySpace(tab)) {
++    return false;
++  }
++
+   // Do not select the tab if it is in a collapsed group.
+   if (tab->GetGroup().has_value() &&
+       model->IsGroupCollapsed(tab->GetGroup().value())) {
+@@ -732,6 +744,11 @@ void ReloadInternal(BrowserWindowInterface* browser,
    bool multiple_ui_tabs_selected =
        active_tab && tab_strip_model->selection_model().size() >
                          (active_tab->IsSplit() ? 2 : 1);
@@ -28,7 +49,7 @@ index 54e747d468a5fb2c7441641e03f85e11acd0eaeb..8e287b7cd013fa02792153cad8c6a515
  
    if (multiple_ui_tabs_selected) {
      // Reloading a tab may change the selection (see crbug.com/339061099), so
-@@ -1169,7 +1179,7 @@ void Reload(BrowserWindowInterface* browser,
+@@ -1169,7 +1186,7 @@ void Reload(BrowserWindowInterface* browser,
    ReloadInternal(browser, disposition, false);
  }
  
@@ -37,7 +58,20 @@ index 54e747d468a5fb2c7441641e03f85e11acd0eaeb..8e287b7cd013fa02792153cad8c6a515
                            WindowOpenDisposition disposition) {
    base::RecordAction(UserMetricsAction("ReloadBypassingCache"));
    ReloadInternal(browser, disposition, true);
-@@ -1472,7 +1482,9 @@ void CloseTab(BrowserWindowInterface* browser) {
+@@ -1465,6 +1482,12 @@ void CloseTab(BrowserWindowInterface* browser) {
+     return;
+   }
+ 
++  // Wryling Spaces: ⌘W leaves a space's Home tab open.
++  if (wryling::IsSpaceHomeTab(active_tab) &&
++      browser->GetTabStripModel()->selection_model().size() == 1) {
++    return;
++  }
++
+   // If the selection model consists of only the indices of a single split tab,
+   // decide if just the active tab in the split is closed instead of all tabs in
+   // the split.
+@@ -1472,7 +1495,9 @@ void CloseTab(BrowserWindowInterface* browser) {
        active_tab->IsSplit() &&
        browser->GetTabStripModel()->selection_model().size() == 2;
  
@@ -48,7 +82,7 @@ index 54e747d468a5fb2c7441641e03f85e11acd0eaeb..8e287b7cd013fa02792153cad8c6a515
      RecordTabCloseCount(1);
      active_tab->GetContents()->Close();
      return;
-@@ -1492,6 +1504,7 @@ void CloseTab(BrowserWindowInterface* browser) {
+@@ -1492,6 +1517,7 @@ void CloseTab(BrowserWindowInterface* browser) {
  #endif
  
    ToastController* toast_controller = browser->GetFeatures().toast_controller();
@@ -56,7 +90,7 @@ index 54e747d468a5fb2c7441641e03f85e11acd0eaeb..8e287b7cd013fa02792153cad8c6a515
    if (!toast_controller) {
      CloseSelectedTabAndRecordTabCountMetric(browser);
      return;
-@@ -1815,7 +1828,7 @@ void NewSplitTab(BrowserWindowInterface* browser,
+@@ -1815,7 +1841,7 @@ void NewSplitTab(BrowserWindowInterface* browser,
    // the regular NTP which renders special content when in Incognito.
    const GURL new_tab_url = !browser->GetProfile()->IsIncognitoProfile() &&
                                     tab_strip_model->count() > 1

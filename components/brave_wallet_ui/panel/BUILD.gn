@@ -10,6 +10,7 @@ import("//brave/components/common/typescript.gni")
 import("//mojo/public/tools/bindings/mojom.gni")
 
 transpile_web_ui("brave_wallet_panel_ui") {
+  wryling_remote_build = true
   output_module = false
   entry_points = [ [
         "brave_wallet_panel",

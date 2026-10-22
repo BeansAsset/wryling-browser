@@ -1,0 +1,34 @@
+# Copyright (c) 2026 The Brave Authors. All rights reserved.
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this file,
+# You can obtain one at https://mozilla.org/MPL/2.0/.
+
+brave_browser_wryling_trails_sources = []
+brave_browser_wryling_trails_deps = []
+
+if (!is_android) {
+  brave_browser_wryling_trails_sources += [
+    "//brave/browser/wryling_trails/wryling_trails_page_handler.cc",
+    "//brave/browser/wryling_trails/wryling_trails_page_handler.h",
+    "//brave/browser/wryling_trails/wryling_trails_service.cc",
+    "//brave/browser/wryling_trails/wryling_trails_service.h",
+    "//brave/browser/wryling_trails/wryling_trails_service_factory.cc",
+    "//brave/browser/wryling_trails/wryling_trails_service_factory.h",
+    "//brave/browser/wryling_trails/wryling_trails_tab_helper.cc",
+    "//brave/browser/wryling_trails/wryling_trails_tab_helper.h",
+  ]
+
+  brave_browser_wryling_trails_deps += [
+    "//base",
+    "//brave/browser/wryling_trails:graph",
+    "//brave/browser/wryling_trails:mojom",
+    "//brave/components/request_otr/common/buildflags",
+    "//components/history/core/browser",
+    "//components/keyed_service/core",
+    "//components/prefs",
+    "//components/search_engines",
+    "//components/sessions",
+    "//content/public/browser",
+    "//mojo/public/cpp/bindings",
+  ]
+}

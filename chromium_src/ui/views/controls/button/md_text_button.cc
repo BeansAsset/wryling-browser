@@ -72,8 +72,10 @@ constexpr float kLoadingOpacity = 0.75f;
 static constexpr auto kButtonThemes =
     base::MakeFixedFlatMap<MdTextButtonStyleKey, ButtonStyle>({
         // Kind=Filled
+        // Wryling: filled buttons carry a hairline rim, like macOS 26.
         {{ui::ButtonStyle::kProminent, ButtonState::STATE_NORMAL},
-         {.background_color = nala::kColorButtonBackground}},
+         {.background_color = nala::kColorButtonBackground,
+          .border_color = ui::kColorButtonBorder}},
         {{ui::ButtonStyle::kProminent, ButtonState::STATE_HOVERED},
          {.background_color = nala::kColorPrimary60,
           .dark_background_color = nala::kColorPrimary50}},
@@ -81,24 +83,25 @@ static constexpr auto kButtonThemes =
          {.background_color = nala::kColorButtonDisabled,
           .text_color = nala::kColorTextDisabled}},
 
-        // Kind=Outline
+        // Kind=Outline. Wryling: a filled secondary button (the design
+        // language has no outline-only buttons); colours from its tokens via
+        // AddWrylingTintColorMixer.
         {{ui::ButtonStyle::kDefault, ButtonState::STATE_NORMAL},
-         {.border_color = nala::kColorDividerInteractive,
-          .text_color = nala::kColorTextInteractive}},
+         {.background_color = ui::kColorButtonBackground,
+          .border_color = ui::kColorButtonBorder,
+          .text_color = ui::kColorButtonForeground}},
         {{ui::ButtonStyle::kDefault, ButtonState::STATE_HOVERED},
-         {.background_color = nala::kColorPrimary10,
-          .border_color = nala::kColorPrimary30,
-          .text_color = nala::kColorTextInteractive,
-          .dark_background_color = nala::kColorNeutral30}},
+         {.background_color = ui::kColorButtonBackgroundPressed,
+          .text_color = ui::kColorButtonForeground}},
         {{ui::ButtonStyle::kDefault, ButtonState::STATE_DISABLED},
-         {.border_color = nala::kColorButtonDisabled,
+         {.background_color = ui::kColorButtonBackground,
           .text_color = nala::kColorTextDisabled}},
 
         // Kind=Plain
         {{ui::ButtonStyle::kTonal, ButtonState::STATE_NORMAL},
          {.text_color = nala::kColorTextInteractive}},
         {{ui::ButtonStyle::kTonal, ButtonState::STATE_HOVERED},
-         {.background_color = nala::kColorNeutral10,
+         {.background_color = ui::kColorButtonHoverBackgroundText,
           .text_color = nala::kColorTextInteractive}},
         {{ui::ButtonStyle::kTonal, ButtonState::STATE_DISABLED},
          {.text_color = nala::kColorTextDisabled}},

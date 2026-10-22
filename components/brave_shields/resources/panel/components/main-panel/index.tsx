@@ -21,11 +21,10 @@ import DataContext from '../../state/context'
 import getPanelBrowserAPI from '../../api/panel_browser_api'
 import { useIsExpanded } from '../../state/hooks'
 import styled from 'styled-components'
-import { color } from '@brave/leo/tokens/css/variables'
 
 const ManagedIcon = styled(Icon).attrs({ name: 'news-business' })`
   --leo-icon-size: 17px;
-  --leo-icon-color: ${color.icon.interactive};
+  --leo-icon-color: var(--wry-accent-text);
 
   display: block;
   margin-right: 5px;

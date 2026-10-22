@@ -26,7 +26,7 @@
 <translation id="1010833424573920260">{NUM_PAGES,plural, =1{Hindi Tumutugon ang Page}one{Hindi Tumutugon ang Mga Page}other{Hindi Tumutugon ang Mga Page}}</translation>
 <translation id="1011003645819296594">Mga na-save na device</translation>
 <translation id="1011355516189274711">Volume ng text-to-speech</translation>
-<translation id="6189564748168922180">Palitan ang iyong PIN sa pag-recover para sa Brave Password Manager</translation>
+<translation id="1208075464878533724">Palitan ang iyong PIN sa pag-recover para sa Wryling Password Manager</translation>
 <translation id="1012876632442809908">USB-C device (port sa harap)</translation>
 <translation id="1015041505466489552">TrackPoint</translation>
 <translation id="1015318665228971643">I-edit ang Pangalan ng Folder</translation>
@@ -70,7 +70,7 @@
 <translation id="6666716404807343028">Pamahalaan ang mga pahintulot sa lokasyon sa website sa Brave</translation>
 <translation id="1042248468362992359">Kumonekta sa mobile data para makagamit ng hotspot. <ph name="BEGIN_LINK_LEARN_MORE"/>Matuto pa<ph name="END_LINK_LEARN_MORE"/></translation>
 <translation id="104385770822424034">Magdagdag ng aksyon</translation>
-<translation id="4141377378685217435">Hindi mo kailangang tandaan ang password dahil nase-save ito para sa iyo sa Brave Password Manager</translation>
+<translation id="5549984969275909493">Hindi mo kailangang tandaan ang password dahil nase-save ito para sa iyo sa Wryling Password Manager</translation>
 <translation id="1046521327593783388">{NUM_PASSWORDS,plural, =1{Na-import ang 1 password sa <ph name="BRAND"/> sa device na ito}one{Na-import ang {NUM_PASSWORDS} password sa <ph name="BRAND"/> sa device na ito}other{Na-import ang {NUM_PASSWORDS} na password sa <ph name="BRAND"/> sa device na ito}}</translation>
 <translation id="1046572983040892965">Inilipat ang window pataas at pakaliwa</translation>
 <translation id="1047431265488717055">Kopyahin ang Text ng Link</translation>
@@ -96,7 +96,7 @@
 <translation id="10619348099955377">Kopyahin ang display name</translation>
 <translation id="1062407476771304334">Palitan</translation>
 <translation id="1064236804542808595">I-restore ang mga shortcut ng organisasyon</translation>
-<translation id="2729345439181698540">Sa tingin ng Brave ay ayaw mo ng mga notification mula sa site na ito. Kaya naman, naka-hide ang mga request para mabawasan ang mga abala.</translation>
+<translation id="7962797086784806183">Sa tingin ng Wryling ay ayaw mo ng mga notification mula sa site na ito. Kaya naman, naka-hide ang mga request para mabawasan ang mga abala.</translation>
 <translation id="1066964438793906105">I-scan kung may malware</translation>
 <translation id="3983904244054509097">Para sa karagdagang kaligtasan, puwede mong i-encrypt ang mga password sa iyong device bago i-save ang mga ito sa Brave sync chain mo</translation>
 <translation id="5428209950370661546">Iba pang serbisyo ng Brave</translation>
@@ -139,7 +139,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1090541560108055381">Bago magpares, tiyaking pareho ang code sa dalawang device</translation>
 <translation id="1093457606523402488">Mga Nakikitang Network:</translation>
 <translation id="1093645050124056515">ctrl + alt + pababang arrow</translation>
-<translation id="1676423917671990874">Brave Password Manager sa web</translation>
+<translation id="3958643735082353873">Wryling Password Manager sa web</translation>
 <translation id="1097016918605049747">Hindi maisasalin ang page na ito</translation>
 <translation id="1099962274138857708">Nakopya ang larawan mula sa <ph name="DEVICE_NAME"/></translation>
 <translation id="1100040363679327583">Suriin ang gawain. Mag-ask sa Gemini</translation>
@@ -222,7 +222,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1155816283571436363">Pagkonekta sa iyong telepono</translation>
 <translation id="3265387852639842086">Isara ang panel sa gilid ng Brave Search</translation>
 <translation id="1158080958325422608">Gawing Malalaking Titik</translation>
-<translation id="4489415936688888898">Gemini sa Brave</translation>
+<translation id="4980210551795949534">Gemini sa Wryling</translation>
 <translation id="1159879754517035595">Pamahalaan ang mga setting ng extension</translation>
 <translation id="1160800016654917722">Inilipat ang window pababa at pakaliwa</translation>
 <translation id="116173250649946226">Nagtakda ang iyong administrator ng default na tema na hindi puwedeng baguhin.</translation>
@@ -247,8 +247,8 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1173332155861271669">Mga detalye ng provider ng Passpoint</translation>
 <translation id="1173894706177603556">Pangalanang muli</translation>
 <translation id="1174073918202301297">Naidagdag na ang shortcut</translation>
-<translation id="4720923867206970346">Palaging secure ang koneksyon mo maliban na lang kung sasabihin ng Brave sa iyo na hindi.</translation>
-<translation id="4077881064206141073">Pumunta sa Brave</translation>
+<translation id="460601934457493674">Palaging secure ang koneksyon mo maliban na lang kung sasabihin ng Wryling sa iyo na hindi.</translation>
+<translation id="3040558678310756332">Pumunta sa Wryling</translation>
 <translation id="1175131936083782305">Na-disable ng iyong administrator ang feature na ito.</translation>
 <translation id="1175277108283187866">Bumisita sa isang site o magsimula ng paghahanap sa address bar</translation>
 <translation id="1175364870820465910">&amp;I-print...</translation>
@@ -426,7 +426,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1308105352527684175">Posibleng hindi mo ma-access ang ilang partikular na content</translation>
 <translation id="1311092170520822848">Kinokontrol ng site na ito ang mga smart card reader na nakakonekta sa iyong device at mga smart card na posibleng available sa mga ito</translation>
 <translation id="131112695174432497">Dine-delete ang data na nakakaapekto sa pag-personalize ng ad</translation>
-<translation id="1092870157695460112">Alamin ang pinaigting na proteksyon para makuha ang pinakamataas na level ng seguridad ng Brave para sa mga pag-download</translation>
+<translation id="1239647152794634812">Alamin ang pinaigting na proteksyon para makuha ang pinakamataas na level ng seguridad ng Wryling para sa mga pag-download</translation>
 <translation id="1312298796781107732">{NUM_TABS,plural, =1{Ayusin ang Tab na Nagpapabagal sa Iyong Browser}one{Ayusin ang Mga Tab na Nagpapabagal sa Iyong Browser}other{Ayusin ang Mga Tab na Nagpapabagal sa Iyong Browser}}</translation>
 <translation id="1312721752506309252">Naka-on ang pinaigting na proteksyon</translation>
 <translation id="13130607084115184">Lalabas dito ang mga naka-save na password. Para mag-import ng mga password sa <ph name="BRAND"/> sa device na ito, <ph name="BEGIN_LINK"/> pumili ng CSV file.<ph name="END_LINK"/></translation>
@@ -462,7 +462,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1340839264183302272">Umalis sa grupo</translation>
 <translation id="1341002693404468853">I-hide ang Organizer</translation>
 <translation id="1341701348342335220">Mahusay!</translation>
-<translation id="873343310451048603">Para tingnan kung may mga nakompromisong password, pumunta sa Brave Password Manager</translation>
+<translation id="4973862711373394097">Para tingnan kung may mga nakompromisong password, pumunta sa Wryling Password Manager</translation>
 <translation id="1343920184519992513">Magpatuloy kung saan ka huminto at magbukas ng partikular na hanay ng mga page</translation>
 <translation id="1346630054604077329">Kumpirmahin at i-restart</translation>
 <translation id="1346748346194534595">Kanan</translation>
@@ -495,7 +495,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1374844444528092021">Ang certificate na kinakailangan ng network na "<ph name="NETWORK_NAME"/>" ay maaaring hindi naka-install o wala nang bisa.  Mangyaring kumuha ng isang bagong certificate at subukang kumonekta muli.</translation>
 <translation id="1374948751106271187">Magkaroon ng dagdag na layer ng proteksyon kapag on the go ka</translation>
 <translation id="137651782282853227">Lalabas dito ang mga na-save na address</translation>
-<translation id="7377055577309465332">Kung makikita ang isa sa iyong mga password sa isang breach sa data, itatanong ng Brave Password Manager kung gusto mo itong palitan ng malakas na password</translation>
+<translation id="5008990945704272605">Kung makikita ang isa sa iyong mga password sa isang breach sa data, itatanong ng Wryling Password Manager kung gusto mo itong palitan ng malakas na password</translation>
 <translation id="1378613616312864539">Kinokontrol ng <ph name="NAME"/> ang setting na ito</translation>
 <translation id="1378715594598306389">Tumingin ng higit pang tab</translation>
 <translation id="1380028686461971526">Awtomatikong kumonekta sa network</translation>
@@ -645,7 +645,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1499041187027566160">lakasan ang volume</translation>
 <translation id="1499948601784722399">Mga request ng site</translation>
 <translation id="1500297251995790841">Hindi kilalang device [<ph name="VENDOR_ID"/>:<ph name="PRODUCT_ID"/>]</translation>
-<translation id="6440894523770886280">Matuto pa tungkol sa mga hindi sinusuportahang Brave app</translation>
+<translation id="7828916217230765229">Matuto pa tungkol sa mga hindi sinusuportahang Wryling app</translation>
 <translation id="1501480321619201731">I-delete ang pangkat</translation>
 <translation id="150411034776756821">Alisin ang <ph name="SITE"/></translation>
 <translation id="1504253885059472207">I-pin ang split view</translation>
@@ -665,7 +665,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1512210426710821809">Ang tanging paraan upang ma-undo ito ay muling i-install ang <ph name="IDS_SHORT_PRODUCT_OS_NAME"/></translation>
 <translation id="1512642802859169995">Naka-encrypt ang <ph name="FILE_NAME"/>. Hilingin sa may-ari nitong i-decrypt ito.</translation>
 <translation id="151501797353681931">Na-import Mula sa Safari</translation>
-<translation id="7181162989909413015">Para mag-cast gamit ang isang code, i-on ang mga setting sa pag-sync ng Brave browser</translation>
+<translation id="4295055064213980989">Para mag-cast gamit ang isang code, i-on ang mga setting sa pag-sync ng Wryling browser</translation>
 <translation id="1521442365706402292">Pamahalaan ang mga sertipiko</translation>
 <translation id="1521655867290435174">Brave Sheets</translation>
 <translation id="1521933835545997395">Nakakonekta sa Android phone</translation>
@@ -703,11 +703,11 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1546452108651444655">Gustong mag-install ni <ph name="CHILD_NAME"/> ng <ph name="EXTENSION_TYPE"/> na magagawang:</translation>
 <translation id="1547123415014299762">Pinapayagan ang third-party na cookies</translation>
 <translation id="1547808936554660006">Nauunawaan kong hindi aalisin ng Powerwash ang mga naka-install na profile ng eSIM.</translation>
-<translation id="2009341821632988095">Hindi available ang Gemini sa Brave</translation>
+<translation id="280951773191806143">Hindi available ang Gemini sa Wryling</translation>
 <translation id="1549275686094429035">Naka-enable ang ARC</translation>
 <translation id="1549788673239553762">Gusto ng <ph name="APP_NAME"/> na i-access ang <ph name="VOLUME_NAME"/>. Maaari nitong baguhin o i-delete ang iyong mga file.</translation>
 <translation id="1549966883323105187">Mas mabilis na mapuntahan ang iyong mga naka-save na password</translation>
-<translation id="822755500038144322">Default na Brave</translation>
+<translation id="5480276139257027757">Default na Wryling</translation>
 <translation id="1552301827267621511">Pinalitan ng extension na "<ph name="EXTENSION_NAME"/>" ang paghahanap para magamit ang <ph name="SEARCH_PROVIDER_DOMAIN"/></translation>
 <translation id="1552752544932680961">Mamahala ng extension</translation>
 <translation id="1553538517812678578">walang limitasyon</translation>
@@ -750,7 +750,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1581962803218266616">Show in Finder</translation>
 <translation id="1582955169539260415">i-delete ang [<ph name="FINGERPRINT_NAME"/>]</translation>
 <translation id="1583127975413389276">Lokal na ipinoproseso ang <ph name="LANGUAGE"/> at gumagana ito offline</translation>
-<translation id="491276955533054201">I-on muna ang awtomatikong pag-browse ng Brave para sa device na ito</translation>
+<translation id="2483396658308611628">I-on muna ang awtomatikong pag-browse ng Wryling para sa device na ito</translation>
 <translation id="1587275751631642843">&amp;JavaScript console</translation>
 <translation id="1588438908519853928">Normal</translation>
 <translation id="1588772269240419305">Suriin ang mga update sa logo at pangalan</translation>
@@ -776,7 +776,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1600857548979126453">I-access ang backend ng debugger ng pahina</translation>
 <translation id="1601481906560916994">Huwag Isama ang Site</translation>
 <translation id="1601560923496285236">Ilapat</translation>
-<translation id="8275260485701169654">Impormasyon ng System ng Brave</translation>
+<translation id="302546259431411287">Impormasyon ng System ng Wryling</translation>
 <translation id="1603411913360944381">Kalimutan ang <ph name="DEVICE_NAME"/></translation>
 <translation id="1604567162047669454">Makakilala ng mga semantic na visual na layout</translation>
 <translation id="1605148987885002237">Keyboard at mga input</translation>
@@ -793,7 +793,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1611649489706141841">susunod</translation>
 <translation id="1612019740169791082">Hindi naka-configure ang iyong container para suportahan ang mga pag-resize ng disk. Para isaayos ang laki ng espasyong nakareserba para sa Linux, i-back up at pagkatapos ay i-restore ito sa isang bagong container.</translation>
 <translation id="1612179176000108678">I-on lang kapag nasa <ph name="PERCENT"/>% o mas mababa ang iyong baterya</translation>
-<translation id="2811168643228573149">Hindi na bubukas ang mga lumang bersyon ng mga Brave app pagkatapos ng Disyembre 2022. Puwede mong tingnan kung may available na bagong bersyon.</translation>
+<translation id="8232170710895633549">Hindi na bubukas ang mga lumang bersyon ng mga Wryling app pagkatapos ng Disyembre 2022. Puwede mong tingnan kung may available na bagong bersyon.</translation>
 <translation id="1614511179807650956">Maaaring naubos mo na ang iyong allowance sa mobile data. Bisitahin ang portal sa pag-activate ng <ph name="NAME"/> para bumili ng higit pang data</translation>
 <translation id="161460670679785907">Hindi makita ang iyong telepono</translation>
 <translation id="1614890968027287789">Hiwalay na pag-browse?</translation>
@@ -806,7 +806,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1620307519959413822">Mali ang password. Subukan ulit o i-click ang Nakalimutan ang password para ma-reset ito.</translation>
 <translation id="1620510694547887537">Camera</translation>
 <translation id="1620760691416124482">Buksan sa &amp;split view</translation>
-<translation id="2380574999275845178">Nakita sa isang pampublikong breach sa data ang iyong password. Puwedeng palitan ito ng Brave Password Manager at i-save ito sa <ph name="EMAIL"/>. <ph name="LINK"/></translation>
+<translation id="945706443844722845">Nakita sa isang pampublikong breach sa data ang iyong password. Puwedeng palitan ito ng Wryling Password Manager at i-save ito sa <ph name="EMAIL"/>. <ph name="LINK"/></translation>
 <translation id="1621729191093924223">Hindi gagana ang mga feature na nangangailangan ng mikropono</translation>
 <translation id="1621984899599015181">Pinapamahalaan ng iyong organisasyon ang mga opsyon para sa pagbabahagi. Posibleng nakatago ang ilang item.</translation>
 <translation id="1622054403950683339">Kalimutan ang Wi-Fi network</translation>
@@ -847,7 +847,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1651609627703324721">Nagpe-present ang tab na ito ng VR content sa isang headset</translation>
 <translation id="1652281434788353738">Thoughtful</translation>
 <translation id="1652326691684645429">I-enable ang Nearby Share</translation>
-<translation id="3549478477646243075">Para magamit ang Password Manager sa macOS Keychain, ilunsad ulit ang Brave at payagan ang access sa Keychain. Bubukas ulit ang iyong mga tab pagkatapos malunsad ulit.</translation>
+<translation id="2499592745937512720">Para magamit ang Password Manager sa macOS Keychain, ilunsad ulit ang Wryling at payagan ang access sa Keychain. Bubukas ulit ang iyong mga tab pagkatapos malunsad ulit.</translation>
 <translation id="165448107578581061">Ginagawa ng Gemini ang iyong gawain...</translation>
 <translation id="1654580009054503925">Hindi pinapayagang magpakita ng mga request</translation>
 <translation id="1656528038316521561">Opacity ng background</translation>
@@ -866,7 +866,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1665328953287874063">Gumamit ng password o PIN para i-unlock ang iyong <ph name="DEVICE_TYPE"/></translation>
 <translation id="1665859804801131136">Expressionism</translation>
 <translation id="1667842670298352129">Marinig na binabasa nang malakas ang partikular na text. Una, piliin ang icon na Select-to-speak sa ibaba ng iyong screen, pagkatapos ay i-highlight ang text. Puwede ka ring gumamit ng keyboard shortcut: Mag-highlight ng text, pagkatapos ay pindutin ang Search + S.</translation>
-<translation id="1907729551248502985"><ph name="TASK_TITLE"/>: Nakumpleto ng Gemini ang iyong gawain, puwede mo itong tingnan sa Brave.</translation>
+<translation id="6525814448763773534"><ph name="TASK_TITLE"/>: Nakumpleto ng Gemini ang iyong gawain, puwede mo itong tingnan sa Wryling.</translation>
 <translation id="1668804837842452164">I-save sa <ph name="BRAND"/> para sa <ph name="EMAIL"/></translation>
 <translation id="1670070366970670971">Subframe ng PDF: <ph name="SUBFRAME_SITE"/></translation>
 <translation id="1670399744444387456">Pangunahin</translation>
@@ -874,7 +874,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1671749176392751693">Pinapayagan ang mga identifier ng pinoprotektahang content</translation>
 <translation id="1673137583248014546">Gustong tingnan ng <ph name="URL"/> ang manufacturer at modelo ng iyong Security Key</translation>
 <translation id="1673855466663721679">Ipakita ang mga bookmark sa panel sa gilid</translation>
-<translation id="360538872024580404">Puwedeng i-update ng Brave Password Manager ang account mo para magkaroon ng malakas na password na ise-save para sa iyo sa account mong <ph name="EMAIL"/>.</translation>
+<translation id="7045853495100965504">Puwedeng i-update ng Wryling Password Manager ang account mo para magkaroon ng malakas na password na ise-save para sa iyo sa account mong <ph name="EMAIL"/>.</translation>
 <translation id="1674945585974615438">Awtomatikong i-disable ang mga optimizer sa JavaScript sa mga hindi pamilyar na site</translation>
 <translation id="1675964862374196038">Mag-sign up sa pamamagitan ng <ph name="IDP_NAME"/></translation>
 <translation id="1677306805708094828">Hindi maidagdag ang <ph name="EXTENSION_TYPE_PARAMETER"/></translation>
@@ -912,7 +912,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1703666494654169921">Huwag payagan ang mga site na gumamit ng mga virtual reality device o data</translation>
 <translation id="1704097193565924901">I-capitalize</translation>
 <translation id="1704230497453185209">Huwag payagan ang mga site na mag-play ng tunog</translation>
-<translation id="2330259386430751078">Ang iyong bersyon ng Brave, bersyon ng operating system, mga setting ng Cast,
+<translation id="2276664597334765028">Ang iyong bersyon ng Brave, bersyon ng operating system, mga setting ng Cast,
     stats ng performance ng pag-mirror, at diagnostic log ng channel ng pakikipag-ugnayan
     ay isusumite bilang karagdagan sa anumang impormasyong pinili mong
     isama sa itaas. Ginagamit ang feedback na ito para mag-diagnose ng mga problema at
@@ -1124,7 +1124,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1866589962721094893">Bigyan ang mga Android app ng kontrol sa mga USB device sa Chromebook na ito. Magre-request ng pahintulot sa tuwing magsasaksak ka ng USB device. Hihiling ang mga indibidwal na Android app ng mga karagdagang pahintulot.</translation>
 <translation id="1867780286110144690">Ang <ph name="PRODUCT_NAME"/> ay handa nang kumpletuhin ang iyong pag-install</translation>
 <translation id="1869433484041798909">Button ng bookmark</translation>
-<translation id="7175072311426658869">Buksan sa Brave browser</translation>
+<translation id="7259806589727104192">Buksan sa Wryling browser</translation>
 <translation id="1871131409931646355">Buong History ng Pag-download</translation>
 <translation id="187145082678092583">Mas kaunting app</translation>
 <translation id="1871615898038944731">Napapanahon ang iyong <ph name="DEVICE_TYPE"/></translation>
@@ -1176,11 +1176,11 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1907044622262489040">Mag-type gamit ang iyong boses. Gamitin ang Search + D, pagkatapos ay magsimulang magsalita.</translation>
 <translation id="1907659324308286326">Kailangan ng ilang accessory ng Thunderbolt o USB4 ng access sa memory para gumana nang maayos.</translation>
 <translation id="1908591798274282246">Buksan Ulit ang Nakasarang Grupo</translation>
-<translation id="6307771221551726329">Kinokontrol ang Brave ng naka-automate na software na pang-test</translation>
+<translation id="5448629660377773960">Kinokontrol ang Wryling ng naka-automate na software na pang-test</translation>
 <translation id="1909880997794698664">Sigurado ka bang gusto mong permanenteng panatilihin sa kiosk mode ang device na ito?</translation>
 <translation id="1910721550319506122">Maligayang pagdating!</translation>
 <translation id="1910736334623230603">Hindi makapaghanap ng maraming larawan. Paisa-isang dagdagan ng larawan.</translation>
-<translation id="2675239977494524649">Ang Brave for Testing v<ph name="BROWSER_VERSION"/> ay para lang sa naka-automate na pagsubok. Para sa regular na pag-browse, gumamit ng standard na bersyon ng Brave na awtomatikong nag-a-update.</translation>
+<translation id="3397046954990092136">Ang Wryling for Testing v<ph name="BROWSER_VERSION"/> ay para lang sa naka-automate na pagsubok. Para sa regular na pag-browse, gumamit ng standard na bersyon ng Wryling na awtomatikong nag-a-update.</translation>
 <translation id="1913734973620799732">{NUM_TABS,plural, =1{I-pause ang Tab na Nagpapabagal sa Iyong Browser}one{I-pause ang Mga Tab na Nagpapabagal sa Iyong Browser}other{I-pause ang Mga Tab na Nagpapabagal sa Iyong Browser}}</translation>
 <translation id="1913749768968678106">I-cast, i-save, at i-share</translation>
 <translation id="19147273405311768">I-reset ang toolbar sa mga default na setting</translation>
@@ -1194,7 +1194,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1918281588461452432">Habang nagba-browse ka sa mga site, ine-encrypt ang mga content ng page ng mga ito at sine-save ang mga ito sa iyong device</translation>
 <translation id="1918761619391445601">Na-pin ang <ph name="EXTENSION_NAME"/>. Tumingin ng higit pang opsyon.</translation>
 <translation id="1920390473494685033">Mga Contact</translation>
-<translation id="1303494024456273059">Nasa iyo ang pinakamaigting na seguridad ng Brave laban sa mga mapanganib na website, download, at extension</translation>
+<translation id="4473968066674302045">Nasa iyo ang pinakamaigting na seguridad ng Wryling laban sa mga mapanganib na website, download, at extension</translation>
 <translation id="1921584744613111023"><ph name="DPI"/> dpi</translation>
 <translation id="1921600948984918136">Mase-save ang "<ph name="NAME"/>" sa device lang na ito. Para magamit ito sa iba mo pang device, i-save ito sa iyong account.</translation>
 <translation id="2428738111653039235">Ginagamit ng mga Brave site tulad ng Gmail, Drive, at YouTube ang wika ng iyong Brave sync chain maliban kung binago mo ang wika ng indibidwal na produkto</translation>
@@ -1202,7 +1202,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="192494336144674234">Buksan gamit ang</translation>
 <translation id="1925017091976104802">Pindutin ang <ph name="MODIFIER_KEY_DESCRIPTION"/> para i-paste</translation>
 <translation id="1925021887439448749">Maglagay ng custom na address sa web</translation>
-<translation id="8049922435917813862">Hindi na bubukas ang mga lumang bersyon ng mga Brave app sa mga Windows device pagkatapos ng Disyembre 2022. Puwede mong tingnan kung may available na bagong bersyon.</translation>
+<translation id="3973756123782124071">Hindi na bubukas ang mga lumang bersyon ng mga Wryling app sa mga Windows device pagkatapos ng Disyembre 2022. Puwede mong tingnan kung may available na bagong bersyon.</translation>
 <translation id="1925907592956229423">Hindi ba gumana?</translation>
 <translation id="1926339101652878330">Kinokontrol ng patakaran sa enterprise ang mga setting na ito. Mangyaring makipag-ugnayan sa iyong administrator para sa higit pang impormasyon.</translation>
 <translation id="1926887872692564784">Cursor</translation>
@@ -1300,7 +1300,7 @@ Suriin ang iyong mga password anumang oras sa <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1995916364271252349">Kinokontrol ang impormasyong puwedeng gamitin at ipakita ng mga site (lokasyon, camera, mga pop-up, at higit pa)</translation>
 <translation id="199610894463449797">{0,plural, =1{Isara ang Profile na Ito}one{Isara ang Profile na Ito (# Window)}other{Isara ang Profile na Ito (# na Window)}}</translation>
 <translation id="1996557034791506430">Alisin ang pahintulot?</translation>
-<translation id="5123795870522389058">Kailangan ng Brave ng pahintulot para gamitin ang Bluetooth para kumonekta sa iyong device</translation>
+<translation id="3521856355166442895">Kailangan ng Wryling ng pahintulot para gamitin ang Bluetooth para kumonekta sa iyong device</translation>
 <translation id="1997616988432401742">Iyong mga certificate</translation>
 <translation id="1998715278591719161">Pinapayagang i-track ang iyong mga kamay</translation>
 <translation id="1999115740519098545">Sa startup</translation>
@@ -1382,7 +1382,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2071393345806050157">Walang lokal na log file.</translation>
 <translation id="2073148037220830746">{NUM_EXTENSIONS,plural, =1{I-click para i-install ang extension}one{I-click para i-install ang mga extension na ito}other{I-click para i-install ang mga extension na ito}}</translation>
 <translation id="2073505299004274893">Gumamit ng <ph name="CHARACTER_LIMIT"/> (na) character o mas kaunti</translation>
-<translation id="6310091415404224128">Mga Log ng User ng Brave ng ChromeOS</translation>
+<translation id="652095390288645804">Mga Log ng User ng Wryling ng ChromeOS</translation>
 <translation id="2074599390896964828">Eksaktong Lokasyon</translation>
 <translation id="2075088158103027942">Pumunta sa subscription</translation>
 <translation id="2075474481720804517"><ph name="BATTERY_PERCENTAGE"/>% Baterya</translation>
@@ -1476,7 +1476,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2146263598007866206">Posibleng awtomatikong i-download ng mga site ang magkakaugnay na file nang magkakasama para makatipid ka sa oras</translation>
 <translation id="2147218225094845757">Itago ang panel sa gilid</translation>
 <translation id="2147282432401652483">command</translation>
-<translation id="2147402320887035428">Posibleng malware ang file na ito.<ph name="LINE_BREAK"/>Sinusuri ng Ligtas na Pag-browse sa Brave kung hindi ligtas ang file na ito — karaniwang umaabot ng ilang segundo ang pag-scan.</translation>
+<translation id="3524545590873425652">Posibleng malware ang file na ito.<ph name="LINE_BREAK"/>Sinusuri ng Ligtas na Pag-browse sa Brave kung hindi ligtas ang file na ito — karaniwang umaabot ng ilang segundo ang pag-scan.</translation>
 <translation id="2147584561902725329">Huling Pagpapatakbo ng Pana-panahong Gawain:</translation>
 <translation id="2148212683005708350"><ph name="MODIFIER_ONE"/> + <ph name="MODIFIER_TWO"/> + <ph name="MODIFIER_THREE"/> + <ph name="KEY"/></translation>
 <translation id="2148219725039824548">Nagka-error sa pag-mount ng share. Hindi nakita ang isinaad na share sa network.</translation>
@@ -1553,7 +1553,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3750252396973215586">Magagawang suriin ng <ph name="BRAND"/> ang iyong mga password kapag nag-sign in ka sa Brave sync chain mo</translation>
 <translation id="2204020417499639567">Napunan ang email.</translation>
 <translation id="2204034823255629767">Basahin at baguhin ang anumang tina-type mo</translation>
-<translation id="2421570739058774699">Para magawa ang passkey na ito gamit ang Brave Password Manager, i-verify na ikaw ito</translation>
+<translation id="4389439850249114056">Para magawa ang passkey na ito gamit ang Wryling Password Manager, i-verify na ikaw ito</translation>
 <translation id="2204387456724731099">Hindi maisasalin ang piniling ito</translation>
 <translation id="2204613850236199029">Inalis ang impormasyon</translation>
 <translation id="2207116775853792104">Panatilihin ang extension na ito</translation>
@@ -1706,7 +1706,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2323685460575935191">Itago ang mga button sa pag-scroll</translation>
 <translation id="2325444234681128157">Tandaan ang password</translation>
 <translation id="2326188115274135041">Kumpirmahin ang PIN para i-on ang awtomatikong pag-unlock</translation>
-<translation id="932658359823557793">Hindi ito Brave sync chain. Hindi magiging available ang mga item na ise-save mo sa Brave sa iba pang device.</translation>
+<translation id="2402143283348433546">Hindi ito Brave sync chain. Hindi magiging available ang mga item na ise-save mo sa Brave sa iba pang device.</translation>
 <translation id="2326906096734221931">Buksan ang Mga setting ng app</translation>
 <translation id="2326931316514688470">I-&amp;reload ang app</translation>
 <translation id="2327920026543055248">Maglagay ng <ph name="CHARACTER"/> character sa <ph name="TOTAL"/></translation>
@@ -1732,7 +1732,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2343160676229467122">Hindi pinapayagan ang mga extension sa <ph name="SITE_NAME"/></translation>
 <translation id="2343390523044483367">Rocky Mountains National Park</translation>
 <translation id="2343747224442182863">I-focus ang Tab na Ito</translation>
-<translation id="6055117817387598516">Hindi na bubukas ang mga lumang bersyon ng Brave Apps pagkatapos ng Disyembre 2022. Makipag-ugnayan sa iyong administrator para mag-update sa bagong bersyon o alisin ang app na ito.</translation>
+<translation id="5799730171660321530">Hindi na bubukas ang mga lumang bersyon ng Wryling Apps pagkatapos ng Disyembre 2022. Makipag-ugnayan sa iyong administrator para mag-update sa bagong bersyon o alisin ang app na ito.</translation>
 <translation id="2348176352564285430">App: <ph name="ARC_PROCESS_NAME"/></translation>
 <translation id="2348729153658512593"><ph name="WINDOW_TITLE"/> - Humiling ng pahintulot, pindutin ang Ctrl + Forward para tumugon</translation>
 <translation id="234889437187286781">Nagka-error sa pag-load ng data</translation>
@@ -1885,10 +1885,10 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2462577132948197840">Mag-sign in sa iyong telepono</translation>
 <translation id="246264032905007361">Buksan ang Edge</translation>
 <translation id="2462752602710430187">Idinagdag ang <ph name="PRINTER_NAME"/></translation>
-<translation id="3708525592265213987">Nakikita mo ang mga iminumungkahing file para madali mong mabalikan ang iyong pinakakamakailang aktibidad sa Microsoft SharePoint at OneDrive.
+<translation id="3512223990745179540">Nakikita mo ang mga iminumungkahing file para madali mong mabalikan ang iyong pinakakamakailang aktibidad sa Microsoft SharePoint at OneDrive.
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        Puwede mong pamahalaan ang mga setting mula sa menu ng card o tingnan ang higit pang opsyon sa I-customize ang Brave.</translation>
+        Puwede mong pamahalaan ang mga setting mula sa menu ng card o tingnan ang higit pang opsyon sa I-customize ang Wryling.</translation>
 <translation id="2464079411014186876">Ice cream</translation>
 <translation id="2467755475704469005">Walang na-detect na device. <ph name="BEGIN_LINK"/>Matuto pa<ph name="END_LINK"/></translation>
 <translation id="2467933879189426525">Sumali sa Grupo ng Tab kasama ni <ph name="OWNER_FIRST_NAME"/> at <ph name="NUM_OTHER_MEMBERS"/> Pang Iba</translation>
@@ -1960,10 +1960,10 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2509918030571808322"><ph name="TASK_TITLE"/>: <ph name="STEP_PROGRESS"/></translation>
 <translation id="2512065992892294946"><ph name="LANGUAGE"/> (pinili)</translation>
 <translation id="2513904627589542105">Self Test</translation>
-<translation id="2853929249020379065">Nakakakita ka ng mga page na binisita mo at mga iminumungkahing paghahanap para madali kang makabalik sa iyong pinakakamakailang aktibidad.
+<translation id="2148080035799245255">Nakakakita ka ng mga page na binisita mo at mga iminumungkahing paghahanap para madali kang makabalik sa iyong pinakakamakailang aktibidad.
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        Puwede mong pamahalaan ang mga setting mula sa menu ng card o tingnan ang higit pang opsyon sa I-customize ang Brave.</translation>
+        Puwede mong pamahalaan ang mga setting mula sa menu ng card o tingnan ang higit pang opsyon sa I-customize ang Wryling.</translation>
 <translation id="2514465118223423406">Kapag nakakonekta ang mouse</translation>
 <translation id="2515586267016047495">Alt</translation>
 <translation id="251722524540674480">Kumpirmahin ang iyong username</translation>
@@ -2056,7 +2056,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2589658397149952302">Huwag kailanman ipakita ang mga file sa Drive</translation>
 <translation id="2597073208962000830">Gumagamit ang Nearby Share ng pag-scan ng Bluetooth para maghanap ng mga kalapit na device.</translation>
 <translation id="2598136842498757793">I-customize ang mga button ng toolbar</translation>
-<translation id="2024721991200132064">May bagong Brave na available</translation>
+<translation id="2001896808401121187">May bagong Wryling na available</translation>
 <translation id="2599048253926156421">Nakopya ang username sa clipboard</translation>
 <translation id="2600631204638174747">{NUM_SITES,plural, =1{Na-off ang 1 hindi ligtas na extension}one{Na-off ang {NUM_SITES} hindi ligtas na extension}other{Na-off ang {NUM_SITES} na hindi ligtas na extension}}</translation>
 <translation id="2603121359676416582">Para sa page na ito</translation>
@@ -2085,7 +2085,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2618797463720777311">I-set up ang Nearby Share</translation>
 <translation id="2619305858360733464"><ph name="SHARED_STATE"/> na grupong walang pangalan - <ph name="OPENED_STATE"/></translation>
 <translation id="2619340799655338321">i-play/i-pause</translation>
-<translation id="9145669676445236687">Brave &amp;Labs...</translation>
+<translation id="7386574547123882068">Wryling &amp;Labs...</translation>
 <translation id="2620215283731032047">Hindi ligtas na mada-download ang file na<ph name="FILE_NAME"/>.</translation>
 <translation id="2620245777360407679">Mga device na kasalukuyang nakakonekta sa hotspot</translation>
 <translation id="2620436844016719705">System</translation>
@@ -2162,26 +2162,26 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2667463864537187133">Pamahalaan ang pang-check ng pagbabaybay</translation>
 <translation id="2669250147452250961">I-on para makuha ang iyong history ng pag-browse at mga tab mula sa iba pang device</translation>
 <translation id="2669454659051515572">Makikita ng sinumang gumagamit ng device na ito ang mga na-download na file</translation>
-<translation id="351520635355732555">Nagbabahagi ang <ph name="APP_NAME"/> ng isang tab ng Brave.</translation>
-<translation id="3767686227734654975">Kung makikita ng Brave ang isa sa iyong mga password sa isang pampublikong breach sa data, puwedeng mag-alok ang Brave Password Manager na palitan ang password mo para sa iyo kung naka-sign in ka. <ph name="BEGIN_LINK"/>Higit pa tungkol sa naka-automate na pagpapalit ng password<ph name="END_LINK"/></translation>
+<translation id="4660722239919846618">Nagbabahagi ang <ph name="APP_NAME"/> ng isang tab ng Wryling.</translation>
+<translation id="5637102320592120576">Kung makikita ng Wryling ang isa sa iyong mga password sa isang pampublikong breach sa data, puwedeng mag-alok ang Wryling Password Manager na palitan ang password mo para sa iyo kung naka-sign in ka. <ph name="BEGIN_LINK"/>Higit pa tungkol sa naka-automate na pagpapalit ng password<ph name="END_LINK"/></translation>
 <translation id="2670350619068134931">Mga pinasimpleng animation</translation>
 <translation id="2670403088701171361">Huwag payagan ang mga site na makita ang text o mga larawan sa iyong clipboard</translation>
 <translation id="2671423594960767771">Ibahagi ang pangkat</translation>
 <translation id="2671451824761031126">Handa na ang iyong mga bookmark at setting</translation>
-<translation id="5999615052787816207">Nilo-load ng Brave ang mga pag-flag mula sa isang command-line file. Posibleng maapektuhan ang stability at seguridad.</translation>
+<translation id="2630650338443498102">Nilo-load ng Wryling ang mga pag-flag mula sa isang command-line file. Posibleng maapektuhan ang stability at seguridad.</translation>
 <translation id="2673135533890720193">Basahin ang iyong history ng pag-browse</translation>
 <translation id="2673848446870717676">Tiyaking nasa pairing mode at nasa malapit ang iyong Bluetooth device. Makipagpares lang sa mga device na pinagkakatiwalaan mo. Makikita ng lahat ng account sa Chromebook na ito ang mga nakapares na device.</translation>
 <translation id="2673873887296220733">Kopyahin ang 1 file sa <ph name="CLOUD_PROVIDER"/> para buksan?</translation>
 <translation id="267442004702508783">i-refresh</translation>
 <translation id="2674756932811577764">I-pause ang mga effect</translation>
-<translation id="6593843405048698743">Kilalanin ang Gemini sa Brave</translation>
+<translation id="7272548036530777000">Kilalanin ang Gemini sa Wryling</translation>
 <translation id="2677748264148917807">Umalis</translation>
 <translation id="267829273183481634">{NUM_GROUPS,plural, =1{Panatilihin ang Grupo ng Tab?}one{Panatilihin ang Mga Grupo ng Tab?}other{Panatilihin ang Mga Grupo ng Tab?}}</translation>
 <translation id="268053382412112343">Ka&amp;saysayan</translation>
 <translation id="2682498795777673382">Update mula sa iyong magulang</translation>
 <translation id="2683638487103917598">Pinagbukod-bukod ang folder</translation>
 <translation id="2685193395980129388">Pinapayagan – <ph name="PERMISSION_DETAILS"/></translation>
-<translation id="4772325112693163883">Hindi mo kailangang tandaan ang password na ito. Mase-save ito sa Brave Password Manager para sa <ph name="ACCOUNT"/></translation>
+<translation id="3156512094077940104">Hindi mo kailangang tandaan ang password na ito. Mase-save ito sa Wryling Password Manager para sa <ph name="ACCOUNT"/></translation>
 <translation id="2690024944919328218">Ipakita ang mga opsyon sa wika</translation>
 <translation id="2691385045260836588">Modelo</translation>
 <translation id="2692503699962701720">Baguhin ang pitch kapag binibigkas ang mga uri ng element at naka-format na text</translation>
@@ -2263,7 +2263,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2741912629735277980">Ipakita ang UI sa screen sa pag-log in</translation>
 <translation id="2742373789128106053">Hindi available ang <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> sa ngayon.</translation>
 <translation id="2743301740238894839">Simulan</translation>
-<translation id="3491974999711898233">Para i-save ang iyong password sa Brave Password Manager, ang icon ng Password Manager sa Bar ng Lokasyon</translation>
+<translation id="2309654501049956864">Para i-save ang iyong password sa Wryling Password Manager, ang icon ng Password Manager sa Bar ng Lokasyon</translation>
 <translation id="2743387203779672305">Kopyahin sa clipboard</translation>
 <translation id="274362947316498129">May app na sumusubok na i-access ang <ph name="DEVICE_NAME"/>. I-off ang switch ng privacy ng <ph name="DEVICE_NAME"/> para payagan ang access.</translation>
 <translation id="2744221223678373668">Nakabahagi</translation>
@@ -2428,7 +2428,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2869511363030898130">Buksan sa <ph name="APP_NAME"/> app</translation>
 <translation id="2870560284913253234">Site</translation>
 <translation id="2870909136778269686">Nag-a-update...</translation>
-<translation id="796921500671266784">Posibleng mapanganib ang app na ito at na-block ito ng Brave</translation>
+<translation id="5973705351508783392">Posibleng mapanganib ang app na ito at na-block ito ng Wryling</translation>
 <translation id="2871733351037274014">Mag-preload ng mga page</translation>
 <translation id="2871813825302180988">Ginagamit na ang account na ito sa device na ito.</translation>
 <translation id="287205682142673348">Pag-forward ng port</translation>
@@ -2437,7 +2437,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2873744479411987024">Kapag mas mataas ang rate ng pag-refresh, magkakaroon ka ng mas smooth na display na may mas maraming detalye. Posibleng makaapekto sa tagal ng baterya ang mas mataas na rate ng pag-refresh.</translation>
 <translation id="2873956234023215251">Hindi ma-install ang app. Nagkaproblema.</translation>
 <translation id="2874939134665556319">Nakaraang track</translation>
-<translation id="4156865452842056672">(Mga page ng error sa Brave)</translation>
+<translation id="1764117716686866474">(Mga page ng error sa Wryling)</translation>
 <translation id="2876369937070532032">Ipadala ang mga URL ng ilang page na binibisita mo sa Brave kapag nanganganib ang iyong seguridad</translation>
 <translation id="2876484123356705658">Pumili ng hanay ng oras</translation>
 <translation id="2876556152483133018">Paghahanap sa site</translation>
@@ -2451,7 +2451,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2885378588091291677">Task Manager</translation>
 <translation id="2886771036282400576">• <ph name="PERMISSION"/></translation>
 <translation id="288734198558082692"><ph name="DEVICE"/> at <ph name="NUMBER_OF_DEVICES"/> pa</translation>
-<translation id="7145068271494881186">Makipag-chat sa Gemini sa Brave para makakuha ng mga sagot, pangunahing takeaway, at higit pa habang nagba-browse ka</translation>
+<translation id="36564223923169344">Makipag-chat sa Gemini sa Wryling para makakuha ng mga sagot, pangunahing takeaway, at higit pa habang nagba-browse ka</translation>
 <translation id="2889043468805635730">Walang nakitang problema</translation>
 <translation id="2889064240420137087">Buksan ang link gamit ang...</translation>
 <translation id="2889937141553641427">{0,plural, =1{Naka-isolate na Mode}one{# bukas na window sa Naka-isolate na Mode}other{# na bukas na window sa Naka-isolate na Mode}}</translation>
@@ -2461,7 +2461,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2893318819023133318">I-reverse ang mga view</translation>
 <translation id="2894596417096093634">Mga Identifier ng Ulat ng Pag-crash</translation>
 <translation id="2894757982205307093">Bagong tab sa grupo</translation>
-<translation id="5168657537153320842">Magagamit lang ng Gemini Spark ang awtomatikong pag-browse sa device na ito kung naka-on ang device at gumagana ang Brave.</translation>
+<translation id="4609378462161046249">Magagamit lang ng Gemini Spark ang awtomatikong pag-browse sa device na ito kung naka-on ang device at gumagana ang Wryling.</translation>
 <translation id="289695669188700754">Key ID: <ph name="KEY_ID"/></translation>
 <translation id="2897878306272793870">Sigurado ka bang gusto mong buksan ang <ph name="TAB_COUNT"/> tab?</translation>
 <translation id="2900247416110050639">Nire-require ng Google Docs, Sheets, at Slides na ma-store ang mga file sa Google Drive. Malilipat ang mga lokal na file at makokopya ang mga file mula sa iba pang lokasyon. Makikita ang iyong mga file sa folder ng Google Drive sa Files app.</translation>
@@ -2482,7 +2482,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2908122561561557160">Buksan ang mga Word, Excel, at PowerPoint file</translation>
 <translation id="2908162660801918428">Magdagdag ng Media Gallery ayon sa Direktoryo</translation>
 <translation id="2908358077082926882">Pindutin ulit ang "<ph name="CURRENTKEY"/>" para alisin ang pagtatalaga at <ph name="RESPONSE"/></translation>
-<translation id="2266953261741300226">Kunin ang Brave sa iyong mobile device</translation>
+<translation id="1076740576781805023">Kunin ang Wryling sa iyong mobile device</translation>
 <translation id="2910318910161511225">Kumonekta sa isang network at subukan ulit</translation>
 <translation id="2910678330803525229">Masisimulan mo na ngayon ang pag-browse</translation>
 <translation id="2912247081180973411">Magsara ng mga window</translation>
@@ -2497,14 +2497,14 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2920852127376356161">Hindi pinapayagang mangasiwa ng mga protocol</translation>
 <translation id="2923234477033317484">Alisin ang account na ito</translation>
 <translation id="2923644930701689793">I-access ang camera roll ng iyong telepono</translation>
-<translation id="3249101334307130799">Mga setting ng Brave</translation>
+<translation id="3482382083907212749">Mga setting ng Wryling</translation>
 <translation id="2926085873880284723">I-restore ang mga default na shortcut</translation>
 <translation id="2926708162326352948">In-update ang tema sa in-upload na larawan</translation>
 <translation id="2927017729816812676">Storage ng Cache</translation>
 <translation id="7099134950659097846">Na-save ang pinili. Maa-apply ang iyong pinili kapag nag-sign in ka sa iba pang serbisyo ng Brave.</translation>
 <translation id="2928361271496576301">Tanggapin ang hotkey</translation>
 <translation id="2928795416630981206">Pinapayagang i-track ang posisyon ng iyong camera</translation>
-<translation id="8154235090364237757">{NUM_SITES,plural, =1{Inalis ng Brave ang mga pahintulot sa 1 site}one{Inalis ng Brave ang mga pahintulot sa {NUM_SITES} site}other{Inalis ng Brave ang mga pahintulot sa {NUM_SITES} na site}}</translation>
+<translation id="5921083063517633760">{NUM_SITES,plural, =1{Inalis ng Brave ang mga pahintulot sa 1 site}one{Inalis ng Brave ang mga pahintulot sa {NUM_SITES} site}other{Inalis ng Brave ang mga pahintulot sa {NUM_SITES} na site}}</translation>
 <translation id="2931157624143513983">Pagkasyahin sa napi-print na bahagi</translation>
 <translation id="2931342457001070961">Walang nakakonektang mikropono</translation>
 <translation id="2932085390869194046">Magmungkahi ng Password...</translation>
@@ -2528,7 +2528,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2946119680249604491">Magdagdag ng koneksyon</translation>
 <translation id="2946190589196900944">Mga hangganan ng display</translation>
 <translation id="2946640296642327832">Paganahin ang Bluetooth</translation>
-<translation id="1130593361639324030">Para mag-share ng o sumali sa mga grupo ng tab, dapat ay makapag-sign in ka sa Brave</translation>
+<translation id="3774434044366960368">Para mag-share ng o sumali sa mga grupo ng tab, dapat ay makapag-sign in ka sa Wryling</translation>
 <translation id="2947605845283690091">Mabilis dapat ang pag-browse sa web. Maglaan ng ilang sandali para <ph name="BEGIN_LINK"/>tingnan ang iyong mga extension<ph name="END_LINK"/> ngayon.</translation>
 <translation id="2948287943780377675">{FILE_COUNT,plural, =1{I-drop ang file dito}one{I-drop ang mga file dito}other{I-drop ang mga file dito}}</translation>
 <translation id="2948300991547862301">Pumunta sa <ph name="PAGE_TITLE"/></translation>
@@ -2557,7 +2557,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2967926928600500959">Mapipilitang magbukas sa partikular na browser ang mga URL na tumutugma sa mga panuntunang ito.</translation>
 <translation id="2969411787010981955">Na-export na ang data sa napiling lokasyon</translation>
 <translation id="2970766364519518369">Makakapag-share sa iyo ang mga piniling contact kapag malapit sila. Ipapaapruba sa iyo ang mga kahilingang ito. Hindi mo kakailanganing aprubahan ang pag-share sa pagitan ng mga device na naka-sign in sa <ph name="USER_EMAIL"/>.</translation>
-<translation id="4802379027410104335">Brave gamit ang Brave sync chain na ito</translation>
+<translation id="5125039946630180885">Brave gamit ang Brave sync chain na ito</translation>
 <translation id="2972557485845626008">Firmware</translation>
 <translation id="2972581237482394796">&amp;I-redo</translation>
 <translation id="2973324205039581528">I-mute ang Site</translation>
@@ -2575,7 +2575,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2983373101216420412"><ph name="PERCENTAGE"/>% antas ng baterya ng case.</translation>
 <translation id="2983818520079887040">Mga Setting...</translation>
 <translation id="2984727013951557074">Sini-sync pa rin ang file sa Drive.</translation>
-<translation id="5706997116413643454">Kunin ang iyong mga passkey sa device na ito gamit ang Brave Password Manager</translation>
+<translation id="47461721301249579">Kunin ang iyong mga passkey sa device na ito gamit ang Wryling Password Manager</translation>
 <translation id="2985476671756533899">{NUM_SUB_APPS,plural, =1{Nag-uninstall ang <ph name="APP_NAME"/> ng app}one{Nag-uninstall ang <ph name="APP_NAME"/> ng # app}other{Nag-uninstall ang <ph name="APP_NAME"/> ng # na app}}</translation>
 <translation id="2988018669686457659">Spare Renderer</translation>
 <translation id="2988328607561082373">Wala kang password na ginamit ulit</translation>
@@ -2725,7 +2725,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3083899879156272923">Igalaw ang screen habang pinapanatili ang mouse sa gitna ng screen</translation>
 <translation id="3084121729444215602">Na-pin ng iyong Administrator ang <ph name="EXTENSION_NAME"/></translation>
 <translation id="3084548735795614657">I-drop upang i-install</translation>
-<translation id="5418694430960033386">Naubusan ng memorya ang Brave o winakasan ang proseso para sa webpage dahil sa ilang kadahilanan. Upang magpatuloy, mag-reload o pumunta sa isa pang pahina.</translation>
+<translation id="1938891602372007002">Naubusan ng memorya ang Wryling o winakasan ang proseso para sa webpage dahil sa ilang kadahilanan. Upang magpatuloy, mag-reload o pumunta sa isa pang pahina.</translation>
 <translation id="3085412380278336437">Maaaring gamitin ng site ang iyong camera</translation>
 <translation id="3087734570205094154">Sa ilalim</translation>
 <translation id="3088052000289932193">Gumagamit ng MIDI ang site</translation>
@@ -2743,7 +2743,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="310297983047869047">Nakaraang slide</translation>
 <translation id="3103451787721578293">Maglagay ng dahilan ng pag-upload ng data na ito:</translation>
 <translation id="3105339775057145050">Huling Hindi Matagumpay na Update</translation>
-<translation id="4566550081126272435">Bumalik sa Brave?</translation>
+<translation id="5053372439942907467">Bumalik sa Wryling?</translation>
 <translation id="3105820656234755131">Na-update ang Password</translation>
 <translation id="3105990244222795498"><ph name="DEVICE_NAME"/> (Bluetooth)</translation>
 <translation id="310671807099593501">Gumagamit ng bluetooth ang site</translation>
@@ -2769,7 +2769,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3122496702278727796">Nabigo Sa Paglikha ng Direktoryo sa Data</translation>
 <translation id="3122883569442693641">Higit pang detalye</translation>
 <translation id="3124111068741548686">Mga USER handle</translation>
-<translation id="10925962326134232">I-customize ang Brave para bigyan ng bagong hitsura ang iyong browser</translation>
+<translation id="908722199085381104">I-customize ang Wryling para bigyan ng bagong hitsura ang iyong browser</translation>
 <translation id="3124950826511066429">Mga setting na nakakaapekto sa kung paano gumagana ang autofill sa iba't ibang uri ng impormasyon</translation>
 <translation id="3125361247594231799">I-pin ito para sa susunod na pagkakataon</translation>
 <translation id="3126026824346185272">Ctrl</translation>
@@ -2792,7 +2792,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3143754809889689516">I-play mula sa simula</translation>
 <translation id="3144647712221361880">Buksan ang link bilang</translation>
 <translation id="3147878021189006333">Omnibox</translation>
-<translation id="300669147395456190">Brave Apps</translation>
+<translation id="7379373399486006075">Wryling Apps</translation>
 <translation id="3150927491400159470">I-hard Reload</translation>
 <translation id="315116470104423982">Data sa mobile</translation>
 <translation id="3151539355209957474">Oras ng Pagsisimula</translation>
@@ -2872,15 +2872,15 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3202499879214571401">I-pause ang pag-cast ng screen sa <ph name="DEVICE_NAME"/></translation>
 <translation id="3202578601642193415">Pinakabago</translation>
 <translation id="3206289903841621620">Diksyunaryo ng User <ph name="NUMBER"/></translation>
-<translation id="3746394893874035323">Nakakakita ka ng mga iminumungkahing paghahanap at diskwento sa pamimili na posibleng interesante sa iyo batay sa kamakailang aktibidad mo.
+<translation id="929201866904025342">Nakakakita ka ng mga iminumungkahing paghahanap at diskwento sa pamimili na posibleng interesante sa iyo batay sa kamakailang aktibidad mo.
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        Puwede mong pamahalaan ang mga setting mula sa card na ito anumang oras o tingnan ang higit pang opsyon sa I-customize ang Brave.</translation>
+        Puwede mong pamahalaan ang mga setting mula sa card na ito anumang oras o tingnan ang higit pang opsyon sa I-customize ang Wryling.</translation>
 <translation id="3207909572959773060">{NUM_TABS,plural, =1{Bagong tab sa 1 tab}one{Bagong tab sa # tab}other{Bagong tab sa # na tab}}</translation>
 <translation id="3207960819495026254">Naka-bookmark</translation>
 <translation id="3208321278970793882">App</translation>
 <translation id="3208703785962634733">Hindi kumpirmado</translation>
-<translation id="3209703592917353472">Puwedeng mag-save ang site na binibisita mo ng impormasyon tungkol sa kung ano ang ginagawa mo para gumana ito na gaya ng inaasahan — halimbawa, para panatilihin kang naka-sign in sa isang site o para mag-save ng mga item sa iyong shopping cart. Kadalasang pansamantalang sine-save ng mga site ang impormasyong ito sa iyong device.</translation>
+<translation id="6830723795172079256">Puwedeng mag-save ang site na binibisita mo ng impormasyon tungkol sa kung ano ang ginagawa mo para gumana ito na gaya ng inaasahan — halimbawa, para panatilihin kang naka-sign in sa isang site o para mag-save ng mga item sa iyong shopping cart. Kadalasang pansamantalang sine-save ng mga site ang impormasyong ito sa iyong device.</translation>
 <translation id="3210736980143419785">Hindi matapos ang pag-download</translation>
 <translation id="321084946921799184">Dilaw at puti</translation>
 <translation id="3211126692872351610">&amp;Hanapin sa <ph name="SEARCH_ENGINE"/> ang “<ph name="SEARCH_TERMS"/>” sa bagong tab</translation>
@@ -2931,7 +2931,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3250374026663843838">Pamahalaan ang iyong kasanayan</translation>
 <translation id="3251119461199395237">Pag-sync ng file</translation>
 <translation id="3251759466064201842">&lt;Hindi Bahagi Ng Certificate&gt;</translation>
-<translation id="4413356660053702703">Maa-access mo ito sa Brave Password Manager</translation>
+<translation id="5277009598698141857">Maa-access mo ito sa Wryling Password Manager</translation>
 <translation id="3253225298092156258">Hindi available</translation>
 <translation id="3253344772044554413">{NUM_OF_FILES,plural, =1{Magbakante ng space sa <ph name="CLOUD_PROVIDER"/> para makopya ang file na ito}one{Magbakante ng space sa <ph name="CLOUD_PROVIDER"/> para makopya ang mga file na ito}other{Magbakante ng space sa <ph name="CLOUD_PROVIDER"/> para makopya ang mga file na ito}}</translation>
 <translation id="3253448572569133955">Hindi kilalang account</translation>
@@ -2967,7 +2967,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3277214528693754078">Mag-navigate gamit ang cursor ng text (caret browsing)</translation>
 <translation id="3279092821516760512">Makakapagbahagi sa iyo ang mga piling contact kapag malapit sila. Hindi magsisimula ang mga paglilipat hangga't hindi mo tinatanggap ang mga ito.</translation>
 <translation id="3280237271814976245">I-save &amp;bilang...</translation>
-<translation id="5340857474604400806">Manatili sa Brave</translation>
+<translation id="4768106021954837307">Manatili sa Wryling</translation>
 <translation id="3282210178675490297">Nagbabahagi ng tab sa <ph name="APP_NAME"/></translation>
 <translation id="3284050785966252943">Preview ng Metadata ng Autofill</translation>
 <translation id="3285218179623157680"><ph name="WINDOW_TITLE"/> - View sa ibaba</translation>
@@ -3001,10 +3001,10 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3303855915957856445">Walang nakitang resulta ng paghahanap</translation>
 <translation id="3304212451103136496"><ph name="DISCOUNT_AMOUNT"/> diskwento</translation>
 <translation id="3305661444342691068">Buksan ang PDF sa Preview</translation>
-<translation id="9133756165511111573">Nakakakita ka ng mga tab mula sa iba pang device para tulungan kang madaling makabalik sa iyong pinakakamakailang aktibidad.
+<translation id="3052673784611846156">Nakakakita ka ng mga tab mula sa iba pang device para tulungan kang madaling makabalik sa iyong pinakakamakailang aktibidad.
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        Puwede mong pamahalaan ang mga setting mula sa menu ng card o tingnan ang higit pang opsyon sa I-customize ang Brave.</translation>
+        Puwede mong pamahalaan ang mga setting mula sa menu ng card o tingnan ang higit pang opsyon sa I-customize ang Wryling.</translation>
 <translation id="3308134619352333507">Itago ang Button</translation>
 <translation id="3308604065765626613">{GROUP_COUNT,plural, =1{Mananatiling nakabukas ang mga tab sa device na ito pero permanente nang made-delete ang grupo.}one{Mananatiling nakabukas ang mga tab sa device na ito pero permanente nang made-delete ang mga grupo.}other{Mananatiling nakabukas ang mga tab sa device na ito pero permanente nang made-delete ang mga grupo.}}</translation>
 <translation id="3309124184713871355">Mga Structure</translation>
@@ -3058,7 +3058,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3348973040180736882">Pag-decompress</translation>
 <translation id="3349933790966648062">Footprint ng Memory</translation>
 <translation id="3351472127384196879">Magdagdag o magtakda ng mga button sa iyong pen</translation>
-<translation id="2198340416484774609">Hindi na bubukas ang mga lumang bersyon ng mga Brave app sa mga Mac device pagkatapos ng Disyembre 2022. Puwede mong tingnan kung may available na bagong bersyon.</translation>
+<translation id="7121948070993040604">Hindi na bubukas ang mga lumang bersyon ng mga Wryling app sa mga Mac device pagkatapos ng Disyembre 2022. Puwede mong tingnan kung may available na bagong bersyon.</translation>
 <translation id="3354972872297836698">Hindi maipares sa device na <ph name="DEVICE_NAME"/>; piliin ang device para subukan ulit</translation>
 <translation id="335581015389089642">Pananalita</translation>
 <translation id="3355936511340229503">Error sa koneksyon</translation>
@@ -3108,7 +3108,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3390442085511866400">I-save ang Video &amp;Frame Bilang...</translation>
 <translation id="3390530051434634135">Tandaan: <ph name="NOTE"/></translation>
 <translation id="3390740059150071453">Tumingin sa kaliwa</translation>
-<translation id="404326254653176440">Pagsusuri ng Brave sa Dokumento</translation>
+<translation id="4786791686512231403">Pagsusuri ng Wryling sa Dokumento</translation>
 <translation id="3394072120086516913">Wired ang PC at nakakonekta sa Wi-Fi ang casting device</translation>
 <translation id="3394850431319394743">Pinapayagang gumamit ng mga identifier para mag-play ng pinoprotektahang content</translation>
 <translation id="339722927132407568">Nagfi-freeze</translation>
@@ -3157,7 +3157,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3431715928297727378"><ph name="WINDOW_TITLE"/> - <ph name="MEMORY_VALUE"/> ang nabakante</translation>
 <translation id="3432762828853624962">Shared Workers</translation>
 <translation id="3433507769937235446">Lock-on-leave</translation>
-<translation id="3044702330949941099">Nangangailangan ng karagdagang access ang Brave Password Manager</translation>
+<translation id="1271779175305705203">Nangangailangan ng karagdagang access ang Wryling Password Manager</translation>
 <translation id="3434107140712555581"><ph name="BATTERY_PERCENTAGE"/>%</translation>
 <translation id="3434475275396485144">Pinapamahalaan ng administrator ng iyong telepono ang setting na ito</translation>
 <translation id="3434512374684753970">Audio at Video</translation>
@@ -3235,7 +3235,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3487649228420469005">Tapos na ang pag-scan</translation>
 <translation id="3488199663160411179">pangalan</translation>
 <translation id="3488609300093733298">Mag-sign in sa Iyong Telepono</translation>
-<translation id="1088295851754116403">Hindi na gagana ang mga Brave app sa mga ChromeOS device sa Hulyo 2025. Pag-isipang gumamit ng alternatibong app.</translation>
+<translation id="1326424950426003192">Hindi na gagana ang mga Wryling app sa mga ChromeOS device sa Hulyo 2025. Pag-isipang gumamit ng alternatibong app.</translation>
 <translation id="3490695139702884919">Dina-download... <ph name="PERCENT"/>%</translation>
 <translation id="3491171603443463516">Puwedeng i-restore ang lokal na data kung makalimutan mo ang iyong PIN o password</translation>
 <translation id="3491616972057195633">Mga bounce key</translation>
@@ -3269,7 +3269,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3512465804715993309">Adaptive na pag-highlight</translation>
 <translation id="3513019849832307207">Sumali at buksan</translation>
 <translation id="3513563267917474897">Slider ng hue mula <ph name="MIN_VALUE"/> hanggang <ph name="MAX_VALUE"/></translation>
-<translation id="5382999936194307983">Ang standard na proteksyon sa seguridad ang nakukuha mo. Para makakuha ng higit pang proteksyon laban sa mga mapanganib na website, download, at extension, i-on ang Pinahusay na Ligtas na Pag-browse sa mga setting ng Brave.</translation>
+<translation id="3918639430309311642">Ang standard na proteksyon sa seguridad ang nakukuha mo. Para makakuha ng higit pang proteksyon laban sa mga mapanganib na website, download, at extension, i-on ang Pinahusay na Ligtas na Pag-browse sa mga setting ng Wryling.</translation>
 <translation id="3514681096978190000">Ang archive file na ito ay may iba pang file na posibleng may itinatagong malware</translation>
 <translation id="3515783508789430906">May bagong bersyon (<ph name="VERSION"/>) na handa na. I-restart ang app para i-apply ang update. Posibleng mawala ang hindi na-save na data.</translation>
 <translation id="3515983984924808886">Pindutin ulit ang iyong security key para kumpirmahin ang pag-reset. Made-delete ang lahat ng impormasyong naka-store sa security key, kabilang ang PIN nito.</translation>
@@ -3411,7 +3411,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3616658341000358527">Hayaan ang Gemini na awtomatiko kang i-sign in para kumpletuhin ang mga gawain para sa iyo sa web</translation>
 <translation id="3617062258679844578">Para mag-click, i-tap ang iyong touchpad sa halip na pindutin ito</translation>
 <translation id="3617891479562106823">Hindi available ang mga background. Subukang muli sa ibang pagkakataon.</translation>
-<translation id="2934767186202458579">Magagamit na ni <ph name="RECIPIENT_NAME"/> ang iyong username at password kapag ginamit niya ang Brave Password Manager. Sabihin sa kanyang pumunta sa <ph name="WEBSITE"/> para mag-sign in.</translation>
+<translation id="1877646679208644382">Magagamit na ni <ph name="RECIPIENT_NAME"/> ang iyong username at password kapag ginamit niya ang Wryling Password Manager. Sabihin sa kanyang pumunta sa <ph name="WEBSITE"/> para mag-sign in.</translation>
 <translation id="3619115746895587757">Cappuccino</translation>
 <translation id="3619294456800709762">Awtomatikong makakapasok sa picture-in-picture ang mga site</translation>
 <translation id="3620136223548713675">Geolocation</translation>
@@ -3490,7 +3490,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3679126865530709868">Built-in na Touchpad</translation>
 <translation id="3680683624079082902">Boses ng text-to-speech</translation>
 <translation id="3681017028939109078">Ipakita ang mga suhestyon sa window kapag nagsisimula ng split screen</translation>
-<translation id="318206792789506219">Sa tingin ng Brave ay ayaw mong gamitin ang iyong lokasyon sa site na ito. Kaya naman, naka-hide ang mga request para mabawasan ang mga abala.</translation>
+<translation id="8663031781937737605">Sa tingin ng Wryling ay ayaw mong gamitin ang iyong lokasyon sa site na ito. Kaya naman, naka-hide ang mga request para mabawasan ang mga abala.</translation>
 <translation id="3681311097828166361">Salamat sa iyong feedback. Offline ka na ngayon, at ipapadala ang iyong ulat sa ibang pagkakataon.</translation>
 <translation id="3681548574519135185">Focus ring</translation>
 <translation id="3682207069037179944">Puwede kang mag-scroll o puwede mong gamitin ang iyong mouse wheel para makita ang lahat ng tab mo</translation>
@@ -3569,7 +3569,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3727473233247516571">Back/Forward Cached na Subframe: <ph name="BACK_FORWARD_CACHE_PAGE_URL"/></translation>
 <translation id="3727558469988088200">Kunin ang Mga Passkey</translation>
 <translation id="3727843212509629024">Mali ang PIN. Subukan ulit</translation>
-<translation id="8077319455765501118">Para magamit ang Brave Password Manager sa macOS Keychain, ilunsad ulit ang Brave at payagan ang access sa Keychain. Bubukas ulit ang iyong mga tab pagkatapos malunsad ulit.</translation>
+<translation id="1149143655905087705">Para magamit ang Wryling Password Manager sa macOS Keychain, ilunsad ulit ang Wryling at payagan ang access sa Keychain. Bubukas ulit ang iyong mga tab pagkatapos malunsad ulit.</translation>
 <translation id="3728188878314831180">I-mirror ang mga notification mula sa iyong telepono</translation>
 <translation id="3728572446941976198">Hindi gagamitin ng mga taong tagasuri ang iyong content para pahusayin ang AI. Posibleng baguhin ng iyong organisasyon ang mga setting na ito anumang oras</translation>
 <translation id="3728681439294129328">I-configure ang network address</translation>
@@ -3678,10 +3678,10 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3799128412641261490">Mga setting ng switch access</translation>
 <translation id="3800764353337460026">Estilo ng simbolo</translation>
 <translation id="3800898876950197674">Para payagan ang extension na ito, ilagay ang iyong password.</translation>
-<translation id="8331080218091581609">Nakikita mo ang mga suhestyon tungkol sa kung paano i-personalize ang Brave at gawin itong mas mahusay para sa iyong mga pang-araw-araw na pangangailangan.
+<translation id="7293495029773307557">Nakikita mo ang mga suhestyon tungkol sa kung paano i-personalize ang Wryling at gawin itong mas mahusay para sa iyong mga pang-araw-araw na pangangailangan.
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        Puwede mong pamahalaan ang mga setting mula sa menu ng card o tingnan ang higit pang opsyon sa I-customize ang Brave.</translation>
+        Puwede mong pamahalaan ang mga setting mula sa menu ng card o tingnan ang higit pang opsyon sa I-customize ang Wryling.</translation>
 <translation id="3801449494961771207">Boses ng text-to-speech ng system</translation>
 <translation id="3802486193901166966">Hindi nangangailangan ang extension na ito ng mga espesyal na pahintulot at wala itong karagdagang access sa site</translation>
 <translation id="380329542618494757">Pangalan</translation>
@@ -3825,7 +3825,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3903187154317825986">Built-in na Keyboard</translation>
 <translation id="3903696968689283281">Impormasyon ng Mga Direktang May-ari ng WiFi:</translation>
 <translation id="3904572359926093799">Handle sa Pag-resize ng Split View (nada-drag)</translation>
-<translation id="6894211654645352450">Kung magde-delete ka ng certificate ng server, hindi na ito gagamitin ng Brave para tumukoy ng mga server.</translation>
+<translation id="7978440528848173448">Kung magde-delete ka ng certificate ng server, hindi na ito gagamitin ng Wryling para tumukoy ng mga server.</translation>
 <translation id="3909701002594999354">Ipakita ang Lahat ng &amp;Control</translation>
 <translation id="3909791450649380159">Al&amp;isin</translation>
 <translation id="39103738135459590">Code sa pag-activate</translation>
@@ -3839,12 +3839,12 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3917644013202553949">Walang sapat na storage para ma-sync ang iyong mga file. Subukang magbakante ng space.</translation>
 <translation id="3919145445993746351">Para makuha ang iyong mga extension sa lahat ng computer mo, i-on ang pag-sync</translation>
 <translation id="3919229493046408863">I-off ang notification kapag nasa malapit ang mga device</translation>
-<translation id="3937043680469836680">Hindi na bubukas ang mga lumang bersyon ng Brave Apps sa mga Mac device pagkatapos ng Disyembre 2022. Makipag-ugnayan sa iyong administrator para mag-update sa bagong bersyon o alisin ang app na ito.</translation>
+<translation id="4376308464194569825">Hindi na bubukas ang mga lumang bersyon ng Wryling Apps sa mga Mac device pagkatapos ng Disyembre 2022. Makipag-ugnayan sa iyong administrator para mag-update sa bagong bersyon o alisin ang app na ito.</translation>
 <translation id="3919376399641777316">Ginagamit ang storage ng Google Drive</translation>
 <translation id="3919798653937160644">Hindi lalabas sa iyong history ng browser ang mga page na tiningnan mo sa window na ito at hindi mag-iiwan ang mga ito ng iba pang trace, tulad ng cookies, sa computer pagkatapos mong isara ang lahat ng nakabukas na window ng Bisita. Gayunpaman, papanatilihin ang anumang file na na-download mo.</translation>
 <translation id="3920909973552939961">Hindi pinapayagang mag-install ng mga tagapangasiwa ng pagbabayad</translation>
 <translation id="3920938867981797493">Mga patakaran ng updater</translation>
-<translation id="4008841832817149051">Hayaan ang Brave na mag-browse para sa iyo</translation>
+<translation id="2216933027668139688">Hayaan ang Wryling na mag-browse para sa iyo</translation>
 <translation id="3922823422695198027">May iba pang app na nakatakdang buksan ang mga link na kapareho ng sa <ph name="APP_NAME"/>. Idi-disable nito ang kakayahan ng <ph name="APP_NAME_2"/>, <ph name="APP_NAME_3"/>, at <ph name="APP_NAME_4"/> na buksan ang mga sinusuportahang link.</translation>
 <translation id="3923184630988645767">Paggamit ng data</translation>
 <translation id="3923494859158167397">Walang naka-set up na mobile network</translation>
@@ -3923,7 +3923,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3976108569178263973">Walang available na printer.</translation>
 <translation id="3977886311744775419">Hindi nada-download ang mga awtomatikong update sa ganitong uri ng network, pero puwede kang tumingin ng mga update nang manual.</translation>
 <translation id="3978325380690188371">Hindi available ang mga sticky key kapag naka-on ang ChromeVox</translation>
-<translation id="2069130488333600772">Pinapahusay ng Brave ang mga PDF</translation>
+<translation id="5874495328861857125">Pinapahusay ng Wryling ang mga PDF</translation>
 <translation id="3979093622823535817">Sumali sa meeting na <ph name="MEETING_TITLE"/></translation>
 <translation id="3979395879372752341">Nagdagdag ng bagong extension (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="3980708588513986958">Tingnan at pamahalaan ang iyong mga kasanayan</translation>
@@ -4024,7 +4024,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="4053028343167125998">Paki-unlock ang <ph name="TOKEN_NAME"/> para ma-import ang certificate ng client.</translation>
 <translation id="4053833479432165765">&amp;I-install ang page bilang app...</translation>
 <translation id="4054070260844648638">Makikita ng lahat ng tao</translation>
-<translation id="8891261408659902804">Naabot mo na ang limitasyon sa oras na itinakda ng iyong magulang para sa Brave app na <ph name="APP_NAME"/>. Puwede mo itong magamit nang <ph name="TIME_LIMIT"/> bukas.</translation>
+<translation id="3587910514908289330">Naabot mo na ang limitasyon sa oras na itinakda ng iyong magulang para sa Wryling app na <ph name="APP_NAME"/>. Puwede mo itong magamit nang <ph name="TIME_LIMIT"/> bukas.</translation>
 <translation id="4057041477816018958"><ph name="SPEED"/> - <ph name="RECEIVED_AMOUNT"/></translation>
 <translation id="405733379999213678">Patuloy na payagan ang site na ito na kontrolin at i-reprogram ang iyong mga MIDI device</translation>
 <translation id="4057896668975954729">Tingnan sa Store</translation>
@@ -4059,7 +4059,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="4089235344645910861">Na-save ang mga setting. Nasimulan ang pag-sync.</translation>
 <translation id="4089817585533500276">shift + <ph name="TOP_ROW_KEY"/></translation>
 <translation id="4090103403438682346">I-enable ang Bine-verify na Access</translation>
-<translation id="7268155614575494857">Para makatulong na ma-save ng Brave Password Manager ang iyong impormasyon sa pag-sign in, idagdag ang username mo para sa site na ito</translation>
+<translation id="6708405940091325014">Para makatulong na ma-save ng Wryling Password Manager ang iyong impormasyon sa pag-sign in, idagdag ang username mo para sa site na ito</translation>
 <translation id="4093173301198419723">Dapat may mga malaking titik, maliit na titik, numero, at simbolo</translation>
 <translation id="4093955363990068916">Lokal na file:</translation>
 <translation id="4094647278880271855">Gumagamit ka ng hindi sinusuportahang variable ng environment: <ph name="BAD_VAR"/>. Magkakaproblema sa stability at seguridad.</translation>
@@ -4086,10 +4086,10 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="4110485659976215879">I-restore ang babala</translation>
 <translation id="4112194537011183136"><ph name="DEVICE_NAME"/> (offline)</translation>
 <translation id="4113743276555482284">Password ng file</translation>
-<translation id="1423132677367459502">Nakikita mo ang mga iminumungkahing file na makakatulong para madali mong mabalikan ang iyong pinakakamakailang aktibidad sa Google Drive.
+<translation id="5884518115438412995">Nakikita mo ang mga iminumungkahing file na makakatulong para madali mong mabalikan ang iyong pinakakamakailang aktibidad sa Google Drive.
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        Puwede mong pamahalaan ang mga setting mula sa menu ng card o tingnan ang higit pang opsyon sa I-customize ang Brave.</translation>
+        Puwede mong pamahalaan ang mga setting mula sa menu ng card o tingnan ang higit pang opsyon sa I-customize ang Wryling.</translation>
 <translation id="4115002065223188701">Hindi nasasagap ang network</translation>
 <translation id="4115378294792113321">Magenta</translation>
 <translation id="4116480382905329353">Na-detect 1 beses</translation>
@@ -4155,7 +4155,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="4176463684765177261">Hindi pinapagana</translation>
 <translation id="4176864026061939326">Pinapamahalaan ang device na ito. Humihiling ang administrator ng iyong device ng bagong profile para sa account na <ph name="USER_EMAIL_ADDRESS"/></translation>
 <translation id="4177668342649553942">Buksan ang <ph name="SHORTCUT_NAME"/> - <ph name="APP_NAME"/></translation>
-<translation id="638591227897120703">Ang mga extension ay mga add-on sa Brave na makakatulong sa iyong manatiling organisado, padaliin ang mga gawain, at i-customize ang pag-browse mo</translation>
+<translation id="6210463748469316524">Ang mga extension ay mga add-on sa Wryling na makakatulong sa iyong manatiling organisado, padaliin ang mga gawain, at i-customize ang pag-browse mo</translation>
 <translation id="4177860704813504507">Password o fingerprint</translation>
 <translation id="4178220097446335546">Para kalimutan ang subscription na ito at ang mga nauugnay na network nito, pumunta sa page ng subscription ng Passpoint para alisin ang subscription.</translation>
 <translation id="4181376007499455822">Huwag i-override</translation>
@@ -4320,7 +4320,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="4304713468139749426">Password Manager</translation>
 <translation id="4305817255990598646">Lumipat</translation>
 <translation id="4306489587293957491">Ilagay</translation>
-<translation id="1689951986267171188">Ihihinto ng Brave ang pag-flag ng mga notification mula sa site na ito bilang spam</translation>
+<translation id="6665952731838572283">Ihihinto ng Wryling ang pag-flag ng mga notification mula sa site na ito bilang spam</translation>
 <translation id="4307992518367153382">Mga Pangunahing Kaalaman</translation>
 <translation id="4309035504231554969">Hindi na-install dahil sa hindi alam na dahilan.</translation>
 <translation id="4309183709806093061">Ibahagi rin ang audio ng system. Imu-mute ang device na ito para maiwasan ang feedback.</translation>
@@ -4346,7 +4346,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="4324577459193912240">Hindi kumpleto ang file</translation>
 <translation id="4325433082696797523">Storage at power</translation>
 <translation id="4325515113816851466">Hindi malalapat ang mga pinili ng iyong magulang pagkatapos mong mag-sign out</translation>
-<translation id="7463244538445813736">Marami pang ginagawa ang pinakamalakas na seguridad ng Brave para maprotektahan ka laban sa mga mapanganib na website, download, at extension</translation>
+<translation id="8506408958028373380">Marami pang ginagawa ang pinakamalakas na seguridad ng Wryling para maprotektahan ka laban sa mga mapanganib na website, download, at extension</translation>
 <translation id="4327380114687339519">Menu ng mga extension</translation>
 <translation id="4328160087116165267">I-share nang may audio ng system</translation>
 <translation id="4330191372652740264">Icewater</translation>
@@ -4355,7 +4355,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="4332976768901252016">Mag-set Up ng Parental Controls</translation>
 <translation id="4334768748331667190">Hindi mo na makikita ulit ang <ph name="MODULE_NAME"/></translation>
 <translation id="4335835283689002019">Naka-off ang Ligtas na Pag-browse</translation>
-<translation id="5889020479667192676">Kailangan mong mag-sign in bago matapos ng Brave ang gawaing ito</translation>
+<translation id="488757428703018223">Kailangan mong mag-sign in bago matapos ng Wryling ang gawaing ito</translation>
 <translation id="433776600277609450">Magdagdag ng Filter</translation>
 <translation id="4338363401382232853">Suhestyon sa split screen na window</translation>
 <translation id="4339203724549370495">I-uninstall ang app</translation>
@@ -4408,7 +4408,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="437809255587011096">Ianunsyo ang istilo ng text</translation>
 <translation id="4378154925671717803">Telepono</translation>
 <translation id="4378308539633073595">Mag-scroll pasulong</translation>
-<translation id="4378363201814870400">Pamahalaan ang iyong impormasyon para sa pag-autofill para sa mas mabilis na pag-browse — impormasyong tulad ng mga password, paraan ng pagbabayad, address, at ID card</translation>
+<translation id="4005743806371955395">Pamahalaan ang iyong impormasyon para sa pag-autofill para sa mas mabilis na pag-browse — impormasyong tulad ng mga password, paraan ng pagbabayad, address, at ID card</translation>
 <translation id="4378551569595875038">Kumokonekta...</translation>
 <translation id="4378589147979399051">Kontrolin ang cursor ng mouse mo gamit ang iyong pangunahing keyboard</translation>
 <translation id="30088850081141729">Magtanong sa Brave Tungkol sa “<ph name="SEARCH_TERMS"/>”</translation>
@@ -4464,7 +4464,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="4914256659228865673">Naka-save ang mga passkey na ito sa Windows Hello sa computer na ito. Hindi naka-save ang mga ito sa iyong Brave sync chain.</translation>
 <translation id="4412544493002546580">Subukan ulit o pumili mula sa isa sa mga inspirasyon sa ibaba.</translation>
 <translation id="4412547955014928315">I-delete ang data ng site at mga pahintulot para sa <ph name="SITE_NAME"/> at lahat ng site sa ilalim nito?</translation>
-<translation id="2225668468568666081">Nagma-migrate ang Mga Brave App sa Mga Progressive Web App. Na-install ng iyong organisasyon ang Brave App na ito sa browser mo. Para buksan ang Progressive Web App mula sa listahan ng Mga App, makipag-ugnayan muna sa iyong administrator at hilingin sa kanyang i-uninstall ang Brave App. Sa ngayon, puwede mong bisitahin ang <ph name="EXTENSION_LAUNCH_URL"/> para buksan ang <ph name="EXTENSION_NAME"/> sa web.</translation>
+<translation id="9096070332505320117">Nagma-migrate ang Mga Wryling App sa Mga Progressive Web App. Na-install ng iyong organisasyon ang Wryling App na ito sa browser mo. Para buksan ang Progressive Web App mula sa listahan ng Mga App, makipag-ugnayan muna sa iyong administrator at hilingin sa kanyang i-uninstall ang Wryling App. Sa ngayon, puwede mong bisitahin ang <ph name="EXTENSION_LAUNCH_URL"/> para buksan ang <ph name="EXTENSION_NAME"/> sa web.</translation>
 <translation id="4412698727486357573">Help center</translation>
 <translation id="4412992751769744546">Payagan ang third-party na cookies</translation>
 <translation id="4413087696295876280">Basahin ang impormasyon device at data ng ChromeOS Flex</translation>
@@ -4560,18 +4560,18 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="4501530680793980440">Kumpirmahin ang Pag-alis</translation>
 <translation id="4502423230170890588">Alisin sa device na ito</translation>
 <translation id="4502477450742595012">Mag-right click sa isang tab at piliin ang "Idagdag ang tab sa bagong grupo"</translation>
-<translation id="7840745488816718252">Nakikita mo ang iyong mga kamakailang ginamit na grupo ng tab para madali kang makapagpatuloy kung saan ka huminto.
+<translation id="975374802834211974">Nakikita mo ang iyong mga kamakailang ginamit na grupo ng tab para madali kang makapagpatuloy kung saan ka huminto.
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        Magagawa mong pamahalaan ang mga setting mula sa menu ng card o tumingin ng higit pang opsyon sa I-customize ang Brave.</translation>
+        Magagawa mong pamahalaan ang mga setting mula sa menu ng card o tumingin ng higit pang opsyon sa I-customize ang Wryling.</translation>
 <translation id="4504940961672722399">Gamitin ang extension na ito sa pamamagitan ng pag-click sa icon na ito o sa pamamagitan ng pagpindot sa <ph name="EXTENSION_SHORTCUT"/>.</translation>
-<translation id="8141996966528663835">I-download ang Brave gamit ang QR code na ito, at mag-sign in sa iyong Brave sync chain.</translation>
+<translation id="1258044875592855240">I-download ang Brave gamit ang QR code na ito, at mag-sign in sa iyong Brave sync chain.</translation>
 <translation id="450552327874992444">Naidagdag na ang salita</translation>
 <translation id="4507373251891673233">Na-block mo ang lahat ng extension mula sa <ph name="HOST"/></translation>
 <translation id="4507401683427517298">I-click ang “Magdagdag ng Shortcut”</translation>
 <translation id="4508265954913339219">Nabigo ang pag-activate</translation>
 <translation id="4508765956121923607">Tingnan ang P&amp;inagmulan</translation>
-<translation id="4161817736307925392">Kapag nag-share ka ng kopya ng iyong <ph name="BEGIN_BOLD_USERNAME"/>username<ph name="END_BOLD_USERNAME"/> at <ph name="BEGIN_BOLD_PASSWORD"/>password<ph name="END_BOLD_PASSWORD"/>, puwedeng ilagay ng miyembro ng pamilya mo ang mga ito gamit ang Brave Password Manager</translation>
+<translation id="7514388439385693063">Kapag nag-share ka ng kopya ng iyong <ph name="BEGIN_BOLD_USERNAME"/>username<ph name="END_BOLD_USERNAME"/> at <ph name="BEGIN_BOLD_PASSWORD"/>password<ph name="END_BOLD_PASSWORD"/>, puwedeng ilagay ng miyembro ng pamilya mo ang mga ito gamit ang Wryling Password Manager</translation>
 <translation id="4509421746503122514">Ilunsad ulit para i-update</translation>
 <translation id="4510195992002502722">Hindi naipadala ang feedback. Sinusubukan ulit...</translation>
 <translation id="4511344327646819192">Para mapigilan ang ibang tao na gamitin ang iyong password, palitan ito sa <ph name="WEBSITE"/></translation>
@@ -4601,7 +4601,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="4536769240747010177">Mga Kakayahan sa Pag-tether:</translation>
 <translation id="4538417792467843292">I-delete ang salita</translation>
 <translation id="4538792345715658285">Na-install ng patakaran ng enterprise.</translation>
-<translation id="6339420797559770249">Hindi makakonekta sa Brave Password Manager. Subukan ulit pagkalipas ng ilang minuto</translation>
+<translation id="1573625443275169446">Hindi makakonekta sa Wryling Password Manager. Subukan ulit pagkalipas ng ilang minuto</translation>
 <translation id="4540780316273593836">Nagkaproblema</translation>
 <translation id="4541396589393395475">Na-disable ng iyong organisasyon ang feature na ito</translation>
 <translation id="4541505619120536051">Palaging buksan</translation>
@@ -4666,7 +4666,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="4580389561674319558">Nakikita ng lahat ng contact</translation>
 <translation id="4580596421317071374">Sine-save ang mga password sa <ph name="GOOGLE_PASSWORD_MANAGER"/> sa device na ito.</translation>
 <translation id="4582297591746054421">Karaniwang binabasa ng mga site ang iyong clipboard para sa mga feature gaya ng pagpapanatili ng pag-format ng text na kinopya mo</translation>
-<translation id="376109232905238597">Alisin ang impormasyong ito sa autofill sa Brave?</translation>
+<translation id="7933642050191342525">Alisin ang impormasyong ito sa autofill sa Wryling?</translation>
 <translation id="4584770411839426377">Window</translation>
 <translation id="4584836561445313300">Makikita at mapapamahalaan ng iyong organisasyon ang anumang kasalukuyang data mula sa pag-browse, tulad ng mga password at higit pa</translation>
 <translation id="4585793705637313973">I-edit ang page</translation>
@@ -4795,7 +4795,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="4682003508123230705">Tulungan akong matuto</translation>
 <translation id="4682481611456523884">Hindi makakagamit ang naka-embed na content sa site na ito ng impormasyong na-save nito tungkol sa iyo</translation>
 <translation id="4524261726901681678">Kapag ginagamit mo ang mga feature na ito, ipapadala sa Brave ang nauugnay na data para gumawa ng mga experience sa AI</translation>
-<translation id="3704650847382671289">Na-update ang Brave</translation>
+<translation id="6644622854523272162">Na-update ang Wryling</translation>
 <translation id="4683629100208651599">Gawing Maliliit na Titik</translation>
 <translation id="4683947955326903992"><ph name="PERCENTAGE"/>% (default)</translation>
 <translation id="4684427112815847243">I-sync lahat</translation>
@@ -5120,7 +5120,7 @@ Gamitin ang Ctrl + Alt + Bawasan ang Liwanag para mag-zoom out.</translation>
 <translation id="4918762404810341788">Kopyahin at buksan</translation>
 <translation id="4918844574251943176">Nakopya na ang larawan</translation>
 <translation id="4921348630401250116">Text-to-speech</translation>
-<translation id="1298471559729553235">Para gamitin ang Password Manager sa iyong operating system, ilunsad ulit ang Brave at payagan ang pag-access sa password manager ng iyong computer. Bubukas ulit ang iyong mga tab pagkatapos malunsad ulit.</translation>
+<translation id="2177523175450524748">Para gamitin ang Password Manager sa iyong operating system, ilunsad ulit ang Wryling at payagan ang pag-access sa password manager ng iyong computer. Bubukas ulit ang iyong mga tab pagkatapos malunsad ulit.</translation>
 <translation id="4923561999941435531">{0,plural, =1{Mag-save ng 1 item sa account}one{Mag-save ng # item sa account}other{Mag-save ng # na item sa account}}</translation>
 <translation id="4923977675318667854">Ipakita ang Mga Grupo ng Tab</translation>
 <translation id="4924002401726507608">Magsumite ng Feedback</translation>
@@ -5199,7 +5199,7 @@ Gamitin ang Ctrl + Alt + Bawasan ang Liwanag para mag-zoom out.</translation>
 <translation id="4979263087381759787">Mga Opsyon ng Developer</translation>
 <translation id="4979510648199782334">Tapos na ang pag-set up ng Microsoft 365</translation>
 <translation id="4980805016576257426">May malware ang extension na ito.</translation>
-<translation id="8231468153901265517">Hindi na-share ang iyong password. Suriin ang iyong koneksyon sa internet at tiyaking naka-sign in ka sa Brave. Pagkatapos ay subukan ulit.</translation>
+<translation id="950784604556747155">Hindi na-share ang iyong password. Suriin ang iyong koneksyon sa internet at tiyaking naka-sign in ka sa Wryling. Pagkatapos ay subukan ulit.</translation>
 <translation id="498624032394115435">Mae-edit ng sinumang may link ang lahat ng tab.</translation>
 <translation id="6814280300414171363">Mapipili mo kung ano ang isi-sync anumang oras sa mga setting. Puwedeng i-personalize ng Brave ang Search at iba pang serbisyo batay sa iyong history.</translation>
 <translation id="4986728572522335985">Ide-delete nito ang lahat ng data sa security key, kabilang ang PIN nito</translation>
@@ -5209,7 +5209,7 @@ Gamitin ang Ctrl + Alt + Bawasan ang Liwanag para mag-zoom out.</translation>
 <translation id="4989966318180235467">Siyasatin ang pahina ng &amp;background</translation>
 <translation id="499016799952867794">Nagbibigay-daan ito sa app para gumana gaya ng inaasahan.</translation>
 <translation id="4990673372047946816">Walang available na camera</translation>
-<translation id="7538826519053730023">Puwedeng gamitin ng Gemini Spark ang awtomatikong pag-browse ng Brave sa device na ito para makipag-interact sa mga site at kumumpleto ng mga gawain sa ngalan mo. <ph name="LINK_BEGIN"/>Matuto pa<ph name="LINK_END"/></translation>
+<translation id="6942602636852210373">Puwedeng gamitin ng Gemini Spark ang awtomatikong pag-browse ng Wryling sa device na ito para makipag-interact sa mga site at kumumpleto ng mga gawain sa ngalan mo. <ph name="LINK_BEGIN"/>Matuto pa<ph name="LINK_END"/></translation>
 <translation id="4991420928586866460">Ituring ang mga top-row key bilang mga function key</translation>
 <translation id="4991873517942703737">Magtanong tungkol sa dokumentong ito</translation>
 <translation id="4992066212339426712">I-unmute</translation>
@@ -5361,7 +5361,7 @@ Gamitin ang Ctrl + Alt + Bawasan ang Liwanag para mag-zoom out.</translation>
 <translation id="5111794652433847656">Walang anumang passkey para kay <ph name="APP_NAME"/> sa device na ito</translation>
 <translation id="5112686815928391420">{NUM_OF_FILES,plural, =1{Nailipat ang 1 file}one{Nailipat ang {NUM_OF_FILES} file}other{Nailipat ang {NUM_OF_FILES} na file}}</translation>
 <translation id="511313294362309725">I-on ang Mabilis na Pagpares</translation>
-<translation id="6409962091529734959">Matuto pa tungkol sa awtomatikong pag-browse ng Brave</translation>
+<translation id="3721809128005666745">Matuto pa tungkol sa awtomatikong pag-browse ng Wryling</translation>
 <translation id="51143538739122961">Ipasok ang iyong security key at pindutin ito</translation>
 <translation id="5115338116365931134">SSO</translation>
 <translation id="5116628073786783676">I-Sa&amp;ve ang Audio Bilang...</translation>
@@ -5384,7 +5384,7 @@ Gamitin ang Ctrl + Alt + Bawasan ang Liwanag para mag-zoom out.</translation>
 <translation id="5130080518784460891">Eten</translation>
 <translation id="5130675701626084557">Hindi ma-download ang profile. Pakisubukan ulit sa ibang pagkakataon o makipag-ugnayan sa carrier para sa tulong.</translation>
 <translation id="5131591206283983824">Pag-tap para mag-drag gamit ang touchpad</translation>
-<translation id="112893101983775894">Ina-access lang ang iyong content sa Google Drive para maibigay ang feature na ito sa paghahanap ng file. Hindi ito ginagamit para pahusayin ang Brave Search. Hindi ia-access ng Brave ang content ng iyong Google Drive maliban na lang kung malinaw mong ia-upload ang isang file.</translation>
+<translation id="3232662147308516489">Ina-access lang ang iyong content sa Google Drive para maibigay ang feature na ito sa paghahanap ng file. Hindi ito ginagamit para pahusayin ang Brave Search. Hindi ia-access ng Brave ang content ng iyong Google Drive maliban na lang kung malinaw mong ia-upload ang isang file.</translation>
 <translation id="5133035646508467110">Kung ishe-share mo ang device na ito sa ibang tao, puwede mong gamitin ang iyong fingerprint para i-verify na ikaw ito sa tuwing gagamit ka ng naka-save na password</translation>
 <translation id="5135533361271311778">Hindi makalikha ng item ng bookmark.</translation>
 <translation id="513555878193063507">Magdagdag ng bagong APN</translation>
@@ -5443,18 +5443,18 @@ Gamitin ang Ctrl + Alt + Bawasan ang Liwanag para mag-zoom out.</translation>
 <translation id="5179428098696668914">I-off ang AI Playback</translation>
 <translation id="5180276433875360121">Ipakita ang <ph name="CERT_LIST"/></translation>
 <translation id="5181140330217080051">Nagda-download</translation>
-<translation id="3656271699136235245">Sa Brave Password Manager para sa <ph name="ACCOUNT"/></translation>
+<translation id="1388473966322202858">Sa Wryling Password Manager para sa <ph name="ACCOUNT"/></translation>
 <translation id="6029810565516522064">Mase-save lang ang password na ito sa device na ito. Para magamit ito sa iba mo pang device, i-save ito sa iyong Brave sync chain na <ph name="USER_EMAIL"/>.</translation>
 <translation id="5182671122927417841">Huwag paganahin ang extension</translation>
 <translation id="5183344263225877832">I-reset ang lahat ng pahintulot sa HID device?</translation>
 <translation id="5184063094292164363">&amp;JavaScript Console</translation>
 <translation id="5184209580557088469">Mayroon nang ticket na may ganitong username</translation>
-<translation id="8445059357334030806">Buksan sa Brave</translation>
+<translation id="4126334514963731148">Buksan sa Wryling</translation>
 <translation id="5184662919967270437">Ina-update ang iyong device</translation>
 <translation id="5185500136143151980">Walang Internet</translation>
 <translation id="5186362203408605578">Gumamit ng ibang device sa pamamagitan ng pag-scan sa QR code</translation>
 <translation id="5186381005592669696">I-customize ang wika ng display para sa mga sinusuportahang app</translation>
-<translation id="3075701570150269201">Puwede mong gamitin ang passkey na ito para mas mabilis na makapag-sign sa lahat ng iyong device. Mase-save ito sa Brave Password Manager para sa <ph name="ACCOUNT_NAME"/>.</translation>
+<translation id="8357398038570228285">Puwede mong gamitin ang passkey na ito para mas mabilis na makapag-sign sa lahat ng iyong device. Mase-save ito sa Wryling Password Manager para sa <ph name="ACCOUNT_NAME"/>.</translation>
 <translation id="5186792064936776005">Gamitin ang default kung available</translation>
 <translation id="5186931074173692059">Sine-save ang iyong mga password sa <ph name="GOOGLE_PASSWORD_MANAGER"/> para sa <ph name="EMAIL"/>.</translation>
 <translation id="5187826826541650604"><ph name="KEY_NAME"/> (<ph name="DEVICE"/>)</translation>
@@ -5553,7 +5553,7 @@ Gamitin ang Ctrl + Alt + Bawasan ang Liwanag para mag-zoom out.</translation>
 <translation id="5263656105659419083">Para madaling makabalik sa panel sa gilid, i-click ang I-pin sa kanang bahagi sa itaas</translation>
 <translation id="5266117308710480775">Tingnan ang lahat ng iyong tab</translation>
 <translation id="526622169288322445">Higit pang aksyon para sa <ph name="ADDRESS_SUMMARY"/></translation>
-<translation id="904084505809395909">Para magamit ang Mga Skill, mag-sign in sa Brave gamit ang isang Brave account na naka-enable ang Gemini sa Brave</translation>
+<translation id="8409037861809652895">Para magamit ang Mga Skill, mag-sign in sa Brave gamit ang isang Brave account na naka-enable ang Gemini sa Brave</translation>
 <translation id="5267572070504076962">I-on ang Ligtas na Pag-browse para magkaroon ng proteksyon laban sa mga mapanganib na site</translation>
 <translation id="5269659747698455324">I-unlock ang iyong mga passkey</translation>
 <translation id="5269977353971873915">Nabigo ang Pag-print</translation>
@@ -5591,7 +5591,7 @@ Gamitin ang Ctrl + Alt + Bawasan ang Liwanag para mag-zoom out.</translation>
 <translation id="815099619559018451">Gumagamit ang iyong <ph name="DEVICE_TYPE"/> ng built-in na sensor para ma-detect ang mga tao sa harap ng device mo. Ipoproseso kaagad at pagkatapos ay ide-delete ang lahat ng data sa iyong device. Hindi kailanman ipinapadala sa Brave ang data ng sensor. <ph name="LINK_BEGIN"/>Matuto pa<ph name="LINK_END"/></translation>
 <translation id="5294922869942863768">Lumalabas ang mga pagsasalin ng PDF sa panel sa gilid ng reading mode</translation>
 <translation id="5296350763804564124">Makarinig ng pasalitang feedback para magamit mo ang iyong device nang hindi tumitingin sa screen. Available ang braille na feedback gamit ang isang nakakonektang device.</translation>
-<translation id="6092554978456048094">Nasa iyo ang pinakamaigting na seguridad ng Brave laban sa mga mapaminsalang website</translation>
+<translation id="434455729075409436">Nasa iyo ang pinakamaigting na seguridad ng Wryling laban sa mga mapaminsalang website</translation>
 <translation id="5297005732522718715">I-refresh ang Configuration ng Pag-tether</translation>
 <translation id="5297021821125993168">Na-activate na</translation>
 <translation id="5297082477358294722">Na-save ang password. Tingnan at pamahalaan ang mga naka-save na password sa iyong <ph name="SAVED_PASSWORDS_STORE"/>.</translation>
@@ -5827,7 +5827,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="5490798133083738649">Payagan ang Linux na ma-access ang iyong mikropono</translation>
 <translation id="549211519852037402">Beige at puti</translation>
 <translation id="5492637351392383067">On-device na pag-encrypt</translation>
-<translation id="525561504184560379">Ang mga extension ay mga add-on sa Brave na makakatulong sa iyo</translation>
+<translation id="4269985980162690000">Ang mga extension ay mga add-on sa Wryling na makakatulong sa iyo</translation>
 <translation id="5493455553805432330">Kalimutan</translation>
 <translation id="5493792505296048976">naka-on ang screen</translation>
 <translation id="5494016731375030300">Mga Kamakailang Isinarang Tab</translation>
@@ -5842,7 +5842,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="5497250476399536588">Makikita mo ito sa iyong Mga Address at Higit pa</translation>
 <translation id="5497251278400702716">File na ito</translation>
 <translation id="549762298434242239">Hindi pinagkakatiwalaan ng Pinahusay na Ligtas na Pag-browse ang extension na ito. <ph name="LEARN_MORE_LINK"/></translation>
-<translation id="8535881475141081242">Hindi na-verify ng Brave ang bundle ng pag-install na ito</translation>
+<translation id="3284580476319813256">Hindi na-verify ng Wryling ang bundle ng pag-install na ito</translation>
 <translation id="5499211612787418966">Kasalukuyang hindi naka-focus ang dialog na ito. Pindutin ang Alt-Shift A para i-focus ang dialog na ito.</translation>
 <translation id="5499476581866658341">Puwede mo nang tingnan ang mga pinakabagong larawan at media ng iyong telepono</translation>
 <translation id="549957179819296104">Bagong icon</translation>
@@ -5881,7 +5881,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="5527822190489075064">Naka-optimize na pag-charge</translation>
 <translation id="5529554942700688235">Buod ng mga natipid na memory, <ph name="MEMORY_VALUE"/> ang nabakante</translation>
 <translation id="5529693968082667490">Ipakita ang button na paghahanap sa tab</translation>
-<translation id="8476278190293667671">Para i-save ang iyong password sa Brave Password Manager, i-click ang key</translation>
+<translation id="7590006893770451825">Para i-save ang iyong password sa Wryling Password Manager, i-click ang key</translation>
 <translation id="5532223876348815659">Pandaigdigan</translation>
 <translation id="5533001281916885985">Gusto ng <ph name="SITE_NAME"/> na</translation>
 <translation id="5533343601674003130">Serbisyo sa PDF</translation>
@@ -6008,7 +6008,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="5632300633605675627">Sine-set up ang iyong profile ...</translation>
 <translation id="5632566673632479864">Hindi na pinapayagan ang iyong account na <ph name="EMAIL"/> bilang pangunahing account. Dahil pinapamahalaan ng <ph name="DOMAIN"/> ang account na ito, iki-clear ang iyong mga bookmark, history, password, at iba pang setting sa device na ito.</translation>
 <translation id="5633149627228920745">Matuto pa tungkol sa mga requirement ng system</translation>
-<translation id="4349643148868035678">Sulitin ang Brave AI. I-pin ang Gemini sa iyong toolbar para sa madaling pag-access, o buksan ito anumang oras mula sa menu ng Brave.</translation>
+<translation id="1259136609764667252">Sulitin ang Brave AI. I-pin ang Gemini sa iyong toolbar para sa madaling pag-access, o buksan ito anumang oras mula sa menu ng Brave.</translation>
 <translation id="563371367637259496">Mobile</translation>
 <translation id="5635312199252507107">Payagan sa mga partikular na site</translation>
 <translation id="5636012309446422">Alisin ang <ph name="DEVICE"/> sa <ph name="PRIMARY_EMAIL"/>?</translation>
@@ -6052,7 +6052,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="5677503058916217575">Wika ng page:</translation>
 <translation id="5677928146339483299">Naka-block</translation>
 <translation id="5678550637669481956">Ipinagkaloob na sa <ph name="VOLUME_NAME"/> ang access sa pagbasa at pagsulat.</translation>
-<translation id="9187489046368002999">Puwede mong buksan ulit ang mga tab na isinara mo kamakailan kahit saan ka man gumagamit ng Brave</translation>
+<translation id="1324707973668136061">Puwede mong buksan ulit ang mga tab na isinara mo kamakailan kahit saan ka man gumagamit ng Wryling</translation>
 <translation id="5678955352098267522">Basahin ang iyong data sa <ph name="WEBSITE_1"/></translation>
 <translation id="5680050361008726776">Alisin ang "<ph name="ESIM_PROFILE_NAME"/>"?</translation>
 <translation id="5681586175480958839">Binubuksan na ang file</translation>
@@ -6156,7 +6156,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="5776415697119024904"><ph name="DEVICE_NAME"/> (Default ng system)</translation>
 <translation id="5776450228446082914">Ang listahan ng mga website na mabubuksan sa alinmang browser.</translation>
 <translation id="5776571780337000608">Magagawa mong magbukas at mag-edit ng mga sinusuportahang file mula sa iyong file browser o iba pang app gamit ang app na ito. Para kontrolin kung aling mga file ang magbubukas sa app na ito bilang default, <ph name="BEGIN_LINK"/>alamin kung paano magtakda ng mga default na app sa iyong device<ph name="END_LINK"/>.</translation>
-<translation id="6676231621615806698">Buksan ang Brave</translation>
+<translation id="2366428511841171478">Buksan ang Wryling</translation>
 <translation id="5778491106820461378">Puwede mong pamahalaan ang mga naka-sign in na Brave sync chain mula sa <ph name="LINK_BEGIN"/>Mga Setting<ph name="LINK_END"/>. Posibleng malapat sa lahat ng account ang mga pahintulot na ibinigay mo sa mga website at app. Kung ayaw mong ma-access ng mga site o app ang impormasyon ng iyong account, puwede kang mag-sign in sa <ph name="DEVICE_TYPE"/> mo bilang bisita.</translation>
 <translation id="5780011244986845107">Naglalaman ng mga sensitibong file ang folder na pinili mo. Sigurado ka bang gusto mong bigyan ang "<ph name="APP_NAME"/>" ng permanenteng access sa pag-read sa folder na ito?</translation>
 <translation id="5780973441651030252">Priority ng proseso</translation>
@@ -6166,7 +6166,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="5783346913439924978">Pag-track ng ulo</translation>
 <translation id="57838592816432529">I-mute</translation>
 <translation id="5784291589716625675">Palitan ang wika ng app</translation>
-<translation id="7171242884588191792">Mga Utility ng File ng Brave</translation>
+<translation id="6694176433685812521">Mga Utility ng File ng Wryling</translation>
 <translation id="5787420647064736989">Pangalan ng device</translation>
 <translation id="3481489625298495279">Bisitahin ang Brave Wallet para magdagdag o mamahala ng <ph name="BEGIN_LINK_LOYALTY_CARDS"/>mga loyalty card<ph name="END_LINK_LOYALTY_CARDS"/> o <ph name="BEGIN_LINK_PAYMENT_METHODS"/>mga paraan ng pagbabayad<ph name="END_LINK_PAYMENT_METHODS"/> sa Google Pay</translation>
 <translation id="5789581866075720267">Para mag-import ng mga password sa <ph name="BRAND"/> sa device na ito, pumili ng CSV file.</translation>
@@ -6299,7 +6299,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="587234395549708302">Mag-clean Up ng Mga Bookmark?</translation>
 <translation id="587502357434914765">Pumili sa screen</translation>
 <translation id="5875534259258494936">Nagtapos na ang pagbabahagi ng screen</translation>
-<translation id="5087908853264608754">Brave Apps &gt; <ph name="APP_NAME"/></translation>
+<translation id="3007975053754227498">Wryling Apps &gt; <ph name="APP_NAME"/></translation>
 <translation id="5876851302954717356">Bagong Tab sa Kanan</translation>
 <translation id="5877064549588274448">Binago ang channel. I-restart ang iyong device upang ilapat ang mga pagbabago.</translation>
 <translation id="5877584842898320529">Hindi available o hindi naka-install nang tama ang napiling printer. <ph name="BR"/> Suriin ang iyong printer o subukang pumili ng ibang printer.</translation>
@@ -6330,7 +6330,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="5901069264981746702">Secure na sino-store ang data ng iyong fingerprint at hindi ito kailanman aalisin sa <ph name="DEVICE_TYPE"/> mo. <ph name="LINK_BEGIN"/>Matuto pa<ph name="LINK_END"/></translation>
 <translation id="5901089233978050985">Lumipat sa kina-capture na tab</translation>
 <translation id="5901630391730855834">Dilaw</translation>
-<translation id="3535209993382976135">Naka-off ang Brave Password Manager</translation>
+<translation id="7043941876121223194">Naka-off ang Wryling Password Manager</translation>
 <translation id="5906457147959147328">Patuloy na payagan ang site na ito na gumamit ng mga identifier para mag-play ng pinoprotektahang content</translation>
 <translation id="5906655207909574370">Halos napapanahon na! I-restart ang iyong device upang tapusin ang pag-a-update.</translation>
 <translation id="5906732635754427568">Aalisin sa device na ito ang data na nauugnay sa app na ito.</translation>
@@ -6353,7 +6353,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="5919486630433391408">Na-disable ng iyong administrator ang mga update sa firmware.</translation>
 <translation id="5920543303088087579">Na-disable ng iyong administrator ang pagkonekta sa network na ito</translation>
 <translation id="5922493635960054020">I-block ang access sa optimizer sa JavaScript sa mga bagong binisitang site. Nagre-require ng Ligtas na Pag-browse</translation>
-<translation id="2323567368243374972">I-click ang "I-customize ang Brave"</translation>
+<translation id="4776890532807780579">I-click ang "I-customize ang Wryling"</translation>
 <translation id="5924047253200400718">Humingi ng tulong<ph name="SCANNING_STATUS"/></translation>
 <translation id="5924438086390153180">Magtanong bago kumopya o maglipat ng mga Microsoft file sa Google Drive</translation>
 <translation id="5925057331573749968">Mas mabilis na mag-sign in gamit ang QR code</translation>
@@ -6452,7 +6452,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="5992652489368666106">Walang border</translation>
 <translation id="5996490984199062729">Hindi pa nase-set up ang iyong profile</translation>
 <translation id="5997337190805127100">Matuto pa Tungkol sa Access sa Site</translation>
-<translation id="1113417784664180765">Kapag naka-sign in ka sa Brave gamit ang parehong account, mabilis kang makakapagpadala ng mga link sa pagitan ng anumang device</translation>
+<translation id="2406114405348885691">Kapag naka-sign in ka sa Wryling gamit ang parehong account, mabilis kang makakapagpadala ng mga link sa pagitan ng anumang device</translation>
 <translation id="5998458948782718639">Tumulong na pahusayin ang autofill</translation>
 <translation id="5998976983953384016">Kumpirmahin at i-on</translation>
 <translation id="5999630716831179808">Mga Boses</translation>
@@ -6484,7 +6484,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="6021293122504240352">Hindi na sinusuportahan ang mga <ph name="APPS"/> app</translation>
 <translation id="6021969570711251331">Interleave</translation>
 <translation id="6022526133015258832">Buksan sa Full Screen</translation>
-<translation id="296137235951584143">Gawing iyo ang Brave</translation>
+<translation id="4578349172774307195">Gawing iyo ang Wryling</translation>
 <translation id="6024317249717725918">&amp;Hanapin ang Video Frame gamit ang <ph name="VISUAL_SEARCH_PROVIDER"/></translation>
 <translation id="6025215716629925253">Stack Trace</translation>
 <translation id="6026819612896463875"><ph name="WINDOW_TITLE"/> - May nakakonektang USB device</translation>
@@ -6573,7 +6573,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="6099766472403716061">Palaging payagan ang <ph name="HOST"/> na kontrolin at i-reprogram ang iyong mga MIDI device</translation>
 <translation id="6100736666660498114">Start menu</translation>
 <translation id="6100737823178787570">Palakihin ang window para ipagpatuloy ang gawain</translation>
-<translation id="4012048950158900308">Kung makikita ng Brave ang isa sa mga password mo sa isang pampublikong breach sa data, puwedeng mag-alok ang Brave Password Manager na palitan ito para sa iyo kapag naka-sign in ka.</translation>
+<translation id="4455711252967107965">Kung makikita ng Wryling ang isa sa mga password mo sa isang pampublikong breach sa data, puwedeng mag-alok ang Wryling Password Manager na palitan ito para sa iyo kapag naka-sign in ka.</translation>
 <translation id="6101226222197207147">Nagdagdag ng bagong app (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="6102043788063419338">Na-block ng Advanced Protection ang file na ito.</translation>
 <translation id="6103681770816982672">Babala: lumilipat ka sa channel ng developer</translation>
@@ -6606,7 +6606,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="6126601353087978360">Pakilagay dito ang iyong feedback:</translation>
 <translation id="6127292407256937949">Naka-on ang volume. I-off ang volume.</translation>
 <translation id="6127598727646973981">Mga secure na koneksyon</translation>
-<translation id="7089529486065491663">Inalis sa Brave at sa mga naka-sync na device ang napiling data. Maaaring may iba pang anyo ng history ng pag-browse ang iyong Brave sync chain tulad ng mga paghahanap at aktibidad mula sa iba pang serbisyo ng Brave sa <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8909926044863596423">Inalis sa Brave at sa mga naka-sync na device ang napiling data. Maaaring may iba pang anyo ng history ng pag-browse ang iyong Brave sync chain tulad ng mga paghahanap at aktibidad mula sa iba pang serbisyo ng Brave sa <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="6129938384427316298">Komento sa Netscape Certificate</translation>
 <translation id="6129953537138746214">Space</translation>
 <translation id="6130692320435119637">Magdagdag ng Wi-Fi</translation>
@@ -6683,7 +6683,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="6181218116951226898">Kung minsan, ina-update ng mga app ang branding ng mga ito. Suriin ang lahat ng pagbabago para matiyak na kumportable ka sa mga ito bago mag-update.</translation>
 <translation id="6181431612547969857">Na-block ang pagda-download</translation>
 <translation id="6183369864942961155">Awtomatikong maliwanag/madilim na tema</translation>
-<translation id="7995865526174204486">Gumagamit ang Gemini sa Brave ng awtomatikong pag-browse para gumawa sa iyong mga tab at kumumpleto ng mga gawaing ibibigay mo rito. <ph name="LINK_BEGIN"/>Matuto pa<ph name="LINK_END"/></translation>
+<translation id="896787455774331657">Gumagamit ang Gemini sa Wryling ng awtomatikong pag-browse para gumawa sa iyong mga tab at kumumpleto ng mga gawaing ibibigay mo rito. <ph name="LINK_BEGIN"/>Matuto pa<ph name="LINK_END"/></translation>
 <translation id="6184099524311454384">Maghanap sa Mga Tab</translation>
 <translation id="6185151644843671709">Na-save ang passkey at nagawa ang PIN</translation>
 <translation id="2250900586478000379">{PASSWORD_COUNT,plural, =1{Mase-save ang 1 password at iba pang item sa device lang na ito. Para magamit ang mga ito sa iba mo pang device, i-save ang mga ito sa iyong Brave sync chain. Lilinisin din nito ang anumang duplicate.}one{Mase-save ang {PASSWORD_COUNT} password at iba pang item sa device lang na ito. Para magamit ang mga ito sa iba mo pang device, i-save ang mga ito sa iyong Brave sync chain. Lilinisin din nito ang anumang duplicate.}other{Mase-save ang {PASSWORD_COUNT} na password at iba pang item sa device lang na ito. Para magamit ang mga ito sa iba mo pang device, i-save ang mga ito sa iyong Brave sync chain. Lilinisin din nito ang anumang duplicate.}}</translation>
@@ -6755,7 +6755,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="6239558157302047471">I-reload ang &amp;frame</translation>
 <translation id="6240637845286751292">Pinapayagan. I-on ang <ph name="LINK_BEGIN"/>access sa lokasyon ng system<ph name="LINK_END"/>.</translation>
 <translation id="6240821072888636753">Itanong palagi</translation>
-<translation id="4174528239215311406">Para gamitin ang Brave Password Manager sa iyong operating system, ilunsad ulit ang Brave at payagan ang pag-access sa password manager ng iyong computer. Bubukas ulit ang iyong mga tab pagkatapos malunsad ulit.</translation>
+<translation id="242014192545524966">Para gamitin ang Wryling Password Manager sa iyong operating system, ilunsad ulit ang Wryling at payagan ang pag-access sa password manager ng iyong computer. Bubukas ulit ang iyong mga tab pagkatapos malunsad ulit.</translation>
 <translation id="6241530762627360640">Mag-access ng impormasyon tungkol sa mga Bluetooth device na nakapares sa iyong system at tumuklas ng mga kalapit na Bluetooth device.</translation>
 <translation id="6241844896329831164">Hindi nangangailangan ng access</translation>
 <translation id="6242589501614145408">I-reset ang iyong security key</translation>
@@ -6763,8 +6763,8 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="6242852299490624841">I-focus ang tab na ito</translation>
 <translation id="6243774244933267674">Hindi available ang server</translation>
 <translation id="6244245036423700521">I-import ang ONC File</translation>
-<translation id="5455369595872837596">Maa-access mo ito sa Brave Password Manager.</translation>
-<translation id="8883879481897424949">Brave Password Manager</translation>
+<translation id="6643271232839544541">Maa-access mo ito sa Wryling Password Manager.</translation>
+<translation id="3888885285070224654">Wryling Password Manager</translation>
 <translation id="6247620186971210352">Walang nakitang app</translation>
 <translation id="6247708409970142803"><ph name="PERCENTAGE"/>%</translation>
 <translation id="6247802389331535091">System: <ph name="ARC_PROCESS_NAME"/></translation>
@@ -6860,11 +6860,11 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="6324916366299863871">I-edit ang shortcut</translation>
 <translation id="6325191661371220117">I-disable ang awtomatikong paglulunsad</translation>
 <translation id="632524945411480350">Ni-resize ang mga window papunta sa ibaba</translation>
-<translation id="5267531627648004734">Alisin sa Brave</translation>
+<translation id="6125790165673488794">Alisin sa Wryling</translation>
 <translation id="6326855256003666642">Bilang ng Keepalive</translation>
 <translation id="6327785803543103246">Web proxy autodiscovery</translation>
 <translation id="6329916384047371874">Gagamitin mo ang iyong password sa<ph name="PASSWORD_DOMAIN"/> sa <ph name="DOMAIN"/>. Gamitin lang ang iyong password kung may tiwala ka sa <ph name="DOMAIN"/>.</translation>
-<translation id="894516897589069384">Ise-save ang iyong passkey sa Brave Password Manager para sa <ph name="ACCOUNT_NAME"/>. Isang beses mo lang ito kailangang gawin.</translation>
+<translation id="96451127607926283">Ise-save ang iyong passkey sa Wryling Password Manager para sa <ph name="ACCOUNT_NAME"/>. Isang beses mo lang ito kailangang gawin.</translation>
 <translation id="8329196515830093443">Ipapadala ang file sa Brave para sa pagde-debug</translation>
 <translation id="6333170995003625229">Hindi ma-verify ang iyong email address o password. Subukang mag-sign in ulit.</translation>
 <translation id="6334267141726449402">Kopyahin at ipadala ang link na ito sa user para makolekta ang mga log.</translation>
@@ -6923,7 +6923,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="637135143619858508">Loose</translation>
 <translation id="6374077068638737855">Iceweasel</translation>
 <translation id="6374469231428023295">Subukan Ulit</translation>
-<translation id="3816315808514424202">Hindi na bubukas ang mga lumang bersyon ng Brave Apps sa mga Linux device pagkatapos ng Disyembre 2022. Makipag-ugnayan sa iyong administrator para mag-update sa bagong bersyon o alisin ang app na ito.</translation>
+<translation id="8663109891702419184">Hindi na bubukas ang mga lumang bersyon ng Wryling Apps sa mga Linux device pagkatapos ng Disyembre 2022. Makipag-ugnayan sa iyong administrator para mag-update sa bagong bersyon o alisin ang app na ito.</translation>
 <translation id="6377268785556383139">1 resulta para sa '<ph name="SEARCH_TEXT"/>'</translation>
 <translation id="6378392501584240055">Buksan sa mga Wi-Fi network</translation>
 <translation id="6379228010899751161">I-verify na ikaw ito para matiyak na magagamit mo sa anumang oras ang mga password sa iyong account, <ph name="ACCOUNT_EMAIL"/></translation>
@@ -6955,7 +6955,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="6399774419735315745">Espiya</translation>
 <translation id="6400360390396538896">Palagi sa <ph name="ORIGIN"/></translation>
 <translation id="6401118106417399952">Ang iyong device EID ay <ph name="EID_NUMBER"/> at ang serial number ng device ay <ph name="SERIAL_NUMBER"/>. Puwedeng gamitin ang mga numerong ito para makatulong na ma-activate ang serbisyo.</translation>
-<translation id="8789425457808164956">Para ipadala ang tab na ito sa ibang device, mag-sign in sa Brave doon</translation>
+<translation id="2522845252291433622">Para ipadala ang tab na ito sa ibang device, mag-sign in sa Wryling doon</translation>
 <translation id="6402042774506839496">Para malaman kung bakit, makipag-ugnayan sa developer ng app</translation>
 <translation id="6402921224457714577">Puwedeng hilingin ng mga site na kontrolin at i-reprogram ang iyong mga MIDI device</translation>
 <translation id="6404511346730675251">I-edit ang bookmark</translation>
@@ -7046,7 +7046,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="6469557521904094793">I-on ang Cellular network</translation>
 <translation id="6469702164109431067">Mga password at passkey</translation>
 <translation id="6470120577693311302">Mga flash notification</translation>
-<translation id="2444643906853437046">Para mag-share ng mga tab at makipag-collaborate sa iba, mag-sign in sa Brave at i-sync ang iyong history at mga tab. Makukuha mo rin ang iyong mga password at higit pa sa lahat ng device mo.</translation>
+<translation id="5220171877391975452">Para mag-share ng mga tab at makipag-collaborate sa iba, mag-sign in sa Wryling at i-sync ang iyong history at mga tab. Makukuha mo rin ang iyong mga password at higit pa sa lahat ng device mo.</translation>
 <translation id="6470823736074966819">I-mute ang Mga Notification</translation>
 <translation id="6472893788822429178">Ipakita ang button na Home</translation>
 <translation id="6473315466413288899">Pumili ng opsyon</translation>
@@ -7071,7 +7071,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="649396225532207613">Puwedeng mapinsala ng file na ito ang iyong mga personal na account at account sa social network</translation>
 <translation id="6493991254603208962">Babaan ang brightness</translation>
 <translation id="6494327278868541139">Ipakita ang mga detalye ng pinahusay na proteksyon</translation>
-<translation id="4328654367880031858">In-update ang tema sa Default na Brave</translation>
+<translation id="7396469211317307267">In-update ang tema sa Default na Wryling</translation>
 <translation id="6496641546298525838">Iyong device</translation>
 <translation id="6497784818439587832">Baguhin ang laki ng display para paliitin o palakihin ang mga item sa iyong screen</translation>
 <translation id="6497789971060331894">Reverse na pag-scroll gamit ang mouse</translation>
@@ -7099,8 +7099,8 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="6519437681804756269">[<ph name="TIMESTAMP"/>]
         <ph name="FILE_INFO"/>
         <ph name="EVENT_NAME"/></translation>
-<translation id="7978371405408781051">Puwede mong tingnan at pamahalaan ang mga naka-save na password sa Brave Password Manager</translation>
-<translation id="3268749830200917889">Gustong i-verify ng <ph name="SITE"/> na ikaw ito. Ilagay ang iyong alphanumeric na PIN para sa Brave Password Manager</translation>
+<translation id="4368425522364057431">Puwede mong tingnan at pamahalaan ang mga naka-save na password sa Wryling Password Manager</translation>
+<translation id="4584640130722526280">Gustong i-verify ng <ph name="SITE"/> na ikaw ito. Ilagay ang iyong alphanumeric na PIN para sa Wryling Password Manager</translation>
 <translation id="6520876759015997832">Resulta ng paghahanap sa <ph name="LIST_POSITION"/> sa <ph name="LIST_SIZE"/>: <ph name="SEARCH_RESULT_TEXT"/>. Pindutin ang Enter para mag-navigate sa seksyon.</translation>
 <translation id="6521214596282732365">Karaniwang ginagamit ng mga site ang mga font mo para makagawa ka ng high-fidelity na content gamit ang mga online na tool para sa pagdidisenyo at graphics</translation>
 <translation id="6521218807522232085">Gawin, i-save, at pamahalaan ang iyong mga password para madali kang makapag-sign in</translation>
@@ -7158,7 +7158,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="656293578423618167">Masyadong mahaba ang path o pangalan ng file.  Mangyaring i-save nang may mas maikling pangalan o sa isa pang lokasyon.</translation>
 <translation id="6563002009564846727">Tingnan ang mga in-import na certificate mula sa Windows</translation>
 <translation id="6563055593659435495">Hindi makapagpanatili ng koneksyon sa iyong telepono. Tiyaking nasa malapit at naka-unlock ang iyong telepono, at naka-on ang Bluetooth at Wi-Fi</translation>
-<translation id="5101641460012906639">Para makagawa ng passkey para sa <ph name="APP_NAME"/>, naka-on dapat ang Brave Password Manager</translation>
+<translation id="220477283561908794">Para makagawa ng passkey para sa <ph name="APP_NAME"/>, naka-on dapat ang Wryling Password Manager</translation>
 <translation id="6565899972286925956">Gumawa ng kahit ano</translation>
 <translation id="6566648465417201421">Buksan Ulit ang Nakasarang Split View</translation>
 <translation id="656679903990115526">I-scan ito gamit ang iyong telepono para i-save at i-autofill ang mga password mo para madaling makapag-sign in sa mga site at app</translation>
@@ -7188,7 +7188,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="6582274660680936615">Nagba-browse ka bilang isang Bisita</translation>
 <translation id="6583328141350416497">Ipagpatuloy ang pag-download</translation>
 <translation id="6584878029876017575">Microsoft Lifetime Signing</translation>
-<translation id="3967591872717355005">Isara ang Gemini sa Brave</translation>
+<translation id="4549910236442219988">Isara ang Gemini sa Wryling</translation>
 <translation id="6585584201072946561">I-customize ang laki at font ng text para sa web browser</translation>
 <translation id="6586099239452884121">Pagba-browse ng bisita</translation>
 <translation id="6586451623538375658">Palitan ang pangunahing button ng mouse</translation>
@@ -7200,7 +7200,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="6592808042417736307">Na-capture na ang iyong fingerprint</translation>
 <translation id="6594011207075825276">Naghahanap ng mga serial device...</translation>
 <translation id="6595322909015878027">Hindi pinapayagang awtomatikong pumasok sa picture-in-picture</translation>
-<translation id="5089633794744090226">{COUNT,plural, =1{Napalitan ang nakompromisong password.
+<translation id="4604137824271419035">{COUNT,plural, =1{Napalitan ang nakompromisong password.
 
 May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager na tingnan na ngayon ang password na ito.}one{Napalitan ang nakompromisong password.
 
@@ -7241,7 +7241,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="6619801788773578757">Magdagdag ng kiosk application</translation>
 <translation id="6619990499523117484">Kumpirmahin ang iyong PIN</translation>
 <translation id="808383181727223557">Magtanong sa Brave o mag-type ng URL</translation>
-<translation id="8127050479140582768">Para ipadala ang tab na ito sa ibang device, mag-sign in sa Brave sa dalawang device</translation>
+<translation id="7379057487310867567">Para ipadala ang tab na ito sa ibang device, mag-sign in sa Wryling sa dalawang device</translation>
 <translation id="6622980291894852883">Magpatuloy sa paghaharang ng mga larawan</translation>
 <translation id="6624036901798307345">Sa tablet mode, i-tap ang button ng toolbar para sa pagbibilang ng tab para mabuksan ang bagong tabstrip na nagpapakita ng mga thumbnail ng bawat tab.</translation>
 <translation id="6624538059730609162">Isara ang kanang view</translation>
@@ -7259,7 +7259,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="663569763553406962">Tingnan kung anong mga extension ang kayang magbasa o magbago ng site</translation>
 <translation id="6636258750460740634">History</translation>
 <translation id="6636623428211296678">Mag-explore pa ng mga setting sa ibaba o tapusin ngayon</translation>
-<translation id="7039910610180903356">Kasalukuyang naka-disable ang feature na Mga Kasanayan. I-update ang iyong Mga Setting ng Brave para makapagsimula.</translation>
+<translation id="2685022934261893296">Kasalukuyang naka-disable ang feature na Mga Kasanayan. I-update ang iyong Mga Setting ng Wryling para makapagsimula.</translation>
 <translation id="6639554308659482635">Memorya sa SQLite</translation>
 <translation id="6640268266988685324">Bukas na Tab</translation>
 <translation id="664271268954513498">Halaga ng Patakaran</translation>
@@ -7293,7 +7293,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="6660819301598582123">The quick brown fox jumped over the lazy dog.</translation>
 <translation id="666099631117081440">Mga server sa pag-print</translation>
 <translation id="6662339038589469159">Pumili ng text para magtanong sa Gemini</translation>
-<translation id="5651734709592044140">Gamitin ang Brave Password Manager para mag-sign in nang mas mabilis sa mga site mula sa alinman sa iyong mga device</translation>
+<translation id="7879317760767371797">Gamitin ang Wryling Password Manager para mag-sign in nang mas mabilis sa mga site mula sa alinman sa iyong mga device</translation>
 <translation id="6662931079349804328">Binago ang patakaran sa enterprise. Inalis ang button ng mga eksperimento sa toolbar.</translation>
 <translation id="6664774537677393800">Nagkaproblema sa pagbukas ng iyong profile. Mangyaring mag-sign out at pagkatapos ay muling mag-sign in.</translation>
 <translation id="6665874326033183068">Wild</translation>
@@ -7314,7 +7314,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="6677527809400770913">Itinalaga ang galaw na <ph name="GESTURE"/> sa <ph name="ACTION"/></translation>
 <translation id="6678604587151240716">Makikita ang malalaking alon sa dagat, at ang lupa sa malayong background. May mga bakas ng orange na liwanag sa kabilang bahagi ng horizon, sa isang kalangitang may madilim na mood.</translation>
 <translation id="6678717876183468697">URL ng Query</translation>
-<translation id="4179272988780553308">Kailangan ng Brave ng tulong sa pagpapalit ng iyong password</translation>
+<translation id="6399206009398414883">Kailangan ng Wryling ng tulong sa pagpapalit ng iyong password</translation>
 <translation id="6679947539429331601">I-hide sa loob ng 12 oras</translation>
 <translation id="6680650203439190394">I-rate</translation>
 <translation id="6683022854667115063">Headphones</translation>
@@ -7325,7 +7325,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="6686676261102452995">Binuksan mo ngayong araw</translation>
 <translation id="6686817083349815241">I-save ang iyong password</translation>
 <translation id="6686878118106035853">Ino-off ng custom na pinaigting na proteksyon ang pag-optimize ng JavaScript para sa lahat ng site</translation>
-<translation id="8244419959467378067">Palitan ang PIN sa Brave Password Manager</translation>
+<translation id="6670208233381808278">Palitan ang PIN sa Wryling Password Manager</translation>
 <translation id="6687079240787935001">Itago ang <ph name="MODULE_TITLE"/></translation>
 <translation id="6689092196793298127">Organizer</translation>
 <translation id="6689948774466767379">Mga Mouse Key</translation>
@@ -7418,9 +7418,9 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="6762833852331690540">Naka-on</translation>
 <translation id="6762861159308991328">Puwede mong baguhin kung paano magbubukas ang mga link sa Mga setting ng app</translation>
 <translation id="676560328519657314">Iyong mga paraan ng pagbabayad sa Google Pay</translation>
-<translation id="3829555700225710632">Pumunta sa Brave Password Manager</translation>
+<translation id="1991746409654589637">Pumunta sa Wryling Password Manager</translation>
 <translation id="6767566652486411142">Pumili ng Iba Pang Wika...</translation>
-<translation id="3118781942424119876"><ph name="DISPLAYED_TEXT"/>, Gemini sa Brave</translation>
+<translation id="444975012123670651"><ph name="DISPLAYED_TEXT"/>, Gemini sa Wryling</translation>
 <translation id="6768034047581882264">Hindi pinapayagang magpakita ng hindi secure na content</translation>
 <translation id="6770602306803890733">Pinapahusay ang seguridad para sa iyo at sa lahat ng taong nasa web</translation>
 <translation id="6771503742377376720">Ay isang Certificate Authority</translation>
@@ -7436,7 +7436,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="6777817260680419853">Na-block ang pag-redirect</translation>
 <translation id="6777845730143344223">Matuto pa tungkol sa mga subscription sa Passpoint</translation>
 <translation id="6779092717724412415">Para gumawa ng highlight tulad nito, pumili ng anumang text at i-right-click.</translation>
-<translation id="4302311572898487420">Kailangan ng Brave Password Manager ng access sa MacOS Keychain</translation>
+<translation id="5994277662125312553">Kailangan ng Wryling Password Manager ng access sa MacOS Keychain</translation>
 <translation id="677965093459947883">Napakaliit</translation>
 <translation id="6781005693196527806">&amp;Pamahalaan ang mga search engine...</translation>
 <translation id="6781284683813954823">Link ng Doodle</translation>
@@ -7445,7 +7445,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="678520006562636090">Subukan ang Google Lens sa iyong <ph name="DEVICE_TYPE"/></translation>
 <translation id="6785594991951195537">Gamitin ang iyong <ph name="PASSWORD_DOMAIN"/></translation>
 <translation id="6785739405821760313">Pagtingin sa mga naka-save na desk. Pindutin ang tab para mag-navigate.</translation>
-<translation id="3970420313383499900">Gamitin ang <ph name="FOCUS_TOGGLE_HOTKEY"/> para buksan ang Gemini sa Brave</translation>
+<translation id="1947654530370382747">Gamitin ang <ph name="FOCUS_TOGGLE_HOTKEY"/> para buksan ang Gemini sa Wryling</translation>
 <translation id="6785915470941880363">Reverse na pag-scroll <ph name="LINK_BEGIN"/>Matuto pa<ph name="LINK_END"/></translation>
 <translation id="67862343314499040">Violet</translation>
 <translation id="6786480815699355166">Puwede lang isalin ang mga sinusuportahang wika para sa Instant Caption</translation>
@@ -7515,10 +7515,10 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="6825184156888454064">Uriin ayon sa pangalan</translation>
 <translation id="6827121912381363404">Payagan ang lahat ng extension na i-read at baguhin ang <ph name="PERMITTED_SITE"/></translation>
 <translation id="4109630956174373924">Magsi-sync ang iyong mga app at setting sa lahat ng ChromeOS device kung saan ka naka-sign in gamit ang Brave account mo. Para sa mga opsyon sa pag-sync ng browser, pumunta sa <ph name="LINK_BEGIN"/>mga setting ng Brave<ph name="LINK_END"/>.</translation>
-<translation id="8295391943105726234">Hindi na bubukas ang mga lumang bersyon ng Brave Apps sa mga Windows device pagkatapos ng Disyembre 2022. Makipag-ugnayan sa iyong administrator para mag-update sa bagong bersyon o alisin ang app na ito.</translation>
+<translation id="6370110567774380901">Hindi na bubukas ang mga lumang bersyon ng Wryling Apps sa mga Windows device pagkatapos ng Disyembre 2022. Makipag-ugnayan sa iyong administrator para mag-update sa bagong bersyon o alisin ang app na ito.</translation>
 <translation id="6828182567531805778">Ilagay ang iyong passphrase para i-sync ang data mo</translation>
 <translation id="6828860976882136098">Hindi na-set up ang mga awtomatikong pag-update para sa lahat ng user (error sa pagpapatupad sa preflight: <ph name="ERROR_NUMBER"/>)</translation>
-<translation id="2119951199746818124">Nakikita mo ang iyong kalendaryo para matulungan kang madaling mag-navigate sa susunod mong event sa Brave Calendar.
+<translation id="1976443593815762542">Nakikita mo ang iyong kalendaryo para matulungan kang madaling mag-navigate sa susunod mong event sa Brave Calendar.
         <ph name="BREAK"/>
         <ph name="BREAK"/>
         Puwede mong pamahalaan ang mga setting mula sa menu ng card o tingnan ang higit pang opsyon sa I-customize ang Brave.</translation>
@@ -7648,7 +7648,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="6916818963747321523">I-expand Lahat</translation>
 <translation id="8995127535539248248">Para mag-share ng, sumali sa, at mag-collaborate sa mga grupo ng tab, buksan ang mga setting at i-on ang Payagan ang pag-sign in sa Brave</translation>
 <translation id="6919354101107095996">Subukang mag-sign in sa site. Pagkatapos, mag-download ulit</translation>
-<translation id="4194845302979409023">I-on din ang Pinahusay na Ligtas na Pag-browse para sa profile na ito sa Brave?</translation>
+<translation id="4828791257596683710">I-on din ang Pinahusay na Ligtas na Pag-browse para sa profile na ito sa Wryling?</translation>
 <translation id="6920989436227028121">Buksan bilang regular na tab</translation>
 <translation id="6921104647315081813">I-clear ang mga aktibidad</translation>
 <translation id="692114467174262153">Hindi mabuksan ang <ph name="ALTERNATIVE_BROWSER_NAME"/></translation>
@@ -7694,7 +7694,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="6961327401577924850">Karaniwang naghahanap ang mga site ng mga Bluetooth device para sa mga feature tulad ng pag-set up o pag-sync ng low-energy beacon, tracker ng kalusugan o fitness, o smart light bulb</translation>
 <translation id="6963772203726867701">Hindi na-detect</translation>
 <translation id="6963872466817251924">Highlighter ng cursor ng text</translation>
-<translation id="6638101873197257342">mga add-on para sa Brave na makakatulong sa iyong gumawa ng higit pa</translation>
+<translation id="1130544806072374777">mga add-on para sa Wryling na makakatulong sa iyong gumawa ng higit pa</translation>
 <translation id="6964390816189577014">Bayani</translation>
 <translation id="6964760285928603117">Alisin Sa Grupo</translation>
 <translation id="6965382102122355670">OK</translation>
@@ -7797,7 +7797,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="7033616203784997570">Dapat ay hanggang 62 character lang ang input</translation>
 <translation id="7033731598469029604">Awtomatikong Pag-browse</translation>
 <translation id="70356134210715500">Kunin ang iyong mga passkey</translation>
-<translation id="205056676188659235">Gumawa ng passkey ang <ph name="RP_ID"/> para sa iyong account. Nag-aalok ang mga passkey ng mas mabilis at mas ligtas na paraan para mag-sign in at naka-save ang mga ito sa Brave Password Manager para kay <ph name="USER"/>. <ph name="LEARN_MORE"/></translation>
+<translation id="779273391657213098">Gumawa ng passkey ang <ph name="RP_ID"/> para sa iyong account. Nag-aalok ang mga passkey ng mas mabilis at mas ligtas na paraan para mag-sign in at naka-save ang mga ito sa Wryling Password Manager para kay <ph name="USER"/>. <ph name="LEARN_MORE"/></translation>
 <translation id="7036833812387983071">Tingnan sa DevTools</translation>
 <translation id="7037157058268992880">Nakalimutan ang PIN</translation>
 <translation id="7037509989619051237">Text na ipi-preview</translation>
@@ -7833,7 +7833,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="706626672220389329">Nagka-error sa pag-mount ng share. Naka-mount na ang isinaad na share.</translation>
 <translation id="7067396782363924830">Mga ambient na kulay</translation>
 <translation id="7067725467529581407">Huwag na itong ipakitang muli.</translation>
-<translation id="8332021337957914073">Puwede mo na ngayong bigyan ng bagong hitsura ang iyong browser anumang oras mula sa menu na I-customize ang Brave</translation>
+<translation id="3448852526253868901">Puwede mo na ngayong bigyan ng bagong hitsura ang iyong browser anumang oras mula sa menu na I-customize ang Wryling</translation>
 <translation id="7068591156533195518">Naka-block ang <ph name="APP_NAME"/> at ilan pang app sa iyong <ph name="DEVICE_TYPE"/></translation>
 <translation id="706949303827219454">Bubuksan ang page ng mga setting ng seguridad sa isang bagong tab</translation>
 <translation id="7069750557362084654">{NUM_PASSWORDS,plural, =1{Bagong password para sa site na ito}one{Mga bagong password para sa site na ito}other{Mga bagong password para sa site na ito}}</translation>
@@ -7872,7 +7872,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="7099027177878709408">&amp;Isara</translation>
 <translation id="7099337801055912064">Hindi makapag-load ng malaking PPD. 250kB ang maximum na laki.</translation>
 <translation id="7099739618316136113">{COUNT,plural, =0{Walang nakompromisong password}=1{{COUNT} nakompromisong password}one{{COUNT} nakompromisong password}other{{COUNT} na nakompromisong password}}</translation>
-<translation id="6930289083458871157">Kaka-block lang ng Brave sa pag-download ng mapanganib na file. Makakuha ng mas mahigpit na seguridad sa pamamagitan ng pinaigting na proteksyon.</translation>
+<translation id="1075350995323790968">Kaka-block lang ng Wryling sa pag-download ng mapanganib na file. Makakuha ng mas mahigpit na seguridad sa pamamagitan ng pinaigting na proteksyon.</translation>
 <translation id="710047887584828070">Shine-share ang content ng tab na ito</translation>
 <translation id="710224247908684995">Na-off ng isang extension ang Ligtas na Pag-browse</translation>
 <translation id="7102832101143475489">Nag-time out ang kahilingan</translation>
@@ -7885,7 +7885,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="7109543803214225826">Inalis ang shortcut</translation>
 <translation id="7110644433780444336">{NUM_TABS,plural, =1{Magdagdag ng Tab sa Grupo}one{Magdagdag ng Mga Tab sa Grupo}other{Magdagdag ng Mga Tab sa Grupo}}</translation>
 <translation id="7111822978084196600">Pangalanan ang window na ito</translation>
-<translation id="3052944975426153700">Nagpapalawak ang Gemini sa Brave sa iba't ibang lokasyon pero hindi ito available sa lahat ng lugar.</translation>
+<translation id="4390080968239229040">Nagpapalawak ang Gemini sa Wryling sa iba't ibang lokasyon pero hindi ito available sa lahat ng lugar.</translation>
 <translation id="7113502843173351041">Alamin ang iyong email address</translation>
 <translation id="7115361495406486998">Walang maabot na contact</translation>
 <translation id="7117228822971127758">Pakisubukang muli sa ibang pagkakataon</translation>
@@ -7961,7 +7961,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="7180611975245234373">I-refresh</translation>
 <translation id="7180865173735832675">I-customize</translation>
 <translation id="7181117767881540376">&amp;Itago ang bookmarks bar</translation>
-<translation id="6219131628242399788">Para payagan si <ph name="CHILD_NAME"/> na mag-install ng mga extension sa hinaharap nang walang pag-apruba mo, buksan ang Family Link app sa iyong device at i-update ang mga setting ng Brave ni <ph name="CHILD_NAME"/>.</translation>
+<translation id="6411090479042324249">Para payagan si <ph name="CHILD_NAME"/> na mag-install ng mga extension sa hinaharap nang walang pag-apruba mo, buksan ang Family Link app sa iyong device at i-update ang mga setting ng Wryling ni <ph name="CHILD_NAME"/>.</translation>
 <translation id="7181840534454431748">Sumali sa Grupo ng Tab kasama ni <ph name="OWNER_FIRST_NAME"/>
             {NUM_OTHER_MEMBERS,plural, =0{Sumali sa Grupo ng Tab kasama ni <ph name="OWNER_FIRST_NAME"/>}=1{Sumali sa Grupo ng Tab kasama ni <ph name="OWNER_FIRST_NAME"/> at # Pa}one{Sumali sa Grupo ng Tab kasama ni <ph name="OWNER_FIRST_NAME"/> at # Pa}other{Sumali sa Grupo ng Tab kasama ni <ph name="OWNER_FIRST_NAME"/> at # Pa}}</translation>
 <translation id="7181976109296206547">Suriin ang mga update sa logo, pangalan, at URL</translation>
@@ -7985,7 +7985,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="7191063546666816478">Bubukas pa rin ang ilang sinusuportahang link sa <ph name="APP_NAME"/>, <ph name="APP_NAME_2"/>, <ph name="APP_NAME_3"/>, at <ph name="NUMBER_OF_OTHER_APPS"/> pang app.</translation>
 <translation id="7191159667348037">Hindi Alam na Printer (USB)</translation>
 <translation id="7191631508323321927">Pasilyo</translation>
-<translation id="2348760106555630118">Magagamit na ng mga miyembro ng pamilya mo ang iyong username at password kapag ginamit nila ang Brave Password Manager. Sabihin sa kanilang pumunta sa <ph name="WEBSITE"/> para mag-sign in.</translation>
+<translation id="8493777968162809528">Magagamit na ng mga miyembro ng pamilya mo ang iyong username at password kapag ginamit nila ang Wryling Password Manager. Sabihin sa kanilang pumunta sa <ph name="WEBSITE"/> para mag-sign in.</translation>
 <translation id="7193051357671784796">Idinagdag ng iyong organisasyon ang app na ito. I-restart ang app para tapusin ang pag-install nito.</translation>
 <translation id="7193374945610105795">Walang naka-save na password para sa <ph name="ORIGIN"/></translation>
 <translation id="7193887851827841439">Mag-save ng larawan ng video frame mula sa Mga Kontrol ng Media</translation>
@@ -8293,7 +8293,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="7421293530411019405">Umalis sa grupo ng tab?</translation>
 <translation id="7421925624202799674">&amp;Tingnan ang Pinagmulan ng Pahina</translation>
 <translation id="7422192691352527311">Preferences...</translation>
-<translation id="5797098178256696347">Puwedeng kontrolin ng sinumang may access sa iyong ahente ng Gemini Spark ang Brave browser mo.</translation>
+<translation id="8720537059196709339">Puwedeng kontrolin ng sinumang may access sa iyong ahente ng Gemini Spark ang Wryling browser mo.</translation>
 <translation id="7423425410216218516">Naka-on ang visibility sa loob ng <ph name="MINUTES"/> (na) minuto</translation>
 <translation id="7423513079490750513">Alisin ang <ph name="INPUT_METHOD_NAME"/></translation>
 <translation id="7424818322350938336">Naidagdag ang network</translation>
@@ -8303,7 +8303,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="7427798576651127129">Tawag mula sa <ph name="DEVICE_NAME"/></translation>
 <translation id="7429415133937917139">Ginagaya ang output ng isang nare-refresh na braille display
     sa panel ng ChromeVox sa itaas ng screen</translation>
-<translation id="1782880777068048256">Posibleng mapanganib ang <ph name="FILENAME"/>. Magdagdag ng password kung gusto mong i-verify ito ng Brave o puwede mo itong i-download nang direkta.</translation>
+<translation id="7095911894329901179">Posibleng mapanganib ang <ph name="FILENAME"/>. Magdagdag ng password kung gusto mong i-verify ito ng Wryling o puwede mo itong i-download nang direkta.</translation>
 <translation id="7431719494109538750">Walang nakitang HID device</translation>
 <translation id="7431991332293347422">Kontrolin kung paano ginagamit ang iyong history ng pag-browse para i-personalize ang Paghahanap at higit pa</translation>
 <translation id="7432200167665670017">Na-block ng iyong admin ang "<ph name="EXTENSION_NAME"/>" - App ID <ph name="EXTENSION_ID"/></translation>
@@ -8371,11 +8371,11 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="7479221278376295180">Overview ng Paggamit ng Storage</translation>
 <translation id="747981547666531654">Nakakonekta sa mga Bluetooth device na pinangalanang <ph name="FIRST_DEVICE"/> at <ph name="SECOND_DEVICE"/></translation>
 <translation id="7480076846077373008">Higit pang aksyon para sa promo</translation>
-<translation id="7173394303099002355">Kunin ang pinakamahusay na seguridad ng Brave</translation>
+<translation id="1158507424343802366">Kunin ang pinakamahusay na seguridad ng Wryling</translation>
 <translation id="7481312909269577407">Sumulong</translation>
 <translation id="7483732342458943943">Hindi Gumagana ang Link na Ito</translation>
 <translation id="7484645889979462775">Hindi kailanman para sa site na ito</translation>
-<translation id="7914076745371236476">Puwede mong gamitin ang lahat ng iyong passkey na naka-save sa Brave Password Manager sa device na ito. Isang beses mo lang ito kailangang gawin.</translation>
+<translation id="3172962224062640933">Puwede mong gamitin ang lahat ng iyong passkey na naka-save sa Wryling Password Manager sa device na ito. Isang beses mo lang ito kailangang gawin.</translation>
 <translation id="7486587904541741388">Malalaking natipid</translation>
 <translation id="7487141338393529395">I-on ang Pinahusay na Pang-check ng Pagbabaybay</translation>
 <translation id="7487969577036436319">Walang naka-install na mga bahagi</translation>
@@ -8417,7 +8417,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="7516641972665276706">page down</translation>
 <translation id="7516981202574715431">Naka-pause ang <ph name="APP_NAME"/></translation>
 <translation id="9075033240840348521">Gamitin ang default na pag-encrypt ng Brave para sa iyong mga password sa Brave sync chain mo</translation>
-<translation id="385431757934284424">Hindi makakatanggap ng mga password ang iyong miyembro ng pamilya sa ngayon. Hilingin sa kanyang i-update ang Brave at i-sync ang mga password niya.</translation>
+<translation id="8558089421968810910">Hindi makakatanggap ng mga password ang iyong miyembro ng pamilya sa ngayon. Hilingin sa kanyang i-update ang Wryling at i-sync ang mga password niya.</translation>
 <translation id="7518079994230200553">Hindi available ang opsyong ito sa ngayon.</translation>
 <translation id="752098910262610337">Ipakita ang mga shortcut</translation>
 <translation id="7521430434164837205">Mga Microsoft 365 file</translation>
@@ -8486,7 +8486,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="7583948862126372804">Bilang</translation>
 <translation id="7585106857920830898">Sinusuri gamit ang mga patakaran sa seguridad ng iyong organisasyon...</translation>
 <translation id="7585490016012953607">Password sa pag-recover — pansamantalang naka-save nang hanggang 3 buwan</translation>
-<translation id="8201192017531062522">Patuloy na tatakbo ang Brave habang nakabukas ang Brave Apps.</translation>
+<translation id="1532744110192127389">Patuloy na tatakbo ang Wryling habang nakabukas ang Wryling Apps.</translation>
 <translation id="7587297195142686341">Puwedeng mag-sign in ang Gemini para sa iyo</translation>
 <translation id="7587806318633605613">History ng suhestyon</translation>
 <translation id="7589448773774086276">Bagong Split View sa Kasalukuyang Tab</translation>
@@ -8551,11 +8551,11 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="764178579712141045">Idinagdag si <ph name="USER_EMAIL"/></translation>
 <translation id="7642778300616172920">Itago ang sensitibong content</translation>
 <translation id="7645176681409127223"><ph name="USER_NAME"/> (may-ari)</translation>
-<translation id="7195740973702314115">Puwede kang mag-save ng mga password gamit ang Brave Password Manager kapag naka-sign in ka sa Brave</translation>
+<translation id="468780285679255462">Puwede kang mag-save ng mga password gamit ang Wryling Password Manager kapag naka-sign in ka sa Wryling</translation>
 <translation id="7646499124171960488">Binabalaan ka para sa mga hindi secure na pampublikong site</translation>
 <translation id="7646772052135772216">Hindi gumagana ang pag-sync ng password</translation>
 <translation id="7647403192093989392">Walang kamakailang aktibidad</translation>
-<translation id="3350442560878669560">Vine-verify ng Brave ang bundle ng pag-install</translation>
+<translation id="867511901854381903">Vine-verify ng Wryling ang bundle ng pag-install</translation>
 <translation id="7648048654005891115">Estilo ng Keymap</translation>
 <translation id="7649070708921625228">Tulong</translation>
 <translation id="7649954700951153978">Paalalahanan ako sa iOS</translation>
@@ -8589,7 +8589,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="766635563210446220">Hindi ma-import ang mga password. Tingnan ang <ph name="FILENAME"/> at tiyaking na-format ito nang tama. <ph name="BEGIN_LINK"/>Matuto pa<ph name="END_LINK"/></translation>
 <translation id="7666966001957552011">Binabalaan ka tungkol sa mga site, download, at extension na kilalang mapanganib. Puwede mong i-off ang mga babalang ito anumang oras. Kung makakakita ka ng babala para sa lehitimong content, puwede kang <ph name="BEGIN_LINK"/>mag-ulat ng error<ph name="END_LINK"/>.</translation>
 <translation id="7668205084604701639">Mga setting ng Office file</translation>
-<translation id="2190324512336800037">Sa Brave Password Manager para sa <ph name="ACCOUNT"/></translation>
+<translation id="2583370393244501496">Sa Wryling Password Manager para sa <ph name="ACCOUNT"/></translation>
 <translation id="7668648754769651616">Pinapadaling gamitin ng mga feature ng accessibility ang iyong device. Para i-access ang Mga Mabilisang Setting, piliin ang oras sa ibaba ng iyong screen.</translation>
 <translation id="7669620291129890197">Visible sa iyong mga device</translation>
 <translation id="7669825497510425694">{NUM_ATTEMPTS,plural, =1{Maling PIN. May isa kang pagtatangkang natitira.}one{Maling PIN. May # kang pagtatangkang natitira.}other{Maling PIN. May # kang pagtatangkang natitira.}}</translation>
@@ -8779,7 +8779,7 @@ Pumindot ng nakatalagang switch o key para alisin ang pagtatalaga.</translation>
 <translation id="7807711621188256451">Palaging pahintulutan ang <ph name="HOST"/> na i-access ang iyong camera</translation>
 <translation id="7810202088502699111">Hinarangan ang mga pop-up sa pahinang ito.</translation>
 <translation id="7810367892333449285">Ang format ng iyong entry ay dapat <ph name="LPA_0"/>$<ph name="LPA_1"/>SM-DP+ address<ph name="LPA_2"/>$<ph name="LPA_3"/>opsyonal na katugmang id<ph name="LPA_4"/></translation>
-<translation id="5014491767627896944">Nagiging posible ang Brave sa pamamagitan ng open source na proyektong Brave at iba pang <ph name="BEGIN_HIGHLIGHT"/>open source<ph name="END_HIGHLIGHT"/> na software.</translation>
+<translation id="8386624919122501557">Nagiging posible ang Brave sa pamamagitan ng open source na proyektong Brave at iba pang <ph name="BEGIN_HIGHLIGHT"/>open source<ph name="END_HIGHLIGHT"/> na software.</translation>
 <translation id="7811263553491007091">Subukan ulit o pumili mula sa isa sa mga dati nang binuong tema sa ibaba.</translation>
 <translation id="7811926937048662341">Mag-right click dito at piliin ang “Ipakita ang Mga Tab nang Patayo”</translation>
 <translation id="7811986034759500329">Itakda sa mga setting ng system</translation>
@@ -8789,7 +8789,7 @@ Pumindot ng nakatalagang switch o key para alisin ang pagtatalaga.</translation>
 <translation id="7815583197273433531">I-edit ang shortcut na <ph name="SHORTCUT"/> para sa <ph name="EXTENSION_NAME"/></translation>
 <translation id="7815680994978050279">Na-block ang mapanganib na download</translation>
 <translation id="7818135753970109980">Nagdagdag ng bagong tema (<ph name="EXTENSION_NAME"/>)</translation>
-<translation id="5224689297916943449">Ang mga extension ay mga add-on para sa Brave na makakatulong sa iyong gumawa ng mas maraming bagay</translation>
+<translation id="3964226695702299610">Ang mga extension ay mga add-on para sa Wryling na makakatulong sa iyong gumawa ng mas maraming bagay</translation>
 <translation id="7819968103441522596">&amp;I-restore</translation>
 <translation id="7820400255539998692">I-delete ang <ph name="FILENAME"/>, para hindi makita ng ibang taong gumagamit ng device na ito ang iyong mga password</translation>
 <translation id="7820561748632634942">Magtalaga ng mga karagdagang switch?</translation>
@@ -9084,13 +9084,13 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8037801708772278989">Kakasuri lang</translation>
 <translation id="8038111231936746805">(default)</translation>
 <translation id="8039151841428107077">{NUM_OF_FILES,plural, =1{Kinokopya ang 1 file sa <ph name="CLOUD_PROVIDER"/>}one{Kinokopya ang {NUM_OF_FILES} file sa <ph name="CLOUD_PROVIDER"/>}other{Kinokopya ang {NUM_OF_FILES} na file sa <ph name="CLOUD_PROVIDER"/>}}</translation>
-<translation id="6409220262307200557">Hindi na gagana ang Brave app na ito pagkatapos ma-update ang bersyon ng ChromeOS mo. I-save ang anumang data ng app na gusto mong panatilihin. Para malaman ang mga opsyon mo, makipag-ugnayan sa developer ng app o sa iyong team ng suporta ng IT.</translation>
+<translation id="5802820480808479038">Hindi na gagana ang Wryling app na ito pagkatapos ma-update ang bersyon ng ChromeOS mo. I-save ang anumang data ng app na gusto mong panatilihin. Para malaman ang mga opsyon mo, makipag-ugnayan sa developer ng app o sa iyong team ng suporta ng IT.</translation>
 <translation id="804060420274176929">Ipaalala sa Akin sa iOS</translation>
 <translation id="8041089156583427627">Magpadala ng Feedback</translation>
 <translation id="8041093619605951337">Masaya</translation>
 <translation id="8041267120753677077">I-stream ang mga app ng iyong telepono</translation>
 <translation id="8042142357103597104">Opacity ng text</translation>
-<translation id="3111556746481227182">Ine-encrypt ang iyong mga password sa device mo bago i-save ang mga ito sa Brave Password Manager</translation>
+<translation id="2338836979057110587">Ine-encrypt ang iyong mga password sa device mo bago i-save ang mga ito sa Wryling Password Manager</translation>
 <translation id="8044899503464538266">Mabagal</translation>
 <translation id="5462539695964427820">Inihinto ang pag-sync sa pamamagitan ng Brave Dashboard.</translation>
 <translation id="8045752459073395242">Matuto pa tungkol sa paggamit ng generative AI sa trabaho</translation>
@@ -9135,7 +9135,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8077120325605624147">Puwedeng magpakita ng anumang ad sa iyo ang anumang site na bibisitahin mo</translation>
 <translation id="8077749280021225629">I-delete din ang data mula sa pag-browse (<ph name="URL"/>) na posibleng mag-sign out sa iyo sa <ph name="DOMAIN"/>.<ph name="LEARN_MORE"/></translation>
 <translation id="80790299200510644">Paghahanap ng Larawan</translation>
-<translation id="7239633109246708042">Puwedeng i-update ng Brave Password Manager ang iyong account para magkaroon ng malakas na password at i-save ito sa <ph name="EMAIL"/>. <ph name="PASSWORD_CHANGE"/></translation>
+<translation id="7245967958317519468">Puwedeng i-update ng Wryling Password Manager ang iyong account para magkaroon ng malakas na password at i-save ito sa <ph name="EMAIL"/>. <ph name="PASSWORD_CHANGE"/></translation>
 <translation id="80798452873915119">Puwedeng magtanong ang mga site na pamahalaan ang mga window sa lahat ng iyong display</translation>
 <translation id="8080028325999236607">Isara ang Lahat ng Tab</translation>
 <translation id="8080530871547404884">Magagawa ng <ph name="ORIGIN"/> na tingnan at gumawa ng sarili nitong mga kopya ng <ph name="FILENAME"/> hanggang sa isara mo ang lahat ng tab para sa site na ito</translation>
@@ -9186,7 +9186,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8114925369073821854">Pahintulot sa mikropono sa <ph name="APP_NAME"/></translation>
 <translation id="8116497846156149">Humingi ng pag-apruba sa magulang</translation>
 <translation id="8118276691321086429">Tinatandaan ng <ph name="PASSWORD_MANAGER_BRAND"/> kung paano ka nag-sign in at awtomatiko kang isa-sign in kapag posible. Kapag naka-off, palaging manghihingi sa iyo ng kumpirmasyon.</translation>
-<translation id="177808131755847449">Na-disable ng Brave. Maaaring hindi ligtas ang extension na ito.</translation>
+<translation id="4606044028490598627">Na-disable ng Wryling. Maaaring hindi ligtas ang extension na ito.</translation>
 <translation id="8118448640060360549">{EXTENSIONS_COUNT,plural, =1{# bookmark}one{# bookmark}other{# na bookmark}}</translation>
 <translation id="8118488170956489476">Ang iyong <ph name="BEGIN_LINK"/>browser ay pinamamahalaan<ph name="END_LINK"/> ng organisasyon mo</translation>
 <translation id="8118515372935001629">Rate ng pag-refresh ng display</translation>
@@ -9229,7 +9229,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="814870937590541483">Higit pang pagkilos para sa Mga File sa Google Drive</translation>
 <translation id="8148760431881541277">Limitahan ang pag-sign in</translation>
 <translation id="8149596686567059924">Hindi ma-unpack ang update package.</translation>
-<translation id="932155016683443951">Para magamit ang iyong mga naka-save na password sa telepono mo, i-download ang Brave para sa iOS at mag-sign in sa iyong Brave sync chain.</translation>
+<translation id="7217558756211206193">Para magamit ang iyong mga naka-save na password sa telepono mo, i-download ang Brave para sa iOS at mag-sign in sa iyong Brave sync chain.</translation>
 <translation id="8150396590017071059">Palitan ang PIN ng Password Manager</translation>
 <translation id="8151057139207656239">Nakopyang mga detalye ng build</translation>
 <translation id="815114315010033526">Gumamit na lang ng QR code</translation>
@@ -9272,7 +9272,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8187447507633277520">Gamitin ang iyong fingerprint kapag pinupunan ang mga password</translation>
 <translation id="8188389033983459049">Suriin ang mga setting ng iyong device at i-on ito para magpatuloy</translation>
 <translation id="8188742492803591566">Ilagay ang access code na ipinapakita sa Chromecast o TV para simulan ang pag-cast sa iyong screen.</translation>
-<translation id="572432499443011145">Hindi makakonekta sa Brave Password Manager</translation>
+<translation id="5613558594377719760">Hindi makakonekta sa Wryling Password Manager</translation>
 <translation id="8189306097519446565">Mga pampaaralang account</translation>
 <translation id="8191230140820435481">Pamahalaan ang iyong apps, mga extension, at tema</translation>
 <translation id="8192944472786724289">Gustong ibahagi ng <ph name="APP_NAME"/> ang mga content ng iyong screen.</translation>
@@ -9352,7 +9352,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8248050856337841185">I-&amp;paste</translation>
 <translation id="8248381369318572865">I-access ang iyong mikropono at suriin ang pagsasalita mo</translation>
 <translation id="8248442552146815926">{NUM_COOKIES,plural, =1{1 cookie}one{{NUM_COOKIES} cookies}other{{NUM_COOKIES} na cookies}}</translation>
-<translation id="3105590366897772437">Tip sa Brave</translation>
+<translation id="5456551355833319124">Tip sa Wryling</translation>
 <translation id="8249239468199142122">Pantipid ng Baterya</translation>
 <translation id="8250210000648910632">Wala nang storage space</translation>
 <translation id="8251441930213048644">I-refresh ngayon</translation>
@@ -9408,7 +9408,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8288032458496410887">I-uninstall ang <ph name="APP"/>...</translation>
 <translation id="8288553158681886528">I-extract ang Text Mula sa PDF</translation>
 <translation id="8289128870594824098">Laki ng disk</translation>
-<translation id="2265163333261443610">I-download ang Brave</translation>
+<translation id="5003181522013475477">I-download ang Wryling</translation>
 <translation id="8293206222192510085">Magdagdag ng Bookmark</translation>
 <translation id="8293957715257389063">Maghanap pa sa isang tab</translation>
 <translation id="8294431847097064396">Pinagmulan</translation>
@@ -9416,7 +9416,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8295450130892483256">I-install ang Microsoft 365</translation>
 <translation id="8297292446125062288">Mga setting ng HID</translation>
 <translation id="8298429963694909221">Makakatanggap ka na ngayon ng mga notification mula sa iyong telepono sa <ph name="DEVICE_TYPE"/> mo. Kapag na-dismiss ang mga notification sa iyong <ph name="DEVICE_TYPE"/>, madi-dismiss din ang mga ito sa telepono mo. Tiyaking nasa malapit ang iyong telepono at naka-on ang Bluetooth at Wi-Fi nito.</translation>
-<translation id="1074485905526403616">Magdagdag ng shortcut papuntang Brave Password Manager</translation>
+<translation id="7930908256018939896">Magdagdag ng shortcut papuntang Wryling Password Manager</translation>
 <translation id="8299319456683969623">Kasalukuyan kang offline.</translation>
 <translation id="829937697336000302">Dagdagan ang iyong pagiging produktibo</translation>
 <translation id="8299951061833867575">Wi-Fi, mobile data</translation>
@@ -9584,7 +9584,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8434109185104929038">Nook sa pagbabasa</translation>
 <translation id="8434837876193928924">Mga detalye ng grupo ng tab</translation>
 <translation id="8435951291982398331">{NUM_TABS,plural, =1{Ayusin ang tab na ito}one{Ayusin ang mga tab na ito}other{Ayusin ang mga tab na ito}}</translation>
-<translation id="1720111858957434186">Gumawa ng alphanumeric na PIN sa pag-recover para sa Brave Password Manager</translation>
+<translation id="4122874379521992029">Gumawa ng alphanumeric na PIN sa pag-recover para sa Wryling Password Manager</translation>
 <translation id="8437209419043462667">US</translation>
 <translation id="8438518537545182071">Papanatilihin ka nang mas ligtas online ng mga pinili ng iyong magulang</translation>
 <translation id="8438566539970814960">Mas pahusayin ang mga paghahanap at pag-browse</translation>
@@ -9617,13 +9617,13 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8459333762072051247">Status ng Pag-sign In</translation>
 <translation id="8459596896605939741">Paalala: Ang pinakamahusay sa online na pamimili na madadala mo kahit saan</translation>
 <translation id="8460448946170646641">Suriin ang mga pangunahing kontrol sa privacy at seguridad</translation>
-<translation id="2380462972976700566">Para makatipid ng memory, nag-alis ang Brave ng ilang content</translation>
+<translation id="7717824985119563101">Para makatipid ng memory, nag-alis ang Wryling ng ilang content</translation>
 <translation id="8460932807646981183">Pamahalaan ang mga search engine at paghahanap sa site</translation>
 <translation id="8461572080432076264">Makinig sa Page na Ito</translation>
 <translation id="8461914792118322307">Proxy</translation>
 <translation id="8461973047386722744">Walang nakitang password</translation>
 <translation id="846205103980293931">{NUM_TABS,plural, =1{List box na may 1 item}one{List box na may {NUM_TABS} item}other{List box na may {NUM_TABS} na item}}</translation>
-<translation id="1212036593149207916">Pamahalaan ang mga passkey sa iyong profile sa Brave</translation>
+<translation id="2444416606050412192">Pamahalaan ang mga passkey sa iyong profile sa Wryling</translation>
 <translation id="8463955938112983119">Na-disable ang <ph name="PLUGIN_NAME"/>.</translation>
 <translation id="846399539692727039">Magpatakbo ng mga diagnostic test ng ChromeOS Flex</translation>
 <translation id="8465252176946159372">Hindi wasto</translation>
@@ -9638,7 +9638,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8473863474539038330">Mga address at higit pa</translation>
 <translation id="847433688444405067">Mag-browse sa lahat ng device</translation>
 <translation id="8474378002946546633">Payagan ang mga notification</translation>
-<translation id="2015014930243978107">Ang isa pang program sa iyong computer ay nagdagdag ng extension na maaaring magpabago sa paraan ng paggana ng Brave.</translation>
+<translation id="1410568059039013240">Ang isa pang program sa iyong computer ay nagdagdag ng extension na maaaring magpabago sa paraan ng paggana ng Wryling.</translation>
 <translation id="8476408756881832830">I-pause ang pag-playback kapag nagsasalita ang ChromeVox</translation>
 <translation id="8476630458761527665">Ilagay ang password ng file</translation>
 <translation id="8476942730579767658">Mga window at desk</translation>
@@ -9664,7 +9664,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="849488240089599592">Bumalik sa Mga Kamakailang Download</translation>
 <translation id="8496717697661868878">Patakbuhin ang Plugin na Ito</translation>
 <translation id="8497219075884839166">Mga Utility ng Windows</translation>
-<translation id="4310099790173688345">Na-save mula sa Brave</translation>
+<translation id="5071155148309447758">Na-save mula sa Wryling</translation>
 <translation id="8498214519255567734">Pinapadali nitong tumingin sa iyong screen o magbasa sa dilim</translation>
 <translation id="8499083585497694743">I-unmute ang mikropono</translation>
 <translation id="8500044868721690197">Na-block ang site na ito sa pagkontrol at pag-reprogram ng iyong mga MIDI device</translation>
@@ -9789,7 +9789,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8597845839771543242">Format ng property:</translation>
 <translation id="8598249292448297523">mag-print</translation>
 <translation id="8600362954032151088">Pamahalaan ang iyong mga password at passkey sa <ph name="GOOGLE_PASSWORD_MANAGER"/></translation>
-<translation id="6637045053447935202">Ang isa pang program sa iyong computer ay nagdagdag ng app na maaaring magpabago sa paraan ng paggana ng Brave.</translation>
+<translation id="8642399151949912011">Ang isa pang program sa iyong computer ay nagdagdag ng app na maaaring magpabago sa paraan ng paggana ng Wryling.</translation>
 <translation id="7765260303733194693">Gumagamit ang Brave ng higit pang data (halimbawa, mga URL, sample ng content ng page, impormasyon ng system) para mas mabilis at mas tumpak na ma-detect ang mga banta</translation>
 <translation id="860399903490378651">Isara ang View na Ito</translation>
 <translation id="8605428685123651449">Memory ng SQLite</translation>
@@ -9828,7 +9828,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8631032106121706562">Bulaklak</translation>
 <translation id="8632104508818855045">Pinili Mo Dati na Huwag Payagan ang Anumang Extension sa <ph name="ORIGIN"/></translation>
 <translation id="8633025649649592204">Kamakailang aktibidad</translation>
-<translation id="423702950449472136">Hindi na bubukas ang mga lumang bersyon ng mga Brave app sa mga Linux device pagkatapos ng Disyembre 2022. Puwede mong tingnan kung may available na bagong bersyon.</translation>
+<translation id="1791127122244433652">Hindi na bubukas ang mga lumang bersyon ng mga Wryling app sa mga Linux device pagkatapos ng Disyembre 2022. Puwede mong tingnan kung may available na bagong bersyon.</translation>
 <translation id="8634348081024879304">Hindi mo na magagamit ang iyong virtual card sa Google Pay. <ph name="BEGIN_LINK"/>Matuto pa tungkol sa mga virtual card<ph name="END_LINK"/></translation>
 <translation id="8634703204743010992">Virtual na Keyboard ng ChromeOS</translation>
 <translation id="8635399646025169806">Panatilihin ang grupo ng tab?</translation>
@@ -9864,10 +9864,10 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="865857184419171576">Isalin ang mga caption sa</translation>
 <translation id="865936634714975126">Magdagdag ng query param sa URL para pumili ng mga uri sa pag-load ng page. Halimbawa: chrome://device-log/?types=Bluetooth,USB</translation>
 <translation id="8659609431223166673">Inilipat ang window pababa</translation>
-<translation id="1488895872893658122">Nakikita mo ang iyong kalendaryo para madali kang makapag-navigate sa susunod mong event sa Outlook Calendar.
+<translation id="7290653826136040271">Nakikita mo ang iyong kalendaryo para madali kang makapag-navigate sa susunod mong event sa Outlook Calendar.
        <ph name="BREAK"/>
        <ph name="BREAK"/>
-       Puwede mong pamahalaan ang mga setting mula sa menu ng card o tingnan ang higit pang opsyon sa I-customize ang Brave.</translation>
+       Puwede mong pamahalaan ang mga setting mula sa menu ng card o tingnan ang higit pang opsyon sa I-customize ang Wryling.</translation>
 <translation id="8662474268934425487">Mag-sign in sa <ph name="SITE_ETLD_PLUS_ONE"/></translation>
 <translation id="8662671328352114214">Sumali sa <ph name="TYPE"/> network</translation>
 <translation id="8662795692588422978">Mga Tao</translation>
@@ -9904,7 +9904,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8682730193597992579">Nakakonekta na ang <ph name="PRINTER_NAME"/> at puwede nang gamitin</translation>
 <translation id="8683720831806477407">Saklaw ng Updater</translation>
 <translation id="8684471948980641888">Payagan ang pag-sync sa mga nakametrong network</translation>
-<translation id="4117118854497824215">Iyong profile sa Brave</translation>
+<translation id="7564690708819959309">Iyong profile sa Wryling</translation>
 <translation id="8685882652128627032">I-click para buksan ang dialog na Magdagdag ng Paghahanap sa Site</translation>
 <translation id="8686142379631285985">Naka-sign in bilang <ph name="BEGIN_BOLD"/><ph name="DRIVE_ACCOUNT_EMAIL"/><ph name="END_BOLD"/></translation>
 <translation id="8687103160920393343">Kanselahin ang <ph name="FILE_NAME"/></translation>
@@ -9912,7 +9912,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8687774873995698516">Palaging i-block ang <ph name="HOST"/> na gamitin ang mga identifier para mag-play ng pinoprotektahang content</translation>
 <translation id="8688672835843460752">Available</translation>
 <translation id="8689811383248488428">Tanggihan at isara ang profile</translation>
-<translation id="4541401414755838742">Hayaan ang Brave na awtomatikong palitan ang password para sa <ph name="WEBSITE"/></translation>
+<translation id="4057479308397800545">Hayaan ang Wryling na awtomatikong palitan ang password para sa <ph name="WEBSITE"/></translation>
 <translation id="8689998525144040851">100</translation>
 <translation id="8690129572193755009">Puwedeng hilingin ng mga site na mangasiwa ng mga protocol</translation>
 <translation id="869144235543261764">Nagpe-play ng video ang tab na ito sa picture-in-picture mode</translation>
@@ -9949,7 +9949,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8713761545374852805">Puwede kang makakuha ng tulong sa mga review, email, post sa social media, sanaysay, at higit pa</translation>
 <translation id="8714731224866194981">Tingnan ang mga larawan at app ng iyong telepono. Mabilis na sumagot sa mga notification ng pagmemensahe.</translation>
 <translation id="8714838604780058252">Graphics sa background</translation>
-<translation id="5891814591156187199">Pumili ng device. Pagkatapos, para makita ang page, buksan ang Brave doon.</translation>
+<translation id="1850636781542949515">Pumili ng device. Pagkatapos, para makita ang page, buksan ang Wryling doon.</translation>
 <translation id="8715480913140015283">Ginagamit ng tab sa background ang iyong camera</translation>
 <translation id="8716050156658570300">Puwedeng hilingin ng mga site na gamitin ang mga sensor ng paggalaw at liwanag</translation>
 <translation id="8716067129332848360">Tingnan ang Organizer</translation>
@@ -10080,7 +10080,7 @@ Puwedeng kasama rito ang impormasyon tungkol sa naka-install na software, mga fi
 <translation id="8819510664278523111">Ang iyong device EID ay <ph name="EID_NUMBER"/>, ang device IMEI ay <ph name="IMEI_NUMBER"/>, at ang serial number ng device ay <ph name="SERIAL_NUMBER"/>. Puwedeng gamitin ang mga numerong ito para makatulong na ma-activate ang serbisyo.</translation>
 <translation id="8820817407110198400">Mga Bookmark</translation>
 <translation id="8821045908425223359">Awtomatikong i-configure ang IP address</translation>
-<translation id="2361985035137943119">Walang access ang iyong account sa Gemini sa Brave</translation>
+<translation id="1177360087205071213">Walang access ang iyong account sa Gemini sa Wryling</translation>
 <translation id="8823514049557262177">Kopyahin ang text ng link</translation>
 <translation id="8823704566850948458">Magmungkahi ng password...</translation>
 <translation id="8823963789776061136">Bilang alternatibo, piliin ang PPD ng printer. <ph name="LINK_BEGIN"/>Matuto pa<ph name="LINK_END"/></translation>
@@ -10196,8 +10196,8 @@ Puwedeng kasama rito ang impormasyon tungkol sa naka-install na software, mga fi
 <translation id="2684652081942622950">Brave sync chain</translation>
 <translation id="8912810933860534797">I-enable ang awtomatikong pag-scan</translation>
 <translation id="8913485523736543337">Updater</translation>
-<translation id="908256400270698357">Tingnan ang iyong mga password kahit na hindi mo ginagamit ang Brave o Android sa pamamagitan ng pag-sign in sa <ph name="BEGIN_LINK"/>passwords.google.com<ph name="END_LINK"/></translation>
-<translation id="4805806622840861220">Muling ilunsad ang Brave</translation>
+<translation id="4979643858549519655">Tingnan ang iyong mga password kahit na hindi mo ginagamit ang Wryling o Android sa pamamagitan ng pag-sign in sa <ph name="BEGIN_LINK"/>passwords.google.com<ph name="END_LINK"/></translation>
+<translation id="2036272753168211127">Muling ilunsad ang Wryling</translation>
 <translation id="8915307125957890427">Mag-right click sa isang tab at piliin ang "Idagdag ang tab sa grupo" at pagkatapos ay piliin ang "Bagong grupo"</translation>
 <translation id="8915370057835397490">Nilo-load ang suhestiyon</translation>
 <translation id="8917490105272468696">Oo, Tinatanggap Ko</translation>
@@ -10309,7 +10309,7 @@ Puwedeng kasama rito ang impormasyon tungkol sa naka-install na software, mga fi
 <translation id="8993030412405061612">Nakumpleto ang gawain</translation>
 <translation id="8993198843374358393">Kopyahin ang hash ng certificate para sa <ph name="CERT_NAME"/></translation>
 <translation id="8993737615451556423">Nagbibigay ng mga kontrol para pabilisin, pabagalin, at i-pause ang boses sa pagbabasa</translation>
-<translation id="591917183749839690">Kung makikita ng Brave ang isa sa iyong mga password sa isang pampublikong breach sa data, puwede itong mag-alok na palitan ang password mo para sa iyo kung naka-sign in ka</translation>
+<translation id="8588872875448377133">Kung makikita ng Wryling ang isa sa iyong mga password sa isang pampublikong breach sa data, puwede itong mag-alok na palitan ang password mo para sa iyo kung naka-sign in ka</translation>
 <translation id="899384117894244799">Alisin ang pinaghihigpitang user</translation>
 <translation id="8993853206419610596">I-expand ang lahat ng request</translation>
 <translation id="899403249577094719">URL ng Netscape Certificate Base</translation>
@@ -10378,7 +10378,7 @@ Puwedeng kasama rito ang impormasyon tungkol sa naka-install na software, mga fi
 <translation id="9038489124413477075">Walang Pangalan na Folder</translation>
 <translation id="9039014462651733343">{NUM_ATTEMPTS,plural, =1{May isa kang pagtatangkang natitira.}one{May # kang pagtatangkang natitira.}other{May # kang pagtatangkang natitira.}}</translation>
 <translation id="9040661932550800571">I-update ang password para sa <ph name="ORIGIN"/>?</translation>
-<translation id="6583236347997565045">Para mag-save ng mga malakas na password gamit ang Brave Password Manager, mag-sign in sa Brave</translation>
+<translation id="5837934549740960208">Para mag-save ng mga malakas na password gamit ang Wryling Password Manager, mag-sign in sa Wryling</translation>
 <translation id="9041692268811217999">Na-disable ng iyong administrator ang access sa mga lokal na file sa iyong machine</translation>
 <translation id="9041881059840744611">Tungkol sa mga profile sa paaralan</translation>
 <translation id="904224458472510106">Hindi maa-undo ang operation na ito</translation>
@@ -10459,7 +10459,7 @@ Puwedeng kasama rito ang impormasyon tungkol sa naka-install na software, mga fi
 <translation id="910000385680858937">Pinapayagan – <ph name="PERMISSION_DETAILS"/>. Magkonekta ng mikropono sa iyong device.</translation>
 <translation id="9100416672768993722">Para lumipat sa huling ginamit na pamamaraan ng pag-input, pindutin ang <ph name="BEGIN_SHORTCUT"/><ph name="BEGIN_CTRL"/>Ctrl<ph name="END_CTRL"/><ph name="SEPARATOR"/><ph name="BEGIN_SPACE"/>Space<ph name="END_SPACE"/><ph name="END_SHORTCUT"/></translation>
 <translation id="9100765901046053179">Mga advanced na setting</translation>
-<translation id="3297683531718793313">Para magkapag-cast, bigyan ng access ang Brave sa: <ph name="IDS_MEDIA_ROUTER_LOCAL_DISCOVERY_PERMISSION_REJECTED_LINK"/> &gt; Lokal na Network &gt; Brave</translation>
+<translation id="50299853723079745">Para magkapag-cast, bigyan ng access ang Wryling sa: <ph name="IDS_MEDIA_ROUTER_LOCAL_DISCOVERY_PERMISSION_REJECTED_LINK"/> &gt; Lokal na Network &gt; Wryling</translation>
 <translation id="9103868373786083162">Pindutin upang bumalik, gamitin ang menu ng konteksto upang makita ang history</translation>
 <translation id="9107096627210171112">I&amp;salin...</translation>
 <translation id="9107624673674616016">Colored Pencil</translation>
@@ -10489,7 +10489,7 @@ Puwedeng kasama rito ang impormasyon tungkol sa naka-install na software, mga fi
 <translation id="9117030152748022724">Pamahalaan ang iyong mga app</translation>
 <translation id="9117446363580518867">Palaging I-hide</translation>
 <translation id="9120761757252614786">I-customize ang Toolbar</translation>
-<translation id="8429962505443892563">I-download ang Brave para sa iOS para ma-access ang iyong mga tab, bookmark, at password sa telepono mo.</translation>
+<translation id="4781214144575706176">I-download ang Wryling para sa iOS para ma-access ang iyong mga tab, bookmark, at password sa telepono mo.</translation>
 <translation id="9121814364785106365">Binuksan bilang na-pin na tab</translation>
 <translation id="9122099953033442610">{MULTI_GROUP_TAB_COUNT,plural, =0{Isara ang Tab ang I-delete ang Grupo?}=1{Isara ang Mga Tab at I-delete ang Grupo?}one{Isara ang Mga Tab at I-delete ang Mga Grupo?}other{Isara ang Mga Tab at I-delete ang Mga Grupo?}}</translation>
 <translation id="9123287046453017203">Hindi up to date ang iyong device</translation>
@@ -10552,7 +10552,7 @@ Puwedeng kasama rito ang impormasyon tungkol sa naka-install na software, mga fi
 <translation id="9170061643796692986">Ang kasalukuyang setting ng visibility ay lahat ng contact</translation>
 <translation id="9170766151357647548">Ang iyong device EID ay <ph name="EID_NUMBER"/>. Puwedeng gamitin ang numerong ito para makatulong na ma-activate ang serbisyo.</translation>
 <translation id="9170848237812810038">&amp;I-undo</translation>
-<translation id="2060128809251156338">Ang isa pang program sa iyong computer ay nagdagdag ng tema na maaaring magpabago sa paraan ng paggana ng Brave.</translation>
+<translation id="6656888234505288335">Ang isa pang program sa iyong computer ay nagdagdag ng tema na maaaring magpabago sa paraan ng paggana ng Wryling.</translation>
 <translation id="9172270007201309670">Pinalaki ang font</translation>
 <translation id="917350715406657904">Naabot mo na ang limitasyon sa oras na itinakda ng iyong magulang para sa <ph name="APP_NAME"/>. Puwede mo itong magamit nang <ph name="TIME_LIMIT"/> bukas.</translation>
 <translation id="9174854240439014335">Payagan ang pag-drag at pag-drop sa kaliwa o kanang gilid ng window sa split view</translation>
@@ -10601,7 +10601,7 @@ Puwedeng kasama rito ang impormasyon tungkol sa naka-install na software, mga fi
 <translation id="9220525904950070496">Alisin ang account</translation>
 <translation id="9220723036554088545">mag-upload ng file</translation>
 <translation id="9220820413868316583">Iangat at pagkatapos ay subukan ulit.</translation>
-<translation id="142389341645668510">I-customize ang Brave</translation>
+<translation id="9094133852008074140">I-customize ang Wryling</translation>
 <translation id="9222839391870847423">Tagal: <ph name="DURATION"/></translation>
 <translation id="9223158240932249417">Hindi pinapayagang magpakita ng mga aksyon sa text</translation>
 <translation id="923306663772315007">Ipadala sa iyong &amp;device</translation>
@@ -10629,7 +10629,7 @@ Puwedeng kasama rito ang impormasyon tungkol sa naka-install na software, mga fi
 <translation id="939736085109172342">Bagong folder</translation>
 <translation id="942296794412775122">I-on/i-off ang mikropono</translation>
 <translation id="942488123151518958">I-pause (k)</translation>
-<translation id="5770515304879261338">Nagbabahagi ng tab ng Brave at audio ang <ph name="APP_NAME"/>.</translation>
+<translation id="8882675094816400392">Nagbabahagi ng tab ng Wryling at audio ang <ph name="APP_NAME"/>.</translation>
 <translation id="945522503751344254">Magpadala ng feedback</translation>
 <translation id="947156494302904893">Magagawa ng mga site na binibisita mo na i-verify na totoong tao ka at hindi ka bot</translation>
 <translation id="947329552760389097">&amp;Siyasatin ang Mga Element</translation>

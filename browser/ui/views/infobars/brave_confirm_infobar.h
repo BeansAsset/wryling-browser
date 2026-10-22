@@ -84,6 +84,8 @@ class BraveConfirmInfoBar : public infobars::InfoBar, public views::View {
   int GetStartX() const;
   int GetEndX() const;
   int OffsetY(views::View* view) const;
+  // Gap between the last button (or checkbox) and the link.
+  int GetLinkSpacing() const;
   int NonLabelWidth() const;
 
   // Subclasses (e.g. BraveSyncAccountDeletedInfoBar) override Layout() and

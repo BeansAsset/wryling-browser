@@ -272,9 +272,12 @@ std::string GetBraveVPNPaymentsEnv(const std::string& env) {
 }
 
 void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
-  registry->RegisterBooleanPref(prefs::kManagedBraveVPNDisabled, false);
+  // Wryling: VPN is off until turned on in Settings › Extras (on macOS
+  // IsBraveVPNDisabledByPolicy() reads this value whoever set it).
+  registry->RegisterBooleanPref(prefs::kManagedBraveVPNDisabled, true);
   registry->RegisterDictionaryPref(prefs::kBraveVPNRootPref);
-  registry->RegisterBooleanPref(prefs::kBraveVPNShowButton, true);
+  // Wryling: Brave extras are off until turned on in Settings.
+  registry->RegisterBooleanPref(prefs::kBraveVPNShowButton, false);
 #if BUILDFLAG(IS_WIN)
   registry->RegisterBooleanPref(prefs::kBraveVPNShowNotificationDialog, true);
   registry->RegisterBooleanPref(prefs::kBraveVPNWireguardFallbackDialog, true);

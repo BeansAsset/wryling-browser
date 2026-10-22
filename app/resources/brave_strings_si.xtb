@@ -103,7 +103,7 @@
 <translation id="2137162749895930932">පරිවර්තන තිරය වසන්න</translation>
 <translation id="5789330946301045610">වෙබ් අඩවිය සුරක්ෂිත සබැඳුමක් භාවිතා නොකරන නිසා සහ ගොනුව විකෘති වී ඇති නිසා Brave මෙම බාගැනීම අවහිර කර ඇත</translation>
 <translation id="2170098639895543546">පිටුවෙහි ඕනෑම දෙයක් තෝරන්න</translation>
-<translation id="142389341645668510">Brave අභිරුචිකරණය කරන්න</translation>
+<translation id="9094133852008074140">Wryling අභිරුචිකරණය කරන්න</translation>
 <translation id="2174917724755363426">ස්ථාපනය සම්පූර්ණ නැත. ඔබට අවලංගු කිරීමට අවශ්‍ය බව විශ්වාසද?</translation>
 <translation id="8745514854244955877">Brave - ජාල පුරනය - <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">යාවත්කාලීන පරීක්ෂාවේ දෝෂය: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -202,7 +202,7 @@
 <translation id="3137969841538672700">සෙවීමට අදින්න</translation>
 <translation id="8372436892102763334">මෙම පටිත්ත අමතර සම්පත් භාවිත කරයි. ඔබේ කාර්ය සාධනය වැඩි දියුණු කිරීමට, Brave හට එය අක්‍රිය කිරීමට ඉඩ දෙන්න.</translation>
 <translation id="5949068186379578553">ඔබේ තිරය බෙදා ගැනීමට, පද්ධති සැකසීම් තුළ Brave සඳහා තිර පටිගත කිරීමට ඉඩ දෙන්න</translation>
-<translation id="4805806622840861220">Brave නැවත දියත් කරන්න</translation>
+<translation id="2036272753168211127">Wryling නැවත දියත් කරන්න</translation>
 <translation id="3161522574479303604">සියලු භාෂා</translation>
 <translation id="1742948938503172561">ඔබගේ නව Brave පැතිකඩ අභිරුචිකරණය කරන්න</translation>
 <translation id="2430807206104224491">ඔබට පටිති මාරු නොකර AI මාදිලිය සමග කතාබස් කළ හැක. ආරම්භ කිරීමට, Brave වෙත පුරන්න. ඔබේ සියලු උපාංගවල ඔබේ මුරපද සහ තවත් දේ ඔබට ලැබෙනු ඇත.</translation>
@@ -236,7 +236,7 @@
 <translation id="8981774130895723211">ඔබේ තිරය බෙදා ගැනීමට, පද්ධති සැකසීම් තුළ Brave සඳහා තිර පටිගත කිරීමට ඉඩ දෙන්න.</translation>
 <translation id="2981961446160697133">Brave හඳුනා නොගන්නා අඩවි සඳහා වැඩිදියුණු කළ ආරක්ෂාව JavaScript ප්‍රශස්තකරණය ක්‍රියාවිරහිත කරයි</translation>
 <translation id="3597003331831379823">උසස් වරප්‍රසාද සහිත පිහිටුවීම් ධාවනය කිරීමට අසමත් විය. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Brave වෙත පිවිසෙන්න</translation>
+<translation id="5451434122049588189">Wryling වෙත පිවිසෙන්න</translation>
 <translation id="3066805437003400520">මෙම පුද්ගලයාගේ බ්‍රවුස් කිරීමේ දත්ත මෙම උපාංගයෙන් මකනු ලැබේ. දත්ත ප්‍රතිසාධන කිරීමට, <ph name="USER_EMAIL"/> ලෙස Brave එකට පුරන්න.</translation>
 <translation id="3667616615096815454">ස්ථාපනය කළ නොහැකි වේ, යෙදුම සේවාදායකයට නොදනී.</translation>
 <translation id="1128485277465085828">ඔබේ Brave ගිණුමේ ඇති සියලු ම Brave දත්ත සංකේතනය කිරීමට <ph name="BEGIN_LINK"/>ඔබේම මුර-වැකිකඩක්<ph name="END_LINK"/> භාවිත කරන්න. Google Pay වෙතින් ගෙවීම් ක්‍රම සහ ලිපින සංකේතනය නොකෙරේ. Brave වෙතින් බ්‍රවුස් කිරීමේ ඉතිහාසය සමමුහූර්ත නොවේ.</translation>
@@ -279,7 +279,7 @@
 <translation id="4055805654398742145">මුරපද කළමනාකරු</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{ඔබේ සංවිධානය Brave මිනිත්තු 1ක් සඳහා භාවිතා නොකරන විට ස්වයංක්‍රීයව වසයි. බ්‍රවුස් කිරීමේ දත්ත මකා ඇත. මෙයට ඉතිහාසය, ස්වයං පිරවීම, සහ බාගැනීම් ඇතුළත් විය හැක.}one{ඔබේ සංවිධානය Brave මිනිත්තු #ක් සඳහා භාවිතා නොකරන විට ස්වයංක්‍රීයව වසයි. බ්‍රවුස් කිරීමේ දත්ත මකා ඇත. මෙයට ඉතිහාසය, ස්වයං පිරවීම, සහ බාගැනීම් ඇතුළත් විය හැක.}other{ඔබේ සංවිධානය Brave මිනිත්තු #ක් සඳහා භාවිතා නොකරන විට ස්වයංක්‍රීයව වසයි. බ්‍රවුස් කිරීමේ දත්ත මකා ඇත. මෙයට ඉතිහාසය, ස්වයං පිරවීම, සහ බාගැනීම් ඇතුළත් විය හැක.}}</translation>
 <translation id="5794951150713244901">Brave ගැන පිටුවට යන්න</translation>
-<translation id="10925962326134232">ඔබේ බ්‍රව්සරයට නව පෙනුමක් ලබා දීමට Brave අභිරුචිකරණය කරන්න</translation>
+<translation id="908722199085381104">ඔබේ බ්‍රව්සරයට නව පෙනුමක් ලබා දීමට Wryling අභිරුචිකරණය කරන්න</translation>
 <translation id="6596295505984504022">ඔබේ Brave අභිරුචි කරන්න</translation>
 <translation id="4148957013307229264">ස්ථාපනය කරමින්...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> - ජාල පුරනය - Brave</translation>
@@ -382,7 +382,7 @@
 <translation id="5154625106151193600">Brave සමහර ගොනු අවහිර කරන හේතුව දැන ගන්න</translation>
 <translation id="1786715389543715322">Brave යාවත්කාලීන කරමින් (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Brave පුරනයට ඉඩ දෙන්න</translation>
-<translation id="5267531627648004734">Brave වෙතින් ඉවත් කරන්න</translation>
+<translation id="6125790165673488794">Wryling වෙතින් ඉවත් කරන්න</translation>
 <translation id="4620757336635063467">කාර්යසාධනය අඩු කරන නමුත් Brave ප්‍රහාරවලට ඉතා විරුද්ධයි</translation>
 <translation id="239760341987199724">Brave ඔබේ පෙරනිමි බ්‍රව්සරය ලෙස සකසන්න</translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Brave බීටා</translation>
@@ -561,7 +561,7 @@
 <translation id="7024536598735240744">ඇසුරුම් හැරීමේ දෝෂය: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">Brave ඔබගේම කර ගන්න</translation>
 <translation id="7047386856539490735">මෙම ප්‍රතිඵල ප්‍රයෝජනවත් ද?</translation>
-<translation id="1705567146636171298">Brave යාවත් කරන්න</translation>
+<translation id="4469722898384489712">Wryling යාවත් කරන්න</translation>
 <translation id="5499063270485366718">රූපයකට ප්‍රයෝජනවත් විස්තරයක් නොමැති නම්, Brave ඔබට විස්තරයක් ලබා දීමට උත්සාහ කරයි. විස්තර නිර්මාණ කිරීමට, රූප Brave වෙත යවනු ලැබේ.</translation>
 <translation id="1196733835766994012">ඔබ ඔබේ <ph name="DEVICE_TYPE"/> මත Brave යෙදුම භාවිතා කරන විට AI බලය ලබා ගන්න</translation>
 <translation id="7166289504510860270">ඔබේ දුරකථනයේ Brave යෙදුම සමග යන ගමන් ඔබේ මුරපද, පටිති සහ තවත් දේ රැගෙන යන්න</translation>
@@ -766,7 +766,7 @@ Brave හට ඔබගේ සැකසුම් ප්‍රතිසාධන�
 <translation id="8965179855019347124">ඔබේ දුරකථනයේ Brave යෙදුම සමග Brave හි හොඳම AI මෙවලම් භාවිත කරන්න</translation>
 <translation id="9049928023195059068">ඔබ වෙනත් Brave සේවාවලට පුරන විට Brave වෙත පුරන්න</translation>
 <translation id="4561046754724442504">Brave ස්වයංක්‍රීයව වසන ලදි</translation>
-<translation id="5173820533850252773">Brave යල්පැනගොස් ඇත</translation>
+<translation id="1523936557081546133">Wryling යල්පැනගොස් ඇත</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave පැයකින් යළි දියත් වෙයි}one{Brave පැය # කින් යළි දියත් වෙයි}other{Brave පැය # කින් යළි දියත් වෙයි}}</translation>
 <translation id="9106236359747881194">සෙවීමට පෙළ තෝරන්න</translation>
 <translation id="5190991181158966940">අනාගත Brave යාවත්කාලීන ලබා ගැනීමට, ඔබට Windows 10 හෝ පසුව අවශ්‍ය වේ. මෙම පරිගණකය Windows 8.1 භාවිතා කරයි.</translation>
@@ -778,12 +778,12 @@ Brave හට ඔබගේ සැකසුම් ප්‍රතිසාධන�
 <translation id="2444257125841652328">ඔබේ පද්ධති පරිපාලකයා <ph name="TARGET_URL_HOSTNAME"/> වෙත ප්‍රවේශ වීමට වෛකල්පික බ්‍රවුසරයක් විවෘත කිරීමට Brave වින්‍යාස කර ඇත.</translation>
 <translation id="7902365066753170041">&amp;Brave යාවත්කාලීන කිරීමට යළි දියත් කරන්න</translation>
 <translation id="3350544518197210895">Brave (mDNS-In)</translation>
-<translation id="296137235951584143">Brave ඔබගේම කර ගන්න</translation>
+<translation id="4578349172774307195">Wryling ඔබගේම කර ගන්න</translation>
 <translation id="7977787072794666032">Brave තවදුරටත් Windows XP හෝ Windows Vista මත සහාය නොදක්වන නිසා නිවැරදිව ක්‍රියා නොකරනු ඇත</translation>
 <translation id="8462937515915443472">Brave සමග යන ගමන් Brave හි හොඳම ආරක්ෂක විශේෂාංග ලබා ගන්න.</translation>
 <translation id="945522503751344254">අදහස් හා යෝජනා යවන්න</translation>
 <translation id="4484434718272972655">Brave භාවිත කරමින් සිටින්නේ කවුද?</translation>
-<translation id="7173394303099002355">Brave හි ප්‍රබලම ආරක්ෂාව ලබා ගන්න</translation>
+<translation id="1158507424343802366">Wryling හි ප්‍රබලම ආරක්ෂාව ලබා ගන්න</translation>
 <translation id="983803489796659991">යාවත්කාලීන සේවාදායකයේ යෙදුම සඳහා හෑෂ් දත්ත නොමැති නිසා ස්ථාපනය අසමත් විය.</translation>
 <translation id="8435446479956716379">ගිණුමක් නොමැතිව Brave භාවිත කරන්න</translation>
 <translation id="8992261409816268381">Brave කර්තෘවරුන්</translation>
@@ -819,6 +819,6 @@ Brave හට ඔබගේ සැකසුම් ප්‍රතිසාධන�
               other {උසස් ආරක්ෂාව සඳහා යාවත්කාලයක් යළි අයදුම් කිරිම සඳහා Brave නැවත ආරම්භ කිරීමක් අවශ්‍ය වේ. ඔබේ පෞද්ගලික කවුළු # නැවත විවෘත නොවනු ඇත.}}</translation>
 <translation id="5749154344207139683">අපගේ පුද්ගලිකතාව වැඩි දියුණු කිරීම සඳහා මේ 1 මිනිහ survey එක සම්පූර්ණ කරන්න.</translation>
 <translation id="79269250264141507">ඔබ ලිපින තීරුවේ හෝ සෙවුම් කොටුවේ ලියන විට වඩා හොඳ යෝජනා ලබා ගැනීමට Brave ඔබ ලියන දෑ ඔබගේ පෙරනිමි සෙවුම් යන්ත්‍රයට යවයි. මෙය පෞද්ගලික ප්‍රකාරයේ අක්‍රියයි.</translation>
-<translation id="2589970573128789862">Brave පෞද්ගලික</translation>
+<translation id="2090681901335274465">Wryling පෞද්ගලික</translation>
 <translation id="5994282802285556682">පෞද්ගලික ප්‍රකාරයේ පිරික්සන විට අනාරක්ෂිත සම්බන්ධතාවයකින් අඩවියක් පූරණයට පෙර Brave ඔබට අනතුරු අඟවයි</translation>
 </translationbundle>

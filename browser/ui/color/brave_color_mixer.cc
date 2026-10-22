@@ -5,9 +5,14 @@
 
 #include "brave/browser/ui/color/brave_color_mixer.h"
 
+#include <algorithm>
+
 #include "base/numerics/safe_conversions.h"
 #include "brave/browser/ui/color/brave_color_id.h"
 #include "brave/browser/ui/color/color_palette.h"
+#include "brave/browser/ui/color/wryling_menu_color_mixer.h"
+#include "brave/browser/ui/color/wryling_space_color.h"
+#include "brave/browser/ui/color/wryling_tokens.h"
 #include "brave/components/brave_vpn/common/buildflags/buildflags.h"
 #include "brave/components/brave_wayback_machine/buildflags/buildflags.h"
 #include "brave/components/playlist/core/common/buildflags/buildflags.h"
@@ -565,6 +570,233 @@ void AddBraveDarkThemeColorMixer(ui::ColorProvider* provider,
 #endif  // defined(TOOLKIT_VIEWS)
 }
 
+namespace {
+
+// Wryling: tinted chrome. One "space colour" fills the frame, the
+// vertical sidebar and the toolbar, so the web page sits as a card inside a
+// coloured surround; tabs are translucent white on top of it. Added as a
+// postprocessing mixer so it wins over the Brave and Chromium theme mixers.
+void AddWrylingTintColorMixer(ui::ColorProvider* provider,
+                              const ui::ColorProviderKey& key) {
+  const bool dark = key.color_mode == ui::ColorProviderKey::ColorMode::kDark;
+  // The user's chosen space colour (or the default violet).
+  const SkColor tint = wryling::GetSpaceTint(key);
+  const auto over_tint = [tint](float white_alpha) {
+    return color_utils::AlphaBlend(SK_ColorWHITE, tint, white_alpha);
+  };
+
+  auto& mixer = provider->AddPostprocessingMixer();
+  // The frame colour also tints the glass layer in glass mode.
+  mixer[ui::kColorFrameActive] = {tint};
+  mixer[ui::kColorFrameInactive] = {tint};
+  // Toolbar button hover/press: translucent white like the tabs, not the
+  // stock opaque grey square.
+  mixer[kColorToolbarInkDropHover] = {
+      SkColorSetA(SK_ColorWHITE, 0.12f * SK_AlphaOPAQUE)};
+  mixer[kColorToolbarInkDropRipple] = {
+      SkColorSetA(SK_ColorWHITE, 0.18f * SK_AlphaOPAQUE)};
+  // Same for icons in and beside the address bar (e.g. the Shields button),
+  // whose stock colours are opaque greys meant for a solid omnibox.
+  mixer[kColorOmniboxIconHover] = {
+      SkColorSetA(SK_ColorWHITE, 0.12f * SK_AlphaOPAQUE)};
+  mixer[kColorOmniboxIconPressed] = {
+      SkColorSetA(SK_ColorWHITE, 0.18f * SK_AlphaOPAQUE)};
+
+  // Glass mode: the window has Liquid Glass behind its chrome, so the toolbar
+  // surfaces are see-through. They keep the tint's RGB so code that picks text
+  // colours from them still sees a dark (or light) surface.
+  const bool glass =
+      key.frame_style == ui::ColorProviderKey::FrameStyle::kGlass;
+  const SkColor toolbar = glass ? SkColorSetA(tint, SK_AlphaTRANSPARENT) : tint;
+  mixer[kColorToolbar] = {toolbar};
+  // Colours that Brave and Chromium define as "the toolbar colour" were
+  // resolved by earlier mixers, so they would keep Brave's grey (e.g. a grey
+  // box behind the VPN button, a grey info bar). Point them at Wryling's.
+  for (const ui::ColorId id : {kColorToolbarTopSeparatorFrameActive,
+                               kColorToolbarTopSeparatorFrameInactive}) {
+    mixer[id] = {toolbar};
+  }
+  // The address pill's leading icon sits straight on the pill; a solid
+  // toolbar colour here drew a dark disc behind it in tinted windows.
+  mixer[kColorOmniboxIconBackground] = {SK_ColorTRANSPARENT};
+  // The info bar and bookmarks bar sit over the window's solid background,
+  // not the glass, and paint on opaque layers (see-through shows as black),
+  // so they take the solid space colour.
+  mixer[kColorInfoBarBackground] = {tint};
+  mixer[kColorBookmarkBarBackground] = {tint};
+#if BUILDFLAG(ENABLE_BRAVE_VPN)
+  mixer[kColorBraveVpnButtonBackgroundNormal] = {toolbar};
+#endif
+#if BUILDFLAG(ENABLE_SPEEDREADER)
+  mixer[kColorSpeedreaderToolbarBackground] = {toolbar};
+#endif
+
+  // A shade of the space colour at a given lightness: the base for text,
+  // accents and solid surfaces below, so they all follow the picked colour
+  // and its strength.
+  const auto surface = [tint](double lightness, float alpha = 1.0f) {
+    color_utils::HSL hsl;
+    color_utils::SkColorToHSL(tint, &hsl);
+    hsl.l = lightness;
+    return color_utils::HSLToSkColor(hsl, alpha * SK_AlphaOPAQUE);
+  };
+
+  // Tab titles and the new-tab row: light text in dark mode, deep text in
+  // light mode (stock greys are unreadable on a light tint).
+  const SkColor text_strong = dark ? surface(0.96) : surface(0.14);
+  const SkColor text_soft = dark ? surface(0.86, 0.92f) : surface(0.11);
+  mixer[kColorTabForegroundActiveFrameActive] = {text_strong};
+  mixer[kColorTabForegroundActiveFrameInactive] = {text_soft};
+  mixer[kColorTabForegroundInactiveFrameActive] = {text_soft};
+  mixer[kColorTabForegroundInactiveFrameInactive] = {
+      dark ? surface(0.78, 0.8f) : surface(0.24, 0.82f)};
+  mixer[kColorBraveVerticalTabNTBTextColor] = {text_soft};
+  mixer[kColorBraveVerticalTabNTBIconColor] = {text_soft};
+  mixer[kColorBraveVerticalTabNTBShortcutTextColor] = {text_soft};
+
+  // Wryling tokens (wryling_tokens.h): accents and
+  // solid surfaces come from these, never from stock greys or Brave blue.
+  const wryling::Tokens tokens = wryling::GetTokens(key);
+  const auto accent_shade = [&tokens](double delta) {
+    color_utils::HSL hsl;
+    color_utils::SkColorToHSL(tokens.accent, &hsl);
+    hsl.l = std::clamp(hsl.l + delta, 0.0, 1.0);
+    return color_utils::HSLToSkColor(hsl, SK_AlphaOPAQUE);
+  };
+  // Lighter in dark mode, deeper in light mode: the hover/pressed step.
+  const SkColor accent_step = accent_shade(dark ? 0.06 : -0.06);
+
+  // Native accents: default buttons, links.
+  mixer[ui::kColorButtonBackgroundProminent] = {tokens.accent};
+  mixer[ui::kColorButtonBackgroundProminentFocused] = {accent_step};
+  mixer[ui::kColorButtonForegroundProminent] = {tokens.on_accent};
+  mixer[ui::kColorButtonForeground] = {tokens.text};
+  mixer[ui::kColorButtonForegroundTonal] = {tokens.text};
+  mixer[ui::kColorButtonBorder] = {tokens.stroke};
+  // Secondary (filled) and plain buttons, see Brave's MdTextButton styles.
+  mixer[ui::kColorButtonBackground] = {tokens.fill};
+  mixer[ui::kColorButtonBackgroundPressed] = {tokens.pressed};
+  mixer[ui::kColorButtonHoverBackgroundText] = {tokens.hover};
+  // Disabled controls fade toward the text colour instead of Brave's greys.
+  mixer[nala::kColorButtonDisabled] = {tokens.fill};
+  mixer[nala::kColorTextDisabled] = {tokens.text_tertiary};
+  // Dropdowns (comboboxes) are filled fields without an outline.
+  mixer[ui::kColorComboboxBackground] = {tokens.fill};
+  mixer[ui::kColorComboboxBackgroundDisabled] = {tokens.hover};
+  mixer[ui::kColorComboboxContainerOutline] = {SK_ColorTRANSPARENT};
+  mixer[ui::kColorComboboxInkDropHovered] = {tokens.hover};
+  mixer[ui::kColorComboboxInkDropRipple] = {tokens.pressed};
+  mixer[ui::kColorLinkForeground] = {tokens.accent_text};
+  mixer[ui::kColorLinkForegroundPressed] = {tokens.accent_text};
+  // Brave draws its buttons from its own (nala) palette; retint the accent
+  // entries those buttons use: filled, outline and plain kinds, and hover.
+  mixer[nala::kColorButtonBackground] = {tokens.accent};
+  mixer[nala::kColorTextInteractive] = {tokens.accent_text};
+  mixer[nala::kColorDividerInteractive] = {tokens.stroke};
+  mixer[nala::kColorPrimary10] = {tokens.selected};
+  mixer[nala::kColorPrimary30] = {SkColorSetA(tokens.accent, 0x80)};
+  mixer[nala::kColorPrimary50] = {accent_step};
+  mixer[nala::kColorPrimary60] = {accent_step};
+
+  // The address bar dropdown: a popover (glass, or "raised" without it) whose
+  // rows highlight like menu rows, solid accent when selected.
+  mixer[kColorOmniboxResultsBackground] = {tokens.raised};
+  mixer[kColorOmniboxResultsBackgroundHovered] = {tokens.hover};
+  mixer[kColorOmniboxResultsBackgroundSelected] = {tokens.accent};
+  mixer[kColorOmniboxText] = {tokens.text};
+  mixer[kColorOmniboxResultsTextDimmed] = {tokens.text_secondary};
+  mixer[kColorOmniboxResultsUrl] = {tokens.accent_text};
+  mixer[kColorOmniboxResultsTextSelected] = {tokens.on_accent};
+  mixer[kColorOmniboxResultsTextDimmedSelected] = {
+      SkColorSetA(tokens.on_accent, 0xC0)};
+  mixer[kColorOmniboxResultsIconSelected] = {tokens.on_accent};
+  mixer[kColorOmniboxResultsUrlSelected] = {tokens.on_accent};
+  mixer[kColorOmniboxResultsFocusIndicator] = {tokens.accent_text};
+  mixer[kColorOmniboxResultsButtonBorder] = {tokens.stroke};
+
+  // Bubbles and dialogs (page info, permissions, translate, downloads, ...):
+  // the "raised" depth with a hairline stroke, footers a step deeper.
+  mixer[ui::kColorBubbleBackground] = {tokens.raised};
+  mixer[ui::kColorDialogBackground] = {tokens.raised};
+  // Translucent, so it reads as a band on glass and on the solid fallback.
+  mixer[ui::kColorBubbleFooterBackground] = {tokens.hover};
+  mixer[ui::kColorBubbleBorder] = {tokens.stroke};
+  mixer[ui::kColorBubbleFooterBorder] = {tokens.separator};
+
+  // Toasts ("Link copied", ...): the same raised surface as bubbles, so they
+  // pick up the glass too, with the accent for their action button.
+  mixer[ui::kColorToastBackgroundProminent] = {tokens.raised};
+  mixer[ui::kColorToastForeground] = {tokens.text};
+  mixer[ui::kColorToastButton] = {tokens.accent_text};
+
+  if (glass) {
+    // Overlays: the sidebar's chrome is white (dark mode) or black
+    // (light mode) at fixed opacities laid over the window's background, so
+    // every surface picks up its colour, gradient and grain instead of being
+    // a separately computed solid. The current tab is the exception in light
+    // mode: a near-white card (with a soft shadow, see the vertical tab
+    // style).
+    // White or black by how light the background actually is, not by the
+    // light/dark setting: a deep custom colour in light mode still needs
+    // white text.
+    const bool dark_surface = color_utils::IsDark(tint);
+    const auto ink = [dark_surface](float alpha) {
+      return SkColorSetA(dark_surface ? SK_ColorWHITE : SK_ColorBLACK,
+                         alpha * SK_AlphaOPAQUE);
+    };
+    const auto white = [](float alpha) {
+      return SkColorSetA(SK_ColorWHITE, alpha * SK_AlphaOPAQUE);
+    };
+    mixer[kColorBraveVerticalTabInactiveBackground] = {
+        SkColorSetA(tint, SK_AlphaTRANSPARENT)};
+    mixer[kColorBraveVerticalTabActiveBackground] = {
+        dark_surface ? white(0.18f) : white(0.85f)};
+    mixer[kColorBraveVerticalTabHoveredBackground] = {ink(dark_surface ? 0.10f : 0.06f)};
+    mixer[kColorBraveVerticalTabSeparator] = {ink(dark_surface ? 0.12f : 0.10f)};
+    // A split is one card in the sidebar, its tabs split by hairlines.
+    mixer[kColorBraveSplitViewTileBackgroundVertical] = {
+        ink(dark_surface ? 0.07f : 0.05f)};
+    mixer[kColorBraveSplitViewTileBackgroundBorder] = {SK_ColorTRANSPARENT};
+    mixer[kColorBraveSplitViewTileDivider] = {ink(dark_surface ? 0.16f : 0.14f)};
+
+    // Text: every tab readable (inactive tabs aren't dimmed), the new-tab row
+    // and secondary text quieter.
+    mixer[kColorTabForegroundActiveFrameActive] = {ink(dark_surface ? 0.95f : 0.88f)};
+    mixer[kColorTabForegroundInactiveFrameActive] = {ink(dark_surface ? 0.85f : 0.80f)};
+    mixer[kColorTabForegroundActiveFrameInactive] = {ink(dark_surface ? 0.70f : 0.65f)};
+    mixer[kColorTabForegroundInactiveFrameInactive] = {ink(dark_surface ? 0.55f : 0.50f)};
+    mixer[kColorBraveVerticalTabNTBTextColor] = {ink(0.55f)};
+    mixer[kColorBraveVerticalTabNTBIconColor] = {ink(0.55f)};
+    mixer[kColorBraveVerticalTabNTBShortcutTextColor] = {ink(0.40f)};
+
+    // The address bar is a slightly deeper (or lighter) patch of the
+    // background, not a slab of its own colour.
+    mixer[kColorLocationBarBackground] = {ink(dark_surface ? 0.09f : 0.05f)};
+    mixer[kColorLocationBarBackgroundHovered] = {ink(dark_surface ? 0.13f : 0.08f)};
+    mixer[kColorOmniboxIconHover] = {ink(dark_surface ? 0.12f : 0.07f)};
+    mixer[kColorOmniboxIconPressed] = {ink(dark_surface ? 0.18f : 0.11f)};
+    const SkColor icon = ink(dark_surface ? 0.62f : 0.55f);
+    mixer[kColorOmniboxResultsIcon] = {icon};
+    mixer[kColorOmniboxSecurityChipDefault] = {icon};
+    mixer[kColorOmniboxTextDimmed] = {ink(dark_surface ? 0.55f : 0.50f)};
+    return;
+  }
+
+  mixer[kColorBraveVerticalTabActiveBackground] = {over_tint(0.22f)};
+  mixer[kColorBraveVerticalTabHoveredBackground] = {over_tint(0.12f)};
+  // Inactive tabs have no box of their own, just text on the tint.
+  mixer[kColorBraveVerticalTabInactiveBackground] = {tint};
+  mixer[kColorBraveVerticalTabSeparator] = {over_tint(0.16f)};
+  mixer[kColorBraveSplitViewTileBackgroundVertical] = {over_tint(0.08f)};
+  mixer[kColorBraveSplitViewTileBackgroundBorder] = {SK_ColorTRANSPARENT};
+  mixer[kColorBraveSplitViewTileDivider] = {over_tint(0.18f)};
+  // Address bar as a soft translucent pill rather than a dark slab.
+  mixer[kColorLocationBarBackground] = {over_tint(0.10f)};
+  mixer[kColorLocationBarBackgroundHovered] = {over_tint(0.15f)};
+}
+
+}  // namespace
+
 // Handling dark or light theme on normal profile.
 void AddBraveThemeColorMixer(ui::ColorProvider* provider,
                              const ui::ColorProviderKey& key) {
@@ -610,6 +842,9 @@ void AddBraveThemeColorMixer(ui::ColorProvider* provider,
     playlist::AddThemeColorMixer(provider, key);
   }
 #endif
+
+  AddWrylingTintColorMixer(provider, key);
+  AddWrylingMenuColorMixer(provider, key);
 }
 
 void AddBravePrivateThemeColorMixer(ui::ColorProvider* provider,

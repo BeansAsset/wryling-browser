@@ -1,8 +1,17 @@
 diff --git a/chrome/browser/ui/tabs/tab_strip_model.cc b/chrome/browser/ui/tabs/tab_strip_model.cc
-index b3ed5f8ec54b9aa3b91b92014af0d3cf07b62de8..869686526e9791bd743515c991942046bb5de05b 100644
+index b3ed5f8ec54b9aa3b91b92014af0d3cf07b62de8..111bb3511860cf04457443142ef029a37a4048cf 100644
 --- a/chrome/browser/ui/tabs/tab_strip_model.cc
 +++ b/chrome/browser/ui/tabs/tab_strip_model.cc
-@@ -184,7 +184,7 @@ std::unique_ptr<TabGroupModel> TabGroupModelFactory::Create() {
+@@ -4,6 +4,8 @@
+ 
+ #include "chrome/browser/ui/tabs/tab_strip_model.h"
+ 
++#include "brave/browser/ui/spaces/wryling_spaces_hooks.h"
++
+ #include <algorithm>
+ #include <cstddef>
+ #include <cstdint>
+@@ -184,7 +186,7 @@ std::unique_ptr<TabGroupModel> TabGroupModelFactory::Create() {
  
  DetachedTabCollection::DetachedTabCollection(
      std::variant<std::unique_ptr<tabs::TabGroupTabCollection>,
@@ -11,7 +20,7 @@ index b3ed5f8ec54b9aa3b91b92014af0d3cf07b62de8..869686526e9791bd743515c991942046
      std::optional<int> active_index,
      bool pinned)
      : collection_(std::move(collection)),
-@@ -558,6 +558,14 @@ TabStripModel::DetachTabsAndCollectionsForInsertion(
+@@ -558,6 +560,14 @@ TabStripModel::DetachTabsAndCollectionsForInsertion(
        owned_tabs_and_collections.emplace_back(
            DetachSplitTabForInsertion(tab_interface->GetSplit().value()));
      } else {
@@ -26,7 +35,19 @@ index b3ed5f8ec54b9aa3b91b92014af0d3cf07b62de8..869686526e9791bd743515c991942046
        owned_tabs_and_collections.emplace_back(DetachTabWithReasonAt(
            index, TabRemovedReason::kInsertedIntoOtherTabStrip,
            tabs::TabInterface::DetachReason::kInsertIntoOtherWindow));
-@@ -1879,6 +1887,7 @@ void TabStripModel::AddTab(std::unique_ptr<tabs::TabModel> tab,
+@@ -1527,6 +1537,11 @@ bool TabStripModel::IsTabPinned(int index) const {
+ }
+ 
+ bool TabStripModel::IsTabCollapsed(int index) const {
++  // Wryling Spaces: a tab of another space counts as collapsed, so closing,
++  // ⌃Tab and friends pick a tab of the current space.
++  if (wryling::IsTabHiddenBySpace(GetTabAtIndex(index))) {
++    return true;
++  }
+   std::optional<tab_groups::TabGroupId> group = GetTabGroupForTab(index);
+   return group.has_value() && IsGroupCollapsed(group.value());
+ }
+@@ -1879,6 +1894,7 @@ void TabStripModel::AddTab(std::unique_ptr<tabs::TabModel> tab,
    if (ui::PageTransitionTypeIncludingQualifiersIs(transition,
                                                    ui::PAGE_TRANSITION_TYPED) &&
        index == count()) {
@@ -34,7 +55,26 @@ index b3ed5f8ec54b9aa3b91b92014af0d3cf07b62de8..869686526e9791bd743515c991942046
      // Also, any tab opened at the end of the TabStrip with a "TYPED"
      // transition inherit opener as well. This covers the cases where the user
      // creates a New Tab (e.g. Ctrl+T, or clicks the New Tab button), or types
-@@ -2595,6 +2604,15 @@ bool TabStripModel::IsContextMenuCommandEnabled(
+@@ -2068,7 +2084,8 @@ split_tabs::SplitTabId TabStripModel::AddToNewSplit(
+     split_tabs::SplitTabCreatedSource source) {
+   ReentrancyCheck reentrancy_check(&reentrancy_guard_);
+ 
+-  CHECK(indices.size() == 1u || indices.size() == 2u)
++  // Wryling: a split holds up to four tabs.
++  CHECK(indices.size() >= 1u && indices.size() <= 4u)
+       << "Invalid index count: " << indices.size();
+ 
+   // If there is only one entry in `indices`, use the active index as the pivot
+@@ -2111,7 +2128,7 @@ void TabStripModel::RestoreSplit(split_tabs::SplitTabId split_id,
+                                  split_tabs::SplitTabVisualData visual_data) {
+   ReentrancyCheck reentrancy_check(&reentrancy_guard_);
+   CHECK(std::ranges::is_sorted(indices));
+-  CHECK_EQ(indices.size(), 2u);
++  CHECK(indices.size() >= 2u && indices.size() <= 4u);  // Wryling: up to 4.
+ 
+   // Ideally these are consecutive indices from the restore flow and the pivot
+   // index does not matter. However, given there are numerous steps in restore
+@@ -2595,6 +2612,15 @@ bool TabStripModel::IsContextMenuCommandEnabled(
    }
  
    switch (command_id) {
@@ -50,7 +90,7 @@ index b3ed5f8ec54b9aa3b91b92014af0d3cf07b62de8..869686526e9791bd743515c991942046
      case CommandNewTabToRight:
      case CommandCloseTab:
        return true;
-@@ -2698,6 +2716,15 @@ void TabStripModel::ExecuteContextMenuCommand(int context_index,
+@@ -2698,6 +2724,15 @@ void TabStripModel::ExecuteContextMenuCommand(int context_index,
      return;
    }
    switch (command_id) {
@@ -66,7 +106,31 @@ index b3ed5f8ec54b9aa3b91b92014af0d3cf07b62de8..869686526e9791bd743515c991942046
      case CommandNewTabToRight: {
        base::UmaHistogramCounts1000(
            "Tab.ContextMenu.NewTabToRight.SelectedTabsCount",
-@@ -4278,7 +4305,7 @@ void TabStripModel::MoveTabRelative(TabRelativeDirection direction) {
+@@ -3492,10 +3527,7 @@ std::optional<int> TabStripModel::GetNextExpandedActiveTab(
+     int current_index = block_tab_range.end();
+     for (auto it = at(GetTabAtIndex(current_index)); it != end();
+          ++it, ++current_index) {
+-      tabs::TabInterface* tab = *it;
+-      std::optional<tab_groups::TabGroupId> current_group = tab->GetGroup();
+-      if (!current_group.has_value() ||
+-          (!IsGroupCollapsed(current_group.value()))) {
++      if (!IsTabCollapsed(current_index)) {
+         return current_index;
+       }
+     }
+@@ -3506,10 +3538,7 @@ std::optional<int> TabStripModel::GetNextExpandedActiveTab(
+     auto start_it = at(GetTabAtIndex(current_index));
+     for (auto it = std::make_reverse_iterator(++start_it); it != rend();
+          ++it, --current_index) {
+-      tabs::TabInterface* tab = *it;
+-      std::optional<tab_groups::TabGroupId> current_group = tab->GetGroup();
+-      if (!current_group.has_value() ||
+-          (!IsGroupCollapsed(current_group.value()))) {
++      if (!IsTabCollapsed(current_index)) {
+         return current_index;
+       }
+     }
+@@ -4278,7 +4307,7 @@ void TabStripModel::MoveTabRelative(TabRelativeDirection direction) {
  
  std::pair<std::optional<int>, std::optional<int>>
  TabStripModel::GetAdjacentTabsAfterSelectedMove(
@@ -75,7 +139,7 @@ index b3ed5f8ec54b9aa3b91b92014af0d3cf07b62de8..869686526e9791bd743515c991942046
      int destination_index) {
    const int pinned_tab_count = IndexOfFirstNonPinnedTab();
    const std::vector<int> pinned_selected_indices = GetSelectedPinnedTabs();
-@@ -4758,8 +4785,10 @@ void TabStripModel::InsertTabAtIndexImpl(
+@@ -4758,8 +4787,10 @@ void TabStripModel::InsertTabAtIndexImpl(
    }
  
    tabs::TabInterface* old_active_tab = GetActiveTab();
@@ -87,3 +151,26 @@ index b3ed5f8ec54b9aa3b91b92014af0d3cf07b62de8..869686526e9791bd743515c991942046
    selection_model_.InvalidateListSelectionModel(base::PassKey<TabStripModel>());
  
    // If a tab is added that does not belong to the focused group (and is not
+@@ -5646,6 +5677,11 @@ bool TabStripModel::IsTabClosable(const tabs::TabInterface* tab) const {
+     return true;
+   }
+ 
++  // Wryling Spaces: a space's Home tab stays (unless the window closes).
++  if (!closing_all_ && wryling::IsSpaceHomeTab(tab)) {
++    return false;
++  }
++
+   web_app::WebAppProvider* provider =
+       web_app::WebAppProvider::GetForWebContents(tab->GetContents());
+   // Can be null if there is no tab helper or app id.
+@@ -5975,7 +6011,9 @@ void TabStripModel::CreateHistoricalSplitIfClosing(
+       }
+     }
+     for (const auto& [split_id, count] : split_closing_counts) {
+-      if (count == 2) {
++      // Wryling: "reopen closed split" only knows two-tab splits; tabs of a
++      // larger split are remembered one by one.
++      if (count == 2 && GetSplitData(split_id)->ListTabs().size() == 2) {
+         delegate_->CreateHistoricalSplit(split_id);
+       }
+     }

@@ -44,7 +44,7 @@
 <translation id="7083341910267693582"><ph name="APP_NAME"/> abrirase en Brave. Ao continuar, aceptas as <ph name="BEGIN_LINK1"/>Condicións de servizo de Brave<ph name="END_LINK1"/>, así como as <ph name="BEGIN_LINK2"/>Condicións de servizo adicionais de Brave e Chrome OS<ph name="END_LINK2"/>.</translation>
 <translation id="7443574521624544928">Non tes ningún contrasinal gardado no xestor de contrasinais de Brave.</translation>
 <translation id="115483310321669804">Usar contrasinal <ph name="PASSWORD"/></translation>
-<translation id="4489415936688888898">Gemini en Brave</translation>
+<translation id="4980210551795949534">Gemini en Wryling</translation>
 <translation id="1161065531352634524">Sincroniza as pestanas e o historial</translation>
 <translation id="1165109137568919258">Tira unha foto ou engade unha imaxe da galería para facer buscas</translation>
 <translation id="1173894706177603556">Cambiar o nome</translation>
@@ -91,8 +91,8 @@
 <translation id="1333491156693005331">Comprobado recentemente</translation>
 <translation id="1336996151357442890">Cancelaches a subscrición a <ph name="SITE_NAME"/>. Preguntaráseche de novo cando volvas visitar o sitio.</translation>
 <translation id="1340839264183302272">Saír do grupo</translation>
-<translation id="873343310451048603">Para comprobar os contrasinais vulnerados, vai ao xestor de contrasinais de Brave</translation>
-<translation id="4167284810587724062">Inicia sesión en Brave</translation>
+<translation id="4973862711373394097">Para comprobar os contrasinais vulnerados, vai ao xestor de contrasinais de Wryling</translation>
+<translation id="5451434122049588189">Inicia sesión en Wryling</translation>
 <translation id="1344653310988386453">Inclúe unha ligazón ao texto destacado</translation>
 <translation id="1355088659320425659">Historial e pestanas</translation>
 <translation id="1363028406613469049">Número de seguimento</translation>
@@ -147,7 +147,7 @@ Se queres ver máis opcións de configuración que usen datos para mellorar a t�
 Só poderán ler os teus datos encriptados as persoas que coñezan a túa frase de acceso. Brave non recibirá nin almacenará a frase de acceso. Se a esqueces ou queres cambiar esta opción de configuración, <ph name="BEGIN_LINK"/>borra os datos de Brave da túa conta<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">Para xestionar a túa conta de Brave, toca o botón Xestionar conta</translation>
 <translation id="1549000191223877751">Mover a outra ventá</translation>
-<translation id="1705567146636171298">Actualizar Brave</translation>
+<translation id="4469722898384489712">Actualizar Wryling</translation>
 <translation id="1554352084785952638"><ph name="SEARCH_ENGINE"/> para "<ph name="SEARCH_TERMS"/>"</translation>
 <translation id="2509230690562869141">Axuda a mellorar Brave para as persoas que o usan igual ca ti</translation>
 <translation id="1568636008098739136">Escoitar esta páxina. Mantén premido este atallo para editalo.</translation>
@@ -207,8 +207,8 @@ Só poderán ler os teus datos encriptados as persoas que coñezan a túa frase 
 <translation id="4544426875066706571">Para protexer os teus datos, permite que Brave quite os permisos dos sitios que leves tempo sen visitar</translation>
 <translation id="1851551847729706116">Compartindo <ph name="TAB_NAME"/> con esta pestana</translation>
 <translation id="1869691326892615940">Contrasinais máis seguros, inicio de sesión máis rápido</translation>
-<translation id="7175072311426658869">Abrir no navegador Brave</translation>
-<translation id="5173820533850252773">Brave está desactualizado</translation>
+<translation id="7259806589727104192">Abrir no navegador Wryling</translation>
+<translation id="1523936557081546133">Wryling está desactualizado</translation>
 <translation id="1877073879466606884">O perfil no que tes a sesión iniciada é un perfil xestionado. A persoa administradora pode facer cambios na súa configuración de forma remota, analizar información sobre o navegador mediante informes e realizar outras tarefas necesarias.</translation>
 <translation id="1879904908408734349">Panel inferior de inicio de sesión pechado</translation>
 <translation id="1883903952484604915">Os meus ficheiros</translation>
@@ -576,7 +576,7 @@ Só poderán ler os teus datos encriptados as persoas que coñezan a túa frase 
 <translation id="3384347053049321195">Compartir imaxe</translation>
 <translation id="3387650086002190359">Produciuse un erro ao descargar <ph name="FILE_NAME"/> debido a erros no sistema de ficheiros.</translation>
 <translation id="5654361895804243820">Podes xestionar as ventás no Xestor de ventás de Brave</translation>
-<translation id="4302350545547675750">Xestiona estes elementos no xestor de contrasinais de Brave</translation>
+<translation id="54130667607538272">Xestiona estes elementos no xestor de contrasinais de Wryling</translation>
 <translation id="3417835166382867856">Realizar buscas nas pestanas</translation>
 <translation id="3430670036890315772">Se desactivas o bloqueo do perfil, quitarase a información gardada</translation>
 <translation id="4114256890962999877">Para poder acceder aos contrasinais, expórtaos agora, actualiza os servizos de Google Play e despois volve importalos no xestor de contrasinais de Brave. <ph name="BEGIN_LINK"/>Ver as instrucións completas.<ph name="END_LINK"/></translation>
@@ -738,7 +738,7 @@ Só poderán ler os teus datos encriptados as persoas que coñezan a túa frase 
 <translation id="4072805772816336153">Téntao de novo máis tarde</translation>
 <translation id="4084682180776658562">Marcador</translation>
 <translation id="4521874409998847950">Contido publicado por <ph name="PUBLISHER_ORIGIN"/> e <ph name="BEGIN_DEEMPHASIZED"/>ofrecido por Brave<ph name="END_DEEMPHASIZED"/></translation>
-<translation id="7268155614575494857">Para axudar ao xestor de contrasinais de Brave a gardar a túa información de inicio de sesión, engade o teu nome de usuario para este sitio</translation>
+<translation id="6708405940091325014">Para axudar ao xestor de contrasinais de Wryling a gardar a túa información de inicio de sesión, engade o teu nome de usuario para este sitio</translation>
 <translation id="4095146165863963773">Queres eliminar os datos da aplicación?</translation>
 <translation id="4095483462103784441">Crear grupo de pestanas</translation>
 <translation id="1523634703470981382">Actualización do xestor de contrasinais de Brave aberta</translation>
@@ -1086,7 +1086,7 @@ Só poderán ler os teus datos encriptados as persoas que coñezan a túa frase 
 <translation id="5532536403031755365">Engade unha capa máis de protección contra as ameazas en liña con protección mellorada</translation>
 <translation id="5540127996007641535">{NUM_BOOKMARKS,plural, =1{Abrir marcador}other{Abrir todos (#)}}</translation>
 <translation id="5548606607480005320">Revisión de seguranza</translation>
-<translation id="4362225295386962644">Cando usas un contrasinal, Brave avísate se se publicou en liña. Ao facelo, os teus contrasinais e os teus nomes de usuario encríptanse, polo que ninguén pode lelos, nin sequera Brave.</translation>
+<translation id="3680104634340426001">Cando usas un contrasinal, Brave avísate se se publicou en liña. Ao facelo, os teus contrasinais e os teus nomes de usuario encríptanse, polo que ninguén pode lelos, nin sequera Brave.</translation>
 <translation id="5555525474779371165">Escolle a protección da función Navegación segura</translation>
 <translation id="5556459405103347317">Volver cargar</translation>
 <translation id="555671485580955310">Sincronizar historial e pestanas</translation>
@@ -1189,7 +1189,7 @@ Só poderán ler os teus datos encriptados as persoas que coñezan a túa frase 
 <translation id="6002122790816966947">Os teus dispositivos</translation>
 <translation id="6011308810877101166">Mellorar as suxestións de busca</translation>
 <translation id="6013305291643746595">Ordenando por máis antigo</translation>
-<translation id="296137235951584143">Personaliza Brave</translation>
+<translation id="4578349172774307195">Personaliza Wryling</translation>
 <translation id="6023820583797130428">Abre o menú para volver</translation>
 <translation id="6026538407078977628">Ampliar a pantalla completa</translation>
 <translation id="6039379616847168523">Saltar á seguinte pestana</translation>
@@ -1248,7 +1248,7 @@ Só poderán ler os teus datos encriptados as persoas que coñezan a túa frase 
 Por exemplo, algúns sitios web poden responder a esta solicitude mostrándoche anuncios que non estean baseados noutros sitios web que visitases. Moitos sitios web seguirán recompilando e utilizando os teus datos de navegación para, por exemplo, mellorar a seguranza, fornecer contido, anuncios e recomendacións e para crear estatísticas de informes.</translation>
 <translation id="623755660902014047">Modo de lectura</translation>
 <translation id="6246073558347462570">Ventá emerxente contextual</translation>
-<translation id="8883879481897424949">Xestor de contrasinais de Brave</translation>
+<translation id="3888885285070224654">Xestor de contrasinais de Wryling</translation>
 <translation id="6248988683584659830">Configuración de busca</translation>
 <translation id="2715956954609894918">Consulta o historial de Brave aquí</translation>
 <translation id="6254139308321626268">Estás vendo un ficheiro PDF</translation>
@@ -1297,7 +1297,7 @@ Por exemplo, algúns sitios web poden responder a esta solicitude mostrándoche 
 <translation id="6394791151443660613">Buscar: <ph name="SEARCH_QUERY"/></translation>
 <translation id="6397616442223433927">De novo en liña</translation>
 <translation id="6399363707848566877">Agora podes engadir facilmente pestanas aos grupos aquí</translation>
-<translation id="8789425457808164956">Para enviar esta pestana a outro dispositivo, inicia sesión en Brave nel</translation>
+<translation id="2522845252291433622">Para enviar esta pestana a outro dispositivo, inicia sesión en Wryling nel</translation>
 <translation id="6404511346730675251">Editar marcador</translation>
 <translation id="6410883413783534063">Abre pestanas para visitar páxinas diferentes ao mesmo tempo</translation>
 <translation id="6411009031428071896">Escoitar o feed</translation>
@@ -1327,7 +1327,7 @@ Por exemplo, algúns sitios web poden responder a esta solicitude mostrándoche 
 <translation id="6482749332252372425">Produciuse un erro ao descargar <ph name="FILE_NAME"/> por falta de espazo de almacenamento.</translation>
 <translation id="6486420406192123355">Este ficheiro PDF procede dun sitio que usa unha conexión pouco segura</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{Ficheiro descargado}other{# descargas completadas}}</translation>
-<translation id="3960299545138990065">Reinicia Brave</translation>
+<translation id="6199441660763014986">Reinicia Wryling</translation>
 <translation id="6513924416597632811">Copiar a ligazón á páxina de resultados de busca para <ph name="SEARCH_QUERY"/>. Fonte: <ph name="PAGE_URL"/></translation>
 <translation id="6518133107902771759">Verificar</translation>
 <translation id="6521218807522232085">Crea, garda e xestiona os teus contrasinais para que poidas iniciar sesión facilmente</translation>
@@ -1357,7 +1357,7 @@ Por exemplo, algúns sitios web poden responder a esta solicitude mostrándoche 
 <translation id="6602173570135186741">Autocompletar e contrasinais</translation>
 <translation id="661266467055912436">Mellora a túa seguranza e a do resto dos usuarios da Web.</translation>
 <translation id="6615455863669487791">Mostrar</translation>
-<translation id="8127050479140582768">Para enviar esta pestana a outro dispositivo, inicia sesión en Brave nos dous dispositivos</translation>
+<translation id="7379057487310867567">Para enviar esta pestana a outro dispositivo, inicia sesión en Wryling nos dous dispositivos</translation>
 <translation id="6627583120233659107">Editar cartafol</translation>
 <translation id="6636623428211296678">Explora máis opcións de configuración a continuación ou remata agora</translation>
 <translation id="7939692063031538305">Para contribuír a mellorar a aplicación, Brave envíalle a Brave datos de uso e de fallos. <ph name="BEGIN_UMA_LINK"/>Xestionar<ph name="END_UMA_LINK"/></translation>
@@ -2027,7 +2027,7 @@ Para cambiar esta opción de configuración, <ph name="BEGIN_LINK"/>elimina os d
 <translation id="9212845824145208577">Non se pode seguir baixando. Proba a comezar desde máis abaixo na páxina.</translation>
 <translation id="9218430445555521422">Establecer como predeterminado</translation>
 <translation id="9219103736887031265">Imaxes</translation>
-<translation id="142389341645668510">Personalizar Brave</translation>
+<translation id="9094133852008074140">Personalizar Wryling</translation>
 <translation id="9222198206152536936">Para poder acceder ás túas pestanas e a outros datos en todos os teus dispositivos, inicia sesión como <ph name="EMAIL"/></translation>
 <translation id="7625138338483121345">Fai que Brave sexa o teu navegador predeterminado</translation>
 <translation id="4596514158372210596">Quitar a túa actividade de Brave de Benestar dixital</translation>
@@ -2057,7 +2057,7 @@ Para cambiar esta opción de configuración, <ph name="BEGIN_LINK"/>elimina os d
 <translation id="5352668640894950863">Bloquear as xanelas privadas ao saír de Brave</translation>
 <translation id="1014490034578104945">Utiliza o bloqueo de pantalla para ver as pestanas de incógnito</translation>
 <translation id="5572558661069030949">Usar o bloqueo de pantalla para ver as xanelas privadas abertas</translation>
-<translation id="2589970573128789862">Modo de incógnito de Brave</translation>
+<translation id="2090681901335274465">Modo de incógnito de Wryling</translation>
 <translation id="5809126106485463836">Co modo privado a túa navegación mantense privada ante os demais que usen o teu dispositivo</translation>
 <translation id="5487565066256782913">Abrir unha nova ventá privada</translation>
 <translation id="5706084539081051088">Cando navegas no modo privado, outras persoas que usen este dispositivo non verán a túa actividade, así que podes navegar de xeito máis privado. <ph name="BEGIN_LINK"/>Máis información<ph name="END_LINK"/></translation>

@@ -104,7 +104,7 @@ Bəzi funksiyalar əlçatmaz ola bilər ki, nəticədə tərcihlərə edilən d�
 <translation id="2137162749895930932">Tərcümə ekranını bağlayın</translation>
 <translation id="5789330946301045610">Sayt güvənli bağlantı istifadə etmədiyi və bu fayla müdaxilə edilmiş ola biləcəyi üçün Brave endirməni blokladı</translation>
 <translation id="2170098639895543546">Səhifədə istədiyinizi seçin</translation>
-<translation id="142389341645668510">Brave'u fərdiləşdirin</translation>
+<translation id="9094133852008074140">Wryling'u fərdiləşdirin</translation>
 <translation id="2174917724755363426">Quraşdırma tamamlanmayıb. Ləğv etmək istədiyinizə əminsiniz?</translation>
 <translation id="8841019650931243995">Brave Origin - Şəbəkəyə Giriş - <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">Yeniləmə yoxlaması xətası: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -203,7 +203,7 @@ Bəzi funksiyalar əlçatmaz ola bilər ki, nəticədə tərcihlərə edilən d�
 <translation id="3137969841538672700">Sürüşdürərək axtarın</translation>
 <translation id="8372436892102763334">Bu tab əlavə resurslardan istifadə edir. Performansı təkmilləşdirmək üçün Brave-a onu deaktiv etmək imkanı verin.</translation>
 <translation id="5949068186379578553">Ekranı paylaşmaq üçün Sistem Ayarlarında Brave üzrə ekranın qeydə alınmasına icazə verin</translation>
-<translation id="4805806622840861220">Brave'u yenidən başladın</translation>
+<translation id="2036272753168211127">Wryling'u yenidən başladın</translation>
 <translation id="3161522574479303604">Bütün dillər</translation>
 <translation id="1742948938503172561">Yeni Brave profilinizi fərdiləşdirin</translation>
 <translation id="2430807206104224491">Tabları dəyişmədən Sİ rejimi ilə söhbətə davam edə bilərsiniz. Başlamaq üçün Brave-a daxil olun. Bütün cihazlarınızda parollarınızı və daha çoxunu da əldə edəcəksiniz.</translation>
@@ -235,7 +235,7 @@ Bəzi funksiyalar əlçatmaz ola bilər ki, nəticədə tərcihlərə edilən d�
 <translation id="8981774130895723211">Ekranı paylaşmaq üçün Sistem Ayarlarında Brave üçün ekranın qeydə alınmasına icazə verin.</translation>
 <translation id="2981961446160697133">Təkmil qoruma Brave-un tanımadığı saytlar üçün JavaScript optimallaşdırmasını söndürür</translation>
 <translation id="3597003331831379823">Artırılmış imtiyazlar ilə ayarlamanı işə salmaq alınmadı. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Brave-a daxil olun</translation>
+<translation id="5451434122049588189">Wryling-a daxil olun</translation>
 <translation id="3066805437003400520">Bu şəxsin axtarış datası bu cihazdan silinəcək. Datanı bərpa etmək üçün Brave'a <ph name="USER_EMAIL"/> olaraq daxil olun.</translation>
 <translation id="3667616615096815454">Quraşdırmaq olmur. Tətbiq serverə məlum deyil.</translation>
 <translation id="1128485277465085828">Brave Hesabındakı bütün Brave datasını şifrələmək üçün <ph name="BEGIN_LINK"/>öz parol ifadələrinizdən<ph name="END_LINK"/> istifadə edin. Google Pay-dən ödəniş metodu və ünvanlar şifrələnməyəcək. Brave-dan brauzer tarixçəsi sinxronlaşdırılmayacaq.</translation>
@@ -278,7 +278,7 @@ Bəzi funksiyalar əlçatmaz ola bilər ki, nəticədə tərcihlərə edilən d�
 <translation id="4055805654398742145">Parol Meneceri</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Brave 1 dəqiqə istifadə edilmədikdə təşkilat onu avtomatik bağlayır. Baxış datası silinir. Bura tarixçə, avto doldurma və endirmələr daxil ola bilər.}other{Brave # dəqiqə istifadə edilmədikdə təşkilat onu avtomatik bağlayır. Baxış datası silinir. Bura tarixçə, avto doldurma və endirmələr daxil ola bilər.}}</translation>
 <translation id="5794951150713244901">Brave haqqında səhifəsinə keçin</translation>
-<translation id="10925962326134232">Brauzerə yeni görünüş tətbiq etmək üçün Brave-u fərdiləşdirin</translation>
+<translation id="908722199085381104">Brauzerə yeni görünüş tətbiq etmək üçün Wryling-u fərdiləşdirin</translation>
 <translation id="6596295505984504022">Brave-u fərdiləşdirin</translation>
 <translation id="4148957013307229264">Quraşdırılır...</translation>
 <translation id="5011704081781303429"><ph name="PAGE_TITLE"/> - Şəbəkəyə Giriş - Brave Origin</translation>
@@ -380,7 +380,7 @@ Bəzi funksiyalar əlçatmaz ola bilər ki, nəticədə tərcihlərə edilən d�
 <translation id="5154625106151193600">Brave-un bəzi faylları bloklama səbəbini öyrənin</translation>
 <translation id="1786715389543715322">Brave güncəllənir (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Brave girişinə icazə verin</translation>
-<translation id="5267531627648004734">Brave'dan silin</translation>
+<translation id="6125790165673488794">Wryling'dan silin</translation>
 <translation id="4620757336635063467">Performansı azaldır, lakin Brave-u hücumlara qarşı davamlı edir</translation>
 <translation id="239760341987199724">Brave'u defolt brauzer təyin edin</translation>
 <translation id="5165277482382778404"><ph name="PAGE_TITLE"/> - Brave Origin Beta</translation>
@@ -559,7 +559,7 @@ Bəzilərini silənə qədər yeni əlfəcinləri hesabınızda yadda saxlamaq o
 <translation id="7024536598735240744">Paketin açılması xətası: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">Brave'u Fərdiləşdirin</translation>
 <translation id="7047386856539490735">Bu nəticələr faydalıdır?</translation>
-<translation id="1705567146636171298">Brave'u güncəlləşdirin</translation>
+<translation id="4469722898384489712">Wryling'u güncəlləşdirin</translation>
 <translation id="5499063270485366718">Şəklin təsviri faydalı deyilsə, Brave Sizin üçün təsviri təmin etməyə çalışacaq. Təsvir yaratmaq üçün şəkillər Brave'a göndərilir.</translation>
 <translation id="1196733835766994012"><ph name="DEVICE_TYPE"/> cihazında Brave tətbiqindən istifadə edərkən Sİ-nin gücündən yararlanın</translation>
 <translation id="7166289504510860270">Telefonunuzdakı Brave tətbiqi ilə parollarınızı, tablarınızı və daha çoxunu istənilən vaxt, istənilən yerdə əldə edin</translation>
@@ -763,7 +763,7 @@ Bəzilərini silənə qədər yeni əlfəcinləri hesabınızda yadda saxlamaq o
 <translation id="8965179855019347124">Telefonunuzdakı Brave tətbiqi ilə Brave-un ən yaxşı Sİ alətlərindən istifadə edin</translation>
 <translation id="9049928023195059068">Digər Brave xidmətlərinə daxil olduqda Brave-a daxil olun</translation>
 <translation id="4561046754724442504">Brave avtomatik bağlandı</translation>
-<translation id="5173820533850252773">Brave'un vaxtı keçib</translation>
+<translation id="1523936557081546133">Wryling'un vaxtı keçib</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave 1 saata yenidən başlayacaq}other{Brave # saata yenidən başlayacaq}}</translation>
 <translation id="9106236359747881194">Axtarmaq üçün mətn seçin</translation>
 <translation id="5190991181158966940">Brave güncəlləmələrini əldə etmək üçün Windows 10 və ya daha yeni versiya tələb olunur. Bu kompüter Windows 8.1 istifadə edir.</translation>
@@ -775,12 +775,12 @@ Bəzilərini silənə qədər yeni əlfəcinləri hesabınızda yadda saxlamaq o
 <translation id="2444257125841652328">Sistem administratoru Brave'u <ph name="TARGET_URL_HOSTNAME"/> ünvanına daxil olmaq məqsədilə alternativ brauzer açmaq üçün konfiqurasiya edib.</translation>
 <translation id="7902365066753170041">&amp;Brave'u güncəlləmək üçün yenidən başladın</translation>
 <translation id="538146372587193686">Brave Origin (mDNS-In)</translation>
-<translation id="296137235951584143">Brave-u fərdiləşdirin</translation>
+<translation id="4578349172774307195">Wryling-u fərdiləşdirin</translation>
 <translation id="7977787072794666032">Brave düzgün işləməyə bilər, çünki daha Windows XP və ya Windows Vista'da dəstəklənmir</translation>
 <translation id="8462937515915443472">Brave vasitəsilə Brave-un ən yaxşı təhlükəsizlik funksiyalarını istənilən vaxt, istənilən yerdə əldə edin.</translation>
 <translation id="945522503751344254">Geri əlaqə göndərin</translation>
 <translation id="4484434718272972655">Brave'u kim istifadə edir?</translation>
-<translation id="7173394303099002355">Brave’un ən güclü güvənlik sistemini əldə edin</translation>
+<translation id="1158507424343802366">Wryling’un ən güclü güvənlik sistemini əldə edin</translation>
 <translation id="983803489796659991">Yeniləmə serverində tətbiq heş datası olmadığı üçün quraşdırma alınmadı.</translation>
 <translation id="8435446479956716379">Hesab olmadan Brave istifadə edin</translation>
 <translation id="8992261409816268381">Brave Müəllifləri</translation>
@@ -817,6 +817,6 @@ Bəzilərini silənə qədər yeni əlfəcinləri hesabınızda yadda saxlamaq o
               other {Təkmilləşdirilmiş Mühafizə yeniləmənin tətbiqi üçün Brave-i yenidən başlatmağınızı tələb edir. # Şəxsi pəncərə yenidən açılmayacaq.}}</translation>
 <translation id="5749154344207139683">Bu 1 dəqiqəlik sorğuda iştirak etməklə Məxfiliyi təkmilləşdirməyimizə kömək edin.</translation>
 <translation id="79269250264141507">Ünvan panelinə və ya axtarış qutusuna yazdıqda, Brave daha yaxşı tövsiyələr vermək üçün yazdıqlarınızı standart axtarış mühərrikinizə göndərir. Bu xüsusiyyət Gizli rejimdə bağlıdır.</translation>
-<translation id="2589970573128789862">Brave Gizli rejimi</translation>
+<translation id="2090681901335274465">Wryling Gizli rejimi</translation>
 <translation id="5994282802285556682">İnternetə Gizli rejimdə baxarkən Brave təhlükəli bağlantıya malik bir saytdan istifadə etməzdən əvvəl sizə xəbərdarlıq göndərir</translation>
 </translationbundle>

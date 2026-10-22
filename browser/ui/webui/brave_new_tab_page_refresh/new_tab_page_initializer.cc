@@ -81,8 +81,8 @@ namespace {
 
 using regional_capabilities::RegionalCapabilitiesServiceFactory;
 
-constexpr char kBraveSearchHost[] = "search.brave.com";
 constexpr char kYahooSearchHost[] = "search.yahoo.co.jp";
+constexpr char kDuckDuckGoSearchHost[] = "duckduckgo.com";
 
 }  // namespace
 
@@ -97,7 +97,8 @@ std::string_view GetSearchDefaultHost(
     return kYahooSearchHost;
   }
 
-  return kBraveSearchHost;
+  // Wryling: DuckDuckGo is the search box's default engine.
+  return kDuckDuckGoSearchHost;
 }
 
 NewTabPageInitializer::NewTabPageInitializer(content::WebUI& web_ui)

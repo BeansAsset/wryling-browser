@@ -1,8 +1,16 @@
 diff --git a/chrome/browser/ui/views/frame/browser_view.cc b/chrome/browser/ui/views/frame/browser_view.cc
-index 32b047fd1ff48a6cf7a3a82c902b21e69ff3aa06..ff9a8c3d5b9804504ad6cf006bb6e7c111618eb8 100644
+index 32b047fd1ff48a6cf7a3a82c902b21e69ff3aa06..792eb08728358e34e97df1db04781918b52a5104 100644
 --- a/chrome/browser/ui/views/frame/browser_view.cc
 +++ b/chrome/browser/ui/views/frame/browser_view.cc
-@@ -644,6 +644,7 @@ bool ConvertedHitTest(views::View* src, views::View* dst, gfx::Point* point) {
+@@ -168,6 +168,7 @@
+ #include "chrome/browser/ui/views/frame/layout/browser_view_layout_delegate_impl.h"
+ #include "chrome/browser/ui/views/frame/main_background_region_view.h"
+ #include "chrome/browser/ui/views/frame/multi_contents_view.h"
++#include "brave/browser/ui/views/frame/split_view/wryling_split_drop.h"
+ #include "chrome/browser/ui/views/frame/multi_contents_view_delegate.h"
+ #include "chrome/browser/ui/views/frame/multi_contents_view_drop_target_controller.h"
+ #include "chrome/browser/ui/views/frame/multi_contents_view_mini_toolbar.h"
+@@ -644,6 +645,7 @@ bool ConvertedHitTest(views::View* src, views::View* dst, gfx::Point* point) {
    DCHECK(src);
    DCHECK(dst);
    DCHECK(point);
@@ -10,7 +18,7 @@ index 32b047fd1ff48a6cf7a3a82c902b21e69ff3aa06..ff9a8c3d5b9804504ad6cf006bb6e7c1
    views::View::ConvertPointToTarget(src, dst, point);
    return dst->HitTestPoint(*point);
  }
-@@ -1998,6 +1999,7 @@ void BrowserView::OnActiveTabChanged(content::WebContents* old_contents,
+@@ -1998,6 +2000,7 @@ void BrowserView::OnActiveTabChanged(content::WebContents* old_contents,
        !browser_->GetTabStripModel()->closing_all() && GetWidget()->IsActive() &&
        GetWidget()->IsVisible() && !tab_change_in_split_view;
  #endif
@@ -18,3 +26,110 @@ index 32b047fd1ff48a6cf7a3a82c902b21e69ff3aa06..ff9a8c3d5b9804504ad6cf006bb6e7c1
    // Update various elements that are interested in knowing the current
    // WebContents.
  
+@@ -2015,7 +2018,13 @@ void BrowserView::OnActiveTabChanged(content::WebContents* old_contents,
+       GetWidget()->GetFocusManager()->ClearFocus();
+     }
+ 
+-    multi_contents_view_->GetInactiveContentsView()->SetWebContents(nullptr);
++    // Wryling: a split can have up to four panes.
++    for (ContentsContainerView* container :
++         multi_contents_view_->contents_container_views()) {
++      if (container->contents_view() != active_contents_view) {
++        container->contents_view()->SetWebContents(nullptr);
++      }
++    }
+     active_contents_view->SetWebContents(nullptr);
+   }
+ 
+@@ -2467,6 +2476,12 @@ void BrowserView::TabDraggingStatusChanged(bool is_dragging) {
+ 
+ TabDragTarget* BrowserView::GetTabDragTarget(
+     const gfx::Point& point_in_screen) {
++  // Wryling: dragging a tab onto the page splits it (any edge of any pane).
++  if (TabDragTarget* target = wryling::GetSplitDropTarget(
++          static_cast<views::View*>(multi_contents_view_.get()),
++          point_in_screen)) {
++    return target;
++  }
+   if (ShouldDrawVerticalTabStrip()) {
+     if (vertical_tab_strip_region_view_) {
+       if (auto* target = vertical_tab_strip_region_view_->GetTabDragTarget(
+@@ -3485,7 +3500,15 @@ void BrowserView::OnSplitTabChanged(const SplitTabChange& change) {
+           browser_->GetTabStripModel()->GetActiveTab();
+ 
+       if (active_tab->GetSplit() == change.split_id) {
+-        multi_contents_view_->SwapContentsInSplitView();
++        // Wryling: only a two-pane split can swap in place.
++        if (browser_->GetTabStripModel()
++                ->GetSplitData(change.split_id)
++                ->ListTabs()
++                .size() == 2) {
++          multi_contents_view_->SwapContentsInSplitView();
++        } else {
++          ShowSplitView(/*focus_active_view=*/false);
++        }
+       }
+       break;
+     }
+@@ -4309,6 +4332,11 @@ void BrowserView::ShowSplitView(bool focus_active_view) {
+   for (size_t i = 0; tabs::TabInterface* tab : split_tabs) {
+     multi_contents_view_->SetWebContentsAtIndex(tab->GetContents(), i++);
+   }
++  // Wryling: hide panes a smaller split doesn't use.
++  for (size_t i = std::max<size_t>(split_tabs.size(), 2);
++       i < multi_contents_view_->contents_container_views().size(); ++i) {
++    multi_contents_view_->SetWebContentsAtIndex(nullptr, i);
++  }
+   const int first_split_tab_index =
+       browser_->GetTabStripModel()->GetIndexOfTab(split_tabs[0]);
+   const int relative_active_position = active_index - first_split_tab_index;
+@@ -4355,18 +4383,28 @@ void BrowserView::UpdateActiveTabInSplitView() {
+   // However, there are cases where inactive tab can be activated without a
+   // focus change e.g. using tab shortcuts and in these cases update focus.
+   if (GetWidget()->IsActive() &&
+-      multi_contents_view_->GetInactiveContentsView()->HasFocus()) {
++      std::ranges::any_of(
++          multi_contents_view_->contents_container_views(),
++          [this](ContentsContainerView* container) {
++            return container->GetVisible() &&
++                   container->contents_view() !=
++                       multi_contents_view_->GetActiveContentsView() &&
++                   container->contents_view()->HasFocus();
++          })) {
+     multi_contents_view_->GetActiveContentsView()->RequestFocus();
+   }
+ }
+ 
+ bool BrowserView::IsTabChangeInSplitView(content::WebContents* old_contents,
+                                          content::WebContents* new_contents) {
++  // Wryling: `new_contents` can be any other pane of the split.
+   return multi_contents_view_->IsInSplitView() &&
+          multi_contents_view_->GetActiveContentsView()->web_contents() ==
+              old_contents &&
+-         multi_contents_view_->GetInactiveContentsView()->web_contents() ==
+-             new_contents;
++         new_contents && new_contents != old_contents &&
++         multi_contents_view_->GetContentsContainerViewFor(new_contents) &&
++         multi_contents_view_->GetContentsContainerViewFor(new_contents)
++             ->GetVisible();
+ }
+ 
+ void BrowserView::UpdateTabModalDialogHost() {
+@@ -4418,10 +4456,14 @@ void BrowserView::MaybeUpdateStoredFocusForWebContents(
+ std::vector<ContentsWebView*> BrowserView::GetAllVisibleContentsWebViews() {
+   std::vector<ContentsWebView*> contents_views;
+   contents_views.push_back(multi_contents_view_->GetActiveContentsView());
+-  ContentsWebView* inactive_contents_view =
+-      multi_contents_view_->GetInactiveContentsView();
+   if (multi_contents_view_->IsInSplitView()) {
+-    contents_views.push_back(inactive_contents_view);
++    for (ContentsContainerView* container :
++         multi_contents_view_->contents_container_views()) {
++      if (container->GetVisible() &&
++          container->contents_view() != contents_views[0]) {
++        contents_views.push_back(container->contents_view());
++      }
++    }
+   }
+   return contents_views;
+ }

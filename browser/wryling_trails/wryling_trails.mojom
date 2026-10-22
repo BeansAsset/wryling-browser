@@ -1,0 +1,91 @@
+// Copyright (c) 2026 The Brave Authors. All rights reserved.
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this file,
+// You can obtain one at https://mozilla.org/MPL/2.0/.
+
+module wryling_trails.mojom;
+
+import "url/mojom/url.mojom";
+
+// One page in a trail.
+struct TrailNode {
+  int64 id;
+  // The page this one was reached from; 0 for the page the trail started on.
+  int64 parent;
+  url.mojom.Url url;
+  string title;
+  // The page's icon as the page declared it (may be empty; the page URL also
+  // works with chrome://favicon2/?pageUrl=...).
+  url.mojom.Url favicon_url;
+  // Milliseconds since the Unix epoch.
+  double time;
+  // Pages on one line share a branch number. A page that is not the first
+  // thing its parent led to starts a new branch; 0 is the trail's main line.
+  int32 branch;
+  // Reached by a form POST; restoring it loads the URL afresh instead.
+  bool form_submission;
+  bool opened_in_new_tab;
+  // Redirects passed through before landing on `url`.
+  array<url.mojom.Url> redirects;
+  // Id of the tab showing this page right now, or -1.
+  int32 open_in_tab;
+};
+
+struct Trail {
+  int64 id;
+  // Search terms when the trail began on a search, else its first page's
+  // title (or host).
+  string title;
+  // Milliseconds since the Unix epoch of the latest visit in the trail.
+  double last_visit;
+  // In visit order; a page's parent always comes before it.
+  array<TrailNode> nodes;
+};
+
+enum RestoreResult {
+  kNotFound,
+  // A tab already showed the page; it was brought to the front.
+  kSwitchedTab,
+  // The tab still had the page in its back/forward list and went there.
+  kWentBack,
+  // The page was loaded again by URL.
+  kLoaded,
+  // The page came from a form submission. It can't be resubmitted safely, so
+  // its URL was opened as a fresh visit (say so in the UI).
+  kLoadedFresh,
+  // backToBranchPoint: the current trail has no branch point.
+  kNoBranchPoint,
+};
+
+// wryling://history (chrome://history) -> browser.
+interface PageHandler {
+  // Receives change notifications.
+  SetPage(pending_remote<Page> page);
+
+  // Trails with at least two pages, most recently visited first, limited to
+  // ones visited since `since` (ms since epoch, 0 for all).
+  GetTrails(double since, int32 max_count) => (array<Trail> trails);
+
+  // The trail a page belongs to.
+  GetTrailForNode(int64 node_id) => (Trail? trail);
+
+  // The trail of the page a tab shows, and that page's id (0 if none).
+  GetTrailForTab(int32 tab_id) => (Trail? trail, int64 current_node);
+
+  // Opens a page of a trail: switches to a tab that shows it, else opens it in
+  // a new tab, which then continues the trail from that page.
+  Restore(int64 node_id) => (RestoreResult result);
+
+  // Takes the tab back to where its current line branched off (the nearest
+  // earlier page that led to more than one page).
+  BackToBranchPoint(int32 tab_id) => (RestoreResult result, int64 node_id);
+
+  // Forgets a trail.
+  DeleteTrail(int64 trail_id);
+};
+
+// browser -> wryling://history.
+interface Page {
+  // Trails changed (a visit, a title, a deletion). Coalesced; refetch.
+  OnTrailsChanged();
+};

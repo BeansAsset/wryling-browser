@@ -1,0 +1,40 @@
+diff --git a/chrome/browser/ui/views/chrome_layout_provider.cc b/chrome/browser/ui/views/chrome_layout_provider.cc
+index 7814bc018a066c7ae9cdcb873ce7c7d354e74d9f..15e5a9c48c068ad7aace93d63a18ab7b18a40622 100644
+--- a/chrome/browser/ui/views/chrome_layout_provider.cc
++++ b/chrome/browser/ui/views/chrome_layout_provider.cc
+@@ -7,6 +7,7 @@
+ #include <algorithm>
+ 
+ #include "base/feature_list.h"
++#include "build/build_config.h"
+ #include "chrome/browser/ui/ui_features.h"
+ #include "chrome/browser/ui/views/chrome_typography.h"
+ #include "components/omnibox/common/omnibox_features.h"
+@@ -48,7 +49,12 @@ gfx::Insets ChromeLayoutProvider::GetInsetsMetric(int metric) const {
+   switch (metric) {
+     case views::INSETS_DIALOG:
+     case views::INSETS_DIALOG_SUBSECTION: {
++#if BUILDFLAG(IS_MAC)
++      // Wryling: popovers and dialogs use 16pt padding.
++      return gfx::Insets::VH(16, 16);
++#else
+       return gfx::Insets::VH(20, 20);
++#endif
+     }
+     case views::INSETS_DIALOG_FOOTNOTE: {
+       return gfx::Insets::TLBR(10, 20, 15, 20);
+@@ -78,9 +84,14 @@ gfx::Insets ChromeLayoutProvider::GetInsetsMetric(int metric) const {
+       const gfx::Insets insets =
+           LayoutProvider::GetInsetsMetric(views::INSETS_LABEL_BUTTON);
+       const int horizontal_padding = 20;
++#if BUILDFLAG(IS_MAC)
++      // Wryling: compact, menu-like rows (about 30pt) in page info.
++      return gfx::Insets::VH(7, 14);
++#else
+       // Hover button in page info requires double the height compared to the
+       // label button because it behaves like a menu control.
+       return gfx::Insets::VH(insets.height(), horizontal_padding);
++#endif
+     }
+     case INSETS_RECENT_ACTIVITY_IMAGE_MARGIN:
+       return gfx::Insets::TLBR(0, 12, 0, 16);

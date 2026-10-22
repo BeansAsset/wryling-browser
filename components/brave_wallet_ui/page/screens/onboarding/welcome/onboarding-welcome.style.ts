@@ -5,23 +5,14 @@
 
 import styled from 'styled-components'
 import Icon from '@brave/leo/react/icon'
-import * as leo from '@brave/leo/tokens/css/variables'
-
-// assets
-import backgroundImageLight from '../../../../assets/svg-icons/onboarding/welcome_background_light.svg'
-import backgroundImageDark from '../../../../assets/svg-icons/onboarding/welcome_background_dark.svg'
-// styles
 import { Column } from '../../../../components/shared/style'
-import { layoutPanelWidth } from '../../../../components/desktop/wallet-page-wrapper/wallet-page-wrapper.style'
 
 export const WelcomePageBackground = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(${backgroundImageLight});
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: var(--wry-canvas);
   position: fixed;
   top: 0;
   left: 0;
@@ -29,9 +20,6 @@ export const WelcomePageBackground = styled.div`
   bottom: 0;
   z-index: 0;
 
-  @media (prefers-color-scheme: dark) {
-    background-image: url(${backgroundImageDark});
-  }
 `
 
 export const WelcomePageWrapper = styled(Column)`
@@ -39,11 +27,7 @@ export const WelcomePageWrapper = styled(Column)`
   justify-content: center;
   align-items: center;
   min-width: 100%;
-  padding-top: 48px;
-
-  @media (min-width: 1025px) {
-    padding-top: 158px;
-  }
+  padding-block: var(--wry-space-12);
 `
 
 export const Content = styled(Column)`
@@ -51,8 +35,8 @@ export const Content = styled(Column)`
   align-items: center;
   justify-content: flex-start;
   z-index: 3;
-  padding: 0px 24px;
-  max-width: 812px;
+  padding: 0 var(--wry-space-6);
+  max-width: var(--wry-content-width);
 
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     width: 100%;
@@ -62,39 +46,27 @@ export const Content = styled(Column)`
 export const BraveIcon = styled(Icon).attrs({
   name: 'brave-icon-release-color',
 })`
-  --leo-icon-size: 20px;
+  --leo-icon-size: var(--wry-icon);
 `
 
 export const Title = styled.h4`
-  font: ${leo.font.large.semibold};
-  color: ${leo.color.text.primary};
+  font: var(--wry-headline);
+  color: var(--wry-text);
   margin: 0;
-
-  @media screen and (max-width: ${layoutPanelWidth}px) {
-    font-size: 18px;
-  }
 `
 
 export const Heading = styled.h1`
-  font: ${leo.font.heading.display1};
-  color: ${leo.color.text.primary};
+  font: var(--wry-large-title);
+  color: var(--wry-text);
   margin: 0;
-  padding-bottom: 16px;
-
-  @media screen and (max-width: ${layoutPanelWidth}px) {
-    font-size: 36px;
-    line-height: 48px;
-  }
+  padding-bottom: var(--wry-space-4);
 `
 
 export const SubHeading = styled.h3`
-  color: ${leo.color.text.tertiary};
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
+  color: var(--wry-text-secondary);
+  font: var(--wry-body);
   margin: 0;
-  padding: 0 0 48px 0;
+  padding: 0 0 var(--wry-space-6);
 `
 
 export const ActionsContainer = styled.div`
@@ -102,7 +74,7 @@ export const ActionsContainer = styled.div`
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  gap: ${leo.spacing['3Xl']};
+  gap: var(--wry-space-2);
 
   /* media query for desktop */
   @media (min-width: 1025px) {
@@ -111,8 +83,8 @@ export const ActionsContainer = styled.div`
 `
 
 export const Footer = styled.footer`
-  color: ${leo.color.text.secondary};
-  font: ${leo.font.default.regular};
+  color: var(--wry-text-secondary);
+  font: var(--wry-callout);
   margin: 0;
-  padding-bottom: 72px;
+  padding-bottom: var(--wry-space-6);
 `

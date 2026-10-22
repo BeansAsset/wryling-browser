@@ -9,6 +9,7 @@
 #include <utility>
 
 #include "base/functional/bind.h"
+#include "build/build_config.h"
 #include "chrome/browser/ui/color/chrome_color_id.h"
 #include "chrome/browser/ui/layout_constants.h"
 #include "chrome/browser/ui/views/location_bar/location_bar_util.h"
@@ -99,6 +100,11 @@ views::Widget* BraveShieldsActionView::GetBubbleWidget() {
 
 void BraveShieldsActionView::Update() {
   controller_->RefreshButtonImages(this);
+#if BUILDFLAG(IS_MAC)
+  // Wryling: on internal and local pages Shields does nothing, so leave the
+  // address pill without it rather than showing a disabled shield.
+  SetVisible(controller_->AppliesToActiveTab());
+#endif
 }
 
 std::unique_ptr<views::LabelButtonBorder>

@@ -104,7 +104,7 @@
 <translation id="2137162749895930932">Pechar a pantalla de tradución</translation>
 <translation id="5789330946301045610">Brave bloqueou esta descarga porque a conexión que usa o sitio non é segura, polo que é posible que o ficheiro se manipulase</translation>
 <translation id="2170098639895543546">Selecciona calquera cousa da páxina</translation>
-<translation id="142389341645668510">Personalizar Brave</translation>
+<translation id="9094133852008074140">Personalizar Wryling</translation>
 <translation id="2174917724755363426">A instalación non finalizou. Seguro que queres cancelala?</translation>
 <translation id="8841019650931243995">Brave Origin (inicio de sesión de rede, <ph name="PAGE_TITLE"/>)</translation>
 <translation id="2190166659037789668">Produciuse un erro durante a comprobación de actualizacións: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -203,7 +203,7 @@
 <translation id="3137969841538672700">Arrastra o recadro para facer buscas</translation>
 <translation id="8372436892102763334">Esta pestana está usando recursos adicionais. Para mellorar o rendemento, permite que Brave a desactive.</translation>
 <translation id="5949068186379578553">Para compartir a pantalla, vai á configuración do sistema e activa a función de gravación de pantalla para Brave</translation>
-<translation id="4805806622840861220">Reiniciar Brave</translation>
+<translation id="2036272753168211127">Reiniciar Wryling</translation>
 <translation id="3161522574479303604">Todos os idiomas</translation>
 <translation id="1742948938503172561">Personaliza o teu novo perfil de Brave</translation>
 <translation id="2430807206104224491">Podes seguir chateando co modo IA sen cambiar de pestana. Para comezar, inicia sesión en Brave. Tamén terás acceso aos teus contrasinais e moito máis en todos os teus dispositivos.</translation>
@@ -237,7 +237,7 @@
 <translation id="8981774130895723211">Para compartir a pantalla, vai á configuración do sistema e activa a función de gravación de pantalla para Brave.</translation>
 <translation id="2981961446160697133">Coa protección mellorada, desactívase a optimización de JavaScript para os sitios que Brave non recoñece</translation>
 <translation id="3597003331831379823">Produciuse un erro ao executar a configuración con privilexios avanzados. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Inicia sesión en Brave</translation>
+<translation id="5451434122049588189">Inicia sesión en Wryling</translation>
 <translation id="3066805437003400520">Os datos de navegación desta persoa eliminaranse deste dispositivo. Para recuperalos, inicia sesión en Brave como <ph name="USER_EMAIL"/>.</translation>
 <translation id="3667616615096815454">Non se puido levar a cabo a instalación. O servidor non recoñece a aplicación.</translation>
 <translation id="1128485277465085828">Usa a túa <ph name="BEGIN_LINK"/>propia frase de acceso<ph name="END_LINK"/> para encriptar todos os datos de Brave na túa Conta de Brave. Non se encriptarán os métodos de pago nin os enderezos de Google Pay. Tampouco se sincronizará o historial de navegación de Brave.</translation>
@@ -280,7 +280,7 @@
 <translation id="4055805654398742145">X&amp;estor de contrasinais</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{A túa organización pechará Brave automaticamente cando leve 1 minuto sen usarse. Os datos de navegación (entre os que se poderían incluír o historial, os datos da función de autocompletar e as descargas) eliminaranse.}other{A túa organización pechará Brave automaticamente cando leve # minuto sen usarse. Os datos de navegación (entre os que se poderían incluír o historial, os datos da función de autocompletar e as descargas) eliminaranse.}}</translation>
 <translation id="5794951150713244901">Vai á páxina Acerca de Brave</translation>
-<translation id="10925962326134232">Personaliza Brave para darlle outro aire ao navegador</translation>
+<translation id="908722199085381104">Personaliza Wryling para darlle outro aire ao navegador</translation>
 <translation id="6596295505984504022">Personalizar o teu Brave</translation>
 <translation id="4148957013307229264">Instalando...</translation>
 <translation id="5011704081781303429"><ph name="PAGE_TITLE"/> (Inicio de sesión, Brave Origin)</translation>
@@ -382,7 +382,7 @@
 <translation id="5154625106151193600">Descubre por que Brave bloquea algúns ficheiros</translation>
 <translation id="1786715389543715322">Actualizando Brave (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Permitir inicio de sesión en Brave</translation>
-<translation id="5267531627648004734">Eliminar de Brave</translation>
+<translation id="6125790165673488794">Eliminar de Wryling</translation>
 <translation id="4620757336635063467">Reduce o rendemento, pero fai que Brave sexa máis resistente aos ataques</translation>
 <translation id="239760341987199724">Establecer Brave como o teu navegador predeterminado</translation>
 <translation id="5165277482382778404"><ph name="PAGE_TITLE"/> (versión beta de Brave Origin)</translation>
@@ -561,7 +561,7 @@ Non poderás gardar máis ata que elimines uns cantos. Se pechas a sesión agora
 <translation id="7024536598735240744">Produciuse un erro na descompresión: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">Personaliza Brave</translation>
 <translation id="7047386856539490735">Estes resultados son útiles?</translation>
-<translation id="1705567146636171298">Actualizar Brave</translation>
+<translation id="4469722898384489712">Actualizar Wryling</translation>
 <translation id="5499063270485366718">Se unha imaxe non ten unha descrición útil, Brave tentará proporcionarche unha. Para crear descricións, envíanse imaxes a Brave.</translation>
 <translation id="1196733835766994012">Goza de todo o potencial da IA ao usar a aplicación Brave no teu dispositivo <ph name="DEVICE_TYPE"/></translation>
 <translation id="7166289504510860270">Leva contigo os teus contrasinais, pestanas e moito máis esteas onde esteas coa aplicación Brave no teléfono</translation>
@@ -767,7 +767,7 @@ Brave non pode recuperar a túa configuración.</translation>
 <translation id="8965179855019347124">Usa as mellores ferramentas de IA de Brave coa aplicación Brave no teléfono</translation>
 <translation id="9049928023195059068">Iniciar sesión en Brave cando inicies sesión noutros servizos de Brave</translation>
 <translation id="4561046754724442504">Brave pechouse automaticamente</translation>
-<translation id="5173820533850252773">Brave está desactualizado</translation>
+<translation id="1523936557081546133">Wryling está desactualizado</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave reiniciarase en 1 hora}other{Brave reiniciarase en # horas}}</translation>
 <translation id="9106236359747881194">Selecciona un texto para buscalo</translation>
 <translation id="5190991181158966940">Se queres recibir actualizacións de Brave no futuro, debes instalar Windows 10 ou unha versión posterior. Este ordenador ten instalado Windows 8.1.</translation>
@@ -779,12 +779,12 @@ Brave non pode recuperar a túa configuración.</translation>
 <translation id="2444257125841652328">A persoa que administra o teu sistema configurou Brave para abrir outro navegador co obxectivo de acceder a <ph name="TARGET_URL_HOSTNAME"/>.</translation>
 <translation id="7902365066753170041">Reiniciar para actualizar &amp;Brave</translation>
 <translation id="538146372587193686">Brave Origin (mDNS-In)</translation>
-<translation id="296137235951584143">Personaliza Brave</translation>
+<translation id="4578349172774307195">Personaliza Wryling</translation>
 <translation id="7977787072794666032">É posible que Brave non funcione correctamente porque xa non admite Windows XP nin Windows Vista</translation>
 <translation id="8462937515915443472">Goza das mellores funcións de seguranza de Brave esteas onde esteas con Brave.</translation>
 <translation id="945522503751344254">Enviar comentarios</translation>
 <translation id="4484434718272972655">Quen está utilizando Brave?</translation>
-<translation id="7173394303099002355">Goza da máxima seguranza de Brave</translation>
+<translation id="1158507424343802366">Goza da máxima seguranza de Wryling</translation>
 <translation id="983803489796659991">Produciuse un erro na instalación porque o servidor de actualizacións non ten ningún dato de hash para a aplicación.</translation>
 <translation id="8435446479956716379">Usar Brave sen ningunha conta</translation>
 <translation id="8992261409816268381">Os autores de Brave</translation>
@@ -809,6 +809,6 @@ Brave non pode recuperar a túa configuración.</translation>
 <translation id="1400696845469684552">{COUNT, plural, =0 {A Protección avanzada require que reinicies Brave para aplicar unha actualización} =1 {A Protección avanzada require que reinicies Brave para aplicar unha actualización. A túa xanela privada non se volverá abrir.} other {A Protección avanzada require que reinicies Brave para aplicar unha actualización. As túas # xanelas privadas non se volverán abrir.}}</translation>
 <translation id="5749154344207139683">Axúdanos a mellorar o modo incógnito ao completar esta enquisa de 1 minuto.</translation>
 <translation id="79269250264141507">Cando escribas na barra de enderezos ou na caixa de busca, Brave enviará o que escribas ao teu motor de busca predeterminado para obter mellores suxestións. Esta opción está desactivada na opción Privado.</translation>
-<translation id="2589970573128789862">Modo de incógnito de Brave</translation>
+<translation id="2090681901335274465">Modo de incógnito de Wryling</translation>
 <translation id="5994282802285556682">Cando navegues no modo privado, Brave avisarate antes de cargar un sitio cunha conexión insegura</translation>
 </translationbundle>

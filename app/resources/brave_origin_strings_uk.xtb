@@ -102,7 +102,7 @@ Brave потрібен доступ до Bluetooth. <ph name="IDS_SERIAL_DEVICE_
 <translation id="2137162749895930932">Закрити екран перекладу</translation>
 <translation id="5789330946301045610">Веб-переглядач Brave заблокував завантаження, оскільки цей сайт використовує ненадійне з’єднання й файл може бути підробленим</translation>
 <translation id="2170098639895543546">Виберіть будь-що на сторінці</translation>
-<translation id="142389341645668510">Налаштувати Brave</translation>
+<translation id="9094133852008074140">Налаштувати Wryling</translation>
 <translation id="2174917724755363426">Встановлення не завершено. Скасувати його?</translation>
 <translation id="8841019650931243995">Brave Origin – Вхід у мережу– <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">Помилка перевірки наявності оновлень: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -201,7 +201,7 @@ Brave потрібен доступ до Bluetooth. <ph name="IDS_SERIAL_DEVICE_
 <translation id="3137969841538672700">Перетягніть, щоб вибрати область для пошуку</translation>
 <translation id="8372436892102763334">Ця вкладка використовує додаткові ресурси. Щоб підвищити продуктивність, дозвольте Brave зробити її неактивною.</translation>
 <translation id="5949068186379578553">Щоб показувати свій екран, у системних параметрах дозвольте Brave записувати відео з екрана</translation>
-<translation id="4805806622840861220">Перезапустити Brave</translation>
+<translation id="2036272753168211127">Перезапустити Wryling</translation>
 <translation id="3161522574479303604">Усі мови</translation>
 <translation id="1742948938503172561">Налаштуйте свій новий профіль Brave</translation>
 <translation id="2430807206104224491">Ви можете й далі спілкуватися в режимі ШІ, не перемикаючись між вкладками. Щоб почати, увійдіть у Brave. Ви також отримаєте доступ до паролів і інших даних на всіх своїх пристроях.</translation>
@@ -235,7 +235,7 @@ Brave потрібен доступ до Bluetooth. <ph name="IDS_SERIAL_DEVICE_
 <translation id="8981774130895723211">Щоб показувати свій екран, у системних параметрах дозвольте Brave записувати відео з екрана.</translation>
 <translation id="2981961446160697133">Покращений захист вимикає оптимізацію JavaScript для сайтів, які Brave не розпізнає</translation>
 <translation id="3597003331831379823">Не вдалося виконати налаштування з розширеними повноваженнями. <ph name="METAINSTALLER_ERROR"/>.</translation>
-<translation id="4167284810587724062">Увійдіть у Brave</translation>
+<translation id="5451434122049588189">Увійдіть у Wryling</translation>
 <translation id="3066805437003400520">Дані веб-перегляду користувача буде видалено з цього пристрою. Щоб відновити їх, увійдіть в обліковий запис Brave як <ph name="USER_EMAIL"/>.</translation>
 <translation id="3667616615096815454">Не вдалося встановити, оскільки цей додаток невідомий для сервера.</translation>
 <translation id="1128485277465085828">Використовувати <ph name="BEGIN_LINK"/>власну парольну фразу<ph name="END_LINK"/> для шифрування всіх даних Brave в обліковому записі Brave. Способи оплати й адреси з Google Pay не шифруватимуться. Історія вебперегляду з Brave не синхронізуватиметься.</translation>
@@ -278,7 +278,7 @@ Brave потрібен доступ до Bluetooth. <ph name="IDS_SERIAL_DEVICE_
 <translation id="4055805654398742145">М&amp;енеджер паролів</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Ваша організація автоматично закриє веб-переглядач Brave, якщо він не використовується протягом 1 хвилини. Дані веб-перегляду буде видалено. Це може включати історію, дані автозаповнення й завантаження.}one{Ваша організація автоматично закриє веб-переглядач Brave, якщо він не використовується протягом # хвилини. Дані веб-перегляду буде видалено. Це може включати історію, дані автозаповнення й завантаження.}few{Ваша організація автоматично закриє веб-переглядач Brave, якщо він не використовується протягом # хвилин. Дані веб-перегляду буде видалено. Це може включати історію, дані автозаповнення й завантаження.}many{Ваша організація автоматично закриє веб-переглядач Brave, якщо він не використовується протягом # хвилин. Дані веб-перегляду буде видалено. Це може включати історію, дані автозаповнення й завантаження.}other{Ваша організація автоматично закриє веб-переглядач Brave, якщо він не використовується протягом # хвилини. Дані веб-перегляду буде видалено. Це може включати історію, дані автозаповнення й завантаження.}}</translation>
 <translation id="5794951150713244901">Перейти на сторінку "Про Brave"</translation>
-<translation id="10925962326134232">Налаштуйте вигляд вебпереглядача Brave</translation>
+<translation id="908722199085381104">Налаштуйте вигляд вебпереглядача Wryling</translation>
 <translation id="6596295505984504022">Н&amp;алаштувати Brave</translation>
 <translation id="4148957013307229264">Встановлення...</translation>
 <translation id="5011704081781303429"><ph name="PAGE_TITLE"/> – Вхід у мережу – Brave Origin</translation>
@@ -380,7 +380,7 @@ Brave потрібен доступ до Bluetooth. <ph name="IDS_SERIAL_DEVICE_
 <translation id="5154625106151193600">Чому Brave блокує деякі файли</translation>
 <translation id="1786715389543715322">Brave оновлюється (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Дозволити вхід у Brave</translation>
-<translation id="5267531627648004734">Видалити з Brave</translation>
+<translation id="6125790165673488794">Видалити з Wryling</translation>
 <translation id="4620757336635063467">Знижує продуктивність, але робить вебпереглядач Brave стійкішим до атак</translation>
 <translation id="239760341987199724">Зробити Brave веб-переглядачем за умовчанням</translation>
 <translation id="5165277482382778404"><ph name="PAGE_TITLE"/> – Бета-версія Brave Origin</translation>
@@ -559,7 +559,7 @@ Brave потрібен доступ до Bluetooth. <ph name="IDS_SERIAL_DEVICE_
 <translation id="7024536598735240744">Помилка розпакування: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">Персоналізуйте Brave</translation>
 <translation id="7047386856539490735">Ці результати корисні?</translation>
-<translation id="1705567146636171298">Оновити Brave</translation>
+<translation id="4469722898384489712">Оновити Wryling</translation>
 <translation id="5499063270485366718">Якщо зображення не має корисного опису, Brave спробує додати його. Для цього зображення надсилаються в Brave.</translation>
 <translation id="1196733835766994012">Користуйтеся перевагами ШІ в додатку Brave на вашому пристрої <ph name="DEVICE_TYPE"/></translation>
 <translation id="7166289504510860270">Завжди майте доступ до паролів, вкладок і інших даних завдяки додатку Brave на телефоні</translation>
@@ -765,7 +765,7 @@ Brave не може відновити ваші налаштування.</trans
 <translation id="8965179855019347124">Користуйтеся найкращими інструментами на основі ШІ від Brave у додатку Brave на телефоні</translation>
 <translation id="9049928023195059068">Входити в Brave під час входу в інші сервіси Brave</translation>
 <translation id="4561046754724442504">Brave було закрито автоматично</translation>
-<translation id="5173820533850252773">Версія Brave застаріла</translation>
+<translation id="1523936557081546133">Версія Wryling застаріла</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave перезапуститься через годину}one{Brave перезапуститься через # годину}few{Brave перезапуститься через # години}many{Brave перезапуститься через # годин}other{Brave перезапуститься через # години}}</translation>
 <translation id="9106236359747881194">Виберіть текст, щоб шукати</translation>
 <translation id="5190991181158966940">Щоб отримувати майбутні оновлення Brave, потрібна операційна система Windows 10 або новішої версії. На цьому комп’ютері встановлено Windows 8.1.</translation>
@@ -777,12 +777,12 @@ Brave не може відновити ваші налаштування.</trans
 <translation id="2444257125841652328">Ваш системний адміністратор налаштував Brave відкривати сторінку <ph name="TARGET_URL_HOSTNAME"/> в альтернативному веб-переглядачі.</translation>
 <translation id="7902365066753170041">Перезапустити, щоб оновити &amp;Brave</translation>
 <translation id="538146372587193686">Brave Origin (mDNS-In)</translation>
-<translation id="296137235951584143">Персоналізуйте Brave</translation>
+<translation id="4578349172774307195">Персоналізуйте Wryling</translation>
 <translation id="7977787072794666032">Brave може працювати неналежним чином, оскільки більше не підтримується у Windows XP та Windows Vista</translation>
 <translation id="8462937515915443472">Користуйтеся провідними функціями безпеки Brave, де б ви не були, у Brave.</translation>
 <translation id="945522503751344254">Надіслати відгук</translation>
 <translation id="4484434718272972655">Хто користується веб-переглядачем Brave?</translation>
-<translation id="7173394303099002355">Отримайте найвищий рівень безпеки в Brave</translation>
+<translation id="1158507424343802366">Отримайте найвищий рівень безпеки в Wryling</translation>
 <translation id="983803489796659991">Не вдалося встановити, оскільки сервер оновлень не має хешованих даних для додатка.</translation>
 <translation id="8435446479956716379">Використовувати Brave, не входячи в обліковий запис</translation>
 <translation id="8992261409816268381">Brave Software Inc</translation>
@@ -825,6 +825,6 @@ Brave не може відновити ваші налаштування.</trans
               other {Розширений захист вимагає перезапуску Brave, щоб застосувати оновлення. Ваші # Особисті вікна не відкриються знову.}}</translation>
 <translation id="5749154344207139683">Допоможіть нам покращити Private, пройдіть коротке опитування, це займе лише хвилину.</translation>
 <translation id="79269250264141507">Коли ви вводите запит у панелі адреси чи полі пошуку, Brave надсилає його до типової пошукової системи, щоб отримати кращі пропозиції. Цю функцію вимкнено в приватному режимі перегляду.</translation>
-<translation id="2589970573128789862">Приватний режим Brave</translation>
+<translation id="2090681901335274465">Приватний режим Wryling</translation>
 <translation id="5994282802285556682">Під час перегляду сторінок у приватному режимі Brave попереджатиме вас, перш ніж завантажити вебсайт із незахищеним з’єднанням</translation>
 </translationbundle>

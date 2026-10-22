@@ -163,6 +163,10 @@
 #include "brave/browser/ui/webui/brave_welcome_page/brave_welcome_page.mojom.h"
 #include "brave/browser/ui/webui/brave_welcome_page/brave_welcome_page_ui.h"
 #include "brave/browser/ui/webui/history/brave_history_ui.h"
+#include "brave/browser/wryling_trails/wryling_trails.mojom.h"
+#include "brave/browser/wryling_trails/wryling_trails_page_handler.h"
+#include "brave/components/wryling_dashboard/wryling_dashboard.mojom.h"
+#include "brave/browser/ui/spaces/wryling_home_navigation_throttle.h"
 #include "brave/browser/ui/webui/new_tab_page/brave_new_tab_ui.h"
 #include "brave/browser/ui/webui/private_new_tab_page/brave_private_new_tab_ui.h"
 #include "brave/components/brave_new_tab_ui/brave_new_tab_page.mojom.h"
@@ -758,6 +762,7 @@ void BraveContentBrowserClient::RegisterTrustedWebUIInterfaceBrokers(
   auto ntp_refresh_registration =
       registry.ForWebUI<BraveNewTabPageUI>()
           .Add<brave_new_tab_page_refresh::mojom::NewTabPageHandler>()
+          .Add<wryling_dashboard::mojom::PageHandler>()
 #if BUILDFLAG(ENABLE_BRAVE_REWARDS)
           .Add<brave_rewards::mojom::RewardsPageHandler>()
 #endif
@@ -1042,6 +1047,8 @@ void BraveContentBrowserClient::RegisterBrowserInterfaceBindersForFrame(
   content::RegisterWebUIControllerInterfaceBinder<
       brave_history_embeddings::mojom::PageHandlerFactory, BraveHistoryUI>(map);
 #endif
+  map->Add<wryling_trails::mojom::PageHandler>(
+      base::BindRepeating(&wryling_trails::BindPageHandler));
   content::RegisterWebUIControllerInterfaceBinder<
       brave_private_new_tab::mojom::PageHandler, BravePrivateNewTabUI>(map);
   content::RegisterWebUIControllerInterfaceBinder<
@@ -1391,7 +1398,7 @@ bool BraveContentBrowserClient::HandleURLOverrideRewrite(
   // Scope of schema is intentionally narrower than content::HasWebUIScheme(url)
   // which also allows both `chrome-untrusted` and `chrome-devtools`.
   if (!url->SchemeIs(content::kBraveUIScheme) &&
-      !url->SchemeIs(content::kChromeUIScheme)) {
+      !url->SchemeIs(content::kChromeUIScheme) && !url->SchemeIs("wryling")) {
     return false;
   }
 
@@ -1445,6 +1452,7 @@ void BraveContentBrowserClient::CreateThrottlesForNavigation(
 #if !BUILDFLAG(IS_ANDROID)
   NewTabShowsNavigationThrottle::MaybeCreateAndAdd(registry);
   SplitViewLinkNavigationThrottle::MaybeCreateAndAdd(registry);
+  wryling::HomeNavigationThrottle::MaybeCreateAndAdd(registry);
 #endif
 
 #if BUILDFLAG(ENABLE_TOR)

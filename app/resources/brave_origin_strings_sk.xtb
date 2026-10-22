@@ -103,7 +103,7 @@ Niektoré funkcie nemusia byť k dispozícii a zmeny vykonané v predvoľbách s
 <translation id="2137162749895930932">Zavrieť obrazovku prekladu</translation>
 <translation id="5789330946301045610">Prehliadač Brave toto sťahovanie zablokoval, pretože daný web nepoužíva zabezpečené pripojenie a v súbore mohol niekto vykonať zmeny</translation>
 <translation id="2170098639895543546">Vyberte čokoľvek na stránke</translation>
-<translation id="142389341645668510">Prispôsobiť Brave</translation>
+<translation id="9094133852008074140">Prispôsobiť Wryling</translation>
 <translation id="2174917724755363426">Inštalácia nie je dokončená. Naozaj ju chcete zrušiť?</translation>
 <translation id="8841019650931243995">Brave Origin – prihlásenie do siete – <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">Chyba kontroly aktualizácií: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -202,7 +202,7 @@ Niektoré funkcie nemusia byť k dispozícii a zmeny vykonané v predvoľbách s
 <translation id="3137969841538672700">Vyhľadávanie spustíte presunutím</translation>
 <translation id="8372436892102763334">Táto karta používa dodatočné zdroje. Prehliadač Brave ju môže deaktivovať, aby zlepšil výkon.</translation>
 <translation id="5949068186379578553">Ak chcete zdieľať obrazovku, povoľte prehliadaču Brave nahrávať obrazovku v nastaveniach systému</translation>
-<translation id="4805806622840861220">Znova spustiť prehliadač Brave</translation>
+<translation id="2036272753168211127">Znova spustiť prehliadač Wryling</translation>
 <translation id="3161522574479303604">Všetky jazyky</translation>
 <translation id="1742948938503172561">Prispôsobte svoj nový profil prehliadača Brave</translation>
 <translation id="2430807206104224491">Môžete pokračovať v čete s režimom AI bez prepínania kariet. Ak chcete začať, prihláste sa do prehliadača Brave. Navyše budete mať k dispozícii heslá a ďalší obsah vo všetkých svojich zariadeniach.</translation>
@@ -236,7 +236,7 @@ Niektoré funkcie nemusia byť k dispozícii a zmeny vykonané v predvoľbách s
 <translation id="8981774130895723211">Ak chcete zdieľať obrazovku, povoľte prehliadaču Brave nahrávať obrazovku v nastaveniach systému.</translation>
 <translation id="2981961446160697133">Rozšírená ochrana vypína optimalizáciu JavaScriptu pre weby, ktoré Brave nerozpoznáva</translation>
 <translation id="3597003331831379823">Nastavenie s vyššími oprávneniami sa nepodarilo spustiť. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Prihláste sa do prehliadača Brave</translation>
+<translation id="5451434122049588189">Prihláste sa do prehliadača Wryling</translation>
 <translation id="3066805437003400520">Dáta prehliadania tejto osoby sa odstránia z tohto zariadenia. Ak ich chcete obnoviť, prihláste sa do prehliadača Brave ako <ph name="USER_EMAIL"/>.</translation>
 <translation id="3667616615096815454">Nepodarilo sa nainštalovať, pretože server aplikáciu nepozná.</translation>
 <translation id="1128485277465085828">Šifrujte všetky údaje prehliadača Brave vo svojom účte Brave pomocou <ph name="BEGIN_LINK"/>vlastnej prístupovej frázy<ph name="END_LINK"/>. Spôsoby platby a adresy v službe Google Pay nebudú šifrované. História prehliadania z prehliadača Brave sa nebude synchronizovať.</translation>
@@ -279,7 +279,7 @@ Niektoré funkcie nemusia byť k dispozícii a zmeny vykonané v predvoľbách s
 <translation id="4055805654398742145">Správca hesiel</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Vaša organizácia Brave automaticky zavrie, keď sa nebude používať jednu minútu. Dáta prehliadania budú odstránené. Môže v nich byť zahrnutá história, automatické dopĺňanie a stiahnuté súbory.}few{Vaša organizácia Brave automaticky zavrie, keď sa nebude používať # minúty. Dáta prehliadania budú odstránené. Môže v nich byť zahrnutá história, automatické dopĺňanie a stiahnuté súbory.}many{Vaša organizácia Brave automaticky zavrie, keď sa nebude používať # minúty. Dáta prehliadania budú odstránené. Môže v nich byť zahrnutá história, automatické dopĺňanie a stiahnuté súbory.}other{Vaša organizácia Brave automaticky zavrie, keď sa nebude používať # minút. Dáta prehliadania budú odstránené. Môže v nich byť zahrnutá história, automatické dopĺňanie a stiahnuté súbory.}}</translation>
 <translation id="5794951150713244901">Prejsť na stránku informácií o prehliadači Brave</translation>
-<translation id="10925962326134232">Prispôsobte si Brave a dajte mu nový vzhľad</translation>
+<translation id="908722199085381104">Prispôsobte si Wryling a dajte mu nový vzhľad</translation>
 <translation id="6596295505984504022">Prispôsobte si Brave</translation>
 <translation id="4148957013307229264">Inštaluje sa...</translation>
 <translation id="5011704081781303429"><ph name="PAGE_TITLE"/> – prihlásenie do siete – Brave Origin</translation>
@@ -381,7 +381,7 @@ Niektoré funkcie nemusia byť k dispozícii a zmeny vykonané v predvoľbách s
 <translation id="5154625106151193600">Prečo Brave blokuje niektoré súbory</translation>
 <translation id="1786715389543715322">Aktualizuje sa Brave (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Povoliť prihlásenie do prehliadača Brave</translation>
-<translation id="5267531627648004734">Odstrániť z prehliadača Brave</translation>
+<translation id="6125790165673488794">Odstrániť z prehliadača Wryling</translation>
 <translation id="4620757336635063467">Zníži výkonnosť, ale prehliadač Brave bude odolnejší voči útokom</translation>
 <translation id="239760341987199724">Nastaviť Brave ako predvolený prehliadač</translation>
 <translation id="5165277482382778404"><ph name="PAGE_TITLE"/> – Brave Origin Beta</translation>
@@ -560,7 +560,7 @@ Nové záložky sa nebudú môcť ukladať do vášho účtu, kým niektoré neo
 <translation id="7024536598735240744">Chyba pri rozbalení: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">Upravte Brave podľa seba</translation>
 <translation id="7047386856539490735">Sú tieto výsledky užitočné?</translation>
-<translation id="1705567146636171298">Aktualizovať Brave</translation>
+<translation id="4469722898384489712">Aktualizovať Wryling</translation>
 <translation id="5499063270485366718">Ak obrázok nemá užitočný popis, Brave sa vám ho pokúsi poskytnúť. Obrázky sa odosielajú Googlu, aby bolo možné vytvoriť popisy.</translation>
 <translation id="1196733835766994012">Využívajte možnosti umelej inteligencie v aplikácii Brave v zariadení <ph name="DEVICE_TYPE"/></translation>
 <translation id="7166289504510860270">Vezmite si heslá, karty a ďalší obsah so sebou kamkoľvek v aplikácii Brave v telefóne</translation>
@@ -766,7 +766,7 @@ Prehliadač Brave nedokáže obnoviť vaše nastavenia.</translation>
 <translation id="8965179855019347124">Používajte najlepšie nástroje umelej inteligencie od Googlu s aplikáciou Brave v telefóne</translation>
 <translation id="9049928023195059068">Keď sa prihlásite do ďalších služieb Googlu, prihláste sa do prehliadača Brave</translation>
 <translation id="4561046754724442504">Prehliadač Brave bol automaticky zavretý</translation>
-<translation id="5173820533850252773">Prehliadač Brave je zastaraný</translation>
+<translation id="1523936557081546133">Prehliadač Wryling je zastaraný</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave sa znova spustí do jednej hodiny}few{Brave sa znova spustí do # hodín}many{Brave sa znova spustí do # hodiny}other{Brave sa znova spustí do # hodín}}</translation>
 <translation id="9106236359747881194">Vyberte text na vyhľadanie</translation>
 <translation id="5190991181158966940">Ak chcete dostávať budúce aktualizácie prehliadača Brave, budete potrebovať systém Windows 10 alebo novší. Tento počítač používa Windows 8.1.</translation>
@@ -778,12 +778,12 @@ Prehliadač Brave nedokáže obnoviť vaše nastavenia.</translation>
 <translation id="2444257125841652328">Správca systému nakonfiguroval Brave, aby web <ph name="TARGET_URL_HOSTNAME"/> otváral v alternatívnom prehliadači.</translation>
 <translation id="7902365066753170041">Znova spustiť a aktualizovať Brave</translation>
 <translation id="538146372587193686">Brave Origin (mDNS-In)</translation>
-<translation id="296137235951584143">Upravte Brave podľa seba</translation>
+<translation id="4578349172774307195">Upravte Wryling podľa seba</translation>
 <translation id="7977787072794666032">Brave nemusí fungovať správne, pretože v systémoch Windows XP a Windows Vista už nie je podporovaný</translation>
 <translation id="8462937515915443472">Získajte najlepšie bezpečnostné funkcie Googlu na cestách s prehliadačom Brave.</translation>
 <translation id="945522503751344254">Odoslať spätnú väzbu</translation>
 <translation id="4484434718272972655">Kto používa Brave?</translation>
-<translation id="7173394303099002355">Získajte najsilnejšie zabezpečenie prehliadača Brave</translation>
+<translation id="1158507424343802366">Získajte najsilnejšie zabezpečenie prehliadača Wryling</translation>
 <translation id="983803489796659991">Nepodarilo sa nainštalovať, pretože aktualizačný server nemá žiadne údaje o haši aplikácie.</translation>
 <translation id="8435446479956716379">Používať Brave bez účtu</translation>
 <translation id="8992261409816268381">Autori prehliadača Brave</translation>
@@ -811,6 +811,6 @@ Prehliadač Brave nedokáže obnoviť vaše nastavenia.</translation>
               other {Rozšírená ochrana vyžaduje, aby ste znovu spustili Brave, ak chcete použiť aktualizáciu. Vaše # Súkromné okná sa znovu neotvoria.}}</translation>
 <translation id="5749154344207139683">Pomôžte nám vylepšiť súkromný režim vyplnením tohto 1 minútového dotazníka.</translation>
 <translation id="79269250264141507">Pri písaní do adresného riadka alebo vyhľadávacieho poľa posiela Brave vložený text vášmu predvolenému vyhľadávaču, čím získate lepšie návrhy. Táto možnosť je v súkromnom režime vypnutá.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
+<translation id="2090681901335274465">Wryling Private</translation>
 <translation id="5994282802285556682">Pri prehliadaní v súkromnom režime vás aplikácia Brave upozorní pred načítaním stránky prostredníctvom nezabezpečeného pripojenia.</translation>
 </translationbundle>

@@ -54,19 +54,19 @@
     Send to your device
   </message>
   <message name="IDS_SEND_TAB_TO_SELF_POST_SEND_SUCCESS_TOAST" desc="Text for a toast indicating that the tab was successfully sent to another device.">
-    Sent to Brave on your <ph name="DEVICE_NAME">$1<ex>iPhone</ex></ph>
+    Sent to Wryling on your <ph name="DEVICE_NAME">$1<ex>iPhone</ex></ph>
   </message>
   <message name="IDS_SEND_TAB_TO_SELF_POST_SEND_SUCCESS_TOAST_ANDROID" desc="Text for a toast indicating that the tab was successfully sent to another device." formatter_data="android_java">
-    Sent to Brave on your <ph name="DEVICE_NAME">%1$s<ex>iPhone</ex></ph> • <ph name="USER_EMAIL">%2$s<ex>elisa.g.beckett@gmail.com</ex></ph>
+    Sent to Wryling on your <ph name="DEVICE_NAME">%1$s<ex>iPhone</ex></ph> • <ph name="USER_EMAIL">%2$s<ex>elisa.g.beckett@gmail.com</ex></ph>
   </message>
   <message name="IDS_SEND_TAB_TO_SELF_POST_SEND_SUCCESS_TOAST_NO_EMAIL_ANDROID" desc="Text for a toast indicating that the tab was successfully sent to another device, when the user's email address is not available." formatter_data="android_java">
-    Sent to Brave on your <ph name="DEVICE_NAME">%1$s<ex>iPhone</ex></ph>
+    Sent to Wryling on your <ph name="DEVICE_NAME">%1$s<ex>iPhone</ex></ph>
   </message>
   <message name="IDS_SEND_TAB_TO_SELF_POST_SEND_THROTTLED_TOAST" desc="Text for a toast indicating that the tab was already sent to another device recently.">
-    Already sent to Brave on your <ph name="DEVICE_NAME">$1<ex>iPhone</ex></ph>
+    Already sent to Wryling on your <ph name="DEVICE_NAME">$1<ex>iPhone</ex></ph>
   </message>
   <message name="IDS_SEND_TAB_TO_SELF_POST_SEND_THROTTLED_TOAST_ANDROID" desc="Text for a toast indicating that the tab was already sent to another device recently." formatter_data="android_java">
-    Already sent to Brave on your <ph name="DEVICE_NAME">%1$s<ex>iPhone</ex></ph>
+    Already sent to Wryling on your <ph name="DEVICE_NAME">%1$s<ex>iPhone</ex></ph>
   </message>
   <message name="IDS_SEND_TAB_TO_SELF_POST_SEND_NO_INTERNET_TOAST" desc="Text for a toast indicating that the tab could not be sent because of no internet connection." formatter_data="android_java">
     Something went wrong. Check your internet connection and try again.

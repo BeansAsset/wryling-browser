@@ -12,7 +12,8 @@
 
 namespace {
 constexpr char16_t kChromeSchema16[] = u"chrome";
-constexpr char16_t kBraveSchema16[] = u"brave";
+// Wryling: internal pages display as wryling:// (input still accepts brave://).
+constexpr char16_t kBraveSchema16[] = u"wryling";
 }  // namespace
 
 namespace brave_utils {

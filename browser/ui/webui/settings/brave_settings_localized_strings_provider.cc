@@ -279,6 +279,12 @@ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
        IDS_SETTINGS_APPEARANCE_SETTINGS_SHOW_BOOKMARKS_BUTTON},
       {"appearanceSettingsLocationBarIsWide",
        IDS_SETTINGS_APPEARANCE_SETTINGS_LOCATION_BAR_IS_WIDE},
+      {"wrylingSpaceViolet", IDS_NTP_COLORS_VIOLET},
+      {"wrylingSpaceBlue", IDS_NTP_COLORS_BLUE},
+      {"wrylingSpaceTeal", IDS_NTP_COLORS_LIGHT_TEAL},
+      {"wrylingSpaceGreen", IDS_NTP_COLORS_GREEN},
+      {"wrylingSpaceAmber", IDS_NTP_COLORS_APRICOT},
+      {"wrylingSpaceRose", IDS_NTP_COLORS_ROSE},
       {"appearanceSettingsWebViewRoundedCorners",
        IDS_SETTINGS_APPEARANCE_SETTINGS_WEB_VIEW_ROUNDED_CORNERS},
       {"appearanceSettingsSubtleAppMenuLogo",
@@ -1503,6 +1509,43 @@ void BraveAddLocalizedStrings(content::WebUIDataSource* html_source,
       "serviceWorkerSize",
       l10n_util::GetStringUTF16(
           IDS_SETTINGS_COOKIES_LOCAL_STORAGE_SIZE_ON_DISK_LABEL));
+  html_source->AddString("wrylingThemeGroup", "Theme");
+  html_source->AddString("wrylingTabsSidebarGroup", "Tabs and sidebar");
+  html_source->AddString("wrylingAddressBarGroup", "Address bar");
+  html_source->AddString("wrylingMoreTabOptions", "More tab options");
+  // Wryling split view pane labels (wryling_pane_labels.ts).
+  html_source->AddString("wrylingPaneLabels", "Split view labels");
+  html_source->AddString("wrylingPaneLabelsDescription",
+                         "How each pane in a split shows its site");
+  html_source->AddString("wrylingPaneLabelsOnHover", "On hover");
+  html_source->AddString("wrylingPaneLabelsOnHoverHint", "Touch the border");
+  html_source->AddString("wrylingPaneLabelsAlways", "Always shown");
+  html_source->AddString("wrylingPaneLabelsAlwaysHint", "Slim label above");
+  html_source->AddString("wrylingPaneLabelsCorner", "Corner chip");
+  html_source->AddString("wrylingPaneLabelsCornerHint", "Never moves");
+  html_source->AddString("wrylingPaneLabelsOff", "Off");
+  html_source->AddString("wrylingPaneLabelsOffHint", "Sidebar only");
+  html_source->AddString("wrylingMoreAppearanceOptions", "More appearance options");
+  html_source->AddString("wrylingAppearanceAuto", "Auto");
+  html_source->AddString("wrylingExtrasTitle", "Extras");
+  html_source->AddString("wrylingExtrasDescription", "Turn on the optional features you want to use. Their settings and browser entries appear while enabled.");
+  html_source->AddString("wrylingExtrasHint", "Shields and other security protections are always available in their usual settings.");
+  html_source->AddString("wrylingExtrasError", "This setting could not be changed. It may be managed by your organisation.");
+  html_source->AddString("wrylingAppearanceLight", "Light");
+  html_source->AddString("wrylingAppearanceDark", "Dark");
+  html_source->AddString("wrylingSpaceColor", "Theme colour");
+  html_source->AddString(
+      "wrylingSpaceDescription",
+      "Choose the global default colour for your browser and its pages. "
+      "Each Space will have its own colour.");
+  html_source->AddString("wrylingSpaceCustom", "Custom colour");
+  html_source->AddString("wrylingColourStrengthHint",
+                        "Make the theme colour subtle or vivid.");
+  html_source->AddString("wrylingTintStrength", "Colour strength");
+  html_source->AddString("wrylingClearGlass", "Clear glass");
+  html_source->AddString(
+      "wrylingClearGlassDescription",
+      "Let the desktop show through the sidebar instead of your theme colour");
   html_source->AddLocalizedStrings(webui::kBraveSettingsStrings);
   html_source->AddLocalizedStrings(webui::kCustomProfileImageStrings);
 

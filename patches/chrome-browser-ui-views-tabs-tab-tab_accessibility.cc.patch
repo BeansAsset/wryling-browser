@@ -1,0 +1,26 @@
+diff --git a/chrome/browser/ui/views/tabs/tab/tab_accessibility.cc b/chrome/browser/ui/views/tabs/tab/tab_accessibility.cc
+index a927a2317a8955d9303720d8fd91987a66a7caef..b603a3edf958ed6f9914432d8bffa041fa49b234 100644
+--- a/chrome/browser/ui/views/tabs/tab/tab_accessibility.cc
++++ b/chrome/browser/ui/views/tabs/tab/tab_accessibility.cc
+@@ -33,19 +33,15 @@ int GetAccessibleTabLabelFormatStringForSplit(split_tabs::SplitTabLayout layout,
+       switch (tab_index_in_split) {
+         case 0:
+           return IDS_TAB_AX_LABEL_SPLIT_TAB_LEFT_VIEW_FORMAT;
+-        case 1:
++        default:  // Wryling: splits of 3-4 tabs too.
+           return IDS_TAB_AX_LABEL_SPLIT_TAB_RIGHT_VIEW_FORMAT;
+-        default:
+-          NOTREACHED();
+       }
+     case split_tabs::SplitTabLayout::kStacked:
+       switch (tab_index_in_split) {
+         case 0:
+           return IDS_TAB_AX_LABEL_SPLIT_TAB_TOP_VIEW_FORMAT;
+-        case 1:
++        default:  // Wryling: splits of 3-4 tabs too.
+           return IDS_TAB_AX_LABEL_SPLIT_TAB_BOTTOM_VIEW_FORMAT;
+-        default:
+-          NOTREACHED();
+       }
+   }
+ }

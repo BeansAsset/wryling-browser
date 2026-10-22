@@ -34,7 +34,7 @@
     Manage your custom workflows powered by
   </message>
   <message name="IDS_SKILLS_SIDEBAR_FOOTER_BRANDING" desc="The branding text 'Gemini in Brave' displayed in the sidebar footer">
-    Gemini in Brave
+    Gemini in Wryling
   </message>
 
   <!-- chrome://skills error page -->
@@ -42,10 +42,10 @@
     Skills aren't available
   </message>
   <message name="IDS_SKILLS_ERROR_PAGE_DESCRIPTION" desc="Description of the error page that occurs when chrome://skills is not accessible because Glic is not enabled">
-    To use Skills, sign in to Brave with a Brave account that has Gemini in Brave enabled
+    To use Skills, sign in to Wryling with a Brave account that has Gemini in Wryling enabled
   </message>
   <message name="IDS_SKILLS_DISABLED_ERROR_PAGE_DESCRIPTION" desc="Description of the error page that occurs when chrome://skills is disabled by the settings toggle">
-    The Skills feature is currently disabled. Update your Brave Settings to get started.
+    The Skills feature is currently disabled. Update your Wryling Settings to get started.
   </message>
   <message name="IDS_SKILLS_REMOTE_AUTHORITY_UNREACHABLE_DESCRIPTION" desc="Description of the error page that occurs when the remote guest skills webview cannot load or be reached.">
     We're having trouble connecting to the server. Please try again later.

@@ -1,11 +1,17 @@
 diff --git a/tools/grit/preprocess_if_expr.gni b/tools/grit/preprocess_if_expr.gni
-index e3eb9942d9959a9942cb1ad79e5df526fd2c933d..6e678c2bd3009a0afee6affcfe331a4d49830828 100644
+index e3eb9942d9959a9942cb1ad79e5df526fd2c933d..240c61462d251964edb2c54463585008827b68c7 100644
 --- a/tools/grit/preprocess_if_expr.gni
 +++ b/tools/grit/preprocess_if_expr.gni
-@@ -71,5 +71,6 @@ template("preprocess_if_expr") {
+@@ -71,5 +71,12 @@ template("preprocess_if_expr") {
          invoker.enable_removal_comments) {
        args += [ "--enable_removal_comments" ]
      }
-+    import("//brave/tools/chromium_src/lit_mangler/sources.gni") inputs += brave_lit_mangler_preprocess_if_expr_inputs
++    import("//brave/tools/chromium_src/lit_mangler/sources.gni")
++    inputs += brave_lit_mangler_preprocess_if_expr_inputs
++    foreach(webui_override, brave_wryling_webui_preprocess_inputs) {
++      if (rebase_path(in_folder, "//") == rebase_path(webui_override.folder, "//")) {
++        inputs += webui_override.inputs
++      }
++    }
    }
  }

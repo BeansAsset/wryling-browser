@@ -1,0 +1,43 @@
+diff --git a/chrome/browser/ui/views/chrome_typography_provider.cc b/chrome/browser/ui/views/chrome_typography_provider.cc
+index 59704fdcb337e588df10c762d31d8e8e3fb21aa6..7c357fa565108f2b8bfb8e142a0df1ea6ee39904 100644
+--- a/chrome/browser/ui/views/chrome_typography_provider.cc
++++ b/chrome/browser/ui/views/chrome_typography_provider.cc
+@@ -58,11 +58,23 @@ ui::ResourceBundle::FontDetails ChromeTypographyProvider::GetFontDetailsImpl(
+     int style) const {
+   if (style > views::style::STYLE_OVERRIDE_TYPOGRAPHY_START &&
+       style < views::style::STYLE_OVERRIDE_TYPOGRAPHY_END) {
++#if BUILDFLAG(IS_MAC)
++    // Wryling: bubble and popover titles (page info, permissions, ...) use
++    // the Headline style, 13pt semibold, not 16pt.
++    if (style == views::style::STYLE_HEADLINE_4 ||
++        style == views::style::STYLE_HEADLINE_4_BOLD) {
++      ui::ResourceBundle::FontDetails details =
++          TypographyProvider::GetFontDetailsImpl(context, style);
++      details.size_delta = gfx::PlatformFont::GetFontSizeDelta(13);
++      details.weight = gfx::Font::Weight::SEMIBOLD;
++      return details;
++    }
++#endif
+     return TypographyProvider::GetFontDetailsImpl(context, style);
+   }
+ 
+   // "Target" font size constants.
+-  constexpr int kTitleSize = 15;
++  [[maybe_unused]] constexpr int kTitleSize = 15;
+   constexpr int kTouchableLabelSize = 14;
+   constexpr int kBodyTextLargeSize = 13;
+   constexpr int kCR23ButtonTextSize = 13;
+@@ -90,7 +102,13 @@ ui::ResourceBundle::FontDetails ChromeTypographyProvider::GetFontDetailsImpl(
+           gfx::PlatformFont::GetFontSizeDelta(kCR23ButtonTextSize);
+       break;
+     case views::style::CONTEXT_DIALOG_TITLE:
++#if BUILDFLAG(IS_MAC)
++      // Wryling: popover titles use the Headline style, 13pt semibold.
++      details.size_delta = gfx::PlatformFont::GetFontSizeDelta(13);
++      details.weight = gfx::Font::Weight::SEMIBOLD;
++#else
+       details.size_delta = gfx::PlatformFont::GetFontSizeDelta(kTitleSize);
++#endif
+       break;
+     case views::style::CONTEXT_TOUCH_MENU:
+       details.size_delta =

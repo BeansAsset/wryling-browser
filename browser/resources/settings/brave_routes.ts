@@ -6,6 +6,11 @@
 import {pageVisibility} from './br/page_visibility.js'
 import {loadTimeData} from './i18n_setup.js'
 import {SettingsRoutes} from './router.js'
+import type {Route} from './router.js'
+
+declare module './router.js' {
+  interface SettingsRoutes { WRYLING_EXTRAS: Route }
+}
 
 export default function addBraveRoutes(r: Partial<SettingsRoutes>) {
   const isGuest = loadTimeData.getBoolean('isGuest')
@@ -33,6 +38,7 @@ export default function addBraveRoutes(r: Partial<SettingsRoutes>) {
   if (pageVisibility.origin) {
     r.ORIGIN = r.BASIC.createSection('/origin', 'origin')
   }
+  if (!isGuest) r.WRYLING_EXTRAS = r.BASIC.createSection('/extras', 'extras')
   r.SHIELDS = r.BASIC.createSection('/shields', 'shields')
   r.SHIELDS_ADBLOCK = r.SHIELDS.createChild('/shields/filters')
 
@@ -50,14 +56,16 @@ export default function addBraveRoutes(r: Partial<SettingsRoutes>) {
     r.BRAVE_SYNC = r.BASIC.createSection('/braveSync', 'braveSync')
     r.BRAVE_SYNC_SETUP = r.BRAVE_SYNC.createChild('/braveSync/setup')
   }
-  if (pageVisibility.braveWallet) {
+  if (loadTimeData.valueExists('isBraveWalletAllowed')) {
     r.BRAVE_WEB3 = r.BASIC.createSection('/web3', 'web3')
 
     r.BRAVE_WALLET_NETWORKS = r.BRAVE_WEB3.createChild('/wallet/networks')
   }
-  r.BRAVE_NEW_TAB = r.BASIC.createSection('/newTab', 'newTab')
+  if (r.GET_STARTED && pageVisibility.newTab !== false) {
+    r.BRAVE_NEW_TAB = r.GET_STARTED.createChild('/newTab')
+  }
 
-  if (pageVisibility.leoAssistant) {
+  if (loadTimeData.valueExists('isLeoAssistantAllowed')) {
     r.BRAVE_LEO_ASSISTANT =
       r.BASIC.createSection('/leo-ai', 'leoAssistant')
 

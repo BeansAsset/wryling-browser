@@ -559,6 +559,7 @@ source_set("ui") {
 
     if (enable_request_otr) {
       deps += [
+        "//brave/components/request_otr/browser",
         "//brave/components/request_otr/common",
         "//brave/components/request_otr/common/buildflags",
       ]
@@ -679,6 +680,25 @@ source_set("ui") {
       "views/frame/brave_browser_root_view.h",
       "views/frame/brave_browser_view.cc",
       "views/frame/brave_browser_view.h",
+      "spaces/wryling_spaces.cc",
+      "spaces/wryling_spaces.h",
+      "spaces/wryling_spaces_hooks.h",
+      "spaces/wryling_dashboard_page_handler.cc",
+      "spaces/wryling_dashboard_page_handler.h",
+      "spaces/wryling_dashboard_service.cc",
+      "spaces/wryling_dashboard_service.h",
+      "spaces/wryling_dashboard_service_factory.cc",
+      "spaces/wryling_dashboard_service_factory.h",
+      "spaces/wryling_dashboard_tab_helper.cc",
+      "spaces/wryling_dashboard_tab_helper.h",
+      "spaces/wryling_home_navigation_throttle.cc",
+      "spaces/wryling_home_navigation_throttle.h",
+      "views/frame/wryling_command_bar.cc",
+      "views/frame/wryling_command_bar.h",
+      "views/frame/wryling_ui_dump.cc",
+      "views/frame/wryling_ui_dump.h",
+      "views/location_bar/wryling_copy_link_button.cc",
+      "views/location_bar/wryling_copy_link_button.h",
       "views/frame/brave_browser_widget.cc",
       "views/frame/brave_browser_widget.h",
       "views/frame/brave_non_client_hit_test_helper.cc",
@@ -752,6 +772,10 @@ source_set("ui") {
 
     deps += [
       "//brave/browser/ui/darker_theme",
+      "//brave/components/wryling_dashboard:binder",
+      "//brave/components/wryling_dashboard:mojom",
+      "//brave/components/request_otr/common/buildflags",
+      "//services/data_decoder/public/cpp",
       "//brave/browser/ui/focus_mode",
       "//brave/browser/ui/side_panel",
       "//brave/browser/ui/views:layout_provider",

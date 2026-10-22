@@ -6,16 +6,30 @@
 #include "brave/components/brave_shields/core/browser/ad_block_default_resource_provider.h"
 
 #include <string>
+#include <string_view>
 #include <utility>
 
 #include "base/files/file_path.h"
 #include "base/task/thread_pool.h"
 #include "brave/components/brave_component_updater/browser/dat_file_util.h"
 #include "brave/components/brave_shields/core/browser/ad_block_component_installer.h"
+#include "brave/components/brave_shields/core/browser/wryling_public_lists.h"
 
 namespace {
 
 constexpr char kAdBlockResourcesFilename[] = "resources.json";
+
+#include "brave/components/brave_shields/core/browser/wryling_bundled_adblock_resources.inc"
+
+// Wryling: scriptlets and redirect resources for builds without a services
+// key, where the resources component never downloads.
+std::string WrylingBundledResourcesJson() {
+  std::string json;
+  for (std::string_view part : kWrylingBundledResourcesParts) {
+    json.append(part);
+  }
+  return json;
+}
 
 }  // namespace
 
@@ -75,6 +89,15 @@ void AdBlockDefaultResourceProvider::OnComponentReady(
 void AdBlockDefaultResourceProvider::LoadResources(
     base::OnceCallback<void(AdblockResourceStorageBox)> cb) {
   base::FilePath resources_path = GetResourcesPath();
+  if (resources_path.empty() && !wryling::HasBraveServicesKey()) {
+    base::ThreadPool::PostTaskAndReplyWithResult(
+        FROM_HERE, {base::TaskPriority::USER_BLOCKING},
+        base::BindOnce([]() -> AdblockResourceStorageBox {
+          return adblock::new_resource_storage(WrylingBundledResourcesJson());
+        }),
+        std::move(cb));
+    return;
+  }
   if (resources_path.empty()) {
     // If the path is not ready yet, run the callback with empty resources to
     // avoid blocking filter data loads.

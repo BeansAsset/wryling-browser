@@ -11,6 +11,7 @@ import("//mojo/public/tools/bindings/mojom.gni")
 import("//tools/grit/preprocess_if_expr.gni")
 
 transpile_web_ui("brave_wallet_page_ui") {
+  wryling_remote_build = true
   output_module = false
   entry_points = [ [
         "brave_wallet_page",

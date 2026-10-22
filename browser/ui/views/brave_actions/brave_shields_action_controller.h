@@ -68,6 +68,8 @@ class BraveShieldsActionController
   std::u16string GetTooltipText() const;
   void OnButtonPressed();
   views::Widget* GetBubbleWidget();
+  // Whether Shields applies to the active tab (not internal or local pages).
+  bool AppliesToActiveTab() const;
 
   // TabStripModelObserver
   void OnTabStripModelChanged(

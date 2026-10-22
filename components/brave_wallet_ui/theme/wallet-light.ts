@@ -6,7 +6,6 @@
 import ITheme from 'brave-ui/theme/theme-interface'
 import IThemeWallet from './wallet-theme'
 import defaultTheme from 'brave-ui/theme/brave-default'
-import colors from 'brave-ui/theme/colors'
 import { walletFontFamily } from '../utils/font.utils'
 
 const walletLightTheme: ITheme & IThemeWallet = {
@@ -19,10 +18,10 @@ const walletLightTheme: ITheme & IThemeWallet = {
   },
   color: {
     ...defaultTheme.color,
-    text: colors.neutral900,
-    panelBackground: '#F9F9FD',
-    panelBackgroundSecondary: colors.neutral000,
-    outlineColor: 'rgba(255,80,0,0.2)',
+    text: 'var(--wry-text)',
+    panelBackground: 'var(--wry-canvas)',
+    panelBackgroundSecondary: 'var(--wry-surface)',
+    outlineColor: 'var(--wry-stroke)',
   },
 }
 

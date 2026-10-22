@@ -7,7 +7,9 @@
 #include <string>
 
 #include "base/feature_list.h"
+#include "brave/browser/ui/spaces/wryling_spaces_hooks.h"
 #include "brave/browser/ui/tabs/tree_tab_session_manager.h"
+#include "chrome/browser/ui/tabs/tab_strip_model.h"
 #include "chrome/browser/ui/browser_window/public/browser_window_features.h"
 #include "chrome/browser/ui/browser_window/public/browser_window_interface.h"
 #include "chrome/browser/ui/tabs/features.h"
@@ -21,6 +23,16 @@ void MaybePopulateTreeTabExtraData(
     BrowserWindowInterface& browser,
     int index,
     std::map<std::string, std::string>& extra_data) {
+  // Wryling Spaces: ⌘⇧T puts the tab back in its space.
+  if (TabStripModel* model = browser.GetTabStripModel();
+      model && model->ContainsIndex(index)) {
+    const std::string space =
+        wryling::GetTabSpaceForSession(model->GetTabAtIndex(index));
+    if (!space.empty()) {
+      extra_data[wryling::kSpaceSessionKey] = space;
+    }
+  }
+
   if (!base::FeatureList::IsEnabled(tabs::kBraveTreeTab)) {
     return;
   }

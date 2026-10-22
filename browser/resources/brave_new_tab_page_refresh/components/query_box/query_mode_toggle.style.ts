@@ -9,17 +9,17 @@ import { scoped } from '$web-common/scoped_css'
 export const style = scoped.css`
   .item {
     --leo-icon-size: 18px;
-    --leo-icon-color: ${color.neutral[30]};
+    --leo-icon-color: ${color.text.secondary};
     --leo-segmented-control-item-padding: 4px;
     --leo-segmented-control-item-icon-gap: 4px;
     --leo-segmented-control-item-font: ${font.small.regular};
-    --leo-segmented-control-item-color: ${color.neutral[30]};
+    --leo-segmented-control-item-color: ${color.text.secondary};
   }
 
   .selected {
     --leo-segmented-control-item-padding: 6px;
-    --leo-icon-color: ${color.neutral[50]};
-    --leo-segmented-control-item-color: ${color.neutral[50]};
+    --leo-icon-color: ${color.text.interactive};
+    --leo-segmented-control-item-color: ${color.text.interactive};
   }
 
   .icon {

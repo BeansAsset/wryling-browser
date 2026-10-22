@@ -32,6 +32,7 @@
 #include "brave/components/brave_shields/core/browser/ad_block_list_p3a.h"
 #include "brave/components/brave_shields/core/browser/brave_shields_locale_utils.h"
 #include "brave/components/brave_shields/core/browser/filter_list_catalog_entry.h"
+#include "brave/components/brave_shields/core/browser/wryling_public_lists.h"
 #include "brave/components/brave_shields/core/common/adblock/rs/src/lib.rs.h"
 #include "brave/components/brave_shields/core/common/brave_shield_constants.h"
 #include "brave/components/brave_shields/core/common/features.h"
@@ -168,6 +169,14 @@ AdBlockComponentServiceManager::AdBlockComponentServiceManager(
       base::BindOnce(&AdBlockComponentServiceManager::OnFilterListCatalogLoaded,
                      weak_factory_.GetWeakPtr()));
   catalog_provider_->AddObserver(this);
+
+  // Wryling: no services key means the catalog component never arrives, and
+  // the gates above would keep both engines (custom filters and
+  // subscriptions included) empty forever. Start with an empty catalog,
+  // which opens them.
+  if (!wryling::HasBraveServicesKey()) {
+    LoadComponentFiltersProviders();
+  }
 
   if (IsAdBlockOnlyModeSupportedAndFeatureEnabled(locale_)) {
     local_state_change_registrar_ = std::make_unique<PrefChangeRegistrar>();

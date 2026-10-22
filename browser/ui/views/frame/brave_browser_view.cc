@@ -39,6 +39,8 @@
 #include "brave/browser/ui/views/frame/split_view/brave_contents_container_view.h"
 #include "brave/browser/ui/views/frame/split_view/brave_multi_contents_view.h"
 #include "brave/browser/ui/views/frame/tab_strip_placement_coordinator.h"
+#include "brave/browser/ui/views/frame/wryling_command_bar.h"
+#include "brave/browser/ui/views/frame/wryling_ui_dump.h"
 #include "brave/browser/ui/views/frame/vertical_tabs/vertical_tab_strip_container_view.h"
 #include "brave/browser/ui/views/frame/vertical_tabs/vertical_tab_strip_region_view.h"
 #include "brave/browser/ui/views/location_bar/brave_location_bar_view.h"
@@ -358,6 +360,8 @@ BraveBrowserView::BraveBrowserView(BrowserWindowInterface* browser)
   tab_strip_placement_ = std::make_unique<TabStripPlacementCoordinator>(
       base::PassKey<BraveBrowserView>(), browser,
       horizontal_tab_strip_region_view_);
+  toolbar_placement_ = std::make_unique<TabStripPlacementCoordinator>(
+      base::PassKey<BraveBrowserView>(), browser, toolbar());
 
   // Need this background view always as we have contents margin/rounded corners
   // when split view is active regardless of rounded corners feature.
@@ -500,6 +504,8 @@ void BraveBrowserView::UpdateSideBarHorizontalAlignment() {
 }
 
 BraveBrowserView::~BraveBrowserView() {
+  // Puts the address bar back in the toolbar before anything is torn down.
+  command_bar_.reset();
   tab_cycling_event_handler_.reset();
 
   // Destroying delegate view to clear vertical tab state. See its dtor.
@@ -836,9 +842,14 @@ void BraveBrowserView::CloseWalletBubble() {
 
 void BraveBrowserView::AddedToWidget() {
   BrowserView::AddedToWidget();
+  wryling::MaybeScheduleUiDump(this);
 
   browser_window_mouse_event_handler_ =
       std::make_unique<BrowserWindowMouseEventHandler>(this);
+
+  if (!command_bar_) {
+    command_bar_ = std::make_unique<WrylingCommandBar>(this);
+  }
 
   // we must call all new views once BraveBrowserView is added to widget
 
@@ -1328,6 +1339,10 @@ bool BraveBrowserView::UpdateToolbarSecurityState() {
   return state_changed;
 }
 
+bool BraveBrowserView::ShowWrylingCommandBar() {
+  return command_bar_ && command_bar_->Show();
+}
+
 bool BraveBrowserView::AcceleratorPressed(const ui::Accelerator& accelerator) {
   if (base::FeatureList::IsEnabled(tabs::kBraveSharedPinnedTabs) &&
       browser()->GetProfile()->GetPrefs()->GetBoolean(
@@ -1427,6 +1442,7 @@ ClientFrameElementInfo BraveBrowserView::GetFrameElementInfo() const {
 void BraveBrowserView::OnImmersiveFullscreenExited() {
   BrowserView::OnImmersiveFullscreenExited();
   tab_strip_placement_->UpdatePlacement();
+  toolbar_placement_->UpdatePlacement();
 }
 
 void BraveBrowserView::OnImmersiveModeControllerDestroyed() {

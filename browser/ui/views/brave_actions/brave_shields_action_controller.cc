@@ -18,6 +18,7 @@
 #include "brave/components/constants/webui_url_constants.h"
 #include "brave/components/speedreader/common/buildflags/buildflags.h"
 #include "brave/components/vector_icons/vector_icons.h"
+#include "build/build_config.h"
 #include "brave/ui/color/nala/nala_color_id.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/color/chrome_color_id.h"
@@ -139,6 +140,15 @@ gfx::ImageSkia BraveShieldsActionController::GetIconImage(
       is_enabled ? kLeoBraveIconOnlyFaceIcon
                  : kLeoBraveIconOnlyFaceDisabledIcon,
       icon_size, color_provider->GetColor(kColorOmniboxResultsIcon));
+#elif BUILDFLAG(IS_MAC)
+  // Wryling: a quiet monochrome shield in the address pill's icon colour, like
+  // the copy-link button beside it, instead of the orange lion. Shields down
+  // shows the slashed shield.
+  const ui::ColorProvider* color_provider =
+      GetColorProviderForWebContents(tab_strip_model_->GetActiveWebContents());
+  return gfx::CreateVectorIcon(
+      is_enabled ? kLeoShieldDoneIcon : kLeoShieldDisableFilledIcon, icon_size,
+      color_provider->GetColor(kColorOmniboxSecurityChipDefault));
 #else
   ui::ResourceBundle& rb = ui::ResourceBundle::GetSharedInstance();
   gfx::ImageSkia image;
@@ -243,6 +253,10 @@ bool BraveShieldsActionController::IsPageInReaderMode(
   }
 #endif
   return false;
+}
+
+bool BraveShieldsActionController::AppliesToActiveTab() const {
+  return ShouldShowBubbleForContents(tab_strip_model_->GetActiveWebContents());
 }
 
 bool BraveShieldsActionController::ShouldShowBubbleForContents(

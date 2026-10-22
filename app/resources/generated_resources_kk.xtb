@@ -26,7 +26,7 @@
 <translation id="1010833424573920260">{NUM_PAGES,plural, =1{Бет жауап бермейді}other{Бет жауап бермейді}}</translation>
 <translation id="1011003645819296594">Сақталған құрылғылар</translation>
 <translation id="1011355516189274711">Мәтінді дыбыстаудың дыбыс деңгейі</translation>
-<translation id="6189564748168922180">Brave Password Manager қызметіне кіруге арналған қалпына келтірудің PIN кодын өзгертіңіз</translation>
+<translation id="1208075464878533724">Wryling Password Manager қызметіне кіруге арналған қалпына келтірудің PIN кодын өзгертіңіз</translation>
 <translation id="1012876632442809908">USB-C құрылғысы (алдыңғы ұяшық)</translation>
 <translation id="1015041505466489552">TrackPoint</translation>
 <translation id="1015318665228971643">Қалта атауын өзгерту</translation>
@@ -70,7 +70,7 @@
 <translation id="6666716404807343028">Brave-дағы веб-сайттардың локация рұқсаттарын басқару</translation>
 <translation id="1042248468362992359">Хотспотты пайдалану үшін мобильдік интернетке өтіңіз. <ph name="BEGIN_LINK_LEARN_MORE"/>Толық ақпарат<ph name="END_LINK_LEARN_MORE"/></translation>
 <translation id="104385770822424034">Әрекет қосу</translation>
-<translation id="4141377378685217435">Құпия сөзді есте сақтау қажет емес, себебі ол Brave Password Manager-де сақталады.</translation>
+<translation id="5549984969275909493">Құпия сөзді есте сақтау қажет емес, себебі ол Wryling Password Manager-де сақталады.</translation>
 <translation id="1046521327593783388">{NUM_PASSWORDS,plural, =1{Бұл құрылғыда <ph name="BRAND"/> қызметіне 1 құпия сөз импортталды}other{Бұл құрылғыда <ph name="BRAND"/> қызметіне {NUM_PASSWORDS} құпия сөз импортталды}}</translation>
 <translation id="1046572983040892965">Терезе жоғары және солға жылжытылды</translation>
 <translation id="1047431265488717055">Сілтеме мә&amp;тінін көшіру</translation>
@@ -96,7 +96,7 @@
 <translation id="10619348099955377">Көрсетілетін атауын көшіру</translation>
 <translation id="1062407476771304334">Ауыстыру</translation>
 <translation id="1064236804542808595">Ұйымның жылдам пәрмендерін қалпына келтіру</translation>
-<translation id="2729345439181698540">Сіз бұл сайттан хабарландыруларды алғыңыз келмейтін сияқты. Сондықтан Brave сізді алаңдатпау үшін сұрауларды жасырады.</translation>
+<translation id="7962797086784806183">Сіз бұл сайттан хабарландыруларды алғыңыз келмейтін сияқты. Сондықтан Wryling сізді алаңдатпау үшін сұрауларды жасырады.</translation>
 <translation id="1066964438793906105">Зиянды бағдарламаға сканерлеу</translation>
 <translation id="3983904244054509097">Қосымша қауіпсіздік үшін, құрылғыдағы құпия сөздерді Brave аккаунтына сақтамас бұрын шифрлауға болады.</translation>
 <translation id="5428209950370661546">Басқа Brave қызметтері</translation>
@@ -139,7 +139,7 @@
 <translation id="1090541560108055381">Жұптамас бұрын осы кодтың екі құрылғыда да бірдей екеніне көз жеткізіңіз.</translation>
 <translation id="1093457606523402488">Көрінетін желілер:</translation>
 <translation id="1093645050124056515">ctrl + alt + төмен бағыт пернесі</translation>
-<translation id="1676423917671990874">Желідегі Brave Password Manager</translation>
+<translation id="3958643735082353873">Желідегі Wryling Password Manager</translation>
 <translation id="1097016918605049747">Бұл бет аударылмады</translation>
 <translation id="1099962274138857708">Сурет <ph name="DEVICE_NAME"/> құрылғысынан көшірілді</translation>
 <translation id="1100040363679327583">Тапсырманы қарап шығыңыз. Gemini-дан сұрау</translation>
@@ -222,7 +222,7 @@
 <translation id="1155816283571436363">Телефоныңызбен байланыс орнатылып жатыр</translation>
 <translation id="3265387852639842086">Brave Search бүйірлік панелін жабу</translation>
 <translation id="1158080958325422608">Бас әріппен жазу</translation>
-<translation id="4489415936688888898">Brave-дағы Gemini</translation>
+<translation id="4980210551795949534">Wryling-дағы Gemini</translation>
 <translation id="1159879754517035595">Кеңейтім параметрлерін басқару</translation>
 <translation id="1160800016654917722">Терезе төмен және солға жылжытылды</translation>
 <translation id="116173250649946226">Әкімші әдепкі тақырыпты орнатты, оны өзгертуге болмайды.</translation>
@@ -247,8 +247,8 @@
 <translation id="1173332155861271669">Passpoint провайдерінің мәліметтері</translation>
 <translation id="1173894706177603556">Атын өзгерту</translation>
 <translation id="1174073918202301297">Таңбаша енгізілді</translation>
-<translation id="4720923867206970346">Байланыс қауіпсіз болмаса, Brave сізге бұл туралы хабарлайды.</translation>
-<translation id="4077881064206141073">Brave-ға өту</translation>
+<translation id="460601934457493674">Байланыс қауіпсіз болмаса, Wryling сізге бұл туралы хабарлайды.</translation>
+<translation id="3040558678310756332">Wryling-ға өту</translation>
 <translation id="1175131936083782305">Әкімшіңіз бұл мүмкіндікті өшірді.</translation>
 <translation id="1175277108283187866">Сайтқа өтіңіз немесе мекенжай жолағында іздеуді бастаңыз.</translation>
 <translation id="1175364870820465910">&amp;Басып шығару…</translation>
@@ -426,7 +426,7 @@
 <translation id="1308105352527684175">Кейбір контентті пайдалана алмауыңыз мүмкін.</translation>
 <translation id="1311092170520822848">Бұл сайт құрылғыңызға қосылған смарт картаны оқу құралдарын басқарады және олар кіре алатын смарт карталарды басқаруы мүмкін.</translation>
 <translation id="131112695174432497">Жарнаманы жекелендіруге әсер ететін деректер жойылады</translation>
-<translation id="1092870157695460112">Brave-ның жүктеп алуға арналған ең жоғары деңгейлі қауіпсіздігіне ие болу үшін күшейтілген қорғаныспен танысыңыз</translation>
+<translation id="1239647152794634812">Wryling-ның жүктеп алуға арналған ең жоғары деңгейлі қауіпсіздігіне ие болу үшін күшейтілген қорғаныспен танысыңыз</translation>
 <translation id="1312298796781107732">{NUM_TABS,plural, =1{Браузердің жұмысын баяулататын қойындыға қатысты ақауларды түзетіңіз}other{Браузердің жұмысын баяулататын қойындыларға қатысты ақауларды түзетіңіз}}</translation>
 <translation id="1312721752506309252">Күшейтілген қорғаныс қосулы.</translation>
 <translation id="13130607084115184">Сақталған құпия сөздер мына жерде пайда болады. Осы құрылғыда құпия сөздерді <ph name="BRAND"/> қолданбасына импорттау үшін <ph name="BEGIN_LINK"/> CSV файлын таңдаңыз.<ph name="END_LINK"/></translation>
@@ -462,7 +462,7 @@
 <translation id="1340839264183302272">Топтан шығу</translation>
 <translation id="1341002693404468853">Ұйымдастырушыны жасыру</translation>
 <translation id="1341701348342335220">Дұрыс!</translation>
-<translation id="873343310451048603">Құпия сөздердің ұрланған-ұрланбағанын тексеру үшін Brave Password Manager-ге өтіңіз.</translation>
+<translation id="4973862711373394097">Құпия сөздердің ұрланған-ұрланбағанын тексеру үшін Wryling Password Manager-ге өтіңіз.</translation>
 <translation id="1343920184519992513">Тоқтаған жерден жалғастыру және арнайы беттер жинағын ашу</translation>
 <translation id="1346630054604077329">Растау және қайта бастау</translation>
 <translation id="1346748346194534595">Оңға</translation>
@@ -495,7 +495,7 @@
 <translation id="1374844444528092021">"<ph name="NETWORK_NAME"/>" желісіне қажетті сертификат орнатылмаған немесе жарамсыз болып қалды. Жаңа сертификат алып, қайта қосылып көріңіз.</translation>
 <translation id="1374948751106271187">Жолда жүргенде қосымша қорғаныс деңгейін қосыңыз.</translation>
 <translation id="137651782282853227">Сақталған мекенжайлар осы жерге шығады</translation>
-<translation id="7377055577309465332">Құпия сөздеріңіздің бірі жария болған кезде, Brave Password Manager оны күрделі құпия сөзге өзгерту-өзгертпеу қажеттігін сұрайды.</translation>
+<translation id="5008990945704272605">Құпия сөздеріңіздің бірі жария болған кезде, Wryling Password Manager оны күрделі құпия сөзге өзгерту-өзгертпеу қажеттігін сұрайды.</translation>
 <translation id="1378613616312864539">Бұл параметрді <ph name="NAME"/> басқарады</translation>
 <translation id="1378715594598306389">Басқа қойындыларды көру</translation>
 <translation id="1380028686461971526">Желіге автоматты қосылу</translation>
@@ -644,7 +644,7 @@
 <translation id="1499041187027566160">дыбыс деңгейін арттыру</translation>
 <translation id="1499948601784722399">Сайт сұраулары</translation>
 <translation id="1500297251995790841">Белгісіз құрылғы [<ph name="VENDOR_ID"/>:<ph name="PRODUCT_ID"/>]</translation>
-<translation id="6440894523770886280">Қолдау көрсетілмейтін Brave қолданбалары туралы толығырақ</translation>
+<translation id="7828916217230765229">Қолдау көрсетілмейтін Wryling қолданбалары туралы толығырақ</translation>
 <translation id="1501480321619201731">Топты жою</translation>
 <translation id="150411034776756821"><ph name="SITE"/> сайтын өшіру</translation>
 <translation id="1504253885059472207">Бөлінген көріністі бекіту</translation>
@@ -664,7 +664,7 @@
 <translation id="1512210426710821809">Бұны қайтарудың жалғыз жолы — <ph name="IDS_SHORT_PRODUCT_OS_NAME"/> қайта орнату</translation>
 <translation id="1512642802859169995"><ph name="FILE_NAME"/> файлы шифрланған. Иесінен шифрдан шығаруын сұраңыз.</translation>
 <translation id="151501797353681931">Safari браузерінен импортталған</translation>
-<translation id="7181162989909413015">Код арқылы трансляциялау үшін Brave браузерін синхрондау параметрлерін іске қосыңыз.</translation>
+<translation id="4295055064213980989">Код арқылы трансляциялау үшін Wryling браузерін синхрондау параметрлерін іске қосыңыз.</translation>
 <translation id="1521442365706402292">Сертификаттар басқару</translation>
 <translation id="1521655867290435174">Brave Sheets</translation>
 <translation id="1521933835545997395">Android телефонына жалғанған.</translation>
@@ -702,11 +702,11 @@
 <translation id="1546452108651444655"><ph name="CHILD_NAME"/> келесілерді істей алатын <ph name="EXTENSION_TYPE"/> кеңейтімін орнатқысы келеді:</translation>
 <translation id="1547123415014299762">Үшінші тарап cookie файлдары рұқсат етілген</translation>
 <translation id="1547808936554660006">Powerwash функциясы орнатылған eSIM профильдерін өшірмейтінін түсінемін.</translation>
-<translation id="2009341821632988095">Brave-дағы Gemini қолжетімді емес</translation>
+<translation id="280951773191806143">Wryling-дағы Gemini қолжетімді емес</translation>
 <translation id="1549275686094429035">ARC қосылды</translation>
 <translation id="1549788673239553762"><ph name="APP_NAME"/> қолданбасы <ph name="VOLUME_NAME"/> құрылғысына кіруге рұқсат сұрауда. Ол файлдарыңызды өзгертуі немесе жоюы мүмкін.</translation>
 <translation id="1549966883323105187">Сақталған құпия сөздерді жылдамырақ алыңыз</translation>
-<translation id="822755500038144322">Әдепкі Brave</translation>
+<translation id="5480276139257027757">Әдепкі Wryling</translation>
 <translation id="1552301827267621511">"<ph name="EXTENSION_NAME"/>" кеңейтімі іздеуді <ph name="SEARCH_PROVIDER_DOMAIN"/> пайдалануға ауыстырды.</translation>
 <translation id="1552752544932680961">Кеңейтімді басқару</translation>
 <translation id="1553538517812678578">шектелмеген</translation>
@@ -749,7 +749,7 @@
 <translation id="1581962803218266616">Іздеу құралында көрсету</translation>
 <translation id="1582955169539260415">[<ph name="FINGERPRINT_NAME"/>] жою</translation>
 <translation id="1583127975413389276"><ph name="LANGUAGE"/> тілі жергілікті түрде өңделеді және офлайн режимде жұмыс істейді.</translation>
-<translation id="491276955533054201">Алдымен осы құрылғыда Brave-ның автоматты түрде шолу функциясын қосыңыз</translation>
+<translation id="2483396658308611628">Алдымен осы құрылғыда Wryling-ның автоматты түрде шолу функциясын қосыңыз</translation>
 <translation id="1587275751631642843">&amp;JavaScript консолі</translation>
 <translation id="1588438908519853928">Қалыпты</translation>
 <translation id="1588772269240419305">Логотип пен атау өзгерістерін тексеру</translation>
@@ -775,7 +775,7 @@
 <translation id="1600857548979126453">Бет түзетуші серверіне кіру</translation>
 <translation id="1601481906560916994">Сайтты шығару</translation>
 <translation id="1601560923496285236">Қолдану</translation>
-<translation id="8275260485701169654">Brave жүйесі туралы ақпарат</translation>
+<translation id="302546259431411287">Wryling жүйесі туралы ақпарат</translation>
 <translation id="1603411913360944381"><ph name="DEVICE_NAME"/> құрылғысын ұмыту</translation>
 <translation id="1604567162047669454">Визуалды формат семантикасын тану</translation>
 <translation id="1605148987885002237">Пернетақта және енгізу параметрлері</translation>
@@ -792,7 +792,7 @@
 <translation id="1611649489706141841">алға</translation>
 <translation id="1612019740169791082">Контейнеріңіз диск көлемін өзгертуге конфигурацияланбаған. Linux үшін сақталған орын көлемін реттеу үшін сақтық көшірме жасап, жаңа контейнерді іске қосыңыз да, деректерді қалпына келтіріңіз.</translation>
 <translation id="1612179176000108678">Батарея заряды <ph name="PERCENT"/>%-дан аз болғанда ғана қосу</translation>
-<translation id="2811168643228573149">Brave қолданбаларының ескі нұсқалары 2022 жылдың желтоқсанынан кейін ашылмайды. Жаңа нұсқаның қолжетімділігін тексеруіңізге болады.</translation>
+<translation id="8232170710895633549">Wryling қолданбаларының ескі нұсқалары 2022 жылдың желтоқсанынан кейін ашылмайды. Жаңа нұсқаның қолжетімділігін тексеруіңізге болады.</translation>
 <translation id="1614511179807650956">Мобильдік интернет лимиті аяқталған болуы мүмкін. Қосымша деректер сатып алу үшін <ph name="NAME"/> іске қосу порталына кіріңіз.</translation>
 <translation id="161460670679785907">Телефоныңызды анықтау мүмкін емес</translation>
 <translation id="1614890968027287789">Екі браузерге бөлу керек пе?</translation>
@@ -805,7 +805,7 @@
 <translation id="1620307519959413822">Құпия сөз дұрыс емес. Қайта енгізіп көріңіз немесе оны қайта орнату үшін "Құпия сөзді ұмытып қалдыңыз ба?" түймесін басыңыз.</translation>
 <translation id="1620510694547887537">Камера</translation>
 <translation id="1620760691416124482">Бөлінген көріністе ашу</translation>
-<translation id="2380574999275845178">Құпия сөзіңіз баршаға ашық деректердің қолды болуы салдарынан жария етілді. Brave Password Manager оны өзгертіп, <ph name="EMAIL"/> мекенжайына сақтай алады. <ph name="LINK"/></translation>
+<translation id="945706443844722845">Құпия сөзіңіз баршаға ашық деректердің қолды болуы салдарынан жария етілді. Wryling Password Manager оны өзгертіп, <ph name="EMAIL"/> мекенжайына сақтай алады. <ph name="LINK"/></translation>
 <translation id="1621729191093924223">Микрофонды қажет ететін функциялар жұмыс істемейді.</translation>
 <translation id="1621984899599015181">Бөлісу опцияларын ұйымыңыз басқарады. Кейбір элементтер жасырылған болуы мүмкін.</translation>
 <translation id="1622054403950683339">Wi-Fi желісін жою</translation>
@@ -846,7 +846,7 @@
 <translation id="1651609627703324721">Бұл қойынды гарнитураға VR контентін көрсетіп жатыр</translation>
 <translation id="1652281434788353738">Ойшыл</translation>
 <translation id="1652326691684645429">Nearby Share функциясын қосу</translation>
-<translation id="3549478477646243075">Password Manager қызметін macOS кілттер тізбегімен бірге пайдалану үшін Brave-ді қайта іске қосып, кілттер тізбегін пайдалануға рұқсат беріңіз. Қайта іске қосқаннан кейін, қойындылар қайта ашылады.</translation>
+<translation id="2499592745937512720">Password Manager қызметін macOS кілттер тізбегімен бірге пайдалану үшін Wryling-ді қайта іске қосып, кілттер тізбегін пайдалануға рұқсат беріңіз. Қайта іске қосқаннан кейін, қойындылар қайта ашылады.</translation>
 <translation id="165448107578581061">Gemini тапсырмаңызды орындап жатыр...</translation>
 <translation id="1654580009054503925">Сұрауларды көрсету рұқсат етілмеген</translation>
 <translation id="1656528038316521561">Фон бұлдырлығы</translation>
@@ -865,7 +865,7 @@
 <translation id="1665328953287874063"><ph name="DEVICE_TYPE"/> құлпын ашу үшін құпия сөзді немесе PIN кодын пайдаланыңыз</translation>
 <translation id="1665859804801131136">Экспрессионизм</translation>
 <translation id="1667842670298352129">Дауыстап оқылатын мәтінді тыңдаңыз. Алдымен экранның төменгі жағындағы Select to Speak белгішесін басыңыз, одан кейін мәтінді ерекшелеңіз. Сондай-ақ перне тіркесімін пайдалана аласыз: мәтінді ерекшелеп, "Іздеу" + S перне тіркесімін басыңыз.</translation>
-<translation id="1907729551248502985"><ph name="TASK_TITLE"/>: Gemini тапсырмаңызды аяқтады. Оны Brave-нан көре аласыз.</translation>
+<translation id="6525814448763773534"><ph name="TASK_TITLE"/>: Gemini тапсырмаңызды аяқтады. Оны Wryling-нан көре аласыз.</translation>
 <translation id="1668804837842452164"><ph name="EMAIL"/> үшін <ph name="BRAND"/> ішіне сақтау</translation>
 <translation id="1670070366970670971">PDF қосалқы кадры: <ph name="SUBFRAME_SITE"/></translation>
 <translation id="1670399744444387456">Негізгі</translation>
@@ -873,7 +873,7 @@
 <translation id="1671749176392751693">Қорғалған контент идентификаторларына рұқсат берілді</translation>
 <translation id="1673137583248014546"><ph name="URL"/> сайты Security Key құрылғысының маркасы мен үлгісін білгісі келеді</translation>
 <translation id="1673855466663721679">Бетбелгілерді бүйірлік панельден көрсету</translation>
-<translation id="360538872024580404">Brave Password Manager аккаунтыңызды күрделі құпия сөзбен жаңартып, оны <ph name="EMAIL"/> аккаунтыңызға сақтап қоя алады.</translation>
+<translation id="7045853495100965504">Wryling Password Manager аккаунтыңызды күрделі құпия сөзбен жаңартып, оны <ph name="EMAIL"/> аккаунтыңызға сақтап қоя алады.</translation>
 <translation id="1674945585974615438">Бейтаныс сайттар үшін JavaScript оңтайлаушыларын автоматты түрде өшіру</translation>
 <translation id="1675964862374196038"><ph name="IDP_NAME"/> арқылы тіркелу</translation>
 <translation id="1677306805708094828"><ph name="EXTENSION_TYPE_PARAMETER"/> енгізілмеді.</translation>
@@ -911,7 +911,7 @@
 <translation id="1703666494654169921">Сайттардың виртуалдық шындық құрылғыларын немесе деректерді пайдалануына рұқсат бермеу</translation>
 <translation id="1704097193565924901">Бас әріпке өзгерту</translation>
 <translation id="1704230497453185209">Сайттардың дыбысты шығаруына рұқсат бермеу</translation>
-<translation id="2330259386430751078">Brave нұсқасы, операциялық жүйе нұсқасы, Cast параметрлері, экран көшірмесін көрсету статистикалары және байланыс арнасының диагностикалық журналдары жоғарыда қоса берілетін кез келген ақпаратпен бірге жіберіледі. Бұл пікір ақауларды тексеріп, функцияны жақсарту үшін пайдаланылады. Қандай да бір әдейі не байқаусызда жіберілген жеке ақпарат құпиялық саясаттарына сай қорғалады. Осы пікірді жібере отырып, Brave-дың қандай да бір өнімін не қызметін жақсарту үшін берген пікіріңізді пайдалануына келісім бересіз.</translation>
+<translation id="2276664597334765028">Brave нұсқасы, операциялық жүйе нұсқасы, Cast параметрлері, экран көшірмесін көрсету статистикалары және байланыс арнасының диагностикалық журналдары жоғарыда қоса берілетін кез келген ақпаратпен бірге жіберіледі. Бұл пікір ақауларды тексеріп, функцияны жақсарту үшін пайдаланылады. Қандай да бір әдейі не байқаусызда жіберілген жеке ақпарат құпиялық саясаттарына сай қорғалады. Осы пікірді жібере отырып, Brave-дың қандай да бір өнімін не қызметін жақсарту үшін берген пікіріңізді пайдалануына келісім бересіз.</translation>
 <translation id="17081583771848899">іске қосу тақтасы + Alt + <ph name="TOP_ROW_KEY"/></translation>
 <translation id="170825127491242914">Бұлт жадына сақтау</translation>
 <translation id="1708291623166985230">Хотспот өшірулі</translation>
@@ -1114,7 +1114,7 @@
 <translation id="1866589962721094893">Android қолданбаларына осы Chromebook-та USB құрылғыларын басқаруға мүмкіндік беру. Рұқсат USB құрылғысын жалғаған сайын сұралады. Жеке Android қолданбалары қосымша рұқсаттар сұрайды.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME"/> орнатуды аяқтауға дайын</translation>
 <translation id="1869433484041798909">Бетбелгі түймесі</translation>
-<translation id="7175072311426658869">Brave браузерінде ашу</translation>
+<translation id="7259806589727104192">Wryling браузерінде ашу</translation>
 <translation id="1871131409931646355">Толық жүктеп алу тарихы</translation>
 <translation id="187145082678092583">Азырақ қолданба</translation>
 <translation id="1871615898038944731"><ph name="DEVICE_TYPE"/> құрылғысы әлдеқашан жаңартылған</translation>
@@ -1166,11 +1166,11 @@
 <translation id="1907044622262489040">Дауысыңызбен мәтін теріңіз. "Іздеу" + D перне тіркесімін басып, сөйлей бастаңыз.</translation>
 <translation id="1907659324308286326">Кейбір Thunderbolt немесе USB4 керек-жарақтары дұрыс жұмыс істеуі үшін, жадты пайдалануға рұқсат алуы қажет.</translation>
 <translation id="1908591798274282246">Жабылған топты қайта ашу</translation>
-<translation id="6307771221551726329">Brave браузерін автоматты сынақ бағдарламалық құралы басқарып жатыр.</translation>
+<translation id="5448629660377773960">Wryling браузерін автоматты сынақ бағдарламалық құралы басқарып жатыр.</translation>
 <translation id="1909880997794698664">Бұл құрылғыны толық экран режимінде біржола сақтау керек пе?</translation>
 <translation id="1910721550319506122">Қош келдіңіз!</translation>
 <translation id="1910736334623230603">Бірнеше кескінді іздеу мүмкін емес. Кескіндерді бір-бірлеп қосыңыз.</translation>
-<translation id="2675239977494524649">v<ph name="BROWSER_VERSION"/> нұсқасын сынауға арналған Brave тек автоматты сынаққа арналған. Қалыпты шолу үшін автоматты түрде жаңартылатын Brave стандартты нұсқасын пайдаланыңыз.</translation>
+<translation id="3397046954990092136">v<ph name="BROWSER_VERSION"/> нұсқасын сынауға арналған Wryling тек автоматты сынаққа арналған. Қалыпты шолу үшін автоматты түрде жаңартылатын Wryling стандартты нұсқасын пайдаланыңыз.</translation>
 <translation id="1913734973620799732">{NUM_TABS,plural, =1{Браузер жұмысын баяулататын қойындыны кідіртіңіз}other{Браузер жұмысын баяулататын қойындыларды кідіртіңіз}}</translation>
 <translation id="1913749768968678106">Трансляциялау, сақтау және бөлісу</translation>
 <translation id="19147273405311768">Құралдар тақтасын әдепкі параметрлерге қайтару</translation>
@@ -1184,7 +1184,7 @@
 <translation id="1918281588461452432">Сайттарды шолған кезде, олардың бет контенті шифрланады және құрылғыңызға сақталады.</translation>
 <translation id="1918761619391445601"><ph name="EXTENSION_NAME"/> бекітілді. Басқа опцияларды көру.</translation>
 <translation id="1920390473494685033">Контактілер</translation>
-<translation id="1303494024456273059">Қауіпті веб-сайттарға, жүктеп алынған файлдар мен кеңейтімдерге қатысты Brave-ның ең күшті қауіпсіздік жүйесі қолданылады</translation>
+<translation id="4473968066674302045">Қауіпті веб-сайттарға, жүктеп алынған файлдар мен кеңейтімдерге қатысты Wryling-ның ең күшті қауіпсіздік жүйесі қолданылады</translation>
 <translation id="1921584744613111023"><ph name="DPI"/> dpi</translation>
 <translation id="1921600948984918136">"<ph name="NAME"/>" тек осы құрылғыға сақталды. Оны басқа құрылғыларыңызда пайдалану үшін аккаунтыңызға сақтаңыз.</translation>
 <translation id="2428738111653039235">Жеке өнімнің тілін өзгертпеген болсаңыз, Gmail, Drive және YouTube сияқты Brave сайттары Brave аккаунтыңыздың тілін пайдаланады.</translation>
@@ -1192,7 +1192,7 @@
 <translation id="192494336144674234">Ашу әдісі</translation>
 <translation id="1925017091976104802">Қою үшін <ph name="MODIFIER_KEY_DESCRIPTION"/> пернелерін басыңыз.</translation>
 <translation id="1925021887439448749">Арнаулы веб-мекенжайды енгізу</translation>
-<translation id="8049922435917813862">Brave қолданбаларының ескі нұсқалары 2022 жылдың желтоқсанынан кейін Windows жүйесіндегі құрылғыларда ашылмайды. Жаңа нұсқаның бар-жоғын тексеруіңізге болады.</translation>
+<translation id="3973756123782124071">Wryling қолданбаларының ескі нұсқалары 2022 жылдың желтоқсанынан кейін Windows жүйесіндегі құрылғыларда ашылмайды. Жаңа нұсқаның бар-жоғын тексеруіңізге болады.</translation>
 <translation id="1925907592956229423">Істемеді ме?</translation>
 <translation id="1926339101652878330">Бұл параметрлер кәсіпорын саясаты бойынша бақыланады. Қосымша ақпарат алу үшін әкімшіңізге хабарласыңыз.</translation>
 <translation id="1926887872692564784">Курсор</translation>
@@ -1290,7 +1290,7 @@
 <translation id="1995916364271252349">Сайттар қандай ақпаратты (геодерек, камера, қалқымалы терезелер, т.б.) пайдалана және көрсете алатынын басқарады.</translation>
 <translation id="199610894463449797">{0,plural, =1{Бұл профильді жабу}other{Бұл профильді (# терезені) жабу}}</translation>
 <translation id="1996557034791506430">Рұқсатты өшіру қажет пе?</translation>
-<translation id="5123795870522389058">Құрылғыңызға қосылу үшін Brave браузеріне Bluetooth-ты пайдалану рұқсаты қажет</translation>
+<translation id="3521856355166442895">Құрылғыңызға қосылу үшін Wryling браузеріне Bluetooth-ты пайдалану рұқсаты қажет</translation>
 <translation id="1997616988432401742">Сертификаттарыңыз</translation>
 <translation id="1998715278591719161">Қолыңызды бақылауға рұқсаты бар</translation>
 <translation id="1999115740519098545">Іске қосу кезінде</translation>
@@ -1372,7 +1372,7 @@
 <translation id="2071393345806050157">Жергілікті журнал файлы жоқ.</translation>
 <translation id="2073148037220830746">{NUM_EXTENSIONS,plural, =1{Кеңейтімді орнату үшін басыңыз.}other{Бұл кеңейтімдерді орнату үшін басыңыз.}}</translation>
 <translation id="2073505299004274893"><ph name="CHARACTER_LIMIT"/> таңбадан асырмаңыз.</translation>
-<translation id="6310091415404224128">ChromeOS Brave пайдаланушы журналдары</translation>
+<translation id="652095390288645804">ChromeOS Wryling пайдаланушы журналдары</translation>
 <translation id="2074599390896964828">Нақты локация</translation>
 <translation id="2075088158103027942">Жазылымға өту</translation>
 <translation id="2075474481720804517">Батарея заряды: <ph name="BATTERY_PERCENTAGE"/>%</translation>
@@ -1466,7 +1466,7 @@
 <translation id="2146263598007866206">Сайттар уақыт үнемдеу үшін ұқсас файлдарды автоматты түрде жүктеп ала алады.</translation>
 <translation id="2147218225094845757">Бүйірлік панельді жасыру</translation>
 <translation id="2147282432401652483">пәрмен</translation>
-<translation id="2147402320887035428">Бұл файл зиянды бағдарлама болуы мүмкін.<ph name="LINE_BREAK"/>Google Safe Browsing қызметі бұл файлдың қауіпті-қауіпсіз екенін тексереді. Сканерлеу процесі әдетте бірнеше секундқа созылады.</translation>
+<translation id="3524545590873425652">Бұл файл зиянды бағдарлама болуы мүмкін.<ph name="LINE_BREAK"/>Google Safe Browsing қызметі бұл файлдың қауіпті-қауіпсіз екенін тексереді. Сканерлеу процесі әдетте бірнеше секундқа созылады.</translation>
 <translation id="2147584561902725329">Мерзімді тапсырма соңғы рет орындалған уақыт:</translation>
 <translation id="2148212683005708350"><ph name="MODIFIER_ONE"/> + <ph name="MODIFIER_TWO"/> + <ph name="MODIFIER_THREE"/> + <ph name="KEY"/></translation>
 <translation id="2148219725039824548">Ортақ файлды бөлісу кезінде қате шықты. Көрсетілген ортақ файл желіден табылмады.</translation>
@@ -1543,7 +1543,7 @@
 <translation id="3750252396973215586">Brave аккаунтыңызбен кірген кезде, <ph name="BRAND"/> құпия сөздеріңізді тексере алады</translation>
 <translation id="2204020417499639567">Электрондық пошта толтырылды.</translation>
 <translation id="2204034823255629767">Барлық тергендеріңізді оқу және өзгерту</translation>
-<translation id="2421570739058774699">Бұл кіру кілтін Brave Password Manager-мен жасау үшін жеке басыңызды растаңыз</translation>
+<translation id="4389439850249114056">Бұл кіру кілтін Wryling Password Manager-мен жасау үшін жеке басыңызды растаңыз</translation>
 <translation id="2204387456724731099">Таңдалған мәтін аударылмады</translation>
 <translation id="2204613850236199029">Ақпарат өшірілді</translation>
 <translation id="2207116775853792104">Бұл кеңейтімді сақтау</translation>
@@ -1693,7 +1693,7 @@
 <translation id="2323685460575935191">Айналдыру түймелерін жасыру</translation>
 <translation id="2325444234681128157">Құпия сөзді есте сақтау</translation>
 <translation id="2326188115274135041">Құлыпты автоматты түрде ашу функциясын қосу үшін PIN кодын растаңыз.</translation>
-<translation id="932658359823557793">Бұл Brave аккаунты емес. Сіз Brave-ға сақтайтын элементтер басқа құрылғыларда қолжетімді болмайды.</translation>
+<translation id="2402143283348433546">Бұл Brave аккаунты емес. Сіз Brave-ға сақтайтын элементтер басқа құрылғыларда қолжетімді болмайды.</translation>
 <translation id="2326906096734221931">Қолданба параметрлерін ашу</translation>
 <translation id="2326931316514688470">Қолданбаны &amp;қайта жүктеу</translation>
 <translation id="2327920026543055248"><ph name="CHARACTER"/>/<ph name="TOTAL"/> таңба енгізіңіз.</translation>
@@ -1719,7 +1719,7 @@
 <translation id="2343160676229467122"><ph name="SITE_NAME"/> сайтында кеңейтімдерге рұқсат берілмейді</translation>
 <translation id="2343390523044483367">"Жартасты таулар" ұлттық саябағы</translation>
 <translation id="2343747224442182863">Осы қойындыны ерекшелеу</translation>
-<translation id="6055117817387598516">Brave қолданбаларының ескі нұсқалары 2022 жылдың желтоқсанынан кейін ашылмайды. Қолданбаның жаңа нұсқасын орнату немесе оны жою үшін әкімшіге хабарласыңыз.</translation>
+<translation id="5799730171660321530">Wryling қолданбаларының ескі нұсқалары 2022 жылдың желтоқсанынан кейін ашылмайды. Қолданбаның жаңа нұсқасын орнату немесе оны жою үшін әкімшіге хабарласыңыз.</translation>
 <translation id="2348176352564285430">Қолданба: <ph name="ARC_PROCESS_NAME"/></translation>
 <translation id="2348729153658512593"><ph name="WINDOW_TITLE"/> – рұқсат сұралды, жауап беру үшін Ctrl + Forward пернелер тіркесімін басыңыз.</translation>
 <translation id="234889437187286781">Деректерді жүктеу кезінде қате шықты.</translation>
@@ -1872,10 +1872,10 @@
 <translation id="2462577132948197840">Телефоныңыздан кіру</translation>
 <translation id="246264032905007361">Edge-ді ашу</translation>
 <translation id="2462752602710430187"><ph name="PRINTER_NAME"/> енгізілді</translation>
-<translation id="3708525592265213987">Microsoft SharePoint пен OneDrive қызметтеріндегі ең соңғы іс-әрекеттеріңізге оңай оралуыңыз үшін, ұсынылған файлдар көрсетіледі.
+<translation id="3512223990745179540">Microsoft SharePoint пен OneDrive қызметтеріндегі ең соңғы іс-әрекеттеріңізге оңай оралуыңыз үшін, ұсынылған файлдар көрсетіледі.
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        Параметрлерді карта мәзірінде реттеуге, басқа опцияларды "Brave-ды бейімдеу" бөлімінен көруге болады.</translation>
+        Параметрлерді карта мәзірінде реттеуге, басқа опцияларды "Wryling-ды бейімдеу" бөлімінен көруге болады.</translation>
 <translation id="2464079411014186876">Балмұздақ</translation>
 <translation id="2467755475704469005">Құрылғы анықталмады. <ph name="BEGIN_LINK"/>Толығырақ<ph name="END_LINK"/></translation>
 <translation id="2467933879189426525"><ph name="OWNER_FIRST_NAME"/> және тағы <ph name="NUM_OTHER_MEMBERS"/> адам қосылған қойындылар тобына қосылыңыз</translation>
@@ -1947,10 +1947,10 @@
 <translation id="2509918030571808322"><ph name="TASK_TITLE"/>: <ph name="STEP_PROGRESS"/></translation>
 <translation id="2512065992892294946"><ph name="LANGUAGE"/> (таңдалды)</translation>
 <translation id="2513904627589542105">Өзін-өзі тексеру</translation>
-<translation id="2853929249020379065">Сізге өзіңіз кірген беттер мен ұсынылған іздеу әдістері көрініп тұр, олар соңғы іс-әрекеттеріңізге оңай қайтып келуге көмектеседі.
+<translation id="2148080035799245255">Сізге өзіңіз кірген беттер мен ұсынылған іздеу әдістері көрініп тұр, олар соңғы іс-әрекеттеріңізге оңай қайтып келуге көмектеседі.
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        Параметрлерді карта мәзірінен реттеп, басқа опцияларды "Brave-ды реттеу" бөлімінен көре аласыз.</translation>
+        Параметрлерді карта мәзірінен реттеп, басқа опцияларды "Wryling-ды реттеу" бөлімінен көре аласыз.</translation>
 <translation id="2514465118223423406">Тінтуір жалғанған кезде</translation>
 <translation id="2515586267016047495">Alt</translation>
 <translation id="251722524540674480">Пайдаланушы атын растаңыз</translation>
@@ -2043,7 +2043,7 @@
 <translation id="2589658397149952302">Drive файлдарын ешқашан көрсетпеу</translation>
 <translation id="2597073208962000830">Nearby Share маңайдағы құрылғыларды табу үшін Bluetooth арқылы іздеуді пайдаланады.</translation>
 <translation id="2598136842498757793">Құралдар тақтасының түймелерін бейімдеу</translation>
-<translation id="2024721991200132064">Жаңа Brave қолжетімді</translation>
+<translation id="2001896808401121187">Жаңа Wryling қолжетімді</translation>
 <translation id="2599048253926156421">Пайдаланушы аты буферге көшірілді.</translation>
 <translation id="2600631204638174747">{NUM_SITES,plural, =1{1 қауіпті кеңейтім өшірілді}other{{NUM_SITES} қауіпті кеңейтім өшірілді}}</translation>
 <translation id="2603121359676416582">Осы бетке арналған</translation>
@@ -2072,7 +2072,7 @@
 <translation id="2618797463720777311">Nearby Share функциясын реттеу</translation>
 <translation id="2619305858360733464"><ph name="SHARED_STATE"/> атауы жоқ тобы: <ph name="OPENED_STATE"/></translation>
 <translation id="2619340799655338321">ойнату/кідірту</translation>
-<translation id="9145669676445236687">Brave &amp;Labs...</translation>
+<translation id="7386574547123882068">Wryling &amp;Labs...</translation>
 <translation id="2620215283731032047"><ph name="FILE_NAME"/> файлын қауіпсіз жүктеп алу мүмкін емес.</translation>
 <translation id="2620245777360407679">Қазіргі уақытта хотспотқа қосылған құрылғылар</translation>
 <translation id="2620436844016719705">Жүйе</translation>
@@ -2149,26 +2149,26 @@
 <translation id="2667463864537187133">Орфографиялық сөздікті басқару</translation>
 <translation id="2669250147452250961">Браузерді қолдану тарихы мен қойындыларды басқа құрылғылардан алу үшін қосыңыз.</translation>
 <translation id="2669454659051515572">Осы құрылғыны пайдаланатын кез келген адам жүктеп алынған файлдарды көре алады.</translation>
-<translation id="351520635355732555"><ph name="APP_NAME"/> қолданбасы Brave қойындысын бөлісуде.</translation>
-<translation id="3767686227734654975">Brave құпия сөздеріңіздің бірін баршаға ашық қолды болған деректерден тапса, аккаунтқа кіріп тұрсаңыз, Brave Password Manager құпия сөзіңізді сіздің орныңызға өзгертіп беруді ұсынуы мүмкін. <ph name="BEGIN_LINK"/>Құпия сөзді автоматты түрде өзгерту туралы толық ақпарат<ph name="END_LINK"/></translation>
+<translation id="4660722239919846618"><ph name="APP_NAME"/> қолданбасы Wryling қойындысын бөлісуде.</translation>
+<translation id="5637102320592120576">Wryling құпия сөздеріңіздің бірін баршаға ашық қолды болған деректерден тапса, аккаунтқа кіріп тұрсаңыз, Wryling Password Manager құпия сөзіңізді сіздің орныңызға өзгертіп беруді ұсынуы мүмкін. <ph name="BEGIN_LINK"/>Құпия сөзді автоматты түрде өзгерту туралы толық ақпарат<ph name="END_LINK"/></translation>
 <translation id="2670350619068134931">Азайтылған анимациялар</translation>
 <translation id="2670403088701171361">Сайттардың буферіңіздегі мәтінді немесе суреттерді көруіне рұқсат бермеу</translation>
 <translation id="2671423594960767771">Топты бөлісу</translation>
 <translation id="2671451824761031126">Бетбелгілер мен параметрлер дайын</translation>
-<translation id="5999615052787816207">Brave жалаушаларды пәрмен жолы файлынан жүктеп жатыр. Тұрақтылық пен қауіпсіздікке теріс әсер етуі мүмкін.</translation>
+<translation id="2630650338443498102">Wryling жалаушаларды пәрмен жолы файлынан жүктеп жатыр. Тұрақтылық пен қауіпсіздікке теріс әсер етуі мүмкін.</translation>
 <translation id="2673135533890720193">Шолу журналыңызды оқу</translation>
 <translation id="2673848446870717676">Bluetooth құрылғыңыз жұптау режимінде және маңайда болсын. Сенімді құрылғылармен ғана жұптаңыз. Жұпталған құрылғылар осы Chromebook-тегі барлық аккаунтқа көрінеді.</translation>
 <translation id="2673873887296220733">Ашу үшін 1 файлды <ph name="CLOUD_PROVIDER"/> қызметіне көшіру керек пе?</translation>
 <translation id="267442004702508783">жаңарту</translation>
 <translation id="2674756932811577764">Әсерлерді кідірту</translation>
-<translation id="6593843405048698743">Brave-дағы Gemini-мен танысыңыз</translation>
+<translation id="7272548036530777000">Wryling-дағы Gemini-мен танысыңыз</translation>
 <translation id="2677748264148917807">Шығу</translation>
 <translation id="267829273183481634">{NUM_GROUPS,plural, =1{Қойындылар тобын қалдыру керек пе?}other{Қойындылар топтарын қалдыру керек пе?}}</translation>
 <translation id="268053382412112343">Жу&amp;рнал</translation>
 <translation id="2682498795777673382">Ата-анаңыз өзгерту енгізді</translation>
 <translation id="2683638487103917598">Қалта сұрыпталды</translation>
 <translation id="2685193395980129388">Рұқсат етілген – <ph name="PERMISSION_DETAILS"/></translation>
-<translation id="4772325112693163883">Бұл құпия сөзді есте сақтаудың қажеті жоқ. Ол <ph name="ACCOUNT"/> аккаунтына арналған Brave Құпия сөз менеджеріне сақталады.</translation>
+<translation id="3156512094077940104">Бұл құпия сөзді есте сақтаудың қажеті жоқ. Ол <ph name="ACCOUNT"/> аккаунтына арналған Wryling Құпия сөз менеджеріне сақталады.</translation>
 <translation id="2690024944919328218">Тіл опцияларын көрсету</translation>
 <translation id="2691385045260836588">Моделі</translation>
 <translation id="2692503699962701720">Элемент түрлерін және форматталған мәтінді айтқанда, дауысыңыздың жоғарылығын өзгертіңіз.</translation>
@@ -2250,7 +2250,7 @@
 <translation id="2741912629735277980">Кіру экранындағы интерфейсті көрсету</translation>
 <translation id="2742373789128106053"><ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> қазір қолжетімді емес.</translation>
 <translation id="2743301740238894839">Бастау</translation>
-<translation id="3491974999711898233">Құпия сөзді Brave Password Manager-ге сақтау үшін локация жолағындағы Password Manager белгішесін басыңыз</translation>
+<translation id="2309654501049956864">Құпия сөзді Wryling Password Manager-ге сақтау үшін локация жолағындағы Password Manager белгішесін басыңыз</translation>
 <translation id="2743387203779672305">Буферге көшіру</translation>
 <translation id="274362947316498129">Қолданба <ph name="DEVICE_NAME"/> құрылғысын пайдаланғысы келіп тұр. Пайдалануға рұқсат беру үшін <ph name="DEVICE_NAME"/> құпиялық ауыстырғышын өшіріңіз.</translation>
 <translation id="2744221223678373668">Ортақ</translation>
@@ -2415,7 +2415,7 @@
 <translation id="2869511363030898130"><ph name="APP_NAME"/> қолданбасында ашу</translation>
 <translation id="2870560284913253234">Сайт</translation>
 <translation id="2870909136778269686">Жаңартылуда…</translation>
-<translation id="796921500671266784">Бұл қолданба қауіпті болуы мүмкін және оны Brave блоктады.</translation>
+<translation id="5973705351508783392">Бұл қолданба қауіпті болуы мүмкін және оны Wryling блоктады.</translation>
 <translation id="2871733351037274014">Беттерді алдын ала жүктеу</translation>
 <translation id="2871813825302180988">Бұл аккаунт әлдеқашан осы құрылғыда пайдаланылып жатыр.</translation>
 <translation id="287205682142673348">Портты бағыттау</translation>
@@ -2424,7 +2424,7 @@
 <translation id="2873744479411987024">Жаңарту жиілігі жоғарырақ болса, сізде қосымша мәліметтері бар бірқалыпты көрсету болады. Жаңарту жиілігінің артуы батарея жұмысының ұзақтығына әсер етуі мүмкін.</translation>
 <translation id="2873956234023215251">Қолданбаны орнату мүмкін емес. Бірдеңе дұрыс болмады.</translation>
 <translation id="2874939134665556319">Алдыңғы аудиотрек</translation>
-<translation id="4156865452842056672">(Brave қате беттері)</translation>
+<translation id="1764117716686866474">(Wryling қате беттері)</translation>
 <translation id="2876369937070532032">Қауіп төніп тұрғанда, сіз кірген кейбір беттердің URL сілтемелерін Brave-ға жібереді.</translation>
 <translation id="2876484123356705658">Уақыт аралығын таңдау</translation>
 <translation id="2876556152483133018">Сайттан іздеу</translation>
@@ -2438,7 +2438,7 @@
 <translation id="2885378588091291677">Тапсырмалар реттегіші</translation>
 <translation id="2886771036282400576">• <ph name="PERMISSION"/></translation>
 <translation id="288734198558082692"><ph name="DEVICE"/> және тағы <ph name="NUMBER_OF_DEVICES"/> құрылғы</translation>
-<translation id="7145068271494881186">Шолу жасаған кезде жауаптар, маңызды тұжырымдар және т.б. ақпарат алу үшін Brave-дағы Gemini-мен чатта сөйлесіңіз.</translation>
+<translation id="36564223923169344">Шолу жасаған кезде жауаптар, маңызды тұжырымдар және т.б. ақпарат алу үшін Wryling-дағы Gemini-мен чатта сөйлесіңіз.</translation>
 <translation id="2889043468805635730">Ешқандай мәселе табылмады.</translation>
 <translation id="2889064240420137087">Сілтеме ашу әдісі…</translation>
 <translation id="2889937141553641427">{0,plural, =1{Оқшау режим}other{Оқшау режимдегі # ашық терезе}}</translation>
@@ -2448,7 +2448,7 @@
 <translation id="2893318819023133318">Кері көріністер</translation>
 <translation id="2894596417096093634">Бұзылу туралы есеп идентификаторлары</translation>
 <translation id="2894757982205307093">Топқа жаңа қойынды енгізу</translation>
-<translation id="5168657537153320842">Gemini Spark бұл құрылғыда автоматты түрде шолу функциясын құрылғы ояу және Brave іске қосылған кезде ғана пайдалана алады.</translation>
+<translation id="4609378462161046249">Gemini Spark бұл құрылғыда автоматты түрде шолу функциясын құрылғы ояу және Wryling іске қосылған кезде ғана пайдалана алады.</translation>
 <translation id="289695669188700754">Кілт индентификаторы: <ph name="KEY_ID"/></translation>
 <translation id="2897878306272793870"><ph name="TAB_COUNT"/> қойындыны ашқыңыз келе ме?</translation>
 <translation id="2900247416110050639">Google Docs, Sheets және Slides бағдарламалары файлдарды Google Drive қызметінде сақтауды қажет етеді. Жергілікті файлдар жылжытылады және басқа орындардағы файлдар көшіріледі. Файлдарыңызды Files қолданбасындағы Google Drive қалтасынан табуға болады.</translation>
@@ -2469,7 +2469,7 @@
 <translation id="2908122561561557160">Word, Excel және PowerPoint файлдарын ашу</translation>
 <translation id="2908162660801918428">Каталог бойынша медиа галереяны қосу</translation>
 <translation id="2908358077082926882">Тағайындауды өшіріп, <ph name="RESPONSE"/> үшін "<ph name="CURRENTKEY"/>" пернесін тағы басыңыз.</translation>
-<translation id="2266953261741300226">Brave-ды мобильдік құрылғыға жүктеп алыңыз</translation>
+<translation id="1076740576781805023">Wryling-ды мобильдік құрылғыға жүктеп алыңыз</translation>
 <translation id="2910318910161511225">Желімен байланыс орнатып, әрекетті қайталап көріңіз</translation>
 <translation id="2910678330803525229">Енді пайдалана берсеңіз болады.</translation>
 <translation id="2912247081180973411">Терезелерді жабу</translation>
@@ -2484,14 +2484,14 @@
 <translation id="2920852127376356161">Протоколдарды өңдеуге рұқсаты жоқтар</translation>
 <translation id="2923234477033317484">Бұл аккаунтты өшіру</translation>
 <translation id="2923644930701689793">Телефон камерасының суреттер қалтасына кіру</translation>
-<translation id="3249101334307130799">Brave параметрлері</translation>
+<translation id="3482382083907212749">Wryling параметрлері</translation>
 <translation id="2926085873880284723">Әдепкі таңбашаларды қалпына келтіру</translation>
 <translation id="2926708162326352948">Тақырып жүктеп салынған кескінге жаңартылды.</translation>
 <translation id="2927017729816812676">Кэш жады</translation>
 <translation id="7099134950659097846">Таңдауыңыз сақталды. Ол басқа Brave қызметтеріне кірген кезіңізде қолданылады.</translation>
 <translation id="2928361271496576301">Тағайындалған пернені қабылдау</translation>
 <translation id="2928795416630981206">Камераңыздың орнын қадағалауға рұқсаты барлар</translation>
-<translation id="8154235090364237757">{NUM_SITES,plural, =1{Brave 1 сайттағы рұқсаттарды өшірді}other{Brave {NUM_SITES} сайттағы рұқсаттарды өшірді}}</translation>
+<translation id="5921083063517633760">{NUM_SITES,plural, =1{Wryling 1 сайттағы рұқсаттарды өшірді}other{Wryling {NUM_SITES} сайттағы рұқсаттарды өшірді}}</translation>
 <translation id="2931157624143513983">Басып шығару аймағына сәйкестендіру</translation>
 <translation id="2931342457001070961">Ешқандай микрофон жалғанбаған.</translation>
 <translation id="2932085390869194046">Құпия сөз жасау...</translation>
@@ -2515,7 +2515,7 @@
 <translation id="2946119680249604491">Байланыс қосу</translation>
 <translation id="2946190589196900944">Дисплейдің шектік сызықтары</translation>
 <translation id="2946640296642327832">Bluetooth қосу</translation>
-<translation id="1130593361639324030">Қойындылар топтарын бөлісу немесе оларға қосылу үшін Brave-ға кіруге рұқсатыңыз болуы керек.</translation>
+<translation id="3774434044366960368">Қойындылар топтарын бөлісу немесе оларға қосылу үшін Wryling-ға кіруге рұқсатыңыз болуы керек.</translation>
 <translation id="2947605845283690091">Веб-беттер жылдам ашылуы керек. Сәл уақытыңызды бөліп, <ph name="BEGIN_LINK"/>кеңейтімдерді тексеріңіз<ph name="END_LINK"/>.</translation>
 <translation id="2948287943780377675">{FILE_COUNT,plural, =1{Файлды осы жерге әкеліңіз}other{Файлдарды осы жерге әкеліңіз}}</translation>
 <translation id="2948300991547862301"><ph name="PAGE_TITLE"/> бетіне өту</translation>
@@ -2544,7 +2544,7 @@
 <translation id="2967926928600500959">Осы ережелерге сай келетін URL мекенжайлары белгілі бір браузерде күштеп ашылады.</translation>
 <translation id="2969411787010981955">Деректер таңдалған орынға экспортталды</translation>
 <translation id="2970766364519518369">Маңайдағы таңдалған контактілер сізбен бөлісе алады. Сізден осы сұрауларды мақұлдау сұралады. <ph name="USER_EMAIL"/> аккаунтына кірген құрылғылар арасында бөлісілген контентті мақұлдау қажет болмайды.</translation>
-<translation id="4802379027410104335">Brave-ға осы Brave аккаунтымен</translation>
+<translation id="5125039946630180885">Brave-ға осы Brave аккаунтымен</translation>
 <translation id="2972557485845626008">Микробағдарлама</translation>
 <translation id="2972581237482394796">&amp;Қайта орындау</translation>
 <translation id="2973324205039581528">Сайттың дыбысын өшіру</translation>
@@ -2562,7 +2562,7 @@
 <translation id="2983373101216420412">Қап батареясының деңгейі: <ph name="PERCENTAGE"/>%</translation>
 <translation id="2983818520079887040">Параметрлер…</translation>
 <translation id="2984727013951557074">Файл Drive-пен әлі синхрондалып жатыр.</translation>
-<translation id="5706997116413643454">Brave Password Manager көмегімен кіру кілттерін осы құрылғыдан алыңыз.</translation>
+<translation id="47461721301249579">Wryling Password Manager көмегімен кіру кілттерін осы құрылғыдан алыңыз.</translation>
 <translation id="2985476671756533899">{NUM_SUB_APPS,plural, =1{<ph name="APP_NAME"/> қолданбаны жойды}other{<ph name="APP_NAME"/> # қолданбаны жойды}}</translation>
 <translation id="2988018669686457659">Қосалқы рендеринг құралы</translation>
 <translation id="2988328607561082373">Ешқандай құпия сөзді қайта пайдаланып жатқан жоқсыз.</translation>
@@ -2712,7 +2712,7 @@
 <translation id="3083899879156272923">Тінтуірді экранның ортасында ұстау арқылы экранды жылжыту</translation>
 <translation id="3084121729444215602"><ph name="EXTENSION_NAME"/> кеңейтімін әкімші бекітті</translation>
 <translation id="3084548735795614657">Орнату үшін сүйреп қойыңыз</translation>
-<translation id="5418694430960033386">Brave жады толған немесе веб-бетке арналған процесс кейбір басқа себептер үшін тоқтатылған. Жалғастыру үшін қайта жүктеңіз немесе басқа бетке өтіңіз.</translation>
+<translation id="1938891602372007002">Wryling жады толған немесе веб-бетке арналған процесс кейбір басқа себептер үшін тоқтатылған. Жалғастыру үшін қайта жүктеңіз немесе басқа бетке өтіңіз.</translation>
 <translation id="3085412380278336437">Сайт камераны пайдалана алады</translation>
 <translation id="3087734570205094154">Астына</translation>
 <translation id="3088052000289932193">Сайт MIDI құрылғысын пайдаланып жатыр.</translation>
@@ -2730,7 +2730,7 @@
 <translation id="310297983047869047">Алдыңғы слайд</translation>
 <translation id="3103451787721578293">Деректерді жүктеп салу себебін көрсетіңіз:</translation>
 <translation id="3105339775057145050">Соңғы орындалмаған жаңарту</translation>
-<translation id="4566550081126272435">Brave іздеу жүйесіне қайта ораласыз ба?</translation>
+<translation id="5053372439942907467">Wryling іздеу жүйесіне қайта ораласыз ба?</translation>
 <translation id="3105820656234755131">Құпия сөз жаңартылды</translation>
 <translation id="3105990244222795498"><ph name="DEVICE_NAME"/> (Bluetooth)</translation>
 <translation id="310671807099593501">Сайт Bluetooth функциясын пайдалануда</translation>
@@ -2756,7 +2756,7 @@
 <translation id="3122496702278727796">Деректер каталогін жасау әрекеті сәтсіз аяқталды</translation>
 <translation id="3122883569442693641">Қосымша мәліметтер</translation>
 <translation id="3124111068741548686">USER тұтқалары</translation>
-<translation id="10925962326134232">Браузеріңізге жаңа көрініс беру үшін Brave браузерін бейімдеңіз</translation>
+<translation id="908722199085381104">Браузеріңізге жаңа көрініс беру үшін Wryling браузерін бейімдеңіз</translation>
 <translation id="3124950826511066429">Автотолтыру функциясының әртүрлі ақпарат түрлерінде қалай істейтініне әсер ететін параметрлер</translation>
 <translation id="3125361247594231799">Келесі жолы пайдалану үшін бекіту</translation>
 <translation id="3126026824346185272">Ctrl</translation>
@@ -2779,7 +2779,7 @@
 <translation id="3143754809889689516">Басынан бастап ойнату</translation>
 <translation id="3144647712221361880">Сілтемені басқа атпен ашу</translation>
 <translation id="3147878021189006333">Omnibox</translation>
-<translation id="300669147395456190">Brave Apps</translation>
+<translation id="7379373399486006075">Wryling Apps</translation>
 <translation id="3150927491400159470">Жабдықты қайта жүктеу</translation>
 <translation id="315116470104423982">Мобильді деректер</translation>
 <translation id="3151539355209957474">Басталу уақыты</translation>
@@ -2857,15 +2857,15 @@
 <translation id="3202499879214571401">Экранды <ph name="DEVICE_NAME"/> құрылғысына трансляциялауды кідірту</translation>
 <translation id="3202578601642193415">Ең жаңа</translation>
 <translation id="3206289903841621620">Пайдаланушы сөздігі <ph name="NUMBER"/></translation>
-<translation id="3746394893874035323">Соңғы іс-әрекеттеріңізге байланысты сізді қызықтыруы мүмкін ұсынылған іздеулер мен сатып алу жеңілдіктерін көріп тұрсыз.
+<translation id="929201866904025342">Соңғы іс-әрекеттеріңізге байланысты сізді қызықтыруы мүмкін ұсынылған іздеулер мен сатып алу жеңілдіктерін көріп тұрсыз.
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        Параметрлерді осы картадан кез келген уақытта басқара аласыз немесе Brave-ды бейімдеу бөлімінде басқа опцияларды көре аласыз.</translation>
+        Параметрлерді осы картадан кез келген уақытта басқара аласыз немесе Wryling-ды бейімдеу бөлімінде басқа опцияларды көре аласыз.</translation>
 <translation id="3207909572959773060">{NUM_TABS,plural, =1{1 қойындыға жаңа қойынды қосу}other{# қойындыға жаңа қойынды қосу}}</translation>
 <translation id="3207960819495026254">Бетбелгі қойылған</translation>
 <translation id="3208321278970793882">Қолданба</translation>
 <translation id="3208703785962634733">Расталмаған</translation>
-<translation id="3209703592917353472">Сіз кірген сайт не істеп жатқаныңыз туралы ақпаратты сақтай алады, осылайша ол ойдағыдай жұмыс істейді (мысалы, сайтқа кірген күйде қалуыңыз немесе тауарларды сатып алу себетіне сақтау үшін). Сайттар бұл ақпаратты құрылғыға көбінесе уақытша сақтайды.</translation>
+<translation id="6830723795172079256">Сіз кірген сайт не істеп жатқаныңыз туралы ақпаратты сақтай алады, осылайша ол ойдағыдай жұмыс істейді (мысалы, сайтқа кірген күйде қалуыңыз немесе тауарларды сатып алу себетіне сақтау үшін). Сайттар бұл ақпаратты құрылғыға көбінесе уақытша сақтайды.</translation>
 <translation id="3210736980143419785">Жүктеп алу аяқталмады.</translation>
 <translation id="321084946921799184">Сары және ақ</translation>
 <translation id="3211126692872351610">Жаңа қойындыда <ph name="SEARCH_ENGINE"/> ішінен "<ph name="SEARCH_TERMS"/>" &amp;іздеу</translation>
@@ -2916,7 +2916,7 @@
 <translation id="3250374026663843838">Дағдыңызды басқару</translation>
 <translation id="3251119461199395237">Файлды синхрондау</translation>
 <translation id="3251759466064201842">&lt;Сертификаттың бөлігі емес&gt;</translation>
-<translation id="4413356660053702703">Оны Brave Password Manager қызметінен таба аласыз.</translation>
+<translation id="5277009598698141857">Оны Wryling Password Manager қызметінен таба аласыз.</translation>
 <translation id="3253225298092156258">Қолжетімді емес</translation>
 <translation id="3253344772044554413">{NUM_OF_FILES,plural, =1{Бұл файлды көшіру үшін <ph name="CLOUD_PROVIDER"/> қызметінде орын босатыңыз.}other{Бұл файлдарды көшіру үшін <ph name="CLOUD_PROVIDER"/> қызметінде орын босатыңыз.}}</translation>
 <translation id="3253448572569133955">Белгісіз аккаунт</translation>
@@ -2952,7 +2952,7 @@
 <translation id="3277214528693754078">Мәтін курсорымен қозғалу (белсенді курсор режимі)</translation>
 <translation id="3279092821516760512">Таңдалған контактілер маңайда болған кезде, сізбен бөлісе алады. Сіз қабылдамайынша, тасымалдау басталмайды.</translation>
 <translation id="3280237271814976245">Басқаша &amp;сақтау…</translation>
-<translation id="5340857474604400806">Brave браузерінде қалу</translation>
+<translation id="4768106021954837307">Wryling браузерінде қалу</translation>
 <translation id="3282210178675490297">Қойынды <ph name="APP_NAME"/> қолданбасымен бөлісілуде</translation>
 <translation id="3284050785966252943">Метадеректер алғы көрінісін автотолтыру</translation>
 <translation id="3285218179623157680"><ph name="WINDOW_TITLE"/> – төменгі көрініс</translation>
@@ -2986,10 +2986,10 @@
 <translation id="3303855915957856445">Іздеу нәтижелері табылмады</translation>
 <translation id="3304212451103136496"><ph name="DISCOUNT_AMOUNT"/> жеңілдік</translation>
 <translation id="3305661444342691068">PDF файлын алдын ала көру қолданбасында ашу</translation>
-<translation id="9133756165511111573">Соңғы іс-әрекеттеріңізге бірден оралу үшін басқа құрылғылардағы қойындылар көрсетіледі.
+<translation id="3052673784611846156">Соңғы іс-әрекеттеріңізге бірден оралу үшін басқа құрылғылардағы қойындылар көрсетіледі.
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        Параметрлерді карта мәзірінен басқаруға немесе басқа опцияларды "Brave-ды реттеу" бөлімінен көруге болады.</translation>
+        Параметрлерді карта мәзірінен басқаруға немесе басқа опцияларды "Wryling-ды реттеу" бөлімінен көруге болады.</translation>
 <translation id="3308134619352333507">Түймені жасыру</translation>
 <translation id="3308604065765626613">{GROUP_COUNT,plural, =1{Қойындылар осы құрылғыда ашық қалады, бірақ топ біржола жойылады.}other{Қойындылар осы құрылғыда ашық қалады, бірақ топтар біржола жойылады.}}</translation>
 <translation id="3309124184713871355">Құрылыстар</translation>
@@ -3043,7 +3043,7 @@
 <translation id="3348973040180736882">Мұрағаттан шығарылып жатыр</translation>
 <translation id="3349933790966648062">Пайдаланылатын жад көлемі</translation>
 <translation id="3351472127384196879">Қаламдағы түймелерді қосу немесе табу</translation>
-<translation id="2198340416484774609">Brave қолданбаларының ескі нұсқалары 2022 жылдың желтоқсанынан кейін Mac жүйесіндегі құрылғыларда ашылмайды. Жаңа нұсқаның бар-жоғын тексеруіңізге болады.</translation>
+<translation id="7121948070993040604">Wryling қолданбаларының ескі нұсқалары 2022 жылдың желтоқсанынан кейін Mac жүйесіндегі құрылғыларда ашылмайды. Жаңа нұсқаның бар-жоғын тексеруіңізге болады.</translation>
 <translation id="3354972872297836698"><ph name="DEVICE_NAME"/> құрылғысымен жұптау мүмкін болмады; әрекетті қайталау үшін құрылғыны таңдаңыз.</translation>
 <translation id="335581015389089642">Сөйлеу</translation>
 <translation id="3355936511340229503">Байланыс қатесі</translation>
@@ -3093,7 +3093,7 @@
 <translation id="3390442085511866400">Бейнекадрды басқаша сақтау...</translation>
 <translation id="3390530051434634135">Ескертпе: <ph name="NOTE"/></translation>
 <translation id="3390740059150071453">Сол жаққа қараңыз.</translation>
-<translation id="404326254653176440">Brave құжат талдау процесі</translation>
+<translation id="4786791686512231403">Wryling құжат талдау процесі</translation>
 <translation id="3394072120086516913">Дербес компьютер сымды желіге жалғанған және трансляциялау құрылғысы Wi-Fi-ға қосылған</translation>
 <translation id="3394850431319394743">Қорғалған контентті ойнату үшін идентификаторларды пайдалануға рұқсат етілді.</translation>
 <translation id="339722927132407568">Қатып қалады</translation>
@@ -3142,7 +3142,7 @@
 <translation id="3431715928297727378"><ph name="WINDOW_TITLE"/> – <ph name="MEMORY_VALUE"/> босатылды</translation>
 <translation id="3432762828853624962">Shared Workers</translation>
 <translation id="3433507769937235446">Компьютерден алыстағанда құлыптау</translation>
-<translation id="3044702330949941099">Brave Password Manager қызметіне көбірек рұқсат қажет</translation>
+<translation id="1271779175305705203">Wryling Password Manager қызметіне көбірек рұқсат қажет</translation>
 <translation id="3434107140712555581"><ph name="BATTERY_PERCENTAGE"/>%</translation>
 <translation id="3434475275396485144">Бұл параметрді телефоныңыздың әкімшісі басқарады.</translation>
 <translation id="3434512374684753970">Аудио және бейне</translation>
@@ -3220,7 +3220,7 @@
 <translation id="3487649228420469005">Сканерлеу аяқталды</translation>
 <translation id="3488199663160411179">аты</translation>
 <translation id="3488609300093733298">Телефоныңыздан кіру</translation>
-<translation id="1088295851754116403">ChromeOS құрылғыларындағы Brave қолданбаларының жұмысы 2025 жылдың шілдесінде тоқтады. Басқа қолданбаны пайдаланыңыз.</translation>
+<translation id="1326424950426003192">ChromeOS құрылғыларындағы Wryling қолданбаларының жұмысы 2025 жылдың шілдесінде тоқтады. Басқа қолданбаны пайдаланыңыз.</translation>
 <translation id="3490695139702884919">Жүктеп алынып жатыр… <ph name="PERCENT"/>%</translation>
 <translation id="3491171603443463516">PIN кодыңызды немесе құпия сөзіңізді ұмытып қалсаңыз, жергілікті деректерді қалпына келтіруге болады.</translation>
 <translation id="3491616972057195633">Пернелердің қайта басылуын елемеу</translation>
@@ -3254,7 +3254,7 @@
 <translation id="3512465804715993309">Дауыс жылдамдығына сай бейімдеу</translation>
 <translation id="3513019849832307207">Қосылу және ашу</translation>
 <translation id="3513563267917474897">Реңк жүгірткісі: <ph name="MIN_VALUE"/> &gt; <ph name="MAX_VALUE"/></translation>
-<translation id="5382999936194307983">Стандарт қауіпсіздік жүйесі қолданылады. Қауіпті веб-сайттарға, жүктеп алынған файлдар мен кеңейтімдерге қатысты қауіпсіздік жүйесін жақсарту үшін Brave параметрлерінен Күшейтілген Safe Browsing функциясын қосыңыз.</translation>
+<translation id="3918639430309311642">Стандарт қауіпсіздік жүйесі қолданылады. Қауіпті веб-сайттарға, жүктеп алынған файлдар мен кеңейтімдерге қатысты қауіпсіздік жүйесін жақсарту үшін Wryling параметрлерінен Күшейтілген Safe Browsing функциясын қосыңыз.</translation>
 <translation id="3514681096978190000">Бұл мұрағат файлында зиянды бағдарламаны жасыруы мүмкін басқа файлдар бар.</translation>
 <translation id="3515783508789430906">Жаңа нұсқа (<ph name="VERSION"/>) дайын. Жаңартуды қолдану үшін қолданбаны өшіріп қосыңыз. Сақталмаған деректер жоғалуы мүмкін.</translation>
 <translation id="3515983984924808886">Бастапқы күйге қайтаруды растау үшін қауіпсіздік кілтін қайта түртіңіз. Қауіпсіздік кілтінде сақталған барлық ақпарат, оның ішінде PIN коды жойылатын болады.</translation>
@@ -3396,7 +3396,7 @@
 <translation id="3616658341000358527">Gemini-ға тапсырмаларды орындау үшін веб-браузерге автоматты түрде кіруге рұқсат беріңіз.</translation>
 <translation id="3617062258679844578">Басу үшін оны басудың орнына сенсорлық тақтаны түртіңіз.</translation>
 <translation id="3617891479562106823">Фондар жоқ. Кейінірек қайталап көріңіз.</translation>
-<translation id="2934767186202458579"><ph name="RECIPIENT_NAME"/> Brave Password Manager қызметін қолданған кезде, енді пайдаланушы атыңыз бен құпия сөзіңізді де пайдалана алады. Аккаунтқа кіру үшін оның <ph name="WEBSITE"/> сайтына өтуін сұраңыз.</translation>
+<translation id="1877646679208644382"><ph name="RECIPIENT_NAME"/> Wryling Password Manager қызметін қолданған кезде, енді пайдаланушы атыңыз бен құпия сөзіңізді де пайдалана алады. Аккаунтқа кіру үшін оның <ph name="WEBSITE"/> сайтына өтуін сұраңыз.</translation>
 <translation id="3619115746895587757">Капучино</translation>
 <translation id="3619294456800709762">Сайттар "суреттегі сурет" режимін автоматты түрде ашады</translation>
 <translation id="3620136223548713675">Геолокация</translation>
@@ -3475,7 +3475,7 @@
 <translation id="3679126865530709868">Ендірілген сенсорлық тақта</translation>
 <translation id="3680683624079082902">Мәтінді дыбыстау дауысы</translation>
 <translation id="3681017028939109078">Бөлінген экран режимін бастаған кезде, терезе ұсыныстарын көрсету</translation>
-<translation id="318206792789506219">Сіз геодерегіңізді бұл сайтпен бөліскіңіз келмейтін сияқты. Сондықтан Brave сізді алаңдатпау үшін сұрауларды жасырады.</translation>
+<translation id="8663031781937737605">Сіз геодерегіңізді бұл сайтпен бөліскіңіз келмейтін сияқты. Сондықтан Wryling сізді алаңдатпау үшін сұрауларды жасырады.</translation>
 <translation id="3681311097828166361">Пікіріңіз үшін рақмет. Қазір желіге қосылмағансыз, есебіңіз кейінірек жіберіледі.</translation>
 <translation id="3681548574519135185">Ерекшелеу шеңбері</translation>
 <translation id="3682207069037179944">Барлық қойындыны көру үшін айналдыруға немесе тінтуір дөңгелегін пайдалануға болады.</translation>
@@ -3554,7 +3554,7 @@
 <translation id="3727473233247516571">Алға-артқа өту кэшінде сақталған ішкі жақтау: <ph name="BACK_FORWARD_CACHE_PAGE_URL"/></translation>
 <translation id="3727558469988088200">Кіру кілттерін алу</translation>
 <translation id="3727843212509629024">PIN коды дұрыс емес. Әрекетті қайталаңыз.</translation>
-<translation id="8077319455765501118">Brave Password Manager қызметін macOS кілттер тізбегімен бірге пайдалану үшін Brave-ды қайта іске қосып, кілттер тізбегін пайдалануға рұқсат беріңіз. Қайта іске қосқаннан кейін, қойындылар қайта ашылады.</translation>
+<translation id="1149143655905087705">Wryling Password Manager қызметін macOS кілттер тізбегімен бірге пайдалану үшін Wryling-ды қайта іске қосып, кілттер тізбегін пайдалануға рұқсат беріңіз. Қайта іске қосқаннан кейін, қойындылар қайта ашылады.</translation>
 <translation id="3728188878314831180">Телефоныңыздағы хабарландыруларды көру</translation>
 <translation id="3728572446941976198">Контентіңізді жасанды интеллектіні жақсарту үшін тексерушілер қолданбайды. Ұйымыңыз бұл параметрлерді кез келген уақытта өзгерте алады.</translation>
 <translation id="3728681439294129328">Желі мекенжайын конфигурациялау</translation>
@@ -3663,10 +3663,10 @@
 <translation id="3799128412641261490">Switch Access параметрлері</translation>
 <translation id="3800764353337460026">Белгі стилі</translation>
 <translation id="3800898876950197674">Бұл кеңейтімге рұқсат беру үшін құпия сөзіңізді енгізіңіз.</translation>
-<translation id="8331080218091581609">Сізге Brave-ды жекелендіру және оны күнделікті қажеттіліктерді орындайтын күшті құралға айналдыру ұсыныстары көрсетілген.
+<translation id="7293495029773307557">Сізге Wryling-ды жекелендіру және оны күнделікті қажеттіліктерді орындайтын күшті құралға айналдыру ұсыныстары көрсетілген.
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        Параметрлерді карта мәзірінен реттеуге немесе "Brave-ды бейімдеу" бөлімінен басқа опцияларды көруге болады.</translation>
+        Параметрлерді карта мәзірінен реттеуге немесе "Wryling-ды бейімдеу" бөлімінен басқа опцияларды көруге болады.</translation>
 <translation id="3801449494961771207">Мәтінді дыбыстауға арналған жүйе дауысы</translation>
 <translation id="3802486193901166966">Бұл кеңейтім үшін арнайы рұқсаттар қажет емес және онда сайтқа қосымша кіру рұқсаты жоқ.</translation>
 <translation id="380329542618494757">Аты</translation>
@@ -3810,7 +3810,7 @@
 <translation id="3903187154317825986">Ендірілген пернетақта</translation>
 <translation id="3903696968689283281">Wi-Fi Direct иелері туралы ақпарат:</translation>
 <translation id="3904572359926093799">Бөлінген көріністің өлшемді өзгерту маркері (сүйреуге болады)</translation>
-<translation id="6894211654645352450">Сервер сертификатын жойсаңыз, Brave оны серверлерді анықтау үшін бұдан былай қолданбайды.</translation>
+<translation id="7978440528848173448">Сервер сертификатын жойсаңыз, Wryling оны серверлерді анықтау үшін бұдан былай қолданбайды.</translation>
 <translation id="3909701002594999354">Барлық &amp;басқару элементін көрсету</translation>
 <translation id="3909791450649380159">Қи&amp;ып алу</translation>
 <translation id="39103738135459590">Белсендіру коды</translation>
@@ -3824,12 +3824,12 @@
 <translation id="3917644013202553949">Файлдарыңызды синхрондау үшін жад жеткіліксіз. Орын босатып көріңіз.</translation>
 <translation id="3919145445993746351">Барлық компьютерде кеңейтімдер орнатылуы үшін, синхрондауды іске қосыңыз.</translation>
 <translation id="3919229493046408863">Маңайда құрылғылар пайда болғанда хабарландыруды өшіру</translation>
-<translation id="3937043680469836680">Brave қолданбаларының ескі нұсқалары 2022 жылдың желтоқсанынан кейін Mac жүйесіндегі құрылғыларда ашылмайды. Қолданбаның жаңа нұсқасын орнату немесе оны жою үшін әкімшіге хабарласыңыз.</translation>
+<translation id="4376308464194569825">Wryling қолданбаларының ескі нұсқалары 2022 жылдың желтоқсанынан кейін Mac жүйесіндегі құрылғыларда ашылмайды. Қолданбаның жаңа нұсқасын орнату немесе оны жою үшін әкімшіге хабарласыңыз.</translation>
 <translation id="3919376399641777316">Google Drive жадын пайдаланады</translation>
 <translation id="3919798653937160644">Сіз осы терезеде қарайтын беттер браузерді қолдану тарихында көрсетілмейді және ашық Қонақ терезелерінің барлығын жапқаннан кейін, олар компьютерде cookie файлдары сияқты іздер қалдырмайды. Дегенмен сіз жүктеп алған файлдардың барлығы сақталады.</translation>
 <translation id="3920909973552939961">Төлем өңдегіштерін орнатуға рұқсаты жоқтар</translation>
 <translation id="3920938867981797493">Жаңарту қызметінің саясаттары</translation>
-<translation id="4008841832817149051">Brave сіздің орныңызға браузерді шола алады</translation>
+<translation id="2216933027668139688">Wryling сіздің орныңызға браузерді шола алады</translation>
 <translation id="3922823422695198027"><ph name="APP_NAME"/> ашқан сілтемелерді басқа қолданбалар да аша алатын болып реттелді. <ph name="APP_NAME_2"/>, <ph name="APP_NAME_3"/> және <ph name="APP_NAME_4"/> қолдау көрсету сілтемелерін аша алмай қалады.</translation>
 <translation id="3923184630988645767">Деректер трафигі</translation>
 <translation id="3923494859158167397">Ешқандай мобильдік желі реттелмеген.</translation>
@@ -3908,7 +3908,7 @@
 <translation id="3976108569178263973">Қолжетімді принтерлер жоқ.</translation>
 <translation id="3977886311744775419">Автоматты жаңартулар мұндай желіде жүктеп алынбайды, бірақ жаңартулардың бар-жоғын қолмен тексеруге болады.</translation>
 <translation id="3978325380690188371">ChromeVox қосулы кезде, жабысқан пернелер қолжетімді емес.</translation>
-<translation id="2069130488333600772">Brave браузері PDF файлдарын жақсартады</translation>
+<translation id="5874495328861857125">Wryling браузері PDF файлдарын жақсартады</translation>
 <translation id="3979093622823535817">"<ph name="MEETING_TITLE"/>" жиналысына қосылу</translation>
 <translation id="3979395879372752341">Жаңа кеңейтім қосылды (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="3980708588513986958">Дағдыларды көру және басқару</translation>
@@ -4009,7 +4009,7 @@
 <translation id="4053028343167125998">Клиент сертификатын импорттау үшін <ph name="TOKEN_NAME"/> құлпын ашыңыз.</translation>
 <translation id="4053833479432165765">&amp;Бетті қолданба ретінде орнату...</translation>
 <translation id="4054070260844648638">Барлығына көрсетіледі</translation>
-<translation id="8891261408659902804">Ата-анаңыз <ph name="APP_NAME"/> Brave қолданбасы үшін белгілеген уақыт шегіне жеттіңіз. Оны ертең <ph name="TIME_LIMIT"/> бойы пайдалана аласыз.</translation>
+<translation id="3587910514908289330">Ата-анаңыз <ph name="APP_NAME"/> Wryling қолданбасы үшін белгілеген уақыт шегіне жеттіңіз. Оны ертең <ph name="TIME_LIMIT"/> бойы пайдалана аласыз.</translation>
 <translation id="4057041477816018958"><ph name="SPEED"/> – <ph name="RECEIVED_AMOUNT"/></translation>
 <translation id="405733379999213678">Бұл сайтқа MIDI құрылғыларыңызды басқаруға және қайта бағдарламалауға рұқсат беруді жалғастыру</translation>
 <translation id="4057896668975954729">Дүкенде көру</translation>
@@ -4044,7 +4044,7 @@
 <translation id="4089235344645910861">Параметрлер сақталды. Синхрондау басталды.</translation>
 <translation id="4089817585533500276">Shift + <ph name="TOP_ROW_KEY"/></translation>
 <translation id="4090103403438682346">Расталған кіру құқығын қосу</translation>
-<translation id="7268155614575494857">Brave Password Manager аккаунтқа кіру туралы ақпаратыңызды сақтай алуы үшін, бұл сайт үшін пайдаланушы атын қосыңыз.</translation>
+<translation id="6708405940091325014">Wryling Password Manager аккаунтқа кіру туралы ақпаратыңызды сақтай алуы үшін, бұл сайт үшін пайдаланушы атын қосыңыз.</translation>
 <translation id="4093173301198419723">Бас әріптер, кіші әріптер, сандар және таңбалар болуы керек.</translation>
 <translation id="4093955363990068916">Жергілікті файл:</translation>
 <translation id="4094647278880271855">Қолдау көрсетілмейтін орта айнымалысын қолданып жатырсыз: <ph name="BAD_VAR"/>. Тұрақтылық пен қауіпсіздікке нұқсан келеді.</translation>
@@ -4071,10 +4071,10 @@
 <translation id="4110485659976215879">Ескертуді қалпына келтіру</translation>
 <translation id="4112194537011183136"><ph name="DEVICE_NAME"/> (офлайн)</translation>
 <translation id="4113743276555482284">Файл құпия сөзі</translation>
-<translation id="1423132677367459502">Google Drive қызметіндегі соңғы іс-әрекеттерге оңай оралуға көмектесетін файлдарды көріп тұрсыз.
+<translation id="5884518115438412995">Google Drive қызметіндегі соңғы іс-әрекеттерге оңай оралуға көмектесетін файлдарды көріп тұрсыз.
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        Параметрлерді карта мәзірінен реттей, басқа опцияларды "Brave браузерін реттеу" бөлімінен көре аласыз.</translation>
+        Параметрлерді карта мәзірінен реттей, басқа опцияларды "Wryling браузерін реттеу" бөлімінен көре аласыз.</translation>
 <translation id="4115002065223188701">Желі қолжетімді емес</translation>
 <translation id="4115378294792113321">Күлгін</translation>
 <translation id="4116480382905329353">1 рет анықталды</translation>
@@ -4140,7 +4140,7 @@
 <translation id="4176463684765177261">Өшірілген</translation>
 <translation id="4176864026061939326">Бұл құрылғыны әкімші басқарады. Құрылғы әкімшісі <ph name="USER_EMAIL_ADDRESS"/> аккаунты үшін жаңа профиль талап етеді.</translation>
 <translation id="4177668342649553942"><ph name="SHORTCUT_NAME"/> таңбашасын <ph name="APP_NAME"/> арқылы ашу</translation>
-<translation id="638591227897120703">Кеңейтімдер – ретке келтіруге, тапсырмаларды жеңілдетуге және шолу әрекетін бейімдеуге арналған Brave қосымшалары.</translation>
+<translation id="6210463748469316524">Кеңейтімдер – ретке келтіруге, тапсырмаларды жеңілдетуге және шолу әрекетін бейімдеуге арналған Wryling қосымшалары.</translation>
 <translation id="4177860704813504507">Құпия сөз немесе саусақ ізі</translation>
 <translation id="4178220097446335546">Бұл жазылым мен онымен байланысты желілер қажет болмаса, Passpoint жазылым бетіне өтіп, жазылымды өшіріңіз.</translation>
 <translation id="4181376007499455822">Қайта анықтамау</translation>
@@ -4305,7 +4305,7 @@
 <translation id="4304713468139749426">Құпия сөздер реттегіші</translation>
 <translation id="4305817255990598646">Ауысу</translation>
 <translation id="4306489587293957491">Енгізу</translation>
-<translation id="1689951986267171188">Brave браузері осы сайттан келетін хабарландыруларды спам деп белгілеуді тоқтатады.</translation>
+<translation id="6665952731838572283">Wryling браузері осы сайттан келетін хабарландыруларды спам деп белгілеуді тоқтатады.</translation>
 <translation id="4307992518367153382">Негізгілер</translation>
 <translation id="4309035504231554969">Белгісіз себепке байланысты орнатылмады.</translation>
 <translation id="4309183709806093061">Жүйе аудиосын да бөлісіңіз. Дауыстап айтылмауы үшін, құрылғының дыбысы өшіріледі.</translation>
@@ -4331,7 +4331,7 @@
 <translation id="4324577459193912240">Файл толық емес</translation>
 <translation id="4325433082696797523">Сақтау орны және қуат</translation>
 <translation id="4325515113816851466">Аккаунттан шыққаннан кейін, ата-анаңыздың таңдаулары қолданылмайды.</translation>
-<translation id="7463244538445813736">Brave-ның ең күшті қауіпсіздігі қауіпті веб-сайттардан, жүктеп алынғандардан және кеңейтімдерден қорғау үшін көбірек жұмыс істейді</translation>
+<translation id="8506408958028373380">Wryling-ның ең күшті қауіпсіздігі қауіпті веб-сайттардан, жүктеп алынғандардан және кеңейтімдерден қорғау үшін көбірек жұмыс істейді</translation>
 <translation id="4327380114687339519">Кеңейтімдер мәзірі</translation>
 <translation id="4328160087116165267">Жүйе дыбысын бөлісу</translation>
 <translation id="4330191372652740264">Мұзды су</translation>
@@ -4340,7 +4340,7 @@
 <translation id="4332976768901252016">Ата-ана бақылауын реттеу</translation>
 <translation id="4334768748331667190"><ph name="MODULE_NAME"/> енді қайта көрсетілмейтін болады.</translation>
 <translation id="4335835283689002019">"Қауіпсіз шолу" функциясы өшірулі.</translation>
-<translation id="5889020479667192676">Brave бұл тапсырманы аяқтауы үшін, аккаунтқа кіру қажет.</translation>
+<translation id="488757428703018223">Wryling бұл тапсырманы аяқтауы үшін, аккаунтқа кіру қажет.</translation>
 <translation id="433776600277609450">Сүзгі қосу</translation>
 <translation id="4338363401382232853">Бөлінген экрандағы терезе ұсынысы</translation>
 <translation id="4339203724549370495">Қолданбаны жою</translation>
@@ -4393,7 +4393,7 @@
 <translation id="437809255587011096">Мәтін стилін мәлімдеу</translation>
 <translation id="4378154925671717803">Телефон</translation>
 <translation id="4378308539633073595">Алға айналдыру</translation>
-<translation id="4378363201814870400">Жылдам шолу үшін құпия сөздер, төлеу әдістері, мекенжайлар және жеке куәліктер сияқты автотолтыру ақпаратын басқарыңыз.</translation>
+<translation id="4005743806371955395">Жылдам шолу үшін құпия сөздер, төлеу әдістері, мекенжайлар және жеке куәліктер сияқты автотолтыру ақпаратын басқарыңыз.</translation>
 <translation id="4378551569595875038">Қосылып жатыр…</translation>
 <translation id="4378589147979399051">Тінтуір курсорын негізгі пернетақтамен басқарыңыз.</translation>
 <translation id="30088850081141729">Brave-дан "<ph name="SEARCH_TERMS"/>" жайында сұрау</translation>
@@ -4449,7 +4449,7 @@
 <translation id="4914256659228865673">Бұл кіру кілттері осы компьютердегі Windows Hello қызметінде сақталады. Олар Brave аккаунтыңызға сақталмайды.</translation>
 <translation id="4412544493002546580">Әрекетті қайталаңыз немесе төменнен шабыттардың бірін таңдаңыз.</translation>
 <translation id="4412547955014928315"><ph name="SITE_NAME"/> және оның астындағы барлық сайт үшін сайт деректері мен рұқсаттарды жою керек пе?</translation>
-<translation id="2225668468568666081">Brave Apps қолданбалары прогрессивті веб-қолданбаларға көшірілуде. Ұйымыңыз осы Brave қолданбасын браузеріңізге орнатқан. Қолданбалар тізімінен прогрессивті веб-қолданбаны ашу үшін, алдымен әкімшіңізге хабарласып, Brave қолданбасын жоюын сұраңыз. Әзірше интернетте <ph name="EXTENSION_NAME"/> кеңейтімін ашу үшін <ph name="EXTENSION_LAUNCH_URL"/> сайтына кіре аласыз.</translation>
+<translation id="9096070332505320117">Wryling Apps қолданбалары прогрессивті веб-қолданбаларға көшірілуде. Ұйымыңыз осы Wryling қолданбасын браузеріңізге орнатқан. Қолданбалар тізімінен прогрессивті веб-қолданбаны ашу үшін, алдымен әкімшіңізге хабарласып, Wryling қолданбасын жоюын сұраңыз. Әзірше интернетте <ph name="EXTENSION_NAME"/> кеңейтімін ашу үшін <ph name="EXTENSION_LAUNCH_URL"/> сайтына кіре аласыз.</translation>
 <translation id="4412698727486357573">Анықтама орталығы</translation>
 <translation id="4412992751769744546">Үшінші тарап cookie файлдарына рұқсат беру</translation>
 <translation id="4413087696295876280">ChromeOS Flex құрылғысы туралы ақпарат пен деректерді оқу</translation>
@@ -4545,18 +4545,18 @@
 <translation id="4501530680793980440">Жоюды растау</translation>
 <translation id="4502423230170890588">Осы құрылғыдан өшіру</translation>
 <translation id="4502477450742595012">Қойындыда тінтуірдің оң жақ түймесін басып, "Қойындыны жаңа топқа қосу" тармағын таңдаңыз.</translation>
-<translation id="7840745488816718252">Тоқтаған жерден жалғастыруыңыз үшін, соңғы қолданылған қойындылар топтары көрсетілген.
+<translation id="975374802834211974">Тоқтаған жерден жалғастыруыңыз үшін, соңғы қолданылған қойындылар топтары көрсетілген.
         <ph name="BREAK"/>
         <ph name="BREAK"/>
-        Карта мәзірінде параметрлерді реттеуге немесе "Brave-ды реттеу" бөлімінде қосымша опцияларды көруге болады.</translation>
+        Карта мәзірінде параметрлерді реттеуге немесе "Wryling-ды реттеу" бөлімінде қосымша опцияларды көруге болады.</translation>
 <translation id="4504940961672722399">Бұл кеңейтімді осы белгішені басу немесе <ph name="EXTENSION_SHORTCUT"/> басу арқылы пайдаланыңыз.</translation>
-<translation id="8141996966528663835">Осы QR кодымен Brave браузерін жүктеп алыңыз және Brave аккаунтыңызға кіріңіз.</translation>
+<translation id="1258044875592855240">Осы QR кодымен Brave браузерін жүктеп алыңыз және Brave аккаунтыңызға кіріңіз.</translation>
 <translation id="450552327874992444">Сөз қосылып қойған</translation>
 <translation id="4507373251891673233"><ph name="HOST"/> сайтының барлық кеңейтімін бөгедіңіз.</translation>
 <translation id="4507401683427517298">"Таңбаша қосу" түймесін басыңыз.</translation>
 <translation id="4508265954913339219">Белсендіру сәтсіз аяқталды</translation>
 <translation id="4508765956121923607">Д&amp;ереккөзді көру</translation>
-<translation id="4161817736307925392"><ph name="BEGIN_BOLD_USERNAME"/>Пайдаланушы аты<ph name="END_BOLD_USERNAME"/> және <ph name="BEGIN_BOLD_PASSWORD"/>құпия сөз<ph name="END_BOLD_PASSWORD"/> көшірмесін бөліскен кезде, отбасы мүшесі оларды Brave Password Manager көмегімен толтыра алады.</translation>
+<translation id="7514388439385693063"><ph name="BEGIN_BOLD_USERNAME"/>Пайдаланушы аты<ph name="END_BOLD_USERNAME"/> және <ph name="BEGIN_BOLD_PASSWORD"/>құпия сөз<ph name="END_BOLD_PASSWORD"/> көшірмесін бөліскен кезде, отбасы мүшесі оларды Wryling Password Manager көмегімен толтыра алады.</translation>
 <translation id="4509421746503122514">Жаңарту үшін қайта іске қосу</translation>
 <translation id="4510195992002502722">Пікір жіберілмеді. Әрекет қайталануда…</translation>
 <translation id="4511344327646819192">Басқалардың құпия сөзіңізді пайдалануын тоқтату үшін оны <ph name="WEBSITE"/> веб-сайтында өзгертіңіз.</translation>
@@ -4586,7 +4586,7 @@
 <translation id="4536769240747010177">Тетеринг мүмкіндіктері:</translation>
 <translation id="4538417792467843292">Сөзді жою</translation>
 <translation id="4538792345715658285">Кәсіпорын саясаты бойынша орнатылған.</translation>
-<translation id="6339420797559770249">Brave Password Manager қолжетімді емес. Бірнеше минуттан кейін қайталап көріңіз.</translation>
+<translation id="1573625443275169446">Wryling Password Manager қолжетімді емес. Бірнеше минуттан кейін қайталап көріңіз.</translation>
 <translation id="4540780316273593836">Бірдеңе дұрыс болмады</translation>
 <translation id="4541396589393395475">Бұл функцияны ұйымыңыз өшірді.</translation>
 <translation id="4541505619120536051">Әрдайым ашу</translation>
@@ -4651,7 +4651,7 @@
 <translation id="4580389561674319558">Барлық контактіге көрінеді</translation>
 <translation id="4580596421317071374">Құпия сөздер осы құрылғыда <ph name="GOOGLE_PASSWORD_MANAGER"/> қызметінде сақталады.</translation>
 <translation id="4582297591746054421">Сіз көшірген мәтіннің форматын сақтау сияқты функциялар үшін сайттар әдетте буферді оқиды.</translation>
-<translation id="376109232905238597">Бұл ақпаратты Brave-ның автотолтыру функциясынан өшіру қажет пе?</translation>
+<translation id="7933642050191342525">Бұл ақпаратты Wryling-ның автотолтыру функциясынан өшіру қажет пе?</translation>
 <translation id="4584770411839426377">Терезе</translation>
 <translation id="4584836561445313300">Ұйымыңыз құпия сөздер сияқты қолданыстағы браузерді пайдалану деректерін көріп, реттей алады.</translation>
 <translation id="4585793705637313973">Бет мәліметтерін өзгерту</translation>
@@ -4780,7 +4780,7 @@
 <translation id="4682003508123230705">Үйренуге көмек қажет</translation>
 <translation id="4682481611456523884">Бұл сайттағы ендірілген контент сіз туралы сақталған ақпаратты пайдалана алмайды</translation>
 <translation id="4524261726901681678">Бұл функцияларды пайдаланған кезде, жасанды интеллект мүмкіндіктерін жасау үшін қатысы бар деректер Brave-ға жіберіледі.</translation>
-<translation id="3704650847382671289">Brave жаңартылды.</translation>
+<translation id="6644622854523272162">Wryling жаңартылды.</translation>
 <translation id="4683629100208651599">Кіші әріппен жазу</translation>
 <translation id="4683947955326903992"><ph name="PERCENTAGE"/>% (әдепкі)</translation>
 <translation id="4684427112815847243">Барлығын синхрондау</translation>
@@ -5104,7 +5104,7 @@
 <translation id="4918762404810341788">Көшіру және ашу</translation>
 <translation id="4918844574251943176">Сурет көшірілді.</translation>
 <translation id="4921348630401250116">Мәтінді дыбыстау</translation>
-<translation id="1298471559729553235">Password Manager қызметін операциялық жүйемен бірге пайдалану үшін Brave-ді қайта іске қосып, компьютердің Password Manager қызметін пайдалануға рұқсат беріңіз. Қайта іске қосқаннан кейін, қойындылар қайта ашылады.</translation>
+<translation id="2177523175450524748">Password Manager қызметін операциялық жүйемен бірге пайдалану үшін Wryling-ді қайта іске қосып, компьютердің Password Manager қызметін пайдалануға рұқсат беріңіз. Қайта іске қосқаннан кейін, қойындылар қайта ашылады.</translation>
 <translation id="4923561999941435531">{0,plural, =1{1 элементті аккаунтқа сақтау}other{# элементті аккаунтқа сақтау}}</translation>
 <translation id="4923977675318667854">Қойындылар топтарын көрсету</translation>
 <translation id="4924002401726507608">Пікір жіберу</translation>
@@ -5183,7 +5183,7 @@
 <translation id="4979263087381759787">Developer Options</translation>
 <translation id="4979510648199782334">Microsoft 365 бағдарламасын орнату аяқталды</translation>
 <translation id="4980805016576257426">Бұл кеңейтімде зиянды бағдарлама бар.</translation>
-<translation id="8231468153901265517">Құпия сөзіңіз жіберілмеді. Интернет байланысын тексеріп, Brave аккаунтына кіргеніңізге көз жеткізіңіз. Одан кейін әрекетті қайталап көріңіз.</translation>
+<translation id="950784604556747155">Құпия сөзіңіз жіберілмеді. Интернет байланысын тексеріп, Wryling аккаунтына кіргеніңізге көз жеткізіңіз. Одан кейін әрекетті қайталап көріңіз.</translation>
 <translation id="498624032394115435">Сілтемені алған кез келген адам барлық қойындыны өзгерте алады.</translation>
 <translation id="6814280300414171363">Синхрондалатын контентті кез келген уақытта "Параметрлер" бөлімінде таңдай аласыз. Brave жүйесі Search және басқа да қызметтерді тарихыңызға негіздеп жекелендіре алады.</translation>
 <translation id="4986728572522335985">Қауіпсіздік кілтінде сақталған барлық деректер және оның PIN коды жойылады</translation>
@@ -5193,7 +5193,7 @@
 <translation id="4989966318180235467">&amp;Фондық бетті тексеру</translation>
 <translation id="499016799952867794">Бұл қолданбаның ойдағыдай істеп тұруына мүмкіндік береді.</translation>
 <translation id="4990673372047946816">Қолжетімді камера жоқ</translation>
-<translation id="7538826519053730023">Gemini Spark осы құрылғыдағы Brave-ның автоматты түрде шолу функциясын сайттармен әрекеттесу және тапсырмаларды сіздің атыңыздан орындау үшін пайдалана алады. <ph name="LINK_BEGIN"/>Толық ақпарат<ph name="LINK_END"/></translation>
+<translation id="6942602636852210373">Gemini Spark осы құрылғыдағы Wryling-ның автоматты түрде шолу функциясын сайттармен әрекеттесу және тапсырмаларды сіздің атыңыздан орындау үшін пайдалана алады. <ph name="LINK_BEGIN"/>Толық ақпарат<ph name="LINK_END"/></translation>
 <translation id="4991420928586866460">Жоғарғы қатар пернелерін функционалдық пернелер ретінде пайдалану</translation>
 <translation id="4991873517942703737">Бұл құжат туралы сұрақ қою</translation>
 <translation id="4992066212339426712">Дыбысын қосу</translation>
@@ -5345,7 +5345,7 @@
 <translation id="5111794652433847656">Бұл құрылғыда <ph name="APP_NAME"/> үшін ешқандай кіру кілті жоқ.</translation>
 <translation id="5112686815928391420">{NUM_OF_FILES,plural, =1{1 файл жылжытылды}other{{NUM_OF_FILES} файл жылжытылды}}</translation>
 <translation id="511313294362309725">Fast Pair функциясын іске қосу</translation>
-<translation id="6409962091529734959">Brave-ның автоматты түрде шолу функциясы туралы толық ақпарат</translation>
+<translation id="3721809128005666745">Wryling-ның автоматты түрде шолу функциясы туралы толық ақпарат</translation>
 <translation id="51143538739122961">Қауіпсіздік кілтін енгізіп, оны түртіңіз.</translation>
 <translation id="5115338116365931134">SSO</translation>
 <translation id="5116628073786783676">Аудионы басқаша с&amp;ақтау…</translation>
@@ -5368,7 +5368,7 @@
 <translation id="5130080518784460891">Eten</translation>
 <translation id="5130675701626084557">Профиль жүктеп алынбады. Кейінірек қайталап көріңіз немесе оператордың көмегіне жүгініңіз.</translation>
 <translation id="5131591206283983824">Басу арқылы сенсорлық тақтаға өткізу</translation>
-<translation id="112893101983775894">Google Drive контенті тек осы файл іздеу функциясын ұсыну үшін қолданылады. Ол Brave Search қызметін жақсарту үшін пайдаланылмайды. Файлды нақты жүктеп салмайынша, Brave қызметі Google Drive-тағы контентіңізді пайдаланбайды.</translation>
+<translation id="3232662147308516489">Google Drive контенті тек осы файл іздеу функциясын ұсыну үшін қолданылады. Ол Brave Search қызметін жақсарту үшін пайдаланылмайды. Файлды нақты жүктеп салмайынша, Brave қызметі Google Drive-тағы контентіңізді пайдаланбайды.</translation>
 <translation id="5133035646508467110">Бұл құрылғыны басқалармен бірге қолдансаңыз, сақталған құпия сөзді пайдаланатын кезде жеке басыңызды саусақ ізімен растай аласыз.</translation>
 <translation id="5135533361271311778">Бетбелгі элементін жасау мүмкін болмады.</translation>
 <translation id="513555878193063507">Жаңа APN қосу</translation>
@@ -5427,18 +5427,18 @@
 <translation id="5179428098696668914">Жасанды интеллект аудиосын ойнату функциясын өшіру</translation>
 <translation id="5180276433875360121"><ph name="CERT_LIST"/> көрсету</translation>
 <translation id="5181140330217080051">Жүктеу</translation>
-<translation id="3656271699136235245"><ph name="ACCOUNT"/> аккаунтына арналған Brave Құпия сөз менеджеріне</translation>
+<translation id="1388473966322202858"><ph name="ACCOUNT"/> аккаунтына арналған Wryling Құпия сөз менеджеріне</translation>
 <translation id="6029810565516522064">Бұл құпия сөз тек осы құрылғыға сақталады. Оны басқа құрылғыларыңызда пайдалану үшін Brave аккаунтына (<ph name="USER_EMAIL"/>) сақтаңыз.</translation>
 <translation id="5182671122927417841">Кеңейтімді өшіру</translation>
 <translation id="5183344263225877832">HID құрылғыларының барлық рұқсатын қайта орнату керек пе?</translation>
 <translation id="5184063094292164363">&amp;JavaScript консолі</translation>
 <translation id="5184209580557088469">Мұндай айдаланушы атындағы билет бұрыннан бар.</translation>
-<translation id="8445059357334030806">Brave жүйесінде ашу</translation>
+<translation id="4126334514963731148">Wryling жүйесінде ашу</translation>
 <translation id="5184662919967270437">Құрылғыны жаңарту</translation>
 <translation id="5185500136143151980">Интернет жоқ</translation>
 <translation id="5186362203408605578">QR кодын сканерлеу арқылы басқа құрылғыны пайдаланыңыз</translation>
 <translation id="5186381005592669696">Қолдау көрсетілетін қолданбалардың интерфейс тілін бейімдеу</translation>
-<translation id="3075701570150269201">Құрылғыларыңызда аккаунтқа жылдам кіру үшін осы кіру кілтін пайдалана аласыз. Ол <ph name="ACCOUNT_NAME"/> аккаунтына арналған Brave Password Manager қызметіне сақталады.</translation>
+<translation id="8357398038570228285">Құрылғыларыңызда аккаунтқа жылдам кіру үшін осы кіру кілтін пайдалана аласыз. Ол <ph name="ACCOUNT_NAME"/> аккаунтына арналған Wryling Password Manager қызметіне сақталады.</translation>
 <translation id="5186792064936776005">Әдепкісі қолжетімді болса, оны пайдалану</translation>
 <translation id="5186931074173692059">Құпия сөздеріңіз <ph name="EMAIL"/> аккаунтына арналған <ph name="GOOGLE_PASSWORD_MANAGER"/> қызметіне сақталады.</translation>
 <translation id="5187826826541650604"><ph name="KEY_NAME"/> (<ph name="DEVICE"/>)</translation>
@@ -5537,7 +5537,7 @@
 <translation id="5263656105659419083">Бүйірлік панельге оңай оралу үшін жоғарғы оң жақтағы "Бекіту" түймесін басыңыз.</translation>
 <translation id="5266117308710480775">Барлық қойындыны көріңіз</translation>
 <translation id="526622169288322445">"<ph name="ADDRESS_SUMMARY"/>" бойынша қосымша әрекеттер</translation>
-<translation id="904084505809395909">Дағдыларды пайдалану үшін Brave-ға Brave-дағы Gemini қосылған Brave аккаунтымен кіріңіз.</translation>
+<translation id="8409037861809652895">Дағдыларды пайдалану үшін Brave-ға Brave-дағы Gemini қосылған Brave аккаунтымен кіріңіз.</translation>
 <translation id="5267572070504076962">Қауіпті сайттардан қорғау үшін Safe Browsing функциясын қосыңыз.</translation>
 <translation id="5269659747698455324">Кіру кілттерінің құлпын ашу</translation>
 <translation id="5269977353971873915">Басып шығару сәтсіз аяқталды</translation>
@@ -5574,7 +5574,7 @@
 <translation id="815099619559018451"><ph name="DEVICE_TYPE"/> құрылғысы экранның алдындағы адамды анықтау үшін ендірілген датчикті пайдаланады. Барлық дерек дереу өңделіп, кейін жойылады. Датчик деректері Brave-ға ешқашан жіберілмейді. <ph name="LINK_BEGIN"/>Толығырақ<ph name="LINK_END"/></translation>
 <translation id="5294922869942863768">PDF аудармалары оқу режимінің бүйірлік панелінде көрсетіледі.</translation>
 <translation id="5296350763804564124">Дауыстап айтылуын тыңдап, құрылғыны экранға қарамай пайдалана бересіз. Брайль қарпін жалғанған құрылғымен қолдануға болады.</translation>
-<translation id="6092554978456048094">Енді Brave зиянды веб-сайттардан сенімді қорғайды.</translation>
+<translation id="434455729075409436">Енді Wryling зиянды веб-сайттардан сенімді қорғайды.</translation>
 <translation id="5297005732522718715">Тетеринг конфигурациясын жаңарту</translation>
 <translation id="5297021821125993168">Белсендіру сәтті аяқталды.</translation>
 <translation id="5297082477358294722">Құпия сөз сақталды. Сақталған құпия сөздерді <ph name="SAVED_PASSWORDS_STORE"/> бетінен көріңіз және басқарыңыз.</translation>
@@ -5810,7 +5810,7 @@
 <translation id="5490798133083738649">Linux жүйесіне микрофонды пайдалануға рұқсат ету</translation>
 <translation id="549211519852037402">Ақшыл сары және ақ</translation>
 <translation id="5492637351392383067">Құрылғыда шифрлау</translation>
-<translation id="525561504184560379">Кеңейтімдер – сізге көмектесетін Brave қосымшалары</translation>
+<translation id="4269985980162690000">Кеңейтімдер – сізге көмектесетін Wryling қосымшалары</translation>
 <translation id="5493455553805432330">Ұмыту</translation>
 <translation id="5493792505296048976">экран қосулы</translation>
 <translation id="5494016731375030300">Соңғы жабылған қойындылар</translation>
@@ -5825,7 +5825,7 @@
 <translation id="5497250476399536588">Оны мекенжайлар мен т.б. ақпараттан табуға болады.</translation>
 <translation id="5497251278400702716">Осы файл</translation>
 <translation id="549762298434242239">Күшейтілген Safe Browsing қорғанысы бұл кеңейтімді сенімді деп санамайды. <ph name="LEARN_MORE_LINK"/></translation>
-<translation id="8535881475141081242">Brave бұл орнату пакетін тексере алмады</translation>
+<translation id="3284580476319813256">Wryling бұл орнату пакетін тексере алмады</translation>
 <translation id="5499211612787418966">Бұл диалогтік терезе әзірше ерекшеленбеген. Осы диалогтік терезені ерекшелеу үшін Alt-Shift тіркесімін басыңыз.</translation>
 <translation id="5499476581866658341">Енді телефондағы соңғы фотосуреттер мен медиафайлдарды көре аласыз</translation>
 <translation id="549957179819296104">Жаңа белгіше</translation>
@@ -5864,7 +5864,7 @@
 <translation id="5527822190489075064">Оңтайлы зарядтау</translation>
 <translation id="5529554942700688235">Жад үнемдеу қорытындысы, <ph name="MEMORY_VALUE"/> босатылды</translation>
 <translation id="5529693968082667490">Қойынды іздеу түймесін көрсету</translation>
-<translation id="8476278190293667671">Құпия сөзді Brave Password Manager-ге сақтау үшін пернені басыңыз.</translation>
+<translation id="7590006893770451825">Құпия сөзді Wryling Password Manager-ге сақтау үшін пернені басыңыз.</translation>
 <translation id="5532223876348815659">Ғаламдық</translation>
 <translation id="5533001281916885985"><ph name="SITE_NAME"/> үшін қажетті әрекеттер:</translation>
 <translation id="5533343601674003130">PDF қызметі</translation>
@@ -5989,7 +5989,7 @@
 <translation id="5632300633605675627">Профиль параметрлері орнатылып жатыр...</translation>
 <translation id="5632566673632479864"><ph name="EMAIL"/> енді негізгі аккаунтыңыз емес. Аккаунтыңызды <ph name="DOMAIN"/> домені басқаратындықтан, бетбелгілер, тарих, құпия сөздер және басқа параметрлер құрылғыңыздан өшіріледі.</translation>
 <translation id="5633149627228920745">Жүйе талаптары туралы толық ақпарат алыңыз</translation>
-<translation id="4349643148868035678">Brave AI-дың үздік мүмкіндіктерін пайдаланыңыз. Gemini-ды құралдар тақтасына бекітіп қойып, оңай кіріңіз немесе оны кез келген уақытта Brave мәзірінен ашыңыз.</translation>
+<translation id="1259136609764667252">Brave AI-дың үздік мүмкіндіктерін пайдаланыңыз. Gemini-ды құралдар тақтасына бекітіп қойып, оңай кіріңіз немесе оны кез келген уақытта Brave мәзірінен ашыңыз.</translation>
 <translation id="563371367637259496">Мобильдік</translation>
 <translation id="5635312199252507107">Арнайы сайттарда рұқсат ету</translation>
 <translation id="5636012309446422"><ph name="DEVICE"/> құрылғысы <ph name="PRIMARY_EMAIL"/> электрондық мекенжайынан өшірілсін бе?</translation>
@@ -6033,7 +6033,7 @@
 <translation id="5677503058916217575">Бет тілі:</translation>
 <translation id="5677928146339483299">Тыйым салынған</translation>
 <translation id="5678550637669481956"><ph name="VOLUME_NAME"/> оқу және жазу рұқсаты берілген.</translation>
-<translation id="9187489046368002999">Brave-ды пайдаланатын кез келген жерде жақында жапқан қойындыларды қайта ашуға болады.</translation>
+<translation id="1324707973668136061">Wryling-ды пайдаланатын кез келген жерде жақында жапқан қойындыларды қайта ашуға болады.</translation>
 <translation id="5678955352098267522">Деректеріңізді  <ph name="WEBSITE_1"/> торабынан оқу</translation>
 <translation id="5680050361008726776">"<ph name="ESIM_PROFILE_NAME"/>" өшірілсін бе?</translation>
 <translation id="5681586175480958839">Файл әлдеқашан ашылып жатыр</translation>
@@ -6137,7 +6137,7 @@
 <translation id="5776415697119024904"><ph name="DEVICE_NAME"/> (жүйенің әдепкі параметрі)</translation>
 <translation id="5776450228446082914">Кез келген браузерде ашуға болатын веб-сайттар тізімі.</translation>
 <translation id="5776571780337000608">Қолдау көрсетілетін файлдарды осы қолданба арқылы файл браузерінен не басқа қолданбалар арқылы ашып, өңдей аласыз. Осы қолданбада қандай файлдардың әдепкісінше ашылатынын басқару үшін <ph name="BEGIN_LINK"/>құрылғыңызда әдепкі қолданбалар орнату туралы толығырақ біліңіз<ph name="END_LINK"/>.</translation>
-<translation id="6676231621615806698">Brave браузерін ашу</translation>
+<translation id="2366428511841171478">Wryling браузерін ашу</translation>
 <translation id="5778491106820461378">Кірген Brave аккаунттарыңызды <ph name="LINK_BEGIN"/>Параметрлерден<ph name="LINK_END"/> басқара аласыз. Веб-сайттар мен қолданбаларға берген рұқсаттар барлық аккаунтқа қолданылуы мүмкін. Егер сайттар мен қолданбалардың аккаунтыңыз туралы ақпаратты пайдаланғанын қаламасаңыз, <ph name="DEVICE_TYPE"/> құрылғысына қонақ ретінде кіре аласыз.</translation>
 <translation id="5780011244986845107">Сіз таңдаған қалтада құпия файлдар бар. "<ph name="APP_NAME"/>" қолданбасына қалтадағы деректерді тұрақты оқу мүмкіндігін бергіңіз келе ме?</translation>
 <translation id="5780973441651030252">Өңдеу басымдығы</translation>
@@ -6147,7 +6147,7 @@
 <translation id="5783346913439924978">Бас қозғалысын қадағалау</translation>
 <translation id="57838592816432529">Дыбысын өшіру</translation>
 <translation id="5784291589716625675">Қолданба тілін өзгерту</translation>
-<translation id="7171242884588191792">Brave файл утилиталары</translation>
+<translation id="6694176433685812521">Wryling файл утилиталары</translation>
 <translation id="5787420647064736989">Құрылғы атауы</translation>
 <translation id="3481489625298495279"><ph name="BEGIN_LINK_LOYALTY_CARDS"/>Тұрақты клиент карталарын<ph name="END_LINK_LOYALTY_CARDS"/> немесе Google Pay-дің <ph name="BEGIN_LINK_PAYMENT_METHODS"/>төлеу әдістерін<ph name="END_LINK_PAYMENT_METHODS"/> қосу не реттеу үшін Brave Wallet-ке кіріңіз.</translation>
 <translation id="5789581866075720267">Осы құрылғыда құпия сөздерді <ph name="BRAND"/> қолданбасына импорттау үшін CSV файлын таңдаңыз.</translation>
@@ -6280,7 +6280,7 @@
 <translation id="587234395549708302">Бетбелгілерді тазарту қажет пе?</translation>
 <translation id="587502357434914765">Экраннан таңдау</translation>
 <translation id="5875534259258494936">Экранды көрсету аяқталды</translation>
-<translation id="5087908853264608754">Brave қолданбалары &gt; <ph name="APP_NAME"/></translation>
+<translation id="3007975053754227498">Wryling қолданбалары &gt; <ph name="APP_NAME"/></translation>
 <translation id="5876851302954717356">Оң жақтағы жаңа қойынды</translation>
 <translation id="5877064549588274448">Арна өзгерді. Өзгерістерді қолдану үшін құрылғыңызды қайта іске қосыңыз.</translation>
 <translation id="5877584842898320529">Таңдалған принтер жоқ немесе дұрыс реттелмеген. <ph name="BR"/> Принтерді тексеріңіз немесе басқасын таңдаңыз.</translation>
@@ -6311,7 +6311,7 @@
 <translation id="5901069264981746702">Саусағыңыздың ізі туралы деректер қауіпсіз сақталған және <ph name="DEVICE_TYPE"/> құрылғысынан басқа ешқайда жіберілмейді. <ph name="LINK_BEGIN"/>Толығырақ<ph name="LINK_END"/></translation>
 <translation id="5901089233978050985">Суретке түсірілетін қойындыға ауысу</translation>
 <translation id="5901630391730855834">Сары</translation>
-<translation id="3535209993382976135">Brave Password Manager өшірілген</translation>
+<translation id="7043941876121223194">Wryling Password Manager өшірілген</translation>
 <translation id="5906457147959147328">Бұл сайтқа қорғалған контентті ойнату үшін идентификаторларды пайдалануға рұқсат беруді жалғастыру</translation>
 <translation id="5906655207909574370">Сәл қалды. Жаңартуды аяқтау үшін құрылғыны қайта іске қосыңыз.</translation>
 <translation id="5906732635754427568">Бұл қолданбамен байланыстырылған деректер бұл құрылғыдан өшіріледі.</translation>
@@ -6334,7 +6334,7 @@
 <translation id="5919486630433391408">Әкімші микробағдарлама жаңартуларын өшірген.</translation>
 <translation id="5920543303088087579">Әкімшіңіз бұл желіге қосылу мүмкіндігін өшіріп қойған</translation>
 <translation id="5922493635960054020">Бірінші рет кірген сайттарда JavaScript оңтайлаушысына кіру рұқсатын блоктайды. Қауіпсіз шолуды қажет етеді.</translation>
-<translation id="2323567368243374972">"Brave-ды бейімдеу" түймесін басыңыз.</translation>
+<translation id="4776890532807780579">"Wryling-ды бейімдеу" түймесін басыңыз.</translation>
 <translation id="5924047253200400718">Анықтама алу<ph name="SCANNING_STATUS"/></translation>
 <translation id="5924438086390153180">Microsoft файлдарын Google Drive-ға көшіру немесе тасымалдау алдында сұрау</translation>
 <translation id="5925057331573749968">QR кодымен жылдам кіріңіз</translation>
@@ -6431,7 +6431,7 @@
 <translation id="5992652489368666106">Жиексіз</translation>
 <translation id="5996490984199062729">Профиль параметрлері орнатылмады</translation>
 <translation id="5997337190805127100">Сайтқа кіру рұқсаты туралы толығырақ мәлімет</translation>
-<translation id="1113417784664180765">Brave-ға бір аккаунтпен кірген кезде, сілтемелерді кез келген құрылғы арасында жылдам жібере аласыз.</translation>
+<translation id="2406114405348885691">Wryling-ға бір аккаунтпен кірген кезде, сілтемелерді кез келген құрылғы арасында жылдам жібере аласыз.</translation>
 <translation id="5998458948782718639">Автотолтыруды жақсартуға көмектесіңіз</translation>
 <translation id="5998976983953384016">Растау және қосу</translation>
 <translation id="5999630716831179808">Дауыстар</translation>
@@ -6463,7 +6463,7 @@
 <translation id="6021293122504240352"><ph name="APPS"/> қолданбаға бұдан былай қолдау көрсетілмейді</translation>
 <translation id="6021969570711251331">Кезектесу</translation>
 <translation id="6022526133015258832">Толық экранда ашу</translation>
-<translation id="296137235951584143">Brave браузерін өз талғамыңызға сай реттеңіз</translation>
+<translation id="4578349172774307195">Wryling браузерін өз талғамыңызға сай реттеңіз</translation>
 <translation id="6024317249717725918">Бейнекадрды <ph name="VISUAL_SEARCH_PROVIDER"/> көмегімен іздеу</translation>
 <translation id="6025215716629925253">Стекті бақылау</translation>
 <translation id="6026819612896463875"><ph name="WINDOW_TITLE"/> – USB құрылғысы қосылды</translation>
@@ -6552,7 +6552,7 @@
 <translation id="6099766472403716061"><ph name="HOST"/> сайтына MIDI құрылғыларыңызды басқаруға және қайта бағдарламалауға әрқашан рұқсат беру</translation>
 <translation id="6100736666660498114">Іске қосу мәзірі</translation>
 <translation id="6100737823178787570">Тапсырманы жалғастыру үшін терезені ұлғайтыңыз.</translation>
-<translation id="4012048950158900308">Brave құпия сөздеріңіздің бірін баршаға ашық қолды болған деректерден тапса, аккаунтқа кіріп тұрсаңыз, Brave Password Manager оны сіздің орныңызға өзгертіп беруді ұсынуы мүмкін.</translation>
+<translation id="4455711252967107965">Wryling құпия сөздеріңіздің бірін баршаға ашық қолды болған деректерден тапса, аккаунтқа кіріп тұрсаңыз, Wryling Password Manager оны сіздің орныңызға өзгертіп беруді ұсынуы мүмкін.</translation>
 <translation id="6101226222197207147">Жаңа қолданба қосылды (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="6102043788063419338">Бұл файлды "Күшейтілген қорғаныс" функциясы бөгеген.</translation>
 <translation id="6103681770816982672">Ескерту: әзірлеуші арнасына ауысудасыз</translation>
@@ -6585,7 +6585,7 @@
 <translation id="6126601353087978360">Пікіріңізді мына жерге енгізіңіз:</translation>
 <translation id="6127292407256937949">Дыбысы қосулы. Дыбыс деңгейін өшіріңіз.</translation>
 <translation id="6127598727646973981">Қауіпсіз байланыстар</translation>
-<translation id="7089529486065491663">Таңдалған деректер Brave жүйесінен және синхрондалған құрылғылардан алынып тасталды. Brave аккаунтының шолу тарихы басқа Brave қызметтеріндегі іздеулер мен әрекеттер тізімі түрінде де болуы мүмкін, оларды <ph name="BEGIN_LINK"/>history.google.com<ph name="END_LINK"/> мекенжайынан табуға болады.</translation>
+<translation id="8909926044863596423">Таңдалған деректер Brave жүйесінен және синхрондалған құрылғылардан алынып тасталды. Brave аккаунтының шолу тарихы басқа Brave қызметтеріндегі іздеулер мен әрекеттер тізімі түрінде де болуы мүмкін, оларды <ph name="BEGIN_LINK"/>history.google.com<ph name="END_LINK"/> мекенжайынан табуға болады.</translation>
 <translation id="6129938384427316298">Netscape сертификат пікірі</translation>
 <translation id="6129953537138746214">Бос орын</translation>
 <translation id="6130692320435119637">Wi-Fi желісін қосу</translation>
@@ -6662,7 +6662,7 @@
 <translation id="6181218116951226898">Қолданбалар кейде брендинг туралы ақпаратын өзгертеді. Өзгерту алдында барлық өзгеріс өзіңізге ыңғайлы екенін тексеріп алыңыз.</translation>
 <translation id="6181431612547969857">Жүктеуге тыйым салынған</translation>
 <translation id="6183369864942961155">Автоматты жарық/қараңғы режим</translation>
-<translation id="7995865526174204486">Brave-дағы Gemini қойындыларыңызда істеп, сіз берген тапсырмаларды орындау үшін автоматты түрде шолу функциясын пайдаланады. <ph name="LINK_BEGIN"/>Толық ақпарат<ph name="LINK_END"/></translation>
+<translation id="896787455774331657">Wryling-дағы Gemini қойындыларыңызда істеп, сіз берген тапсырмаларды орындау үшін автоматты түрде шолу функциясын пайдаланады. <ph name="LINK_BEGIN"/>Толық ақпарат<ph name="LINK_END"/></translation>
 <translation id="6184099524311454384">Қойындыларды іздеу</translation>
 <translation id="6185151644843671709">Кіру кілті сақталды және PIN коды жасалды</translation>
 <translation id="2250900586478000379">{PASSWORD_COUNT,plural, =1{1 құпия сөз және басқа элементтер тек осы құрылғыға сақталды. Оларды басқа құрылғыларыңызда пайдалану үшін Brave аккаунтына сақтаңыз. Бұл ретте барлық көшірме де жойылады.}other{{PASSWORD_COUNT} құпия сөз және басқа элементтер тек осы құрылғыға сақталды. Оларды басқа құрылғыларыңызда пайдалану үшін Brave аккаунтына сақтаңыз. Бұл ретте барлық көшірме де жойылады.}}</translation>
@@ -6734,7 +6734,7 @@
 <translation id="6239558157302047471">&amp;Кадрды қайта жүктеу</translation>
 <translation id="6240637845286751292">Рұқсат етілген. <ph name="LINK_BEGIN"/>Жүйенің локацияны пайдалану рұқсатын<ph name="LINK_END"/> қосыңыз.</translation>
 <translation id="6240821072888636753">Әрдайым сұрау</translation>
-<translation id="4174528239215311406">Brave Password Manager қызметін операциялық жүйемен бірге пайдалану үшін Brave-ды қайта іске қосып, компьютердің Password Manager қызметін пайдалануға рұқсат беріңіз. Қайта іске қосқаннан кейін, қойындылар қайта ашылады.</translation>
+<translation id="242014192545524966">Wryling Password Manager қызметін операциялық жүйемен бірге пайдалану үшін Wryling-ды қайта іске қосып, компьютердің Password Manager қызметін пайдалануға рұқсат беріңіз. Қайта іске қосқаннан кейін, қойындылар қайта ашылады.</translation>
 <translation id="6241530762627360640">Жүйеңізбен жұптастырылған Bluetooth құрылғылары туралы ақпаратқа кіріп, жақын маңдағы Bluetooth құрылғыларын табу.</translation>
 <translation id="6241844896329831164">Кіру рұқсаты керек емес</translation>
 <translation id="6242589501614145408">Қауіпсіздік кілтіңізді бастапқы күйге қайтарыңыз</translation>
@@ -6742,8 +6742,8 @@
 <translation id="6242852299490624841">Осы қойындыны ерекшелеу</translation>
 <translation id="6243774244933267674">Сервер қолжетімсіз</translation>
 <translation id="6244245036423700521">ONC файлын импорттау</translation>
-<translation id="5455369595872837596">Оған Brave Password Manager қызметінде кіре аласыз.</translation>
-<translation id="8883879481897424949">Brave Password Manager</translation>
+<translation id="6643271232839544541">Оған Wryling Password Manager қызметінде кіре аласыз.</translation>
+<translation id="3888885285070224654">Wryling Password Manager</translation>
 <translation id="6247620186971210352">Ешқандай қолданбалар табылмады.</translation>
 <translation id="6247708409970142803"><ph name="PERCENTAGE"/>%</translation>
 <translation id="6247802389331535091">Жүйе: <ph name="ARC_PROCESS_NAME"/></translation>
@@ -6839,11 +6839,11 @@
 <translation id="6324916366299863871">Таңбашаны өзгерту</translation>
 <translation id="6325191661371220117">Автоматты іске қосуды өшіру</translation>
 <translation id="632524945411480350">Терезелердің шекарасы астыға қарай жылжытылды.</translation>
-<translation id="5267531627648004734">Brave бағдарламасынан жою</translation>
+<translation id="6125790165673488794">Wryling бағдарламасынан жою</translation>
 <translation id="6326855256003666642">Кеңейтімдер қолданатын процестер саны</translation>
 <translation id="6327785803543103246">Вебпрокси-серверді автоматты анықтау</translation>
 <translation id="6329916384047371874"><ph name="PASSWORD_DOMAIN"/> құпия сөзіңізді <ph name="DOMAIN"/> доменінде пайдаланасыз. Құпия сөзді <ph name="DOMAIN"/> домені сенімді болса ғана пайдаланыңыз.</translation>
-<translation id="894516897589069384">Кіру кілтіңіз Brave Password Manager (<ph name="ACCOUNT_NAME"/>) қызметіне сақталады. Жеке басыңызды бір рет растасаңыз жеткілікті.</translation>
+<translation id="96451127607926283">Кіру кілтіңіз Wryling Password Manager (<ph name="ACCOUNT_NAME"/>) қызметіне сақталады. Жеке басыңызды бір рет растасаңыз жеткілікті.</translation>
 <translation id="8329196515830093443">Қатесі түзетілуі үшін файл Brave қызметіне жіберіледі</translation>
 <translation id="6333170995003625229">Электрондық мекенжайыңыз не құпия сөзіңіз расталмады. Қайта кіріп көріңіз.</translation>
 <translation id="6334267141726449402">Журналдарды жинау үшін осы сілтемені көшіріп, пайдаланушыға жіберіңіз.</translation>
@@ -6902,7 +6902,7 @@
 <translation id="637135143619858508">Бос</translation>
 <translation id="6374077068638737855">Iceweasel</translation>
 <translation id="6374469231428023295">Әрекетті қайталау</translation>
-<translation id="3816315808514424202">Brave қолданбаларының ескі нұсқалары 2022 жылдың желтоқсанынан кейін Linux жүйесіндегі құрылғыларда ашылмайды. Қолданбаның жаңа нұсқасын орнату немесе оны жою үшін әкімшіге хабарласыңыз.</translation>
+<translation id="8663109891702419184">Wryling қолданбаларының ескі нұсқалары 2022 жылдың желтоқсанынан кейін Linux жүйесіндегі құрылғыларда ашылмайды. Қолданбаның жаңа нұсқасын орнату немесе оны жою үшін әкімшіге хабарласыңыз.</translation>
 <translation id="6377268785556383139">"<ph name="SEARCH_TEXT"/>" сұрауы бойынша 1 нәтиже шықты</translation>
 <translation id="6378392501584240055">Wi-Fi желілер тізімін ашу</translation>
 <translation id="6379228010899751161">Құпия сөздерді <ph name="ACCOUNT_EMAIL"/> аккаунтында үнемі пайдалана алу үшін жеке басыңызды растаңыз.</translation>
@@ -6934,7 +6934,7 @@
 <translation id="6399774419735315745">Шпион</translation>
 <translation id="6400360390396538896"><ph name="ORIGIN"/> сайтында рұқсат ету</translation>
 <translation id="6401118106417399952">Құрылғыңыздың EID нөмірі: <ph name="EID_NUMBER"/> және құрылғының сериялық нөмірі: <ph name="SERIAL_NUMBER"/>. Қызметті белсендіру үшін осы нөмірлерді пайдалануға болады.</translation>
-<translation id="8789425457808164956">Бұл қойындыны басқа құрылғыға жіберу үшін осы жерде Brave-ға кіріңіз.</translation>
+<translation id="2522845252291433622">Бұл қойындыны басқа құрылғыға жіберу үшін осы жерде Wryling-ға кіріңіз.</translation>
 <translation id="6402042774506839496">Мұның себебін білу үшін қолданба әзірлеушісіне хабарласыңыз.</translation>
 <translation id="6402921224457714577">Сайттар MIDI құрылғыларын басқаруға және қайта бағдарламалауға рұқсат сұрай алады</translation>
 <translation id="6404511346730675251">Бетбелгіні өзгерту</translation>
@@ -7025,7 +7025,7 @@
 <translation id="6469557521904094793">Ұялы байланыс желісін қосу</translation>
 <translation id="6469702164109431067">Құпия сөздер мен кіру кілттері</translation>
 <translation id="6470120577693311302">Жарқылды хабарландырулар</translation>
-<translation id="2444643906853437046">Қойындыларды бөлісіп, басқалармен бірлесіп жұмыс істеу үшін Brave-ға кіріп, тарих пен қойындыларды синхрондаңыз. Құпия сөздер мен басқа да деректеріңіз барлық құрылғыңызда қолжетімді болады.</translation>
+<translation id="5220171877391975452">Қойындыларды бөлісіп, басқалармен бірлесіп жұмыс істеу үшін Wryling-ға кіріп, тарих пен қойындыларды синхрондаңыз. Құпия сөздер мен басқа да деректеріңіз барлық құрылғыңызда қолжетімді болады.</translation>
 <translation id="6470823736074966819">Хабарландырулардың дыбысын өшіру</translation>
 <translation id="6472893788822429178">"Негізгі бет" түймесін көрсету</translation>
 <translation id="6473315466413288899">Опция таңдаңыз</translation>
@@ -7050,7 +7050,7 @@
 <translation id="649396225532207613">Бұл файл жеке және әлеуметтік желі аккаунттарына зиян тигізуі мүмкін</translation>
 <translation id="6493991254603208962">Жарықтық деңгейін төмендету</translation>
 <translation id="6494327278868541139">Жақсартылған қорғаныс туралы мәліметтерді көрсету</translation>
-<translation id="4328654367880031858">Тақырып әдепкі Brave-ға жаңартылды.</translation>
+<translation id="7396469211317307267">Тақырып әдепкі Wryling-ға жаңартылды.</translation>
 <translation id="6496641546298525838">Құрылғыңыз</translation>
 <translation id="6497784818439587832">Экрандағы элементтерді кішірейту не ұлғайту үшін дисплей өлшемін өзгертіңіз.</translation>
 <translation id="6497789971060331894">Тінтуірмен кері айналдыру</translation>
@@ -7078,8 +7078,8 @@
 <translation id="6519437681804756269">[<ph name="TIMESTAMP"/>]
         <ph name="FILE_INFO"/>
         <ph name="EVENT_NAME"/></translation>
-<translation id="7978371405408781051">Сақталған құпия сөздерді Brave Құпия сөз менеджерінде көріп, басқара аласыз.</translation>
-<translation id="3268749830200917889"><ph name="SITE"/> жеке басыңызды растағысы келеді. Brave Password Manager-ге арналған әріптік-цифрлық PIN кодын енгізіңіз.</translation>
+<translation id="4368425522364057431">Сақталған құпия сөздерді Wryling Құпия сөз менеджерінде көріп, басқара аласыз.</translation>
+<translation id="4584640130722526280"><ph name="SITE"/> жеке басыңызды растағысы келеді. Wryling Password Manager-ге арналған әріптік-цифрлық PIN кодын енгізіңіз.</translation>
 <translation id="6520876759015997832"><ph name="LIST_POSITION"/>/<ph name="LIST_SIZE"/> іздеу нәтижесі: <ph name="SEARCH_RESULT_TEXT"/>. Бөлімге өту үшін Enter пернесін басыңыз.</translation>
 <translation id="6521214596282732365">Сайттар әдетте сіздің қаріптеріңізді пайдаланады, сондықтан дизайн мен графикаға арналған онлайн құралдардың көмегімен жоғары сапалы контент құруыңызға болады.</translation>
 <translation id="6521218807522232085">Аккаунтқа оңай кіру үшін құпия сөздерді жасаңыз, сақтаңыз және басқарыңыз.</translation>
@@ -7137,7 +7137,7 @@
 <translation id="656293578423618167">Файл жолы немесе атауы тым ұзын. Қысқа атаумен немесе басқа орынға сақтаңыз.</translation>
 <translation id="6563002009564846727">Windows-дан импортталған сертификаттарды көру</translation>
 <translation id="6563055593659435495">Телефоныңызбен байланыс орнату мүмкін емес. Телефоныңыз жаныңызда болуы, оның құлпы ашық болуы және Bluetooth бен Wi-Fi қосылып тұруы керек.</translation>
-<translation id="5101641460012906639"><ph name="APP_NAME"/> қолданбасына кіру кілтін жасау үшін Brave Password Manager қосулы болуы керек.</translation>
+<translation id="220477283561908794"><ph name="APP_NAME"/> қолданбасына кіру кілтін жасау үшін Wryling Password Manager қосулы болуы керек.</translation>
 <translation id="6565899972286925956">Қалағаныңызды жасаңыз.</translation>
 <translation id="6566648465417201421">Жабылған бөлінген көріністі қайта ашу</translation>
 <translation id="656679903990115526">Құпия сөздерді сақтап, автоматты түрде толтыру арқылы сайттар мен қолданбаларға оңай кіру үшін, берілген кодты телефоныңызбен сканерлеңіз.</translation>
@@ -7167,7 +7167,7 @@
 <translation id="6582274660680936615">Интернетті Қонақ ретінде пайдаланудасыз</translation>
 <translation id="6583328141350416497">Жүктеп алуды жалғастыру</translation>
 <translation id="6584878029876017575">Microsoft Lifetime Signing</translation>
-<translation id="3967591872717355005">Brave-дағы Gemini-ды жабу</translation>
+<translation id="4549910236442219988">Wryling-дағы Gemini-ды жабу</translation>
 <translation id="6585584201072946561">Веб-браузер үшін мәтін өлшемі мен қарпін бейімдеу</translation>
 <translation id="6586099239452884121">Қонақ режимі</translation>
 <translation id="6586451623538375658">Негізгі тінтуір түймесін ауыстыру</translation>
@@ -7179,11 +7179,11 @@
 <translation id="6592808042417736307">Саусақ ізіңіз түсірілді.</translation>
 <translation id="6594011207075825276">Сериялық құрылғылар ізделуде...</translation>
 <translation id="6595322909015878027">"Суреттегі сурет" режимін автоматты түрде ашуға рұқсаты жоқ</translation>
-<translation id="5089633794744090226">{COUNT,plural, =1{Ұрланған құпия сөз өзгертілді.
+<translation id="4604137824271419035">{COUNT,plural, =1{Ұрланған құпия сөз өзгертілді.
 
-Тағы # құпия сөзіңіз ұрланған. Brave Password Manager бұл құпия сөзді дереу тексеруді ұсынады.}other{Ұрланған құпия сөз өзгертілді.
+Тағы # құпия сөзіңіз ұрланған. Wryling Password Manager бұл құпия сөзді дереу тексеруді ұсынады.}other{Ұрланған құпия сөз өзгертілді.
 
-Тағы # құпия сөзіңіз ұрланған. Brave Password Manager бұл құпия сөздерді дереу тексеруді ұсынады.}}</translation>
+Тағы # құпия сөзіңіз ұрланған. Wryling Password Manager бұл құпия сөздерді дереу тексеруді ұсынады.}}</translation>
 <translation id="6596325263575161958">Шифрлау опциялары</translation>
 <translation id="6596816719288285829">IP мекенжайы</translation>
 <translation id="6596916244504302242">Бұл сайтқа жаңартылған кеңейтім параметрлерін қолдану үшін осы бетті қайта жүктеңіз</translation>
@@ -7218,7 +7218,7 @@
 <translation id="6619801788773578757">Киоск қолданбасын қосу</translation>
 <translation id="6619990499523117484">PIN кодын растаңыз</translation>
 <translation id="808383181727223557">Brave-дан сұраңыз немесе URL мекенжайын теріңіз</translation>
-<translation id="8127050479140582768">Бұл қойындыны басқа құрылғыға жіберу үшін екі құрылғыда Brave-ға кіріңіз.</translation>
+<translation id="7379057487310867567">Бұл қойындыны басқа құрылғыға жіберу үшін екі құрылғыда Wryling-ға кіріңіз.</translation>
 <translation id="6622980291894852883">Кескін бөгеуді жалғастыру</translation>
 <translation id="6624036901798307345">Планшет режимінде әр қойындының нобайларын көрсететін жаңа қойындылар жолағын ашу үшін құралдар тақтасындағы қойынды саны түймесін түртіңіз.</translation>
 <translation id="6624538059730609162">Оң жақ көріністі жабу</translation>
@@ -7236,7 +7236,7 @@
 <translation id="663569763553406962">Сайтты оқи немесе өзгерте алатын кеңейтімдерді көру</translation>
 <translation id="6636258750460740634">Тарих</translation>
 <translation id="6636623428211296678">Төмендегі басқа параметрлерді қараңыз немесе әрекетті аяқтаңыз.</translation>
-<translation id="7039910610180903356">Дағдылар функциясы қазір өшірулі. Бастау үшін Brave параметрлерін жаңартыңыз.</translation>
+<translation id="2685022934261893296">Дағдылар функциясы қазір өшірулі. Бастау үшін Wryling параметрлерін жаңартыңыз.</translation>
 <translation id="6639554308659482635">SQLite жады</translation>
 <translation id="6640268266988685324">Ашық қойынды</translation>
 <translation id="664271268954513498">Саясат мәні</translation>
@@ -7270,7 +7270,7 @@
 <translation id="6660819301598582123">аәбвгғдеёжзийкқлмнңоөпрстуұүфхһцчшщъыіьэюя</translation>
 <translation id="666099631117081440">Баспа серверлері</translation>
 <translation id="6662339038589469159">Gemini-дан сұрау үшін мәтінді таңдау</translation>
-<translation id="5651734709592044140">Құрылғылардың кез келгенінен сайттарға жылдам кіру үшін Brave Password Manager пайдаланыңыз.</translation>
+<translation id="7879317760767371797">Құрылғылардың кез келгенінен сайттарға жылдам кіру үшін Wryling Password Manager пайдаланыңыз.</translation>
 <translation id="6662931079349804328">Корпоративтік саясат өзгертілді. "Эксперименттер" түймесі құралдар тақтасынан өшірілді.</translation>
 <translation id="6664774537677393800">Профильді ашу кезінде бірдеңе дұрыс болмады. Жүйеден шығып, қайта кіріңіз.</translation>
 <translation id="6665874326033183068">Жабайы</translation>
@@ -7291,7 +7291,7 @@
 <translation id="6677527809400770913"><ph name="GESTURE"/> қимылы <ph name="ACTION"/> әрекетіне тағайындалды</translation>
 <translation id="6678604587151240716">Теңізде биік толқын тулайды. Алыста жер көрінеді. Қошқыл аспан көлегейлеп, көкжиектен қызғылт сары жарық ұшқындары сығалайды.</translation>
 <translation id="6678717876183468697">Сұрау URL мекенжайы</translation>
-<translation id="4179272988780553308">Brave-ге құпия сөзіңізді өзгертуге көмек керек</translation>
+<translation id="6399206009398414883">Wryling-ге құпия сөзіңізді өзгертуге көмек керек</translation>
 <translation id="6679947539429331601">12 сағат жасыру</translation>
 <translation id="6680650203439190394">Жылдамдық</translation>
 <translation id="6683022854667115063">Құлақаспап</translation>
@@ -7302,7 +7302,7 @@
 <translation id="6686676261102452995">Бүгін аштыңыз</translation>
 <translation id="6686817083349815241">Құпия сөзді сақтау</translation>
 <translation id="6686878118106035853">Арнаулы күшейтілген қорғаныс барлық сайт үшін JavaScript оңтайландыру мүмкіндігін өшіреді.</translation>
-<translation id="8244419959467378067">Brave Password Manager PIN кодын өзгерту</translation>
+<translation id="6670208233381808278">Wryling Password Manager PIN кодын өзгерту</translation>
 <translation id="6687079240787935001">"<ph name="MODULE_TITLE"/>" жасыру</translation>
 <translation id="6689092196793298127">Ұйымдастырушы</translation>
 <translation id="6689948774466767379">Тінтуір пернелері</translation>
@@ -7395,9 +7395,9 @@
 <translation id="6762833852331690540">Қосулы</translation>
 <translation id="6762861159308991328">Сілтемелердің қолданба параметрлерінде қалай ашылатынын өзгерте аласыз.</translation>
 <translation id="676560328519657314">Google Pay қызметіндегі төлеу әдістеріңіз</translation>
-<translation id="3829555700225710632">Brave Password Manager-ге өту</translation>
+<translation id="1991746409654589637">Wryling Password Manager-ге өту</translation>
 <translation id="6767566652486411142">Басқа тіл таңдау...</translation>
-<translation id="3118781942424119876"><ph name="DISPLAYED_TEXT"/>, Brave-дағы Gemini</translation>
+<translation id="444975012123670651"><ph name="DISPLAYED_TEXT"/>, Wryling-дағы Gemini</translation>
 <translation id="6768034047581882264">Қорғалмаған контент көрсетуге рұқсаты жоқтар</translation>
 <translation id="6770602306803890733">Интернет пайдаланушылары үшін қауіпсіздікті жақсартады.</translation>
 <translation id="6771503742377376720">Сертификат беретін орган</translation>
@@ -7413,7 +7413,7 @@
 <translation id="6777817260680419853">Бағыттауға тыйым салынған</translation>
 <translation id="6777845730143344223">Passpoint жазылымдары туралы толық ақпарат</translation>
 <translation id="6779092717724412415">Осылай ерекшелеу үшін мәтінді таңдап, тінтуірдің оң жақ түймесін басыңыз.</translation>
-<translation id="4302311572898487420">Brave Password Manager қызметіне MacOS кілттер тізбегін пайдалануға рұқсат қажет</translation>
+<translation id="5994277662125312553">Wryling Password Manager қызметіне MacOS кілттер тізбегін пайдалануға рұқсат қажет</translation>
 <translation id="677965093459947883">Тым кішкентай</translation>
 <translation id="6781005693196527806">&amp;Іздеу жүйелерін басқару...</translation>
 <translation id="6781284683813954823">Дудл сілтемесі</translation>
@@ -7422,7 +7422,7 @@
 <translation id="678520006562636090">Google Lens-ді <ph name="DEVICE_TYPE"/> құрылғысында қолданып көріңіз</translation>
 <translation id="6785594991951195537"><ph name="PASSWORD_DOMAIN"/> доменін пайдалану</translation>
 <translation id="6785739405821760313">Сақталған жұмыс үстелдерін көру. Жылжу үшін Tab пернесін басыңыз.</translation>
-<translation id="3970420313383499900">Brave-дағы Gemini-ды ашу үшін <ph name="FOCUS_TOGGLE_HOTKEY"/> пернелерін басыңыз</translation>
+<translation id="1947654530370382747">Wryling-дағы Gemini-ды ашу үшін <ph name="FOCUS_TOGGLE_HOTKEY"/> пернелерін басыңыз</translation>
 <translation id="6785915470941880363">Кері айналдыру туралы <ph name="LINK_BEGIN"/>қосымша ақпарат<ph name="LINK_END"/></translation>
 <translation id="67862343314499040">Ақшыл күлгін</translation>
 <translation id="6786480815699355166">Қолдау көрсетілетін автоматты субтитр тілдерін ғана аударуға болады.</translation>
@@ -7492,10 +7492,10 @@
 <translation id="6825184156888454064">Атауы бойынша сұрыптау</translation>
 <translation id="6827121912381363404">Барлық кеңейтімге <ph name="PERMITTED_SITE"/> сайтын оқуға және өзгертуге рұқсат беру</translation>
 <translation id="4109630956174373924">Қолданбаларыңыз бен параметрлеріңіз осы Brave аккаунтымен кірген барлық ChromeOS құрылғысында синхрондалады. Браузерді синхрондау опцияларын <ph name="LINK_BEGIN"/>Brave параметрлерінен<ph name="LINK_END"/> қараңыз.</translation>
-<translation id="8295391943105726234">Brave қолданбаларының ескі нұсқалары 2022 жылдың желтоқсанынан кейін Windows жүйесіндегі құрылғыларда ашылмайды. Қолданбаның жаңа нұсқасын орнату немесе оны жою үшін әкімшіге хабарласыңыз.</translation>
+<translation id="6370110567774380901">Wryling қолданбаларының ескі нұсқалары 2022 жылдың желтоқсанынан кейін Windows жүйесіндегі құрылғыларда ашылмайды. Қолданбаның жаңа нұсқасын орнату немесе оны жою үшін әкімшіге хабарласыңыз.</translation>
 <translation id="6828182567531805778">Деректерді синхрондау үшін құпия фразаны енгізіңіз.</translation>
 <translation id="6828860976882136098">Барлық пайдаланушылар үшін автоматты жаңартулар орнатылмады (алдын ала орындау қатесі: <ph name="ERROR_NUMBER"/>)</translation>
-<translation id="2119951199746818124">Brave Calendar-дағы келесі іс-шараға оңай өту үшін сізге күнтізбе көрсетіледі.
+<translation id="1976443593815762542">Brave Calendar-дағы келесі іс-шараға оңай өту үшін сізге күнтізбе көрсетіледі.
         <ph name="BREAK"/>
         <ph name="BREAK"/>
         Параметрлерді карта мәзірінен реттеуге немесе "Brave-ды бейімдеу" бөлімінен басқа опцияларды көруге болады.</translation>
@@ -7625,7 +7625,7 @@
 <translation id="6916818963747321523">Барлығын жаю</translation>
 <translation id="8995127535539248248">Қойындылар топтарын бөлісу, қосылу және бірлесіп жұмыс істеу үшін параметрлерді ашып, "Brave-ға кіруге рұқсат ету" параметрін қосыңыз.</translation>
 <translation id="6919354101107095996">Сайт аккаунтына кіріп көріңіз. Содан соң жүктеп алуды қайталаңыз.</translation>
-<translation id="4194845302979409023">Осы Brave профилі үшін Күшейтілген Safe Browsing функциясы қосылсын ба?</translation>
+<translation id="4828791257596683710">Осы Wryling профилі үшін Күшейтілген Safe Browsing функциясы қосылсын ба?</translation>
 <translation id="6920989436227028121">Қалыпты қойынды ретінде ашу</translation>
 <translation id="6921104647315081813">Әрекеттерді тазалау</translation>
 <translation id="692114467174262153"><ph name="ALTERNATIVE_BROWSER_NAME"/> ашылмады.</translation>
@@ -7671,7 +7671,7 @@
 <translation id="6961327401577924850">Сайттар әдетте төмен қуатты сигналды, денсаулық немесе фитнес трекерін, сондай-ақ смарт жарық көзін орнату немесе синхрондау сияқты функциялар үшін Bluetooth құрылғыларын іздейді.</translation>
 <translation id="6963772203726867701">Анықталмады</translation>
 <translation id="6963872466817251924">Мәтін курсорын бөлектеу құралы</translation>
-<translation id="6638101873197257342">– көбірек тапсырма орындауға көмектесетін Brave қосымшалары</translation>
+<translation id="1130544806072374777">– көбірек тапсырма орындауға көмектесетін Wryling қосымшалары</translation>
 <translation id="6964390816189577014">Қаһарман</translation>
 <translation id="6964760285928603117">Топтан өшіру</translation>
 <translation id="6965382102122355670">Жарайды</translation>
@@ -7773,7 +7773,7 @@
 <translation id="7033616203784997570">62 таңбадан аспауы керек.</translation>
 <translation id="7033731598469029604">Автоматты түрде шолу</translation>
 <translation id="70356134210715500">Кіру кілттерін алу</translation>
-<translation id="205056676188659235"><ph name="RP_ID"/> аккаунтыңыз үшін қазір ғана кіру кілтін жасады. Кіру кілттері жылдам әрі қауіпсіз кіру жолын ұсынады және <ph name="USER"/> аккаунтына арналған Brave Password Manager қызметінде сақталады. <ph name="LEARN_MORE"/></translation>
+<translation id="779273391657213098"><ph name="RP_ID"/> аккаунтыңыз үшін қазір ғана кіру кілтін жасады. Кіру кілттері жылдам әрі қауіпсіз кіру жолын ұсынады және <ph name="USER"/> аккаунтына арналған Wryling Password Manager қызметінде сақталады. <ph name="LEARN_MORE"/></translation>
 <translation id="7036833812387983071">Әзірлеуші құралдарынан көру</translation>
 <translation id="7037157058268992880">PIN кодын ұмытып қалдым</translation>
 <translation id="7037509989619051237">Мәтінді алдын ала көру</translation>
@@ -7809,7 +7809,7 @@
 <translation id="706626672220389329">Ортақ файлды орнату кезінде қате шықты. Көрсетілген ортақ файл орнатылып қойған.</translation>
 <translation id="7067396782363924830">Орта түстері</translation>
 <translation id="7067725467529581407">Ешқашан қайта көрсетпеу.</translation>
-<translation id="8332021337957914073">Енді "Brave-ды бейімдеу" мәзірінен браузеріңізге кез келген уақытта жаңа көрініс бере аласыз.</translation>
+<translation id="3448852526253868901">Енді "Wryling-ды бейімдеу" мәзірінен браузеріңізге кез келген уақытта жаңа көрініс бере аласыз.</translation>
 <translation id="7068591156533195518"><ph name="DEVICE_TYPE"/> құрылғыңызда <ph name="APP_NAME"/> және тағы бірнеше қолданба блокталды</translation>
 <translation id="706949303827219454">"Қауіпсіздік параметрлері" бетін жаңа қойындыдан ашады</translation>
 <translation id="7069750557362084654">{NUM_PASSWORDS,plural, =1{Бұл сайтқа арналған жаңа құпия сөз}other{Бұл сайтқа арналған жаңа құпия сөздер}}</translation>
@@ -7848,7 +7848,7 @@
 <translation id="7099027177878709408">&amp;Жабу</translation>
 <translation id="7099337801055912064">Үлкен PPD файлын жүктеу мүмкін емес. Көлемі 250 Кб-тан аспауы керек.</translation>
 <translation id="7099739618316136113">{COUNT,plural, =0{Ұрланған құпия сөздер жоқ.}=1{{COUNT} құпия сөз ұрланған.}other{{COUNT} құпия сөз ұрланған.}}</translation>
-<translation id="6930289083458871157">Brave жаңа ғана қауіпті файлды жүктеп алуды блоктады. Күшейтілген қорғаныспен қауіпсіздікті одан әрі арттырыңыз.</translation>
+<translation id="1075350995323790968">Wryling жаңа ғана қауіпті файлды жүктеп алуды блоктады. Күшейтілген қорғаныспен қауіпсіздікті одан әрі арттырыңыз.</translation>
 <translation id="710047887584828070">Бұл қойындының контентін бөлісіп жатыр</translation>
 <translation id="710224247908684995">Бір кеңейтім Safe Browsing функциясын өшірді.</translation>
 <translation id="7102832101143475489">Сұрау уақыты өтіп кетті</translation>
@@ -7861,7 +7861,7 @@
 <translation id="7109543803214225826">Таңбаша өшірілді</translation>
 <translation id="7110644433780444336">{NUM_TABS,plural, =1{Топқа қойынды қосу}other{Топқа қойындылар қосу}}</translation>
 <translation id="7111822978084196600">Терезеге ат қою</translation>
-<translation id="3052944975426153700">Brave-дағы Gemini әртүрлі локациялар үшін де шығарылып жатыр, бірақ әзірге барлық жерде қолжетімді емес.</translation>
+<translation id="4390080968239229040">Wryling-дағы Gemini әртүрлі локациялар үшін де шығарылып жатыр, бірақ әзірге барлық жерде қолжетімді емес.</translation>
 <translation id="7113502843173351041">Электрондық пошта мекенжайыңызды білу</translation>
 <translation id="7115361495406486998">Қолжетімді контактілер жоқ</translation>
 <translation id="7117228822971127758">Әрекетті кейінірек қайталаңыз</translation>
@@ -7937,7 +7937,7 @@
 <translation id="7180611975245234373">Жаңарту</translation>
 <translation id="7180865173735832675">Реттеу</translation>
 <translation id="7181117767881540376">&amp;Бетбелгілер жолағын жасыру</translation>
-<translation id="6219131628242399788"><ph name="CHILD_NAME"/> атты балаға болашақ кеңейтімдерді сіздің рұқсатыңызсыз орнатуға рұқсат беру үшін құрылғыңызда Family Link қолданбасын ашып, оның (<ph name="CHILD_NAME"/>) Brave параметрлерін жаңартыңыз.</translation>
+<translation id="6411090479042324249"><ph name="CHILD_NAME"/> атты балаға болашақ кеңейтімдерді сіздің рұқсатыңызсыз орнатуға рұқсат беру үшін құрылғыңызда Family Link қолданбасын ашып, оның (<ph name="CHILD_NAME"/>) Wryling параметрлерін жаңартыңыз.</translation>
 <translation id="7181840534454431748"><ph name="OWNER_FIRST_NAME"/> қосылған қойындылар тобына қосылыңыз
             {NUM_OTHER_MEMBERS,plural, =0{<ph name="OWNER_FIRST_NAME"/> қосылған қойындылар тобына қосылыңыз}=1{<ph name="OWNER_FIRST_NAME"/> және тағы # адам қосылған қойындылар тобына қосылыңыз}other{<ph name="OWNER_FIRST_NAME"/> және тағы # адам қосылған қойындылар тобына қосылыңыз}}</translation>
 <translation id="7181976109296206547">Логотип, атау мен URL өзгерістерін тексеру</translation>
@@ -7961,7 +7961,7 @@
 <translation id="7191063546666816478">Кейбір қолдау көрсету сілтемелері <ph name="APP_NAME"/>, <ph name="APP_NAME_2"/>, <ph name="APP_NAME_3"/> қолданбаларында және тағы <ph name="NUMBER_OF_OTHER_APPS"/> қолданбада ашық болады.</translation>
 <translation id="7191159667348037">Белгісіз принтер (USB)</translation>
 <translation id="7191631508323321927">Дәліз</translation>
-<translation id="2348760106555630118">Отбасыңыздың мүшелері Brave Password Manager қызметін қолданған кезде, енді пайдаланушы атыңыз бен құпия сөзіңізді де пайдалана алады. Аккаунтқа кіру үшін олардың <ph name="WEBSITE"/> сайтына өтуін сұраңыз.</translation>
+<translation id="8493777968162809528">Отбасыңыздың мүшелері Wryling Password Manager қызметін қолданған кезде, енді пайдаланушы атыңыз бен құпия сөзіңізді де пайдалана алады. Аккаунтқа кіру үшін олардың <ph name="WEBSITE"/> сайтына өтуін сұраңыз.</translation>
 <translation id="7193051357671784796">Бұл қолданбаңызды ұйым енгізді. Қолданбаны орнатуды аяқтау үшін оны қайта қосыңыз.</translation>
 <translation id="7193374945610105795"><ph name="ORIGIN"/> сайты үшін ешқандай құпия сөз сақталмады</translation>
 <translation id="7193887851827841439">Медиаконтентті басқару элементтерінен бейнекадр суретін сақтаңыз.</translation>
@@ -8269,7 +8269,7 @@
 <translation id="7421293530411019405">Қойындылар тобынан шығу қажет пе?</translation>
 <translation id="7421925624202799674">&amp;Бет дереккөзін көру</translation>
 <translation id="7422192691352527311">Реттеулер…</translation>
-<translation id="5797098178256696347">Gemini Spark агентіне кіру рұқсаты бар кез келген адам Brave браузерін басқара алады.</translation>
+<translation id="8720537059196709339">Gemini Spark агентіне кіру рұқсаты бар кез келген адам Wryling браузерін басқара алады.</translation>
 <translation id="7423425410216218516">Көріну мүмкіндігі <ph name="MINUTES"/> минутқа қосулы.</translation>
 <translation id="7423513079490750513"><ph name="INPUT_METHOD_NAME"/> контентін өшіру</translation>
 <translation id="7424818322350938336">Желі қосылды</translation>
@@ -8278,7 +8278,7 @@
 <translation id="7427729970025360383">Бұл профиль басқарылады</translation>
 <translation id="7427798576651127129"><ph name="DEVICE_NAME"/> шалған қоңырау</translation>
 <translation id="7429415133937917139">Экранның жоғарғы жағындағы ChromeVox панелінде жаңартуға болатын    Брайль дисплейі пайда болады.</translation>
-<translation id="1782880777068048256"><ph name="FILENAME"/> қауіпті болуы мүмкін. Brave-ның оны тексергенін қаласаңыз, құпия сөз қосыңыз. Болмаса оны тікелей жүктеп алуға болады.</translation>
+<translation id="7095911894329901179"><ph name="FILENAME"/> қауіпті болуы мүмкін. Wryling-ның оны тексергенін қаласаңыз, құпия сөз қосыңыз. Болмаса оны тікелей жүктеп алуға болады.</translation>
 <translation id="7431719494109538750">HID құрылғылары табылмады.</translation>
 <translation id="7431991332293347422">Search және т.б. қызметтерді жекелендіру үшін шолу тарихын қалай пайдалану керектігін көрсетіңіз</translation>
 <translation id="7432200167665670017">Әкімшіңіз "<ph name="EXTENSION_NAME"/>" қолданбасын бөгеді, қолданба идентификаторы – <ph name="EXTENSION_ID"/></translation>
@@ -8346,11 +8346,11 @@
 <translation id="7479221278376295180">Жад көлемін пайдалануды шолу</translation>
 <translation id="747981547666531654">"<ph name="FIRST_DEVICE"/>" және "<ph name="SECOND_DEVICE"/>" деп аталатын Bluetooth құрылғыларына қосылды.</translation>
 <translation id="7480076846077373008">Промокеңеске арналған қосымша әрекеттер</translation>
-<translation id="7173394303099002355">Brave браузерінің ең күшті қорғанысын қолданыңыз</translation>
+<translation id="1158507424343802366">Wryling браузерінің ең күшті қорғанысын қолданыңыз</translation>
 <translation id="7481312909269577407">Басқаға жіберу</translation>
 <translation id="7483732342458943943">Бұл сілтеме жұмыс істемейді</translation>
 <translation id="7484645889979462775">Бұл сайт үшін ешқашан</translation>
-<translation id="7914076745371236476">Осы құрылғыдағы Brave Password Manager-ге сақталған барлық кіру кілтін пайдалана аласыз. Жеке басыңызды бір рет растасаңыз жеткілікті.</translation>
+<translation id="3172962224062640933">Осы құрылғыдағы Wryling Password Manager-ге сақталған барлық кіру кілтін пайдалана аласыз. Жеке басыңызды бір рет растасаңыз жеткілікті.</translation>
 <translation id="7486587904541741388">Үнем мөлшері көп</translation>
 <translation id="7487141338393529395">Жетілдірілген емле тексеру құралын іске қосу</translation>
 <translation id="7487969577036436319">Құрамдастар орнатылмаған</translation>
@@ -8392,7 +8392,7 @@
 <translation id="7516641972665276706">page down</translation>
 <translation id="7516981202574715431"><ph name="APP_NAME"/> кідіртілді</translation>
 <translation id="9075033240840348521">Brave аккаунтындағы құпия сөздер үшін Brave-дың әдепкі шифрлау әдісін пайдалану</translation>
-<translation id="385431757934284424">Отбасы мүшесі дәл қазір құпия сөздерді ала алмайды. Одан Brave браузерін жаңартуын және құпия сөздерін синхрондауын сұраңыз.</translation>
+<translation id="8558089421968810910">Отбасы мүшесі дәл қазір құпия сөздерді ала алмайды. Одан Wryling браузерін жаңартуын және құпия сөздерін синхрондауын сұраңыз.</translation>
 <translation id="7518079994230200553">Бұл опция қазір қолжетімді емес.</translation>
 <translation id="752098910262610337">Жылдам пәрмендерді көрсету</translation>
 <translation id="7521430434164837205">Microsoft 365 файлдары</translation>
@@ -8461,7 +8461,7 @@
 <translation id="7583948862126372804">Саны</translation>
 <translation id="7585106857920830898">Ұйымның қауіпсіздік саясаттарына сәйкестігі тексерілуде...</translation>
 <translation id="7585490016012953607">Қалпына келтіру құпия сөзі: 3 айға дейін уақытша сақталады</translation>
-<translation id="8201192017531062522">Brave қолданбалары ашық болғанда, Brave жұмысын жалғастырады.</translation>
+<translation id="1532744110192127389">Wryling қолданбалары ашық болғанда, Wryling жұмысын жалғастырады.</translation>
 <translation id="7587297195142686341">Gemini сіздің орныңызға аккаунтқа кіре алады</translation>
 <translation id="7587806318633605613">Ұсыныс тарихы</translation>
 <translation id="7589448773774086276">Ағымдағы қойындысы бар жаңа бөлінген көрініс</translation>
@@ -8526,11 +8526,11 @@
 <translation id="764178579712141045"><ph name="USER_EMAIL"/> қосылды</translation>
 <translation id="7642778300616172920">Құпия мәліметті жасыру</translation>
 <translation id="7645176681409127223"><ph name="USER_NAME"/> (иесі)</translation>
-<translation id="7195740973702314115">Brave аккаунтына кіргенде, құпия сөздерді Brave Password Manager-ге сақтауға болады</translation>
+<translation id="468780285679255462">Wryling аккаунтына кіргенде, құпия сөздерді Wryling Password Manager-ге сақтауға болады</translation>
 <translation id="7646499124171960488">Баршаға ашық қауіпті сайттар туралы ескертеді</translation>
 <translation id="7646772052135772216">Құпия сөз синхрондау жұмыс істеп тұрған жоқ</translation>
 <translation id="7647403192093989392">Соңғы әрекет жоқ</translation>
-<translation id="3350442560878669560">Brave орнату пакетін тексеріп жатыр</translation>
+<translation id="867511901854381903">Wryling орнату пакетін тексеріп жатыр</translation>
 <translation id="7648048654005891115">Пернетақта схемасының стилі</translation>
 <translation id="7649070708921625228">Анықтама</translation>
 <translation id="7649954700951153978">iOS жүйесінде еске салу</translation>
@@ -8564,7 +8564,7 @@
 <translation id="766635563210446220">Құпия сөздерді импорттау мүмкін емес. <ph name="FILENAME"/> файлын тексеріп, оның дұрыс форматталғанына көз жеткізіңіз. <ph name="BEGIN_LINK"/>Толық ақпарат<ph name="END_LINK"/></translation>
 <translation id="7666966001957552011">Қауіпті деп танылған сайттар, жүктеп алынғандар және кеңейтімдер туралы ескертеді. Бұл ескертулерді кез келген уақытта өшіре аласыз. Заңды контент туралы ескерту шықса, <ph name="BEGIN_LINK"/>қате туралы хабарлауыңызға<ph name="END_LINK"/> болады.</translation>
 <translation id="7668205084604701639">Office файл параметрлері</translation>
-<translation id="2190324512336800037"><ph name="ACCOUNT"/> аккаунтына арналған Brave Құпия сөз менеджерінде</translation>
+<translation id="2583370393244501496"><ph name="ACCOUNT"/> аккаунтына арналған Wryling Құпия сөз менеджерінде</translation>
 <translation id="7668648754769651616">Арнайы мүмкіндіктермен құрылғыңызды оңай пайдалана аласыз. Жылдам параметрлерге өту үшін экраныңыздың төменгі жағынан уақытты таңдаңыз.</translation>
 <translation id="7669620291129890197">Құрылғыларыңызға көрінеді</translation>
 <translation id="7669825497510425694">{NUM_ATTEMPTS,plural, =1{PIN коды дұрыс емес. Сізде бір мүмкіндік қалды.}other{PIN коды дұрыс емес. Сізде # мүмкіндік қалды.}}</translation>
@@ -8754,7 +8754,7 @@
 <translation id="7807711621188256451"><ph name="HOST"/> үшін камераға кіру рұқсатын әрдайым беру</translation>
 <translation id="7810202088502699111">Қалқымалы терезелерге бұл бетте тыйым салынған.</translation>
 <translation id="7810367892333449285"><ph name="LPA_0"/>$<ph name="LPA_1"/>SM-DP+ мекенжай<ph name="LPA_2"/>$<ph name="LPA_3"/>қосымша сәйкестендіру идентификаторы<ph name="LPA_4"/> форматында жазуыңыз керек.</translation>
-<translation id="5014491767627896944">Brave браузері Brave-нің <ph name="BEGIN_HIGHLIGHT"/>ашық кодты бағдарлама<ph name="END_HIGHLIGHT"/> жобасы мен басқа ашық кодты бағдарлама негізінде жасалды.</translation>
+<translation id="8386624919122501557">Brave браузері Brave-нің <ph name="BEGIN_HIGHLIGHT"/>ашық кодты бағдарлама<ph name="END_HIGHLIGHT"/> жобасы мен басқа ашық кодты бағдарлама негізінде жасалды.</translation>
 <translation id="7811263553491007091">Әрекетті қайталаңыз немесе төменнен алдыңғы жасалған тақырыптардың бірін таңдаңыз.</translation>
 <translation id="7811926937048662341">Осы жерді тінтуірдің оң жақ түймесімен басып, "Қойындыларды тігінен көрсету" опциясын таңдаңыз.</translation>
 <translation id="7811986034759500329">Жүйе параметрлерінде реттеу</translation>
@@ -8764,7 +8764,7 @@
 <translation id="7815583197273433531"><ph name="EXTENSION_NAME"/> <ph name="SHORTCUT"/> таңбашасын өңдеу</translation>
 <translation id="7815680994978050279">Қауіпті жүктеп алу әрекеті бөгелді</translation>
 <translation id="7818135753970109980">Жаңа тақырып қосылды (<ph name="EXTENSION_NAME"/>)</translation>
-<translation id="5224689297916943449">Кеңейтімдер – көбірек тапсырма орындауға көмектесетін Brave қосымшалары</translation>
+<translation id="3964226695702299610">Кеңейтімдер – көбірек тапсырма орындауға көмектесетін Wryling қосымшалары</translation>
 <translation id="7819968103441522596">&amp;Қалпына келтіру</translation>
 <translation id="7820400255539998692"><ph name="FILENAME"/> файлын осы құрылғыны пайдаланатын басқа адамдар құпия сөздеріңізді көре алмайтындай етіп жою</translation>
 <translation id="7820561748632634942">Қосымша ауыстырғыштар тағайындалсын ба?</translation>
@@ -9059,13 +9059,13 @@
 <translation id="8037801708772278989">Жаңа ғана тексерілді</translation>
 <translation id="8038111231936746805">(әдепкі)</translation>
 <translation id="8039151841428107077">{NUM_OF_FILES,plural, =1{1 файл <ph name="CLOUD_PROVIDER"/> қызметіне көшіріліп жатыр}other{{NUM_OF_FILES} файл <ph name="CLOUD_PROVIDER"/> қызметіне көшіріліп жатыр}}</translation>
-<translation id="6409220262307200557">ChromeOS нұсқасы жаңартылғаннан кейін, бұл Brave қолданбасы жұмыс істемейтін болады. Қалдырғыңыз келетін қолданба деректерін сақтаңыз. Қолжетімді опциялар туралы ақпарат алу үшін қолданба әзірлеушісіне немесе АТ қолдау көрсету ұжымына хабарласыңыз.</translation>
+<translation id="5802820480808479038">ChromeOS нұсқасы жаңартылғаннан кейін, бұл Wryling қолданбасы жұмыс істемейтін болады. Қалдырғыңыз келетін қолданба деректерін сақтаңыз. Қолжетімді опциялар туралы ақпарат алу үшін қолданба әзірлеушісіне немесе АТ қолдау көрсету ұжымына хабарласыңыз.</translation>
 <translation id="804060420274176929">iOS жүйесінде еске салу</translation>
 <translation id="8041089156583427627">Пікір жіберу</translation>
 <translation id="8041093619605951337">Бақытты</translation>
 <translation id="8041267120753677077">Телефондағы қолданбаларды трансляциялау</translation>
 <translation id="8042142357103597104">Мәтін бұлыңғырлығы</translation>
-<translation id="3111556746481227182">Құрылғыдағы құпия сөздер Brave Құпия сөз менеджеріне сақталмас бұрын шифрланады.</translation>
+<translation id="2338836979057110587">Құрылғыдағы құпия сөздер Wryling Құпия сөз менеджеріне сақталмас бұрын шифрланады.</translation>
 <translation id="8044899503464538266">Баяу</translation>
 <translation id="5462539695964427820">Синхрондау Brave бақылау тақтасы арқылы тоқтатылды.</translation>
 <translation id="8045752459073395242">Жасампаз AI-ды жұмыста пайдалану туралы толық ақпарат</translation>
@@ -9110,7 +9110,7 @@
 <translation id="8077120325605624147">Сіз кірген кез келген сайт сізге кез келген жарнаманы көрсете алады</translation>
 <translation id="8077749280021225629">Браузерді пайдалану деректерін (<ph name="URL"/>) де жою (<ph name="DOMAIN"/> сайтында аккаунтыңыздан шығарыласыз). <ph name="LEARN_MORE"/></translation>
 <translation id="80790299200510644">Сурет іздеу</translation>
-<translation id="7239633109246708042">Brave Password Manager аккаунтыңызды күрделі құпия сөзбен жаңартып, оны <ph name="EMAIL"/> мекенжайына сақтай алады. <ph name="PASSWORD_CHANGE"/></translation>
+<translation id="7245967958317519468">Wryling Password Manager аккаунтыңызды күрделі құпия сөзбен жаңартып, оны <ph name="EMAIL"/> мекенжайына сақтай алады. <ph name="PASSWORD_CHANGE"/></translation>
 <translation id="80798452873915119">Сайттар барлық дисплейде терезелерді басқаруды сұрай алады.</translation>
 <translation id="8080028325999236607">Барлық қойындыларды жабу</translation>
 <translation id="8080530871547404884">Бұл сайттың барлық қойындысын жапқанша, <ph name="ORIGIN"/> сайты <ph name="FILENAME"/> файлдарын көріп, көшіре алады</translation>
@@ -9161,7 +9161,7 @@
 <translation id="8114925369073821854"><ph name="APP_NAME"/> микрофон рұқсаты</translation>
 <translation id="8116497846156149">Ата-ананың мақұлдауы қажет</translation>
 <translation id="8118276691321086429"><ph name="PASSWORD_MANAGER_BRAND"/> аккаунтқа қалай кіргеніңізді есте сақтайды және сізді мүмкіндігінше автоматты түрде кіргізеді. Өшірулі кезде сізден әрдайым растау сұралады.</translation>
-<translation id="177808131755847449">Brave арқылы өшірілген. Бұл кеңейтім қауіпті болуы мүмкін.</translation>
+<translation id="4606044028490598627">Wryling арқылы өшірілген. Бұл кеңейтім қауіпті болуы мүмкін.</translation>
 <translation id="8118448640060360549">{EXTENSIONS_COUNT,plural, =1{# бетбелгі}other{# бетбелгі}}</translation>
 <translation id="8118488170956489476"><ph name="BEGIN_LINK"/>Браузеріңізді<ph name="END_LINK"/> ұйым басқарады</translation>
 <translation id="8118515372935001629">Дисплейді жаңарту жиілігі</translation>
@@ -9204,7 +9204,7 @@
 <translation id="814870937590541483">Google Drive файлдарына арналған басқа әрекеттер</translation>
 <translation id="8148760431881541277">Кіруді шектеу</translation>
 <translation id="8149596686567059924">Жаңарту пакетін ашу мүмкін болмады.</translation>
-<translation id="932155016683443951">Телефонда сақталған құпия сөздеріңізді пайдалану үшін iOS-қа арналған Brave браузерін жүктеп алып, Brave аккаунтыңызға кіріңіз.</translation>
+<translation id="7217558756211206193">Телефонда сақталған құпия сөздеріңізді пайдалану үшін iOS-қа арналған Brave браузерін жүктеп алып, Brave аккаунтыңызға кіріңіз.</translation>
 <translation id="8150396590017071059">Password Manager PIN кодын өзгерту</translation>
 <translation id="8151057139207656239">Көшірілген құрама мәліметтері</translation>
 <translation id="815114315010033526">Орнына QR кодын пайдалану</translation>
@@ -9247,7 +9247,7 @@
 <translation id="8187447507633277520">Құпия сөздерді саусақ ізімен толтыру</translation>
 <translation id="8188389033983459049">Құрылғы параметрлерін тексеріңіз және жалғастыру үшін оны іске қосыңыз</translation>
 <translation id="8188742492803591566">Экранды трансляциялай бастау үшін Chromecast құрылғысында немесе теледидарда көрсетілген рұқсат кодын енгізіңіз.</translation>
-<translation id="572432499443011145">Brave Password Manager қолжетімді емес</translation>
+<translation id="5613558594377719760">Wryling Password Manager қолжетімді емес</translation>
 <translation id="8189306097519446565">Мектеп аккаунттары</translation>
 <translation id="8191230140820435481">Қолданбаларыңызды, кеңейтімдеріңізді және тақырыптарыңызды басқару</translation>
 <translation id="8192944472786724289"><ph name="APP_NAME"/> қолданбасы экраныңыздағы контентті бөліскісі келеді.</translation>
@@ -9327,7 +9327,7 @@
 <translation id="8248050856337841185">&amp;Қою</translation>
 <translation id="8248381369318572865">Микрофонды пайдаланып, айтқан сөзіңізді талдаңыз.</translation>
 <translation id="8248442552146815926">{NUM_COOKIES,plural, =1{1 cookie файлы}other{{NUM_COOKIES} cookie файлы}}</translation>
-<translation id="3105590366897772437">Brave кеңесі</translation>
+<translation id="5456551355833319124">Wryling кеңесі</translation>
 <translation id="8249239468199142122">Батареяны үнемдеу режимі</translation>
 <translation id="8250210000648910632">Жадта орын таусылды.</translation>
 <translation id="8251441930213048644">Қазір жаңарту</translation>
@@ -9383,7 +9383,7 @@
 <translation id="8288032458496410887"><ph name="APP"/> жойылуда...</translation>
 <translation id="8288553158681886528">PDF-тен мәтін шығарып алу</translation>
 <translation id="8289128870594824098">Диск көлемі</translation>
-<translation id="2265163333261443610">Brave-ды жүктеп алу</translation>
+<translation id="5003181522013475477">Wryling-ды жүктеп алу</translation>
 <translation id="8293206222192510085">Бетбелгі қосу</translation>
 <translation id="8293957715257389063">Қойындыдан кеңірек іздеу</translation>
 <translation id="8294431847097064396">Дереккөз</translation>
@@ -9391,7 +9391,7 @@
 <translation id="8295450130892483256">Microsoft 365 бағдарламасын орнату</translation>
 <translation id="8297292446125062288">HID параметрлері</translation>
 <translation id="8298429963694909221">Енді телефоныңызға келген хабарландырулар <ph name="DEVICE_TYPE"/> құрылғысына да келеді. Хабарландыруларды <ph name="DEVICE_TYPE"/> құрылғысында қабылдамасаңыз, телефоннан да қабылданбайды. Телефоныңыз жаныңызда болуы және Bluetooth бен Wi-Fi қосылып тұруы керек.</translation>
-<translation id="1074485905526403616">Brave Password Manager таңбашасын қосу</translation>
+<translation id="7930908256018939896">Wryling Password Manager таңбашасын қосу</translation>
 <translation id="8299319456683969623">Қазір желіден тыссыз.</translation>
 <translation id="829937697336000302">Өнімділікті арттыру</translation>
 <translation id="8299951061833867575">Wi-Fi, мобильдік интернет</translation>
@@ -9559,7 +9559,7 @@
 <translation id="8434109185104929038">Оқуға арналған оңаша орын</translation>
 <translation id="8434837876193928924">Қойындылар тобының мәліметтері</translation>
 <translation id="8435951291982398331">{NUM_TABS,plural, =1{Осы қойындыға қатысты ақауларды түзету}other{Осы қойындыларға қатысты ақауларды түзету}}</translation>
-<translation id="1720111858957434186">Brave Password Manager-ге арналған қалпына келтірудің әріптік-цифрлық PIN кодын жасаңыз.</translation>
+<translation id="4122874379521992029">Wryling Password Manager-ге арналған қалпына келтірудің әріптік-цифрлық PIN кодын жасаңыз.</translation>
 <translation id="8437209419043462667">АҚШ</translation>
 <translation id="8438518537545182071">Ата-анаңыздың таңдауымен енді интернетті қауіпсіз пайдалана аласыз.</translation>
 <translation id="8438566539970814960">Іздеу және сайттарды шолу жұмысын жақсарту</translation>
@@ -9591,13 +9591,13 @@
 <translation id="8459333762072051247">Кіру күйі</translation>
 <translation id="8459596896605939741">Еске салғыш: онлайн сауданың үздік мүмкіндіктері қалтаңызда болады</translation>
 <translation id="8460448946170646641">Құпиялық пен қауіпсіздікті басқарудың маңызды құралдарын қарап шығыңыз.</translation>
-<translation id="2380462972976700566">Естелікті сақтау үшін, Brave кейбір контентті өшірді.</translation>
+<translation id="7717824985119563101">Естелікті сақтау үшін, Wryling кейбір контентті өшірді.</translation>
 <translation id="8460932807646981183">Іздеу жүйелерін және сайттан іздеуді басқару</translation>
 <translation id="8461572080432076264">Осы бетті тыңдау</translation>
 <translation id="8461914792118322307">Прокси-сервер</translation>
 <translation id="8461973047386722744">Құпия сөз табылмады</translation>
 <translation id="846205103980293931">{NUM_TABS,plural, =1{1 элементі бар тізім}other{{NUM_TABS} элементі бар тізім}}</translation>
-<translation id="1212036593149207916">Brave профиліндегі кіру кілттерін реттеу</translation>
+<translation id="2444416606050412192">Wryling профиліндегі кіру кілттерін реттеу</translation>
 <translation id="8463955938112983119"><ph name="PLUGIN_NAME"/> өшірілді.</translation>
 <translation id="846399539692727039">ChromeOS Flex диагностикалық сынақтарын іске қосу</translation>
 <translation id="8465252176946159372">Жарамсыз</translation>
@@ -9612,7 +9612,7 @@
 <translation id="8473863474539038330">Мекенжайлар және басқа ақпарат</translation>
 <translation id="847433688444405067">Құрылғылар бойынша шолу</translation>
 <translation id="8474378002946546633">Хабарландыруларға рұқсат беру</translation>
-<translation id="2015014930243978107">Компьютеріңіздегі басқа бір бағдарлама кеңейтім қосты, ол Brave жұмысын өзгертуі мүмкін.</translation>
+<translation id="1410568059039013240">Компьютеріңіздегі басқа бір бағдарлама кеңейтім қосты, ол Wryling жұмысын өзгертуі мүмкін.</translation>
 <translation id="8476408756881832830">ChromeVox экраннан оқып жатқанда, ойнатуды кідірту</translation>
 <translation id="8476630458761527665">Файл құпия сөзін енгізіңіз</translation>
 <translation id="8476942730579767658">Терезелер және жұмыс үстелдері</translation>
@@ -9638,7 +9638,7 @@
 <translation id="849488240089599592">Соңғы жүктеп алынғандарға оралу</translation>
 <translation id="8496717697661868878">Бұл плагинді іске қосу</translation>
 <translation id="8497219075884839166">Windows утилиталары</translation>
-<translation id="4310099790173688345">Brave-нан сақталған</translation>
+<translation id="5071155148309447758">Wryling-нан сақталған</translation>
 <translation id="8498214519255567734">Күңгірт жарық жағдайында экранға қарауды немесе одан оқуды оңайлатады</translation>
 <translation id="8499083585497694743">Микрофон дыбысын қосу</translation>
 <translation id="8500044868721690197">Бұл сайтқа MIDI құрылғыларыңызды басқаруға және қайта бағдарламалауға тыйым салынды.</translation>
@@ -9763,7 +9763,7 @@
 <translation id="8597845839771543242">Сипат пішімі:</translation>
 <translation id="8598249292448297523">басып шығару</translation>
 <translation id="8600362954032151088">Құпия сөздер мен кіру кілттерін <ph name="GOOGLE_PASSWORD_MANAGER"/> бөлімінде реттеуге болады.</translation>
-<translation id="6637045053447935202">Компьютеріңіздегі басқа бір бағдарлама қолданба қосты, ол Brave жұмысын өзгертуі мүмкін.</translation>
+<translation id="8642399151949912011">Компьютеріңіздегі басқа бір бағдарлама қолданба қосты, ол Wryling жұмысын өзгертуі мүмкін.</translation>
 <translation id="7765260303733194693">Brave-да қауіптерді жылдам әрі дұрыс анықтау үшін көбірек деректер (мысалы, URL мекенжайлары, бет контентінің үлгілері, жүйе туралы ақпарат) пайдаланылады.</translation>
 <translation id="860399903490378651">Бұл көріністі жабу</translation>
 <translation id="8605428685123651449">SQLite жады</translation>
@@ -9802,7 +9802,7 @@
 <translation id="8631032106121706562">Гүл</translation>
 <translation id="8632104508818855045">Бұған дейін <ph name="ORIGIN"/> сайтында ешқандай кеңейтімге рұқсат бермеуді таңдағансыз.</translation>
 <translation id="8633025649649592204">Соңғы іс-әрекеттер</translation>
-<translation id="423702950449472136">Brave қолданбаларының ескі нұсқалары 2022 жылдың желтоқсанынан кейін Linux жүйесіндегі құрылғыларда ашылмайды. Жаңа нұсқаның бар-жоғын тексеруіңізге болады.</translation>
+<translation id="1791127122244433652">Wryling қолданбаларының ескі нұсқалары 2022 жылдың желтоқсанынан кейін Linux жүйесіндегі құрылғыларда ашылмайды. Жаңа нұсқаның бар-жоғын тексеруіңізге болады.</translation>
 <translation id="8634348081024879304">Бұдан былай виртуалдық картаны Google Pay қызметінде пайдалана алмайтын боласыз. <ph name="BEGIN_LINK"/>Виртуалдық карта туралы толығырақ<ph name="END_LINK"/></translation>
 <translation id="8634703204743010992">ChromeOS виртуалдық пернетақтасы</translation>
 <translation id="8635399646025169806">Қойындылар тобын қалдыру керек пе?</translation>
@@ -9838,10 +9838,10 @@
 <translation id="865857184419171576">Субтитрлерді мына тілге аудару:</translation>
 <translation id="865936634714975126">Жүктелетін бетте бет түрлерін таңдау үшін URL мекенжайына сұрау параметрін қосыңыз. Мысалы: chrome://device-log/?types=Bluetooth,USB</translation>
 <translation id="8659609431223166673">Терезе төмен жылжытылды</translation>
-<translation id="1488895872893658122">Outlook Calendar-дағы келесі іс-шараға оңай өту үшін сізге күнтізбе көрсетіледі.
+<translation id="7290653826136040271">Outlook Calendar-дағы келесі іс-шараға оңай өту үшін сізге күнтізбе көрсетіледі.
        <ph name="BREAK"/>
        <ph name="BREAK"/>
-       Параметрлерді карта мәзірінде реттеуге, басқа опцияларды "Brave-ды бейімдеу" бөлімінен көруге болады.</translation>
+       Параметрлерді карта мәзірінде реттеуге, басқа опцияларды "Wryling-ды бейімдеу" бөлімінен көруге болады.</translation>
 <translation id="8662474268934425487"><ph name="SITE_ETLD_PLUS_ONE"/> сайтына кіру</translation>
 <translation id="8662671328352114214"><ph name="TYPE"/> желісіне қосылу</translation>
 <translation id="8662795692588422978">Байланыстар</translation>
@@ -9878,7 +9878,7 @@
 <translation id="8682730193597992579"><ph name="PRINTER_NAME"/> жалғанды және дайын.</translation>
 <translation id="8683720831806477407">Жаңартқыштың әрекет аясы</translation>
 <translation id="8684471948980641888">Трафик саналатын желілерде синхрондауға рұқсат беру</translation>
-<translation id="4117118854497824215">Brave профиліңіз</translation>
+<translation id="7564690708819959309">Wryling профиліңіз</translation>
 <translation id="8685882652128627032">Жаңа сайттан іздеу механизмін қосу диалогтік терезесін ашу үшін басыңыз</translation>
 <translation id="8686142379631285985"><ph name="BEGIN_BOLD"/><ph name="DRIVE_ACCOUNT_EMAIL"/><ph name="END_BOLD"/> ретінде кірдіңіз</translation>
 <translation id="8687103160920393343"><ph name="FILE_NAME"/> файлынан бас тарту</translation>
@@ -9886,7 +9886,7 @@
 <translation id="8687774873995698516"><ph name="HOST"/> сайтын қорғалған контентті ойнату үшін идентификаторларды пайдаланудан үнемі блоктау</translation>
 <translation id="8688672835843460752">Қолжетімді</translation>
 <translation id="8689811383248488428">Қабылдамау және профильді жабу</translation>
-<translation id="4541401414755838742">Brave-ге <ph name="WEBSITE"/> құпия сөзін автоматты түрде өзгертуге рұқсат беру</translation>
+<translation id="4057479308397800545">Wryling-ге <ph name="WEBSITE"/> құпия сөзін автоматты түрде өзгертуге рұқсат беру</translation>
 <translation id="8689998525144040851">100</translation>
 <translation id="8690129572193755009">Сайттар протоколдарды өңдеуді сұрайды</translation>
 <translation id="869144235543261764">Бұл қойынды "суреттегі сурет" режимінде бейне ойнатып жатыр</translation>
@@ -9923,7 +9923,7 @@
 <translation id="8713761545374852805">Пікірлер, электрондық хаттар, әлеуметтік желі посттары, эсселер және т.б. бойынша көмек ала аласыз.</translation>
 <translation id="8714731224866194981">Телефондағы фотосуреттер мен қолданбаларды көруге арналған. Хабар алмасу хабарландыруларына жылдам жауап бере аласыз.</translation>
 <translation id="8714838604780058252">Фондық графиктер</translation>
-<translation id="5891814591156187199">Құрылғыны таңдаңыз. Содан кейін бетті көру үшін Brave браузерін сол жерден ашыңыз.</translation>
+<translation id="1850636781542949515">Құрылғыны таңдаңыз. Содан кейін бетті көру үшін Wryling браузерін сол жерден ашыңыз.</translation>
 <translation id="8715480913140015283">Фондық қойынды камераңызды пайдалануда</translation>
 <translation id="8716050156658570300">Сайттар қозғалыс және жарық датчиктерін пайдалануға рұқсат сұрай алады</translation>
 <translation id="8716067129332848360">Ұйымдастырушыны көру</translation>
@@ -10054,7 +10054,7 @@
 <translation id="8819510664278523111">Құрылғыңыздың EID нөмірі: <ph name="EID_NUMBER"/>, құрылғының IMEI нөмірі: <ph name="IMEI_NUMBER"/> және құрылғының сериялық нөмірі: <ph name="SERIAL_NUMBER"/>. Қызметті белсендіру үшін осы нөмірлерді пайдалануға болады.</translation>
 <translation id="8820817407110198400">Бетбелгілер</translation>
 <translation id="8821045908425223359">IP мекенжайын автоматты түрде конфигурациялау</translation>
-<translation id="2361985035137943119">Аккаунтыңыздың Brave-дағы Gemini-ды пайдалануға рұқсаты жоқ</translation>
+<translation id="1177360087205071213">Аккаунтыңыздың Wryling-дағы Gemini-ды пайдалануға рұқсаты жоқ</translation>
 <translation id="8823514049557262177">Сілтеме мә&amp;тінін көшіру</translation>
 <translation id="8823704566850948458">Құпия сөз жасау...</translation>
 <translation id="8823963789776061136">Болмаса, принтердің PPD файлын таңдаңыз. <ph name="LINK_BEGIN"/>Толығырақ<ph name="LINK_END"/></translation>
@@ -10169,8 +10169,8 @@
 <translation id="2684652081942622950">Brave аккаунты</translation>
 <translation id="8912810933860534797">Автоматты түрде іздеу функциясын қосу</translation>
 <translation id="8913485523736543337">Жаңартқыш</translation>
-<translation id="908256400270698357">Brave немесе Android жүйесін пайдаланбасаңыз да, <ph name="BEGIN_LINK"/>passwords.google.com<ph name="END_LINK"/> веб-сайтына кіру арқылы құпия сөздеріңізді көріңіз.</translation>
-<translation id="4805806622840861220">Brave қолданбасын қайта іске қосу</translation>
+<translation id="4979643858549519655">Wryling немесе Android жүйесін пайдаланбасаңыз да, <ph name="BEGIN_LINK"/>passwords.google.com<ph name="END_LINK"/> веб-сайтына кіру арқылы құпия сөздеріңізді көріңіз.</translation>
+<translation id="2036272753168211127">Wryling қолданбасын қайта іске қосу</translation>
 <translation id="8915307125957890427">Қойындыны тінтуірдің оң жақ түймесімен басып, "Қойындыны топқа қосу" түймесін, одан кейін "Жаңа топ" түймесін таңдаңыз.</translation>
 <translation id="8915370057835397490">Ұсынысты жүктеу</translation>
 <translation id="8917490105272468696">Жарайды</translation>
@@ -10282,7 +10282,7 @@
 <translation id="8993030412405061612">Тапсырма аяқталды.</translation>
 <translation id="8993198843374358393"><ph name="CERT_NAME"/> сертификатының хешін көшіру</translation>
 <translation id="8993737615451556423">Оқу дауысын жылдамдатуға, бәсеңдетуге және тоқтатуға арналған басқару элементтерін ұсынады.</translation>
-<translation id="591917183749839690">Brave құпия сөздеріңіздің бірін баршаға ашық қолды болған деректерден тапса, аккаунтқа кіріп тұрсаңыз, ол құпия сөзіңізді сіздің орныңызға өзгертіп беруді ұсынуы мүмкін.</translation>
+<translation id="8588872875448377133">Wryling құпия сөздеріңіздің бірін баршаға ашық қолды болған деректерден тапса, аккаунтқа кіріп тұрсаңыз, ол құпия сөзіңізді сіздің орныңызға өзгертіп беруді ұсынуы мүмкін.</translation>
 <translation id="899384117894244799">Шектелген пайдаланушыны өшіру</translation>
 <translation id="8993853206419610596">Барлық сұрауды жаю</translation>
 <translation id="899403249577094719">Netscape сертификатының негізгі URL мекенжайы</translation>
@@ -10351,7 +10351,7 @@
 <translation id="9038489124413477075">Атаусыз қалта</translation>
 <translation id="9039014462651733343">{NUM_ATTEMPTS,plural, =1{Сізде бір мүмкіндік қалды.}other{Сізде # мүмкіндік қалды.}}</translation>
 <translation id="9040661932550800571"><ph name="ORIGIN"/> құпия сөзі жаңартылсын ба?</translation>
-<translation id="6583236347997565045">Brave Password Manager-ге күрделі құпия сөздерді сақтау үшін Brave-ға кіріңіз.</translation>
+<translation id="5837934549740960208">Wryling Password Manager-ге күрделі құпия сөздерді сақтау үшін Wryling-ға кіріңіз.</translation>
 <translation id="9041692268811217999">Құрылғыңыздағы жергілікті файлдарға кіру мүмкіндігін әкімші өшіріп қойды.</translation>
 <translation id="9041881059840744611">Мектеп профильдері туралы ақпарат</translation>
 <translation id="904224458472510106">Бұл әрекетті кері қайтару мүмкін емес.</translation>
@@ -10432,7 +10432,7 @@
 <translation id="910000385680858937">Рұқсат етілген (<ph name="PERMISSION_DETAILS"/>). Құрылғыға микрофон жалғаңыз.</translation>
 <translation id="9100416672768993722">Соңғы пайдаланылған енгізу әдісін ауыстыру үшін <ph name="BEGIN_SHORTCUT"/><ph name="BEGIN_CTRL"/>Ctrl<ph name="END_CTRL"/><ph name="SEPARATOR"/><ph name="BEGIN_SPACE"/>Space<ph name="END_SPACE"/><ph name="END_SHORTCUT"/> пернелерін басыңыз.</translation>
 <translation id="9100765901046053179">Кеңейтілген параметрлер</translation>
-<translation id="3297683531718793313">Трансляциялау үшін келесі бөлімге өтіп, Brave-ға рұқсат беріңіз: "<ph name="IDS_MEDIA_ROUTER_LOCAL_DISCOVERY_PERMISSION_REJECTED_LINK"/> &gt; Жергілікті желі &gt; Brave".</translation>
+<translation id="50299853723079745">Трансляциялау үшін келесі бөлімге өтіп, Wryling-ға рұқсат беріңіз: "<ph name="IDS_MEDIA_ROUTER_LOCAL_DISCOVERY_PERMISSION_REJECTED_LINK"/> &gt; Жергілікті желі &gt; Wryling".</translation>
 <translation id="9103868373786083162">Журналды көру үшін, оралу, контекстік мәзір түймесін басыңыз</translation>
 <translation id="9107096627210171112">А&amp;удару...</translation>
 <translation id="9107624673674616016">Түрлі түсті қарындаш</translation>
@@ -10462,7 +10462,7 @@
 <translation id="9117030152748022724">Қолданбаларды басқару</translation>
 <translation id="9117446363580518867">Үнемі жасыру</translation>
 <translation id="9120761757252614786">Құралдар тақтасын бейімдеу</translation>
-<translation id="8429962505443892563">Телефондағы қойындылар, бетбелгілер және құпия сөздерді пайдалану үшін iOS жүйесіне арналған Brave-ды жүктеп алыңыз.</translation>
+<translation id="4781214144575706176">Телефондағы қойындылар, бетбелгілер және құпия сөздерді пайдалану үшін iOS жүйесіне арналған Wryling-ды жүктеп алыңыз.</translation>
 <translation id="9121814364785106365">Бекітілген қойынды ретінде ашу</translation>
 <translation id="9122099953033442610">{MULTI_GROUP_TAB_COUNT,plural, =0{Қойындыны жауып, топты жою қажет пе?}=1{Қойындыларды жауып, топты жою қажет пе?}other{Қойындыларды жауып, топтарды жою қажет пе?}}</translation>
 <translation id="9123287046453017203">Құрылғыңыз жаңартылмаған</translation>
@@ -10525,7 +10525,7 @@
 <translation id="9170061643796692986">Ағымдағы көрсетілу параметрі барлық контактіге арналған.</translation>
 <translation id="9170766151357647548">Құрылғыңыздың EID нөмірі: <ph name="EID_NUMBER"/>. Қызметті белсендіруге көмектесу үшін осы нөмірді пайдалануға болады.</translation>
 <translation id="9170848237812810038">&amp;Болдырмау</translation>
-<translation id="2060128809251156338">Компьютеріңіздегі басқа бір бағдарлама тақырыпты қосты, ол Brave жұмысын өзгертуі мүмкін.</translation>
+<translation id="6656888234505288335">Компьютеріңіздегі басқа бір бағдарлама тақырыпты қосты, ол Wryling жұмысын өзгертуі мүмкін.</translation>
 <translation id="9172270007201309670">Қаріп өлшемі үлкейтілді</translation>
 <translation id="917350715406657904"><ph name="APP_NAME"/> үшін ата-анаңыз белгілеген уақыт шегіне жеттіңіз. Оны ертең <ph name="TIME_LIMIT"/> бойы пайдалана аласыз.</translation>
 <translation id="9174854240439014335">Терезенің сол немесе оң жақ шетінде бөлінген көріністі сүйреп қоюға рұқсат беру</translation>
@@ -10574,7 +10574,7 @@
 <translation id="9220525904950070496">Аккаунтты жою</translation>
 <translation id="9220723036554088545">файл жүктеп салыңыз</translation>
 <translation id="9220820413868316583">Саусағыңызды көтеріп, қайта басып көріңіз.</translation>
-<translation id="142389341645668510">Brave-ды реттеу</translation>
+<translation id="9094133852008074140">Wryling-ды реттеу</translation>
 <translation id="9222839391870847423">Ұзақтығы: <ph name="DURATION"/></translation>
 <translation id="9223158240932249417">Мәтінге қатысты әрекеттерді көрсетуге рұқсат етілмеген</translation>
 <translation id="923306663772315007">&amp;Құрылғыңызға жіберу</translation>
@@ -10602,7 +10602,7 @@
 <translation id="939736085109172342">Жаңа қалта</translation>
 <translation id="942296794412775122">Микрофонды қосу/өшіру</translation>
 <translation id="942488123151518958">Кідірту (k)</translation>
-<translation id="5770515304879261338"><ph name="APP_NAME"/> қолданбасы Brave қойындысын және аудионы бөлісуде.</translation>
+<translation id="8882675094816400392"><ph name="APP_NAME"/> қолданбасы Wryling қойындысын және аудионы бөлісуде.</translation>
 <translation id="945522503751344254">Пікір жіберу</translation>
 <translation id="947156494302904893">Сіз кірген сайттар бот емес, шынайы адам екеніңізді растай алады.</translation>
 <translation id="947329552760389097">&amp;Элементтерді тексеру</translation>

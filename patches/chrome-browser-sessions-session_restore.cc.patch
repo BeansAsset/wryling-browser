@@ -1,7 +1,20 @@
 diff --git a/chrome/browser/sessions/session_restore.cc b/chrome/browser/sessions/session_restore.cc
-index be7345cba4dd4e34c42f3926c806b20b34c39ce9..bc99cc6b94f36e7ea4f5e3a684efec5c31b05621 100644
+index be7345cba4dd4e34c42f3926c806b20b34c39ce9..b1fd36b6d6c2ccf0a579538cfd7d67ee5f70ca5a 100644
 --- a/chrome/browser/sessions/session_restore.cc
 +++ b/chrome/browser/sessions/session_restore.cc
+@@ -1060,9 +1060,9 @@ class SessionRestoreImpl : public BrowserCollectionObserver {
+             browser->GetTabStripModel()->GetIndexOfTab(tab));
+       }
+ 
+-      // The number of supported split tabs is 2. Do not attempt to restore
+-      // more than this to future proof it.
+-      if (tab_contents_list.size() == 2) {
++      // Wryling: splits hold two to four tabs.
++      if (tab_contents_list.size() >= 2 && tab_contents_list.size() <= 4) {
++        std::ranges::sort(tab_index_list);
+         browser->GetTabStripModel()->RestoreSplit(
+             split_id, tab_index_list, split_tabs::SplitTabVisualData());
+       }
 @@ -1376,6 +1376,7 @@ class SessionRestoreImpl : public BrowserCollectionObserver {
                                 : WindowOpenDisposition::NEW_BACKGROUND_TAB;
        params.tabstrip_add_types = add_types;

@@ -4,6 +4,8 @@
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
 import * as React from 'react'
+import { installWrylingComponents } from '$web-common/wryling_components'
+import { ColorChangeUpdater } from 'chrome://resources/cr_components/color_change_listener/colors_css_updater.js'
 import { createRoot } from 'react-dom/client'
 import StyledComponentsProvider from '$web-common/StyledComponentsProvider'
 import { setIconBasePath } from '@brave/leo/react/icon'
@@ -24,8 +26,14 @@ import { createVpnStore } from './state/browser_vpn_store'
 import { createRewardsStore } from './state/browser_rewards_store'
 
 import { App } from './components/app'
+import {
+  isWrylingHome,
+  WrylingHome,
+} from './components/wryling_dashboard/home'
 
 setIconBasePath('chrome://resources/brave-icons')
+void installWrylingComponents()
+ColorChangeUpdater.forDocument().start()
 
 function AppProvider(props: { children: React.ReactNode }) {
   const stores = React.useMemo(() => {
@@ -63,7 +71,7 @@ function AppProvider(props: { children: React.ReactNode }) {
 createRoot(document.getElementById('root')!).render(
   <StyledComponentsProvider>
     <AppProvider>
-      <App />
+      {isWrylingHome() ? <WrylingHome /> : <App />}
     </AppProvider>
   </StyledComponentsProvider>,
 )

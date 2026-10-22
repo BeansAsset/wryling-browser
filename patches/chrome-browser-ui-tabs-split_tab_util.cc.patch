@@ -1,0 +1,13 @@
+diff --git a/chrome/browser/ui/tabs/split_tab_util.cc b/chrome/browser/ui/tabs/split_tab_util.cc
+index 6382385b3f5f85ddcf3d12d9dd56cd5429486faa..8e9e759e3dac11a658fdc6b5d5ea5f7f8fe29958 100644
+--- a/chrome/browser/ui/tabs/split_tab_util.cc
++++ b/chrome/browser/ui/tabs/split_tab_util.cc
+@@ -51,7 +51,7 @@ SplitTabActiveLocation GetLastActiveTabLocation(
+   split_tabs::SplitTabData* const split_tab_data =
+       tab_strip_model->GetSplitData(split_id);
+   std::vector<tabs::TabInterface*> tabs_in_split = split_tab_data->ListTabs();
+-  CHECK_EQ(tabs_in_split.size(), 2U);
++  CHECK_GE(tabs_in_split.size(), 2U);  // Wryling: up to four.
+ 
+   const int last_active_index =
+       GetIndexOfLastActiveTab(tab_strip_model, split_id);

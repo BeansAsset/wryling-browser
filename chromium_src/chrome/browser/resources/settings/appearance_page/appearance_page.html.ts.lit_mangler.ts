@@ -97,8 +97,16 @@ mangle((root) => {
       `[Settings] Appearance page: couldn't find settings-section`)
   }
   section.insertAdjacentHTML(
-    'beforeend',
+    'afterbegin',
     '<settings-brave-appearance-toolbar></settings-brave-appearance-toolbar>')
+  const original = section.querySelector('div[route-path=default]')
+  if (original) {
+    const more = original.ownerDocument.createElement('details')
+    more.className = 'wry-more-appearance'
+    more.insertAdjacentHTML('afterbegin', '<summary>$i18n{wrylingMoreAppearanceOptions}</summary>')
+    original.before(more)
+    more.append(original)
+  }
 })
 
 // Remove the home page options (radio group for NTP vs custom URL). It's

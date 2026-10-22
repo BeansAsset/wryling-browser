@@ -12,10 +12,15 @@ source_set("vertical_tabs") {
     "vertical_tab_strip_container_view.h",
     "vertical_tab_strip_region_view.cc",
     "vertical_tab_strip_region_view.h",
+    "wryling_space_switcher_view.cc",
+    "wryling_space_switcher_view.h",
   ]
 
   if (is_mac) {
-    sources += [ "vertical_tab_strip_region_view_mac.mm" ]
+    sources += [
+      "vertical_tab_strip_region_view_mac.mm",
+      "wryling_space_symbol_mac.mm",
+    ]
   }
 
   public_deps = [ "//brave/browser/ui/focus_mode" ]

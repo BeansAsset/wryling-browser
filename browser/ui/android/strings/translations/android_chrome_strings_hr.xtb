@@ -44,7 +44,7 @@
 <translation id="7083341910267693582">Aplikacija <ph name="APP_NAME"/> otvorit će se u Braveu. Nastavljanjem prihvaćate <ph name="BEGIN_LINK1"/>Braveove uvjete pružanja usluge<ph name="END_LINK1"/> i <ph name="BEGIN_LINK2"/>dodatne uvjete pružanja usluge za Brave i Chrome OS<ph name="END_LINK2"/>.</translation>
 <translation id="7443574521624544928">Nemate zaporki u Brave upravitelju zaporki.</translation>
 <translation id="115483310321669804">Upotrijebi zaporku <ph name="PASSWORD"/></translation>
-<translation id="4489415936688888898">Gemini u Braveu</translation>
+<translation id="4980210551795949534">Gemini u Braveu</translation>
 <translation id="1161065531352634524">Sinkronizirajte kartice i povijest</translation>
 <translation id="1165109137568919258">Snimite fotografiju ili dodajte sliku iz galerije fotografija za pretraživanje</translation>
 <translation id="1173894706177603556">Preimenuj</translation>
@@ -91,8 +91,8 @@
 <translation id="1333491156693005331">Nedavno provjereno</translation>
 <translation id="1336996151357442890">Otkazana je pretplata na web-lokaciju <ph name="SITE_NAME"/>. Pri sljedećem posjetu upit će se prikazati ponovo.</translation>
 <translation id="1340839264183302272">Napusti grupu</translation>
-<translation id="873343310451048603">Da biste provjerili jesu li zaporke ugrožene, otvorite Brave upravitelj zaporki</translation>
-<translation id="4167284810587724062">Prijava u Brave</translation>
+<translation id="4973862711373394097">Da biste provjerili jesu li zaporke ugrožene, otvorite Wryling upravitelj zaporki</translation>
+<translation id="5451434122049588189">Prijava u Wryling</translation>
 <translation id="1344653310988386453">Uključi vezu na istaknuti tekst</translation>
 <translation id="1355088659320425659">Povijest i kartice</translation>
 <translation id="1363028406613469049">Zvučni zapis</translation>
@@ -147,7 +147,7 @@ Više postavki koje upotrebljavaju podatke za poboljšanje vašeg doživljaja u 
 Vaše šifrirane podatke može pročitati samo osoba koja ima vašu šifru. Šifra se ne šalje Braveu niti se pohranjuje na Braveu. Ako zaboravite šifru ili želite promijeniti tu postavku, <ph name="BEGIN_LINK"/>izbrišite Braveove podatke na računu<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">Da biste upravljali svojim Brave računom, dodirnite gumb "Upravljanje računom"</translation>
 <translation id="1549000191223877751">Premjesti u drugi prozor</translation>
-<translation id="1705567146636171298">Ažuriraj Brave</translation>
+<translation id="4469722898384489712">Ažuriraj Wryling</translation>
 <translation id="1554352084785952638"><ph name="SEARCH_ENGINE"/> za <ph name="SEARCH_TERMS"/></translation>
 <translation id="2509230690562869141">Pomozite poboljšati Brave za korisnike koji ga upotrebljavaju na isti način kao vi</translation>
 <translation id="1568636008098739136">Poslušajte ovu stranicu. Da biste uredili taj prečac, dodirnite ga i zadržite pritisak.</translation>
@@ -207,8 +207,8 @@ Vaše šifrirane podatke može pročitati samo osoba koja ima vašu šifru. Šif
 <translation id="4544426875066706571">Da biste zaštitili svoje podatke, dopustite Braveu da ukloni dopuštenja s web-lokacija koje niste posjetili u posljednje vrijeme.</translation>
 <translation id="1851551847729706116">Dijeljenje kartice <ph name="TAB_NAME"/> s ovom karticom</translation>
 <translation id="1869691326892615940">Sigurnije zaporke, brža prijava</translation>
-<translation id="7175072311426658869">Otvori u pregledniku Brave</translation>
-<translation id="5173820533850252773">Brave je zastario</translation>
+<translation id="7259806589727104192">Otvori u pregledniku Wryling</translation>
+<translation id="1523936557081546133">Wryling je zastario</translation>
 <translation id="1877073879466606884">Profil na koji ste prijavljeni upravljani je profil. Vaš administrator može daljinski unositi izmjene u postavke vašeg profila, analizirati podatke o pregledniku putem izvješćivanja i izvršavati druge potrebne zadatke.</translation>
 <translation id="1879904908408734349">Donja tablica za prijavu je zatvorena</translation>
 <translation id="1883903952484604915">Moje datoteke</translation>
@@ -576,7 +576,7 @@ Vaše šifrirane podatke može pročitati samo osoba koja ima vašu šifru. Šif
 <translation id="3384347053049321195">Dijeli sliku</translation>
 <translation id="3387650086002190359">Preuzimanje datoteke <ph name="FILE_NAME"/> nije uspjelo zbog nepoznate pogreške sustava datoteka.</translation>
 <translation id="5654361895804243820">Prozorima možete upravljati u upravitelju prozora u Braveu</translation>
-<translation id="4302350545547675750">Upravljanje u Brave upravitelju zaporki</translation>
+<translation id="54130667607538272">Upravljanje u Wryling upravitelju zaporki</translation>
 <translation id="3417835166382867856">Pretraži kartice</translation>
 <translation id="3430670036890315772">Isključivanjem zaključavanja profila uklonit će se vaši spremljeni podaci</translation>
 <translation id="4114256890962999877">Da biste zadržali pristup zaporkama, odmah ih izvezite, ažurirajte usluge za Google Play, a zatim ih ponovo uvezite u Brave upravitelj zaporki. <ph name="BEGIN_LINK"/>Pogledajte potpune upute<ph name="END_LINK"/></translation>
@@ -738,7 +738,7 @@ Vaše šifrirane podatke može pročitati samo osoba koja ima vašu šifru. Šif
 <translation id="4072805772816336153">Pokušajte ponovo kasnije</translation>
 <translation id="4084682180776658562">Označi</translation>
 <translation id="4521874409998847950">Objavio <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>omogućio Brave<ph name="END_DEEMPHASIZED"/></translation>
-<translation id="7268155614575494857">Da biste pomogli Brave upravitelju zaporki da spremi vaše podatke za prijavu, dodajte svoje korisničko ime za ovu web-lokaciju</translation>
+<translation id="6708405940091325014">Da biste pomogli Wryling upravitelju zaporki da spremi vaše podatke za prijavu, dodajte svoje korisničko ime za ovu web-lokaciju</translation>
 <translation id="4095146165863963773">Želite li izbrisati podatke aplikacije?</translation>
 <translation id="4095483462103784441">Izradi novu grupu kartica</translation>
 <translation id="1523634703470981382">Otvoreno je ažuriranje Brave upravitelja zaporki</translation>
@@ -1086,7 +1086,7 @@ Vaš Brave račun može sadržavati druge oblike povijesti pregledavanja, na pri
 <translation id="5532536403031755365">Dodajte još jednu razinu zaštite od online prijetnji uz poboljšanu zaštitu</translation>
 <translation id="5540127996007641535">{NUM_BOOKMARKS,plural, =1{Otvori oznaku}one{Otvori sve (#)}few{Otvori sve (#)}other{Otvori sve (#)}}</translation>
 <translation id="5548606607480005320">Sigurnosna provjera</translation>
-<translation id="4362225295386962644">Kad upotrijebite zaporku, Brave vas upozorava ako je objavljena online. Tom su prilikom vaše zaporke i korisnička imena šifrirani, tako da ih nitko ne može pročitati, uključujući Brave.</translation>
+<translation id="3680104634340426001">Kad upotrijebite zaporku, Brave vas upozorava ako je objavljena online. Tom su prilikom vaše zaporke i korisnička imena šifrirani, tako da ih nitko ne može pročitati, uključujući Brave.</translation>
 <translation id="5555525474779371165">Odaberite svoju zaštitu sigurnog pregledavanja</translation>
 <translation id="5556459405103347317">Ponovno učitaj</translation>
 <translation id="555671485580955310">Sinkronizacija povijesti i kartica</translation>
@@ -1189,7 +1189,7 @@ Vaš Brave račun može sadržavati druge oblike povijesti pregledavanja, na pri
 <translation id="6002122790816966947">Vaši uređaji</translation>
 <translation id="6011308810877101166">Poboljšaj prijedloge za pretraživanje</translation>
 <translation id="6013305291643746595">Sortiranje od najstarijeg</translation>
-<translation id="296137235951584143">Prilagodite Brave sebi</translation>
+<translation id="4578349172774307195">Prilagodite Wryling sebi</translation>
 <translation id="6023820583797130428">Otvorite izbornik za povratak</translation>
 <translation id="6026538407078977628">Proširi na cijeli zaslon</translation>
 <translation id="6039379616847168523">Preskakanje na sljedeću karticu</translation>
@@ -1248,7 +1248,7 @@ Vaš Brave račun može sadržavati druge oblike povijesti pregledavanja, na pri
 Na primjer, neke web-lokacije na taj zahtjev mogu odgovoriti tako da vam prikažu oglase koji se ne temelje na drugim web-lokacijama koje ste posjetili. Mnoge web-lokacije i dalje će prikupljati i upotrebljavati vaše podatke o pregledavanju, primjerice, za poboljšanje sigurnosti, pružanje sadržaja, oglasa i preporuka, kao i za generiranje statističkih izvješća.</translation>
 <translation id="623755660902014047">Prozor za čitanje</translation>
 <translation id="6246073558347462570">Kontekstni skočni prozor</translation>
-<translation id="8883879481897424949">Brave upravitelj zaporki</translation>
+<translation id="3888885285070224654">Wryling upravitelj zaporki</translation>
 <translation id="6248988683584659830">Pretraživanje postavki</translation>
 <translation id="2715956954609894918">Ovdje možete pregledati svoju Braveovu povijest</translation>
 <translation id="6254139308321626268">Pregledavate PDF datoteku</translation>
@@ -1297,7 +1297,7 @@ Na primjer, neke web-lokacije na taj zahtjev mogu odgovoriti tako da vam prikaž
 <translation id="6394791151443660613">Pretraživanje: <ph name="SEARCH_QUERY"/></translation>
 <translation id="6397616442223433927">Veza je ponovo uspostavljena</translation>
 <translation id="6399363707848566877">Sada ovdje možete jednostavno dodavati kartice u grupe</translation>
-<translation id="8789425457808164956">Da biste poslali ovu karticu na drugi uređaj, prijavite se na Brave na tom uređaju</translation>
+<translation id="2522845252291433622">Da biste poslali ovu karticu na drugi uređaj, prijavite se na Wryling na tom uređaju</translation>
 <translation id="6404511346730675251">Uredi oznaku</translation>
 <translation id="6410883413783534063">Otvorite kartice da biste istovremeno posjetili različite stranice</translation>
 <translation id="6411009031428071896">Poslušajte feed</translation>
@@ -1327,7 +1327,7 @@ Na primjer, neke web-lokacije na taj zahtjev mogu odgovoriti tako da vam prikaž
 <translation id="6482749332252372425">Preuzimanje datoteke <ph name="FILE_NAME"/> nije uspjelo zbog nedostatka prostora.</translation>
 <translation id="6486420406192123355">Ova je PDF datoteka s web-lokacije koja upotrebljava nesigurnu vezu</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{Datoteka je preuzeta}one{# preuzimanje dovršeno}few{# preuzimanja dovršena}other{# preuzimanja dovršeno}}</translation>
-<translation id="3960299545138990065">Ponovno pokreni Brave</translation>
+<translation id="6199441660763014986">Ponovno pokreni Wryling</translation>
 <translation id="6513924416597632811">Kopirajte vezu na stranicu rezultata pretraživanja za: <ph name="SEARCH_QUERY"/>. Izvor: <ph name="PAGE_URL"/></translation>
 <translation id="6518133107902771759">Potvrdi</translation>
 <translation id="6521218807522232085">Izradite i spremite zaporke te upravljajte njima kako biste se lako prijavljivali</translation>
@@ -1357,7 +1357,7 @@ Na primjer, neke web-lokacije na taj zahtjev mogu odgovoriti tako da vam prikaž
 <translation id="6602173570135186741">Automatsko popunjavanje i zaporke</translation>
 <translation id="661266467055912436">Poboljšava sigurnost za vas i sve ostale na webu.</translation>
 <translation id="6615455863669487791">Pokaži mi</translation>
-<translation id="8127050479140582768">Da biste poslali ovu karticu na drugi uređaj, prijavite se na Brave na oba uređaja</translation>
+<translation id="7379057487310867567">Da biste poslali ovu karticu na drugi uređaj, prijavite se na Wryling na oba uređaja</translation>
 <translation id="6627583120233659107">Uredi mapu</translation>
 <translation id="6636623428211296678">Istražite više postavki u nastavku ili završite odmah</translation>
 <translation id="7939692063031538305">Radi poboljšanja aplikacije Brave šalje Braveu podatke o upotrebi i rušenju. <ph name="BEGIN_UMA_LINK"/>Upravljanje<ph name="END_UMA_LINK"/></translation>
@@ -2027,7 +2027,7 @@ Kako biste promijenili tu postavku, <ph name="BEGIN_LINK"/>izbrišite podatke Br
 <translation id="9212845824145208577">Ne možete ići niže. Pokušajte započeti na nižem mjestu na stranici.</translation>
 <translation id="9218430445555521422">Postavi kao zadano</translation>
 <translation id="9219103736887031265">Slike</translation>
-<translation id="142389341645668510">Prilagodite Brave</translation>
+<translation id="9094133852008074140">Prilagodite Wryling</translation>
 <translation id="9222198206152536936">Da biste mogli pristupati svojim karticama i drugim podacima na svim svojim uređajima, prijavite se kao <ph name="EMAIL"/></translation>
 <translation id="7625138338483121345">Postavljanje Bravea kao zadanog preglednika</translation>
 <translation id="4596514158372210596">Uklanjanje vaše aktivnosti u Braveu iz Digitalne ravnoteže</translation>
@@ -2057,7 +2057,7 @@ Kako biste promijenili tu postavku, <ph name="BEGIN_LINK"/>izbrišite podatke Br
 <translation id="5352668640894950863">Zaključaj privatne prozore kada napustiš Brave</translation>
 <translation id="1014490034578104945">Upotrijebi zaključavanje zaslona za prikazivanje otvorenih privatnih kartica</translation>
 <translation id="5572558661069030949">Koristi zaključavanje zaslona za pregled otvorenih privatnih prozora</translation>
-<translation id="2589970573128789862">Privatni način rada preglednika Brave</translation>
+<translation id="2090681901335274465">Privatni način rada preglednika Wryling</translation>
 <translation id="5809126106485463836">U privatnom načinu rada čuva se privatnost vaših pregleda od drugih koju upotrebljavaju vaš uređaj</translation>
 <translation id="5487565066256782913">Otvori novi Privatni prozor</translation>
 <translation id="5706084539081051088">Kada pregledavate u Privatnom načinu, drugi koji koriste ovaj uređaj neće vidjeti vaše aktivnosti, pa možete pregledavati privatnije. <ph name="BEGIN_LINK"/>Saznajte više<ph name="END_LINK"/></translation>

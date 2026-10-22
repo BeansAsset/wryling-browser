@@ -1,0 +1,78 @@
+<style include="cr-shared-style settings-shared">
+  :host { display: block; }
+  .space-section { padding: var(--wry-space-4); }
+  h3 { font: var(--wry-headline); margin: 0 0 var(--wry-space-2); }
+  .description { color: var(--wry-text-secondary); margin: 0 0 var(--wry-space-4); }
+  .palette { display: flex; flex-wrap: wrap; gap: var(--wry-space-3); align-items: center; }
+  .swatch {
+    width: var(--wry-small-control-height); height: var(--wry-small-control-height);
+    border-radius: var(--wry-radius-pill); border: var(--wry-hairline) solid var(--wry-stroke); cursor: pointer;
+  }
+  .swatch[aria-pressed="true"] { box-shadow: 0 0 0 var(--wry-segment-inset) var(--wry-surface), 0 0 0 var(--wry-space-1) var(--wry-accent); }
+  .custom { display: flex; gap: var(--wry-space-2); align-items: center; }
+  input[type="color"] {
+    width: var(--wry-large-control-height); height: var(--wry-control-height); padding: var(--wry-segment-inset);
+    border-radius: var(--wry-radius-m); border: var(--wry-hairline) solid var(--wry-stroke); background: var(--wry-fill); cursor: pointer;
+  }
+  .opacity { display: flex; gap: var(--wry-space-4); align-items: center; margin-top: var(--wry-space-6); }
+  input[type="range"] { flex: 1; min-width: var(--wry-space-12); accent-color: var(--wry-accent); }
+  .opacity .description { margin: var(--wry-space-1) 0 0; font: var(--wry-callout); }
+  .clear-glass {
+    display: flex; align-items: center; gap: var(--wry-space-4);
+    min-height: var(--wry-row-height); margin-top: var(--wry-space-4);
+    padding-top: var(--wry-space-3); border-top: var(--wry-hairline) solid var(--wry-separator);
+  }
+  .clear-glass-text { flex: 1; }
+  .clear-glass .description { margin: var(--wry-space-1) 0 0; font: var(--wry-callout); }
+  .wry-switch { flex: none; }
+  .appearance-mode { display: flex; align-items: center; justify-content: space-between; gap: var(--wry-space-4); margin-top: var(--wry-space-4); padding-top: var(--wry-space-3); border-top: var(--wry-hairline) solid var(--wry-separator); min-height: var(--wry-control-height); }
+  .wry-segmented button { min-height: var(--wry-small-control-height); padding-inline: var(--wry-space-3); background: transparent !important; border-radius: var(--wry-radius-m); }
+  .wry-segmented button[aria-pressed=true] { background: var(--wry-raised) !important; box-shadow: var(--wry-knob-shadow); }
+  output { min-width: 4ch; text-align: end; font-variant-numeric: tabular-nums; }
+</style>
+<section class="space-section" aria-labelledby="space-title">
+  <h3 id="space-title">$i18n{wrylingSpaceColor}</h3>
+  <p class="description">$i18n{wrylingSpaceDescription}</p>
+  <div class="palette" role="group" aria-label="$i18n{wrylingSpaceColor}">
+    <template is="dom-repeat" items="[[swatches_]]">
+      <button class="swatch" type="button" style$="[[swatchStyle_(item.color)]]"
+          data-color$="[[item.color]]" aria-label$="[[i18n(item.label)]]"
+          title$="[[i18n(item.label)]]" disabled="[[!ready_]]"
+          aria-pressed$="[[isSelected_(item.color, color_)]]"
+          on-click="onSwatchClick_"></button>
+    </template>
+    <label class="custom">
+      <input id="customColor" type="color" value="[[color_]]"
+          disabled="[[!ready_]]" on-input="onCustomColorInput_">
+      <span>$i18n{wrylingSpaceCustom}</span>
+    </label>
+  </div>
+  <div class="opacity">
+    <div>
+      <label for="tintOpacity">$i18n{wrylingTintStrength}</label>
+      <div id="strengthHint" class="description">$i18n{wrylingColourStrengthHint}</div>
+    </div>
+    <input id="tintOpacity" type="range" min="0" max="100" step="1"
+        value="[[opacity_]]" disabled="[[!ready_]]" on-input="onOpacityInput_"
+        aria-valuetext$="[[opacity_]]%" aria-describedby="strengthHint">
+    <output for="tintOpacity">[[opacity_]]%</output>
+  </div>
+  <div class="clear-glass">
+    <div class="clear-glass-text">
+      <div id="clearGlassLabel">$i18n{wrylingClearGlass}</div>
+      <div id="clearGlassDescription" class="description">$i18n{wrylingClearGlassDescription}</div>
+    </div>
+    <button id="clearGlass" class="wry-switch" type="button" role="switch"
+        aria-checked$="[[switchState_(clearGlass_)]]" disabled="[[!ready_]]"
+        aria-labelledby="clearGlassLabel" aria-describedby="clearGlassDescription"
+        on-click="onClearGlassClick_"></button>
+  </div>
+  <div class="appearance-mode">
+    <span>$i18n{appearancePageTitle}</span>
+    <div class="wry-segmented" role="group" aria-label="$i18n{appearancePageTitle}">
+      <button type="button" data-mode="0" aria-pressed$="[[modeSelected_(0, mode_)]]" on-click="onModeClick_">$i18n{wrylingAppearanceAuto}</button>
+      <button type="button" data-mode="1" aria-pressed$="[[modeSelected_(1, mode_)]]" on-click="onModeClick_">$i18n{wrylingAppearanceLight}</button>
+      <button type="button" data-mode="2" aria-pressed$="[[modeSelected_(2, mode_)]]" on-click="onModeClick_">$i18n{wrylingAppearanceDark}</button>
+    </div>
+  </div>
+</section>

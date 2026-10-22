@@ -44,7 +44,7 @@
 <translation id="7083341910267693582"><ph name="APP_NAME"/> åpnes i Brave. Ved å fortsette samtykker du i <ph name="BEGIN_LINK1"/>Braves vilkår for bruk<ph name="END_LINK1"/> og <ph name="BEGIN_LINK2"/>tilleggsvilkårene for bruk av Brave og ChromeOS<ph name="END_LINK2"/>.</translation>
 <translation id="7443574521624544928">Du har ikke passord lagret i Brave Passordlagring.</translation>
 <translation id="115483310321669804">Bruk passordet <ph name="PASSWORD"/></translation>
-<translation id="4489415936688888898">Gemini i Brave</translation>
+<translation id="4980210551795949534">Gemini i Wryling</translation>
 <translation id="1161065531352634524">Synkroniser faner og logg</translation>
 <translation id="1165109137568919258">Ta et bilde eller legg til et bilde fra bildegalleriet for å søke</translation>
 <translation id="1173894706177603556">Gi nytt navn</translation>
@@ -91,8 +91,8 @@
 <translation id="1333491156693005331">Sjekket nylig</translation>
 <translation id="1336996151357442890">Sluttet å abonnere på <ph name="SITE_NAME"/>. Du blir spurt på nytt neste gang du besøker nettstedet.</translation>
 <translation id="1340839264183302272">Forlat gruppen</translation>
-<translation id="873343310451048603">For å sjekke om du har passord som er utsatt for sikkerhetsbrudd, gå til Brave Passordlagring</translation>
-<translation id="4167284810587724062">Logg på Brave</translation>
+<translation id="4973862711373394097">For å sjekke om du har passord som er utsatt for sikkerhetsbrudd, gå til Wryling Passordlagring</translation>
+<translation id="5451434122049588189">Logg på Wryling</translation>
 <translation id="1344653310988386453">Inkluder link til markert tekst</translation>
 <translation id="1355088659320425659">Logg og faner</translation>
 <translation id="1363028406613469049">Spor</translation>
@@ -147,7 +147,7 @@ For å se flere innstillinger som bruker data for å forbedre Brave-opplevelsen 
 Bare personer som har passordfrasen din, kan lese de krypterte dataene. Passordfrasen blir verken sendt til eller lagret av Brave. Hvis du glemmer passordfrasen eller vil endre denne innstillingen, kan du <ph name="BEGIN_LINK"/>slette Brave-dataene i kontoen din<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">For å administrere Brave-kontoen din, trykk på «Administrer kontoen»-knappen</translation>
 <translation id="1549000191223877751">Flytt til det andre vinduet</translation>
-<translation id="1705567146636171298">Oppdater Brave</translation>
+<translation id="4469722898384489712">Oppdater Wryling</translation>
 <translation id="1554352084785952638"><ph name="SEARCH_ENGINE"/> for «<ph name="SEARCH_TERMS"/>»</translation>
 <translation id="2509230690562869141">Bidra til å gjøre Brave bedre for personer som bruker Brave på samme måte som deg</translation>
 <translation id="1568636008098739136">Lytt til denne siden. Trykk og hold for å redigere denne snarveien.</translation>
@@ -207,8 +207,8 @@ Bare personer som har passordfrasen din, kan lese de krypterte dataene. Passordf
 <translation id="4544426875066706571">For å beskytte dataene dine, la Brave fjerne tillatelser fra nettsteder du ikke har besøkt i det siste</translation>
 <translation id="1851551847729706116">Deler <ph name="TAB_NAME"/> med denne fanen</translation>
 <translation id="1869691326892615940">Sikrere passord, raskere pålogging</translation>
-<translation id="7175072311426658869">Åpne i Brave-nettleseren</translation>
-<translation id="5173820533850252773">Brave er utdatert</translation>
+<translation id="7259806589727104192">Åpne i Wryling-nettleseren</translation>
+<translation id="1523936557081546133">Wryling er utdatert</translation>
 <translation id="1877073879466606884">Profilen du er logget på, er en administrert profil. Administratoren din kan gjøre endringer i profilinnstillingene dine eksternt, analysere informasjon om nettleseren gjennom rapportering og utføre andre nødvendige oppgaver.</translation>
 <translation id="1879904908408734349">Påloggingsfeltet nederst er lukket</translation>
 <translation id="1883903952484604915">Mine filer</translation>
@@ -576,7 +576,7 @@ Bare personer som har passordfrasen din, kan lese de krypterte dataene. Passordf
 <translation id="3384347053049321195">Del bildet</translation>
 <translation id="3387650086002190359">Nedlastingen av <ph name="FILE_NAME"/> ble avbrutt på grunn av filsystemfeil.</translation>
 <translation id="5654361895804243820">Du kan administrere vinduene dine i Window Manager for Brave</translation>
-<translation id="4302350545547675750">Administrer i Brave Passordlagring</translation>
+<translation id="54130667607538272">Administrer i Wryling Passordlagring</translation>
 <translation id="3417835166382867856">Søk i faner</translation>
 <translation id="3430670036890315772">Hvis du slår av profillåsen, fjernes den lagrede informasjonen din</translation>
 <translation id="4114256890962999877">For å beholde tilgangen til passordene dine, eksporter dem nå, oppdater Google Play-tjenester, og importer dem til Brave Passordlagring igjen. <ph name="BEGIN_LINK"/>Se fullstendige instruksjoner.<ph name="END_LINK"/></translation>
@@ -738,7 +738,7 @@ Bare personer som har passordfrasen din, kan lese de krypterte dataene. Passordf
 <translation id="4072805772816336153">Prøv på nytt senere</translation>
 <translation id="4084682180776658562">Legg til bokmerke</translation>
 <translation id="4521874409998847950">Fra <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>levert av Brave<ph name="END_DEEMPHASIZED"/></translation>
-<translation id="7268155614575494857">For å hjelpe Brave Passordlagring med å lagre påloggingsinformasjonen din, legg til brukernavnet ditt for dette nettstedet</translation>
+<translation id="6708405940091325014">For å hjelpe Wryling Passordlagring med å lagre påloggingsinformasjonen din, legg til brukernavnet ditt for dette nettstedet</translation>
 <translation id="4095146165863963773">Slette appdataene?</translation>
 <translation id="4095483462103784441">Opprett en ny fanegruppe</translation>
 <translation id="1523634703470981382">Oppdatering av Brave Passordlagring er åpnet</translation>
@@ -1086,7 +1086,7 @@ Brave-kontoen din kan ha andre former for nettleserlogger, for eksempel søk og 
 <translation id="5532536403031755365">Legg til et ekstra lag med beskyttelse mot trusler på nettet med økt beskyttelse</translation>
 <translation id="5540127996007641535">{NUM_BOOKMARKS,plural, =1{Åpne bokmerke}other{Åpne alle (#)}}</translation>
 <translation id="5548606607480005320">Sikkerhetssjekk</translation>
-<translation id="4362225295386962644">Når du bruker et passord, advarer Brave deg hvis passordet er publisert på nettet. Denne funksjonen holder passordene og brukernavnene dine kryptert. Det betyr at ingen kan lese dem, ikke engang Brave.</translation>
+<translation id="3680104634340426001">Når du bruker et passord, advarer Brave deg hvis passordet er publisert på nettet. Denne funksjonen holder passordene og brukernavnene dine kryptert. Det betyr at ingen kan lese dem, ikke engang Brave.</translation>
 <translation id="5555525474779371165">Velg Safe Browsing-beskyttelse</translation>
 <translation id="5556459405103347317">Last inn på nytt</translation>
 <translation id="555671485580955310">Synkroniser logg og faner</translation>
@@ -1189,7 +1189,7 @@ Brave-kontoen din kan ha andre former for nettleserlogger, for eksempel søk og 
 <translation id="6002122790816966947">Enhetene dine</translation>
 <translation id="6011308810877101166">Gjør søkeforslagene bedre</translation>
 <translation id="6013305291643746595">Sorterer etter eldste</translation>
-<translation id="296137235951584143">Gi Brave et personlig preg</translation>
+<translation id="4578349172774307195">Gi Wryling et personlig preg</translation>
 <translation id="6023820583797130428">Åpne menyen for å gå tilbake</translation>
 <translation id="6026538407078977628">Utvid til fullskjerm</translation>
 <translation id="6039379616847168523">Gå til den neste fanen</translation>
@@ -1248,7 +1248,7 @@ Brave-kontoen din kan ha andre former for nettleserlogger, for eksempel søk og 
 Noen nettsteder kan for eksempel svare på denne forespørselen ved å vise deg annonser som ikke er basert på andre nettsteder du har besøkt. Mange nettsteder samler likevel inn og bruker nettlesingsdataene dine – for eksempel for å forbedre sikkerheten, for å levere innhold, annonser og anbefalinger og for å generere rapporteringsstatistikk.</translation>
 <translation id="623755660902014047">Lesemodus</translation>
 <translation id="6246073558347462570">Forgrunnsvindu for kontekst</translation>
-<translation id="8883879481897424949">Brave Passordlagring</translation>
+<translation id="3888885285070224654">Wryling Passordlagring</translation>
 <translation id="6248988683584659830">Søk i innstillingene</translation>
 <translation id="2715956954609894918">Se Brave-loggen din her</translation>
 <translation id="6254139308321626268">Du ser på en PDF-fil</translation>
@@ -1297,7 +1297,7 @@ Noen nettsteder kan for eksempel svare på denne forespørselen ved å vise deg 
 <translation id="6394791151443660613">Søk: <ph name="SEARCH_QUERY"/></translation>
 <translation id="6397616442223433927">På nettet igjen</translation>
 <translation id="6399363707848566877">Nå kan du enkelt legge til faner i grupper her</translation>
-<translation id="8789425457808164956">For å sende denne fanen til en annen enhet, logg på Brave der</translation>
+<translation id="2522845252291433622">For å sende denne fanen til en annen enhet, logg på Wryling der</translation>
 <translation id="6404511346730675251">Rediger bokmerket</translation>
 <translation id="6410883413783534063">Åpne faner for å besøke ulike sider samtidig</translation>
 <translation id="6411009031428071896">Lytt til feeden</translation>
@@ -1327,7 +1327,7 @@ Noen nettsteder kan for eksempel svare på denne forespørselen ved å vise deg 
 <translation id="6482749332252372425">Nedlastingen av <ph name="FILE_NAME"/> ble avbrutt på grunn av mangel på lagringsplass.</translation>
 <translation id="6486420406192123355">Denne PDF-filen er fra et nettsted som bruker en usikker tilkobling</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{Filen er lastet ned}other{# nedlastinger er fullført}}</translation>
-<translation id="3960299545138990065">Start Brave på nytt</translation>
+<translation id="6199441660763014986">Start Wryling på nytt</translation>
 <translation id="6513924416597632811">Kopier linken til søkeresultatsiden for <ph name="SEARCH_QUERY"/>. Kilde: <ph name="PAGE_URL"/></translation>
 <translation id="6518133107902771759">Bekreft</translation>
 <translation id="6521218807522232085">Opprett, lagre og administrer passordene dine, slik at det blir enkelt å logge på</translation>
@@ -1357,7 +1357,7 @@ Noen nettsteder kan for eksempel svare på denne forespørselen ved å vise deg 
 <translation id="6602173570135186741">Autofyll og passord</translation>
 <translation id="661266467055912436">Øker sikkerheten for deg og alle andre på nettet.</translation>
 <translation id="6615455863669487791">Vis meg</translation>
-<translation id="8127050479140582768">For å sende denne fanen til en annen enhet, logg på Brave på begge enhetene</translation>
+<translation id="7379057487310867567">For å sende denne fanen til en annen enhet, logg på Wryling på begge enhetene</translation>
 <translation id="6627583120233659107">Rediger mappen</translation>
 <translation id="6636623428211296678">Utforsk flere innstillinger nedenfor, eller fullfør nå</translation>
 <translation id="7939692063031538305">For å bidra til å gjøre appen bedre sender Brave bruks- og krasjrelaterte data til Brave. <ph name="BEGIN_UMA_LINK"/>Administrer<ph name="END_UMA_LINK"/></translation>
@@ -2027,7 +2027,7 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>slett Brave-dataene i k
 <translation id="9212845824145208577">Kan ikke gå lavere. Prøv å starte fra lenger ned på siden.</translation>
 <translation id="9218430445555521422">Angi som standard</translation>
 <translation id="9219103736887031265">Bilder</translation>
-<translation id="142389341645668510">Tilpass Brave</translation>
+<translation id="9094133852008074140">Tilpass Wryling</translation>
 <translation id="9222198206152536936">For å få fanene med mer på alle enhetene dine, logg på som <ph name="EMAIL"/></translation>
 <translation id="7625138338483121345">Bruk Brave som standardnettleser</translation>
 <translation id="4596514158372210596">Fjerne Brave-aktiviteten din fra Digital balanse</translation>
@@ -2057,7 +2057,7 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>slett Brave-dataene i k
 <translation id="5352668640894950863">Lås private vinduer når du forlater Brave</translation>
 <translation id="1014490034578104945">Bruk skjermlåsen for å se åpne private faner</translation>
 <translation id="5572558661069030949">Bruk skjermlås for å se åpne private vinduer</translation>
-<translation id="2589970573128789862">Brave Privat</translation>
+<translation id="2090681901335274465">Wryling Privat</translation>
 <translation id="5809126106485463836">Privat modus holder surfingen din privat fra andre som bruker enheten din</translation>
 <translation id="5487565066256782913">Åpne nytt privat vindu</translation>
 <translation id="5706084539081051088">Når du surfer i privat modus, vil andre som bruker denne enheten ikke se aktiviteten din, slik at du kan surfe mer privat. <ph name="BEGIN_LINK"/>Finn ut mer<ph name="END_LINK"/></translation>

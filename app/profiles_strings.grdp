@@ -105,7 +105,7 @@
     Verify it’s you to save and use your passkeys on this device
   </message>
   <message name="IDS_PROFILE_MENU_PASSKEYS_ERROR_DESCRIPTION_GET" desc="Subtitle in the profile menu, shown when the user needs to verify their identity to unlock usage of their Brave Password Manager passkeys on this device, e.g. by presenting a PIN. The word 'passkey' is distinct from 'password', consult the glossary for a translation.">
-    Get your passkeys on this device with Brave Password Manager
+    Get your passkeys on this device with Wryling Password Manager
   </message>
   <message name="IDS_PROFILE_MENU_PASSKEYS_ERROR_DESCRIPTION_VERIFY" desc="Subtitle in the profile menu, shown when the user needs to verify their identity to unlock usage of their Brave Password Manager passkeys on this device, e.g. by presenting a PIN. The word 'passkey' is distinct from 'password', consult the glossary for a translation.">
     Verify it’s you to get your passkeys on this device
@@ -172,7 +172,7 @@
     Sync disabled
   </message>
   <message name="IDS_PROFILES_DASHER_FEATURE_DISABLED_TITLE" desc="Description of the profile user menu when certain features are disabled for Dasherless profile.">
-    This isn't a Brave sync chain. Items you save to Brave won't be available on other devices.
+    This isn't a Brave sync chain. Items you save to Wryling won't be available on other devices.
   </message>
   <message name="IDS_PROFILES_DICE_SYNC_PAUSED_TITLE" desc="Title of the profile user menu when sync is paused.">
     Sync is paused

@@ -15,6 +15,7 @@
 #include "brave/browser/ui/views/frame/vertical_tabs/vertical_tab_strip_region_view.h"
 #include "chrome/browser/ui/views/frame/browser_view.h"
 #include "ui/base/metadata/metadata_impl_macros.h"
+#include "ui/compositor/layer.h"
 #include "ui/views/layout/fill_layout.h"
 #include "ui/views/view_utils.h"
 
@@ -36,6 +37,10 @@ BraveVerticalTabStripContainerView::BraveVerticalTabStripContainerView(
                   browser_view_->tab_strip_view())))) {
   // Needs layer to render this over the webview.
   SetPaintToLayer();
+  // Wryling: the sidebar is see-through over the window's glass, so its layer
+  // must not claim to cover its bounds (that renders as black and leaves old
+  // pixels behind).
+  layer()->SetFillsBoundsOpaquely(false);
 
   // As we follow user's choice for vertical tab alignment,
   // we don't need to mirror this view.

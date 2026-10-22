@@ -212,8 +212,20 @@ function syncChromium(program) {
   let args = ['sync', '--nohooks', '--reset', '--upstream']
 
   if (!gclientWithoutRevision) {
+    // Resolve an existing shallow checkout's tag to avoid fetching all branches.
+    const localCommit =
+      program.history === false
+        ? util.runGit(
+            config.srcDir,
+            ['rev-parse', '--verify', requiredChromiumRef + '^{commit}'],
+            true,
+          )
+        : undefined
+    const chromiumRevision = /^[0-9a-f]{40}$/.test(localCommit || '')
+      ? localCommit
+      : requiredChromiumRef
     args.push('--revision')
-    args.push('src@' + requiredChromiumRef)
+    args.push('src@' + chromiumRevision)
   }
 
   if (program.fetch_all) {

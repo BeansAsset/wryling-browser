@@ -103,7 +103,7 @@
 <translation id="2137162749895930932">번역 화면 닫기</translation>
 <translation id="5789330946301045610">사이트에서 보안 연결을 사용하고 있지 않으며 파일이 조작되었을 가능성이 있기 때문에 Brave에서 이 다운로드를 차단했습니다.</translation>
 <translation id="2170098639895543546">페이지에서 항목 선택</translation>
-<translation id="142389341645668510">Brave 맞춤설정</translation>
+<translation id="9094133852008074140">Wryling 맞춤설정</translation>
 <translation id="2174917724755363426">설치가 완료되지 않았습니다. 취소하시겠습니까?</translation>
 <translation id="8745514854244955877">Brave - 네트워크 로그인 - <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">업데이트 확인 오류: <ph name="UPDATE_CHECK_ERROR"/></translation>
@@ -202,7 +202,7 @@
 <translation id="3137969841538672700">드래그하여 검색</translation>
 <translation id="8372436892102763334">이 탭은 추가 리소스를 사용하고 있습니다. 성능을 개선하려면 Brave에서 이 탭을 비활성화하도록 허용하세요.</translation>
 <translation id="5949068186379578553">화면을 공유하려면 시스템 설정에서 Brave의 화면 녹화를 허용하세요.</translation>
-<translation id="4805806622840861220">Brave 다시 시작</translation>
+<translation id="2036272753168211127">Wryling 다시 시작</translation>
 <translation id="3161522574479303604">모든 언어</translation>
 <translation id="1742948938503172561">새로운 Brave 프로필 맞춤설정</translation>
 <translation id="2430807206104224491">탭을 전환하지 않고도 AI 모드로 계속 채팅할 수 있습니다. 시작하려면 Brave에 로그인하세요. 이렇게 하면 이용 중인 모든 기기에서 비밀번호 등도 사용할 수 있습니다.</translation>
@@ -236,7 +236,7 @@
 <translation id="8981774130895723211">화면을 공유하려면 시스템 설정에서 Brave의 화면 녹화를 허용하세요.</translation>
 <translation id="2981961446160697133">향상된 보호 모드는 Brave에서 인식하지 못하는 사이트에 대해 JavaScript 최적화를 사용 중지합니다</translation>
 <translation id="3597003331831379823">승격된 권한으로 설정을 실행할 수 없습니다. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Brave에 로그인하세요</translation>
+<translation id="5451434122049588189">Brave에 로그인하세요</translation>
 <translation id="3066805437003400520">선택한 사용자의 인터넷 사용 기록이 이 기기에서 삭제됩니다. 데이터를 복구하려면 <ph name="USER_EMAIL"/>(으)로 Brave에 로그인하세요.</translation>
 <translation id="3667616615096815454">설치할 수 없습니다. 서버에서 애플리케이션을 알 수 없습니다.</translation>
 <translation id="1128485277465085828"><ph name="BEGIN_LINK"/>나만의 암호<ph name="END_LINK"/>를 사용하여 Brave 계정에 있는 모든 Brave 데이터를 암호화하세요. Google Pay의 결제 수단 및 주소는 암호화되지 않습니다. Brave 방문 기록은 동기화되지 않습니다.</translation>
@@ -279,7 +279,7 @@
 <translation id="4055805654398742145">비밀번호 관리자(&amp;A)</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Brave을 1분 동안 사용하지 않으면 조직에서 자동으로 종료합니다. 인터넷 사용 기록이 삭제됩니다. 여기에는 방문 기록, 자동 완성, 다운로드가 포함될 수 있습니다.}other{Brave을 #분 동안 사용하지 않으면 조직에서 자동으로 종료합니다. 인터넷 사용 기록이 삭제됩니다. 여기에는 방문 기록, 자동 완성, 다운로드가 포함될 수 있습니다.}}</translation>
 <translation id="5794951150713244901">Brave 정보 페이지로 이동</translation>
-<translation id="10925962326134232">Brave 브라우저를 새로운 디자인으로 맞춤설정합니다.</translation>
+<translation id="908722199085381104">Wryling 브라우저를 새로운 디자인으로 맞춤설정합니다.</translation>
 <translation id="6596295505984504022">Brave 맞춤설정(&amp;U)</translation>
 <translation id="4148957013307229264">설치 중...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> - 네트워크 로그인 - Brave</translation>
@@ -381,7 +381,7 @@
 <translation id="5154625106151193600">Brave에서 일부 파일을 차단하는 이유 알아보기</translation>
 <translation id="1786715389543715322">Brave 업데이트 중(<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Brave 로그인 허용</translation>
-<translation id="5267531627648004734">Brave에서 제거</translation>
+<translation id="6125790165673488794">Brave에서 제거</translation>
 <translation id="4620757336635063467">성능은 감소하지만 Brave의 공격에 대한 저항력이 강화됨</translation>
 <translation id="239760341987199724">Brave을 기본 브라우저로 설정</translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Brave 베타</translation>
@@ -560,7 +560,7 @@
 <translation id="7024536598735240744">압축해제 오류(<ph name="UNPACK_ERROR"/>)가 발생했습니다.</translation>
 <translation id="280382502853897110">나만의 Brave 만들기</translation>
 <translation id="7047386856539490735">결과가 유용한가요?</translation>
-<translation id="1705567146636171298">Brave 업데이트</translation>
+<translation id="4469722898384489712">Wryling 업데이트</translation>
 <translation id="5499063270485366718">이미지에 유용한 설명이 없으면 Brave에서 자동으로 설명을 제공하려고 시도합니다. 설명을 생성하기 위해 이미지가 Brave로 전송됩니다.</translation>
 <translation id="1196733835766994012"><ph name="DEVICE_TYPE"/>에서 Brave 앱을 사용하여 AI의 강력한 기능을 활용하세요</translation>
 <translation id="7166289504510860270">휴대전화에서 Brave 앱을 사용하여 이동 중에도 비밀번호, 탭 등을 이용하세요</translation>
@@ -766,7 +766,7 @@ Brave에서 설정을 복구할 수 없습니다.</translation>
 <translation id="8965179855019347124">휴대전화에서 Brave 앱을 사용하여 Brave 최고의 AI 도구를 사용하세요</translation>
 <translation id="9049928023195059068">다른 Brave 서비스에 로그인할 때 Brave에 로그인</translation>
 <translation id="4561046754724442504">Brave이 자동으로 종료되었습니다</translation>
-<translation id="5173820533850252773">Brave이 이전 버전임</translation>
+<translation id="1523936557081546133">Brave이 이전 버전임</translation>
 <translation id="310518206836658214">{0,plural, =1{1시간 후 Brave이 다시 시작됩니다}other{#시간 후 Brave이 다시 시작됩니다}}</translation>
 <translation id="9106236359747881194">검색할 텍스트 선택</translation>
 <translation id="5190991181158966940">향후 Brave 업데이트를 받으려면 Windows 10 이상이 필요합니다. 이 컴퓨터에서는 Windows 8.1을 사용 중입니다.</translation>
@@ -778,12 +778,12 @@ Brave에서 설정을 복구할 수 없습니다.</translation>
 <translation id="2444257125841652328">시스템 관리자가 <ph name="TARGET_URL_HOSTNAME"/> 액세스를 위해 대체 브라우저를 열도록 Brave을 구성했습니다.</translation>
 <translation id="7902365066753170041">다시 실행하여 Brave 업데이트</translation>
 <translation id="3350544518197210895">Brave(mDNS-In)</translation>
-<translation id="296137235951584143">나만의 Brave 만들기</translation>
+<translation id="4578349172774307195">나만의 Wryling 만들기</translation>
 <translation id="7977787072794666032">Windows XP 또는 Windows Vista에서 더 이상 Brave을 지원하지 않으므로 Brave이 올바르게 작동하지 않을 수 있습니다</translation>
 <translation id="8462937515915443472">Brave으로 이동 중에도 Brave 최고의 안전 기능을 이용하세요.</translation>
 <translation id="945522503751344254">의견 보내기</translation>
 <translation id="4484434718272972655">Brave 사용자 선택</translation>
-<translation id="7173394303099002355">Brave의 가장 강력한 보안 기능을 이용하세요</translation>
+<translation id="1158507424343802366">Brave의 가장 강력한 보안 기능을 이용하세요</translation>
 <translation id="983803489796659991">업데이트 서버에 애플리케이션에 대한 해시 데이터가 없어 설치할 수 없습니다.</translation>
 <translation id="8435446479956716379">계정 없이 Brave 사용</translation>
 <translation id="8992261409816268381">Brave Software Inc</translation>
@@ -811,6 +811,6 @@ Brave에서 설정을 복구할 수 없습니다.</translation>
               other {고급 보호를 사용하려면 Brave를 재시작해야 업데이트를 적용할 수 있습니다. 비공개 창이 다시 열리지 않습니다.}}</translation>
 <translation id="5749154344207139683">1분 설문조사에 참여하여 개인 정보 보호 기능을 개선할 수 있도록 도와주세요.</translation>
 <translation id="79269250264141507">주소창이나 검색창에 입력하면 입력하신 내용을 Brave가 기본 검색 엔진으로 보내 추천 결과를 개선합니다. 비공개 모드에서는 꺼집니다.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
+<translation id="2090681901335274465">Wryling Private</translation>
 <translation id="5994282802285556682">비공개 모드로 탐색 중에 비보안 연결을 사용하는 사이트에 진입하면 로드 전에 Brave가 경고합니다.</translation>
 </translationbundle>

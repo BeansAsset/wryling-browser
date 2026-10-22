@@ -104,7 +104,7 @@ Some features may be unavailable and changes to preferences won't be saved.</tra
 <translation id="2137162749895930932">Close translate screen</translation>
 <translation id="5789330946301045610">Brave blocked this download because the site isn't using a secure connection and the file may have been tampered with</translation>
 <translation id="2170098639895543546">Select anything on page</translation>
-<translation id="142389341645668510">Customise Brave</translation>
+<translation id="9094133852008074140">Customise Wryling</translation>
 <translation id="2174917724755363426">Installation is not complete. Are you sure that you want to cancel?</translation>
 <translation id="8745514854244955877">Brave – Network sign-in – <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">Update check error: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -203,7 +203,7 @@ Some features may be unavailable and changes to preferences won't be saved.</tra
 <translation id="3137969841538672700">Drag to search</translation>
 <translation id="8372436892102763334">This tab is using extra resources. To improve your performance, let Brave make it inactive.</translation>
 <translation id="5949068186379578553">To share your screen, allow screen recording for Brave in System Settings</translation>
-<translation id="4805806622840861220">Relaunch Brave</translation>
+<translation id="2036272753168211127">Relaunch Wryling</translation>
 <translation id="3161522574479303604">All languages</translation>
 <translation id="1742948938503172561">Customise your new Brave profile</translation>
 <translation id="2430807206104224491">You can keep chatting with AI Mode without switching tabs. To get started, sign in to Brave. You'll also get your passwords and more on all your devices.</translation>
@@ -237,7 +237,7 @@ Some features may be unavailable and changes to preferences won't be saved.</tra
 <translation id="8981774130895723211">To share your screen, allow screen recording for Brave in System Settings.</translation>
 <translation id="2981961446160697133">Enhanced protection turns off JavaScript optimisation for sites that Brave doesn't recognise</translation>
 <translation id="3597003331831379823">Failed to run setup with elevated privileges. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Sign in to Brave</translation>
+<translation id="5451434122049588189">Sign in to Wryling</translation>
 <translation id="3066805437003400520">This person's browsing data will be deleted from this device. To recover the data, sign in to Brave as <ph name="USER_EMAIL"/>.</translation>
 <translation id="3667616615096815454">Unable to install, the application is unknown to the server.</translation>
 <translation id="1128485277465085828">Use your <ph name="BEGIN_LINK"/>own passphrase<ph name="END_LINK"/> to encrypt all the Brave data in your Brave sync chain. Payment methods and addresses from Google Pay won't be encrypted. Browsing history from Brave won't sync.</translation>
@@ -280,7 +280,7 @@ Some features may be unavailable and changes to preferences won't be saved.</tra
 <translation id="4055805654398742145">P&amp;assword Manager</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Your organisation closes Brave automatically when it isn't used for one minute. Browsing data is deleted. This could include history, autofill and downloads.}other{Your organisation closes Brave automatically when it isn't used for # minutes. Browsing data is deleted. This could include history, autofill and downloads.}}</translation>
 <translation id="5794951150713244901">Go to the About Brave page</translation>
-<translation id="10925962326134232">Customise Brave to give your browser a new look</translation>
+<translation id="908722199085381104">Customise Wryling to give your browser a new look</translation>
 <translation id="6596295505984504022">Customise your Brave</translation>
 <translation id="4148957013307229264">Installing...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> – Network sign-in – Brave</translation>
@@ -382,7 +382,7 @@ Some features may be unavailable and changes to preferences won't be saved.</tra
 <translation id="5154625106151193600">Learn why Brave blocks some files</translation>
 <translation id="1786715389543715322">Updating Brave (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Allow Brave sign-in</translation>
-<translation id="5267531627648004734">Remove from Brave</translation>
+<translation id="6125790165673488794">Remove from Wryling</translation>
 <translation id="4620757336635063467">Reduces performance but makes Brave more resistant to attacks</translation>
 <translation id="239760341987199724">Set Brave as your default browser</translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> – Brave Beta</translation>
@@ -561,7 +561,7 @@ New bookmarks can't be saved in your account until you delete some. If you sign 
 <translation id="7024536598735240744">Unpack error: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">Make Brave your own</translation>
 <translation id="7047386856539490735">Are these results useful?</translation>
-<translation id="1705567146636171298">Update Brave</translation>
+<translation id="4469722898384489712">Update Wryling</translation>
 <translation id="5499063270485366718">If an image doesn’t have a useful description, Brave will try to provide one for you. To create descriptions, images are sent to Brave.</translation>
 <translation id="1196733835766994012">Get the power of AI when you use the Brave app on your <ph name="DEVICE_TYPE"/></translation>
 <translation id="7166289504510860270">Take your passwords, tabs and more on the go with the Brave app on your phone</translation>
@@ -767,7 +767,7 @@ Brave is unable to recover your settings.</translation>
 <translation id="8965179855019347124">Use Brave's best AI tools with the Brave app on your phone</translation>
 <translation id="9049928023195059068">Sign in to Brave when you sign in to other Brave services</translation>
 <translation id="4561046754724442504">Brave was automatically closed</translation>
-<translation id="5173820533850252773">Brave is out of date</translation>
+<translation id="1523936557081546133">Wryling is out of date</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave will relaunch in an hour}other{Brave will relaunch in # hours}}</translation>
 <translation id="9106236359747881194">Select text to search</translation>
 <translation id="5190991181158966940">To get future Brave updates, you'll need Windows 10 or later. This computer is using Windows 8.1.</translation>
@@ -779,12 +779,12 @@ Brave is unable to recover your settings.</translation>
 <translation id="2444257125841652328">Your system administrator has configured Brave to open an alternative browser to access <ph name="TARGET_URL_HOSTNAME"/>.</translation>
 <translation id="7902365066753170041">Relaunch to update &amp;Brave</translation>
 <translation id="3350544518197210895">Brave (mDNS-In)</translation>
-<translation id="296137235951584143">Make Brave your own</translation>
+<translation id="4578349172774307195">Make Wryling your own</translation>
 <translation id="7977787072794666032">Brave may not function correctly because it is no longer supported on Windows XP or Windows Vista</translation>
 <translation id="8462937515915443472">Get Brave's best safety features on the go with Brave.</translation>
 <translation id="945522503751344254">Send feedback</translation>
 <translation id="4484434718272972655">Who's using Brave?</translation>
-<translation id="7173394303099002355">Get Brave's strongest security</translation>
+<translation id="1158507424343802366">Get Wryling's strongest security</translation>
 <translation id="983803489796659991">Installation failed because the update server does not have any hash data for the application.</translation>
 <translation id="8435446479956716379">Use Brave without an account</translation>
 <translation id="8992261409816268381">Brave Software Inc</translation>
@@ -812,6 +812,6 @@ Brave is unable to recover your settings.</translation>
               other {Advanced Protection requires that you relaunch Brave to apply an update. Your # Private windows won't reopen.}}</translation>
 <translation id="5749154344207139683">Help us improve Private by taking this 1 minute survey.</translation>
 <translation id="79269250264141507">When you type in the address bar or search box, Brave sends what you type to your default search engine to get better suggestions. This is off in Private.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
+<translation id="2090681901335274465">Wryling Private</translation>
 <translation id="5994282802285556682">When browsing in Private mode, Brave will warn you before loading a site using an insecure connection</translation>
 </translationbundle>

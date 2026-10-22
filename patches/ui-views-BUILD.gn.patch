@@ -1,0 +1,15 @@
+diff --git a/ui/views/BUILD.gn b/ui/views/BUILD.gn
+index 2402dbecc3c5fd59871889ed13bc660fa22cf457..485c31012fe1e92d9d55b41660fb298c592f7d9c 100644
+--- a/ui/views/BUILD.gn
++++ b/ui/views/BUILD.gn
+@@ -758,6 +758,10 @@ component("views") {
+       "controls/menu/menu_closure_animation_mac.mm",
+       "controls/menu/menu_cocoa_watcher_mac.mm",
+       "controls/menu/menu_config_mac.mm",
++      "bubble/popup_glass_mac.h",
++      "bubble/popup_glass_mac.mm",
++      "controls/menu/menu_glass_mac.h",
++      "controls/menu/menu_glass_mac.mm",
+       "controls/menu/menu_controller_cocoa_delegate_params.cc",
+       "controls/menu/menu_pre_target_handler_mac.h",
+       "controls/menu/menu_pre_target_handler_mac.mm",

@@ -44,7 +44,7 @@
 <translation id="7083341910267693582"><ph name="APP_NAME"/> ќе се отвори во Brave. Ако продолжите, се согласувате со <ph name="BEGIN_LINK1"/>Условите за користење на Brave<ph name="END_LINK1"/> и <ph name="BEGIN_LINK2"/>Дополнителните услови за користење на Brave и Chrome OS<ph name="END_LINK2"/>.</translation>
 <translation id="7443574521624544928">Немате лозинки зачувани во Brave Password Manager.</translation>
 <translation id="115483310321669804">Користи ја лозинката <ph name="PASSWORD"/></translation>
-<translation id="4489415936688888898">Gemini во Brave</translation>
+<translation id="4980210551795949534">Gemini во Wryling</translation>
 <translation id="1161065531352634524">Синхронизирајте ги картичките и историјата</translation>
 <translation id="1165109137568919258">Снимете фотографија или додајте слика од вашата фотогалерија за да пребарувате</translation>
 <translation id="1173894706177603556">Преименувај</translation>
@@ -91,8 +91,8 @@
 <translation id="1333491156693005331">Проверено неодамна</translation>
 <translation id="1336996151357442890">Се отпишавте од <ph name="SITE_NAME"/>. Сајтот ќе ве праша дали сакате да се претплатите повторно следниот пат кога ќе го отворите.</translation>
 <translation id="1340839264183302272">Напуштете ја групата</translation>
-<translation id="873343310451048603">За проверка за компромитирани лозинки, одете во Brave Password Manager</translation>
-<translation id="4167284810587724062">Најавете се на Brave</translation>
+<translation id="4973862711373394097">За проверка за компромитирани лозинки, одете во Wryling Password Manager</translation>
+<translation id="5451434122049588189">Најавете се на Wryling</translation>
 <translation id="1344653310988386453">Вклучи линк до нагласената ставка</translation>
 <translation id="1355088659320425659">Картички и историја</translation>
 <translation id="1363028406613469049">Песна</translation>
@@ -147,7 +147,7 @@
 Само лицата што ја имаат вашата лозинка може да ги прочитаат шифрираните податоци. Лозинката ниту се испраќа до Brave ниту Brave ја складира. Ако ја заборавите лозинката или сакате да ја промените поставкава, <ph name="BEGIN_LINK"/>избришете ги податоците од Brave во вашата сметка<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">За да управувате со сметката на Brave, допрете на копчето „Управувајте со сметката“</translation>
 <translation id="1549000191223877751">Премести во друг прозорец</translation>
-<translation id="1705567146636171298">Ажурирај го Brave</translation>
+<translation id="4469722898384489712">Ажурирај го Wryling</translation>
 <translation id="1554352084785952638"><ph name="SEARCH_ENGINE"/> за „<ph name="SEARCH_TERMS"/>“</translation>
 <translation id="2509230690562869141">Помогнете да го подобриме Brave за тие што го користат исто како вас</translation>
 <translation id="1568636008098739136">Слушајте ја страницава. За да ја измените кратенкава, допрете и задржете.</translation>
@@ -207,8 +207,8 @@
 <translation id="4544426875066706571">За да ги заштитите вашите податоци, дозволете Brave да ги отстрани дозволите од сајтовите што не сте ги отвориле неодамна</translation>
 <translation id="1851551847729706116">Се споделува <ph name="TAB_NAME"/> со картичкава</translation>
 <translation id="1869691326892615940">Побезбедни лозинки, побрзо најавување</translation>
-<translation id="7175072311426658869">Отворај во прелистувачот Brave</translation>
-<translation id="5173820533850252773">Brave е застарен</translation>
+<translation id="7259806589727104192">Отворај во прелистувачот Wryling</translation>
+<translation id="1523936557081546133">Wryling е застарен</translation>
 <translation id="1877073879466606884">Профилот во којшто сте најавени е управуван профил. Администраторот може да врши промени во поставките за вашиот профил далечински, да ги анализира информациите за прелистувачот преку извештаите и да извршува други неопходни задачи.</translation>
 <translation id="1879904908408734349">Долниот лист за најавување е затворен</translation>
 <translation id="1883903952484604915">Мои датотеки</translation>
@@ -576,7 +576,7 @@
 <translation id="3384347053049321195">Сподели ја сликата</translation>
 <translation id="3387650086002190359">Преземањето на <ph name="FILE_NAME"/> не успеа поради грешки на системот со датотеки.</translation>
 <translation id="5654361895804243820">Со вашите прозорци може да управувате во „Управувачот со прозорци“ на Brave</translation>
-<translation id="4302350545547675750">Управувајте во Brave Password Manager</translation>
+<translation id="54130667607538272">Управувајте во Wryling Password Manager</translation>
 <translation id="3417835166382867856">Пребарајте ги картичките</translation>
 <translation id="3430670036890315772">Ако го исклучите „Заклучувањето на профилот“, ќе се отстранат вашите зачувани податоци</translation>
 <translation id="4114256890962999877">За да го задржите пристапот до лозинките, извезете ги сега, ажурирајте ја „Услуги на Google Play“, па увезете ги повторно во Brave Password Manager. <ph name="BEGIN_LINK"/>Погледнете ги целосните инструкции<ph name="END_LINK"/>.</translation>
@@ -738,7 +738,7 @@
 <translation id="4072805772816336153">Обидете се повторно подоцна</translation>
 <translation id="4084682180776658562">Обележувач</translation>
 <translation id="4521874409998847950">Од <ph name="PUBLISHER_ORIGIN"/> - <ph name="BEGIN_DEEMPHASIZED"/>испорачано од Brave<ph name="END_DEEMPHASIZED"/></translation>
-<translation id="7268155614575494857">За да му помогнете на Brave Password Manager да ги зачува вашите податоци за најавување, додајте го вашето корисничко име за сајтов</translation>
+<translation id="6708405940091325014">За да му помогнете на Wryling Password Manager да ги зачува вашите податоци за најавување, додајте го вашето корисничко име за сајтов</translation>
 <translation id="4095146165863963773">Избриши ги податоците на апликацијата?</translation>
 <translation id="4095483462103784441">Создајте нова група картички</translation>
 <translation id="1523634703470981382">Прозорецот за ажурирање на Brave Password Manager е отворен</translation>
@@ -1086,7 +1086,7 @@
 <translation id="5532536403031755365">Додајте дополнителен слој заштита од онлајн закани со „Подобрена заштита“</translation>
 <translation id="5540127996007641535">{NUM_BOOKMARKS,plural, =1{Отвори го обележувачот}one{Отвори ги сите (#)}other{Отвори ги сите (#)}}</translation>
 <translation id="5548606607480005320">Безбедносна проверка</translation>
-<translation id="4362225295386962644">Кога користите лозинка, Brave ве предупредува ако е објавена онлајн. Кога го прави ова, вашите лозинки и кориснички имиња се шифрирани така што не може да ги прочита никој, па дури ни Brave.</translation>
+<translation id="3680104634340426001">Кога користите лозинка, Brave ве предупредува ако е објавена онлајн. Кога го прави ова, вашите лозинки и кориснички имиња се шифрирани така што не може да ги прочита никој, па дури ни Brave.</translation>
 <translation id="5555525474779371165">Изберете ја вашата заштита со „Безбедно прелистување“</translation>
 <translation id="5556459405103347317">Повторно вчитај</translation>
 <translation id="555671485580955310">Синхронизација на картичките и историјата</translation>
@@ -1189,7 +1189,7 @@
 <translation id="6002122790816966947">Ваши уреди</translation>
 <translation id="6011308810877101166">Подобрување на предлозите за пребарување</translation>
 <translation id="6013305291643746595">Се подредува според најстари</translation>
-<translation id="296137235951584143">Направете го Brave свој</translation>
+<translation id="4578349172774307195">Направете го Wryling свој</translation>
 <translation id="6023820583797130428">Отворете го менито за да се вратите назад</translation>
 <translation id="6026538407078977628">Прошири на цел екран</translation>
 <translation id="6039379616847168523">Скокнете на следната картичка</translation>
@@ -1248,7 +1248,7 @@
 На пример, некои веб-сајтови може да реагираат на барањето со покажување реклами што не се базираат на другите веб-сајтови што сте ги посетиле. Повеќето веб-сајтови и понатаму ќе ги собираат и користат податоците од вашето прелистување - на пример, за да ја зголемат безбедноста, да обезбедат содржини, реклами и препораки, како и да генерираат статистички податоци за известување.</translation>
 <translation id="623755660902014047">Режим на читање</translation>
 <translation id="6246073558347462570">Контекстуален скокачки прозорец</translation>
-<translation id="8883879481897424949">Brave Password Manager</translation>
+<translation id="3888885285070224654">Wryling Password Manager</translation>
 <translation id="6248988683584659830">Пребарувајте низ поставките</translation>
 <translation id="2715956954609894918">Прегледајте ја вашата историја на Brave тука</translation>
 <translation id="6254139308321626268">Прегледувате PDF-датотека</translation>
@@ -1297,7 +1297,7 @@
 <translation id="6394791151443660613">Пребарајте: <ph name="SEARCH_QUERY"/></translation>
 <translation id="6397616442223433927">Повторно сте онлајн</translation>
 <translation id="6399363707848566877">Отсега може лесно да додавате картички во групите овде</translation>
-<translation id="8789425457808164956">За да ја испратите картичкава на друг уред, најавете се на Brave таму</translation>
+<translation id="2522845252291433622">За да ја испратите картичкава на друг уред, најавете се на Wryling таму</translation>
 <translation id="6404511346730675251">Измени обележувач</translation>
 <translation id="6410883413783534063">Отворете картички за да посетувате различни страници во исто време</translation>
 <translation id="6411009031428071896">Слушајте го фидот</translation>
@@ -1327,7 +1327,7 @@
 <translation id="6482749332252372425">Преземањето на <ph name="FILE_NAME"/> не успеа поради недостаток на меморија.</translation>
 <translation id="6486420406192123355">Оваа PDF-датотека е од сајт што користи небезбедна врска</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{Преземена е датотека}one{# преземање се завршени}other{# преземања се завршени}}</translation>
-<translation id="3960299545138990065">Рестартирајте го Brave</translation>
+<translation id="6199441660763014986">Рестартирајте го Wryling</translation>
 <translation id="6513924416597632811">Копирајте го линкот до страницата со резултати од пребарување за: <ph name="SEARCH_QUERY"/>. Извор: <ph name="PAGE_URL"/></translation>
 <translation id="6518133107902771759">Потврди</translation>
 <translation id="6521218807522232085">Создавајте лозинки, зачувувајте ги и управувајте со нив за да може лесно да се најавувате</translation>
@@ -1357,7 +1357,7 @@
 <translation id="6602173570135186741">Автоматско пополнување и лозинки</translation>
 <translation id="661266467055912436">Ја подобрува безбедноста за вас и сите останати на интернет.</translation>
 <translation id="6615455863669487791">Покажи ми</translation>
-<translation id="8127050479140582768">За да ја испратите картичкава на друг уред, најавете се на Brave на двата уреда</translation>
+<translation id="7379057487310867567">За да ја испратите картичкава на друг уред, најавете се на Wryling на двата уреда</translation>
 <translation id="6627583120233659107">Уредувај папка</translation>
 <translation id="6636623428211296678">Истражете други поставки долу или завршете сега</translation>
 <translation id="7939692063031538305">За да се подобри апликацијата, Brave испраќа податоци за користењето и падовите во Brave. <ph name="BEGIN_UMA_LINK"/>Управувајте<ph name="END_UMA_LINK"/></translation>
@@ -2027,7 +2027,7 @@
 <translation id="9212845824145208577">Не може да одите пониско. Почнете од подолу на страницата.</translation>
 <translation id="9218430445555521422">Постави како стандардно</translation>
 <translation id="9219103736887031265">Слики</translation>
-<translation id="142389341645668510">Приспособете го Brave</translation>
+<translation id="9094133852008074140">Приспособете го Wryling</translation>
 <translation id="9222198206152536936">За да ги добиете картичките и друго на сите ваши уреди, најавете се како <ph name="EMAIL"/></translation>
 <translation id="7625138338483121345">Направете го Brave ваш стандарден прелистувач</translation>
 <translation id="4596514158372210596">Отстранете ја вашата активност на Brave од „Дигитална благосостојба“</translation>
@@ -2057,7 +2057,7 @@
 <translation id="5352668640894950863">Заклучи приватни прозорци кога ќе го напуштиш Brave</translation>
 <translation id="1014490034578104945">Користи заклучување на екран за да видиш отворени приватни јазичиња</translation>
 <translation id="5572558661069030949">Користи заклучување на екранот за да ги видиш отворените приватни прозорци</translation>
-<translation id="2589970573128789862">Brave Инкогнито</translation>
+<translation id="2090681901335274465">Wryling Инкогнито</translation>
 <translation id="5809126106485463836">Приватниот режим ја чува твојата прелистање приватно од другите кои го користат твојот уред</translation>
 <translation id="5487565066256782913">Отвори нов Приватен прозорец</translation>
 <translation id="5706084539081051088">Кога прелистувате во Приватен режим, другите што го користат овој уред нема да ја гледаат вашата активност, така што можете да прелистувате поприватно. <ph name="BEGIN_LINK"/>Дознајте повеќе<ph name="END_LINK"/></translation>

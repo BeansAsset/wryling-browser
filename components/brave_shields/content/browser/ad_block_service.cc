@@ -34,6 +34,7 @@
 #include "brave/components/brave_shields/core/browser/ad_block_filter_list_catalog_provider.h"
 #include "brave/components/brave_shields/core/browser/ad_block_filters_provider_manager.h"
 #include "brave/components/brave_shields/core/browser/ad_block_resource_provider.h"
+#include "brave/components/brave_shields/core/browser/wryling_public_lists.h"
 #include "brave/components/brave_shields/core/common/adblock/rs/src/lib.rs.h"
 #include "brave/components/brave_shields/core/common/features.h"
 #include "brave/components/brave_shields/core/common/pref_names.h"
@@ -465,6 +466,7 @@ void RegisterPrefsForAdBlockService(PrefRegistrySimple* registry) {
   registry->RegisterBooleanPref(prefs::kTwitterEmbedControlType, true);
   registry->RegisterBooleanPref(prefs::kLinkedInEmbedControlType, false);
   registry->RegisterBooleanPref(prefs::kAdBlockDebugMode, false);
+  registry->RegisterBooleanPref(wryling::kDefaultListsAddedPref, false);
 }
 
 void RegisterPrefsForAdBlockServiceForMigration(PrefRegistrySimple* registry) {

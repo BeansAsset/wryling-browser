@@ -63,6 +63,7 @@ export function MainCard() {
         </div>
         <div className='site-text'>
           <h3
+            id='shields-site-name'
             className='overflow-ellipsis-start'
             title={siteHost}
           >
@@ -70,7 +71,7 @@ export function MainCard() {
             {siteHost}
             {'\u2069'}
           </h3>
-          <div className='shields-status'>
+          <div className='shields-status' id='shields-status'>
             {formatString(
               shieldsEnabled
                 ? getString('BRAVE_SHIELDS_STATUS_UP')
@@ -82,6 +83,7 @@ export function MainCard() {
           </div>
         </div>
         <Toggle
+          aria-labelledby='shields-site-name shields-status'
           checked={shieldsEnabled}
           onChange={(event) => api.setBraveShieldsEnabled([event.checked])}
         />

@@ -22,7 +22,7 @@ export const style = scoped.css`
     flex: 1 1 auto;
     display: flex;
     align-items: center;
-    color: ${color.primitive.neutral[90]};
+    color: ${color.text.secondary};
     font: ${font.xSmall.regular};
 
     > div {
@@ -35,15 +35,15 @@ export const style = scoped.css`
   }
 
   .ads-blocked {
-    --self-value-color: ${color.primitive.orange[70]};
+    --self-value-color: ${color.text.interactive};
   }
 
   .bandwidth-saved {
-    --self-value-color: ${color.primitive.primary[70]};
+    --self-value-color: ${color.text.interactive};
   }
 
   .value {
-    color: var(--self-value-color, #fff);
+    color: var(--self-value-color, ${color.text.primary});
     font: ${font.heading.h3};
   }
 

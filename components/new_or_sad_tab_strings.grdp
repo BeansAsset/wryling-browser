@@ -84,12 +84,12 @@
       </if>
       <if expr="_google_chrome">
         <message name="IDS_SAD_TAB_RELOAD_RESTART_BROWSER" desc="One of the bullet points displayed on the web page if a reload failed to fix the issue, advising the user to restart Brave." formatter_data="android_java">
-          Restart Brave
+          Restart Wryling
         </message>
       </if>
       <if expr="not _google_chrome">
         <message name="IDS_SAD_TAB_RELOAD_RESTART_BROWSER" desc="One of the bullet points displayed on the web page if a reload failed to fix the issue, advising the user to restart Brave." formatter_data="android_java">
-          Restart Brave
+          Restart Wryling
         </message>
       </if>
       <if expr="is_android or is_ios">
@@ -155,7 +155,7 @@
       </message>
        <if expr="_google_chrome">
         <message name="IDS_NEW_TAB_OTR_NOT_SAVED" desc="Bullet points listing data that are not saved in the Private mode. 'Browsing history' means a history of visited websites. 'Cookies and site data' refers to data saved by websites on the user's device (e.g. sign-in state, preferences, etc.). 'Information entered in forms' refers to names, addresses, passwords etc. that users enter into forms on the web." formatter_data="android_java">
-          Brave <ph name="BEGIN_EMPHASIS">&lt;em&gt;</ph>won’t save<ph name="END_EMPHASIS">&lt;/em&gt;</ph>:
+          Wryling <ph name="BEGIN_EMPHASIS">&lt;em&gt;</ph>won’t save<ph name="END_EMPHASIS">&lt;/em&gt;</ph>:
           <ph name="BEGIN_LIST">&lt;ul&gt;</ph>
             <ph name="LIST_ITEM">&lt;li&gt;</ph>Your browsing history
             <ph name="LIST_ITEM">&lt;li&gt;</ph>Cookies and site data
@@ -165,7 +165,7 @@
       </if>
       <if expr="not _google_chrome">
         <message name="IDS_NEW_TAB_OTR_NOT_SAVED" desc="Bullet points listing data that are not saved in the Private mode. 'Browsing history' means a history of visited websites. 'Cookies and site data' refers to data saved by websites on the user's device (e.g. sign-in state, preferences, etc.). 'Information entered in forms' refers to names, addresses, passwords etc. that users enter into forms on the web." formatter_data="android_java">
-          Brave <ph name="BEGIN_EMPHASIS">&lt;em&gt;</ph>won’t save<ph name="END_EMPHASIS">&lt;/em&gt;</ph>:
+          Wryling <ph name="BEGIN_EMPHASIS">&lt;em&gt;</ph>won’t save<ph name="END_EMPHASIS">&lt;/em&gt;</ph>:
           <ph name="BEGIN_LIST">&lt;ul&gt;</ph>
             <ph name="LIST_ITEM">&lt;li&gt;</ph>Your browsing history
             <ph name="LIST_ITEM">&lt;li&gt;</ph>Cookies and site data

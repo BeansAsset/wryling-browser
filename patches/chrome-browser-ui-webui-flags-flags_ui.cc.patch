@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/ui/webui/flags/flags_ui.cc b/chrome/browser/ui/webui/flags/flags_ui.cc
+index bb19db02fe8a6bc4f4e9c59e8083976d620b3dfc..8c1f2d5b7923ec1313c127a4dc8fbf005ad70111 100644
+--- a/chrome/browser/ui/webui/flags/flags_ui.cc
++++ b/chrome/browser/ui/webui/flags/flags_ui.cc
+@@ -202,6 +202,7 @@ FlagsUIHandler* InitializeHandler(content::WebUI* web_ui,
+ 
+ FlagsUI::FlagsUI(content::WebUI* web_ui)
+     : WebUIController(web_ui), weak_factory_(this) {
++  BRAVE_FLAGS_UI_CONSTRUCTOR
+   Profile* profile = Profile::FromWebUI(web_ui);
+   auto* handler = InitializeHandler(web_ui, profile, weak_factory_);
+   DCHECK(handler);

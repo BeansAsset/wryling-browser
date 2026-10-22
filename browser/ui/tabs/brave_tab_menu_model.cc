@@ -10,8 +10,10 @@
 
 #include "base/check.h"
 #include "base/feature_list.h"
+#include "base/strings/utf_string_conversions.h"
 #include "brave/browser/containers/containers_service_factory.h"
 #include "brave/browser/ui/browser_commands.h"
+#include "brave/browser/ui/spaces/wryling_spaces.h"
 #include "brave/browser/ui/tabs/brave_split_tab_menu_model.h"
 #include "brave/browser/ui/tabs/brave_tab_strip_model.h"
 #include "brave/browser/ui/tabs/public/vertical_tab_controller.h"
@@ -59,6 +61,83 @@ BraveTabMenuModel::BraveTabMenuModel(
 }
 
 BraveTabMenuModel::~BraveTabMenuModel() = default;
+
+namespace {
+
+// Runs "Move to space ▸ <space>" for the tabs the menu was opened on.
+class MoveToSpaceMenuDelegate : public ui::SimpleMenuModel::Delegate {
+ public:
+  MoveToSpaceMenuDelegate(wryling::SpacesController* controller,
+                          std::vector<tabs::TabHandle> tabs,
+                          std::vector<std::string> space_ids)
+      : controller_(controller->GetWeakPtr()),
+        tabs_(std::move(tabs)),
+        space_ids_(std::move(space_ids)) {}
+
+  void ExecuteCommand(int command_id, int event_flags) override {
+    if (!controller_ || command_id < 0 ||
+        command_id >= static_cast<int>(space_ids_.size())) {
+      return;
+    }
+    for (const tabs::TabHandle& handle : tabs_) {
+      if (tabs::TabInterface* tab = handle.Get()) {
+        controller_->MoveTabToSpace(tab, space_ids_[command_id]);
+      }
+    }
+  }
+
+ private:
+  base::WeakPtr<wryling::SpacesController> controller_;
+  std::vector<tabs::TabHandle> tabs_;
+  std::vector<std::string> space_ids_;
+};
+
+}  // namespace
+
+void BraveTabMenuModel::BuildItemForSpaces(
+    BrowserWindowInterface* browser_window,
+    TabStripModel* tab_strip_model,
+    const std::vector<int>& selected_tab_indices) {
+  auto* controller = wryling::SpacesController::From(browser_window);
+  if (!controller || controller->spaces().size() < 2) {
+    return;
+  }
+  std::vector<tabs::TabHandle> tabs;
+  for (int index : selected_tab_indices) {
+    if (auto* tab = tab_strip_model->GetTabAtIndex(index)) {
+      tabs.push_back(tab->GetHandle());
+    }
+  }
+  std::vector<std::string> ids;
+  std::vector<std::u16string> names;
+  for (const wryling::Space& space : controller->spaces()) {
+    if (space.id != controller->current_space_id()) {
+      ids.push_back(space.id);
+      names.push_back(base::UTF8ToUTF16(space.name));
+    }
+  }
+  spaces_menu_delegate_ = std::make_unique<MoveToSpaceMenuDelegate>(
+      controller, std::move(tabs), std::move(ids));
+  spaces_submenu_ =
+      std::make_unique<ui::SimpleMenuModel>(spaces_menu_delegate_.get());
+  for (size_t i = 0; i < names.size(); ++i) {
+    spaces_submenu_->AddItem(static_cast<int>(i), names[i]);
+  }
+
+  std::optional<size_t> index;
+  for (const auto& command_id : {
+           TabStripModel::CommandMoveTabsToNewWindow,
+           TabStripModel::CommandMoveToExistingWindow,
+       }) {
+    if (auto cmd_index = GetIndexOfCommandId(command_id)) {
+      index = *cmd_index + 1;
+      break;
+    }
+  }
+  InsertSubMenuAt(index.value_or(GetItemCount()),
+                  wryling::kMoveToSpaceTabMenuCommand, u"Move to space",
+                  spaces_submenu_.get());
+}
 
 int BraveTabMenuModel::GetRestoreTabCommandStringId() const {
   int id = IDS_RESTORE_TAB;
@@ -155,6 +234,8 @@ void BraveTabMenuModel::Build(BrowserWindowInterface* browser_window,
     BuildItemForContainers(browser_window, tab_strip_model, indices);
   }
 #endif  // BUILDFLAG(ENABLE_CONTAINERS)
+
+  BuildItemForSpaces(browser_window, tab_strip_model, indices);
 
   // Reorder the split tab entry to the last position of the first section.
   // For CommandArrangeSplit, also replaces upstream's SplitTabMenuModel with

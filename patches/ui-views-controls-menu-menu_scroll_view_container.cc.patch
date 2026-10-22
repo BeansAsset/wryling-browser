@@ -1,0 +1,57 @@
+diff --git a/ui/views/controls/menu/menu_scroll_view_container.cc b/ui/views/controls/menu/menu_scroll_view_container.cc
+index a76e050637d9a1699b2c769c82f3e2643d846134..9d3e00bca46215ba0837b8a09c799f9700a4c92d 100644
+--- a/ui/views/controls/menu/menu_scroll_view_container.cc
++++ b/ui/views/controls/menu/menu_scroll_view_container.cc
+@@ -43,11 +43,16 @@
+ #include "ui/views/round_rect_painter.h"
+ #include "ui/views/view.h"
+ #include "ui/views/view_class_properties.h"
++#include "ui/views/widget/widget.h"
+ 
+ #if BUILDFLAG(IS_CHROMEOS)
+ #include "chromeos/constants/chromeos_features.h"
+ #endif  // BUILDFLAG(IS_CHROMEOS)
+ 
++#if BUILDFLAG(IS_MAC)
++#include "ui/views/controls/menu/menu_glass_mac.h"
++#endif
++
+ namespace views {
+ 
+ namespace {
+@@ -343,6 +348,11 @@ gfx::Size MenuScrollViewContainer::CalculatePreferredSize(
+ }
+ 
+ void MenuScrollViewContainer::OnPaintBackground(gfx::Canvas* canvas) {
++#if BUILDFLAG(IS_MAC)
++  if (GetWidget() && GetWidget()->GetProperty(kWrylingMenuGlass)) {
++    return;
++  }
++#endif
+   if (background()) {
+     View::OnPaintBackground(canvas);
+     return;
+@@ -375,6 +385,11 @@ void MenuScrollViewContainer::OnPaintBackground(gfx::Canvas* canvas) {
+ void MenuScrollViewContainer::OnThemeChanged() {
+   View::OnThemeChanged();
+   CreateBorder();
++#if BUILDFLAG(IS_MAC)
++  if (GetWidget() && GetWidget()->GetProperty(kWrylingMenuGlass)) {
++    InstallWrylingMenuGlass(GetWidget(), nullptr, this, GetCornerRadius());
++  }
++#endif
+ }
+ 
+ void MenuScrollViewContainer::OnBoundsChanged(
+@@ -382,6 +397,11 @@ void MenuScrollViewContainer::OnBoundsChanged(
+   // When the bounds on the MenuScrollViewContainer itself change, the scroll
+   // offset is always reset to 0, so always hide the scroll-up control, and only
+   // show the scroll-down control if it's going to be useful.
++#if BUILDFLAG(IS_MAC)
++  if (GetWidget() && GetWidget()->GetProperty(kWrylingMenuGlass)) {
++    InstallWrylingMenuGlass(GetWidget(), nullptr, this, GetCornerRadius());
++  }
++#endif
+   scroll_up_button_->SetVisible(false);
+   scroll_down_button_->SetVisible(content_view_->GetPreferredSize({}).height() >
+                                   GetContentsBounds().height());

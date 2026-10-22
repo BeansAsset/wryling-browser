@@ -4,6 +4,8 @@
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
 import * as React from 'react'
+import { installWrylingComponents } from '$web-common/wryling_components'
+import { ColorChangeUpdater } from 'chrome://resources/cr_components/color_change_listener/colors_css_updater.js'
 import { createRoot } from 'react-dom/client'
 import { Provider } from 'react-redux'
 import { setIconBasePath } from '@brave/leo/react/icon'
@@ -19,6 +21,8 @@ import { wireApiEventsToStore } from './apiEventsToStore'
 import store from './store'
 
 setIconBasePath('chrome://resources/brave-icons')
+void installWrylingComponents()
+ColorChangeUpdater.forDocument().start()
 
 // Let things handle 'init'
 store.dispatch(init())

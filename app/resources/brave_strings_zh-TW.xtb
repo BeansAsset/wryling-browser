@@ -101,7 +101,7 @@
 <translation id="2137162749895930932">關閉翻譯畫面</translation>
 <translation id="5789330946301045610">這個網站沒有使用安全連線，檔案可能已經遭人竄改，因此 Brave 已禁止下載</translation>
 <translation id="2170098639895543546">選取網頁上的任何內容</translation>
-<translation id="142389341645668510">自訂 Brave</translation>
+<translation id="9094133852008074140">自訂 Wryling</translation>
 <translation id="2174917724755363426">安裝作業尚未完成，確定要取消安裝嗎？</translation>
 <translation id="8745514854244955877">Brave - 網路登入 - <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">更新檢查錯誤：<ph name="UPDATE_CHECK_ERROR"/>。</translation>
@@ -200,7 +200,7 @@
 <translation id="3137969841538672700">拖曳即可搜尋</translation>
 <translation id="8372436892102763334">這個分頁使用的資源過多。為提升效能，請讓 Brave 將其設為閒置分頁。</translation>
 <translation id="5949068186379578553">如要分享螢幕內容，請前往「系統設定」允許 Brave 螢幕錄影</translation>
-<translation id="4805806622840861220">重新啟動 Brave</translation>
+<translation id="2036272753168211127">重新啟動 Wryling</translation>
 <translation id="3161522574479303604">所有語言</translation>
 <translation id="1742948938503172561">自訂新的 Brave 設定檔</translation>
 <translation id="2430807206104224491">你可以繼續與 AI 模式對話，不必切換分頁。登入 Brave 即可使用，密碼和其他資料也會同步到所有裝置。</translation>
@@ -234,7 +234,7 @@
 <translation id="8981774130895723211">如要分享螢幕內容，請前往「系統設定」允許 Brave 螢幕錄影。</translation>
 <translation id="2981961446160697133">強化防護會針對 Brave 無法辨識的網站關閉 JavaScript 最佳化功能</translation>
 <translation id="3597003331831379823">無法以進階權限執行設定。<ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">登入 Brave</translation>
+<translation id="5451434122049588189">登入 Wryling</translation>
 <translation id="3066805437003400520">這位使用者的瀏覽資料將從這個裝置上刪除。如要還原資料，請使用 <ph name="USER_EMAIL"/> 登入 Brave。</translation>
 <translation id="3667616615096815454">伺服器無法辨識應用程式，因此無法安裝。</translation>
 <translation id="1128485277465085828">使用<ph name="BEGIN_LINK"/>通關密語<ph name="END_LINK"/>加密 Brave 帳戶中的所有 Brave 資料。系統將不會加密你在 Google Pay 中的付款方式和地址，也不會同步 Brave 中的瀏覽記錄。</translation>
@@ -277,7 +277,7 @@
 <translation id="4055805654398742145">密碼管理工具(&amp;A)</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{根據貴機構規定，Brave 閒置 1 分鐘就會自動關閉。屆時系統將刪除瀏覽資料，當中可能包含歷史記錄、自動填入的資料和下載內容。}other{根據貴機構規定，Brave 閒置 # 分鐘就會自動關閉。屆時系統將刪除瀏覽資料，當中可能包含歷史記錄、自動填入的資料和下載內容。}}</translation>
 <translation id="5794951150713244901">前往「關於 Brave」頁面</translation>
-<translation id="10925962326134232">自訂 Brave，讓瀏覽器煥然一新</translation>
+<translation id="908722199085381104">自訂 Wryling，讓瀏覽器煥然一新</translation>
 <translation id="6596295505984504022">自訂 Brave(&amp;U)</translation>
 <translation id="4148957013307229264">正在安裝...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> - 網路登入 - Brave</translation>
@@ -379,7 +379,7 @@
 <translation id="5154625106151193600">瞭解 Brave 封鎖某些檔案的原因</translation>
 <translation id="1786715389543715322">正在更新 Brave (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">允許登入 Brave</translation>
-<translation id="5267531627648004734">從 Brave 中移除</translation>
+<translation id="6125790165673488794">從 Wryling 中移除</translation>
 <translation id="4620757336635063467">降低效能但提高 Brave 防範攻擊的能力</translation>
 <translation id="239760341987199724">將 Brave 設為預設瀏覽器</translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Brave Beta 版</translation>
@@ -556,7 +556,7 @@
 <translation id="7024536598735240744">解壓縮錯誤：<ph name="UNPACK_ERROR"/>。</translation>
 <translation id="280382502853897110">使用你專屬的 Brave</translation>
 <translation id="7047386856539490735">這些結果實用嗎？</translation>
-<translation id="1705567146636171298">更新 Brave</translation>
+<translation id="4469722898384489712">更新 Wryling</translation>
 <translation id="5499063270485366718">如果圖片缺少有用的說明，Brave 會嘗試為你提供說明。系統會將圖片傳送給 Brave，以便產生說明。</translation>
 <translation id="1196733835766994012">在 <ph name="DEVICE_TYPE"/> 上使用 Brave 應用程式，體驗強大的 AI 功能</translation>
 <translation id="7166289504510860270">使用手機版 Brave，密碼、分頁等資料隨身帶著走</translation>
@@ -762,7 +762,7 @@ Brave 無法復原你的設定。</translation>
 <translation id="8965179855019347124">使用手機版 Brave，體驗 Brave 最強大的 AI 工具</translation>
 <translation id="9049928023195059068">登入其他 Brave 服務時一併登入 Brave</translation>
 <translation id="4561046754724442504">Brave 已自動關閉</translation>
-<translation id="5173820533850252773">Brave 版本過舊</translation>
+<translation id="1523936557081546133">Wryling 版本過舊</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave 將在 1 小時後重新啟動}other{Brave 將在 # 小時後重新啟動}}</translation>
 <translation id="9106236359747881194">選取要搜尋的文字</translation>
 <translation id="5190991181158966940">如要取得日後的 Brave 更新，必須使用 Windows 10 以上版本。這部電腦目前版本為 Windows 8.1。</translation>
@@ -774,12 +774,12 @@ Brave 無法復原你的設定。</translation>
 <translation id="2444257125841652328">系統管理員已設定 Brave 開啟替代瀏覽器來存取 <ph name="TARGET_URL_HOSTNAME"/>。</translation>
 <translation id="7902365066753170041">重新啟動以更新 &amp;Brave</translation>
 <translation id="3350544518197210895">Brave (mDNS-In)</translation>
-<translation id="296137235951584143">享有個人化的 Brave 體驗</translation>
+<translation id="4578349172774307195">享有個人化的 Wryling 體驗</translation>
 <translation id="7977787072794666032">Brave 已不適用於 Windows XP 或 Windows Vista，因此可能無法正常運作</translation>
 <translation id="8462937515915443472">透過 Brave，隨時隨地享有 Brave 最頂尖的安全防護功能。</translation>
 <translation id="945522503751344254">提供意見</translation>
 <translation id="4484434718272972655">誰在使用 Brave？</translation>
-<translation id="7173394303099002355">獲得 Brave 最強大的安全防護</translation>
+<translation id="1158507424343802366">獲得 Wryling 最強大的安全防護</translation>
 <translation id="983803489796659991">更新伺服器沒有應用程式的任何雜湊資料，因此安裝失敗。</translation>
 <translation id="8435446479956716379">使用 Brave 但不登入帳戶</translation>
 <translation id="8992261409816268381">Brave Software Inc</translation>
@@ -807,6 +807,6 @@ Brave 無法復原你的設定。</translation>
               other {進階保護要求您重新啟動 Brave 以套用更新。您的 # 無痕視窗不會重新開啟。}}</translation>
 <translation id="5749154344207139683">請進行 1 分鐘的問卷調查，協助我們改善「無痕」服務。</translation>
 <translation id="79269250264141507">當您在網址列或搜尋方塊輸入內容時，Brave 會將您輸入的內容傳送至您的預設搜尋引擎，以便取得更好的建議。在無痕模式下會停用此功能。</translation>
-<translation id="2589970573128789862">Brave 隱私模式</translation>
+<translation id="2090681901335274465">Wryling 隱私模式</translation>
 <translation id="5994282802285556682">以私密模式瀏覽時，Brave 會在使用不安全連線載入網站前向您發出警告</translation>
 </translationbundle>

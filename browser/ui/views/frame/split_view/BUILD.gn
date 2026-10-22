@@ -15,6 +15,11 @@ source_set("split_view") {
     "brave_multi_contents_view_delegate_impl.h",
     "brave_multi_contents_view_mini_toolbar.cc",
     "brave_multi_contents_view_mini_toolbar.h",
+    "wryling_split_controller.cc",
+    "wryling_split_controller.h",
+    "wryling_split_drop.h",
+    "wryling_split_layout.cc",
+    "wryling_split_layout.h",
   ]
 
   deps = [
@@ -33,10 +38,18 @@ source_set("split_view") {
     "//chrome/browser/ui/views/frame:contents_web_view",
     "//chrome/browser/ui/views/frame:multi_contents_view_delegate",
     "//chrome/browser/ui/views/frame:scrim_view",
+    "//components/split_tabs",
+    "//components/tabs:public",
     "//ui/base/metadata",
     "//ui/compositor",
     "//ui/views",
   ]
+
+  if (is_mac) {
+    # Test-only drag replay (WRYLING_TEST_DRAG).
+    sources += [ "wryling_split_test_drag_mac.mm" ]
+    frameworks = [ "Cocoa.framework" ]
+  }
 
   if (enable_speedreader) {
     deps += [ "//brave/browser/ui/views/speedreader" ]

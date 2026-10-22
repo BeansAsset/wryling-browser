@@ -16,9 +16,7 @@ import { color, spacing } from '@brave/leo/tokens/css/variables';
 import { getLocale } from '$web-common/locale';
 import getNTPBrowserAPI from '../../api/background';
 
-const MenuContainer = styled(ButtonMenu).attrs({
-  'data-theme': 'light'
-})`
+const MenuContainer = styled(ButtonMenu)`
   position: absolute;
   top: calc(50% - 12px);
   right: -28px;
@@ -73,7 +71,7 @@ function Swapper() {
       setBoxPos(e.currentTarget.getBoundingClientRect().y)
     }}>
       <SearchBox />
-      <div data-theme="light">
+      <div>
         <MenuContainer>
           <MenuButton fab kind='plain-faint' slot='anchor-content'>
             <Icon name='more-vertical' />

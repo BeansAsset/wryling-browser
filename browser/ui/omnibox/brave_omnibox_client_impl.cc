@@ -9,6 +9,9 @@
 
 #include "base/check.h"
 #include "base/check_is_test.h"
+#include "brave/browser/ui/views/frame/wryling_command_bar.h"
+#include "build/build_config.h"
+#include "chrome/browser/ui/views/location_bar/location_bar_view.h"
 #include "brave/browser/autocomplete/brave_autocomplete_scheme_classifier.h"
 #include "brave/browser/misc_metrics/profile_misc_metrics_service.h"
 #include "brave/browser/misc_metrics/profile_misc_metrics_service_factory.h"
@@ -84,6 +87,7 @@ BraveOmniboxClientImpl::BraveOmniboxClientImpl(LocationBar* location_bar,
                                                Profile* profile)
     : ChromeOmniboxClient(location_bar, browser, profile),
       profile_(profile),
+      wryling_location_bar_(location_bar),
       search_engine_tracker_(
           SearchEngineTrackerFactory::GetForBrowserContext(profile)),
       scheme_classifier_(profile),
@@ -214,11 +218,27 @@ void BraveOmniboxClientImpl::OnAutocompleteAccept(
   }
 #endif
 
+#if BUILDFLAG(IS_MAC)
+  // Wryling: a choice made in the command bar (⌘T) opens in a new tab, and
+  // the bar closes.
+  WrylingCommandBar* command_bar = WrylingCommandBar::FromLocationBar(
+      static_cast<LocationBarView*>(wryling_location_bar_.get()));
+  if (command_bar && disposition == WindowOpenDisposition::CURRENT_TAB) {
+    disposition = WindowOpenDisposition::NEW_FOREGROUND_TAB;
+  }
+#endif
+
   ChromeOmniboxClient::OnAutocompleteAccept(
       destination_url, post_content, disposition, transition, match_type,
       match_selection_timestamp, destination_url_entered_without_scheme,
       destination_url_entered_with_http_scheme, text, match,
       alternative_nav_match);
+
+#if BUILDFLAG(IS_MAC)
+  if (command_bar) {
+    command_bar->HideSoon();
+  }
+#endif
 }
 
 void BraveOmniboxClientImpl::RecordSearchEventP3A() {

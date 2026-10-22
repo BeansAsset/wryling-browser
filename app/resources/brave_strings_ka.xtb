@@ -104,7 +104,7 @@
 <translation id="2137162749895930932">თარგმნის ეკრანის დახურვა</translation>
 <translation id="5789330946301045610">Brave-მა დაბლოკა ეს ჩამოტვირთვა, რადგან ეს საიტი არ იყენებს დაცულ კავშირს, ამიტომ ფაილი, შესაძლოა, მოდიფიცირებული იყოს</translation>
 <translation id="2170098639895543546">აირჩიეთ გვერდზე არსებული ნებისმიერი რამ</translation>
-<translation id="142389341645668510">Brave-ის მორგება</translation>
+<translation id="9094133852008074140">Wryling-ის მორგება</translation>
 <translation id="2174917724755363426">ინსტალაცია არ დასრულებულა. ნამდვილად გსურთ გაუქმება?</translation>
 <translation id="8745514854244955877">Brave — ქსელში შესვლა — <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">შეცდომა განახლების შემოწმებისასr: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -203,7 +203,7 @@
 <translation id="3137969841538672700">გადაათრიეთ მოსაძებნად</translation>
 <translation id="8372436892102763334">ეს ჩანართი დამატებით რესურსებს იყენებს. ეფექტურობის გაზრდის მიზნით, ნება დართეთ Brave-ს, ჩანართი უმოქმედო რეჟიმში გადაიტანოს.</translation>
 <translation id="5949068186379578553">თქვენი ეკრანის გასაზიარებლად დაუშვით ეკრანის ჩაწერა Brave-ისთვის სისტემის პარამეტრებში</translation>
-<translation id="4805806622840861220">Brave-ის ხელახლა გაშვება</translation>
+<translation id="2036272753168211127">Wryling-ის ხელახლა გაშვება</translation>
 <translation id="3161522574479303604">ყველა ენა</translation>
 <translation id="1742948938503172561">მოირგეთ თქვენი ახალი Brave პროფილი</translation>
 <translation id="2430807206104224491">შეგიძლიათ, განაგრძოთ ჩეთი ხელოვნური ინტელექტის რეჟიმში ჩანართების გადართვის გარეშე. დასაწყებად შედით Brave-ში. თქვენს ყველა მოწყობილობაში მიიღებთ პაროლებსა და სხვა მონაცემებს.</translation>
@@ -237,7 +237,7 @@
 <translation id="8981774130895723211">თქვენი ეკრანის გასაზიარებლად დაუშვით ეკრანის ჩაწერა Brave-ისთვის სისტემის პარამეტრებში.</translation>
 <translation id="2981961446160697133">გაძლიერებული დაცვა თიშავს JavaScript-ის ოპტიმიზაციას იმ საიტებისთვის, რომლებსაც Brave ვერ ამოიცნობს</translation>
 <translation id="3597003331831379823">მაღალი პრივილეგიებით დაყენების გაშვება ვერ მოხერხდა. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Brave-ში შესვლა</translation>
+<translation id="5451434122049588189">Wryling-ში შესვლა</translation>
 <translation id="3066805437003400520">ამ პიროვნების დათვალიერების მონაცემები წაიშლება ამ მოწყობილობიდან. მონაცემების აღსადგენად შედით Brave-ში, როგორც <ph name="USER_EMAIL"/>.</translation>
 <translation id="3667616615096815454">ინსტალაცია ვერ მოხერხდა, რადგან აპლიკაცია სერვერისთვის ცნობილი არ არის.</translation>
 <translation id="1128485277465085828">გამოიყენეთ თქვენი <ph name="BEGIN_LINK"/>საკუთარი საიდუმლო ფრაზა<ph name="END_LINK"/> თქვენს Brave ანგარიშში შენახული Brave-ის ყველა მონაცემის დაშიფვრისთვის. Google Pay-ში არსებული გადახდის მეთოდები და მისამართები არ დაიშიფრება. Brave-ში არსებული დათვალიერების ისტორია არ სინქრონიზდება.</translation>
@@ -280,7 +280,7 @@
 <translation id="4055805654398742145">პ&amp;აროლების მმართველი</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{თქვენი ორგანიზაცია ავტომატურად ხურავს Brave-ს, როცა ის 1 წუთის განმავლობაში არ გამოიყენება. დათვალიერების მონაცემები წაიშლება. აღნიშნული, შესაძლოა, მოიცავდეს ისტორიას, ავტომატური შევსების მონაცემებსა და ჩამოტვირთვებს.}other{თქვენი ორგანიზაცია ავტომატურად ხურავს Brave-ს, როცა ის # წუთის განმავლობაში არ გამოიყენება. დათვალიერების მონაცემები წაიშლება. აღნიშნული, შესაძლოა, მოიცავდეს ისტორიას, ავტომატური შევსების მონაცემებსა და ჩამოტვირთვებს.}}</translation>
 <translation id="5794951150713244901">Brave-ის შესახებ ინფორმაციის გვერდზე გადასვლა</translation>
-<translation id="10925962326134232">მოირგეთ Brave — შესძინეთ მას ახალი იერი</translation>
+<translation id="908722199085381104">მოირგეთ Wryling — შესძინეთ მას ახალი იერი</translation>
 <translation id="6596295505984504022">თქვენი Brave-ის მორგება</translation>
 <translation id="4148957013307229264">ინსტალაცია…</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> — ქსელში შესვლა — Brave</translation>
@@ -382,7 +382,7 @@
 <translation id="5154625106151193600">შეიტყვეთ, რატომ ბლოკავს Brave ზოგიერთ ფაილს</translation>
 <translation id="1786715389543715322">მიმდინარეობს Brave-ის განახლება (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Brave-ში შესვლის დაშვება</translation>
-<translation id="5267531627648004734">Brave-იდან ამოღება</translation>
+<translation id="6125790165673488794">Wryling-იდან ამოღება</translation>
 <translation id="4620757336635063467">ამცირებს წარმადობას, თუმცა Brave შეტევების წინაშე უფრო მდგრადი იქნება</translation>
 <translation id="239760341987199724">დააყენეთ Brave ნაგულისხმევ ბრაუზერად</translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> — Brave Beta</translation>
@@ -561,7 +561,7 @@
 <translation id="7024536598735240744">შეცდომა ამოღებისას: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">მოირგეთ Brave</translation>
 <translation id="7047386856539490735">გამოგადგათ ეს შედეგები?</translation>
-<translation id="1705567146636171298">განაახლეთ Brave</translation>
+<translation id="4469722898384489712">განაახლეთ Wryling</translation>
 <translation id="5499063270485366718">თუ სურათს არ ექნება სასარგებლო აღწერილობა, Brave შეეცდება მის უზრუნველყოფას. აღწერილობების შესაქმნელად სურათები იგზავნება Brave-ში.</translation>
 <translation id="1196733835766994012">მიიღეთ ხელოვნური ინტელექტის შესაძლებლობები, როცა Brave აპს იყენებთ თქვენს <ph name="DEVICE_TYPE"/>-ზე</translation>
 <translation id="7166289504510860270">თქვენი პაროლები, ჩანართები და სხვა მონაცემები მუდამ თქვენთანაა Brave აპით თქვენს ტელეფონში</translation>
@@ -767,7 +767,7 @@ Brave ვერ შეძლებს თქვენი პარამეტ�
 <translation id="8965179855019347124">გამოიყენეთ Brave-ის საუკეთესო AI ხელსაწყოები Brave აპით თქვენს ტელეფონში</translation>
 <translation id="9049928023195059068">შედით Brave-ში, როცა Brave-ის სხვა სერვისებში შედიხართ</translation>
 <translation id="4561046754724442504">Brave ავტომატურად დაიხურა</translation>
-<translation id="5173820533850252773">Brave მოძველდა</translation>
+<translation id="1523936557081546133">Wryling მოძველდა</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave ხელახლა გაეშვება 1 საათში}other{Brave ხელახლა გაეშვება # საათში}}</translation>
 <translation id="9106236359747881194">მონიშნეთ ტექსტი მოსაძებნად</translation>
 <translation id="5190991181158966940">Brave-ის მომავალი განახლებების მისაღებად დაგჭირდებათ Windows 10 ან უფრო ახალი ვერსია. ეს კომპიუტერი იყენებს Windows 8.1-ს.</translation>
@@ -779,12 +779,12 @@ Brave ვერ შეძლებს თქვენი პარამეტ�
 <translation id="2444257125841652328">თქვენი სისტემის ადმინისტრატორმა მოახდინა Brave-ის კონფიგურაცია იმგვარად, რომ <ph name="TARGET_URL_HOSTNAME"/>-ზე წვდომისთვის საჭიროა ალტერნატიული ბრაუზერის გახსნა.</translation>
 <translation id="7902365066753170041">ხელახლა გაშვება &amp;Brave-ის გასაახლებლად</translation>
 <translation id="3350544518197210895">Brave (mDNS-In)</translation>
-<translation id="296137235951584143">მოირგეთ Brave</translation>
+<translation id="4578349172774307195">მოირგეთ Wryling</translation>
 <translation id="7977787072794666032">Brave-მა შეიძლება არასწორად იმუშაოს, რადგან ის აღარ არის მხარდაჭერილი Windows XP-სა და Windows Vista-ზე</translation>
 <translation id="8462937515915443472">მიიღეთ Brave-ის უსაფრთხოების საუკეთესო ფუნქციები გზაში Brave-ის მეშვეობით.</translation>
 <translation id="945522503751344254">შეფასების გაგზავნა</translation>
 <translation id="4484434718272972655">ვინ იყენებს Brave-ს?</translation>
-<translation id="7173394303099002355">ისარგებლეთ Brave-ის უსაფრთხოების ყველაზე ძლიერი ფუნქციებით</translation>
+<translation id="1158507424343802366">ისარგებლეთ Wryling-ის უსაფრთხოების ყველაზე ძლიერი ფუნქციებით</translation>
 <translation id="983803489796659991">ინსტალაცია ვერ მოხერხდა, რადგან განახლების სერვერს არ აქვს ამ აპლიკაციის ჰეშ-მონაცემები.</translation>
 <translation id="8435446479956716379">Brave-ის გამოყენება ანგარიშის გარეშე</translation>
 <translation id="8992261409816268381">Brave-ის ავტორები</translation>
@@ -821,6 +821,6 @@ other {Brave-ის განახლებული ვერსია უკ�
               other {გაფართოებული დაცულობისთვის საჭიროა Brave-ის გადატვირთვა განახლების შესატანად. თქვენი # პირადი ფანჯარა თავიდან აღარ გაიხსნება.}}</translation>
 <translation id="5749154344207139683">დაგვეხმარეთ Private-ის გაუმჯობესებაში — შეავსეთ ეს 1 წუთიანი კითხვარი.</translation>
 <translation id="79269250264141507">მისამართის ან საძიებო ველში აკრეფილ ტექსტს Brave თქვენს ნაგულისხმევ საძიებო სისტემაში აგზავნის, რათა უკეთესი შეთავაზებები მიიღოთ. პირად რეჟიმში ეს ფუნქცია ავტომატურად გათიშულია.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
+<translation id="2090681901335274465">Wryling Private</translation>
 <translation id="5994282802285556682">როდესაც ბრაუზინგს კონფიდენციალურ რეჟიმში ახორციელებთ, Brave წინასწარ შეგატყობინებთ, თუკი საიტი საეჭვო კავშირზე ცდილობს ჩატვირთვას</translation>
 </translationbundle>

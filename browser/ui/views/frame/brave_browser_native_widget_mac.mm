@@ -9,6 +9,7 @@
 #include "brave/app/brave_command_ids.h"
 #include "brave/browser/ui/tabs/brave_tab_prefs.h"
 #include "brave/browser/ui/tabs/public/vertical_tab_controller.h"
+#include "brave/browser/ui/views/toolbar/brave_toolbar_view.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/layout_constants.h"
 #include "chrome/browser/ui/tabs/features.h"
@@ -16,6 +17,7 @@
 #include "chrome/browser/ui/views/frame/browser_view.h"
 #include "chrome/browser/ui/views/toolbar/toolbar_view.h"
 #include "chrome/browser/ui/views/web_apps/frame_toolbar/web_app_frame_toolbar_utils.h"
+#include "ui/views/view_utils.h"
 #include "components/prefs/pref_service.h"
 #include "components/remote_cocoa/common/native_widget_ns_window_host.mojom.h"
 
@@ -37,6 +39,13 @@ void BraveBrowserNativeWidgetMac::GetWindowFrameTitlebarHeight(
       if (!vtc->ShouldShowWindowTitleForVerticalTabs()) {
         // In this case, titlebar height should be the same as toolbar height.
         *titlebar_height = browser_view->toolbar()->GetPreferredSize().height();
+        // Wryling: in the sidebar the toolbar has two rows; centre the window
+        // buttons on the first.
+        if (auto* brave_toolbar =
+                views::AsViewClass<BraveToolbarView>(browser_view->toolbar());
+            brave_toolbar && brave_toolbar->IsInWrylingSidebar()) {
+          *titlebar_height = brave_toolbar->GetWrylingTitlebarHeight();
+        }
         *override_titlebar_height = true;
         return;
       }

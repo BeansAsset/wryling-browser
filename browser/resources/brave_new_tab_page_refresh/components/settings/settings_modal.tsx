@@ -6,8 +6,6 @@
 import * as React from 'react'
 import Dialog from '@brave/leo/react/dialog'
 import Icon from '@brave/leo/react/icon'
-import Navigation from '@brave/leo/react/navigation'
-import NavigationItem from '@brave/leo/react/navigationItem'
 
 import { useBraveNews } from '../../../../../components/brave_news/browser/resources/shared/Context'
 
@@ -18,6 +16,7 @@ import { SearchPanel } from './search_panel'
 import { TopSitesPanel } from './top_sites_panel'
 import { ClockPanel } from './clock_panel'
 import { WidgetsPanel } from './widgets_panel'
+import { isWrylingHome } from '../wryling_dashboard/home'
 import { getString } from '../../lib/strings'
 import { useAnimatedResize } from '../../lib/animated_resize'
 
@@ -67,6 +66,11 @@ export function SettingsModal(props: Props) {
         return searchFeatureEnabled
       case 'news':
         return newsFeatureEnabled
+      // Wryling: on a space's Home tab the dashboard replaces top sites and
+      // cards.
+      case 'top-sites':
+      case 'widgets':
+        return !isWrylingHome()
       default:
         return true
     }
@@ -132,9 +136,13 @@ export function SettingsModal(props: Props) {
     if (!shouldShowView(view)) {
       return null
     }
+    // Wryling: a macOS source list (inset rounded rows, tinted selection)
+    // rather than Leo's navigation items.
+    const current = view === currentView
     return (
-      <NavigationItem
-        isCurrent={view === currentView}
+      <button
+        className={current ? 'nav-row selected' : 'nav-row'}
+        aria-current={current ? 'page' : undefined}
         onClick={() => {
           if (view === 'news') {
             braveNews.setCustomizePage('news')
@@ -144,8 +152,8 @@ export function SettingsModal(props: Props) {
         }}
       >
         {getNavItemIcon(view)}
-        {getNavItemText(view)}
-      </NavigationItem>
+        <span>{getNavItemText(view)}</span>
+      </button>
     )
   }
 
@@ -163,14 +171,14 @@ export function SettingsModal(props: Props) {
         >
           <nav>
             <h4>{getString(S.NEW_TAB_SETTINGS_TITLE)}</h4>
-            <Navigation>
+            <div className='nav-list'>
               {renderNavItem('background')}
               {renderNavItem('search')}
               {renderNavItem('top-sites')}
               {renderNavItem('news')}
               {renderNavItem('clock')}
               {renderNavItem('widgets')}
-            </Navigation>
+            </div>
           </nav>
           <section>
             <div>{renderPanel()}</div>

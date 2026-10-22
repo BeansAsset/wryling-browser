@@ -102,7 +102,7 @@ Certaines fonctionnalités ne seront peut-être pas disponibles, et les modifica
 <translation id="2137162749895930932">Fermer l'écran de traduction</translation>
 <translation id="5789330946301045610">Brave a bloqué ce téléchargement, car le site n'utilise pas une connexion sécurisée et le fichier a peut-être été altéré</translation>
 <translation id="2170098639895543546">Sélectionnez n'importe quel élément sur la page</translation>
-<translation id="142389341645668510">Personnaliser Brave</translation>
+<translation id="9094133852008074140">Personnaliser Wryling</translation>
 <translation id="2174917724755363426">Installation non terminée. Voulez-vous vraiment annuler ?</translation>
 <translation id="8745514854244955877">Brave - Connexion au réseau - <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">Erreur lors de la recherche de mises à jour : <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -201,7 +201,7 @@ Certaines fonctionnalités ne seront peut-être pas disponibles, et les modifica
 <translation id="3137969841538672700">Faire glisser pour rechercher</translation>
 <translation id="8372436892102763334">Cet onglet utilise des ressources supplémentaires. Pour améliorer les performances, autorisez Brave à le désactiver.</translation>
 <translation id="5949068186379578553">Pour partager votre écran, autorisez l'enregistrement d'écran pour Brave dans les réglages système</translation>
-<translation id="4805806622840861220">Relancer Brave</translation>
+<translation id="2036272753168211127">Relancer Wryling</translation>
 <translation id="3161522574479303604">Toutes les langues</translation>
 <translation id="1742948938503172561">Personnalisez votre nouveau profil Brave</translation>
 <translation id="2430807206104224491">Vous pouvez continuer à discuter en Mode IA sans changer d'onglet. Pour commencer, connectez-vous à Brave. Vous pourrez également accéder à vos mots de passe et à d'autres données sur tous vos appareils.</translation>
@@ -235,7 +235,7 @@ Certaines fonctionnalités ne seront peut-être pas disponibles, et les modifica
 <translation id="8981774130895723211">Pour partager votre écran, autorisez l'enregistrement d'écran pour Brave dans les réglages système.</translation>
 <translation id="2981961446160697133">La protection renforcée désactive l'optimisation JavaScript pour les sites que Brave ne reconnaît pas</translation>
 <translation id="3597003331831379823">Échec de l'exécution de la configuration avec des droits élevés. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Connectez-vous à Brave</translation>
+<translation id="5451434122049588189">Connectez-vous à Wryling</translation>
 <translation id="3066805437003400520">Les données de navigation de cet utilisateur vont être supprimées de cet appareil. Pour les récupérer, connectez-vous à Brave en tant que <ph name="USER_EMAIL"/>.</translation>
 <translation id="3667616615096815454">Installation impossible. Le serveur ne reconnaît pas l'appli.</translation>
 <translation id="1128485277465085828">Utiliser votre <ph name="BEGIN_LINK"/>propre phrase secrète<ph name="END_LINK"/> pour chiffrer toutes les données Brave de votre compte Brave. Les adresses et les modes de paiement Brave Pay ne seront pas chiffrés. L'historique de navigation de Brave ne sera pas synchronisé.</translation>
@@ -278,7 +278,7 @@ Certaines fonctionnalités ne seront peut-être pas disponibles, et les modifica
 <translation id="4055805654398742145">Gestionnaire de mots de p&amp;asse</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Votre organisation ferme automatiquement Brave lorsqu'il n'est pas utilisé pendant 1 minute. Les données de navigation sont supprimées. Il peut s'agir de l'historique, de la saisie automatique et des téléchargements.}one{Votre organisation ferme automatiquement Brave lorsqu'il n'est pas utilisé pendant # minute. Les données de navigation sont supprimées. Il peut s'agir de l'historique, de la saisie automatique et des téléchargements.}other{Votre organisation ferme automatiquement Brave lorsqu'il n'est pas utilisé pendant # minutes. Les données de navigation sont supprimées. Il peut s'agir de l'historique, de la saisie automatique et des téléchargements.}}</translation>
 <translation id="5794951150713244901">Accéder à la page "À propos de Brave"</translation>
-<translation id="10925962326134232">Personnalisez Brave pour donner un nouveau look à votre navigateur</translation>
+<translation id="908722199085381104">Personnalisez Wryling pour donner un nouveau look à votre navigateur</translation>
 <translation id="6596295505984504022">P&amp;ersonnaliser Brave</translation>
 <translation id="4148957013307229264">Installation...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> - Connexion au réseau - Brave</translation>
@@ -380,7 +380,7 @@ Certaines fonctionnalités ne seront peut-être pas disponibles, et les modifica
 <translation id="5154625106151193600">Découvrez pourquoi Brave bloque certains fichiers</translation>
 <translation id="1786715389543715322">Mise à jour de Brave (<ph name="PROGRESS_PERCENT"/>)…</translation>
 <translation id="7021823858304886493">Autoriser la connexion à Brave</translation>
-<translation id="5267531627648004734">Supprimer de Brave</translation>
+<translation id="6125790165673488794">Supprimer de Wryling</translation>
 <translation id="4620757336635063467">Réduit les performances, mais rend Brave plus résistant aux attaques</translation>
 <translation id="239760341987199724">Définir Brave comme navigateur par défaut</translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> – Brave Bêta</translation>
@@ -559,7 +559,7 @@ Vous ne pourrez pas enregistrer de nouveaux favoris dans votre compte tant que v
 <translation id="7024536598735240744">Erreur de décompression : <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">Personnalisez Brave</translation>
 <translation id="7047386856539490735">Ces résultats sont-ils utiles ?</translation>
-<translation id="1705567146636171298">Mettre à jour Brave</translation>
+<translation id="4469722898384489712">Mettre à jour Wryling</translation>
 <translation id="5499063270485366718">Si une image n'est pas accompagnée d'une description utile, Brave essaiera de vous en proposer une. Pour nous permettre de créer des descriptions, les images sont envoyées à Brave.</translation>
 <translation id="1196733835766994012">Profitez pleinement de la puissance de l'IA lorsque vous utilisez l'appli Brave sur votre <ph name="DEVICE_TYPE"/></translation>
 <translation id="7166289504510860270">Accédez à vos mots de passe, vos onglets et plus, même en déplacement, avec l'appli Brave sur votre téléphone</translation>
@@ -765,7 +765,7 @@ Brave ne peut pas récupérer vos paramètres.</translation>
 <translation id="8965179855019347124">Utilisez les meilleurs outils IA de Brave avec l'appli Brave sur votre téléphone</translation>
 <translation id="9049928023195059068">Se connecter à Brave lorsque vous vous connectez aux autres services Brave</translation>
 <translation id="4561046754724442504">Brave a été fermé automatiquement</translation>
-<translation id="5173820533850252773">Version de Brave obsolète</translation>
+<translation id="1523936557081546133">Version de Wryling obsolète</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave va être relancé dans une heure}one{Brave va être relancé dans # heure}other{Brave va être relancé dans # heures}}</translation>
 <translation id="9106236359747881194">Sélectionner le texte à rechercher</translation>
 <translation id="5190991181158966940">Pour recevoir les futures mises à jour de Brave, vous devez disposer de Windows 10 ou d'une version ultérieure. Cet ordinateur utilise Windows 8.1.</translation>
@@ -777,12 +777,12 @@ Brave ne peut pas récupérer vos paramètres.</translation>
 <translation id="2444257125841652328">Votre administrateur système a configuré Brave pour que <ph name="TARGET_URL_HOSTNAME"/> s'ouvre dans un autre navigateur.</translation>
 <translation id="7902365066753170041">Relancer et mettre à jour &amp;Brave</translation>
 <translation id="3350544518197210895">Brave (mDNS-In)</translation>
-<translation id="296137235951584143">Personnaliser Brave</translation>
+<translation id="4578349172774307195">Personnaliser Wryling</translation>
 <translation id="7977787072794666032">Brave risque de ne pas fonctionner correctement, car la compatibilité n'est plus assurée sur Windows XP et Windows Vista</translation>
 <translation id="8462937515915443472">Profitez des meilleures fonctionnalités de sécurité de Brave où que vous soyez grâce à Brave.</translation>
 <translation id="945522503751344254">Envoyer un commentaire</translation>
 <translation id="4484434718272972655">Qui utilise Brave ?</translation>
-<translation id="7173394303099002355">Renforcer la sécurité de Brave</translation>
+<translation id="1158507424343802366">Renforcer la sécurité de Wryling</translation>
 <translation id="983803489796659991">Échec de l'installation, car le serveur de mise à jour ne dispose d'aucune donnée de hachage pour l'application.</translation>
 <translation id="8435446479956716379">Utiliser Brave sans compte</translation>
 <translation id="8992261409816268381">Auteurs de Brave</translation>
@@ -810,6 +810,6 @@ Brave ne peut pas récupérer vos paramètres.</translation>
               other{Vous devez relancer Brave pour installer une mise à jour. Vos # fenêtres de navigation privée ne seront pas rouvertes.}}</translation>
 <translation id="5749154344207139683">Aidez-nous à améliorer le mode de navigation privée en répondant à cette courte enquête.</translation>
 <translation id="79269250264141507">Lorsque vous tapez dans la barre d'adresse ou la zone de recherche, Brave envoie ce que vous saisissez à votre moteur de recherche par défaut pour obtenir de meilleures suggestions. Cette fonctionnalité est désactivée en mode de navigation privée.</translation>
-<translation id="2589970573128789862">Navigation privée Brave</translation>
+<translation id="2090681901335274465">Navigation privée Wryling</translation>
 <translation id="5994282802285556682">Lorsque vous naviguerez en mode privé, Brave vous avertira avant de charger un site via une connexion non sécurisée</translation>
 </translationbundle>

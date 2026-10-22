@@ -1,8 +1,20 @@
 diff --git a/chrome/browser/ui/views/omnibox/rounded_omnibox_results_frame.cc b/chrome/browser/ui/views/omnibox/rounded_omnibox_results_frame.cc
-index 4d5b3f6dd0b2abeaaffa2f4781cb9a1adbd1528d..b440aa83d9ebd861113c40fff28fcb0acc7aa36b 100644
+index 4d5b3f6dd0b2abeaaffa2f4781cb9a1adbd1528d..3c4bce073520daf0040573c5be1604256c42df04 100644
 --- a/chrome/browser/ui/views/omnibox/rounded_omnibox_results_frame.cc
 +++ b/chrome/browser/ui/views/omnibox/rounded_omnibox_results_frame.cc
-@@ -236,7 +236,7 @@ RoundedOmniboxResultsFrame::RoundedOmniboxResultsFrame(
+@@ -56,6 +56,11 @@ views::Widget* GetImmersiveFullscreenWidgetForEvent(
+   const views::Widget* parent_widget = this_view->GetWidget()->parent();
+   BrowserView* browser_view = BrowserView::GetBrowserViewForNativeWindow(
+       parent_widget->GetNativeWindow());
++  // Wryling: the results can belong to the command bar's own window, which
++  // isn't a browser window (and never immersive fullscreen).
++  if (!browser_view) {
++    return nullptr;
++  }
+ 
+   // If the results window is not a child of the overlay widget we are not in
+   // immersive fullscreen.
+@@ -236,7 +241,7 @@ RoundedOmniboxResultsFrame::RoundedOmniboxResultsFrame(
      bool forward_mouse_events)
      : contents_(contents), forward_mouse_events_(forward_mouse_events) {
    const int corner_radius = views::LayoutProvider::Get()->GetCornerRadiusMetric(
@@ -11,7 +23,7 @@ index 4d5b3f6dd0b2abeaaffa2f4781cb9a1adbd1528d..b440aa83d9ebd861113c40fff28fcb0a
    auto* webui_content = GetOmniboxPopupWebUIBaseContent();
    const bool masks_to_bounds =
        webui_content && webui_content->ShouldSizeWebViewToPreferredHeight();
-@@ -366,7 +366,7 @@ void RoundedOmniboxResultsFrame::SetCutoutVisibility(bool visible) {
+@@ -366,7 +371,7 @@ void RoundedOmniboxResultsFrame::SetCutoutVisibility(bool visible) {
  
  void RoundedOmniboxResultsFrame::SetElevation(int elevation) {
    const int corner_radius = views::LayoutProvider::Get()->GetCornerRadiusMetric(

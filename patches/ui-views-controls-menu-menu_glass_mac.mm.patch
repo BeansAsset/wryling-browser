@@ -1,0 +1,125 @@
+diff --git a/ui/views/controls/menu/menu_glass_mac.mm b/ui/views/controls/menu/menu_glass_mac.mm
+new file mode 100644
+index 0000000000000000000000000000000000000000..6e9f2742630e2ce1770381c715c572455f320901
+--- /dev/null
++++ b/ui/views/controls/menu/menu_glass_mac.mm
+@@ -0,0 +1,119 @@
++// Copyright 2026 The Chromium Authors
++// Use of this source code is governed by a BSD-style license that can be
++// found in the LICENSE file.
++
++#include "ui/views/controls/menu/menu_glass_mac.h"
++
++#import <AppKit/AppKit.h>
++
++#include <cmath>
++
++#include "ui/color/color_id.h"
++#include "ui/color/color_provider.h"
++#include "ui/compositor/layer.h"
++#include "ui/gfx/color_utils.h"
++#include "ui/gfx/geometry/rect.h"
++#include "ui/views/controls/label.h"
++#include "ui/views/controls/menu/menu_scroll_view_container.h"
++#include "ui/views/view.h"
++#include "ui/views/view_utils.h"
++#include "ui/views/widget/widget.h"
++
++API_AVAILABLE(macos(26.0))
++@interface WrylingMenuGlassView : NSGlassEffectView
++@end
++
++@implementation WrylingMenuGlassView
++- (NSView*)hitTest:(NSPoint)point {
++  return nil;
++}
++@end
++
++namespace views {
++DEFINE_UI_CLASS_PROPERTY_KEY(bool, kWrylingMenuGlass, false)
++
++namespace {
++// Reuse the native panel's tint, including the user's live tint strength.
++NSColor* FindMatchingTint(NSView* view, SkColor tint) API_AVAILABLE(macos(26.0)) {
++  if ([view isKindOfClass:[NSGlassEffectView class]]) {
++    NSColor* color = [static_cast<NSGlassEffectView*>(view).tintColor
++        colorUsingColorSpace:NSColorSpace.sRGBColorSpace];
++    if (color && std::abs(color.redComponent - SkColorGetR(tint) / 255.0) < .01 &&
++        std::abs(color.greenComponent - SkColorGetG(tint) / 255.0) < .01 &&
++        std::abs(color.blueComponent - SkColorGetB(tint) / 255.0) < .01) {
++      return color;
++    }
++  }
++  for (NSView* child in view.subviews) {
++    if (NSColor* color = FindMatchingTint(child, tint)) {
++      return color;
++    }
++  }
++  return nil;
++}
++
++void PrepareTransparentViews(View* view) {
++  if (auto* label = AsViewClass<Label>(view)) {
++    label->SetSubpixelRenderingEnabled(false);
++  }
++  if (view->layer()) {
++    view->layer()->SetFillsBoundsOpaquely(false);
++  }
++  for (View* child : view->children()) {
++    PrepareTransparentViews(child);
++  }
++}
++}  // namespace
++
++bool InstallWrylingMenuGlass(Widget* menu,
++                             Widget* context,
++                             MenuScrollViewContainer* container,
++                             float corner_radius) {
++  if (@available(macOS 26, *)) {
++    if (NSWorkspace.sharedWorkspace.accessibilityDisplayShouldReduceTransparency) {
++      return false;
++    }
++    gfx::Rect content_bounds =
++        container->ConvertRectToWidget(container->GetLocalBounds());
++    content_bounds.Inset(container->outside_border_insets());
++    NSWindow* window = menu->GetNativeWindow().GetNativeNSWindow();
++    NSView* content = window.contentView;
++    if (!content || content_bounds.IsEmpty()) {
++      return false;
++    }
++    WrylingMenuGlassView* glass = nil;
++    for (NSView* child in content.subviews) {
++      if ([child isKindOfClass:[WrylingMenuGlassView class]]) {
++        glass = static_cast<WrylingMenuGlassView*>(child);
++        break;
++      }
++    }
++    if (!glass) {
++      glass = [[WrylingMenuGlassView alloc] initWithFrame:NSZeroRect];
++      glass.identifier = @"WrylingMenuGlass";
++      glass.style = NSGlassEffectViewStyleRegular;
++      [content addSubview:glass positioned:NSWindowBelow relativeTo:nil];
++    }
++    glass.frame = NSMakeRect(content_bounds.x(),
++                            NSHeight(content.bounds) - content_bounds.bottom(),
++                            content_bounds.width(), content_bounds.height());
++    glass.autoresizingMask = NSViewWidthSizable | NSViewHeightSizable;
++    glass.cornerRadius = corner_radius;
++    const SkColor tint = menu->GetColorProvider()->GetColor(ui::kColorMenuBackground);
++    NSWindow* context_window = context
++        ? context->GetNativeWindow().GetNativeNSWindow() : window.parentWindow;
++    NSColor* native_tint = FindMatchingTint(context_window.contentView, tint);
++    glass.tintColor = native_tint ?: [NSColor
++        colorWithSRGBRed:SkColorGetR(tint) / 255.0
++                   green:SkColorGetG(tint) / 255.0
++                    blue:SkColorGetB(tint) / 255.0
++                   alpha:glass.tintColor ? glass.tintColor.alphaComponent : 0.5];
++    glass.appearance = [NSAppearance appearanceNamed:color_utils::IsDark(tint)
++        ? NSAppearanceNameDarkAqua : NSAppearanceNameAqua];
++    PrepareTransparentViews(menu->GetRootView());
++    menu->SetProperty(kWrylingMenuGlass, true);
++    return true;
++  }
++  return false;
++}
++}  // namespace views

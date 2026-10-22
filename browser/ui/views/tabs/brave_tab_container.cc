@@ -5,6 +5,8 @@
 
 #include "brave/browser/ui/views/tabs/brave_tab_container.h"
 
+#include "brave/browser/ui/spaces/wryling_spaces_hooks.h"
+
 #include <algorithm>
 #include <initializer_list>
 #include <memory>
@@ -492,6 +494,10 @@ void BraveTabContainer::PaintBoundingBoxForSplitTabs(gfx::Canvas& canvas) {
   base::flat_set<split_tabs::SplitTabId> split_tab_ids;
   for (int i = 0; i < GetTabCount(); ++i) {
     Tab* tab = GetTabAtModelIndex(i);
+    // Wryling Spaces: splits of another space aren't shown.
+    if (wryling::IsTabHiddenBySpace(tab->tab_handle().Get())) {
+      continue;
+    }
     if (!tab->split().has_value()) {
       continue;
     }
@@ -508,35 +514,39 @@ void BraveTabContainer::PaintBoundingBoxForSplitTabs(gfx::Canvas& canvas) {
 
   for (const auto& id : split_tab_ids) {
     auto tabs = tab_strip_model->GetSplitData(id)->ListTabs();
-    CHECK(tabs.size() == 2);
-    PaintBoundingBoxForSplitTab(canvas,
-                                {tab_strip_model->GetIndexOfTab(tabs[0]),
-                                 tab_strip_model->GetIndexOfTab(tabs[1])});
+    CHECK(tabs.size() >= 2);  // Wryling: up to four.
+    std::vector<int> indices;
+    for (auto* split_tab : tabs) {
+      indices.push_back(tab_strip_model->GetIndexOfTab(split_tab));
+    }
+    PaintBoundingBoxForSplitTab(canvas, indices);
   }
 }
 
 void BraveTabContainer::PaintBoundingBoxForSplitTab(
     gfx::Canvas& canvas,
     const std::vector<int>& indices) {
-  CHECK(indices.size() == 2);
+  CHECK(indices.size() >= 2);  // Wryling: up to four.
 
   gfx::Rect bounding_rects;
-  auto* tab1 = GetTabAtModelIndex(indices[0]);
-  auto* tab2 = GetTabAtModelIndex(indices[1]);
+  std::vector<Tab*> split_tabs;
+  for (int index : indices) {
+    split_tabs.push_back(GetTabAtModelIndex(index));
+  }
+  Tab* tab1 = split_tabs.front();
 
   const bool is_vertical_tab = ShouldShowVerticalTabs();
 
   gfx::ScopedCanvas scoped_canvas(&canvas);
   if (is_vertical_tab && !tab1->data().pinned) {
-    // We assume paired split tabs are both unpinned or both pinned.
-    CHECK(!tab2->data().pinned);
+    // We assume tabs in a split are all unpinned or all pinned.
     // clip canvas to avoid painting split tab bounding box in pinned tabs area
     const auto pinned_tabs_area_bottom = GetPinnedTabsAreaBottom();
     canvas.ClipRect(gfx::Rect(0, pinned_tabs_area_bottom, size().width(),
                               size().height() - pinned_tabs_area_bottom));
   }
 
-  for (auto tab : {tab1, tab2}) {
+  for (auto* tab : split_tabs) {
     bounding_rects.Union(tab->bounds());
   }
 
@@ -554,6 +564,7 @@ void BraveTabContainer::PaintBoundingBoxForSplitTab(
   DCHECK(cp);
 
   cc::PaintFlags flags;
+  flags.setAntiAlias(true);
   flags.setColor(cp->GetColor(
       is_vertical_tab ? kColorBraveSplitViewTileBackgroundVertical
                       : kColorBraveSplitViewTileBackgroundHorizontal));
@@ -563,22 +574,45 @@ void BraveTabContainer::PaintBoundingBoxForSplitTab(
   auto* tab_strip_model =
       tab_slot_controller_->GetBrowserWindowInterface()->GetTabStripModel();
   const auto active_tab_index = tab_strip_model->active_index();
-  if (!is_vertical_tab && active_tab_index != indices[0] &&
-      active_tab_index != indices[1] && !tab1->IsMouseHovered() &&
-      !tab2->IsMouseHovered()) {
+  const auto quiet = [&](Tab* tab) {
+    return !tab->IsActive() && !tab->IsMouseHovered();
+  };
+
+  if (is_vertical_tab && !tab1->data().pinned) {
+    // Wryling: the split's tabs share one row; a hairline between two
+    // neighbours unless one of them is lit (current or hovered).
+    const SkColor divider = cp->GetColor(kColorBraveSplitViewTileDivider);
+    for (size_t i = 1; i < split_tabs.size(); ++i) {
+      Tab* left = split_tabs[i - 1];
+      Tab* right = split_tabs[i];
+      if (left->bounds().y() != right->bounds().y() || !quiet(left) ||
+          !quiet(right)) {
+        continue;
+      }
+      const int x = (left->bounds().right() + right->bounds().x()) / 2;
+      const int inset = std::max(0, (left->bounds().height() - 18) / 2);
+      canvas.FillRect(gfx::Rect(x, left->bounds().y() + inset, 1,
+                                left->bounds().height() - 2 * inset),
+                      divider);
+    }
+  } else if (!is_vertical_tab &&
+             !std::ranges::contains(indices, active_tab_index) &&
+             std::ranges::all_of(split_tabs, quiet)) {
     constexpr int kSplitViewSeparatorHeight = 24;
-    auto separator_top = bounding_rects.top_center();
     if (bounding_rects.height() <= kSplitViewSeparatorHeight) {
       // Bounding rect can be too small during shutdown.
       return;
     }
     // Calculate gap between tab bounds top and separator top.
     const int gap = (bounding_rects.height() - kSplitViewSeparatorHeight) / 2;
-    separator_top.Offset(0, gap);
-    auto separator_bottom = separator_top;
-    separator_bottom.Offset(0, kSplitViewSeparatorHeight);
-    canvas.DrawLine(separator_top, separator_bottom,
-                    cp->GetColor(kColorBraveSplitViewTileDivider));
+    for (size_t i = 1; i < split_tabs.size(); ++i) {
+      gfx::Point separator_top(split_tabs[i]->bounds().x(),
+                               bounding_rects.y() + gap);
+      gfx::Point separator_bottom = separator_top;
+      separator_bottom.Offset(0, kSplitViewSeparatorHeight);
+      canvas.DrawLine(separator_top, separator_bottom,
+                      cp->GetColor(kColorBraveSplitViewTileDivider));
+    }
   }
 
   bounding_rects.Outset(1);
@@ -1573,6 +1607,11 @@ BraveTabContainer::FindVisibleUnpinnedSlotViews() const {
         return false;
       }
 
+      // Tabs of another Wryling space are not visible.
+      if (wryling::IsTabHiddenBySpace(tab->tab_handle().Get())) {
+        return false;
+      }
+
       // Tabs in collapsed group are not visible
       if (auto group = tab->group()) {
         return !controller_->IsGroupCollapsed(*group);
@@ -1859,8 +1898,17 @@ void BraveTabContainer::UpdatePinnedUnpinnedSeparator() {
     return;
   }
 
-  const int pinned_tab_count = layout_helper_->GetPinnedTabCount();
-  const int total_tab_count = GetTabCount();
+  // Wryling Spaces: count only the current space's tabs.
+  int pinned_tab_count = 0;
+  int total_tab_count = 0;
+  for (int i = 0; i < GetTabCount(); ++i) {
+    Tab* tab = GetTabAtModelIndex(i);
+    if (wryling::IsTabHiddenBySpace(tab->tab_handle().Get())) {
+      continue;
+    }
+    ++total_tab_count;
+    pinned_tab_count += tab->data().pinned ? 1 : 0;
+  }
 
   // Only show separator if we have both pinned and unpinned tabs
   if (pinned_tab_count == 0 || pinned_tab_count == total_tab_count) {

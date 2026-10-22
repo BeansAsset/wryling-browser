@@ -222,6 +222,17 @@ bool BraveBrowserCommandController::ExecuteCommandWithDispositionAndContext(
     WindowOpenDisposition disposition,
     std::optional<actions::ActionInvocationContext> context,
     base::TimeTicks time_stamp) {
+#if BUILDFLAG(IS_MAC)
+  // Wryling: ⌘T shows the command bar over the current page; a tab opens
+  // only once something is chosen in it.
+  if (id == IDC_NEW_TAB && disposition == WindowOpenDisposition::CURRENT_TAB) {
+    if (auto* browser_view = static_cast<BraveBrowserView*>(
+            BrowserView::GetBrowserViewForBrowser(&*browser_));
+        browser_view && browser_view->ShowWrylingCommandBar()) {
+      return true;
+    }
+  }
+#endif
   return IsBraveCommands(id) || IsBraveOverrideCommands(id)
              ? ExecuteBraveCommandWithDisposition(id, disposition, time_stamp)
              : BrowserCommandController::

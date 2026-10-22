@@ -44,7 +44,7 @@
 <translation id="7083341910267693582">Bubukas ang <ph name="APP_NAME"/> sa Brave. Sa pamamagitan ng pagpapatuloy, sumasang-ayon ka sa <ph name="BEGIN_LINK1"/>Mga Tuntunin ng Serbisyo ng Brave<ph name="END_LINK1"/>, at sa <ph name="BEGIN_LINK2"/>Mga Karagdagang Tuntunin ng Serbisyo ng Brave at ChromeOS<ph name="END_LINK2"/>.</translation>
 <translation id="7443574521624544928">Wala kang naka-save na password sa Brave Password Manager.</translation>
 <translation id="115483310321669804">Gamitin ang password na <ph name="PASSWORD"/></translation>
-<translation id="4489415936688888898">Gemini sa Brave</translation>
+<translation id="4980210551795949534">Gemini sa Wryling</translation>
 <translation id="1161065531352634524">I-sync ang mga tab at history</translation>
 <translation id="1165109137568919258">Kumuha ng larawan o magdagdag ng imahe mula sa iyong gallery ng larawan para maghanap</translation>
 <translation id="1173894706177603556">Pangalanang muli</translation>
@@ -91,8 +91,8 @@
 <translation id="1333491156693005331">Sinuri kamakailan</translation>
 <translation id="1336996151357442890">Nag-unsubscribe sa <ph name="SITE_NAME"/>. Tatanungin ka ulit sa iyong susunod na pagbisita.</translation>
 <translation id="1340839264183302272">Umalis sa grupo</translation>
-<translation id="873343310451048603">Para tingnan kung may mga nakompromisong password, pumunta sa Brave Password Manager</translation>
-<translation id="4167284810587724062">Mag-sign in sa Brave</translation>
+<translation id="4973862711373394097">Para tingnan kung may mga nakompromisong password, pumunta sa Wryling Password Manager</translation>
+<translation id="5451434122049588189">Mag-sign in sa Wryling</translation>
 <translation id="1344653310988386453">Isama ang link sa highlight</translation>
 <translation id="1355088659320425659">History at mga tab</translation>
 <translation id="1363028406613469049">Track</translation>
@@ -147,7 +147,7 @@ Para sa higit pang setting na gumagamit ng data para pahusayin ang iyong experie
 Ang taong may passphrase mo lang ang makakabasa ng iyong naka-encrypt na data. Hindi ipinapadala sa o hindi sino-store ng Brave ang passphrase. Kung makalimutan mo ang iyong passphrase o gusto mong baguhin ang setting na ito, <ph name="BEGIN_LINK"/>i-clear ang data sa Brave sa iyong account<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">Para pamahalaan ang iyong Brave account, i-tap ang button na "Pamahalaan ang account"</translation>
 <translation id="1549000191223877751">Lumipat sa ibang window</translation>
-<translation id="1705567146636171298">I-update ang Brave</translation>
+<translation id="4469722898384489712">I-update ang Wryling</translation>
 <translation id="1554352084785952638"><ph name="SEARCH_ENGINE"/> para sa "<ph name="SEARCH_TERMS"/>"</translation>
 <translation id="2509230690562869141">Tumulong na pahusayin ang Brave para sa mga taong ginagamit ito gaya ng paggamit mo</translation>
 <translation id="1568636008098739136">Makinig sa page na ito. Para i-edit ang shortcut na ito, pindutin ito nang matagal.</translation>
@@ -207,8 +207,8 @@ Ang taong may passphrase mo lang ang makakabasa ng iyong naka-encrypt na data. H
 <translation id="4544426875066706571">Para protektahan ang iyong data, hayaan ang Brave na alisin ang mga pahintulot sa mga site na hindi mo binisita kamakailan</translation>
 <translation id="1851551847729706116">Shine-share ang <ph name="TAB_NAME"/> sa tab na ito</translation>
 <translation id="1869691326892615940">Mas ligtas na mga password, mas mabilis na pag-sign in</translation>
-<translation id="7175072311426658869">Buksan sa Brave browser</translation>
-<translation id="5173820533850252773">Luma na ang Brave</translation>
+<translation id="7259806589727104192">Buksan sa Wryling browser</translation>
+<translation id="1523936557081546133">Luma na ang Wryling</translation>
 <translation id="1877073879466606884">Naka-sign in ka sa isang pinapamahalaang profile. Puwedeng remote na gumawa ng mga pagbabago sa mga setting ng profile mo, magsuri ng impormasyon tungkol sa browser sa pamamagitan ng pag-uulat, at gumawa ng iba pang kinakailangang gawain ang iyong administrator.</translation>
 <translation id="1879904908408734349">Nakasara ang bottom sheet sa pag-sign in</translation>
 <translation id="1883903952484604915">Aking Mga File</translation>
@@ -579,7 +579,7 @@ Ang taong may passphrase mo lang ang makakabasa ng iyong naka-encrypt na data. H
 <translation id="4882907322692413634">Hindi available ang Gemini sa Incognito mode</translation>
 <translation id="3387650086002190359">Hindi na-download ang <ph name="FILE_NAME"/> dahil sa mga error sa file system.</translation>
 <translation id="5654361895804243820">Puwede mong pamahalaan ang iyong mga window sa Window Manager ng Brave</translation>
-<translation id="4302350545547675750">Pamahalaan sa Brave Password Manager</translation>
+<translation id="54130667607538272">Pamahalaan sa Wryling Password Manager</translation>
 <translation id="3417835166382867856">Maghanap sa mga tab</translation>
 <translation id="3430670036890315772">Kapag in-off ang iyong lock ng profile, maaalis ang naka-save na impormasyon mo</translation>
 <translation id="4114256890962999877">Para mapanatili ang access sa iyong mga password, i-export na ngayon ang mga ito, i-update ang Mga Serbisyo ng Google Play, at pagkatapos ay i-import ulit ang mga ito sa Brave Password Manager. <ph name="BEGIN_LINK"/>Tingnan ang mga kumpletong tagubilin<ph name="END_LINK"/>.</translation>
@@ -741,7 +741,7 @@ Ang taong may passphrase mo lang ang makakabasa ng iyong naka-encrypt na data. H
 <translation id="4072805772816336153">Subukan ulit sa ibang pagkakataon</translation>
 <translation id="4084682180776658562">Bookmark</translation>
 <translation id="4521874409998847950">Mula sa <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>ihinatid ng Brave<ph name="END_DEEMPHASIZED"/></translation>
-<translation id="7268155614575494857">Para makatulong na ma-save ng Brave Password Manager ang iyong impormasyon sa pag-sign in, idagdag ang username mo para sa site na ito</translation>
+<translation id="6708405940091325014">Para makatulong na ma-save ng Wryling Password Manager ang iyong impormasyon sa pag-sign in, idagdag ang username mo para sa site na ito</translation>
 <translation id="4095146165863963773">I-delete ang data ng app?</translation>
 <translation id="4095483462103784441">Gumawa ng bagong grupo ng tab</translation>
 <translation id="1523634703470981382">Binuksan ang update sa Brave Password Manager</translation>
@@ -1089,7 +1089,7 @@ Maaaring may ibang uri ng history ng pag-browse ang iyong Brave account tulad ng
 <translation id="5532536403031755365">Magkaroon ng dagdag na layer ng proteksyon laban sa mga online na banta gamit ang pinaigting na proteksyon</translation>
 <translation id="5540127996007641535">{NUM_BOOKMARKS,plural, =1{Buksan ang bookmark}one{Buksan lahat (#)}other{Buksan lahat (#)}}</translation>
 <translation id="5548606607480005320">Pag-check sa kaligtasan</translation>
-<translation id="4362225295386962644">Kapag gumamit ka ng password, babalaan ka ng Brave kung na-publish na ito online. Kapag ginagawa ito, naka-encrypt ang iyong mga password at username para hindi mabasa ng sinuman ang mga ito, kabilang ang Brave.</translation>
+<translation id="3680104634340426001">Kapag gumamit ka ng password, babalaan ka ng Brave kung na-publish na ito online. Kapag ginagawa ito, naka-encrypt ang iyong mga password at username para hindi mabasa ng sinuman ang mga ito, kabilang ang Brave.</translation>
 <translation id="5555525474779371165">Piliin ang iyong proteksyon sa Ligtas na Pag-browse</translation>
 <translation id="5556459405103347317">I-reload</translation>
 <translation id="555671485580955310">I-sync ang history at mga tab</translation>
@@ -1192,7 +1192,7 @@ Maaaring may ibang uri ng history ng pag-browse ang iyong Brave account tulad ng
 <translation id="6002122790816966947">Ang iyong mga device</translation>
 <translation id="6011308810877101166">Pahusayin ang mga suhestyon sa paghahanap</translation>
 <translation id="6013305291643746595">Ibinubukod-bukod ayon sa pinakaluma</translation>
-<translation id="296137235951584143">Gawing iyo ang Brave</translation>
+<translation id="4578349172774307195">Gawing iyo ang Wryling</translation>
 <translation id="6023820583797130428">Buksan ang menu para bumalik</translation>
 <translation id="6026538407078977628">I-expand sa full screen</translation>
 <translation id="6039379616847168523">Pumunta sa susunod na tab</translation>
@@ -1251,7 +1251,7 @@ Maaaring may ibang uri ng history ng pag-browse ang iyong Brave account tulad ng
 Halimbawa, puwedeng tumugon ang ilang website sa kahilingang ito sa pamamagitan ng pagpapakita sa iyo ng mga ad na hindi ibinatay sa iba pang nabisita mo nang website. Kokolektahin at gagamitin pa rin ng maraming website ang iyong data sa pag-browse - halimbawa, para mapahusay ang seguridad, makapagpakita ng content, mga ad, at rekomendasyon, at makabuo ng mga istatistika sa pag-uulat.</translation>
 <translation id="623755660902014047">Reading mode</translation>
 <translation id="6246073558347462570">Popup window ng konteksto</translation>
-<translation id="8883879481897424949">Brave Password Manager</translation>
+<translation id="3888885285070224654">Wryling Password Manager</translation>
 <translation id="6248988683584659830">Mga setting sa paghahanap</translation>
 <translation id="2715956954609894918">Tingnan ang iyong history sa Brave dito</translation>
 <translation id="6254139308321626268">Tumitingin ka ng PDF file</translation>
@@ -1300,7 +1300,7 @@ Halimbawa, puwedeng tumugon ang ilang website sa kahilingang ito sa pamamagitan 
 <translation id="6394791151443660613">Hanapin: <ph name="SEARCH_QUERY"/></translation>
 <translation id="6397616442223433927">Online ulit</translation>
 <translation id="6399363707848566877">Madali ka na ngayong makakapagdagdag ng mga tab sa mga grupo rito</translation>
-<translation id="8789425457808164956">Para ipadala ang tab na ito sa ibang device, mag-sign in sa Brave doon</translation>
+<translation id="2522845252291433622">Para ipadala ang tab na ito sa ibang device, mag-sign in sa Wryling doon</translation>
 <translation id="6404511346730675251">I-edit ang bookmark</translation>
 <translation id="6410883413783534063">Magbukas ng mga tab para mabisita ang iba't ibang page nang sabay-sabay</translation>
 <translation id="6411009031428071896">Pakinggan ang feed</translation>
@@ -1330,7 +1330,7 @@ Halimbawa, puwedeng tumugon ang ilang website sa kahilingang ito sa pamamagitan 
 <translation id="6482749332252372425">Hindi na-download ang <ph name="FILE_NAME"/> dahil kulang ang espasyo sa storage.</translation>
 <translation id="6486420406192123355">Ang PDF file na ito ay mula sa site na gumagamit ng hindi secure na koneksyon</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{Na-download ang file}one{Tapos na ang # pag-download}other{Tapos na ang # na pag-download}}</translation>
-<translation id="3960299545138990065">I-restart ang Brave</translation>
+<translation id="6199441660763014986">I-restart ang Wryling</translation>
 <translation id="6513924416597632811">Kopyahin ang link sa page ng mga resulta ng search para sa: <ph name="SEARCH_QUERY"/>. Source: <ph name="PAGE_URL"/></translation>
 <translation id="6518133107902771759">I-verify</translation>
 <translation id="6521218807522232085">Gawin, i-save, at pamahalaan ang iyong mga password para madali kang makapag-sign in</translation>
@@ -1360,7 +1360,7 @@ Halimbawa, puwedeng tumugon ang ilang website sa kahilingang ito sa pamamagitan 
 <translation id="6602173570135186741">Autofill at mga password</translation>
 <translation id="661266467055912436">Pinapahusay ang seguridad para sa iyo at sa lahat ng tao sa web.</translation>
 <translation id="6615455863669487791">Ipakita sa akin</translation>
-<translation id="8127050479140582768">Para ipadala ang tab na ito sa ibang device, mag-sign in sa Brave sa dalawang device</translation>
+<translation id="7379057487310867567">Para ipadala ang tab na ito sa ibang device, mag-sign in sa Wryling sa dalawang device</translation>
 <translation id="6627583120233659107">I-edit ang folder</translation>
 <translation id="6636623428211296678">Mag-explore pa ng mga setting sa ibaba o tapusin ngayon</translation>
 <translation id="7939692063031538305">Para makatulong na mapaganda ang app, nagpapadala ang Brave ng data ng paggamit at pag-crash sa Brave. <ph name="BEGIN_UMA_LINK"/>Pamahalaan<ph name="END_UMA_LINK"/></translation>
@@ -2030,7 +2030,7 @@ Para baguhin ang setting na ito, <ph name="BEGIN_LINK"/>i-delete ang data sa Bra
 <translation id="9212845824145208577">Hindi na maibababa pa. Subukang magsimula sa mas mababang bahagi ng page.</translation>
 <translation id="9218430445555521422">Itakda bilang default</translation>
 <translation id="9219103736887031265">Mga Larawan</translation>
-<translation id="142389341645668510">I-customize ang Brave</translation>
+<translation id="9094133852008074140">I-customize ang Wryling</translation>
 <translation id="9222198206152536936">Para makuha ang iyong mga tab at higit pa sa lahat ng device mo, mag-sign in bilang <ph name="EMAIL"/></translation>
 <translation id="7625138338483121345">Gawing default mong browser ang Brave</translation>
 <translation id="4596514158372210596">Alisin sa Digital Wellness ang iyong aktibidad sa Brave</translation>
@@ -2060,7 +2060,7 @@ Para baguhin ang setting na ito, <ph name="BEGIN_LINK"/>i-delete ang data sa Bra
 <translation id="5352668640894950863">I-lock ang mga Private window kapag umalis ka sa Brave</translation>
 <translation id="1014490034578104945">Gumamit ng lock ng screen para makakita ng mga Pribadong tab</translation>
 <translation id="5572558661069030949">Gamitin ang screen lock upang makita ang mga bukas na Private window</translation>
-<translation id="2589970573128789862">Brave Private</translation>
+<translation id="2090681901335274465">Wryling Private</translation>
 <translation id="5809126106485463836">Pinapanatiling pribado ng Private mode ang pagba-browse mo mula sa ibang gumagamit ng device mo</translation>
 <translation id="5487565066256782913">Magbukas ng bagong Pribadong window</translation>
 <translation id="5706084539081051088">Kapag nagba-browse ka sa Pribado, hindi makikita ng iba na gumagamit ng device na ito ang iyong aktibidad, kaya mas pribado kang makakapag-browse. <ph name="BEGIN_LINK"/>Matuto pa<ph name="END_LINK"/></translation>

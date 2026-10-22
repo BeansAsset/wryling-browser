@@ -102,7 +102,7 @@
 <translation id="2137162749895930932">بستن صفحه ترجمه</translation>
 <translation id="5789330946301045610">‏‫Brave این بارگیری را مسدود کرد زیرا این سایت از اتصال ایمن استفاده نمی‌کند و ممکن است فایل دستکاری شده باشد</translation>
 <translation id="2170098639895543546">هر چیزی در صفحه را انتخاب کنید</translation>
-<translation id="142389341645668510">‏سفارشی کردن Brave</translation>
+<translation id="9094133852008074140">‏سفارشی کردن Wryling</translation>
 <translation id="2174917724755363426">نصب کامل نیست. مطمئنید می‌خواهید آن را لغو کنید؟</translation>
 <translation id="8745514854244955877">‏Brave - ورود به سیستم شبکه - <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">خطای بررسی به‌روزرسانی: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -201,7 +201,7 @@
 <translation id="3137969841538672700">برای جستجو، بخش موردنظر را بکشید</translation>
 <translation id="8372436892102763334">‏این زبانه از منابع اضافی استفاده می‌کند. برای بهبود عملکرد، اجازه دهید Brave آن را غیرفعال کند.</translation>
 <translation id="5949068186379578553">‏برای هم‌رسانی صفحه‌نمایش، ضبط صفحه‌نمایش را در «تنظیمات سیستم» برای Brave مجاز کنید</translation>
-<translation id="4805806622840861220">‏اجرای مجدد Brave</translation>
+<translation id="2036272753168211127">‏اجرای مجدد Wryling</translation>
 <translation id="3161522574479303604">همه زبان‌ها</translation>
 <translation id="1742948938503172561">‏سفارشی کردن نمایه جدید Brave</translation>
 <translation id="2430807206104224491">‏می‌توانید بدون عوض کردن زبانه، به گپ زدن با «حالت هوشواره‌ای» ادامه دهید. برای شروع، به سیستم Brave وارد شوید. گذرواژه‌هایتان و اطلاعات دیگر را نیز در همه دستگاه‌هایتان دریافت خواهید کرد.</translation>
@@ -234,7 +234,7 @@
 <translation id="8981774130895723211">‏برای هم‌رسانی صفحه‌نمایش، ضبط صفحه‌نمایش را در «تنظیمات سیستم» برای Brave مجاز کنید.</translation>
 <translation id="2981961446160697133">‏محافظت بهبودیافته، بهینه‌سازی جاوا اسکریپت را برای سایت‌هایی که Brave آن‌ها را نمی‌شناسد، خاموش می‌کند</translation>
 <translation id="3597003331831379823">راه‌اندازی با امتیازهای عالی اجرا نشد. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">‏ورود به سیستم Brave</translation>
+<translation id="5451434122049588189">‏ورود به سیستم Wryling</translation>
 <translation id="3066805437003400520">‏داده‌های محصول مرور این کاربر از این دستگاه حذف می‌شود. برای بازیابی داده‌ها، با نام <ph name="USER_EMAIL"/> به سیستم Brave وارد شوید.</translation>
 <translation id="3667616615096815454">نصب نشد، برنامه برای سرور ناشناس است.</translation>
 <translation id="1128485277465085828">‏استفاده از <ph name="BEGIN_LINK"/>گذرعبارت خودتان<ph name="END_LINK"/> برای رمزگذاری همه داده‌های Brave موجود در «حساب Brave» شما. روش‌های پرداخت و نشانی‌های موجود در Google Pay رمزگذاری نخواهند شد. سابقه مرور Brave همگام‌سازی نخواهد شد.</translation>
@@ -277,7 +277,7 @@
 <translation id="4055805654398742145">مدیر گذرواژه</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{‏اگر به‌مدت یک دقیقه از Brave استفاده نشود، سازمانتان آن را به‌طور خودکار می‌بندد. داده‌های مرور حذف می‌شود. این داده‌ها می‌تواند شامل سابقه، تکمیل خودکار، و بارگیری‌ها شود.}one{‏اگر به‌مدت # دقیقه از Brave استفاده نشود، سازمانتان آن را به‌طور خودکار می‌بندد. داده‌های مرور حذف می‌شود. این داده‌ها می‌تواند شامل سابقه، تکمیل خودکار، و بارگیری‌ها شود.}other{‏اگر به‌مدت # دقیقه از Brave استفاده نشود، سازمانتان آن را به‌طور خودکار می‌بندد. داده‌های مرور حذف می‌شود. این داده‌ها می‌تواند شامل سابقه، تکمیل خودکار، و بارگیری‌ها شود.}}</translation>
 <translation id="5794951150713244901">‏رفتن به صفحه «درباره Brave»</translation>
-<translation id="10925962326134232">‏با سفارشی‌سازی Brave، ظاهر جدیدی به مرورگرتان بدهید</translation>
+<translation id="908722199085381104">‏با سفارشی‌سازی Wryling، ظاهر جدیدی به مرورگرتان بدهید</translation>
 <translation id="6596295505984504022">‏سفارشی‌سازی Brave</translation>
 <translation id="4148957013307229264">درحال نصب…</translation>
 <translation id="4658486203392098459">‏<ph name="PAGE_TITLE"/> - ورود به سیستم شبکه - Brave</translation>
@@ -379,7 +379,7 @@
 <translation id="5154625106151193600">‏ببینید چرا Brave برخی‌از فایل‌ها را مسدود می‌کند</translation>
 <translation id="1786715389543715322">‏درحال به‌روزرسانی Brave (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">‏مجاز کردن ورود به سیستم Brave</translation>
-<translation id="5267531627648004734">‏حذف از Brave</translation>
+<translation id="6125790165673488794">‏حذف از Wryling</translation>
 <translation id="4620757336635063467">‏عملکرد را کاهش می‌دهد اما Brave را دربرابر حملات مقاوم‌تر می‌کند</translation>
 <translation id="239760341987199724">‏تنظیم Brave به عنوان مرورگر پیش‌فرضتان</translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Brave Beta</translation>
@@ -558,7 +558,7 @@
 <translation id="7024536598735240744">خطای لغو فشرده‌سازی: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">‏Brave را برای خود اختصاصی کنید</translation>
 <translation id="7047386856539490735">این نتایج مفیدند؟</translation>
-<translation id="1705567146636171298">‏به‌روزرسانی Brave</translation>
+<translation id="4469722898384489712">‏به‌روزرسانی Wryling</translation>
 <translation id="5499063270485366718">‏اگر تصویری توضیح مفیدی نداشته باشد، Brave توضیحی برای شما ارائه خواهد کرد. برای ایجاد توضیحات، تصاویر به Brave ارسال می‌شود.</translation>
 <translation id="1196733835766994012">‏هنگام استفاده از برنامه Brave در <ph name="DEVICE_TYPE"/>، قدرت هوشواره را تجربه کنید</translation>
 <translation id="7166289504510860270">‏با برنامه Brave در تلفنتان، گذرواژه‌ها، زبانه‌ها، و موارد دیگر را درحال حرکت همراه خود داشته باشید</translation>
@@ -763,7 +763,7 @@ Brave قادر به بازیابی تنظیمات شما نیست.</translation>
 <translation id="8965179855019347124">‏با برنامه Brave در تلفنتان از بهترین ابزارهای هوشواره Brave استفاده کنید</translation>
 <translation id="9049928023195059068">‏ورود به سیستم Brave هنگام وارد شدن به سیستم دیگر سرویس‌های Brave</translation>
 <translation id="4561046754724442504">‏Brave به‌طور خودکار بسته شد</translation>
-<translation id="5173820533850252773">‏نسخه Brave قدیمی است</translation>
+<translation id="1523936557081546133">‏نسخه Wryling قدیمی است</translation>
 <translation id="310518206836658214">{0,plural, =1{‏Brave یک ساعت دیگر راه‌اندازی مجدد می‌شود}one{‏Brave # ساعت دیگر راه‌اندازی مجدد می‌شود}other{‏Brave # ساعت دیگر راه‌اندازی مجدد می‌شود}}</translation>
 <translation id="9106236359747881194">نوشتاری را برای جستجو انتخاب کنید</translation>
 <translation id="5190991181158966940">‏برای دریافت به‌روزرسانی‌های آتی Brave، باید Windows 10 یا بالاتر داشته باشید. این رایانه از Windows 8.1 استفاده می‌کند.</translation>
@@ -775,12 +775,12 @@ Brave قادر به بازیابی تنظیمات شما نیست.</translation>
 <translation id="2444257125841652328">‏سرپرست سیستم شما برای باز شدن مرورگر جایگزین برای دسترسی به <ph name="TARGET_URL_HOSTNAME"/>، Brave را پیکربندی کرده است.</translation>
 <translation id="7902365066753170041">‏راه‌اندازی مجدد برای به‌روزرسانی Brave</translation>
 <translation id="3350544518197210895">‏Brave‏ (mDNS ورودی)</translation>
-<translation id="296137235951584143">‏شخصی‌سازی کردن Brave</translation>
+<translation id="4578349172774307195">‏شخصی‌سازی کردن Wryling</translation>
 <translation id="7977787072794666032">‏Brave ممکن است درست کار نکند زیرا دیگر در Windows XP یا Windows Vista پشتیبانی نمی‌شود</translation>
 <translation id="8462937515915443472">‏با Brave، بهترین ویژگی‌های ایمنی Brave را در حرکت دریافت کنید.</translation>
 <translation id="945522503751344254">ارسال بازخورد</translation>
 <translation id="4484434718272972655">‏چه‌کسی از Brave استفاده می‌کند؟</translation>
-<translation id="7173394303099002355">‏دریافت قوی‌ترین امنیت Brave</translation>
+<translation id="1158507424343802366">‏دریافت قوی‌ترین امنیت Wryling</translation>
 <translation id="983803489796659991">نصب انجام نشد چون سرور به‌روزرسانی هیچ‌گونه داده درهمی برای برنامه ندارد.</translation>
 <translation id="8435446479956716379">‏استفاده از Brave بدون حساب</translation>
 <translation id="8992261409816268381">Brave Authors</translation>
@@ -808,6 +808,6 @@ Brave قادر به بازیابی تنظیمات شما نیست.</translation>
               other {محافظت پیشرفته نیاز دارد که Brave را برای اعمال به‌روزرسانی مجدد راه‌اندازی کنید. # پنجرهٔ خصوصی شما باز نخواهد شد.}}</translation>
 <translation id="5749154344207139683">با پاسخ به این نظرسنجی ۱ دقیقه‌ای به ما کمک کنید تا حریم خصوصی را بهبود دهیم.</translation>
 <translation id="79269250264141507">وقتی در نوار آدرس یا کادر جستجو تایپ می‌کنید، Brave آنچه را که تایپ می‌کنید به موتور جستجوی پیش‌فرض شما ارسال می‌کند تا پیشنهادات بهتری دریافت کند. این قابلیت در حالت «خصوصی» خاموش است.</translation>
-<translation id="2589970573128789862">Brave خصوصی</translation>
+<translation id="2090681901335274465">Wryling خصوصی</translation>
 <translation id="5994282802285556682">هنگام مرور صفحات در حالت خصوصی، Brave قبل از بارگیری سایت با استفاده از اتصال ناامن به شما هشدار می‌دهد.</translation>
 </translationbundle>

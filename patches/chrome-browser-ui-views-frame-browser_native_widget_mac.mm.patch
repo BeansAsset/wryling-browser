@@ -1,0 +1,71 @@
+diff --git a/chrome/browser/ui/views/frame/browser_native_widget_mac.mm b/chrome/browser/ui/views/frame/browser_native_widget_mac.mm
+index fb1e87f83493475668792b1f4b59b4c4e777162f..6dc972b9caefdff853a979c1ba9ee3fc60429c78 100644
+--- a/chrome/browser/ui/views/frame/browser_native_widget_mac.mm
++++ b/chrome/browser/ui/views/frame/browser_native_widget_mac.mm
+@@ -21,6 +21,7 @@
+ #include "chrome/browser/global_keyboard_shortcuts_mac.h"
+ #include "chrome/browser/media/router/media_router_feature.h"
+ #include "chrome/browser/ui/actions/chrome_action_id.h"
++#include "chrome/browser/profiles/profile.h"
+ #include "chrome/browser/ui/actions/chrome_action_properties.h"
+ #include "chrome/browser/ui/browser_actions.h"
+ #include "chrome/browser/ui/browser_command_controller.h"
+@@ -58,6 +59,7 @@
+ #import "components/remote_cocoa/app_shim/native_widget_ns_window_bridge.h"
+ #import "components/remote_cocoa/app_shim/window_touch_bar_delegate.h"
+ #include "components/remote_cocoa/common/application.mojom.h"
++#include "components/prefs/pref_service.h"
+ #include "components/remote_cocoa/common/native_widget_ns_window.mojom.h"
+ #include "components/remote_cocoa/common/native_widget_ns_window_host.mojom.h"
+ #include "components/web_modal/web_contents_modal_dialog_host.h"
+@@ -108,9 +110,11 @@ bool ShouldHandleKeyboardEvent(const input::NativeWebKeyboardEvent& event) {
+ double GetGlassFrameTintOpacity(bool is_dark_mode, bool is_vertical_tabs) {
+   // Default opacities mapped by [is_vertical_tabs][is_dark_mode]:
+   // Values updated after discussion with UX.
++  // Wryling: a light tint so the Liquid Glass material itself (highlights,
++  // lensing) shows; Chromium's 55-80% buries it under a flat colour.
+   static constexpr std::array<std::array<double, 2>, 2> kDefaultOpacities = {{
+-      {0.55, 0.80},  // Horizontal: light, dark
+-      {0.65, 0.80},  // Vertical: light, dark
++      {0.20, 0.25},  // Horizontal: light, dark
++      {0.20, 0.25},  // Vertical: light, dark
+   }};
+ 
+   const double opacity = kDefaultOpacities[is_vertical_tabs][is_dark_mode];
+@@ -288,6 +292,13 @@ std::optional<int> BrowserNativeWidgetMac::GetGlassFrameHeight() const {
+   if (!browser_view_ || browser_view_->ShouldDrawVerticalTabStrip()) {
+     return std::nullopt;
+   }
++  // Wryling: Brave draws its own vertical tab sidebar (not the one above), and
++  // it runs down the whole left side, so the glass must span full height too.
++  // Read Brave's pref by name to avoid a dependency on Brave's tab code.
++  if (browser_view_->browser()->GetProfile()->GetPrefs()->GetBoolean(
++          "brave.tabs.vertical_tabs_enabled")) {
++    return std::nullopt;
++  }
+ 
+   // Account for top window frame insets (e.g. native titlebar or caption area).
+   int height = 0;
+@@ -1100,6 +1111,22 @@ void BrowserNativeWidgetMac::UpdateBackgroundGeometry() {
+         NSMakeRect(opaque_x, opaque_y, opaque_width, opaque_height);
+     opaque_background_view_.autoresizingMask = opaque_mask;
+   }
++
++  // Wryling: with Brave's vertical tabs the window is like Finder's: a solid
++  // background with a floating Liquid Glass sidebar panel, which Brave's
++  // vertical tab view places (UpdateWrylingSidebarGlass). Chromium's own
++  // full-window glass sheet is hidden, not resized: NSGlassEffectView has a
++  // minimum size, and squeezing it to zero made AppKit grow the window by
++  // 10 points on every launch.
++  const bool wryling_panel =
++      browser_view_->browser()->GetProfile()->GetPrefs()->GetBoolean(
++          "brave.tabs.vertical_tabs_enabled");
++  glass_background_view_.hidden = wryling_panel;
++  if (wryling_panel && opaque_background_view_) {
++    opaque_background_view_.frame = content_view.bounds;
++    opaque_background_view_.autoresizingMask =
++        NSViewWidthSizable | NSViewHeightSizable;
++  }
+ }
+ 
+ void BrowserNativeWidgetMac::UpdateBackgroundColor() {

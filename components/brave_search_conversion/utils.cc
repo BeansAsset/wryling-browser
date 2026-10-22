@@ -187,12 +187,16 @@ ConversionType GetConversionType(PrefService* prefs,
 }
 
 void RegisterPrefs(PrefRegistrySimple* registry) {
-  registry->RegisterBooleanPref(prefs::kDismissed, false);
+  // Wryling: no Brave Search promos and no Leo input on the NTP unless
+  // turned on in Settings.
+  registry->RegisterBooleanPref(prefs::kDismissed, true);
   registry->RegisterBooleanPref(prefs::kShowNTPSearchBox, true);
-  registry->RegisterBooleanPref(prefs::kShowNTPChatInput, true);
+  registry->RegisterBooleanPref(prefs::kShowNTPChatInput, false);
   registry->RegisterBooleanPref(prefs::kMigratedNTPChatInputFromSearch, false);
+  // Wryling: the New Tab / Home search box starts on DuckDuckGo (the user
+  // can pick another engine there).
   registry->RegisterStringPref(prefs::kLastUsedNTPSearchEngine,
-                               "search.brave.com");
+                               "duckduckgo.com");
   registry->RegisterBooleanPref(prefs::kPromptEnableSuggestions, true);
   registry->RegisterTimePref(prefs::kMaybeLaterClickedTime, base::Time());
   registry->RegisterIntegerPref(prefs::kDDGBannerTypeIndex, 0);

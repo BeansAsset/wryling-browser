@@ -6,6 +6,8 @@
 #ifndef BRAVE_BROWSER_UI_VIEWS_FRAME_SPLIT_VIEW_BRAVE_CONTENTS_CONTAINER_VIEW_H_
 #define BRAVE_BROWSER_UI_VIEWS_FRAME_SPLIT_VIEW_BRAVE_CONTENTS_CONTAINER_VIEW_H_
 
+#include <memory>
+
 #include "base/gtest_prod_util.h"
 #include "base/memory/raw_ptr.h"
 #include "base/memory/raw_ref.h"
@@ -17,6 +19,8 @@
 #if BUILDFLAG(ENABLE_SPEEDREADER)
 #include "brave/browser/ui/views/speedreader/reader_mode_toolbar_view.h"
 #endif
+
+class ViewShadow;
 
 class BraveContentsContainerView :
 #if BUILDFLAG(ENABLE_SPEEDREADER)
@@ -77,6 +81,10 @@ class BraveContentsContainerView :
   const bool for_web_panel_;
 
   gfx::RoundedCornersF contents_corner_radii_;
+
+  // Wryling (macOS): a soft shadow lifting the page card off the window's
+  // background, outside split view.
+  std::unique_ptr<ViewShadow> wryling_shadow_;
 
 #if BUILDFLAG(ENABLE_SPEEDREADER)
   raw_ptr<ReaderModeToolbarView> reader_mode_toolbar_ = nullptr;

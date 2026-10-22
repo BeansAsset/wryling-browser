@@ -5,8 +5,13 @@
 import styled from 'styled-components'
 
 export const PanelWrapper = styled.div`
-  width: 388px;
-  min-height: 290px;
+  width: 320px;
+  min-height: 200px;
+  background: transparent;
+  font: var(--wry-body);
+  color: var(--wry-text);
+  --wry-toggle-width: 38px;
+  --wry-toggle-height: 22px;
   position: relative;
   overflow-y: auto;
 `

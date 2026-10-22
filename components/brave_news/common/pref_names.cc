@@ -15,15 +15,15 @@ namespace brave_news {
 namespace prefs {
 
 void RegisterProfilePrefs(PrefRegistrySimple* registry) {
-  registry->RegisterBooleanPref(kShouldShowToolbarButton, true);
-  registry->RegisterBooleanPref(kNewTabPageShowToday,
-                                IsUserInDefaultEnabledLocale());
+  // Wryling: Brave News is off until turned on in Settings.
+  registry->RegisterBooleanPref(kShouldShowToolbarButton, false);
+  registry->RegisterBooleanPref(kNewTabPageShowToday, false);
   registry->RegisterBooleanPref(kBraveNewsOptedIn, false);
   registry->RegisterDictionaryPref(kBraveNewsSources);
   registry->RegisterDictionaryPref(kBraveNewsChannels);
   registry->RegisterDictionaryPref(kBraveNewsDirectFeeds);
   registry->RegisterBooleanPref(kBraveNewsOpenArticlesInNewTab, true);
-  registry->RegisterBooleanPref(kBraveNewsDisabledByPolicy, false);
+  registry->RegisterBooleanPref(kBraveNewsDisabledByPolicy, true);
 
   brave_news::p3a::prefs::RegisterProfileNewsMetricsPrefs(registry);
 }
@@ -31,8 +31,9 @@ void RegisterProfilePrefs(PrefRegistrySimple* registry) {
 }  // namespace prefs
 
 bool IsEnabled(PrefService* prefs) {
-  if (prefs->IsManagedPreference(prefs::kBraveNewsDisabledByPolicy) &&
-      prefs->GetBoolean(prefs::kBraveNewsDisabledByPolicy)) {
+  // Wryling: honoured whoever set it; News is off until turned on in
+  // Settings › Extras.
+  if (prefs->GetBoolean(prefs::kBraveNewsDisabledByPolicy)) {
     return false;
   }
   return prefs->GetBoolean(prefs::kNewTabPageShowToday) &&

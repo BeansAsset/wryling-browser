@@ -2,11 +2,10 @@
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at https://mozilla.org/MPL/2.0/.
-import { color } from '@brave/leo/tokens/css/variables'
 import styled from 'styled-components'
 
 export const Box = styled.div`
-  background-color: ${color.container.background};
+  background-color: var(--wry-raised);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -34,9 +33,9 @@ export const Footer = styled.div`
 `
 
 export const HeaderBox = styled.section`
-  background-color: ${color.neutral[10]};
+  background-color: var(--wry-fill);
   width: 100%;
-  padding: 24px 17px 0 17px;
+  padding: var(--wry-space-4);
 `
 
 export const Scroller = styled.section`
@@ -49,40 +48,40 @@ export const Scroller = styled.section`
 `
 
 export const ScriptsInfo = styled.div`
-    background-color: ${color.neutral[10]};
-    display: grid;
-    grid-template-columns: auto auto 1fr;
-    gap: 8px;
-    align-items: center;
-    font-family: ${(p) => p.theme.fontFamily.heading};
-    color: ${color.text.primary};
-    font-size: 14px;
-    font-weight: 600;
-    padding: 16px 17px 16px 17px;
-    span:first-child {
-      text-align: center;
-      overflow: hidden;
-    }
-    span:nth-child(3) {
-      text-align: right;
-    }
+  background-color: var(--wry-fill);
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 8px;
+  align-items: center;
+  font-family: var(--wry-font);
+  color: var(--wry-text);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 16px 17px 16px 17px;
+  span:first-child {
+    text-align: center;
+    overflow: hidden;
+  }
+  span:nth-child(3) {
+    text-align: right;
+  }
 `
 
 export const Link = styled.a`
-  color: ${color.text.interactive};
+  color: var(--wry-accent-text);
 
   &:hover {
-    color: ${color.primary[60]};
+    color: var(--wry-accent-text);
   }
 `
 
 export const ListDescription = styled.div`
-  background-color: ${color.neutral[10]};
+  background-color: var(--wry-fill);
   padding: 0px 17px 16px 17px;
 `
 
 export const ScriptsList = styled.div`
-    padding: 10px 17px 10px 17px;
+  padding: 10px 17px 10px 17px;
 `
 
 export const SiteTitleBox = styled.div`
@@ -93,8 +92,8 @@ export const SiteTitleBox = styled.div`
 `
 
 export const SiteTitle = styled.span`
-  color: ${color.text.primary};
-  font-family: ${(p) => p.theme.fontFamily.heading};
+  color: var(--wry-text);
+  font-family: var(--wry-font);
   font-size: 14px;
   font-weight: 500;
   overflow: hidden;
@@ -123,11 +122,11 @@ export const BackButton = styled.button`
   width: 100%;
 
   background-color: transparent;
-  border: 1px solid ${color.divider.interactive};
-  border-radius: 48px;
+  border: 1px solid var(--wry-accent-text);
+  border-radius: var(--wry-radius-l);
 
-  color: ${color.text.interactive};
-  font-family: ${(p) => p.theme.fontFamily.heading};
+  color: var(--wry-accent-text);
+  font-family: var(--wry-font);
   font-size: 13px;
   font-weight: 600;
 
@@ -165,9 +164,9 @@ export const ToggleListContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: ${(p) => p.theme.fontFamily.heading};
+    font-family: var(--wry-font);
     font-size: 12px;
-    color: ${color.text.primary};
+    color: var(--wry-text);
     text-indent: 8px;
     cursor: pointer;
 

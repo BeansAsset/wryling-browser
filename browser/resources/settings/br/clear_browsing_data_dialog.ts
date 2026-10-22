@@ -3,7 +3,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-import 'chrome://resources/cr_elements/cr_tabs/cr_tabs.js'
+import {CrTabsElement} from 'chrome://resources/cr_elements/cr_tabs/cr_tabs.js'
+import {css} from 'chrome://resources/lit/v3_0/lit.rollup.js'
+import {injectStyle} from 'chrome://resources/brave/lit_overriding.js'
 import '../brave_clear_browsing_data_dialog/brave_clear_browsing_data_on_exit_page.js'
 
 import {
@@ -21,6 +23,28 @@ import {
 
 import {loadTimeData} from '../i18n_setup.js'
 
+injectStyle(CrTabsElement, css`
+  :host-context(settings-clear-browsing-data-dialog) {
+    box-sizing: border-box;
+    background: var(--wry-fill);
+    border-radius: var(--wry-radius-l);
+    padding: calc(2 * var(--wry-hairline));
+  }
+  :host-context(settings-clear-browsing-data-dialog) .tab {
+    border-radius: calc(var(--wry-radius-l) - 2 * var(--wry-hairline));
+    color: var(--wry-text-secondary);
+    font: var(--wry-headline);
+  }
+  :host-context(settings-clear-browsing-data-dialog) .selected {
+    background: var(--wry-raised);
+    color: var(--wry-text);
+    box-shadow: var(--wry-knob-shadow);
+  }
+  :host-context(settings-clear-browsing-data-dialog) :is(.tab-indicator, .tab-indicator-background) {
+    display: none;
+  }
+`)
+
 RegisterStyleOverride(
   'settings-clear-browsing-data-dialog',
   html`
@@ -32,23 +56,19 @@ RegisterStyleOverride(
       }
 
       cr-tabs {
-        --cr-tabs-height: 62px;
-        --cr-tabs-selected-color: var(--leo-color-text-interactive);
+        --cr-tabs-height: var(--wry-control-height);
+        --cr-tabs-selected-color: var(--wry-text);
         --cr-tabs-selection-bar-radius: 3px;
-        --cr-tabs-selection-bar-width: 4px;
-        font: var(--leo-font-large-semibold);
+        --cr-tabs-selection-bar-width: 0;
+        font: var(--wry-headline);
       }
 
-      #tabsDivider {
-        height: 1px;
-        background: var(--leo-color-divider-subtle);
-        margin-inline: calc(-1 * var(--leo-spacing-2xl));
-      }
+      #tabsDivider { display: none; }
 
       #checkboxContainer {
         /* !important needed to override Chromium's base container styles */
-        border-radius: var(--leo-radius-xl) !important;
-        background: var(--leo-color-container-highlight) !important;
+        border-radius: var(--wry-radius-xl) !important;
+        background: var(--wry-fill) !important;
         padding: calc(var(--leo-spacing-xl) - var(--leo-spacing-m) / 2) var(--leo-spacing-xl) !important;
       }
 
@@ -81,17 +101,17 @@ RegisterStyleOverride(
 
       #deleteBrowsingDataDialog [slot=header]:has(#tabs) {
         /* !important needed to override slotted content padding from Chromium */
-        padding: var(--leo-spacing-m) var(--leo-spacing-2xl) var(--leo-spacing-xl) !important;
+        padding: 0 0 var(--wry-space-3) !important;
       }
 
       #deleteBrowsingDataDialog [slot=header]:has(settings-clear-browsing-data-time-picker) {
         /* !important needed to override slotted content padding from Chromium */
-        padding: 0 var(--leo-spacing-2xl) var(--leo-spacing-xl) !important;
+        padding: 0 0 var(--wry-space-3) !important;
       }
 
       #deleteBrowsingDataDialog [slot=body]:not(#braveDataOptions) {
         /* !important needed to override slotted content padding from Chromium */
-        padding: 0 var(--leo-spacing-2xl) !important;
+        padding: 0 !important;
       }
 
       #deleteBrowsingDataDialog [slot=button-container] {
@@ -154,8 +174,8 @@ RegisterStyleOverride(
         align-items: flex-start;
         gap: var(--leo-spacing-s);
         align-self: stretch;
-        border-radius: var(--leo-radius-xl);
-        background: var(--leo-color-container-highlight);
+        border-radius: var(--wry-radius-xl);
+        background: var(--wry-fill);
       }
   </style>
   `

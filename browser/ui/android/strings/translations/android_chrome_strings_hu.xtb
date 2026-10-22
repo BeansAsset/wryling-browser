@@ -44,7 +44,7 @@
 <translation id="7083341910267693582">A(z) <ph name="APP_NAME"/> a Brave-ban fog megnyílni. A továbblépéssel Ön elfogadja a <ph name="BEGIN_LINK1"/>Brave Általános Szerződési Feltételeket<ph name="END_LINK1"/>, valamint <ph name="BEGIN_LINK2"/>A Brave és a ChromeOS Kiegészítő Általános Szerződési Feltételeit<ph name="END_LINK2"/>.</translation>
 <translation id="7443574521624544928">Nincsenek mentett jelszavai a Brave Jelszókezelőben.</translation>
 <translation id="115483310321669804">A következő jelszó használata: <ph name="PASSWORD"/></translation>
-<translation id="4489415936688888898">Gemini a Brave-ban</translation>
+<translation id="4980210551795949534">Gemini a Wryling-ban</translation>
 <translation id="1161065531352634524">Lapok és előzmények szinkronizálása</translation>
 <translation id="1165109137568919258">Készítsen fotót, vagy adjon hozzá képet a fotógalériából a kereséshez.</translation>
 <translation id="1173894706177603556">Átnevezés</translation>
@@ -91,8 +91,8 @@
 <translation id="1333491156693005331">Nemrég ellenőrizve</translation>
 <translation id="1336996151357442890">Leiratkozott innen: <ph name="SITE_NAME"/> A rendszer következő látogatásakor ismét rákérdez.</translation>
 <translation id="1340839264183302272">Kilépés a csoportból</translation>
-<translation id="873343310451048603">Az illetéktelen kézbe került jelszavak előfordulásának ellenőrzéséhez nyissa meg a Brave Jelszókezelőt</translation>
-<translation id="4167284810587724062">Bejelentkezés a Brave-ba</translation>
+<translation id="4973862711373394097">Az illetéktelen kézbe került jelszavak előfordulásának ellenőrzéséhez nyissa meg a Wryling Jelszókezelőt</translation>
+<translation id="5451434122049588189">Bejelentkezés a Wryling-ba</translation>
 <translation id="1344653310988386453">A kiemelt szöveghez vezető linkkel együtt</translation>
 <translation id="1355088659320425659">Előzmények és lapok</translation>
 <translation id="1363028406613469049">Szám</translation>
@@ -147,7 +147,7 @@ Az adatokat a Brave-élmény javítására használó további beállításokér
 Csak az Ön összetett jelszava ismeretében tudja bárki is megtekinteni a titkosított adatait. Az összetett jelszót nem kapja meg, és nem is tárolja a Brave. Ha elfelejti az összetett jelszavát, vagy módosítani szeretné ezt a beállítást, <ph name="BEGIN_LINK"/>törölje a fiókjában lévő Brave-adatokat<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">Brave-fiókjának kezeléséhez koppintson a „Fiók kezelése” gombra</translation>
 <translation id="1549000191223877751">Áthelyezés másik ablakba</translation>
-<translation id="1705567146636171298">A Brave böngésző frissítése</translation>
+<translation id="4469722898384489712">A Wryling böngésző frissítése</translation>
 <translation id="1554352084785952638"><ph name="SEARCH_ENGINE"/> a következőre: „<ph name="SEARCH_TERMS"/>”</translation>
 <translation id="2509230690562869141">Segítsen, hogy továbbfejleszthessük a Brave-ot azok számára, akik Önhöz hasonló módon használják</translation>
 <translation id="1568636008098739136">Oldal meghallgatása. A gyorsparancs szerkesztéséhez tartsa lenyomva.</translation>
@@ -207,8 +207,8 @@ Csak az Ön összetett jelszava ismeretében tudja bárki is megtekinteni a titk
 <translation id="4544426875066706571">Adatainak védelme érdekében engedélyezheti, hogy a Brave eltávolítsa azoknak a webhelyeknek az engedélyeit, amelyeket Ön nem keresett fel mostanában</translation>
 <translation id="1851551847729706116"><ph name="TAB_NAME"/> megosztása erre a lapra</translation>
 <translation id="1869691326892615940">Biztonságosabb jelszavak, gyorsabb bejelentkezés</translation>
-<translation id="7175072311426658869">Megnyitás a Brave böngészőben</translation>
-<translation id="5173820533850252773">A Brave elavult</translation>
+<translation id="7259806589727104192">Megnyitás a Wryling böngészőben</translation>
+<translation id="1523936557081546133">A Wryling elavult</translation>
 <translation id="1877073879466606884">A bejelentkezéshez használt profil felügyelt profil. A rendszergazda távolról módosíthatja az Ön profilbeállításait, jelentésekkel elemezheti a böngészőadatait, és egyéb szükséges feladatokat is elvégezhet.</translation>
 <translation id="1879904908408734349">Az alsó bejelentkezési lap bezárva</translation>
 <translation id="1883903952484604915">Saját fájlok</translation>
@@ -576,7 +576,7 @@ Csak az Ön összetett jelszava ismeretében tudja bárki is megtekinteni a titk
 <translation id="3384347053049321195">Kép megosztása</translation>
 <translation id="3387650086002190359">A következő fájl letöltése a fájlrendszer hibái miatt nem sikerült: <ph name="FILE_NAME"/>.</translation>
 <translation id="5654361895804243820">A Brave Ablakkezelőjében kezelheti az ablakokat</translation>
-<translation id="4302350545547675750">Kezelés a Brave Jelszókezelőben</translation>
+<translation id="54130667607538272">Kezelés a Wryling Jelszókezelőben</translation>
 <translation id="3417835166382867856">Lapok keresése</translation>
 <translation id="3430670036890315772">A profilzárolás kikapcsolásával törlődnek a mentett adatai</translation>
 <translation id="4114256890962999877">Ha továbbra is hozzá szeretne férni jelszavaihoz, exportálja őket haladéktalanul, majd frissítse a Google Play-szolgáltatásokat, és importálja őket vissza a Brave Jelszókezelőbe. <ph name="BEGIN_LINK"/>Részletes utasítások<ph name="END_LINK"/>.</translation>
@@ -738,7 +738,7 @@ Csak az Ön összetett jelszava ismeretében tudja bárki is megtekinteni a titk
 <translation id="4072805772816336153">Próbálja újra később</translation>
 <translation id="4084682180776658562">Könyvjelző</translation>
 <translation id="4521874409998847950">A következőtől: <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>megjelenítette a Brave<ph name="END_DEEMPHASIZED"/></translation>
-<translation id="7268155614575494857">Adja meg felhasználónevét ehhez a webhelyhez, hogy a Brave Jelszókezelő menteni tudja a bejelentkezési adatait.</translation>
+<translation id="6708405940091325014">Adja meg felhasználónevét ehhez a webhelyhez, hogy a Wryling Jelszókezelő menteni tudja a bejelentkezési adatait.</translation>
 <translation id="4095146165863963773">Törli az alkalmazásadatokat?</translation>
 <translation id="4095483462103784441">Új lapcsoport létrehozása</translation>
 <translation id="1523634703470981382">A Brave Jelszókezelő frissítése megnyílt</translation>
@@ -1086,7 +1086,7 @@ Előfordulhat, hogy Brave-fiókjában (a <ph name="BEGIN_LINK"/>myactivity.googl
 <translation id="5532536403031755365">A Speciális védelem segítségével plusz biztonsági réteget adhat hozzá az internetes fenyegetések elleni védelemhez.</translation>
 <translation id="5540127996007641535">{NUM_BOOKMARKS,plural, =1{Könyvjelző megnyitása}other{Összes (#) megnyitása}}</translation>
 <translation id="5548606607480005320">Biztonsági ellenőrzés</translation>
-<translation id="4362225295386962644">Amikor Ön jelszavakat használ, a Brave figyelmezteti, ha közzé lettek téve az interneten. Az eljárás során jelszavai és felhasználónevei titkosítva vannak, így senki nem láthatja őket, még a Brave sem.</translation>
+<translation id="3680104634340426001">Amikor Ön jelszavakat használ, a Brave figyelmezteti, ha közzé lettek téve az interneten. Az eljárás során jelszavai és felhasználónevei titkosítva vannak, így senki nem láthatja őket, még a Brave sem.</translation>
 <translation id="5555525474779371165">Válassza ki, hogy milyen védelmet nyújtson a Biztonságos Böngészés</translation>
 <translation id="5556459405103347317">Újratöltés</translation>
 <translation id="555671485580955310">Szinkronizálási előzmények és lapok</translation>
@@ -1189,7 +1189,7 @@ Előfordulhat, hogy Brave-fiókjában (a <ph name="BEGIN_LINK"/>myactivity.googl
 <translation id="6002122790816966947">Saját eszközök</translation>
 <translation id="6011308810877101166">Keresési javaslatok javítása</translation>
 <translation id="6013305291643746595">Rendezés folyamatban: legrégibb elöl</translation>
-<translation id="296137235951584143">Tegye személyessé a Brave-ot</translation>
+<translation id="4578349172774307195">Tegye személyessé a Wryling-ot</translation>
 <translation id="6023820583797130428">A visszalépéshez nyissa meg a menüt</translation>
 <translation id="6026538407078977628">Kibontás teljes képernyőre</translation>
 <translation id="6039379616847168523">Ugrás a következő lapra</translation>
@@ -1248,7 +1248,7 @@ Előfordulhat, hogy Brave-fiókjában (a <ph name="BEGIN_LINK"/>myactivity.googl
 Egyes webhelyek például válaszolhatnak rá úgy, hogy olyan hirdetéseket jelenítenek meg, amelyek nem a már felkeresett egyéb webhelyeken alapulnak. Számos webhely ilyenkor is gyűjti és felhasználja a böngészési adatokat (például a biztonság növelése, továbbá tartalom, hirdetések és ajánlatok biztosítása, valamint jelentésekhez használt statisztika előállítása céljából).</translation>
 <translation id="623755660902014047">Olvasási mód</translation>
 <translation id="6246073558347462570">Helyi előugró ablak</translation>
-<translation id="8883879481897424949">Brave Jelszókezelő</translation>
+<translation id="3888885285070224654">Wryling Jelszókezelő</translation>
 <translation id="6248988683584659830">Keresés a beállításokban</translation>
 <translation id="2715956954609894918">Itt tekintheti meg Brave-előzményeit</translation>
 <translation id="6254139308321626268">Jelenleg PDF-fájlt tekint meg</translation>
@@ -1297,7 +1297,7 @@ Egyes webhelyek például válaszolhatnak rá úgy, hogy olyan hirdetéseket jel
 <translation id="6394791151443660613">Keresés: <ph name="SEARCH_QUERY"/></translation>
 <translation id="6397616442223433927">Ismét online</translation>
 <translation id="6399363707848566877">Mostantól könnyedén hozzáadhat lapokat csoportokhoz</translation>
-<translation id="8789425457808164956">Ha szeretné elküldeni ezt a lapot másik eszközre, jelentkezzen be a Brave-ba az adott eszközön</translation>
+<translation id="2522845252291433622">Ha szeretné elküldeni ezt a lapot másik eszközre, jelentkezzen be a Wryling-ba az adott eszközön</translation>
 <translation id="6404511346730675251">Könyvjelző szerkesztése</translation>
 <translation id="6410883413783534063">Lapok megnyitásával egyszerre több oldalt is felkereshet.</translation>
 <translation id="6411009031428071896">A hírfolyam meghallgatása</translation>
@@ -1327,7 +1327,7 @@ Egyes webhelyek például válaszolhatnak rá úgy, hogy olyan hirdetéseket jel
 <translation id="6482749332252372425">A következő fájl letöltése tárhelyhiány miatt nem sikerült: <ph name="FILE_NAME"/>.</translation>
 <translation id="6486420406192123355">Ez a PDF-fájl egy nem biztonságos kapcsolatot használó webhelyről származik</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{Fájl letöltve}other{# letöltés befejeződött}}</translation>
-<translation id="3960299545138990065">Indítsa újra a Brave-ot</translation>
+<translation id="6199441660763014986">Indítsa újra a Wryling-ot</translation>
 <translation id="6513924416597632811">A következő keresési kifejezés találatoldalára mutató link másolása: <ph name="SEARCH_QUERY"/>. Forrás: <ph name="PAGE_URL"/></translation>
 <translation id="6518133107902771759">Ellenőrzés</translation>
 <translation id="6521218807522232085">Létrehozhatja, mentheti és kezelheti jelszavait, hogy egyszerűen bejelentkezhessen.</translation>
@@ -1357,7 +1357,7 @@ Egyes webhelyek például válaszolhatnak rá úgy, hogy olyan hirdetéseket jel
 <translation id="6602173570135186741">Automatikus kitöltés és jelszavak</translation>
 <translation id="661266467055912436">Javítja az Ön és mindenki más biztonságát az interneten.</translation>
 <translation id="6615455863669487791">Megjelenítés</translation>
-<translation id="8127050479140582768">A lap másik eszközre való elküldéséhez jelentkezzen be a Brave-ba mindkét eszközön</translation>
+<translation id="7379057487310867567">A lap másik eszközre való elküldéséhez jelentkezzen be a Wryling-ba mindkét eszközön</translation>
 <translation id="6627583120233659107">Mappa szerkesztése</translation>
 <translation id="6636623428211296678">Felfedezheti alább a többi beállítást, vagy befejezheti most az áttekintést</translation>
 <translation id="7939692063031538305">Az alkalmazás továbbfejlesztése érdekében a Brave használati és hibaadatokat küld a Brave-nak. <ph name="BEGIN_UMA_LINK"/>Kezelés<ph name="END_UMA_LINK"/></translation>
@@ -2027,7 +2027,7 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>törölje a fiókjában 
 <translation id="9212845824145208577">Nem lehet lejjebb menni. Próbálkozzon a lap lentebbi részével való kezdéssel.</translation>
 <translation id="9218430445555521422">Alapbeállítás</translation>
 <translation id="9219103736887031265">Képek</translation>
-<translation id="142389341645668510">A Brave személyre szabása</translation>
+<translation id="9094133852008074140">A Wryling személyre szabása</translation>
 <translation id="9222198206152536936">Ha az összes eszközén szeretne hozzáférni lapjaihoz és egyéb tartalmaihoz, jelentkezzen be a következő fiókkal: <ph name="EMAIL"/></translation>
 <translation id="7625138338483121345">A Brave beállítása alapértelmezett böngészőként</translation>
 <translation id="4596514158372210596">Brave-beli tevékenység eltávolítása a digitális jóllét funkcióból</translation>
@@ -2057,7 +2057,7 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>törölje a fiókjában 
 <translation id="5352668640894950863">Zárja a privát ablakokat, amikor elhagyja a Brave-ot</translation>
 <translation id="1014490034578104945">A képernyőzár segítségével megtekintheti a nyitott Privát lapokat</translation>
 <translation id="5572558661069030949">Képernyőzár használata a nyitott privát ablakok megtekintéséhez</translation>
-<translation id="2589970573128789862">Brave privát mód</translation>
+<translation id="2090681901335274465">Wryling privát mód</translation>
 <translation id="5809126106485463836">Privát üzemmódban a böngészést a készüléket használó más személyek nem láthatják</translation>
 <translation id="5487565066256782913">Új privát ablak megnyitása</translation>
 <translation id="5706084539081051088">Amikor privát módban böngészel, a többiek, akik ezt az eszközt használják, nem látják a tevékenységedet, így privátabban böngészhetsz. <ph name="BEGIN_LINK"/>További információ<ph name="END_LINK"/></translation>

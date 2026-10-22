@@ -14,6 +14,13 @@
 #include "ui/views/layout/layout_provider.h"
 #include "ui/views/view.h"
 
+#include "build/build_config.h"
+#if BUILDFLAG(IS_MAC)
+#include "brave/browser/ui/views/frame/vertical_tabs/vertical_tab_strip_region_view.h"
+#include "chrome/browser/ui/views/frame/top_container_view.h"
+#include "chrome/browser/ui/views/toolbar/toolbar_view.h"
+#endif
+
 using views::ShapeContextTokensOverride::kRoundedCornersBorderRadius;
 using views::ShapeContextTokensOverride::
     kRoundedCornersBorderRadiusAtWindowCorner;
@@ -39,6 +46,20 @@ gfx::RoundedCornersF GetPanelContentsRoundedCorners(
   if (!prefs->GetBoolean(kWebViewRoundedCorners)) {
     return gfx::RoundedCornersF();
   }
+
+#if BUILDFLAG(IS_MAC)
+  if (browser_view->toolbar() &&
+      browser_view->toolbar()->parent() != browser_view->top_container()) {
+    // Keep the floating panel concentric with the window, like the sidebar.
+    gfx::RoundedCornersF corners(
+        BraveVerticalTabStripRegionView::kWrylingPanelCornerRadius);
+    if (has_header && flatten_top_for_header) {
+      corners.set_upper_left(0);
+      corners.set_upper_right(0);
+    }
+    return corners;
+  }
+#endif
 
   auto* layout_provider = views::LayoutProvider::Get();
   gfx::RoundedCornersF rounded_corners(

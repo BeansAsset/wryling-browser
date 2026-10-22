@@ -1,8 +1,95 @@
 diff --git a/ui/views/bubble/bubble_frame_view.cc b/ui/views/bubble/bubble_frame_view.cc
-index 512c5da68d289e8470acc0e6e217421671f320cc..ff4b1e832e69fc966fd0fe79671ce8dbbbb990d7 100644
+index 512c5da68d289e8470acc0e6e217421671f320cc..ae52242fb0db0f35eedfffd660f16c1a0b94ebbd 100644
 --- a/ui/views/bubble/bubble_frame_view.cc
 +++ b/ui/views/bubble/bubble_frame_view.cc
-@@ -1208,7 +1208,8 @@ int BubbleFrameView::GetFrameWidthForClientWidth(int client_width) const {
+@@ -54,6 +54,9 @@
+ #include "ui/views/resources/grit/views_resources.h"
+ #include "ui/views/style/typography.h"
+ #include "ui/views/view_class_properties.h"
++#if BUILDFLAG(IS_MAC)
++#include "ui/views/bubble/popup_glass_mac.h"
++#endif
+ #include "ui/views/widget/widget.h"
+ #include "ui/views/widget/widget_delegate.h"
+ #include "ui/views/window/client_view.h"
+@@ -68,6 +71,26 @@ namespace views {
+ 
+ namespace {
+ 
++#if BUILDFLAG(IS_MAC)
++// Wryling: real Liquid Glass behind bubbles shown over a Wryling window,
++// matching its sidebar (the shape is the bubble's rounded contents rect,
++// inside the border's shadow insets). When glass comes or goes, the client
++// view's solid fill is recomputed via SetBackgroundColor().
++void UpdateWrylingGlassForBubble(BubbleFrameView* frame) {
++  Widget* const widget = frame->GetWidget();
++  if (!widget || !frame->bubble_border()) {
++    return;
++  }
++  const bool had_glass = widget->GetProperty(kWrylingPopupGlassKey);
++  const bool has_glass = UpdateWrylingPopupGlass(
++      widget, frame->ConvertRectToWidget(frame->GetContentsBounds()),
++      frame->bubble_border()->rounded_corners().upper_left());
++  if (had_glass != has_glass) {
++    frame->SetBackgroundColor(frame->background_color());
++  }
++}
++#endif
++
+ constexpr int kMainImageBorderStrokeThickness = 1;
+ 
+ // Get the |vertical| or horizontal amount that |available_bounds| overflows
+@@ -705,6 +728,10 @@ void BubbleFrameView::Layout(PassKey) {
+ 
+   // Lay out the client view.
+   LayoutSuperclass<FrameView>(this);
++
++#if BUILDFLAG(IS_MAC)
++  UpdateWrylingGlassForBubble(this);
++#endif
+ }
+ 
+ void BubbleFrameView::OnThemeChanged() {
+@@ -715,6 +742,9 @@ void BubbleFrameView::OnThemeChanged() {
+   }
+ 
+   FrameView::OnThemeChanged();
++#if BUILDFLAG(IS_MAC)
++  UpdateWrylingGlassForBubble(this);
++#endif
+   UpdateWindowTitle();
+   UpdateSubtitle();
+   ResetWindowControls();
+@@ -754,6 +784,12 @@ void BubbleFrameView::VisibilityChanged(View* starting_from, bool is_visible) {
+ }
+ 
+ void BubbleFrameView::OnPaint(gfx::Canvas* canvas) {
++#if BUILDFLAG(IS_MAC)
++  // Wryling: the glass behind the widget is the background.
++  if (GetWidget() && GetWidget()->GetProperty(kWrylingPopupGlassKey)) {
++    return;
++  }
++#endif
+   OnPaintBackground(canvas);
+   // Border comes after children.
+ }
+@@ -917,8 +953,14 @@ void BubbleFrameView::UpdateClientViewBackground() {
+   // painting a background, this approach is less efficient when the background
+   // color is opaque.
+   if (client_view->layer()) {
+-    const SkColor color =
++    SkColor color =
+         background_color().ResolveToSkColor(GetWidget()->GetColorProvider());
++#if BUILDFLAG(IS_MAC)
++    // Wryling: no solid fill over the glass.
++    if (GetWidget()->GetProperty(kWrylingPopupGlassKey)) {
++      color = SK_ColorTRANSPARENT;
++    }
++#endif
+     const bool is_opaque = SkColor4f::FromColor(color).isOpaque();
+     client_view->layer()->SetFillsBoundsOpaquely(is_opaque);
+ 
+@@ -1208,7 +1250,8 @@ int BubbleFrameView::GetFrameWidthForClientWidth(int client_width) const {
        GetWidget()->widget_delegate()->AsDialogDelegate();
    bool snapping =
        dialog_delegate && dialog_delegate->buttons() !=

@@ -102,7 +102,7 @@
 <translation id="2137162749895930932">Затваряне на екрана за превод</translation>
 <translation id="5789330946301045610">Brave блокира това изтегляне, защото сайтът не използва защитена връзка и е възможно файлът да е компрометиран</translation>
 <translation id="2170098639895543546">Избиране на каквото и да е на страницата</translation>
-<translation id="142389341645668510">Персонализиране на Brave</translation>
+<translation id="9094133852008074140">Персонализиране на Wryling</translation>
 <translation id="2174917724755363426">Инсталирането не е завършило. Наистина ли искате да го анулирате?</translation>
 <translation id="8745514854244955877">Brave – Вход в мрежата – <ph name="PAGE_TITLE"/></translation>
 <translation id="2190166659037789668">Грешка при проверката за актуализации: <ph name="UPDATE_CHECK_ERROR"/>.</translation>
@@ -201,7 +201,7 @@
 <translation id="3137969841538672700">Плъзнете, за да търсите</translation>
 <translation id="8372436892102763334">Този раздел използва допълнителни ресурси. За да подобрите ефективността, разрешете на Brave да го деактивира.</translation>
 <translation id="5949068186379578553">За да споделите екрана си, разрешете записването на екрана за Brave в System Settings</translation>
-<translation id="4805806622840861220">Рестартиране на Brave</translation>
+<translation id="2036272753168211127">Рестартиране на Wryling</translation>
 <translation id="3161522574479303604">Всички езици</translation>
 <translation id="1742948938503172561">Персонализирайте новия си потребителски профил в Brave</translation>
 <translation id="2430807206104224491">Можете да продължите да разговаряте в режим с AI, без да превключвате между раздели. За да започнете, влезте в профил в Brave. Също така ще получите паролите си и др. на всичките си устройства.</translation>
@@ -233,7 +233,7 @@
 <translation id="8981774130895723211">За да споделите екрана си, разрешете записването на екрана за Brave в System Settings.</translation>
 <translation id="2981961446160697133">Подобрената защита изключва оптимизирането на JavaScript за сайтовете, които Brave не разпознава</translation>
 <translation id="3597003331831379823">Настройването с администраторски права не бе изпълнено успешно. <ph name="METAINSTALLER_ERROR"/></translation>
-<translation id="4167284810587724062">Вход в Brave</translation>
+<translation id="5451434122049588189">Вход в Wryling</translation>
 <translation id="3066805437003400520">Данните за сърфирането на този човек ще бъдат изтрити от устройството. За да ги възстановите, влезте в Brave като <ph name="USER_EMAIL"/>.</translation>
 <translation id="3667616615096815454">Приложението не може да се инсталира, тъй като е непознато за сървъра.</translation>
 <translation id="1128485277465085828">Използване на ваш <ph name="BEGIN_LINK"/>собствен пропуск<ph name="END_LINK"/> за шифроване на всички данни от Brave в профила ви в Brave. Начините на плащане и адресите от Google Pay няма да бъдат шифровани. Историята на сърфиране от Brave няма да се синхронизира.</translation>
@@ -276,7 +276,7 @@
 <translation id="4055805654398742145">Мениджър на пароли</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Организацията ви е задала Brave да се затваря автоматично, когато не се използва в продължение на 1 минута. Данните за сърфирането се изтриват. Това може да включва историята, записите за автоматично попълване и изтеглянията.}other{Организацията ви е задала Brave да се затваря автоматично, когато не се използва в продължение на # минути. Данните за сърфирането се изтриват. Това може да включва историята, записите за автоматично попълване и изтеглянията.}}</translation>
 <translation id="5794951150713244901">Към страницата „Всичко за Brave“</translation>
-<translation id="10925962326134232">Персонализирайте Brave, за да придадете нов облик на браузъра си</translation>
+<translation id="908722199085381104">Персонализирайте Wryling, за да придадете нов облик на браузъра си</translation>
 <translation id="6596295505984504022">Персонализиране на Brave</translation>
 <translation id="4148957013307229264">Инсталира се...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> – Вход в мрежата – Brave</translation>
@@ -378,7 +378,7 @@
 <translation id="5154625106151193600">Научете защо Brave блокира някои файлове</translation>
 <translation id="1786715389543715322">Brave се актуализира (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="7021823858304886493">Разрешаване на влизането в Brave</translation>
-<translation id="5267531627648004734">Премахване от Brave</translation>
+<translation id="6125790165673488794">Премахване от Wryling</translation>
 <translation id="4620757336635063467">Намалява ефективността, но прави Brave по-устойчив на атаки</translation>
 <translation id="239760341987199724">Задаване на Brave като браузър по подразбиране</translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> – Brave бета</translation>
@@ -555,7 +555,7 @@
 <translation id="7024536598735240744">Грешка при разпакетирането: <ph name="UNPACK_ERROR"/>.</translation>
 <translation id="280382502853897110">Персонализирайте Brave според вкуса си</translation>
 <translation id="7047386856539490735">Полезни ли са тези резултати?</translation>
-<translation id="1705567146636171298">Актуализиране на Brave</translation>
+<translation id="4469722898384489712">Актуализиране на Wryling</translation>
 <translation id="5499063270485366718">Ако няма полезно описание за дадено изображение, Brave ще се опита да предостави такова. За да бъдат създадени описания, съответните изображения се изпращат до Brave.</translation>
 <translation id="1196733835766994012">Възползвайте се от мощта на AI, когато използвате приложението Brave на устройството си <ph name="DEVICE_TYPE"/></translation>
 <translation id="7166289504510860270">Получете достъп до вашите пароли, раздели и други неща, докато сте в движение, с приложението Brave на телефона ви</translation>
@@ -759,7 +759,7 @@
 <translation id="8965179855019347124">Използвайте най-добрите инструменти с AI на Brave с приложението Brave на телефона ви</translation>
 <translation id="9049928023195059068">Влизане в Brave, когато влизате в други услуги на Brave</translation>
 <translation id="4561046754724442504">Brave се затвори автоматично</translation>
-<translation id="5173820533850252773">Brave не е актуален</translation>
+<translation id="1523936557081546133">Wryling не е актуален</translation>
 <translation id="310518206836658214">{0,plural, =1{Brave ще се стартира отново след 1 час}other{Brave ще се стартира отново след # часа}}</translation>
 <translation id="9106236359747881194">Избиране на текст за търсене</translation>
 <translation id="5190991181158966940">За да получавате бъдещи актуализации на Brave, трябва да използвате Windows 10 или по-нова версия. Компютърът ви работи с Windows 8.1.</translation>
@@ -771,12 +771,12 @@
 <translation id="2444257125841652328">Системният ви администратор е конфигурирал Brave да отваря алтернативен браузър за достъп до <ph name="TARGET_URL_HOSTNAME"/>.</translation>
 <translation id="7902365066753170041">Повторно стартиране за актуализиране на &amp;Brave</translation>
 <translation id="3350544518197210895">Brave (входящ трафик за mDNS)</translation>
-<translation id="296137235951584143">Персонализирайте Brave според вкуса си</translation>
+<translation id="4578349172774307195">Персонализирайте Wryling според вкуса си</translation>
 <translation id="7977787072794666032">Brave може да не функционира правилно, тъй като вече не се поддържа под Windows XP и Windows Vista</translation>
 <translation id="8462937515915443472">Възползвайте се от най-добрите функции на Brave за безопасност, докато сте в движение, с Brave.</translation>
 <translation id="945522503751344254">Изпращане на отзиви</translation>
 <translation id="4484434718272972655">Кой използва Brave?</translation>
-<translation id="7173394303099002355">Получете най-високото ниво на сигурност на Brave</translation>
+<translation id="1158507424343802366">Получете най-високото ниво на сигурност на Wryling</translation>
 <translation id="983803489796659991">Инсталирането не бе успешно, защото сървърът за актуализиране няма хеш данни за приложението.</translation>
 <translation id="8435446479956716379">Използване на Brave без профил</translation>
 <translation id="8992261409816268381">Авторите на Brave</translation>
@@ -804,6 +804,6 @@
               other {Advanced Protection изисква да стартирате отново Brave, за да приложите актуализация. Вашите # Лични прозорци няма да се отворят отново.}}</translation>
 <translation id="5749154344207139683">Помогни ни да подобрим поверителните функции, като се включиш в тази 1-минутна анкета.</translation>
 <translation id="79269250264141507">Когато пишете в адресната лента или полето за търсене, Brave автоматично изпраща написаното към Вашата търсачка по подразбиране, за да получите по-добри предложения. Тази функция е изключена в режим Личен.</translation>
-<translation id="2589970573128789862">Поверителен режим на Brave</translation>
+<translation id="2090681901335274465">Поверителен режим на Wryling</translation>
 <translation id="5994282802285556682">Когато сърфирате в частен режим, Brave ще ви предупреждава, преди да заредите сайт, който използва незащитена връзка.</translation>
 </translationbundle>

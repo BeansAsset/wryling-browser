@@ -10,6 +10,10 @@
 #include "brave/browser/ui/color/brave_color_id.h"
 #include "brave/browser/ui/views/frame/brave_browser_view.h"
 #include "brave/browser/ui/views/frame/brave_contents_view_util.h"
+#include "build/build_config.h"
+#include "ui/color/color_id.h"
+#include "ui/gfx/color_utils.h"
+#include "brave/browser/ui/views/view_shadow.h"
 #include "brave/browser/ui/views/frame/split_view/brave_multi_contents_view_mini_toolbar.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser_window/public/browser_window_features.h"
@@ -153,6 +157,21 @@ void BraveContentsContainerView::UpdateBorderAndOverlay(bool is_in_split,
       SetBorder(BraveContentsViewUtil::CreateContentsOutlineBorder(
           GetColorProvider(), outline_corner_radius));
     }
+#if BUILDFLAG(IS_MAC)
+    if (outline_corner_radius.IsEmpty()) {
+      wryling_shadow_.reset();
+    } else {
+      const bool dark = color_utils::IsDark(
+          GetColorProvider()->GetColor(ui::kColorFrameActive));
+      wryling_shadow_ = std::make_unique<ViewShadow>(
+          this, outline_corner_radius,
+          ViewShadow::ShadowParameters{
+              .offset_x = 0,
+              .offset_y = 1,
+              .blur_radius = 10,
+              .shadow_color = SkColorSetA(SK_ColorBLACK, dark ? 0x50 : 0x22)});
+    }
+#endif
     return;
   }
 

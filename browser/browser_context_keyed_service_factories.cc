@@ -68,6 +68,8 @@
 #include "brave/browser/ui/bookmark/bookmark_prefs_service_factory.h"
 #include "brave/browser/ui/commands/accelerator_service_factory.h"
 #include "brave/browser/ui/tabs/shared_pinned_tab_service_factory.h"
+#include "brave/browser/wryling_trails/wryling_trails_service_factory.h"
+#include "brave/browser/ui/spaces/wryling_dashboard_service_factory.h"
 #include "brave/browser/workspaces/workspace_service_factory.h"
 #include "brave/components/commands/common/features.h"
 #include "chrome/browser/ui/tabs/features.h"
@@ -218,6 +220,8 @@ void EnsureBrowserContextKeyedServiceFactoriesBuilt() {
   if (base::FeatureList::IsEnabled(tabs::kBraveSharedPinnedTabs)) {
     SharedPinnedTabServiceFactory::GetInstance();
   }
+  wryling_trails::WrylingTrailsServiceFactory::GetInstance();
+  wryling::DashboardServiceFactory::GetInstance();
 #endif
 
 #if defined(TOOLKIT_VIEWS)
