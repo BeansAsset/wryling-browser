@@ -102,7 +102,7 @@
     }
   },
   "devDependencies": {
-    "@commander-js/extra-typings": "14.0.0",
+    "@commander-js/extra-typings": "15.0.0",
     "@storybook/addon-essentials": "8.6.14",
     "@storybook/addon-knobs": "8.0.1",
     "@storybook/csf-tools": "8.6.14",
@@ -138,7 +138,7 @@
     "browserify-zlib": "0.2.0",
     "buffer": "6.0.3",
     "chalk": "4.1.2",
-    "commander": "14.0.3",
+    "commander": "15.0.0",
     "copy-webpack-plugin": "14.0.0",
     "crypto-browserify": "3.12.0",
     "css-loader": "5.2.7",
