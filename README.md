@@ -10,6 +10,7 @@
 </p>
 
 <p align="center">
+  <img alt="Status: beta" src="https://img.shields.io/badge/status-beta-8f7dc9?style=flat-square">
   <img alt="macOS 26" src="https://img.shields.io/badge/macOS-26%20Tahoe-1f1f24?style=flat-square&logo=apple&logoColor=white">
   <img alt="Apple silicon" src="https://img.shields.io/badge/Apple%20silicon-arm64-1f1f24?style=flat-square">
   <img alt="Chromium 154" src="https://img.shields.io/badge/Chromium-154-1f1f24?style=flat-square&logo=googlechrome&logoColor=white">
@@ -24,6 +25,9 @@
   <a href="#building-from-source">Build</a> ·
   <a href="#faq">FAQ</a>
 </p>
+
+> [!NOTE]
+> **Wryling is in beta.** It works well enough to use every day, but it's still being built: expect rough edges, unfinished features and changes between versions. See [Status and roadmap](#status-and-roadmap).
 
 <br>
 
@@ -406,7 +410,8 @@ rebasing onto new Brave releases stays manageable.
 
 ## Status and roadmap
 
-Wryling is a personal project in active development. It is used every day, but
+**Wryling is in beta.** It is a personal project in active development, used
+every day, but not finished: features are still being added and reworked, and
 there are no signed releases yet; you build it yourself.
 
 **Known limitations**
